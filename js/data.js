@@ -71,7 +71,7 @@ Importantly, habits are not erased but replaced. This means that breaking an unw
         {
             title: "Cambridge IELTS 2 - Test 1 Section 1 (雅思真题)",
             context: "BBC Learning English 6分钟英语系列，讨论洗手的重要性，适合雅思听力Section 3/4训练",
-            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/07/IELTS-2-Test-1-Section1.mp3",
+            audioUrl: "audio/IELTS-2-Test1-Section1.mp3",
             audioSource: "Cambridge IELTS 2 - Test 1 Section 1",
             audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-2-listening-test-1-section-1/",
             level: "Band 6-7",
@@ -115,7 +115,7 @@ Well, there are several reasons. In some places, access to clean water and soap 
         {
             title: "Cambridge IELTS 2 - Test 1 Section 3 (雅思真题·学术讨论)",
             context: "BBC Learning English 6分钟英语系列，讨论记忆和遗忘的科学原理，词汇丰富适合雅思学术听力训练",
-            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/07/IELTS-2-Test-1-Section3.mp3",
+            audioUrl: "audio/IELTS-2-Test1-Section3.mp3",
             audioSource: "Cambridge IELTS 2 - Test 1 Section 3",
             audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-2-listening-test-1-section-3/",
             level: "Band 7+",
@@ -161,7 +161,7 @@ So forgetting is actually a feature, not a bug, of our brain's design.`,
         {
             title: "Cambridge IELTS 6 - Test 3 Section 1 (雅思真题·社交场景)",
             context: "VOA Learning English 慢速英语，讨论AI在教育中的应用，语速适中适合雅思听力训练",
-            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/09/IELTS-6-Test-3-Section-1.mp3",
+            audioUrl: "audio/IELTS-6-Test3-Section1.mp3",
             audioSource: "Cambridge IELTS 6 - Test 3 Section 1",
             audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-6-listening-test-3-section-1/",
             level: "Band 5-6",
@@ -193,7 +193,7 @@ Experts say the key is to use AI as a tool to help teachers, not to replace them
         {
             title: "Cambridge IELTS 2 - Test 2 Section 2 (雅思真题·独白)",
             context: "剑桥雅思2真题Test 2 Section 2，社交场景独白（旅游/设施介绍），适合训练抓取关键信息的听力能力",
-            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/07/IELTS-2-Test-2-Section2.mp3",
+            audioUrl: "audio/IELTS-2-Test2-Section2.mp3",
             audioSource: "Cambridge IELTS 2 - Test 2 Section 2",
             audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-2-listening-test-2-section-2/",
             level: "Band 6",
@@ -208,7 +208,7 @@ Experts say the key is to use AI as a tool to help teachers, not to replace them
         {
             title: "Cambridge IELTS 6 - Test 2 Section 1 (雅思真题·对话)",
             context: "剑桥雅思6真题Test 2 Section 1，日常对话场景（旅行/活动安排），适合基础阶段精听训练",
-            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/09/IELTS-6-Test-2-Section-1.mp3",
+            audioUrl: "audio/IELTS-6-Test2-Section1.mp3",
             audioSource: "Cambridge IELTS 6 - Test 2 Section 1",
             audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-6-listening-test-2-section-1/",
             level: "Band 5-6",
@@ -223,7 +223,7 @@ Experts say the key is to use AI as a tool to help teachers, not to replace them
         {
             title: "Cambridge IELTS 6 - Test 3 Section 4 (雅思真题·学术讲座)",
             context: "剑桥雅思6真题Test 3 Section 4，学术讲座独白（学科类），难度最高，语速快、专业词汇多",
-            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/09/IELTS-6-Test-3-Section-4.mp3",
+            audioUrl: "audio/IELTS-6-Test3-Section4.mp3",
             audioSource: "Cambridge IELTS 6 - Test 3 Section 4",
             audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-6-listening-test-3-section-4/",
             level: "Band 7+",

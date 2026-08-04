@@ -1,45 +1,45 @@
 /* ========================================
-   个人一体化工作台 - 深色护眼主题
+   个人一体化工作台 - 淡绿色护眼主题
    ======================================== */
 
 /* ---------- 全局变量 ---------- */
 :root {
-    /* 背景色阶 - 深色但不刺眼 */
-    --bg-base: #131520;        /* 最底层背景 */
-    --bg-sidebar: #181828;     /* 侧边栏 */
-    --bg-card: #1e1e30;       /* 卡片背景 */
-    --bg-card-hover: #252540; /* 卡片悬停 */
-    --bg-input: #16162a;      /* 输入框 */
-    --bg-subtle: #1a1a2e;     /* 次级背景 */
+    /* 背景色阶 - 淡绿色调 */
+    --bg-base: #eef5ee;        /* 最底层背景 */
+    --bg-sidebar: #e3f2e3;     /* 侧边栏 */
+    --bg-card: #ffffff;       /* 卡片背景 */
+    --bg-card-hover: #f0f7f0; /* 卡片悬停 */
+    --bg-input: #f5f9f5;      /* 输入框 */
+    --bg-subtle: #f5f9f5;     /* 次级背景 */
 
     /* 边框 */
-    --border-color: #2a2a42;
-    --border-light: #222238;
+    --border-color: #c8e0c8;
+    --border-light: #d7e8d7;
 
     /* 文字 */
-    --text-primary: #d8d8e8;
-    --text-secondary: #8888aa;
-    --text-muted: #555570;
-    --text-link: #6b8eff;
+    --text-primary: #2d3a2d;
+    --text-secondary: #5a6b5a;
+    --text-muted: #8a9a8a;
+    --text-link: #4a8c5a;
 
-    /* 主题色 - 柔和不刺眼 */
-    --accent-blue: #5b8def;
-    --accent-blue-dim: #3a5fbb;
-    --accent-purple: #a78bfa;
-    --accent-amber: #f0a040;
-    --accent-teal: #2dd4bf;
-    --accent-pink: #f472b6;
+    /* 主题色 - 柔和自然 */
+    --accent-blue: #4a90d9;
+    --accent-blue-dim: #3a6fb0;
+    --accent-purple: #8b6dc9;
+    --accent-amber: #d49441;
+    --accent-teal: #1ba898;
+    --accent-pink: #d4619e;
 
     /* 涨跌色 - A股惯例：红涨绿跌 */
-    --color-up: #e05555;      /* 红色=涨 */
-    --color-down: #3fb950;    /* 绿色=跌 */
-    --color-flat: #8888aa;    /* 平 */
+    --color-up: #d94545;      /* 红色=涨 */
+    --color-down: #3a9d4a;    /* 绿色=跌 */
+    --color-flat: #8a9a8a;    /* 平 */
 
     /* 模块色 */
-    --mod-stock: #5b8def;
-    --mod-ielts: #a78bfa;
-    --mod-planner: #f0a040;
-    --mod-vlog: #2dd4bf;
+    --mod-stock: #4a90d9;
+    --mod-ielts: #8b6dc9;
+    --mod-planner: #d49441;
+    --mod-vlog: #1ba898;
 
     /* 圆角 */
     --radius-sm: 6px;
@@ -53,8 +53,8 @@
     --gap-lg: 24px;
 
     /* 阴影 */
-    --shadow-card: 0 2px 8px rgba(0,0,0,0.25);
-    --shadow-hover: 0 4px 16px rgba(0,0,0,0.35);
+    --shadow-card: 0 2px 8px rgba(60, 120, 60, 0.08);
+    --shadow-hover: 0 4px 16px rgba(60, 120, 60, 0.15);
 
     /* 过渡 */
     --transition: 0.2s ease;
@@ -605,7 +605,7 @@ html, body {
     padding: 6px 10px;
     border-radius: var(--radius-sm);
     font-size: 13px;
-    color-scheme: dark;
+    color-scheme: light;
 }
 .planner-summary { font-size: 13px; color: var(--text-secondary); }
 
@@ -959,7 +959,7 @@ html, body {
     border: 1px solid rgba(240, 160, 64, 0.35);
 }
 .strat-default {
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(0, 0, 0, 0.04);
     color: var(--text-secondary);
     border: 1px solid var(--border-color);
 }
@@ -992,7 +992,7 @@ html, body {
     font-size: 15px;
 }
 .summary-section {
-    background: rgba(255, 255, 255, 0.025);
+    background: rgba(0, 0, 0, 0.02);
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 14px 16px;
@@ -1005,7 +1005,7 @@ html, body {
     border-radius: 10px;
     margin-bottom: 10px;
     line-height: 1.5;
-    background: rgba(255, 255, 255, 0.06);
+    background: rgba(0, 0, 0, 0.04);
     color: var(--text-primary);
     border: 1px solid var(--border-color);
 }
@@ -1054,7 +1054,7 @@ html, body {
     margin-top: 4px;
 }
 .sector-item {
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(0, 0, 0, 0.02);
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 10px 12px;
@@ -1155,8 +1155,8 @@ html, body {
     height: 28px;
     border-radius: 50%;
     object-fit: cover;
-    border: 1px solid rgba(244, 114, 182, 0.3);
-    box-shadow: 0 0 8px rgba(244, 114, 182, 0.2);
+    border: 1px solid rgba(45, 120, 60, 0.25);
+    box-shadow: 0 0 8px rgba(45, 120, 60, 0.15);
 }
 
 /* ---------- iOS Safe Area & PWA ---------- */
@@ -1188,10 +1188,10 @@ html, body {
     left: 12px;
     right: 12px;
     z-index: 500;
-    background: linear-gradient(135deg, #1e1e30, #252540);
-    border: 1px solid rgba(244, 114, 182, 0.3);
+    background: linear-gradient(135deg, #e3f2e3, #f0f7f0);
+    border: 1px solid rgba(45, 120, 60, 0.2);
     border-radius: 14px;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4), 0 0 12px rgba(244, 114, 182, 0.15);
+    box-shadow: 0 4px 24px rgba(60, 120, 60, 0.12), 0 0 12px rgba(45, 120, 60, 0.08);
     padding: 12px 14px;
     animation: slideUp 0.3s ease;
 }
@@ -1209,7 +1209,7 @@ html, body {
     height: 44px;
     border-radius: 10px;
     flex-shrink: 0;
-    border: 1px solid rgba(244, 114, 182, 0.2);
+    border: 1px solid rgba(45, 120, 60, 0.15);
 }
 .ios-hint-text {
     flex: 1;
@@ -1219,19 +1219,19 @@ html, body {
 }
 .ios-hint-text strong {
     font-size: 14px;
-    color: var(--accent-pink);
+    color: var(--accent-teal);
 }
 .ios-hint-text span {
     font-size: 12px;
     color: var(--text-secondary);
     line-height: 1.5;
 }
-.ios-hint-text b { color: var(--accent-pink); }
+.ios-hint-text b { color: var(--accent-teal); }
 .ios-hint-close {
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(0, 0, 0, 0.04);
     border: none;
     color: var(--text-secondary);
     font-size: 18px;
@@ -1242,7 +1242,7 @@ html, body {
     justify-content: center;
     transition: background 0.2s;
 }
-.ios-hint-close:hover { background: rgba(255, 255, 255, 0.15); }
+.ios-hint-close:hover { background: rgba(0, 0, 0, 0.1); }
 
 /* ---------- 响应式：平板 ---------- */
 @media (max-width: 1024px) and (min-width: 769px) {

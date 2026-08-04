@@ -565,19 +565,22 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（真实数据，2026-08-03更新） ========== */
-                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3,803.14", change: "-0.17%", market: "A股", updateTime: "2026-08-04 收盘" },
-        { name: "深证成指", code: "SZ399001", value: "13,667.25", change: "+1.63%", market: "A股", updateTime: "2026-08-04 收盘" },
-        { name: "创业板指", code: "SZ399006", value: "3,405.85", change: "+3.13%", market: "A股", updateTime: "2026-08-04 收盘" },
-        { name: "沪深300", code: "SH000300", value: "4,566.23", change: "+0.51%", market: "A股", updateTime: "2026-08-04 收盘" },
-        { name: "科创50", code: "SH000688", value: "1,585.68", change: "+2.11%", market: "A股", updateTime: "2026-08-04 收盘" },
+                    marketIndices: [
         { name: "标普500", code: "SPX", value: "7,600.50", change: "+2.53%", market: "美股", updateTime: "2026-08-04 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "25,913.90", change: "+3.94%", market: "美股", updateTime: "2026-08-04 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,178.41", change: "+1.85%", market: "美股", updateTime: "2026-08-04 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                marketNews: [
+                    marketNews: [
+        {
+            title: "泰国电信公司True称中国移动可能会减持少量股份",
+            summary: " 泰国电信公司True Corp．周二表示，中国移动正在评估出售在该公司一小部分股份的可能性，这是正常的投资组合管理行为。",
+            source: "环球市场播报",
+            date: "2026-08-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-04/doc-inimchzp5755791.shtml"
+        },
         {
             title: "天数智芯早盘涨近9% 天数智芯实现MiniMax H3“开源即适配”",
             summary: "天数智芯（09903）早盘涨近9%，截至发稿，股价上涨8.73%，现报465.60港元，成交额2.28亿港元。 8月3日，MiniMax宣布MiniMax H3模型正式开源。",
@@ -634,14 +637,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "美股",
             url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-04/doc-inimchzt5429996.shtml"
         },
-        {
-            title: "药明康德早盘涨近11% 上半年归母净利润110.8亿元同比增长29.4%",
-            summary: "药明康德（02359）早盘高开逾10%，截至发稿，股价上涨10.99%，现报180.80港元，成交额11.51亿港元。 8月3日晚，药明康德发布2026年中期业绩公告。",
-            source: "新浪港股",
-            date: "2026-08-04",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-04/doc-inimchzm4131611.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -672,20 +667,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 投资推荐总结（2026-08-04） ========== */
-                investmentSummary: {
+                    investmentSummary: {
         date: "2026-08-04",
-        marketAssessment: "A股方面：上证指数报3,803.14点（-0.17%），深证成指报13,667.25点（+1.63%），创业板指报3,405.85点（+3.13%）。美股方面：标普500报7,600.50（+2.53%），纳斯达克报25,913.90（+3.94%）。",
+        marketAssessment: "今日市场数据获取中。美股方面：标普500报7,600.50（+2.53%），纳斯达克报25,913.90（+3.94%）。",
         hotSectors: [
-            { name: "医疗研发外包", reason: "板块涨幅+6.05%", strength: "强" },
-            { name: "会展服务", reason: "板块涨幅+4.92%", strength: "强" },
-            { name: "通信网络设备及器件", reason: "板块涨幅+4.46%", strength: "强" },
-            { name: "分立器件", reason: "板块涨幅+4.16%", strength: "强" },
+
         ],
         weakSectors: [
 
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注医疗研发外包、会展服务、通信网络设备及器件等板块的延续性，顺势操作，严格止损。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

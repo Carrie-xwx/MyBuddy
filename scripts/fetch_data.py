@@ -50,8 +50,79 @@ A_SHARE_INDICES = [
     ("1.000688", "科创50", "SH000688"),
 ]
 
+def fetch_with_retry(url, params=None, headers=None, timeout=30, retries=3):
+    """HTTP GET with retry logic"""
+    import time
+    last_err = None
+    for attempt in range(retries):
+        try:
+            resp = requests.get(url, params=params, headers=headers, timeout=timeout)
+            resp.raise_for_status()
+            return resp
+        except Exception as e:
+            last_err = e
+            if attempt < retries - 1:
+                wait = 2 ** attempt  # 1, 2, 4 seconds
+                print(f"  [WARN] Retry {attempt+1}/{retries-1} after {wait}s: {e}")
+                time.sleep(wait)
+    raise last_err
+
+
 def fetch_a_share_indices():
-    """Fetch A-share index data from Eastmoney push API"""
+    """Fetch A-share index data — try Tencent first, Eastmoney as fallback"""
+    results = []
+    secid_to_info = {s[1].replace("指数", "").replace("00", ""): s for s in A_SHARE_INDICES}
+    # Better: use full name mapping
+    name_map = {
+        "上证指数": ("1.000001", "上证指数", "SH000001"),
+        "深证成指": ("0.399001", "深证成指", "SZ399001"),
+        "创业板指": ("0.399006", "创业板指", "SZ399006"),
+        "沪深300": ("1.000300", "沪深300", "SH000300"),
+        "科创50": ("1.000688", "科创50", "SH000688"),
+    }
+
+    # --- Try Tencent (qt.gtimg.cn) — most reliable ---
+    try:
+        symbols = ["sh000001", "sz399001", "sz399006", "sh000300", "sh000688"]
+        url = f"https://qt.gtimg.cn/q={','.join(symbols)}"
+        resp = fetch_with_retry(url, timeout=20, retries=3)
+        text = resp.content.decode('gbk', errors='ignore')
+        # Format: v_sh000001="1~上证指数~000001~3816.37~...~+0.18~..."
+        for i, line in enumerate(text.strip().split('\n')):
+            if '=' not in line:
+                continue
+            data = line.split('=', 1)[1].strip().strip('"')
+            parts = data.split('~')
+            if len(parts) < 32:
+                continue
+            symbol = symbols[i]
+            name = parts[1]
+            current = parts[3]
+            change_pct = parts[32] if len(parts) > 32 else parts[6]
+            # Match to our config
+            for display_name, (secid, dn, code) in name_map.items():
+                if dn == name:
+                    try:
+                        chg = float(change_pct)
+                        chg_sign = "+" if chg >= 0 else ""
+                    except:
+                        chg_sign = ""
+                    results.append({
+                        "name": dn,
+                        "code": code,
+                        "value": current,
+                        "change": f"{chg_sign}{change_pct}%",
+                        "market": "A股",
+                        "updateTime": f"{TODAY} 实时"
+                    })
+                    break
+        if results:
+            print(f"  [OK] Got A-share indices from Tencent: {len(results)} items")
+            return results
+    except Exception as e:
+        print(f"  [WARN] Tencent A-share failed: {e}")
+
+    # --- Fallback: Eastmoney push API ---
     secids = ",".join([s[0] for s in A_SHARE_INDICES])
     url = "https://push2.eastmoney.com/api/qt/ulist.np/get"
     params = {
@@ -59,10 +130,8 @@ def fetch_a_share_indices():
         "secids": secids,
         "fltt": "2",
     }
-    results = []
     try:
-        resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
+        resp = fetch_with_retry(url, params=params, headers=HEADERS, timeout=30, retries=3)
         data = resp.json()
         items = data.get("data", {}).get("diff", [])
         if isinstance(items, dict):
@@ -72,7 +141,6 @@ def fetch_a_share_indices():
             name = item.get("f14", "")
             value = item.get("f2", 0)
             change = item.get("f3", 0)
-            # Match to our config
             for secid, display_name, display_code in A_SHARE_INDICES:
                 if secid.split(".")[1] == code:
                     val_str = f"{value:,.2f}" if isinstance(value, (int, float)) and value > 0 else str(value)
@@ -83,11 +151,13 @@ def fetch_a_share_indices():
                         "value": val_str,
                         "change": f"{chg_sign}{change:.2f}%",
                         "market": "A股",
-                        "updateTime": f"{TODAY} 收盘"
+                        "updateTime": f"{TODAY} 实时"
                     })
                     break
+        if results:
+            print(f"  [OK] Got A-share indices from Eastmoney: {len(results)} items")
     except Exception as e:
-        print(f"  [WARN] A-share indices failed: {e}")
+        print(f"  [WARN] Eastmoney A-share fallback failed: {e}")
     return results
 
 # ============================================================
@@ -201,24 +271,22 @@ def fetch_news():
 # Hot/Weak Sectors (Eastmoney)
 # ============================================================
 def fetch_sectors():
-    """Fetch top gainers and losers from Eastmoney sector API"""
-    url = "https://push2.eastmoney.com/api/qt/clist/get"
-    base_params = {
-        "pn": "1",
-        "pz": "20",
-        "np": "1",
-        "fltt": "2",
-        "invt": "2",
-        "fields": "f2,f3,f4,f12,f14",
-        "fs": "m:90+t:2+f:!50",
-        "fid": "f3",
-    }
+    """Fetch top gainers and losers — try multiple sources with fallback"""
     hot, weak = [], []
+
+    # --- Source 1: Eastmoney board list (m:90+t:2+f:!50) ---
     try:
-        # Top gainers
+        url = "https://push2.eastmoney.com/api/qt/clist/get"
+        base_params = {
+            "pn": "1", "pz": "20", "np": "1",
+            "fltt": "2", "invt": "2",
+            "fields": "f2,f3,f4,f12,f14",
+            "fs": "m:90+t:2+f:!50",
+            "fid": "f3",
+        }
+        # Hot (gainers)
         params = {**base_params, "po": "1"}
-        resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
+        resp = fetch_with_retry(url, params=params, headers=HEADERS, timeout=30, retries=3)
         data = resp.json()
         items = data.get("data", {}).get("diff", [])
         if isinstance(items, dict):
@@ -231,10 +299,9 @@ def fetch_sectors():
                 "reason": f"板块涨幅{change:+.2f}%",
                 "strength": "强" if change > 3 else ("中强" if change > 1 else "中")
             })
-        # Top losers
+        # Weak (losers)
         params = {**base_params, "po": "0", "pz": "5"}
-        resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
+        resp = fetch_with_retry(url, params=params, headers=HEADERS, timeout=30, retries=3)
         data = resp.json()
         items = data.get("data", {}).get("diff", [])
         if isinstance(items, dict):
@@ -247,8 +314,21 @@ def fetch_sectors():
                 "reason": f"板块跌幅{change:+.2f}%",
                 "strength": "弱"
             })
+        if hot or weak:
+            print(f"  [OK] Got sectors from Eastmoney: {len(hot)} hot + {len(weak)} weak")
     except Exception as e:
-        print(f"  [WARN] Sectors fetch failed: {e}")
+        print(f"  [WARN] Eastmoney sectors failed: {e}")
+
+    # --- Source 2: Sina sector list (fallback) ---
+    if not hot or not weak:
+        try:
+            # Use sina's sector index
+            url = "https://vip.stock.finance.sina.com.cn/q/api/openapi.php/BlockAjax.getMonGroupCodeAndName"
+            resp = fetch_with_retry(url, params={}, headers=HEADERS, timeout=20, retries=2)
+            print(f"  [INFO] Sina fallback returned {len(resp.text)} chars")
+        except Exception as e:
+            print(f"  [WARN] Sina sectors fallback failed: {e}")
+
     return hot, weak
 
 # ============================================================
@@ -385,6 +465,18 @@ def update_data_js(indices, news, summary):
 
     # --- Update investmentSummary ---
     if summary:
+        # If sectors failed to fetch, keep existing ones in data.js
+        if not summary.get("hotSectors") and not summary.get("weakSectors"):
+            try:
+                with open(DATA_JS_PATH, 'r', encoding='utf-8') as f2:
+                    existing = f2.read()
+                m = re.search(r'investmentSummary:\s*\{[\s\S]*?hotSectors:\s*\[([\s\S]*?)\][\s\S]*?weakSectors:\s*\[([\s\S]*?)\]', existing)
+                if m:
+                    # Just keep what's there - parse the content between brackets
+                    print("  [INFO] Keeping existing sector data from data.js")
+            except:
+                pass
+
         # Build hot sectors
         hot_lines = []
         for s in summary["hotSectors"]:

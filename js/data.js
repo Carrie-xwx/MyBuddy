@@ -69,11 +69,11 @@ Importantly, habits are not erased but replaced. This means that breaking an unw
     /* ========== 雅思听力素材（含真实音频源） ========== */
     listenings: [
         {
-            title: "BBC 6 Minute English - The importance of handwashing",
+            title: "Cambridge IELTS 2 - Test 1 Section 1 (雅思真题)",
             context: "BBC Learning English 6分钟英语系列，讨论洗手的重要性，适合雅思听力Section 3/4训练",
-            audioUrl: "https://downloads.bbc.co.uk/learningenglish/features/6min/241128_6_minute_english_the_importance_of_handwashing_download.mp3",
-            audioSource: "BBC Learning English",
-            audioPage: "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/07/IELTS-2-Test-1-Section1.mp3",
+            audioSource: "Cambridge IELTS 2 - Test 1 Section 1",
+            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-2-listening-test-1-section-1/",
             level: "Band 6-7",
             transcript: `Welcome to 6 Minute English, the programme where we explore an interesting topic and learn some new vocabulary at the same time. I'm Neil.
 
@@ -113,11 +113,11 @@ Well, there are several reasons. In some places, access to clean water and soap 
             ]
         },
         {
-            title: "BBC 6 Minute English - Why we forget things",
+            title: "Cambridge IELTS 2 - Test 1 Section 3 (雅思真题·学术讨论)",
             context: "BBC Learning English 6分钟英语系列，讨论记忆和遗忘的科学原理，词汇丰富适合雅思学术听力训练",
-            audioUrl: "https://downloads.bbc.co.uk/learningenglish/features/6min/241114_6_minute_english_why_do_we_forget_things_download.mp3",
-            audioSource: "BBC Learning English",
-            audioPage: "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/07/IELTS-2-Test-1-Section3.mp3",
+            audioSource: "Cambridge IELTS 2 - Test 1 Section 3",
+            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-2-listening-test-1-section-3/",
             level: "Band 7+",
             transcript: `Hello and welcome to 6 Minute English. I'm Neil.
 
@@ -159,11 +159,11 @@ So forgetting is actually a feature, not a bug, of our brain's design.`,
             ]
         },
         {
-            title: "VOA Learning English - Technology Report: AI in Education",
+            title: "Cambridge IELTS 6 - Test 3 Section 1 (雅思真题·社交场景)",
             context: "VOA Learning English 慢速英语，讨论AI在教育中的应用，语速适中适合雅思听力训练",
-            audioUrl: "https://av.voanews.com/clips/VLE/2024/01/15/01000000-0aff-0242-3fa1-08dc18a0b0bf_hq.mp3",
-            audioSource: "VOA Learning English",
-            audioPage: "https://learningenglish.voanews.com/",
+            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/09/IELTS-6-Test-3-Section-1.mp3",
+            audioSource: "Cambridge IELTS 6 - Test 3 Section 1",
+            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-6-listening-test-3-section-1/",
             level: "Band 5-6",
             transcript: `This is VOA Learning English. Today we report on artificial intelligence and its growing use in education.
 
@@ -188,6 +188,51 @@ Experts say the key is to use AI as a tool to help teachers, not to replace them
                 "What did Stanford researchers develop?",
                 "What are the two main concerns about AI in education?",
                 "What percentage of teachers have used AI tools in classrooms?"
+            ]
+        },
+        {
+            title: "Cambridge IELTS 2 - Test 2 Section 2 (雅思真题·独白)",
+            context: "剑桥雅思2真题Test 2 Section 2，社交场景独白（旅游/设施介绍），适合训练抓取关键信息的听力能力",
+            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/07/IELTS-2-Test-2-Section2.mp3",
+            audioSource: "Cambridge IELTS 2 - Test 2 Section 2",
+            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-2-listening-test-2-section-2/",
+            level: "Band 6",
+            transcript: `[雅思真题 Section 2 听力文本]\n\n本段为旅游信息中心工作人员介绍River View度假村设施的独白。\n考生需捕捉：地点名称、设施开放时间、价格、联系方式等关键信息。\n\n完整题目和答案请访问音频原页面查看。建议练习步骤：\n1. 第一遍：完整听一遍，不看文本，记录大意\n2. 第二遍：分句听写重点信息（数字、时间、地点）\n3. 第三遍：对照 transcript 检查，对照题目订正\n4. 第四遍：跟读模仿语音语调`,
+            questions: [
+                "本段独白主要介绍了什么场所？",
+                "你需要在听力中捕捉哪些类型的具体信息？",
+                "Section 2 通常采用什么题型？",
+                "如何在听 Section 2 时做笔记最高效？"
+            ]
+        },
+        {
+            title: "Cambridge IELTS 6 - Test 2 Section 1 (雅思真题·对话)",
+            context: "剑桥雅思6真题Test 2 Section 1，日常对话场景（旅行/活动安排），适合基础阶段精听训练",
+            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/09/IELTS-6-Test-2-Section-1.mp3",
+            audioSource: "Cambridge IELTS 6 - Test 2 Section 1",
+            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-6-listening-test-2-section-1/",
+            level: "Band 5-6",
+            transcript: `[雅思真题 Section 1 听力文本]\n\n本段为两人日常对话，通常出现在：\n- 旅行信息咨询（订酒店/问路/买票）\n- 活动安排（俱乐部/课程/工作面试）\n- 个人信息（填表/注册/咨询）\n\nSection 1 是雅思听力最简单的部分，语速较慢、信息清晰。\n重点训练：拼写、数字、时间、日期、字母。\n完整题目和答案请访问音频原页面查看。`,
+            questions: [
+                "Section 1 的对话场景通常是什么类型？",
+                "Section 1 主要考查什么信息？",
+                "为什么 Section 1 是最容易得分的部分？",
+                "如何在听 Section 1 时避免拼写错误？"
+            ]
+        },
+        {
+            title: "Cambridge IELTS 6 - Test 3 Section 4 (雅思真题·学术讲座)",
+            context: "剑桥雅思6真题Test 3 Section 4，学术讲座独白（学科类），难度最高，语速快、专业词汇多",
+            audioUrl: "https://accessinstitutegroup.com/wp-content/uploads/2015/09/IELTS-6-Test-3-Section-4.mp3",
+            audioSource: "Cambridge IELTS 6 - Test 3 Section 4",
+            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-6-listening-test-3-section-4/",
+            level: "Band 7+",
+            transcript: `[雅思真题 Section 4 听力文本]\n\n本段为学术讲座独白，通常是：\n- 大学课程介绍（某个学科的发展史）\n- 科学研究报告（实验/调查/发现）\n- 行业分析（市场/技术/社会现象）\n\nSection 4 是雅思听力最难的部分，特点是：\n- 单一speaker独白，无对话辅助\n- 语速快，专业词汇多\n- 信息密集，需要快速笔记\n- 通常会先说一个观点，然后举例/数据支持\n\n训练建议：每天精听1篇 Section 4，先听后记关键词，再对照文本找差距。完整题目和答案请访问音频原页面查看。`,
+            questions: [
+                "Section 4 的语速和 Section 3 相比有什么特点？",
+                "Section 4 的讲座通常涉及哪些主题？",
+                "为什么 Section 4 是最难的部分？",
+                "Section 4 听力训练的关键技巧是什么？"
             ]
         }
     ],
@@ -564,15 +609,36 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
         tags: ["留学vlog", "留学生活", "真实记录", "海外日常", "留学经验", "vlog日常", "study abroad", "international student", "留学准备", "海外生活"]
     },
 
-    /* ========== 市场指数（真实数据，2026-08-03更新） ========== */
-                    marketIndices: [
-        { name: "标普500", code: "SPX", value: "7,600.50", change: "+2.53%", market: "美股", updateTime: "2026-08-04 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "25,913.90", change: "+3.94%", market: "美股", updateTime: "2026-08-04 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,178.41", change: "+1.85%", market: "美股", updateTime: "2026-08-04 收盘" },
+    /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
+    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3,805.10", change: "-0.12%", market: "A股", updateTime: "2026-08-04 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13,704.72", change: "+1.91%", market: "A股", updateTime: "2026-08-04 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3,413.89", change: "+3.37%", market: "A股", updateTime: "2026-08-04 实时" },
+        { name: "沪深300", code: "SH000300", value: "4,568.64", change: "+0.56%", market: "A股", updateTime: "2026-08-04 实时" },
+        { name: "科创50", code: "SH000688", value: "1,579.08", change: "+1.69%", market: "A股", updateTime: "2026-08-04 实时" },
+        { name: "标普500", code: "SPX", value: "7,600.50", change: "+2.53%", market: "美股", updateTime: "2026-08-03 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "25,913.90", change: "+3.94%", market: "美股", updateTime: "2026-08-03 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,178.41", change: "+1.85%", market: "美股", updateTime: "2026-08-03 收盘" }
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                    marketNews: [
+    marketNews: [
+        {
+            title: "韩国财长称将致力于改善股市结构和稳定性",
+            summary: "韩国财政部长具润哲周二在内阁会议上表示，韩国将致力于改善市场基本面以减轻股市波动，确保其长期和结构性稳定。  具润哲表示，韩国近期出台了针对个股杠杆ETF的补充措施...",
+            source: "环球市场播报",
+            date: "2026-08-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-04/doc-inimchzt5450466.shtml"
+        },
+        {
+            title: "长飞光纤光缆盘中涨超8% 子公司拟出资1.7亿元参设长飞智能基金",
+            summary: "长飞光纤光缆（06869）盘中涨超8%，截至发稿，股价上涨5.43%，现报100.90港元，成交额11.51亿港元。 长飞光纤光缆发布公告，公司子公司长飞资本近日与武汉长飞产业基金管理...",
+            source: "新浪港股",
+            date: "2026-08-04",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-04/doc-inimchzp5766083.shtml"
+        },
         {
             title: "泰国电信公司True称中国移动可能会减持少量股份",
             summary: " 泰国电信公司True Corp．周二表示，中国移动正在评估出售在该公司一小部分股份的可能性，这是正常的投资组合管理行为。",
@@ -621,22 +687,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "港股",
             url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-04/doc-inimchzt5433129.shtml"
         },
-        {
-            title: "再传捷报！赵敬国律师团队代理的投资者诉中青宝证券虚假陈述一案 已有二审胜诉判决 投资者即将获赔成功！",
-            summary: "上海市信本律师事务所赵敬国律师团队代理部分投资者诉深圳中青宝互动网络股份有限公司（以下简称“中青宝”）证券虚假陈述案件，迎来新进展，案件二审已经胜诉...",
-            source: "市场资讯",
-            date: "2026-08-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-04/doc-inimchzm4143030.shtml"
-        },
-        {
-            title: "策略师：黄金结构性牛市未终结，4000美元正是布局良机，不必理会美联储鹰派表态",
-            summary: "文章来源：汇通财经 作为市场关注焦点，黄金经历长达数月的调整行情，不少投资者对后市产生分歧。安本集团（abrdn）策略总监指出，金价稳稳守住每盎司4000美元支撑...",
-            source: "市场资讯",
-            date: "2026-08-04",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-04/doc-inimchzt5429996.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -666,24 +716,31 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
         { name: "阿里巴巴", code: "BABA", market: "美股", industry: "AI/云/电商", strategy: "超短线", reason: "8月3日涨超4%。发布千问3.8-MAX模型2.4万亿参数，性能比肩Anthropic Fable 5，首个开源Max级权重下周发布。阿里港股大涨7%，南向净买入42亿", source: "华尔街见闻", url: "https://new.qq.com/rain/a/20260804A03PAO00?refer=cp_1009" }
     ],
 
-    /* ========== 投资推荐总结（2026-08-04） ========== */
-                    investmentSummary: {
+    /* ========== 投资推荐总结（2026-08-04 实时） ========== */
+    /* ========== 投资推荐总结（2026-08-04 实时） ========== */
+    investmentSummary: {
         date: "2026-08-04",
-        marketAssessment: "今日市场数据获取中。美股方面：标普500报7,600.50（+2.53%），纳斯达克报25,913.90（+3.94%）。",
+        marketAssessment: "今日A股三大指数集体高开后震荡分化，沪指微跌0.12%但深成指+1.91%、创业板指+3.37%、科创50+1.69%大幅反弹。药明康德业绩上调+7%带动CRO板块全线爆发，存储芯片+2.87%反弹，半导体板块经历昨日大跌后明显修复。美股上周五三连阳收涨，科技股财报季预期积极。",
         hotSectors: [
-
+            { name: "医疗服务/CRO", reason: "板块涨幅+5.66%-7.14%居首，药明康德上调全年业绩指引至585-605亿元，百花医药涨停，凯莱英/康龙化成/睿智医药高开", strength: "最强" },
+            { name: "F5G/光通信", reason: "F5G概念+3.11%，AI算力需求驱动光通信板块持续景气，CPO/光模块/光纤龙头领涨", strength: "强" },
+            { name: "存储器/存储芯片", reason: "板块+2.87%，昨日大跌后技术性反弹，TrendForce预计Q3 PC DRAM价格上涨15%-20%", strength: "中强" },
+            { name: "国产软件/信创", reason: "信创+2.30%、国产软件+2.20%、数据中心+2.14%，AI+国产替代双轮驱动", strength: "中强" }
         ],
         weakSectors: [
-
+            { name: "股份制银行/保险", reason: "银行板块-2.06%领跌，工商银行/建设银行/招商银行走低；保险-1.63%，防御板块资金流出", strength: "弱" },
+            { name: "电力/白酒/休闲食品", reason: "电力-0.68%、休闲食品-0.65%、白酒等防御板块普遍回调，资金转向成长", strength: "弱" }
         ],
-        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
-        positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
-        riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
+        longTermStrategy: "哑铃型策略：一手AI业绩龙头（金山办公/同花顺/英伟达/AMD/美光），一手红利防御（紫金矿业/五粮液）。半年报披露季重点筛选业绩超预期且回调充分的龙头股。药明康德业绩上调信号明确，CXO板块拐点可期。",
+        shortTermStrategy: "超短线关注CRO/医疗服务延续性（药明康德/百花医药/凯莱英），AI应用热门标的（传智教育/利欧股份/天娱数科）波段操作，关注F5G/光通信板块的扩散机会。严格止损不追高，沪指3800点附近震荡整理。",
+        positionAdvice: "激进型6-7成（CRO+AI应用龙头），稳健型4-5成（AI业绩龙头+红利防御），保守型2-3成（仅核心资产+半年报超预期）",
+        riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。半导体板块昨日大跌后短期波动加大，财报季临近个股波动可能加剧。银行/保险/白酒等防御板块轮动加速需注意节奏。股市有风险，投资需谨慎。",
         sources: [
-            { name: "东方财富·行情数据", url: "https://quote.eastmoney.com/" },
-            { name: "新浪财经·资讯", url: "https://finance.sina.com.cn/" },
-            { name: "Yahoo Finance", url: "https://finance.yahoo.com/" },
+            { name: "同花顺·金融早报", url: "https://news.10jqka.com.cn/20260804/c678639524.shtml" },
+            { name: "证券时报·A股开盘", url: "https://www.stcn.com/article/detail/4056855.html" },
+            { name: "腾讯财经·盘面分析", url: "https://new.qq.com/rain/a/20260804A04ZYS00" },
+            { name: "东方财富·板块行情", url: "https://quote.eastmoney.com/center/boardlist.html" },
+            { name: "富途牛牛·美股热度", url: "https://www.futunn.com/quote/us/most-active-stocks" }
         ]
     }
 };

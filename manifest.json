@@ -1,13 +1,13 @@
 {
     "name": "MyBuddy - 个人工作台",
     "short_name": "MyBuddy",
-    "description": "一体化个人线上工作台：股票研究、雅思备考、每日计划、Vlog创作",
+    "description": "一体化个人线上工作台：股票研究、雅思备考、每日计划、自媒体创作",
     "start_url": "./index.html",
     "scope": "./",
     "display": "standalone",
     "orientation": "portrait",
-    "background_color": "#131520",
-    "theme_color": "#131520",
+    "background_color": "#F5F2EB",
+    "theme_color": "#163A63",
     "lang": "zh-CN",
     "icons": [
         {

@@ -232,7 +232,7 @@ const StockModule = {
 
     // 首次加载预填充真实数据
     // 数据版本号 — 每次内容库重大更新时递增，强制刷新本地存储
-    DATA_VERSION: '2026-08-04-v3',
+    DATA_VERSION: '2026-08-04-v4',
 
     prepopulateData() {
         const currentVersion = Storage.get('dataVersion', null);
@@ -258,7 +258,7 @@ const StockModule = {
         if (!savedScreening || savedScreening.length === 0 || needsRefresh) {
             Storage.set('screeningStocks', ContentLibrary.screeningStocks || []);
         }
-        // Vlog 案例 — 首次访问或版本变更时刷新
+        // 自媒体案例 — 首次访问或版本变更时刷新
         const savedCases = Storage.get('vlogCases', null);
         if (!savedCases || savedCases.length === 0 || needsRefresh) {
             Storage.set('vlogCases', ContentLibrary.vlogCases.slice());
@@ -1311,7 +1311,7 @@ const PlannerModule = {
 };
 
 /* ========================================
-   模块4: Vlog创作
+   模块4: 自媒体创作
    ======================================== */
 const VlogModule = {
     topicIndex: 0,
@@ -1477,7 +1477,7 @@ const VlogModule = {
 
     // ---- 脚本框架 ----
     generateScript() {
-        const topic = document.getElementById('scriptTopic').value.trim() || '通用留学Vlog';
+        const topic = document.getElementById('scriptTopic').value.trim() || '通用自媒体内容';
         const el = document.getElementById('scriptContent');
         el.innerHTML = ContentLibrary.scriptTemplates.map(t => `
             <div class="script-section">
@@ -1488,7 +1488,7 @@ const VlogModule = {
     },
 
     copyScript() {
-        const topic = document.getElementById('scriptTopic').value.trim() || '通用留学Vlog';
+        const topic = document.getElementById('scriptTopic').value.trim() || '通用自媒体内容';
         const text = ContentLibrary.scriptTemplates.map(t =>
             `【${t.section}】\n${t.content.replace(/\{topic\}/g, topic)}`
         ).join('\n\n');
@@ -1497,7 +1497,7 @@ const VlogModule = {
 
     // ---- 文案初稿 ----
     generateDraft() {
-        const topic = document.getElementById('draftTopic').value.trim() || '留学生日常';
+        const topic = document.getElementById('draftTopic').value.trim() || '好物推荐';
         const titles = ContentLibrary.draftTemplates.titles;
         const descs = ContentLibrary.draftTemplates.descriptions;
         const tags = ContentLibrary.draftTemplates.tags;
@@ -1521,7 +1521,7 @@ const VlogModule = {
     },
 
     copyDraft() {
-        const topic = document.getElementById('draftTopic').value.trim() || '留学生日常';
+        const topic = document.getElementById('draftTopic').value.trim() || '好物推荐';
         const titles = ContentLibrary.draftTemplates.titles;
         const descs = ContentLibrary.draftTemplates.descriptions;
         const tags = ContentLibrary.draftTemplates.tags;
@@ -1573,7 +1573,7 @@ const VlogModule = {
             </div>
             <div class="form-group">
                 <label>标签（逗号分隔）</label>
-                <input type="text" class="input" id="libTags" placeholder="留学vlog, 日常, 干货">
+                <input type="text" class="input" id="libTags" placeholder="好物推荐, 测评, 带货">
             </div>
             <div class="form-actions">
                 <button class="btn-sm btn-outline" onclick="App.closeModal()">取消</button>

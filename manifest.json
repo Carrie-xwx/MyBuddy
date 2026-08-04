@@ -3,6 +3,7 @@
     "short_name": "MyBuddy",
     "description": "一体化个人线上工作台：股票研究、雅思备考、每日计划、Vlog创作",
     "start_url": "./index.html",
+    "scope": "./",
     "display": "standalone",
     "orientation": "portrait",
     "background_color": "#131520",

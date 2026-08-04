@@ -565,83 +565,83 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（真实数据，2026-08-03更新） ========== */
-    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3,816.37", change: "+0.18%", market: "A股", updateTime: "2026-08-04 开盘" },
-        { name: "深证成指", code: "SZ399001", value: "13,572.95", change: "+0.93%", market: "A股", updateTime: "2026-08-04 开盘" },
-        { name: "创业板指", code: "SZ399006", value: "3,353.51", change: "+1.54%", market: "A股", updateTime: "2026-08-04 开盘" },
-        { name: "沪深300", code: "SH000300", value: "4,566.94", change: "+0.52%", market: "A股", updateTime: "2026-08-04 开盘" },
-        { name: "科创50", code: "SH000688", value: "1,569.62", change: "+1.08%", market: "A股", updateTime: "2026-08-04 开盘" },
-        { name: "标普500", code: "SPX", value: "7,600.50", change: "+1.48%", market: "美股", updateTime: "2026-08-03 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "25,913.90", change: "+2.13%", market: "美股", updateTime: "2026-08-03 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,178.41", change: "+1.32%", market: "美股", updateTime: "2026-08-03 收盘" }
+                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3,803.14", change: "-0.17%", market: "A股", updateTime: "2026-08-04 收盘" },
+        { name: "深证成指", code: "SZ399001", value: "13,667.25", change: "+1.63%", market: "A股", updateTime: "2026-08-04 收盘" },
+        { name: "创业板指", code: "SZ399006", value: "3,405.85", change: "+3.13%", market: "A股", updateTime: "2026-08-04 收盘" },
+        { name: "沪深300", code: "SH000300", value: "4,566.23", change: "+0.51%", market: "A股", updateTime: "2026-08-04 收盘" },
+        { name: "科创50", code: "SH000688", value: "1,585.68", change: "+2.11%", market: "A股", updateTime: "2026-08-04 收盘" },
+        { name: "标普500", code: "SPX", value: "7,600.50", change: "+2.53%", market: "美股", updateTime: "2026-08-04 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "25,913.90", change: "+3.94%", market: "美股", updateTime: "2026-08-04 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,178.41", change: "+1.85%", market: "美股", updateTime: "2026-08-04 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-    marketNews: [
+                marketNews: [
         {
-            title: "美股三大指数集体收涨 道指创新高 纳指涨2.13%",
-            summary: "8月3日，美股三大指数全线收涨。道指涨1.32%报53178.41点创历史新高，标普500涨1.48%报7600.50点，纳指涨2.13%报25913.90点。Meta涨超6%，微软涨近5%，谷歌涨近5%市值超苹果升至全球第二，亚马逊涨4.58%市值首破3万亿美元，英伟达涨近3%市值重回5万亿美元。波音涨8%创去年12月以来最大单日涨幅。",
-            source: "证券时报",
+            title: "天数智芯早盘涨近9% 天数智芯实现MiniMax H3“开源即适配”",
+            summary: "天数智芯（09903）早盘涨近9%，截至发稿，股价上涨8.73%，现报465.60港元，成交额2.28亿港元。 8月3日，MiniMax宣布MiniMax H3模型正式开源。",
+            source: "新浪港股",
             date: "2026-08-04",
-            tag: "美股",
-            url: "https://www.stcn.com/article/detail/4056624.html"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-04/doc-inimchzp5754518.shtml"
         },
         {
-            title: "药明康德全面上调全年业绩指引 收入预期增至585-605亿元",
-            summary: "药明康德8月3日晚公告，上半年营收288.97亿元同比增长38.93%，全面上调2026年全年业绩指引：整体收入由513-530亿元上调至585-605亿元，持续经营业务收入同比增速由18%-22%上调至35%-39%。CXO赛道久违的硬气信号，或标志中国创新药产业链拐点。",
-            source: "同花顺盘前必读",
+            title: "银诺医药-B盘中涨超18% 两处依苏帕格鲁肽α注射液委托生产场地取得PIC/S GMP证书",
+            summary: "银诺医药-B（02591）早盘一度涨超18%，截至发稿，股价上涨6.63%，现报7.56港元，成交额3286.93万港元。 8月3日，银诺医药发布公告...",
+            source: "新浪港股",
             date: "2026-08-04",
-            tag: "个股",
-            url: "https://t.10jqka.com.cn/pid_669825086.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-04/doc-inimchzv2208865.shtml"
         },
         {
-            title: "新型电力系统建设十五五规划印发 2030年非化石能源发电占比达50%",
-            summary: "发改委、能源局联合印发规划，到2030年新型电力系统初步建成：非化石能源发电量占比达50%，新能源消纳超28亿千瓦，建成支撑1.1亿辆电动汽车充电网络，新型储能装机达3亿千瓦。国家电网特高压十五五在建规模将为十四五两倍。电网设备、特高压、储能、充电桩企业获五年施工图。",
-            source: "新浪财经·中邮晨报",
+            title: "CSIS称特朗普屡次未兑现打击威胁 让伊朗认为美国很软弱",
+            summary: " 战略与国际问题研究中心（CSIS）中东项目主任Mona Yacoubian表示，在特朗普政府屡次没有兑现其发出的最严厉威胁后，伊朗认为自己在与美国的冲突中占据了上风。",
+            source: "环球市场播报",
             date: "2026-08-04",
-            tag: "政策",
-            url: "https://finance.sina.com.cn/stock/stockzmt/2026-08-04/doc-inimcatx2294488.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-04/doc-inimchzt5436076.shtml"
         },
         {
-            title: "8月4日连板梯队：传智教育6连板 AI应用持续爆发",
-            summary: "8月3日收盘连板梯队：6连板传智教育（AI教育+具身智能），5连板一鸣食品（消费），4连板高争民爆（股权变更），3连板神雾节能（摘帽）。2连板：恒银科技、天娱数科、利欧股份（AI应用），中大力德（机器人），盈峰环境、美利云（算力），新能股份（电力）。AI应用板块11股涨停，机器人板块10股涨停。",
-            source: "同花顺盘前必读",
+            title: "壁仞科技早盘涨近7% 完成MiniMax H3大模型推理验证",
+            summary: "壁仞科技（06082）早盘涨近7%，截至发稿，股价上涨6.76%，现报33.50港元，成交额9009.45万港元。 据壁仞科技官微消息，8月3日，MiniMax正式开源新一代多模态生成模型MiniMa...",
+            source: "新浪港股",
+            date: "2026-08-04",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-04/doc-inimchzv2207481.shtml"
+        },
+        {
+            title: "康宁杰瑞制药-B早盘涨超12% TROP2/HER3双抗ADC授权出海",
+            summary: "康宁杰瑞制药-B（09966）早盘涨超12%，截至发稿，股价上涨12.43%，现报8.32港元，成交额762.18万港元。 康宁杰瑞生物制药宣布，其全资子公司江苏康宁杰瑞生物制药有限公司...",
+            source: "新浪港股",
+            date: "2026-08-04",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-04/doc-inimchzt5433129.shtml"
+        },
+        {
+            title: "再传捷报！赵敬国律师团队代理的投资者诉中青宝证券虚假陈述一案 已有二审胜诉判决 投资者即将获赔成功！",
+            summary: "上海市信本律师事务所赵敬国律师团队代理部分投资者诉深圳中青宝互动网络股份有限公司（以下简称“中青宝”）证券虚假陈述案件，迎来新进展，案件二审已经胜诉...",
+            source: "市场资讯",
             date: "2026-08-04",
             tag: "A股",
-            url: "https://t.10jqka.com.cn/pid_669825086.shtml"
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-04/doc-inimchzm4143030.shtml"
         },
         {
-            title: "宇树科技8月10日申购 人形机器人赛道再迎催化",
-            summary: "宇树科技确认8月10日开始网下申购，即将登陆科创板。受此消息影响，人形机器人概念持续回暖，绿的谐波涨16%，上纬新材涨13%。特斯拉Optimus远期年产能目标修正为1000万台（原100万台的十倍），世界机器人大会8月19-23日在京举行。",
-            source: "网易财经",
+            title: "策略师：黄金结构性牛市未终结，4000美元正是布局良机，不必理会美联储鹰派表态",
+            summary: "文章来源：汇通财经 作为市场关注焦点，黄金经历长达数月的调整行情，不少投资者对后市产生分歧。安本集团（abrdn）策略总监指出，金价稳稳守住每盎司4000美元支撑...",
+            source: "市场资讯",
             date: "2026-08-04",
-            tag: "行业",
-            url: "https://www.163.com/dy/article/L3FP2MLN05560W8U.html"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-04/doc-inimchzt5429996.shtml"
         },
         {
-            title: "阿里巴巴发布千问3.8-MAX 2.4万亿参数 性能比肩Anthropic Fable 5",
-            summary: "阿里巴巴发布最强千问模型3.8-MAX，2.4万亿参数，长程自动编程表现出色，性能与Anthropic Fable 5相当。API定价输入2.0美元/百万tokens、输出6.0美元/百万tokens。首个开源Max级权重版本下周发布。阿里港股大涨7%，获南向资金净买入近42亿港元。",
-            source: "华尔街见闻",
+            title: "药明康德早盘涨近11% 上半年归母净利润110.8亿元同比增长29.4%",
+            summary: "药明康德（02359）早盘高开逾10%，截至发稿，股价上涨10.99%，现报180.80港元，成交额11.51亿港元。 8月3日晚，药明康德发布2026年中期业绩公告。",
+            source: "新浪港股",
             date: "2026-08-04",
-            tag: "科技",
-            url: "https://new.qq.com/rain/a/20260804A03PAO00?refer=cp_1009"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-04/doc-inimchzm4131611.shtml"
         },
-        {
-            title: "美伊谈判信号释放 国际油价暴跌5% WTI跌破81美元",
-            summary: "特朗普称美伊正在对话，霍尔木兹海峡可能最迟周二重开。国际油价大幅下跌，WTI 9月原油期货收跌5.11%报80.34美元/桶，布伦特跌4.73%报83.77美元/桶。油价暴跌利好航空、化工下游成本下降，但石油石化链承压。美国25州联合起诉特朗普301关税政策。",
-            source: "新华社/腾讯新闻",
-            date: "2026-08-04",
-            tag: "国际",
-            url: "https://new.qq.com/rain/a/20260804A03T8600?refer=cp_1009"
-        },
-        {
-            title: "中微公司半年报净利润同比增长282%-311% 半导体设备业绩亮眼",
-            summary: "中微公司上半年净利润27-29亿元，同比增长282%-310%。科创板今年以来新增回购计划76家次，金额上限合计105.58亿元。特宝生物累计回购4.03亿元，联影医疗累计回购2.83亿元。科创板用真金白银表态被低估，但回购≠股价涨，关键看是否注销。",
-            source: "雪球·小Zhou日评",
-            date: "2026-08-04",
-            tag: "个股",
-            url: "https://xueqiu.com/5363171143/403496786"
-        }
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -672,29 +672,26 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 投资推荐总结（2026-08-04） ========== */
-    investmentSummary: {
+                investmentSummary: {
         date: "2026-08-04",
-        marketAssessment: "8月4日A股高开反弹：上证指数开盘+0.18%报3816，深证成指+0.93%，创业板指+1.54%。昨夜美股三大指数全线收涨创新高（道指+1.32%破历史新高，纳指+2.13%），谷歌市值超苹果升至全球第二，亚马逊首破3万亿，英伟达重回5万亿。A股昨 日虽指数收跌但超4000只个股上涨，今日有望修复性反弹。关键变量：美伊谈判进展+油价暴跌+新型电力系统规划落地+药明康德业绩超预期。",
+        marketAssessment: "A股方面：上证指数报3,803.14点（-0.17%），深证成指报13,667.25点（+1.63%），创业板指报3,405.85点（+3.13%）。美股方面：标普500报7,600.50（+2.53%），纳斯达克报25,913.90（+3.94%）。",
         hotSectors: [
-            { name: "AI应用/教育", reason: "传智教育6连板领涨，利欧股份/天娱数科/恒银科技2连板，国产大模型密集升级（千问3.8-MAX/DeepSeek-V4/Seedance 2.5），板块5日涨6.6%", strength: "最强" },
-            { name: "人形机器人", reason: "宇树科技8月10日申购催化，中大力德2连板，特斯拉Optimus产能修正至1000万台（10倍上调），世界机器人大会8月19日开幕", strength: "强" },
-            { name: "电力设备/电网", reason: "新型电力系统十五五规划落地，特高压在建规模翻倍。久盛电气/百利电气/长城电工涨停，电力设备板块5日涨2.3%", strength: "强" },
-            { name: "核电概念", reason: "国常会核准4个核电项目总投资超1700亿，核电板块5日涨4.97%，中国核建/江苏神通/利柏特涨停", strength: "强" }
+            { name: "医疗研发外包", reason: "板块涨幅+6.05%", strength: "强" },
+            { name: "会展服务", reason: "板块涨幅+4.92%", strength: "强" },
+            { name: "通信网络设备及器件", reason: "板块涨幅+4.46%", strength: "强" },
+            { name: "分立器件", reason: "板块涨幅+4.16%", strength: "强" },
         ],
         weakSectors: [
-            { name: "半导体设备", reason: "8月3日科创50跌5.08%，兆易创新跌停，中科飞测/长川科技大跌。韩股SK海力士跌近9%拖累。今日中微公司业绩超预期或带动反弹", strength: "弱" },
-            { name: "油气开采", reason: "国际油价暴跌5%（WTI跌破81美元），美伊谈判缓和地缘溢价。油气开采板块短期承压", strength: "弱" }
+
         ],
-        longTermStrategy: "哑铃型策略：一手AI业绩龙头（药明康德/金山办公/英伟达/亚马逊），一手红利防御（紫金矿业/宁德时代）。药明康德业绩指引上调70亿是CXO赛道拐点信号。8月半年报密集期，重点筛选有业绩兑现标的。美光科技EPS预期增长785%+前瞻PE仅5.9倍，存储板块长期价值凸显。",
-        shortTermStrategy: "超短线关注：①AI应用连板梯队（传智教育7板预期/利欧股份/天娱数科）；②机器人概念（中大力德/瑞迪智驱，宇树申购催化）；③半导体超跌反弹（中微公司业绩利好带动）。美股方面关注AMD/Palantir本周财报催化。注意：油价暴跌利好航空化工下游，但油气链承压。",
-        positionAdvice: "激进型6-7成（AI应用+机器人+电力设备），稳健型4-5成（AI龙头+CXO+红利），保守型2-3成（仅药明康德/英伟达等业绩确定龙头）。私募仓位已升至84.12%创4年新高，增量资金有限，注意高位标的风险。",
-        riskWarning: "①半导体板块回调尚未结束，追高风险大；②私募仓位84%创4年新高，增量弹药有限；③美伊谈判存在反复可能，地缘风险未完全消除；④AI应用股半年报验证期临近，纯概念股可能现原形；⑤本周美股财报密集（AMD/Palantir/Disney/Eli Lilly），波动可能加大。以上仅整合公开信息，不构成投资建议，股市有风险，投资需谨慎。",
+        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
+        shortTermStrategy: "超短线关注医疗研发外包、会展服务、通信网络设备及器件等板块的延续性，顺势操作，严格止损。",
+        positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
+        riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [
-            { name: "同花顺·8.4盘前必读", url: "https://t.10jqka.com.cn/pid_669825086.shtml" },
-            { name: "同花顺·8.4金融早报", url: "https://news.10jqka.com.cn/20260804/c678639524.shtml" },
-            { name: "证券时报·美股收涨", url: "https://www.stcn.com/article/detail/4056624.html" },
-            { name: "富途moomoo·美股热度", url: "https://www.futunn.com/quote/us/most-active-stocks" },
-            { name: "雪球·小Zhou日评", url: "https://xueqiu.com/5363171143/403496786" }
+            { name: "东方财富·行情数据", url: "https://quote.eastmoney.com/" },
+            { name: "新浪财经·资讯", url: "https://finance.sina.com.cn/" },
+            { name: "Yahoo Finance", url: "https://finance.yahoo.com/" },
         ]
     }
 };

@@ -66,173 +66,223 @@ Importantly, habits are not erased but replaced. This means that breaking an unw
         }
     ],
 
-    /* ========== 雅思听力素材（含真实音频源） ========== */
+    /* ========== 雅思听力素材（流媒体+外部资源） ========== */
     listenings: [
         {
-            title: "Cambridge IELTS 2 - Test 1 Section 1 (雅思真题)",
-            context: "BBC Learning English 6分钟英语系列，讨论洗手的重要性，适合雅思听力Section 3/4训练",
-            audioUrl: "audio/IELTS-2-Test1-Section1.mp3",
-            audioSource: "Cambridge IELTS 2 - Test 1 Section 1",
-            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-2-listening-test-1-section-1/",
+            title: "CRI 英语环球广播 (24小时直播)",
+            context: "中国国际广播电台英语频道，24小时不间断英语广播，涵盖新闻、访谈、文化节目，大陆可直接收听",
+            audioUrl: "https://sk.cri.cn/am846.m3u8",
+            audioType: "hls",
+            audioSource: "CRI English (AM846) 直播",
+            audioPage: "https://radio.cgtn.com/",
+            level: "All Levels",
+            transcript: `CRI English (China Radio International) 是中国国际广播电台的24小时英语广播频道。
+
+频道内容涵盖：
+• 整点新闻 (Hourly News) - 每小时5分钟英语新闻
+• The Beijing Hour - 每日1小时深度新闻节目
+• Round Table - 热点话题讨论
+• The Heat - 国际热点辩论
+• World Insight - 国际事务深度分析
+• The Bridge - 中西文化对话
+• Takeaway Chinese - 中文教学节目（英语讲解）
+
+收听建议：
+• 泛听：每天通勤或休息时作为背景音，适应英语语速
+• 精听：选一段5分钟新闻，逐句听写，对照官网文字稿
+• 跟读：模仿播音员语音语调，提升口语
+
+注意：这是直播流，内容实时更新，每次打开都有新内容！`,
+            questions: [
+                "Listen to the hourly news and write down the top 3 stories.",
+                "Choose a talk show segment and summarize the main argument.",
+                "Note 5 new vocabulary words or expressions you heard.",
+                "What cultural differences are highlighted in today's programming?",
+                "Practice shadowing: repeat after the speaker for 2 minutes."
+            ]
+        },
+        {
+            title: "CGTN Radio - 精选节目 (可点播)",
+            context: "CGTN Radio 提供大量点播节目，含新闻、文化、科技、商业等主题，每集10-60分钟，大陆可直接访问",
+            audioUrl: null,
+            audioType: "external",
+            audioSource: "CGTN Radio 点播节目",
+            audioPage: "https://radio.cgtn.com/",
+            level: "Band 6+",
+            transcript: `CGTN Radio (China Global Television Network Radio) 提供丰富的英语点播节目：
+
+热门节目推荐：
+• The Beijing Hour - 每日新闻深度报道 (60分钟)
+• Round Table - 中国社会热点讨论 (55分钟)
+• The Heat - 国际热点辩论 (26分钟)
+• World Insight with Tian Wei - 国际事务分析 (26分钟)
+• The Bridge - 中西文化对话 (55分钟)
+• China Popcast - 中国流行文化 (45分钟)
+• Headline News - 每日头条新闻 (5分钟)
+
+使用方法：
+1. 访问 radio.cgtn.com
+2. 浏览 NEW EPISODES 或按分类浏览
+3. 点击 LISTEN 按钮即可在线收听
+4. 部分节目提供 DOWNLOAD 可下载
+
+优势：内容丰富、更新频繁、完全免费、大陆可直接访问`,
+            questions: [
+                "Choose one episode from 'The Beijing Hour' and summarize the main news stories.",
+                "Listen to a 'Round Table' episode and note the different viewpoints discussed.",
+                "Pick a 'World Insight' episode and write down key international affairs discussed.",
+                "How does CGTN's coverage differ from Western media on the same topic?",
+                "Note 10 useful expressions or phrases from the episode."
+            ]
+        },
+        {
+            title: "可可英语 - VOA慢速英语 (每日更新)",
+            context: "可可英语网站提供VOA慢速英语每日更新，语速适中(约60-70%常速)，适合雅思听力基础训练，大陆可直接访问",
+            audioUrl: null,
+            audioType: "external",
+            audioSource: "可可英语 VOA慢速英语",
+            audioPage: "https://www.kekenet.com/broadcast/voaspecial/",
+            level: "Band 5-6",
+            transcript: `可可英语 (kekenet.com) 是国内最受欢迎的免费英语学习网站之一。
+
+VOA慢速英语栏目特点：
+• 每日更新，内容涵盖新闻、科技、健康、教育等
+• 语速约为常速英语的60-70%，适合精听训练
+• 每篇配有中英双语文本和重点词汇
+• 支持在线播放和MP3下载
+
+使用方法：
+1. 访问 kekenet.com/broadcast/voaspecial/
+2. 选择当天或近期的文章
+3. 先盲听2-3遍，尝试抓大意
+4. 查看文本，标记生词和不懂的句子
+5. 再听一遍，确认理解
+6. 跟读模仿语音语调
+
+其他推荐栏目：
+• VOA常速英语 - 进阶听力训练
+• BBC精选 - 英式英语听力
+• 听力微练习 - 每日短篇精听
+• 新概念英语 - 系统化听力训练`,
+            questions: [
+                "Listen to today's VOA Special English and write a 3-sentence summary.",
+                "Find and define 5 new vocabulary words from the article.",
+                "What is the main news topic of today's broadcast?",
+                "Practice reading the transcript aloud, matching the speaker's pace.",
+                "Write your opinion on the topic discussed (100 words)."
+            ]
+        },
+        {
+            title: "听力课堂 - 多主题英语听力 (海量资源)",
+            context: "听力课堂(tingclass.net)提供海量英语听力MP3资源，含雅思托福真题、新概念、VOA、BBC等，大陆可直接访问",
+            audioUrl: null,
+            audioType: "external",
+            audioSource: "听力课堂 tingclass.net",
+            audioPage: "https://www.tingclass.net/",
+            level: "All Levels",
+            transcript: `听力课堂 (tingclass.net) 是国内受欢迎的开放式英语学习网站，提供海量听力资源。
+
+资源分类：
+• 雅思听力真题 - 剑桥雅思1-18全套听力MP3+文本
+• 托福听力 - TPO真题听力训练
+• VOA英语 - 慢速/常速，每日更新
+• BBC英语学习 - 6 Minute English等经典节目
+• 新概念英语 - 第一至四册完整音频+文本
+• 英语有声书 - 经典文学名著有声版
+• 商务英语 - BEC考试听力训练
+• 英语演讲 - TED演讲音频版
+
+使用方法：
+1. 访问 tingclass.net
+2. 按分类或搜索找到所需材料
+3. 在线播放或下载MP3
+4. 配合文本进行精听训练
+
+优势：资源量大、分类清晰、完全免费、大陆可直接访问`,
+            questions: [
+                "Browse the IELTS section and complete one full listening test.",
+                "Choose a 6 Minute English episode and answer the comprehension questions.",
+                "Listen to a TED talk (audio) and write a summary.",
+                "Find a New Concept English lesson and complete the exercises.",
+                "Compare VOA and BBC listening materials - which do you prefer and why?"
+            ]
+        },
+        {
+            title: "喜马拉雅 - 高效磨耳朵 (英语播客)",
+            context: "喜马拉雅平台英语听力播客，每周一三五日更新，含单词造句、句子反复、英文名著分级阅读等，大陆可直接收听",
+            audioUrl: null,
+            audioType: "external",
+            audioSource: "喜马拉雅 - 高效磨耳朵",
+            audioPage: "https://www.ximalaya.com/album/46602128",
+            level: "Band 4-7",
+            transcript: `喜马拉雅「高效磨耳朵」是一档英语听力训练播客，已更新超过1200期。
+
+节目安排：
+• 周一：单词造句磨耳朵 - 10个单词，每个2-5个句子
+• 周三：句子反复磨耳朵 - 10个经典句子，适合练语感
+• 周五：英文名著分级阅读 - 精选经典名著，配以精彩演播
+• 周日：Level 4短文 - 各类话题短文，适合进阶
+
+另一推荐播客：「英语每日一听」
+• 每天早上8点更新
+• 每天一篇BBC/VOA等听力节目
+• 英文字幕，简介附带中文翻译
+• 链接：ximalaya.com/album/14812466
+
+使用方法：
+1. 下载喜马拉雅APP或在网页端收听
+2. 搜索「高效磨耳朵」或「英语每日一听」
+3. 按日期选择最新一期
+4. 支持倍速播放、定时关闭
+5. 适合通勤、睡前泛听`,
+            questions: [
+                "Listen to this week's Monday episode and write down all 10 words.",
+                "Choose a Friday episode and summarize the story in English.",
+                "Practice repeating each sentence after the speaker (shadowing).",
+                "Note 3 expressions you want to use in your own speaking.",
+                "Write a short paragraph using 5 words from today's episode."
+            ]
+        },
+        {
+            title: "BBC 6 Minute English (经典雅思听力训练)",
+            context: "BBC 6 Minute English是经典英语学习节目，每集6分钟，话题有趣、语速适中、配文本，适合雅思听力Section 3/4训练。通过可可英语等国内平台可直接收听",
+            audioUrl: null,
+            audioType: "external",
+            audioSource: "可可英语 - BBC 6 Minute English",
+            audioPage: "https://www.kekenet.com/broadcast/bbc6/",
             level: "Band 6-7",
-            transcript: `Welcome to 6 Minute English, the programme where we explore an interesting topic and learn some new vocabulary at the same time. I'm Neil.
+            transcript: `BBC 6 Minute English 是英国广播公司(BBC)制作的经典英语学习节目。
 
-And I'm Sam. Today we're talking about the importance of handwashing.
+节目特点：
+• 每集约6分钟，两个主持人对话
+• 话题涵盖科技、文化、社会、心理学等
+• 语速适中，适合雅思听力训练
+• 每集配有重点词汇讲解
+• 中英双语文本可在线查看
 
-Now, Sam, how many deaths do you think could be prevented each year if everyone washed their hands properly?
+在可可英语收听方法：
+1. 访问 kekenet.com/broadcast/bbc6/
+2. 选择最新或任意一期
+3. 点击播放按钮在线收听
+4. 查看下方双语文本和词汇表
+5. 支持逐句复读和语速调节
 
-Hmm, that's a good question. I'm not sure. Maybe a million?
+训练建议（精听四步法）：
+Step 1: 盲听2遍 - 不看文本，尝试理解大意
+Step 2: 听写 - 逐句听写，记录关键词
+Step 3: 对照文本 - 标记未听出的部分
+Step 4: 跟读 - 模仿语音语调，跟读3遍
 
-Well, according to research, proper handwashing could prevent about 1.4 million deaths a year, mostly in developing countries.
-
-That's an incredible number. And it seems so simple, just washing your hands.
-
-It does seem simple, but the key word is 'properly'. Research shows that many people don't wash their hands correctly. The recommended time is 20 seconds, which is about the time it takes to sing 'Happy Birthday' twice.
-
-Interesting. So why is handwashing so effective at preventing disease?
-
-Well, our hands are the main way we transfer germs from surfaces to our bodies. When we touch our eyes, nose, or mouth with unwashed hands, we allow germs to enter our system. Regular handwashing breaks this chain of transmission.
-
-And it's not just about preventing colds and flu. Handwashing can prevent more serious diseases like diarrhoea, pneumonia, and even Ebola.
-
-Absolutely. In fact, handwashing is one of the most cost-effective public health interventions available. It costs almost nothing but saves millions of lives.
-
-So what's the correct way to wash hands?
-
-First, wet your hands with clean water. Then apply soap and rub your palms together. Don't forget the backs of your hands, between your fingers, and under your nails. Keep rubbing for at least 20 seconds. Then rinse and dry thoroughly.
-
-That sounds straightforward enough. But why do so many people still not do it?
-
-Well, there are several reasons. In some places, access to clean water and soap is limited. In other cases, it's about habit and awareness. That's why education campaigns are so important.`,
+其他BBC节目推荐：
+• BBC News Report - 新闻听力
+• BBC English at Work - 职场英语
+• BBC The English We Speak - 地道表达`,
             questions: [
-                "How many deaths could be prevented annually by proper handwashing?",
-                "What is the recommended duration for washing hands?",
-                "What song can you sing twice to time 20 seconds of handwashing?",
-                "Name three diseases that handwashing can help prevent.",
-                "What are the three reasons mentioned for people not washing hands?"
-            ]
-        },
-        {
-            title: "Cambridge IELTS 2 - Test 1 Section 3 (雅思真题·学术讨论)",
-            context: "BBC Learning English 6分钟英语系列，讨论记忆和遗忘的科学原理，词汇丰富适合雅思学术听力训练",
-            audioUrl: "audio/IELTS-2-Test1-Section3.mp3",
-            audioSource: "Cambridge IELTS 2 - Test 1 Section 3",
-            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-2-listening-test-1-section-3/",
-            level: "Band 7+",
-            transcript: `Hello and welcome to 6 Minute English. I'm Neil.
-
-And I'm Sam. And today we're talking about memory, or rather, why we forget things.
-
-Now Sam, have you ever walked into a room and completely forgotten why you went in there?
-
-All the time! It's so frustrating. Is there a scientific explanation for this?
-
-Yes, actually there is. It's called the 'doorway effect'. Research suggests that passing through a doorway creates a boundary in our memory, making it harder to recall what we were thinking about before we entered the room.
-
-That's fascinating. So it's not just me being forgetful – my brain is actually compartmentalising information.
-
-Exactly. But forgetting is not always a bad thing. In fact, it's essential for healthy brain function. If we remembered everything, our brains would be overwhelmed with information.
-
-So why do we forget? Is it just because our brains get full?
-
-Not exactly. There are several theories. One is decay theory – the idea that memories naturally fade over time if they're not accessed. Another is interference theory – new information can interfere with old memories.
-
-And then there's motivated forgetting, where we unconsciously forget things that are painful or uncomfortable.
-
-That's right. But the most common reason we forget is simply that we didn't encode the information properly in the first place. If you're not paying attention when someone tells you something, you never really form a memory of it.
-
-So how can we improve our memory?
-
-Well, one technique is called spaced repetition. Instead of trying to learn everything at once, you review information at increasing intervals. This has been shown to be much more effective than cramming.
-
-Another technique is the method of loci, or memory palace. You associate pieces of information with specific locations in a familiar place, like your home.
-
-And of course, getting enough sleep is crucial. During sleep, our brains consolidate memories and clear out unnecessary information.
-
-So forgetting is actually a feature, not a bug, of our brain's design.`,
-            questions: [
-                "What is the 'doorway effect'?",
-                "Is forgetting always bad for the brain? Why or why not?",
-                "Name the three theories of forgetting mentioned in the programme.",
-                "What is spaced repetition and why is it effective?",
-                "Why is sleep important for memory?"
-            ]
-        },
-        {
-            title: "Cambridge IELTS 6 - Test 3 Section 1 (雅思真题·社交场景)",
-            context: "VOA Learning English 慢速英语，讨论AI在教育中的应用，语速适中适合雅思听力训练",
-            audioUrl: "audio/IELTS-6-Test3-Section1.mp3",
-            audioSource: "Cambridge IELTS 6 - Test 3 Section 1",
-            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-6-listening-test-3-section-1/",
-            level: "Band 5-6",
-            transcript: `This is VOA Learning English. Today we report on artificial intelligence and its growing use in education.
-
-Around the world, schools and universities are exploring how AI can help students learn. Some teachers worry that students might use AI tools to write essays or solve math problems without actually learning.
-
-But others see AI as a helpful assistant. For example, AI can create personalized learning plans for each student. It can identify areas where a student needs more practice and provide extra exercises.
-
-At Stanford University, researchers have developed an AI system that can track students' eye movements to understand when they are confused or frustrated. The system then adjusts the difficulty of the material.
-
-Some educators believe AI will eventually replace traditional textbooks. Instead of reading the same material as everyone else, each student would learn from content specially created for them.
-
-However, critics point out that AI systems are only as good as the data they are trained on. If the data contains biases, the AI might teach students in ways that are unfair or incorrect.
-
-Another concern is privacy. AI systems that track students' learning patterns collect a lot of personal data. Who controls this data and how is it protected?
-
-Despite these concerns, the use of AI in education continues to grow. A recent survey found that more than 60 percent of teachers have used some form of AI tool in their classrooms.
-
-Experts say the key is to use AI as a tool to help teachers, not to replace them. The best learning happens when technology and human teachers work together.`,
-            questions: [
-                "What are two opposing views on AI in education?",
-                "How can AI create personalized learning?",
-                "What did Stanford researchers develop?",
-                "What are the two main concerns about AI in education?",
-                "What percentage of teachers have used AI tools in classrooms?"
-            ]
-        },
-        {
-            title: "Cambridge IELTS 2 - Test 2 Section 2 (雅思真题·独白)",
-            context: "剑桥雅思2真题Test 2 Section 2，社交场景独白（旅游/设施介绍），适合训练抓取关键信息的听力能力",
-            audioUrl: "audio/IELTS-2-Test2-Section2.mp3",
-            audioSource: "Cambridge IELTS 2 - Test 2 Section 2",
-            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-2-listening-test-2-section-2/",
-            level: "Band 6",
-            transcript: `[雅思真题 Section 2 听力文本]\n\n本段为旅游信息中心工作人员介绍River View度假村设施的独白。\n考生需捕捉：地点名称、设施开放时间、价格、联系方式等关键信息。\n\n完整题目和答案请访问音频原页面查看。建议练习步骤：\n1. 第一遍：完整听一遍，不看文本，记录大意\n2. 第二遍：分句听写重点信息（数字、时间、地点）\n3. 第三遍：对照 transcript 检查，对照题目订正\n4. 第四遍：跟读模仿语音语调`,
-            questions: [
-                "本段独白主要介绍了什么场所？",
-                "你需要在听力中捕捉哪些类型的具体信息？",
-                "Section 2 通常采用什么题型？",
-                "如何在听 Section 2 时做笔记最高效？"
-            ]
-        },
-        {
-            title: "Cambridge IELTS 6 - Test 2 Section 1 (雅思真题·对话)",
-            context: "剑桥雅思6真题Test 2 Section 1，日常对话场景（旅行/活动安排），适合基础阶段精听训练",
-            audioUrl: "audio/IELTS-6-Test2-Section1.mp3",
-            audioSource: "Cambridge IELTS 6 - Test 2 Section 1",
-            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-6-listening-test-2-section-1/",
-            level: "Band 5-6",
-            transcript: `[雅思真题 Section 1 听力文本]\n\n本段为两人日常对话，通常出现在：\n- 旅行信息咨询（订酒店/问路/买票）\n- 活动安排（俱乐部/课程/工作面试）\n- 个人信息（填表/注册/咨询）\n\nSection 1 是雅思听力最简单的部分，语速较慢、信息清晰。\n重点训练：拼写、数字、时间、日期、字母。\n完整题目和答案请访问音频原页面查看。`,
-            questions: [
-                "Section 1 的对话场景通常是什么类型？",
-                "Section 1 主要考查什么信息？",
-                "为什么 Section 1 是最容易得分的部分？",
-                "如何在听 Section 1 时避免拼写错误？"
-            ]
-        },
-        {
-            title: "Cambridge IELTS 6 - Test 3 Section 4 (雅思真题·学术讲座)",
-            context: "剑桥雅思6真题Test 3 Section 4，学术讲座独白（学科类），难度最高，语速快、专业词汇多",
-            audioUrl: "audio/IELTS-6-Test3-Section4.mp3",
-            audioSource: "Cambridge IELTS 6 - Test 3 Section 4",
-            audioPage: "https://www.ieltspodcast.com/ielts-preparation/cambridge-ielts-6-listening-test-3-section-4/",
-            level: "Band 7+",
-            transcript: `[雅思真题 Section 4 听力文本]\n\n本段为学术讲座独白，通常是：\n- 大学课程介绍（某个学科的发展史）\n- 科学研究报告（实验/调查/发现）\n- 行业分析（市场/技术/社会现象）\n\nSection 4 是雅思听力最难的部分，特点是：\n- 单一speaker独白，无对话辅助\n- 语速快，专业词汇多\n- 信息密集，需要快速笔记\n- 通常会先说一个观点，然后举例/数据支持\n\n训练建议：每天精听1篇 Section 4，先听后记关键词，再对照文本找差距。完整题目和答案请访问音频原页面查看。`,
-            questions: [
-                "Section 4 的语速和 Section 3 相比有什么特点？",
-                "Section 4 的讲座通常涉及哪些主题？",
-                "为什么 Section 4 是最难的部分？",
-                "Section 4 听力训练的关键技巧是什么？"
+                "Listen to one episode without text and write down the main topic.",
+                "What new vocabulary words did you learn? Define each.",
+                "Summarize the episode in 3-4 sentences using your own words.",
+                "Which part was most difficult to understand? Why?",
+                "Write a response to the topic discussed (150 words)."
             ]
         }
     ],

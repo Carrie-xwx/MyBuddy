@@ -232,7 +232,7 @@ const StockModule = {
 
     // 首次加载预填充真实数据
     // 数据版本号 — 每次内容库重大更新时递增，强制刷新本地存储
-    DATA_VERSION: '2026-08-04-v4',
+    DATA_VERSION: '2026-08-04-v5',
 
     prepopulateData() {
         const currentVersion = Storage.get('dataVersion', null);
@@ -942,6 +942,48 @@ const IELTSModule = {
     renderListening() {
         const l = ContentLibrary.listenings[this.listeningIndex % ContentLibrary.listenings.length];
         const el = document.getElementById('listeningContent');
+        let audioHtml = '';
+        if (l.audioUrl && l.audioType === 'hls') {
+            // HLS live stream - needs hls.js
+            audioHtml = `
+                <div id="hls-player-container" style="margin-top:10px">
+                    <audio id="hls-audio" controls preload="none" style="width:100%"></audio>
+                    <p style="font-size:11px;color:var(--text-muted);margin-top:6px">🔴 直播流 · 内容实时更新 · 如无法播放请点击上方链接在源网站收听</p>
+                </div>`;
+            // Initialize HLS after DOM update
+            setTimeout(() => {
+                const audio = document.getElementById('hls-audio');
+                if (!audio) return;
+                const url = l.audioUrl;
+                if (audio.canPlayType('application/vnd.apple.mpegurl')) {
+                    // Safari native HLS
+                    audio.src = url;
+                } else if (window.Hls && Hls.isSupported()) {
+                    // Chrome/Firefox via hls.js
+                    const hls = new Hls();
+                    hls.loadSource(url);
+                    hls.attachMedia(audio);
+                } else {
+                    audioHtml = '<p style="color:var(--text-muted);font-size:12px;padding:10px 0">浏览器不支持HLS直播，请点击上方链接在源网站收听</p>';
+                    const container = document.getElementById('hls-player-container');
+                    if (container) container.innerHTML = audioHtml;
+                }
+            }, 100);
+        } else if (l.audioUrl) {
+            // Regular MP3
+            audioHtml = `
+                <audio controls preload="none" style="width:100%;margin-top:10px">
+                    <source src="${l.audioUrl}" type="audio/mpeg">
+                    你的浏览器不支持音频播放，请使用<a href="${l.audioUrl}" target="_blank">此链接</a>打开
+                </audio>
+                <p style="font-size:11px;color:var(--text-muted);margin-top:6px">提示：如无法播放，可能是网络限制，点击上方链接在源网站收听</p>`;
+        } else {
+            // External resource - no inline player, just link
+            audioHtml = `<div style="padding:14px;background:var(--bg-input);border-radius:var(--radius-sm);text-align:center">
+                <p style="font-size:13px;color:var(--text-secondary);margin-bottom:8px">📋 此资源需在源网站收听（内容丰富、每日更新）</p>
+                <a href="${l.audioPage}" target="_blank" style="display:inline-block;padding:8px 20px;background:var(--accent-purple);color:#fff;border-radius:var(--radius-sm);text-decoration:none;font-size:13px;font-weight:600">前往收听 ↗</a>
+            </div>`;
+        }
         el.innerHTML = `
             <div class="listen-title">${escapeHtml(l.title)}</div>
             <p class="hint-text">场景：${escapeHtml(l.context)}</p>
@@ -951,16 +993,10 @@ const IELTSModule = {
                     <span class="audio-source">🔊 音频来源：${escapeHtml(l.audioSource || '外部音频')}</span>
                     ${l.audioPage ? `<a href="${l.audioPage}" target="_blank" class="audio-link">查看原文页面 ↗</a>` : ''}
                 </div>
-                ${l.audioUrl ? `
-                    <audio controls preload="none" style="width:100%;margin-top:10px">
-                        <source src="${l.audioUrl}" type="audio/mpeg">
-                        你的浏览器不支持音频播放，请使用<a href="${l.audioUrl}" target="_blank">此链接</a>打开
-                    </audio>
-                    <p style="font-size:11px;color:var(--text-dim);margin-top:6px">提示：如无法播放，可能是网络限制，点击上方链接在源网站收听</p>
-                ` : '<p style="color:var(--text-dim);font-size:12px;padding:10px 0">无音频链接，请使用下方文本进行精听训练</p>'}
+                ${audioHtml}
             </div>
             <div class="listen-transcript">
-                <h4 style="margin-bottom:8px">听力文本</h4>
+                <h4 style="margin-bottom:8px">听力文本 / 使用指南</h4>
                 ${l.transcript.split('\n').map(p => `<p style="margin-bottom:8px">${escapeHtml(p)}</p>`).join('')}
             </div>
             <div class="listen-questions">

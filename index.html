@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- iOS PWA Support -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="MyBuddy">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- App Icons -->
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512.png">
+    <link rel="icon" type="image/png" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="1024x1024" href="icons/icon-1024.png">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#131520">
+    <meta name="description" content="MyBuddy - 一体化个人线上工作台：股票研究、雅思备考、每日计划、Vlog创作">
+
+    <title>MyBuddy - 个人工作台</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- 顶部导航栏 -->
+        <header class="top-bar">
+            <div class="top-bar-left">
+                <div class="logo">
+                    <img src="icons/icon-192.png" alt="MyBuddy" class="logo-img">
+                    <span class="logo-text">MyBuddy</span>
+                </div>
+                <span class="current-date" id="currentDate"></span>
+            </div>
+            <div class="top-bar-right">
+                <button class="btn-icon" id="refreshAllBtn" title="刷新所有素材">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+                    <span>刷新素材</span>
+                </button>
+                <button class="btn-icon" id="exportAllBtn" title="导出全部数据">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    <span>导出数据</span>
+                </button>
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text" id="lastUpdated">就绪</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-layout">
+            <!-- 侧边栏 -->
+            <nav class="sidebar">
+                <button class="nav-item active" data-module="stock">
+                    <span class="nav-icon">📊</span>
+                    <span class="nav-label">股票研究</span>
+                    <span class="nav-sub">美股 + A股</span>
+                </button>
+                <button class="nav-item" data-module="ielts">
+                    <span class="nav-icon">📚</span>
+                    <span class="nav-label">雅思备考</span>
+                    <span class="nav-sub">听说读写</span>
+                </button>
+                <button class="nav-item" data-module="planner">
+                    <span class="nav-icon">📋</span>
+                    <span class="nav-label">每日计划</span>
+                    <span class="nav-sub">待办管理</span>
+                </button>
+                <button class="nav-item" data-module="vlog">
+                    <span class="nav-icon">🎬</span>
+                    <span class="nav-label">Vlog创作</span>
+                    <span class="nav-sub">留学自媒体</span>
+                </button>
+                <div class="sidebar-footer">
+                    <div class="quick-stats" id="quickStats">
+                        <div class="stat-item"><span id="statStock">0</span><small>自选股</small></div>
+                        <div class="stat-item"><span id="statStudy">0h</span><small>今日学习</small></div>
+                        <div class="stat-item"><span id="statTasks">0/0</span><small>今日任务</small></div>
+                        <div class="stat-item"><span id="statTopics">0</span><small>选题库</small></div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- 主内容区 -->
+            <main class="content">
+
+                <!-- ===================== 模块1: 股票研究 ===================== -->
+                <section class="module-view active" id="module-stock">
+                    <div class="module-header">
+                        <h2>股票研究工作台</h2>
+                        <div class="module-actions">
+                            <button class="btn-sm btn-outline" onclick="StockModule.addDataEntry()">+ 手动录入行情</button>
+                            <button class="btn-sm btn-outline" onclick="StockModule.copyAll()">复制全部</button>
+                        </div>
+                    </div>
+                    <div class="disclaimer-bar">⚠ 本模块仅整合公开市场信息，不构成任何投资建议。所有数据仅供参考。</div>
+
+                    <!-- 子导航 -->
+                    <div class="sub-tabs">
+                        <button class="sub-tab active" data-sub="market-overview">市场概览</button>
+                        <button class="sub-tab" data-sub="investment-summary">投资推荐</button>
+                        <button class="sub-tab" data-sub="stock-news">财经资讯</button>
+                        <button class="sub-tab" data-sub="stock-screening">个股推荐</button>
+                        <button class="sub-tab" data-sub="stock-watchlist">自选股</button>
+                        <button class="sub-tab" data-sub="stock-notes">交易笔记</button>
+                        <button class="sub-tab" data-sub="stock-log">观察日志</button>
+                    </div>
+
+                    <!-- 市场概览 -->
+                    <div class="sub-panel active" id="sub-market-overview">
+                        <div class="index-grid" id="indexGrid"></div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>今日市场数据录入</h3>
+                                <button class="btn-sm btn-ghost" onclick="StockModule.saveMarketData()">保存</button>
+                            </div>
+                            <div class="card-body">
+                                <textarea id="marketDataInput" class="textarea" rows="6" placeholder="在此粘贴或手动录入今日行情数据（指数名称、涨跌幅、成交量等）。支持自由格式文本录入，系统会保存并展示。&#10;示例：&#10;上证指数 3205.22 +0.85%&#10;深证成指 10288.15 +1.23%&#10;纳斯达克 16832.62 -0.31%&#10;..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 投资推荐总结 -->
+                    <div class="sub-panel" id="sub-investment-summary">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>投资推荐总结</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="StockModule.copyInvestmentSummary()">复制总结</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="disclaimer-bar" style="margin-bottom:12px">⚠ 以下内容仅整合公开信息，不构成投资建议，股市有风险，投资需谨慎。</div>
+                                <div id="investmentSummary" class="investment-summary"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 财经资讯 -->
+                    <div class="sub-panel" id="sub-stock-news">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>重大财经资讯摘要</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="StockModule.addNews()">+ 添加资讯</button>
+                                    <button class="btn-sm btn-outline" onclick="StockModule.copyNews()">复制全部</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div id="newsList" class="news-list"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 个股推荐 -->
+                    <div class="sub-panel" id="sub-stock-screening">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>个股推荐（长线价值 + 超短线热门）</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="StockModule.addScreeningStock()">+ 添加个股</button>
+                                    <button class="btn-sm btn-outline" onclick="StockModule.copyScreening()">复制全部</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="hint-text">参考同花顺热榜/券商金股 + 富途moomoo美股热度，按长线价值和超短线两种策略分类。仅做客观汇总。</p>
+                                <div class="table-wrap">
+                                    <table class="data-table" id="screeningTable">
+                                        <thead>
+                                            <tr>
+                                                <th>序号</th>
+                                                <th>股票名称</th>
+                                                <th>代码</th>
+                                                <th>市场</th>
+                                                <th>所属行业</th>
+                                                <th>策略</th>
+                                                <th>推荐理由 & 来源</th>
+                                                <th>操作</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="screeningBody"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 自选股 -->
+                    <div class="sub-panel" id="sub-stock-watchlist">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>我的自选股</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="StockModule.addWatchlist()">+ 添加自选</button>
+                                    <button class="btn-sm btn-outline" onclick="StockModule.copyWatchlist()">复制全部</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="watchlist-grid" id="watchlistGrid"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 交易笔记 -->
+                    <div class="sub-panel" id="sub-stock-notes">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>交易笔记</h3>
+                                <button class="btn-sm btn-ghost" onclick="StockModule.addNote()">+ 新笔记</button>
+                            </div>
+                            <div class="card-body">
+                                <div class="notes-list" id="stockNotesList"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 观察日志 -->
+                    <div class="sub-panel" id="sub-stock-log">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>每日观察日志</h3>
+                                <button class="btn-sm btn-ghost" onclick="StockModule.addLog()">+ 新日志</button>
+                            </div>
+                            <div class="card-body">
+                                <div class="log-list" id="stockLogList"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===================== 模块2: 雅思备考 ===================== -->
+                <section class="module-view" id="module-ielts">
+                    <div class="module-header">
+                        <h2>雅思备考学习台</h2>
+                        <div class="module-actions">
+                            <button class="btn-sm btn-outline" onclick="IELTSModule.copyAll()">复制全部</button>
+                        </div>
+                    </div>
+
+                    <div class="sub-tabs">
+                        <button class="sub-tab active" data-sub="ielts-reading">每日阅读</button>
+                        <button class="sub-tab" data-sub="ielts-listening">听力训练</button>
+                        <button class="sub-tab" data-sub="ielts-plan">训练计划</button>
+                        <button class="sub-tab" data-sub="ielts-writing">写作范文</button>
+                        <button class="sub-tab" data-sub="ielts-speaking">口语话题</button>
+                        <button class="sub-tab" data-sub="ielts-tracker">学习打卡</button>
+                    </div>
+
+                    <!-- 每日阅读 -->
+                    <div class="sub-panel active" id="sub-ielts-reading">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>每日英语短篇阅读</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="IELTSModule.newReading()">换一篇</button>
+                                    <button class="btn-sm btn-outline" onclick="IELTSModule.copyReading()">复制</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div id="readingContent" class="reading-content"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 听力训练 -->
+                    <div class="sub-panel" id="sub-ielts-listening">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>精听训练素材</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="IELTSModule.newListening()">换素材</button>
+                                    <button class="btn-sm btn-outline" onclick="IELTSModule.copyListening()">复制</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div id="listeningContent" class="listening-content"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header"><h3>精听训练方案</h3></div>
+                            <div class="card-body">
+                                <div class="plan-steps" id="listeningPlan"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 训练计划 -->
+                    <div class="sub-panel" id="sub-ielts-plan">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>雅思听说读写训练计划</h3>
+                                <button class="btn-sm btn-outline" onclick="IELTSModule.copyPlan()">复制计划</button>
+                            </div>
+                            <div class="card-body">
+                                <div class="plan-grid" id="ieltsPlanGrid"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 写作范文 -->
+                    <div class="sub-panel" id="sub-ielts-writing">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>雅思写作范文</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="IELTSModule.newEssay()">换一篇</button>
+                                    <button class="btn-sm btn-outline" onclick="IELTSModule.copyEssay()">复制</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div id="essayContent" class="essay-content"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 口语话题 -->
+                    <div class="sub-panel" id="sub-ielts-speaking">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>口语话题素材</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="IELTSModule.newSpeaking()">换话题</button>
+                                    <button class="btn-sm btn-outline" onclick="IELTSModule.copySpeaking()">复制</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div id="speakingContent" class="speaking-content"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 学习打卡 -->
+                    <div class="sub-panel" id="sub-ielts-tracker">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>今日学习打卡</h3>
+                                <button class="btn-sm btn-outline" onclick="IELTSModule.saveTracker()">保存记录</button>
+                            </div>
+                            <div class="card-body">
+                                <div class="tracker-grid">
+                                    <div class="tracker-item">
+                                        <label>听力 (分钟)</label>
+                                        <input type="number" id="trackListening" min="0" value="0">
+                                    </div>
+                                    <div class="tracker-item">
+                                        <label>阅读 (分钟)</label>
+                                        <input type="number" id="trackReading" min="0" value="0">
+                                    </div>
+                                    <div class="tracker-item">
+                                        <label>写作 (分钟)</label>
+                                        <input type="number" id="trackWriting" min="0" value="0">
+                                    </div>
+                                    <div class="tracker-item">
+                                        <label>口语 (分钟)</label>
+                                        <input type="number" id="trackSpeaking" min="0" value="0">
+                                    </div>
+                                    <div class="tracker-item tracker-total">
+                                        <label>今日总计</label>
+                                        <div class="total-display" id="trackTotal">0 分钟</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header"><h3>学习记录历史</h3></div>
+                            <div class="card-body">
+                                <div class="tracker-history" id="trackerHistory"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===================== 模块3: 每日计划 ===================== -->
+                <section class="module-view" id="module-planner">
+                    <div class="module-header">
+                        <h2>每日计划表</h2>
+                    </div>
+
+                    <div class="planner-toolbar">
+                        <div class="date-nav">
+                            <button class="btn-icon-sm" onclick="PlannerModule.changeDate(-1)">‹</button>
+                            <input type="date" id="plannerDate" class="date-input">
+                            <button class="btn-icon-sm" onclick="PlannerModule.changeDate(1)">›</button>
+                            <button class="btn-sm btn-ghost" onclick="PlannerModule.goToday()">今天</button>
+                        </div>
+                        <div class="planner-summary">
+                            <span id="plannerSummary">共 0 项 · 完成 0 项</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>添加待办事项</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="task-input-row">
+                                <input type="text" id="taskInput" class="input" placeholder="输入待办事项..." onkeypress="if(event.key==='Enter')PlannerModule.addTask()">
+                                <select id="taskCategory" class="select">
+                                    <option value="work">工作</option>
+                                    <option value="study">学习</option>
+                                    <option value="life">生活</option>
+                                    <option value="stock">股票</option>
+                                    <option value="other">其他</option>
+                                </select>
+                                <select id="taskPriority" class="select">
+                                    <option value="high">高优</option>
+                                    <option value="medium" selected>中优</option>
+                                    <option value="low">低优</option>
+                                </select>
+                                <button class="btn-sm btn-primary" onclick="PlannerModule.addTask()">添加</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>今日待办</h3>
+                            <div class="card-actions">
+                                <button class="btn-sm btn-ghost" onclick="PlannerModule.copyTasks()">复制</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="task-list" id="taskList"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>固定任务提醒</h3>
+                            <button class="btn-sm btn-ghost" onclick="PlannerModule.addFixedTask()">+ 添加固定任务</button>
+                        </div>
+                        <div class="card-body">
+                            <div class="fixed-task-list" id="fixedTaskList"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===================== 模块4: Vlog创作 ===================== -->
+                <section class="module-view" id="module-vlog">
+                    <div class="module-header">
+                        <h2>Vlog 自媒体创作台</h2>
+                        <div class="module-actions">
+                            <button class="btn-sm btn-outline" onclick="VlogModule.copyAll()">复制全部</button>
+                        </div>
+                    </div>
+
+                    <div class="sub-tabs">
+                        <button class="sub-tab active" data-sub="vlog-topics">爆款选题</button>
+                        <button class="sub-tab" data-sub="vlog-cases">对标案例</button>
+                        <button class="sub-tab" data-sub="vlog-script">脚本框架</button>
+                        <button class="sub-tab" data-sub="vlog-draft">文案初稿</button>
+                        <button class="sub-tab" data-sub="vlog-library">选题库</button>
+                    </div>
+
+                    <!-- 爆款选题 -->
+                    <div class="sub-panel active" id="sub-vlog-topics">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>今日爆款选题清单</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="VlogModule.refreshTopics()">刷新选题</button>
+                                    <button class="btn-sm btn-outline" onclick="VlogModule.copyTopics()">复制</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="topic-list" id="topicList"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 对标案例 -->
+                    <div class="sub-panel" id="sub-vlog-cases">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>对标优质Vlog案例拆解</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="VlogModule.addCase()">+ 添加案例</button>
+                                    <button class="btn-sm btn-outline" onclick="VlogModule.copyCases()">复制</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="case-list" id="caseList"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 脚本框架 -->
+                    <div class="sub-panel" id="sub-vlog-script">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>视频脚本框架生成</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="VlogModule.generateScript()">生成框架</button>
+                                    <button class="btn-sm btn-outline" onclick="VlogModule.copyScript()">复制</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="input-row">
+                                    <input type="text" id="scriptTopic" class="input" placeholder="输入视频主题，如：留学生第一周适应指南">
+                                </div>
+                                <div id="scriptContent" class="script-content"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 文案初稿 -->
+                    <div class="sub-panel" id="sub-vlog-draft">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>文案初稿生成</h3>
+                                <div class="card-actions">
+                                    <button class="btn-sm btn-ghost" onclick="VlogModule.generateDraft()">生成文案</button>
+                                    <button class="btn-sm btn-outline" onclick="VlogModule.copyDraft()">复制</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="input-row">
+                                    <input type="text" id="draftTopic" class="input" placeholder="输入文案主题...">
+                                </div>
+                                <div id="draftContent" class="draft-content"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 选题库 -->
+                    <div class="sub-panel" id="sub-vlog-library">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>选题库 & 脚本草稿</h3>
+                                <button class="btn-sm btn-ghost" onclick="VlogModule.addToLibrary()">+ 添加选题</button>
+                            </div>
+                            <div class="card-body">
+                                <div class="library-list" id="libraryList"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+
+    <!-- iOS 安装提示 -->
+    <div class="ios-install-hint" id="iosInstallHint" style="display:none">
+        <div class="ios-hint-content">
+            <img src="icons/icon-192.png" alt="MyBuddy" class="ios-hint-icon">
+            <div class="ios-hint-text">
+                <strong>添加 MyBuddy 到主屏幕</strong>
+                <span>点击 Safari 底部的 <b>分享</b> 按钮，选择「添加到主屏幕」</span>
+            </div>
+            <button class="ios-hint-close" onclick="App.dismissIOSHint()">×</button>
+        </div>
+    </div>
+
+    <!-- Toast 提示 -->
+    <div class="toast" id="toast"></div>
+
+        <!-- 模态弹窗 -->
+        <div class="modal-overlay" id="modalOverlay">
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <h3 id="modalTitle"></h3>
+                    <button class="modal-close" onclick="App.closeModal()">×</button>
+                </div>
+                <div class="modal-body" id="modalBody"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        // Register Service Worker for PWA offline support
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('sw.js').then(function(reg) {
+                    console.log('MyBuddy PWA: Service Worker registered');
+                }).catch(function(err) {
+                    console.log('MyBuddy PWA: SW registration failed:', err);
+                });
+            });
+        }
+    </script>
+</body>
+</html>

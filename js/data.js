@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3878.43", change: "+1.47%", market: "A股", updateTime: "2026-08-05 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14144.20", change: "+1.86%", market: "A股", updateTime: "2026-08-05 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3535.14", change: "+1.32%", market: "A股", updateTime: "2026-08-05 实时" },
-        { name: "沪深300", code: "SH000300", value: "4658.15", change: "+1.24%", market: "A股", updateTime: "2026-08-05 实时" },
-        { name: "科创50", code: "SH000688", value: "1693.67", change: "+4.78%", market: "A股", updateTime: "2026-08-05 实时" },
-        { name: "标普500", code: "SPX", value: "7,736.52", change: "+4.14%", market: "美股", updateTime: "2026-08-05 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,584.99", change: "+6.87%", market: "美股", updateTime: "2026-08-05 收盘" },
-        { name: "道琼斯", code: "DJI", value: "54,085.88", change: "+2.54%", market: "美股", updateTime: "2026-08-05 收盘" },
+                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3878.43", change: "+1.47%", market: "A股", updateTime: "2026-08-06 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14144.20", change: "+1.86%", market: "A股", updateTime: "2026-08-06 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3535.14", change: "+1.32%", market: "A股", updateTime: "2026-08-06 实时" },
+        { name: "沪深300", code: "SH000300", value: "4658.15", change: "+1.24%", market: "A股", updateTime: "2026-08-06 实时" },
+        { name: "科创50", code: "SH000688", value: "1693.67", change: "+4.78%", market: "A股", updateTime: "2026-08-06 实时" },
+        { name: "标普500", code: "SPX", value: "7,729.96", change: "+5.66%", market: "美股", updateTime: "2026-08-06 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,454.41", change: "+8.23%", market: "美股", updateTime: "2026-08-06 收盘" },
+        { name: "道琼斯", code: "DJI", value: "54,496.78", change: "+5.63%", market: "美股", updateTime: "2026-08-06 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                marketNews: [
+                    marketNews: [
         {
-            title: "AB英博集团调整营销重心 百威淡啤美国市场持续失守",
-            summary: "全球啤酒巨头AB英博集团近期发布的业绩报告中，其旗下品牌百威淡啤未获重点提及。这一昔日美国最畅销啤酒品牌自2023年与跨性别网红合作引发争议后，销量持续下滑...",
+            title: "美股周三午盘涨跌不一，道指涨幅收窄，纳指与标普指数转跌",
+            summary: " 北京时间8月6日凌晨，美股周三午盘涨跌不一，道指涨幅收窄，纳指与标普500指数转跌。市场继续关注美股财报与伊朗局势。",
             source: "环球市场播报",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiec5191295.shtml"
-        },
-        {
-            title: "段永平持仓从7.65%降至5.55%，泡泡玛特澄清：不是主动减持",
-            summary: "每经记者|毕媛媛每经编辑|陈旭 8月5日，港交所披露一则权益变动信息：段永平通过H&amp;H International Investment持有的泡泡玛特（09992.HK）多头仓位，于7月30日从7...",
-            source: "每日经济新闻",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-08-05/doc-inimhiem1363545.shtml"
-        },
-        {
-            title: "SpaceX巨额亏损，同时抛出宏大业绩目标",
-            summary: "有个问题：成立 24 年的 SpaceX，哪里像一家初创新公司？答案是：它烧钱规模达到营收的两倍！ 这是 SpaceX 上市之后首份财报释放出的关键信息。",
-            source: "环球市场播报",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiec5162806.shtml"
-        },
-        {
-            title: "Airtable出售给Bending Spoons交易内情",
-            summary: "结局令人唏嘘。两家公司周二官宣：Airtable 将被意大利企业集团 Bending Spoons 以12.85 亿美元现金收购。 2021 年，这家效率工具企业在不到两年完成三轮融资...",
-            source: "环球市场播报",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiec5158241.shtml"
-        },
-        {
-            title: "OpenAI称苹果发起的诉讼草率、“带有莫名的私人情绪”",
-            summary: "OpenAI 表示，前员工能够获取敏感资料，根源在于苹果自身存在安全漏洞 苹果上月起诉 OpenAI，指控后者窃取商业机密。OpenAI 作出强硬全面回应。",
-            source: "环球市场播报",
-            date: "2026-08-05",
+            date: "2026-08-06",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiei4565379.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimhtuf1187495.shtml"
         },
         {
-            title: "Coinbase等企业自研代码智能体，作为Anthropic克劳德代码工具的补充",
-            summary: " 加密货币交易所 Coinbase、Shopify、Ramp 等具备技术实力的企业，已搭建自研 AI 代码智能体供内部使用，为本公司员工提供 Anthropic、OpenAI 高价产品之外的替代方案。",
+            title: "EIA：美国原油库存上周增加247.9万桶 预估中值为减少150万桶",
+            summary: "美国能源信息管理局（EIA）库存报告还显示上周有如下变动： 汽油库存减少164.3万桶，预估为减少145万桶； 馏分油库存减少347.3万桶，预估为增长41...",
             source: "环球市场播报",
             date: "2026-08-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiem1336624.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-05/doc-inimhttx5035285.shtml"
         },
         {
-            title: "SpaceX上市后首份财报披露：公司大举投入人工智能业务",
-            summary: "公司财报显示营收 78 亿美元，同比大增 92% SpaceX 发布二季度财报。尽管当期营收达到 78 亿美元、同比大涨 92%，财报同时反映出企业正斥巨资布局人工智能业务。",
+            title: "伊朗称已与阿曼就霍尔木兹海峡通航路线达成一致",
+            summary: "伊朗外交部发言人Esmail Baghaei表示，伊朗与阿曼已就霍尔木兹海峡拟议航线的地理坐标达成一致。 他表示，两国联合声明正在审议中，并已进入最后起草阶段...",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-08-05/doc-inimhtuf1177358.shtml"
+        },
+        {
+            title: "市场关注重开霍尔木兹海峡进展 金银价格齐涨",
+            summary: " 随着有关达成临时协议、重开霍尔木兹海峡的预期升温，市场对通胀前景的担忧有所缓解，美联储加息的可能性下降，金价连续第三个交易日上涨。",
             source: "环球市场播报",
             date: "2026-08-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhicz3543065.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-05/doc-inimhttx5031120.shtml"
         },
         {
-            title: "大空头伯里押注行情见顶：“市场临近重要高点，或将上演类似1987年的暴跌”",
-            summary: "核心要点 伯里周二在 Substack 专栏发文：“我依旧认为市场可能已经临近一轮大级别顶部，或将出现类似 1987 年式的暴跌。” 受企业财报好于预期、油价再度下行提振...",
+            title: "美国经济保持增长势头，但成本上升抑制新增招聘",
+            summary: " 美国经济最大组成部分7月以稳健步伐增长，但关键物资供应零散短缺以及顽固的通胀推高了企业成本，企业对此的回应是控制招聘规模。",
             source: "环球市场播报",
             date: "2026-08-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhicz3539653.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhtuf1172073.shtml"
+        },
+        {
+            title: "迪士尼考虑推出免费广告版流媒体 超级碗广告时段已全部售罄",
+            summary: "【核心要点】 迪士尼首席执行官乔希・达马罗在投资者财报电话会议上透露，公司正在探索面向消费者推出免费带广告流媒体服务。 当下广告业务对于流媒体平台实现盈利...",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhttv3419518.shtml"
+        },
+        {
+            title: "空头惨遭碾压，纳斯达克100指数创下近十年十大多头行情信号",
+            summary: "周二美股开盘起，市场走势便清晰预示：一轮不同寻常的上涨行情即将上演。 芝加哥期权交易所（Cboe）场内交易氛围开盘瞬间彻底沸腾，高涨情绪一直延续至收盘。",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhtuf1171303.shtml"
+        },
+        {
+            title: "美国7月服务业维持扩张态势 采购经理指数微升至54.1",
+            summary: " 8月5日发布的数据显示，美国7月服务业采购经理指数（PMI）微升至54.1，表明该国服务业活动持续扩张，但整体增幅略低于市场预期。",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhttx5020760.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                investmentSummary: {
-        date: "2026-08-05",
-        marketAssessment: "A股方面：上证指数报3878.43点（+1.47%），深证成指报14144.20点（+1.86%），创业板指报3535.14点（+1.32%）。美股方面：标普500报7,736.52（+4.14%），纳斯达克报26,584.99（+6.87%）。",
+                    investmentSummary: {
+        date: "2026-08-06",
+        marketAssessment: "A股方面：上证指数报3878.43点（+1.47%），深证成指报14144.20点（+1.86%），创业板指报3535.14点（+1.32%）。美股方面：标普500报7,729.96（+5.66%），纳斯达克报26,454.41（+8.23%）。",
         hotSectors: [
             { name: "钨", reason: "板块涨幅+9.08%", strength: "强" },
             { name: "白银", reason: "板块涨幅+8.63%", strength: "强" },

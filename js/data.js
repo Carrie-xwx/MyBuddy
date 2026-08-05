@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                    marketIndices: [
+                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3878.43", change: "+1.47%", market: "A股", updateTime: "2026-08-06 实时" },
         { name: "深证成指", code: "SZ399001", value: "14144.20", change: "+1.86%", market: "A股", updateTime: "2026-08-06 实时" },
         { name: "创业板指", code: "SZ399006", value: "3535.14", change: "+1.32%", market: "A股", updateTime: "2026-08-06 实时" },
         { name: "沪深300", code: "SH000300", value: "4658.15", change: "+1.24%", market: "A股", updateTime: "2026-08-06 实时" },
         { name: "科创50", code: "SH000688", value: "1693.67", change: "+4.78%", market: "A股", updateTime: "2026-08-06 实时" },
-        { name: "标普500", code: "SPX", value: "7,729.96", change: "+5.66%", market: "美股", updateTime: "2026-08-06 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,454.41", change: "+8.23%", market: "美股", updateTime: "2026-08-06 收盘" },
-        { name: "道琼斯", code: "DJI", value: "54,496.78", change: "+5.63%", market: "美股", updateTime: "2026-08-06 收盘" },
+        { name: "标普500", code: "SPX", value: "7,742.25", change: "+5.82%", market: "美股", updateTime: "2026-08-06 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,455.58", change: "+8.23%", market: "美股", updateTime: "2026-08-06 收盘" },
+        { name: "道琼斯", code: "DJI", value: "54,553.57", change: "+5.74%", market: "美股", updateTime: "2026-08-06 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                    marketNews: [
+                        marketNews: [
         {
-            title: "美股周三午盘涨跌不一，道指涨幅收窄，纳指与标普指数转跌",
-            summary: " 北京时间8月6日凌晨，美股周三午盘涨跌不一，道指涨幅收窄，纳指与标普500指数转跌。市场继续关注美股财报与伊朗局势。",
+            title: "富兰克林邓普顿任命Rene Buehlmann为亚太主管",
+            summary: " 富兰克林邓普顿周三在声明中表示，继续扩充其全球客户集团（Global Client Group）管理层，以强化公司在全球产品、ETF和亚太市场的布局。",
             source: "环球市场播报",
             date: "2026-08-06",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimhtuf1187495.shtml"
-        },
-        {
-            title: "EIA：美国原油库存上周增加247.9万桶 预估中值为减少150万桶",
-            summary: "美国能源信息管理局（EIA）库存报告还显示上周有如下变动： 汽油库存减少164.3万桶，预估为减少145万桶； 馏分油库存减少347.3万桶，预估为增长41...",
-            source: "环球市场播报",
-            date: "2026-08-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-05/doc-inimhttx5035285.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhxzz4318524.shtml"
         },
         {
-            title: "伊朗称已与阿曼就霍尔木兹海峡通航路线达成一致",
-            summary: "伊朗外交部发言人Esmail Baghaei表示，伊朗与阿曼已就霍尔木兹海峡拟议航线的地理坐标达成一致。 他表示，两国联合声明正在审议中，并已进入最后起草阶段...",
+            title: "谷歌AI业务迎重大人事变动 Alphabet股价应声跌逾5%",
+            summary: "Alphabet旗下谷歌正失去一些最知名的人工智能老将，这场重大人事调整引发外界对这一关键增长领域领导层的质疑，此时人工智能领域的竞争正日益激烈。",
             source: "环球市场播报",
-            date: "2026-08-05",
+            date: "2026-08-06",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1090767.shtml"
+        },
+        {
+            title: "伊朗称美国传话愿重新履约 惟德黑兰尚未决定是否进行第二阶段谈判",
+            summary: " 伊朗副外长Kazem Gharibabadi对伊通社表示，从美国方面收到的信息表明华盛顿已做好重新履行承诺的充分准备，但德黑兰尚未决定是否迈向“第二阶段”。",
+            source: "环球市场播报",
+            date: "2026-08-06",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-08-05/doc-inimhtuf1177358.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhxzt3359871.shtml"
         },
         {
-            title: "市场关注重开霍尔木兹海峡进展 金银价格齐涨",
-            summary: " 随着有关达成临时协议、重开霍尔木兹海峡的预期升温，市场对通胀前景的担忧有所缓解，美联储加息的可能性下降，金价连续第三个交易日上涨。",
+            title: "伊朗称与阿曼就霍尔木兹临时航道的谈判接近尾声",
+            summary: "伊朗副外长Kazem Gharibabadi对伊通社表示，该国和阿曼正在就霍尔木兹海峡一条为期“2到4个月”的“临时航道”进行谈判。 Gharibabadi称谈判“已接近最后阶段”。",
             source: "环球市场播报",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-05/doc-inimhttx5031120.shtml"
+            date: "2026-08-06",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1084865.shtml"
         },
         {
-            title: "美国经济保持增长势头，但成本上升抑制新增招聘",
-            summary: " 美国经济最大组成部分7月以稳健步伐增长，但关键物资供应零散短缺以及顽固的通胀推高了企业成本，企业对此的回应是控制招聘规模。",
+            title: "欧洲股市涨势受抑 汇丰和诺和诺德领跌",
+            summary: "欧洲股市在纪录高位附近持稳，汇丰控股和诺和诺德下跌抹去了早些时候的涨幅。 斯托克欧洲600指数收盘基本持平，此前一度上涨0.5%。",
             source: "环球市场播报",
-            date: "2026-08-05",
+            date: "2026-08-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhtuf1172073.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1084732.shtml"
         },
         {
-            title: "迪士尼考虑推出免费广告版流媒体 超级碗广告时段已全部售罄",
-            summary: "【核心要点】 迪士尼首席执行官乔希・达马罗在投资者财报电话会议上透露，公司正在探索面向消费者推出免费带广告流媒体服务。 当下广告业务对于流媒体平台实现盈利...",
+            title: "黑客瞄准华尔街 大型对冲基金和私募公司沦为网络攻击目标",
+            summary: "知情人士透露，黑客近几日对华尔街发起了一波复杂的攻击，将目标对准了大型资金管理公司的信息系统。 其中一位不愿公开身份的知情人士透露...",
             source: "环球市场播报",
-            date: "2026-08-05",
+            date: "2026-08-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhttv3419518.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1084612.shtml"
         },
         {
-            title: "空头惨遭碾压，纳斯达克100指数创下近十年十大多头行情信号",
-            summary: "周二美股开盘起，市场走势便清晰预示：一轮不同寻常的上涨行情即将上演。 芝加哥期权交易所（Cboe）场内交易氛围开盘瞬间彻底沸腾，高涨情绪一直延续至收盘。",
+            title: "欧洲债市：欧洲债券在油价下跌之际持稳",
+            summary: "欧洲政府债券日内总体持平，市场正等待美国与伊朗和平谈判进展的消息，相关进展可能预示霍尔木兹海峡重新开放。 布伦特原油维持在每桶80美元以下。",
             source: "环球市场播报",
-            date: "2026-08-05",
+            date: "2026-08-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhtuf1171303.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1075404.shtml"
         },
         {
-            title: "美国7月服务业维持扩张态势 采购经理指数微升至54.1",
-            summary: " 8月5日发布的数据显示，美国7月服务业采购经理指数（PMI）微升至54.1，表明该国服务业活动持续扩张，但整体增幅略低于市场预期。",
+            title: "特朗普政府退还1000亿美元“解放日”关税税款",
+            summary: "【核心要点】 特朗普政府宣布，已经退还约 1000 亿美元依靠 2025 年 “解放日” 关税政策征得的关税收入。 美国最高法院裁定这批依据《国际紧急经济权力法》（IEEPA）征收的...",
             source: "环球市场播报",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhttx5020760.shtml"
+            date: "2026-08-06",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimhxzv4935444.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                    investmentSummary: {
+                        investmentSummary: {
         date: "2026-08-06",
-        marketAssessment: "A股方面：上证指数报3878.43点（+1.47%），深证成指报14144.20点（+1.86%），创业板指报3535.14点（+1.32%）。美股方面：标普500报7,729.96（+5.66%），纳斯达克报26,454.41（+8.23%）。",
+        marketAssessment: "A股方面：上证指数报3878.43点（+1.47%），深证成指报14144.20点（+1.86%），创业板指报3535.14点（+1.32%）。美股方面：标普500报7,742.25（+5.82%），纳斯达克报26,455.58（+8.23%）。",
         hotSectors: [
             { name: "钨", reason: "板块涨幅+9.08%", strength: "强" },
             { name: "白银", reason: "板块涨幅+8.63%", strength: "强" },

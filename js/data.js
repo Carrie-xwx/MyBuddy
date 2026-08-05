@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-            marketIndices: [
+                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3878.43", change: "+1.47%", market: "A股", updateTime: "2026-08-05 实时" },
         { name: "深证成指", code: "SZ399001", value: "14144.20", change: "+1.86%", market: "A股", updateTime: "2026-08-05 实时" },
         { name: "创业板指", code: "SZ399006", value: "3535.14", change: "+1.32%", market: "A股", updateTime: "2026-08-05 实时" },
@@ -669,7 +669,55 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-            marketNews: [
+                marketNews: [
+        {
+            title: "AB英博集团调整营销重心 百威淡啤美国市场持续失守",
+            summary: "全球啤酒巨头AB英博集团近期发布的业绩报告中，其旗下品牌百威淡啤未获重点提及。这一昔日美国最畅销啤酒品牌自2023年与跨性别网红合作引发争议后，销量持续下滑...",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiec5191295.shtml"
+        },
+        {
+            title: "段永平持仓从7.65%降至5.55%，泡泡玛特澄清：不是主动减持",
+            summary: "每经记者|毕媛媛每经编辑|陈旭 8月5日，港交所披露一则权益变动信息：段永平通过H&amp;H International Investment持有的泡泡玛特（09992.HK）多头仓位，于7月30日从7...",
+            source: "每日经济新闻",
+            date: "2026-08-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-08-05/doc-inimhiem1363545.shtml"
+        },
+        {
+            title: "SpaceX巨额亏损，同时抛出宏大业绩目标",
+            summary: "有个问题：成立 24 年的 SpaceX，哪里像一家初创新公司？答案是：它烧钱规模达到营收的两倍！ 这是 SpaceX 上市之后首份财报释放出的关键信息。",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiec5162806.shtml"
+        },
+        {
+            title: "Airtable出售给Bending Spoons交易内情",
+            summary: "结局令人唏嘘。两家公司周二官宣：Airtable 将被意大利企业集团 Bending Spoons 以12.85 亿美元现金收购。 2021 年，这家效率工具企业在不到两年完成三轮融资...",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiec5158241.shtml"
+        },
+        {
+            title: "OpenAI称苹果发起的诉讼草率、“带有莫名的私人情绪”",
+            summary: "OpenAI 表示，前员工能够获取敏感资料，根源在于苹果自身存在安全漏洞 苹果上月起诉 OpenAI，指控后者窃取商业机密。OpenAI 作出强硬全面回应。",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiei4565379.shtml"
+        },
+        {
+            title: "Coinbase等企业自研代码智能体，作为Anthropic克劳德代码工具的补充",
+            summary: " 加密货币交易所 Coinbase、Shopify、Ramp 等具备技术实力的企业，已搭建自研 AI 代码智能体供内部使用，为本公司员工提供 Anthropic、OpenAI 高价产品之外的替代方案。",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiem1336624.shtml"
+        },
         {
             title: "SpaceX上市后首份财报披露：公司大举投入人工智能业务",
             summary: "公司财报显示营收 78 亿美元，同比大增 92% SpaceX 发布二季度财报。尽管当期营收达到 78 亿美元、同比大涨 92%，财报同时反映出企业正斥巨资布局人工智能业务。",
@@ -685,54 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-08-05",
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhicz3539653.shtml"
-        },
-        {
-            title: "AMD财报业绩超出预期，盘前股价大跌8%",
-            summary: "核心要点AMD 周三盘前股价大幅下挫。德意志银行分析师在周三研报中表示：公司二季度业绩小幅高于市场一致预期，但不及更为乐观的上限预估。",
-            source: "环球市场播报",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhicz3538455.shtml"
-        },
-        {
-            title: "移民团体报告：特朗普驱逐移民政策推高物价、拖累地方经济",
-            summary: "核心要点 亲移民倡导组织 “美国之声”发布一份报告，称唐纳德・特朗普总统的移民政策正在损害美国经济。 报告指出，特朗普的大规模驱逐行动推高食品、住房与医疗价格...",
-            source: "环球市场播报",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhicz3537036.shtml"
-        },
-        {
-            title: "大商所焦炭期权将于9月2日上市",
-            summary: "8月5日，大商所正式发布焦炭期权合约及上市交易有关事项的通知，对焦炭期权的合约规则、上市交易时间、上市交易合约、挂牌基准价等事项进行了明确。",
-            source: "市场资讯",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-08-05/doc-inimhiem1323894.shtml"
-        },
-        {
-            title: "俄军袭击基辅至少造成17人遇难，乌克兰持续打击野莓电商多处仓库",
-            summary: "核心要点 俄罗斯出动大批无人机与弹道导弹袭击乌克兰首都，这是今年克里姆林宫针对基辅伤亡最惨重的袭击之一。 俄乌双方正加大对彼此关键基础设施与物流枢纽的空中打击力度...",
-            source: "环球市场播报",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiei4550670.shtml"
-        },
-        {
-            title: "美债收益率下行，交易员密切关注伊朗相关和平协议进展",
-            summary: " 周三美国国债收益率持续走低，投资者正在评估，一项有望畅通霍尔木兹海峡的潜在协议，将如何影响美国经济前景与通胀走势。",
-            source: "环球市场播报",
-            date: "2026-08-05",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiei4549007.shtml"
-        },
-        {
-            title: "美联储抗通胀决心遭质疑 巴克莱和汇丰看好通胀保值债券",
-            summary: " 巴克莱和汇丰控股表示，市场担忧美联储在抗击通胀方面行动迟缓，为投资者买入可抵御物价加速上涨的债券增添了新的理由。",
-            source: "环球市场播报",
-            date: "2026-08-05",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiec5135851.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-            investmentSummary: {
+                investmentSummary: {
         date: "2026-08-05",
         marketAssessment: "A股方面：上证指数报3878.43点（+1.47%），深证成指报14144.20点（+1.86%），创业板指报3535.14点（+1.32%）。美股方面：标普500报7,736.52（+4.14%），纳斯达克报26,584.99（+6.87%）。",
         hotSectors: [

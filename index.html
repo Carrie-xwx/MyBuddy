@@ -120,6 +120,15 @@
                         <div class="index-grid" id="indexGrid"></div>
                         <div class="card">
                             <div class="card-header">
+                                <h3>上证指数 K线图 (120日)</h3>
+                                <button class="btn-sm btn-ghost" onclick="StockModule.renderKLineChart()">刷新K线</button>
+                            </div>
+                            <div class="card-body">
+                                <div id="klineChart" style="width:100%;min-height:320px"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
                                 <h3>今日市场数据录入</h3>
                                 <button class="btn-sm btn-ghost" onclick="StockModule.saveMarketData()">保存</button>
                             </div>

@@ -4,7 +4,18 @@ on:
   schedule:
     # 08:30 Beijing time = 00:30 UTC
     - cron: '30 0 * * *'
+    # 12:30 Beijing time = 04:30 UTC (lunch update)
+    - cron: '30 4 * * *'
+    # 16:30 Beijing time = 08:30 UTC (afternoon update)
+    - cron: '30 8 * * *'
+    # 20:30 Beijing time = 12:30 UTC (evening update)
+    - cron: '30 12 * * *'
   workflow_dispatch: # Manual trigger from GitHub Actions tab
+  push:
+    branches: [ main ]
+    paths:
+      - 'scripts/fetch_data.py'
+      - '.github/workflows/daily-update.yml'
 
 jobs:
   update-data:

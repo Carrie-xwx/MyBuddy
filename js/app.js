@@ -228,11 +228,13 @@ const StockModule = {
         this.renderNotes();
         this.renderLogs();
         this.loadMarketData();
+        // 页面加载后自动获取实时数据
+        setTimeout(() => this.fetchRealTimeData(), 500);
     },
 
     // 首次加载预填充真实数据
     // 数据版本号 — 每次内容库重大更新时递增，强制刷新本地存储
-    DATA_VERSION: '2026-08-04-v5',
+    DATA_VERSION: '2026-08-05-v7',
 
     prepopulateData() {
         const currentVersion = Storage.get('dataVersion', null);
@@ -272,13 +274,439 @@ const StockModule = {
     },
 
     refreshData() {
-        // 刷新时保留用户数据，仅更新显示
-        this.renderIndices();
-        this.renderNews();
-        this.renderScreening();
-        this.renderInvestmentSummary();
+        // 刷新时重新获取实时数据
+        this.fetchRealTimeData();
         this.renderWatchlist();
         App.updateQuickStats();
+    },
+
+    // ---- 实时数据获取（浏览器端直接拉取，不依赖 GitHub Actions） ----
+    async fetchRealTimeData() {
+        const today = formatDate(new Date());
+        let updated = false;
+
+        const lastUpdatedEl = document.getElementById('lastUpdated');
+        if (lastUpdatedEl) lastUpdatedEl.textContent = '正在获取实时数据...';
+
+        // 1. A股指数 — Tencent JSONP（script tag，无 CORS 问题）
+        try {
+            const aIndices = await this.fetchAShareIndices(today);
+            if (aIndices && aIndices.length > 0) {
+                const existing = Storage.get('marketIndices', ContentLibrary.marketIndices);
+                const usExisting = existing.filter(i => i.market === '美股');
+                const newIndices = [...aIndices, ...usExisting];
+                Storage.set('marketIndices', newIndices);
+                const dataText = newIndices.map(idx =>
+                    `${idx.name} ${idx.value} ${idx.change} (${idx.updateTime || ''})`
+                ).join('\n');
+                Storage.set('marketData', dataText);
+                if (document.getElementById('marketDataInput')) {
+                    document.getElementById('marketDataInput').value = dataText;
+                }
+                this.renderIndices();
+                updated = true;
+                console.log('[实时数据] A股指数更新成功', aIndices.length, '条');
+            }
+        } catch (e) {
+            console.warn('[实时数据] A股指数获取失败:', e.message);
+        }
+
+        // 2. 美股指数 — Yahoo Finance via CORS proxy
+        try {
+            const usIndices = await this.fetchUSIndices(today);
+            if (usIndices && usIndices.length > 0) {
+                const existing = Storage.get('marketIndices', []);
+                const aExisting = existing.filter(i => i.market === 'A股');
+                const newIndices = [...aExisting, ...usIndices];
+                Storage.set('marketIndices', newIndices);
+                const dataText = newIndices.map(idx =>
+                    `${idx.name} ${idx.value} ${idx.change} (${idx.updateTime || ''})`
+                ).join('\n');
+                Storage.set('marketData', dataText);
+                if (document.getElementById('marketDataInput')) {
+                    document.getElementById('marketDataInput').value = dataText;
+                }
+                this.renderIndices();
+                updated = true;
+                console.log('[实时数据] 美股指数更新成功', usIndices.length, '条');
+            }
+        } catch (e) {
+            console.warn('[实时数据] 美股指数获取失败:', e.message);
+        }
+
+        // 3. 财经资讯 — 新浪财经 via CORS proxy
+        try {
+            const news = await this.fetchNews(today);
+            if (news && news.length > 0) {
+                Storage.set('stockNews', news);
+                this.renderNews();
+                updated = true;
+                console.log('[实时数据] 财经资讯更新成功', news.length, '条');
+            }
+        } catch (e) {
+            console.warn('[实时数据] 财经资讯获取失败:', e.message);
+        }
+
+        // 4. 强弱板块 — 东方财富 via CORS proxy
+        try {
+            const sectors = await this.fetchSectors(today);
+            if (sectors && sectors.hot && sectors.hot.length >= 0) {
+                this.updateInvestmentSummary(today, sectors);
+                this.renderInvestmentSummary();
+                updated = true;
+                console.log('[实时数据] 板块数据更新成功');
+            }
+        } catch (e) {
+            console.warn('[实时数据] 板块数据获取失败:', e.message);
+        }
+
+        // 5. K线图
+        try {
+            await this.renderKLineChart();
+        } catch (e) {
+            console.warn('[实时数据] K线图获取失败:', e.message);
+        }
+
+        if (lastUpdatedEl) {
+            lastUpdatedEl.textContent = '更新于 ' + new Date().toLocaleTimeString('zh-CN');
+        }
+
+        if (updated) {
+            App.toast('实时数据已更新');
+        }
+        return updated;
+    },
+
+    // A股指数 — Tencent JSONP（script tag 方式，绕过 CORS）
+    fetchAShareIndices(today) {
+        return new Promise((resolve, reject) => {
+            const symbols = ['sh000001', 'sz399001', 'sz399006', 'sh000300', 'sh000688'];
+            const nameMap = {
+                'v_sh000001': { name: '上证指数', code: 'SH000001' },
+                'v_sz399001': { name: '深证成指', code: 'SZ399001' },
+                'v_sz399006': { name: '创业板指', code: 'SZ399006' },
+                'v_sh000300': { name: '沪深300', code: 'SH000300' },
+                'v_sh000688': { name: '科创50', code: 'SH000688' },
+            };
+            symbols.forEach(s => { delete window['v_' + s]; });
+            const script = document.createElement('script');
+            script.src = `https://qt.gtimg.cn/q=${symbols.join(',')}`;
+            script.charset = 'gbk';
+            script.onload = () => {
+                const results = [];
+                for (const [varName, info] of Object.entries(nameMap)) {
+                    const val = window[varName];
+                    if (val && typeof val === 'string') {
+                        const parts = val.split('~');
+                        if (parts.length > 5) {
+                            const current = parts[3];
+                            let changePct = parseFloat(parts[32] || parts[6] || '0');
+                            const chgSign = changePct >= 0 ? '+' : '';
+                            results.push({
+                                name: info.name, code: info.code,
+                                value: parseFloat(current).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}),
+                                change: `${chgSign}${changePct.toFixed(2)}%`,
+                                market: 'A股',
+                                updateTime: `${today} 实时`
+                            });
+                        }
+                    }
+                }
+                script.remove();
+                symbols.forEach(s => { delete window['v_' + s]; });
+                resolve(results);
+            };
+            script.onerror = () => { script.remove(); reject(new Error('Tencent JSONP load failed')); };
+            setTimeout(() => {
+                if (document.head.contains(script)) { script.remove(); reject(new Error('Tencent JSONP timeout')); }
+            }, 10000);
+            document.head.appendChild(script);
+        });
+    },
+
+    // 美股指数 — Yahoo Finance via CORS proxy
+    async fetchUSIndices(today) {
+        const proxy = 'https://api.allorigins.win/raw?url=';
+        const symbols = [
+            { sym: '^GSPC', name: '标普500', code: 'SPX' },
+            { sym: '^IXIC', name: '纳斯达克', code: 'IXIC' },
+            { sym: '^DJI', name: '道琼斯', code: 'DJI' },
+        ];
+        const results = [];
+        for (const { sym, name, code } of symbols) {
+            try {
+                const yahooUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=1d&range=5d`;
+                const resp = await fetch(proxy + encodeURIComponent(yahooUrl), { signal: AbortSignal.timeout(15000) });
+                const data = await resp.json();
+                const meta = data?.chart?.result?.[0]?.meta;
+                if (meta) {
+                    const price = meta.regularMarketPrice || 0;
+                    const prev = meta.chartPreviousClose || meta.previousClose || price;
+                    let changePct = prev > 0 ? (price - prev) / prev * 100 : 0;
+                    const chgSign = changePct >= 0 ? '+' : '';
+                    results.push({
+                        name, code,
+                        value: price.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}),
+                        change: `${chgSign}${changePct.toFixed(2)}%`,
+                        market: '美股',
+                        updateTime: `${today} 收盘`
+                    });
+                }
+            } catch (e) {
+                console.warn(`[实时数据] 美股 ${name} 获取失败:`, e.message);
+            }
+        }
+        return results;
+    },
+
+    // 财经资讯 — 新浪财经 via CORS proxy
+    async fetchNews(today) {
+        const proxy = 'https://api.allorigins.win/raw?url=';
+        const sinaUrl = 'https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2516&k=&num=10&page=1';
+        const resp = await fetch(proxy + encodeURIComponent(sinaUrl), { signal: AbortSignal.timeout(15000) });
+        const data = await resp.json();
+        const articles = data?.result?.data || [];
+        const results = [];
+        for (const art of articles.slice(0, 10)) {
+            let title = (art.title || '').replace(/<[^>]+>/g, '');
+            let summary = (art.summary || art.intro || '').replace(/<[^>]+>/g, '') || title;
+            const media = art.media_name || '新浪财经';
+            const url = art.url || '';
+            let dateStr = today;
+            const ctime = art.ctime || '';
+            if (ctime) {
+                if (/^\d+$/.test(ctime)) {
+                    dateStr = new Date(parseInt(ctime) * 1000).toLocaleDateString('zh-CN').replace(/\//g, '-');
+                } else {
+                    dateStr = ctime.slice(0, 10);
+                }
+            }
+            let tag = 'A股';
+            const combined = title + ' ' + media;
+            if (/美股|纳指|标普|道琼|苹果|英伟达|特斯拉|美联储|Fed|美股|纳市|NYSE|NASDAQ/.test(combined)) tag = '美股';
+            else if (/港股|恒生|港元|港交所/.test(combined)) tag = '港股';
+            else if (/PMI|GDP|央行|利率|社融|通胀|就业|CPI|PPI|LPR|降息|加息|地缘|关税/.test(combined)) tag = '宏观';
+            else if (/半导体|芯片|新能源|光伏|储能|AI|算力|核电|电力|机器人|低空/.test(combined)) tag = '行业';
+            results.push({ title, summary: summary.slice(0, 300), source: media, date: dateStr, tag, url });
+        }
+        return results;
+    },
+
+    // 强弱板块 — 东方财富 via CORS proxy
+    async fetchSectors(today) {
+        const proxy = 'https://api.allorigins.win/raw?url=';
+        const baseUrl = 'https://push2.eastmoney.com/api/qt/clist/get';
+        const baseParams = 'pn=1&np=1&fltt=2&invt=2&fields=f2,f3,f4,f12,f14&fs=m:90+t:2+f:!50&fid=f3';
+        const hot = [], weak = [];
+        try {
+            const hotUrl = `${baseUrl}?${baseParams}&po=1&pz=5`;
+            const hotResp = await fetch(proxy + encodeURIComponent(hotUrl), { signal: AbortSignal.timeout(15000) });
+            const hotData = await hotResp.json();
+            let items = hotData?.data?.diff || [];
+            if (Array.isArray(items) === false && typeof items === 'object') items = Object.values(items);
+            for (const item of items.slice(0, 4)) {
+                const change = item.f3 || 0;
+                hot.push({ name: item.f14 || '', reason: `板块涨幅${change >= 0 ? '+' : ''}${change.toFixed(2)}%`, strength: change > 3 ? '强' : (change > 1 ? '中强' : '中') });
+            }
+        } catch (e) { console.warn('[板块] 热门板块获取失败:', e.message); }
+        try {
+            const weakUrl = `${baseUrl}?${baseParams}&po=0&pz=3`;
+            const weakResp = await fetch(proxy + encodeURIComponent(weakUrl), { signal: AbortSignal.timeout(15000) });
+            const weakData = await weakResp.json();
+            let items = weakData?.data?.diff || [];
+            if (Array.isArray(items) === false && typeof items === 'object') items = Object.values(items);
+            for (const item of items.slice(0, 2)) {
+                const change = item.f3 || 0;
+                weak.push({ name: item.f14 || '', reason: `板块跌幅${change.toFixed(2)}%`, strength: '弱' });
+            }
+        } catch (e) { console.warn('[板块] 弱势板块获取失败:', e.message); }
+        return { hot, weak };
+    },
+
+    // 更新投资总结
+    updateInvestmentSummary(today, sectors) {
+        const indices = Storage.get('marketIndices', []);
+        const aIdx = indices.filter(i => i.market === 'A股');
+        const usIdx = indices.filter(i => i.market === '美股');
+        const sh = aIdx.find(i => i.name.includes('上证'));
+        const sz = aIdx.find(i => i.name.includes('深证'));
+        const cy = aIdx.find(i => i.name.includes('创业板'));
+        const sp = usIdx.find(i => i.name.includes('标普'));
+        const ndq = usIdx.find(i => i.name.includes('纳斯达克'));
+
+        let assessment = '';
+        const aParts = [];
+        if (sh) aParts.push(`上证指数报${sh.value}点（${sh.change}）`);
+        if (sz) aParts.push(`深证成指报${sz.value}点（${sz.change}）`);
+        if (cy) aParts.push(`创业板指报${cy.value}点（${cy.change}）`);
+        if (aParts.length) assessment += 'A股方面：' + aParts.join('，') + '。';
+        const usParts = [];
+        if (sp) usParts.push(`标普500报${sp.value}（${sp.change}）`);
+        if (ndq) usParts.push(`纳斯达克报${ndq.value}（${ndq.change}）`);
+        if (usParts.length) assessment += '美股方面：' + usParts.join('，') + '。';
+
+        const isDown = sh && sh.change && sh.change.startsWith('-');
+        let longStrat, shortStrat;
+        if (isDown) {
+            longStrat = '市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI/科技业绩龙头，一手高股息防御。';
+            shortStrat = '超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。';
+        } else {
+            longStrat = '市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。';
+            shortStrat = '超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。';
+        }
+        if (sectors.hot && sectors.hot.length > 0) {
+            const hotNames = sectors.hot.slice(0, 3).map(s => s.name).join('、');
+            shortStrat = `超短线关注${hotNames}等板块的延续性，顺势操作，严格止损。`;
+        }
+
+        const summary = {
+            date: today,
+            marketAssessment: assessment || '今日市场数据获取中。',
+            hotSectors: sectors.hot || [],
+            weakSectors: sectors.weak || [],
+            longTermStrategy: longStrat,
+            shortTermStrategy: shortStrat,
+            positionAdvice: '激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）',
+            riskWarning: '以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。',
+            sources: [
+                { name: '腾讯财经·行情', url: 'https://gu.qq.com/' },
+                { name: '新浪财经·资讯', url: 'https://finance.sina.com.cn/' },
+                { name: '东方财富·板块', url: 'https://quote.eastmoney.com/' },
+                { name: 'Yahoo Finance', url: 'https://finance.yahoo.com/' }
+            ]
+        };
+        Storage.set('investmentSummary', summary);
+    },
+
+    // K线图 — 使用 TradingView lightweight-charts
+    async renderKLineChart() {
+        const container = document.getElementById('klineChart');
+        if (!container) return;
+
+        // 动态加载 lightweight-charts
+        if (!window.LightweightCharts) {
+            await new Promise((resolve, reject) => {
+                const s = document.createElement('script');
+                s.src = 'https://cdn.jsdelivr.net/npm/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js';
+                s.onload = resolve;
+                s.onerror = reject;
+                document.head.appendChild(s);
+            });
+        }
+
+        // 获取上证指数日K线数据（Tencent API，JSONP方式）
+        const klineData = await this.fetchKLineData('sh000001');
+        if (!klineData || klineData.length === 0) {
+            container.innerHTML = '<p style="color:var(--text-muted);font-size:12px;text-align:center;padding:20px">K线数据获取失败，请稍后刷新重试</p>';
+            return;
+        }
+
+        // 清空容器
+        container.innerHTML = '';
+        const chart = LightweightCharts.createChart(container, {
+            width: container.clientWidth,
+            height: 320,
+            layout: {
+                background: { type: 'solid', color: '#1e1e30' },
+                textColor: '#9a9ab0',
+                fontSize: 11,
+            },
+            grid: {
+                vertLines: { color: '#2a2a40' },
+                horzLines: { color: '#2a2a40' },
+            },
+            timeScale: {
+                borderColor: '#2a2a40',
+                timeVisible: false,
+            },
+            rightPriceScale: {
+                borderColor: '#2a2a40',
+            },
+            crosshair: {
+                mode: 1,
+            },
+        });
+
+        const candleSeries = chart.addCandlestickSeries({
+            upColor: '#48A878',
+            downColor: '#D15757',
+            borderUpColor: '#48A878',
+            borderDownColor: '#D15757',
+            wickUpColor: '#48A878',
+            wickDownColor: '#D15757',
+        });
+
+        candleSeries.setData(klineData);
+        chart.timeScale().fitContent();
+
+        // 响应式
+        const resizeObserver = new ResizeObserver(() => {
+            chart.applyOptions({ width: container.clientWidth });
+        });
+        resizeObserver.observe(container);
+    },
+
+    // 获取K线数据 — Tencent API (JSONP)
+    fetchKLineData(symbol) {
+        return new Promise((resolve, reject) => {
+            const callbackName = 'kline_cb_' + Date.now();
+            window[callbackName] = function(data) {
+                delete window[callbackName];
+                const script = document.getElementById(callbackName + '_script');
+                if (script) script.remove();
+                try {
+                    const dayData = data?.data?.[symbol]?.day || data?.data?.[symbol]?.qfqday || [];
+                    if (!dayData || dayData.length === 0) {
+                        // 尝试另一种格式
+                        const d = data?.data?.[symbol];
+                        if (d && d.day) {
+                            const parsed = d.day.map(item => ({
+                                time: item[0],
+                                open: parseFloat(item[1]),
+                                high: parseFloat(item[2]),
+                                low: parseFloat(item[3]),
+                                close: parseFloat(item[4]),
+                            }));
+                            resolve(parsed.slice(-120));
+                            return;
+                        }
+                        resolve([]);
+                        return;
+                    }
+                    // qfqday 格式: [date, open, close, high, low, ...]
+                    // day 格式: [date, open, close, high, low]
+                    const parsed = dayData.map(item => ({
+                        time: item[0],
+                        open: parseFloat(item[1]),
+                        high: parseFloat(item[3] || item[2]),
+                        low: parseFloat(item[4] || item[3]),
+                        close: parseFloat(item[2] || item[4]),
+                    }));
+                    resolve(parsed.slice(-120));
+                } catch (e) {
+                    console.warn('[K线] 数据解析失败:', e);
+                    resolve([]);
+                }
+            };
+
+            const script = document.createElement('script');
+            script.id = callbackName + '_script';
+            // Tencent K-line API
+            script.src = `https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=${symbol},day,,,120,qfq&callback=${callbackName}`;
+            script.onerror = () => {
+                delete window[callbackName];
+                script.remove();
+                reject(new Error('K-line fetch failed'));
+            };
+            setTimeout(() => {
+                if (document.head.contains(script)) {
+                    delete window[callbackName];
+                    script.remove();
+                    reject(new Error('K-line timeout'));
+                }
+            }, 10000);
+            document.head.appendChild(script);
+        });
     },
 
     // ---- 市场概览 ----

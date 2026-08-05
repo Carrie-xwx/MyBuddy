@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-        marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3815.12", change: "-0.19%", market: "A股", updateTime: "2026-08-05 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13644.83", change: "-1.73%", market: "A股", updateTime: "2026-08-05 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3372.08", change: "-3.35%", market: "A股", updateTime: "2026-08-05 实时" },
-        { name: "沪深300", code: "SH000300", value: "4550.19", change: "-1.10%", market: "A股", updateTime: "2026-08-05 实时" },
-        { name: "科创50", code: "SH000688", value: "1615.26", change: "-0.07%", market: "A股", updateTime: "2026-08-05 实时" },
+            marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3878.43", change: "+1.47%", market: "A股", updateTime: "2026-08-05 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14144.20", change: "+1.86%", market: "A股", updateTime: "2026-08-05 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3535.14", change: "+1.32%", market: "A股", updateTime: "2026-08-05 实时" },
+        { name: "沪深300", code: "SH000300", value: "4658.15", change: "+1.24%", market: "A股", updateTime: "2026-08-05 实时" },
+        { name: "科创50", code: "SH000688", value: "1693.67", change: "+4.78%", market: "A股", updateTime: "2026-08-05 实时" },
         { name: "标普500", code: "SPX", value: "7,736.52", change: "+4.14%", market: "美股", updateTime: "2026-08-05 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,584.99", change: "+6.87%", market: "美股", updateTime: "2026-08-05 收盘" },
         { name: "道琼斯", code: "DJI", value: "54,085.88", change: "+2.54%", market: "美股", updateTime: "2026-08-05 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-        marketNews: [
+            marketNews: [
         {
-            title: "华泰期货：天气扰动持续，软商品板块震荡反弹",
-            summary: "来源：华泰期货 作者： 李馨 棉花观点 市场要闻与重要数据 期货方面，昨日收盘棉花2609合约15840元/吨，较前一日变动+165元/吨，幅度+1.05%。",
-            source: "市场资讯",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-05/doc-inimfmyt4763081.shtml"
-        },
-        {
-            title: "中信建投期货：8月5日能化早报",
-            summary: "橡胶：强弱分化 周一，国产全乳胶16600元/吨，环比上日下跌100元/吨；泰国20号混合胶16220元/吨，环比上日下跌60元/吨。 原料端：昨日泰国胶水报收75.00泰铢/公斤...",
-            source: "市场资讯",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-05/doc-inimfmyp5239560.shtml"
-        },
-        {
-            title: "中信建投期货：8月5日黑色系早报",
-            summary: "钢材早报：需求偏弱，期钢承压运行 市场信息： 1、 围绕霍尔木兹海峡恢复通航谈判出现迄今最明显的积极信号。伊朗已放弃此前要求对霍尔木兹海峡双向航运实施全面控制的立场...",
-            source: "市场资讯",
-            date: "2026-08-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-05/doc-inimfmym3635281.shtml"
-        },
-        {
-            title: "快讯：恒指高开0.15% 科指涨0.33% 存储概念股高开 AI应用股活跃",
-            summary: "美股周二继续向好，企业业绩表现理想，加上油价显著回落，带动道指及标普500指数创出历史新高，三大指数均录得显著升幅收市。美元走势回落，美国十年期债息下滑至4...",
-            source: "新浪港股",
-            date: "2026-08-05",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-05/doc-inimfmyt4758049.shtml"
-        },
-        {
-            title: "SpaceX计划最早于本月进行下一次“星舰”发射 并在陆地上回收飞船",
-            summary: "SpaceX首席执行官埃隆·马斯克周二在公司首次财报电话会议上表示，SpaceX计划最早于本月进行下一次“星舰”飞行测试，将首批升级版“星链”卫星送入轨道...",
+            title: "SpaceX上市后首份财报披露：公司大举投入人工智能业务",
+            summary: "公司财报显示营收 78 亿美元，同比大增 92% SpaceX 发布二季度财报。尽管当期营收达到 78 亿美元、同比大涨 92%，财报同时反映出企业正斥巨资布局人工智能业务。",
             source: "环球市场播报",
             date: "2026-08-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimfmyv1526109.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhicz3543065.shtml"
         },
         {
-            title: "高盛支持的生物科技公司Attovia在美国IPO中筹集2.89亿美元",
-            summary: " 专注于高未满足需求的免疫系统疾病领域的早期阶段药物开发商Attovia Therapeutics Inc．，在美国首次公开募股（IPO）中筹集了2.89亿美元，发行价达到其定价区间的上限。",
+            title: "大空头伯里押注行情见顶：“市场临近重要高点，或将上演类似1987年的暴跌”",
+            summary: "核心要点 伯里周二在 Substack 专栏发文：“我依旧认为市场可能已经临近一轮大级别顶部，或将出现类似 1987 年式的暴跌。” 受企业财报好于预期、油价再度下行提振...",
             source: "环球市场播报",
             date: "2026-08-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimfmym3620639.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhicz3539653.shtml"
         },
         {
-            title: "高地股份根据供股发行约1.32亿股股份",
-            summary: " 高地股份（01676）发布公告，按于记录日期每持有1股现有股份供2股供股股份的基准进行的供股， 并于2026年7月30日进行供股股份的配发及发行约1.32亿股股份。",
-            source: "新浪港股",
+            title: "AMD财报业绩超出预期，盘前股价大跌8%",
+            summary: "核心要点AMD 周三盘前股价大幅下挫。德意志银行分析师在周三研报中表示：公司二季度业绩小幅高于市场一致预期，但不及更为乐观的上限预估。",
+            source: "环球市场播报",
             date: "2026-08-05",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-05/doc-inimfmyp5222286.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhicz3538455.shtml"
         },
         {
-            title: "中国上城拟折让约5.45%发行最多9056.8万股配售股份",
-            summary: "中国上城（02330）发布公告，于2026年8月4日（交易时段后），本公司与配售代理订立配售协议，配售代理有条件同意以本公司配售代理的身份按竭尽所能基准促使不少于六名承配...",
-            source: "新浪港股",
+            title: "移民团体报告：特朗普驱逐移民政策推高物价、拖累地方经济",
+            summary: "核心要点 亲移民倡导组织 “美国之声”发布一份报告，称唐纳德・特朗普总统的移民政策正在损害美国经济。 报告指出，特朗普的大规模驱逐行动推高食品、住房与医疗价格...",
+            source: "环球市场播报",
             date: "2026-08-05",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-05/doc-inimfmym3617968.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhicz3537036.shtml"
+        },
+        {
+            title: "大商所焦炭期权将于9月2日上市",
+            summary: "8月5日，大商所正式发布焦炭期权合约及上市交易有关事项的通知，对焦炭期权的合约规则、上市交易时间、上市交易合约、挂牌基准价等事项进行了明确。",
+            source: "市场资讯",
+            date: "2026-08-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-08-05/doc-inimhiem1323894.shtml"
+        },
+        {
+            title: "俄军袭击基辅至少造成17人遇难，乌克兰持续打击野莓电商多处仓库",
+            summary: "核心要点 俄罗斯出动大批无人机与弹道导弹袭击乌克兰首都，这是今年克里姆林宫针对基辅伤亡最惨重的袭击之一。 俄乌双方正加大对彼此关键基础设施与物流枢纽的空中打击力度...",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiei4550670.shtml"
+        },
+        {
+            title: "美债收益率下行，交易员密切关注伊朗相关和平协议进展",
+            summary: " 周三美国国债收益率持续走低，投资者正在评估，一项有望畅通霍尔木兹海峡的潜在协议，将如何影响美国经济前景与通胀走势。",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiei4549007.shtml"
+        },
+        {
+            title: "美联储抗通胀决心遭质疑 巴克莱和汇丰看好通胀保值债券",
+            summary: " 巴克莱和汇丰控股表示，市场担忧美联储在抗击通胀方面行动迟缓，为投资者买入可抵御物价加速上涨的债券增添了新的理由。",
+            source: "环球市场播报",
+            date: "2026-08-05",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhiec5135851.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-        investmentSummary: {
+            investmentSummary: {
         date: "2026-08-05",
-        marketAssessment: "A股方面：上证指数报3815.12点（-0.19%），深证成指报13644.83点（-1.73%），创业板指报3372.08点（-3.35%）。美股方面：标普500报7,736.52（+4.14%），纳斯达克报26,584.99（+6.87%）。",
+        marketAssessment: "A股方面：上证指数报3878.43点（+1.47%），深证成指报14144.20点（+1.86%），创业板指报3535.14点（+1.32%）。美股方面：标普500报7,736.52（+4.14%），纳斯达克报26,584.99（+6.87%）。",
         hotSectors: [
-            { name: "稀土", reason: "板块涨幅+3.36%", strength: "强" },
-            { name: "公交", reason: "板块涨幅+2.16%", strength: "中强" },
-            { name: "其他小金属", reason: "板块涨幅+2.00%", strength: "中强" },
-            { name: "小金属", reason: "板块涨幅+1.83%", strength: "中强" },
+            { name: "钨", reason: "板块涨幅+9.08%", strength: "强" },
+            { name: "白银", reason: "板块涨幅+8.63%", strength: "强" },
+            { name: "半导体设备", reason: "板块涨幅+8.34%", strength: "强" },
+            { name: "半导体材料", reason: "板块涨幅+8.33%", strength: "强" },
         ],
         weakSectors: [
-            { name: "学历教育", reason: "板块跌幅-3.06%", strength: "弱" },
-            { name: "通信线缆及配套", reason: "板块跌幅-2.82%", strength: "弱" },
+            { name: "国有大型银行Ⅲ", reason: "板块跌幅-1.58%", strength: "弱" },
+            { name: "股份制银行Ⅲ", reason: "板块跌幅-1.54%", strength: "弱" },
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注稀土、公交、其他小金属等板块的延续性，顺势操作，严格止损。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注钨、白银、半导体设备等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

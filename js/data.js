@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                        marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3878.43", change: "+1.47%", market: "A股", updateTime: "2026-08-06 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14144.20", change: "+1.86%", market: "A股", updateTime: "2026-08-06 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3535.14", change: "+1.32%", market: "A股", updateTime: "2026-08-06 实时" },
-        { name: "沪深300", code: "SH000300", value: "4658.15", change: "+1.24%", market: "A股", updateTime: "2026-08-06 实时" },
-        { name: "科创50", code: "SH000688", value: "1693.67", change: "+4.78%", market: "A股", updateTime: "2026-08-06 实时" },
-        { name: "标普500", code: "SPX", value: "7,742.25", change: "+5.82%", market: "美股", updateTime: "2026-08-06 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,455.58", change: "+8.23%", market: "美股", updateTime: "2026-08-06 收盘" },
-        { name: "道琼斯", code: "DJI", value: "54,553.57", change: "+5.74%", market: "美股", updateTime: "2026-08-06 收盘" },
+                            marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3900.35", change: "+0.57%", market: "A股", updateTime: "2026-08-06 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14110.12", change: "-0.24%", market: "A股", updateTime: "2026-08-06 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3515.56", change: "-0.55%", market: "A股", updateTime: "2026-08-06 实时" },
+        { name: "沪深300", code: "SH000300", value: "4651.31", change: "-0.15%", market: "A股", updateTime: "2026-08-06 实时" },
+        { name: "科创50", code: "SH000688", value: "1701.29", change: "+0.45%", market: "A股", updateTime: "2026-08-06 实时" },
+        { name: "标普500", code: "SPX", value: "7,723.55", change: "+5.57%", market: "美股", updateTime: "2026-08-06 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,363.44", change: "+7.86%", market: "美股", updateTime: "2026-08-06 收盘" },
+        { name: "道琼斯", code: "DJI", value: "54,349.12", change: "+5.34%", market: "美股", updateTime: "2026-08-06 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                        marketNews: [
+                            marketNews: [
         {
-            title: "富兰克林邓普顿任命Rene Buehlmann为亚太主管",
-            summary: " 富兰克林邓普顿周三在声明中表示，继续扩充其全球客户集团（Global Client Group）管理层，以强化公司在全球产品、ETF和亚太市场的布局。",
-            source: "环球市场播报",
-            date: "2026-08-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhxzz4318524.shtml"
-        },
-        {
-            title: "谷歌AI业务迎重大人事变动 Alphabet股价应声跌逾5%",
-            summary: "Alphabet旗下谷歌正失去一些最知名的人工智能老将，这场重大人事调整引发外界对这一关键增长领域领导层的质疑，此时人工智能领域的竞争正日益激烈。",
+            title: "AI算力电站之争持续升温，卡纳拟推出《数据中心权利法案》",
+            summary: "核心要点 加州民主党联邦众议员罗・卡纳将推出其称作《数据中心权利法案》的议案。全美选民担忧，支撑人工智能运行的数据中心或将推高公用事业电价，反对情绪持续发酵。",
             source: "环球市场播报",
             date: "2026-08-06",
             tag: "行业",
-            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1090767.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimknci3889592.shtml"
         },
         {
-            title: "伊朗称美国传话愿重新履约 惟德黑兰尚未决定是否进行第二阶段谈判",
-            summary: " 伊朗副外长Kazem Gharibabadi对伊通社表示，从美国方面收到的信息表明华盛顿已做好重新履行承诺的充分准备，但德黑兰尚未决定是否迈向“第二阶段”。",
-            source: "环球市场播报",
+            title: "欧诺科技IPO：应收账款增速远超同行 期后回款率大幅“滑坡” 研发人员年均薪酬仅为销售人员的6成",
+            summary: "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 近日，浙江欧诺机械科技股份有限公司（以下简称“欧诺科技”）更新了招股书申报稿，继续冲刺主板IPO。",
+            source: "新浪证券",
             date: "2026-08-06",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhxzt3359871.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/observe/2026-08-06/doc-inimknci3888785.shtml"
         },
         {
-            title: "伊朗称与阿曼就霍尔木兹临时航道的谈判接近尾声",
-            summary: "伊朗副外长Kazem Gharibabadi对伊通社表示，该国和阿曼正在就霍尔木兹海峡一条为期“2到4个月”的“临时航道”进行谈判。 Gharibabadi称谈判“已接近最后阶段”。",
-            source: "环球市场播报",
-            date: "2026-08-06",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1084865.shtml"
-        },
-        {
-            title: "欧洲股市涨势受抑 汇丰和诺和诺德领跌",
-            summary: "欧洲股市在纪录高位附近持稳，汇丰控股和诺和诺德下跌抹去了早些时候的涨幅。 斯托克欧洲600指数收盘基本持平，此前一度上涨0.5%。",
+            title: "乌克兰远程无人机袭击，命中俄罗斯大型炼油厂之一",
+            summary: "核心要点 乌克兰军方周四出动远程无人机，袭击俄罗斯两座炼油厂，持续将能源基础设施列为打击目标。 泽连斯基证实，乌军袭击了巴什科尔托斯坦共和国的巴什涅夫特 -...",
             source: "环球市场播报",
             date: "2026-08-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1084732.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimkncm0659592.shtml"
         },
         {
-            title: "黑客瞄准华尔街 大型对冲基金和私募公司沦为网络攻击目标",
-            summary: "知情人士透露，黑客近几日对华尔街发起了一波复杂的攻击，将目标对准了大型资金管理公司的信息系统。 其中一位不愿公开身份的知情人士透露...",
-            source: "环球市场播报",
-            date: "2026-08-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1084612.shtml"
-        },
-        {
-            title: "欧洲债市：欧洲债券在油价下跌之际持稳",
-            summary: "欧洲政府债券日内总体持平，市场正等待美国与伊朗和平谈判进展的消息，相关进展可能预示霍尔木兹海峡重新开放。 布伦特原油维持在每桶80美元以下。",
-            source: "环球市场播报",
-            date: "2026-08-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1075404.shtml"
-        },
-        {
-            title: "特朗普政府退还1000亿美元“解放日”关税税款",
-            summary: "【核心要点】 特朗普政府宣布，已经退还约 1000 亿美元依靠 2025 年 “解放日” 关税政策征得的关税收入。 美国最高法院裁定这批依据《国际紧急经济权力法》（IEEPA）征收的...",
+            title: "交易员聚焦利率前景，美国短期国债收益率小幅上行",
+            summary: " 周四美国短期国债收益率小幅走高，交易员正在权衡美联储加息可能性。收益率曲线长端维持平稳；市场目光转向伊朗与阿曼围绕霍尔木兹海峡展开谈判，油价震荡波动。",
             source: "环球市场播报",
             date: "2026-08-06",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimhxzv4935444.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimknaz3043251.shtml"
+        },
+        {
+            title: "腾信精密IPO：监管多次问询下变更会计处理 股份支付曾少计提1亿元 募投项目用地减少近20%",
+            summary: "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 近日，东莞市腾信精密制造股份有限公司（下称“腾信精密”）在北交所发行股票获得注册批文，距离上市仅一步之遥。",
+            source: "新浪证券",
+            date: "2026-08-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/observe/2026-08-06/doc-inimkncc4644587.shtml"
+        },
+        {
+            title: "Switch 2硬件销量下滑，任天堂财季营收与净利润仍超出市场预期",
+            summary: "核心要点 任天堂第一财季净利润与营收双双高于市场预期。 任天堂 Switch 2 游戏机硬件销量同比下滑 34.4%。 公司维持全年业绩预期，预估净销售额为 2.05 万亿日元。",
+            source: "环球市场播报",
+            date: "2026-08-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimknci3880875.shtml"
+        },
+        {
+            title: "卓然股份年报迟到半年，重大违法退市压顶！",
+            summary: " 卓然股份之前因为迟迟交不出2025年年报，股票已经被*ST处理了。好不容易在8月5号把年报给挤出来了，原本以为能松口气，结果监管一纸通报，直接把这层窗户纸捅破了。",
+            source: "市场资讯",
+            date: "2026-08-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-06/doc-inimknaz3040241.shtml"
+        },
+        {
+            title: "恒久科技实控人被刑拘，投资者索赔持续征集中",
+            summary: "2026年8月5日，已终止上市的苏州恒久光电科技股份有限公司（证券简称：恒久3，证券代码：400303）发布公告称，公司控股股东、实际控制人余荣清因涉嫌违规披露...",
+            source: "市场资讯",
+            date: "2026-08-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-06/doc-inimkncm0653669.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                        investmentSummary: {
+                            investmentSummary: {
         date: "2026-08-06",
-        marketAssessment: "A股方面：上证指数报3878.43点（+1.47%），深证成指报14144.20点（+1.86%），创业板指报3535.14点（+1.32%）。美股方面：标普500报7,742.25（+5.82%），纳斯达克报26,455.58（+8.23%）。",
+        marketAssessment: "A股方面：上证指数报3900.35点（+0.57%），深证成指报14110.12点（-0.24%），创业板指报3515.56点（-0.55%）。美股方面：标普500报7,723.55（+5.57%），纳斯达克报26,363.44（+7.86%）。",
         hotSectors: [
-            { name: "钨", reason: "板块涨幅+9.08%", strength: "强" },
-            { name: "白银", reason: "板块涨幅+8.63%", strength: "强" },
-            { name: "半导体设备", reason: "板块涨幅+8.34%", strength: "强" },
-            { name: "半导体材料", reason: "板块涨幅+8.33%", strength: "强" },
+            { name: "钨", reason: "板块涨幅+6.85%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+6.07%", strength: "强" },
+            { name: "焦煤", reason: "板块涨幅+5.82%", strength: "强" },
+            { name: "煤炭开采", reason: "板块涨幅+5.43%", strength: "强" },
         ],
         weakSectors: [
-            { name: "国有大型银行Ⅲ", reason: "板块跌幅-1.58%", strength: "弱" },
-            { name: "股份制银行Ⅲ", reason: "板块跌幅-1.54%", strength: "弱" },
+            { name: "学历教育", reason: "板块跌幅-3.96%", strength: "弱" },
+            { name: "电动乘用车", reason: "板块跌幅-3.67%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注钨、白银、半导体设备等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注钨、种子、焦煤等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                            marketIndices: [
+                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3900.35", change: "+0.57%", market: "A股", updateTime: "2026-08-06 实时" },
         { name: "深证成指", code: "SZ399001", value: "14110.12", change: "-0.24%", market: "A股", updateTime: "2026-08-06 实时" },
         { name: "创业板指", code: "SZ399006", value: "3515.56", change: "-0.55%", market: "A股", updateTime: "2026-08-06 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                            marketNews: [
+                                marketNews: [
         {
-            title: "AI算力电站之争持续升温，卡纳拟推出《数据中心权利法案》",
-            summary: "核心要点 加州民主党联邦众议员罗・卡纳将推出其称作《数据中心权利法案》的议案。全美选民担忧，支撑人工智能运行的数据中心或将推高公用事业电价，反对情绪持续发酵。",
+            title: "康菲石油任命新CEO，油价上涨助推二季度利润增长",
+            summary: "康菲石油第二季度录得较高利润，得益于油气平均价格飙升36%，同时公司提拔首席财务官安迪·奥布莱恩为新任首席执行官。 康菲石油周四表示...",
+            source: "环球市场播报",
+            date: "2026-08-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimksmi0603001.shtml"
+        },
+        {
+            title: "亚马逊药房将向Medicare Part D患者提供GLP-1减肥药物",
+            summary: "亚马逊公司表示，Medicare Part D患者现在可以通过亚马逊药房获得部分GLP-1减肥药物。 Medicare Part D患者指的是加入了美国联邦医疗保险（Medicare）中处方药福利计划（Pa...",
+            source: "环球市场播报",
+            date: "2026-08-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimksmf3828964.shtml"
+        },
+        {
+            title: "全球最大烈酒制造商帝亚吉欧推出10亿美元成本削减计划",
+            summary: "帝亚吉欧股价周四大幅上涨，此前该公司公布了一项为期三年、规模10亿美元的节约计划，以扭转业务颓势。 这家全球最大烈酒公司的品牌组合包括尊尼获加苏格兰威士忌...",
+            source: "环球市场播报",
+            date: "2026-08-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimkskz4600806.shtml"
+        },
+        {
+            title: "《清晰法案》不足以重启加密货币行业繁荣",
+            summary: " 2024 年助力特朗普成功当选总统之后，加密货币行业对立法寄予厚望。行业期盼出台法案搭建清晰监管框架，借此吸引海量大型资本与主流投资者入场。",
+            source: "环球市场播报",
+            date: "2026-08-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimksmf3825120.shtml"
+        },
+        {
+            title: "今年手机已多轮涨价，余承东：还将大规模涨价",
+            summary: " 手机经销商提到，华为发布的新品手机多为定价6000元以上的高端款，这让它拥有足够的利润空间来吸收成本波动，受内存上涨影响相对有限",
+            source: "《财经》杂志",
+            date: "2026-08-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/wm/2026-08-06/doc-inimkskx2999105.shtml"
+        },
+        {
+            title: "欧盟敦促加勒比国家关闭“黄金护照”项目，否则将面临旅行限制",
+            summary: "欧盟已通知五个加勒比国家，它们需要在2028年前终止投资入籍项目，否则将面临失去进入欧洲申根区免签待遇的风险。 进入申根区29个国家的免签资格...",
+            source: "环球市场播报",
+            date: "2026-08-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimkskz4596098.shtml"
+        },
+        {
+            title: "谷歌AI架构大调整，将如何影响皮查伊接班人布局",
+            summary: "正当优步、达达外卖、Shopify、迪士尼等一大批企业集中发布二季度财报之际，周四谷歌突然抛出重磅人事消息：AI 领军人物、Google DeepMind...",
             source: "环球市场播报",
             date: "2026-08-06",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimknci3889592.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimksmf3822933.shtml"
         },
         {
-            title: "欧诺科技IPO：应收账款增速远超同行 期后回款率大幅“滑坡” 研发人员年均薪酬仅为销售人员的6成",
-            summary: "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 近日，浙江欧诺机械科技股份有限公司（以下简称“欧诺科技”）更新了招股书申报稿，继续冲刺主板IPO。",
-            source: "新浪证券",
-            date: "2026-08-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/observe/2026-08-06/doc-inimknci3888785.shtml"
-        },
-        {
-            title: "乌克兰远程无人机袭击，命中俄罗斯大型炼油厂之一",
-            summary: "核心要点 乌克兰军方周四出动远程无人机，袭击俄罗斯两座炼油厂，持续将能源基础设施列为打击目标。 泽连斯基证实，乌军袭击了巴什科尔托斯坦共和国的巴什涅夫特 -...",
+            title: "红杉资本新管理层全力押注人工智能",
+            summary: " 前任全球负责人 11 月离任之后，这家传奇风投机构由两大王牌投资人林君睿（Alfred Lin）与帕特・格雷迪掌舵，全力争抢 AI 赛道交易",
             source: "环球市场播报",
             date: "2026-08-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimkncm0659592.shtml"
-        },
-        {
-            title: "交易员聚焦利率前景，美国短期国债收益率小幅上行",
-            summary: " 周四美国短期国债收益率小幅走高，交易员正在权衡美联储加息可能性。收益率曲线长端维持平稳；市场目光转向伊朗与阿曼围绕霍尔木兹海峡展开谈判，油价震荡波动。",
-            source: "环球市场播报",
-            date: "2026-08-06",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimknaz3043251.shtml"
-        },
-        {
-            title: "腾信精密IPO：监管多次问询下变更会计处理 股份支付曾少计提1亿元 募投项目用地减少近20%",
-            summary: "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 近日，东莞市腾信精密制造股份有限公司（下称“腾信精密”）在北交所发行股票获得注册批文，距离上市仅一步之遥。",
-            source: "新浪证券",
-            date: "2026-08-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/observe/2026-08-06/doc-inimkncc4644587.shtml"
-        },
-        {
-            title: "Switch 2硬件销量下滑，任天堂财季营收与净利润仍超出市场预期",
-            summary: "核心要点 任天堂第一财季净利润与营收双双高于市场预期。 任天堂 Switch 2 游戏机硬件销量同比下滑 34.4%。 公司维持全年业绩预期，预估净销售额为 2.05 万亿日元。",
-            source: "环球市场播报",
-            date: "2026-08-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimknci3880875.shtml"
-        },
-        {
-            title: "卓然股份年报迟到半年，重大违法退市压顶！",
-            summary: " 卓然股份之前因为迟迟交不出2025年年报，股票已经被*ST处理了。好不容易在8月5号把年报给挤出来了，原本以为能松口气，结果监管一纸通报，直接把这层窗户纸捅破了。",
-            source: "市场资讯",
-            date: "2026-08-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-06/doc-inimknaz3040241.shtml"
-        },
-        {
-            title: "恒久科技实控人被刑拘，投资者索赔持续征集中",
-            summary: "2026年8月5日，已终止上市的苏州恒久光电科技股份有限公司（证券简称：恒久3，证券代码：400303）发布公告称，公司控股股东、实际控制人余荣清因涉嫌违规披露...",
-            source: "市场资讯",
-            date: "2026-08-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-06/doc-inimkncm0653669.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimkskx2986640.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                            investmentSummary: {
+                                investmentSummary: {
         date: "2026-08-06",
         marketAssessment: "A股方面：上证指数报3900.35点（+0.57%），深证成指报14110.12点（-0.24%），创业板指报3515.56点（-0.55%）。美股方面：标普500报7,723.55（+5.57%），纳斯达克报26,363.44（+7.86%）。",
         hotSectors: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                            marketIndices: [
+                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-07 实时" },
         { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-07 实时" },
         { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-07 实时" },
         { name: "沪深300", code: "SH000300", value: "4694.44", change: "+0.93%", market: "A股", updateTime: "2026-08-07 实时" },
         { name: "科创50", code: "SH000688", value: "1744.02", change: "+2.51%", market: "A股", updateTime: "2026-08-07 实时" },
-        { name: "标普500", code: "SPX", value: "7,709.96", change: "+3.66%", market: "美股", updateTime: "2026-08-07 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,348.35", change: "+4.88%", market: "美股", updateTime: "2026-08-07 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,885.10", change: "+3.21%", market: "美股", updateTime: "2026-08-07 收盘" },
+        { name: "标普500", code: "SPX", value: "7,758.55", change: "+3.59%", market: "美股", updateTime: "2026-08-07 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,697.09", change: "+5.21%", market: "美股", updateTime: "2026-08-07 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,981.21", change: "+2.85%", market: "美股", updateTime: "2026-08-07 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                            marketNews: [
+                                                marketNews: [
         {
-            title: "300506，跨界存储，却罕见大阴线！光纤需求激增，稀土细分原料，火了",
-            summary: "掺铒光纤放大器需求激增，进而推动稀土氧化铒的需求。 今日（8月7日），A股三大指数集体上涨，其中沪指涨1.02%，深证成指涨1.42%，创业板指涨1.35%。",
-            source: "数据宝",
-            date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-07/doc-inimnvkh9994103.shtml"
-        },
-        {
-            title: "宇树科技回应机器人销售禁令：不会影响现有主要产品销售",
-            summary: "8月7日下午，宇树科技科创板上市网上投资者交流会上，有投资者提问，美国的机器人销售禁令有什么影响？ 宇树科技董事会秘书傅风华回应...",
-            source: "中证网",
-            date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/chanjing/gsnews/2026-08-07/doc-inimnvkh9988707.shtml"
-        },
-        {
-            title: "英伟达考量激进方案：削减Rubin Ultra芯片显存容量",
-            summary: " 受先进高带宽显存芯片紧缺影响，英伟达正考虑一项激进方案：在下一代 GPU Rubin Ultra 上，搭载比原定规划更少的显存。",
-            source: "环球市场播报",
-            date: "2026-08-07",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnvkh9985434.shtml"
-        },
-        {
-            title: "反导初创企业Furientis吸引知名一线投资机构入局",
-            summary: "作者：利奥・施瓦茨、朱莉娅・霍恩斯坦 过去一年，越来越多综合型风投机构开始进军国防科技赛道。这一细分领域此前只吸引特定专业投资者：他们能够接受业绩高度依赖不稳定...",
+            title: "汤姆・李预判2027年将成为股市“表现最好年份之一”，他的看多逻辑颇具说服力",
+            summary: "速读要点富途策略（Fundstrat）汤姆・李将标普 500 目标位上调至 8000 点，看好 2027 年行情；核心驱动因素：AI 带来生产力提升、美国 AI 出口优势...",
             source: "环球市场播报",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnvkp4773208.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfya9881584.shtml"
         },
         {
-            title: "软银以OpenAI股权质押贷款一事，凸显其融资策略潜藏风险",
-            summary: "如果你是谷歌母公司 Alphabet、Meta 或是亚马逊负责对接投资者的高管，不妨参考一个办法：在办公室墙上挂上一张大幅软银首席执行官孙正义的照片。",
+            title: "芒格曾说净资产达到10万美元后财富将“爆发式增长”",
+            summary: "作者：维谢什・莱辛哈尼 多年以来流传一条财富共识：净资产迈入六位数门槛，财富增长就会进入加速通道。这套理论最早由已故亿万富豪...",
             source: "环球市场播报",
             date: "2026-08-07",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnvkh9980847.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfxz3106494.shtml"
         },
         {
-            title: "中国联通被曝“狂砍”区域代理佣金：扣减缓发40%，部分套餐资费涨幅达100%",
-            summary: "文 丨 《BUG》栏目 周文猛 在运营商集体出手清退第三方线上号卡业务，集体反内卷的大背景下，中国联通杭州区域行销代理商佣金缩水的事实，也正浮出水面。",
-            source: "BUG",
+            title: "美国就业数据公布后日元大涨 交易员关注汇市干预迹象",
+            summary: " 周五公布的美国非农就业报告意外疲软，美元随之走弱，日元大幅攀升，进一步引发市场对有关当局可能再次出手干预日元汇率的猜测。",
+            source: "环球市场播报",
             date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tech/it/2026-08-07/doc-inimnvkf3201631.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfyi4685060.shtml"
         },
         {
-            title: "蜜雪集团股价震荡向下一度破发、闭店数创新高！国内门店趋饱和增长天花板隐现、海外门店净减少400多家",
-            summary: "出品：新浪财经上市公司研究院 作者：cici 2026年7月10日，蜜雪冰城品牌主体蜜雪集团盘中最低跌至201.2港元/股，跌破202.5港元的发行价，股价创下历史新低。",
-            source: "新浪证券",
+            title: "海湾投资者奔赴亚洲，挖掘人工智能投资机遇",
+            summary: "作者：凯尔西・沃纳 受中东、欧洲多地冲突持续，叠加供应链不确定性影响，具备相对稳定特质的亚洲市场吸引力上升，海湾地区投资者正转向亚洲布局人工智能赛道。",
+            source: "环球市场播报",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/observe/2026-08-07/doc-inimnvkf3197462.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfyf3078661.shtml"
         },
         {
-            title: "“守财奴”式增长能坚持多久？神火股份：百亿现金在手，扩张按兵不动",
-            summary: "来源：市值风云 电解铝独揽九成利润，煤炭铝箔难掩“单腿狂奔”之困。 作者 |beyond 编辑 |小白 2026年7月底，神火股份（000933.SZ...",
-            source: "市场资讯",
+            title: "密歇根州环孢子虫疫情减弱 病例正在减少",
+            summary: "随着环孢子虫病例数量下降——至少在密歇根州是这样——现在再次食用生菜和袋装沙拉绿叶菜是安全的。 密歇根州一直处于美国最大规模环孢子虫疫情的中心。",
+            source: "环球市场播报",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-07/doc-inimnvkm3162542.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfyf3076888.shtml"
+        },
+        {
+            title: "加拿大7月新增就业远超预期 失业率降至两年低点",
+            summary: "加拿大7月意外新增就业7.51万，失业率降至两年低点，进一步显示经济正在复苏。 加拿大统计局周五公布的数据显示，7月失业率由前一个月的6.5%降至6.4%。",
+            source: "环球市场播报",
+            date: "2026-08-07",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfya9869729.shtml"
+        },
+        {
+            title: "爱彼迎早盘上涨近15%，有望创下自2022年4月以来最高收盘价",
+            summary: "爱彼迎（Airbnb， Inc．）A类股（ABNB）目前报173.96美元，上涨22.32美元，涨幅14.72% ——有望创下自2022年4月4日以来的最高收盘价，当日收盘报177...",
+            source: "环球市场播报",
+            date: "2026-08-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfyf3069326.shtml"
+        },
+        {
+            title: "瑞银：黄金上涨行情具备支撑，金价明年有望向5000美元迈进",
+            summary: "黄金为何持续受青睐？六大因素解析其跨越五千年的保值地位 过去一周，这只曾经大涨的贵金属再度启动上行，瑞银分析师看好黄金（GC=F）后续价格走势。",
+            source: "环球市场播报",
+            date: "2026-08-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfyi4671646.shtml"
         },
     ],
 
@@ -765,20 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                            investmentSummary: {
+                                                investmentSummary: {
         date: "2026-08-07",
-        marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,709.96（+3.66%），纳斯达克报26,348.35（+4.88%）。",
+        marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,758.55（+3.59%），纳斯达克报26,697.09（+5.21%）。",
         hotSectors: [
-            { name: "医疗研发外包", reason: "板块涨幅+13.03%", strength: "强" },
-            { name: "印制电路板", reason: "板块涨幅+8.31%", strength: "强" },
-            { name: "医疗服务", reason: "板块涨幅+8.19%", strength: "强" },
-            { name: "其他生物制品", reason: "板块涨幅+8.09%", strength: "强" },
+
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注医疗研发外包、印制电路板、医疗服务等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

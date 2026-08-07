@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3928.87", change: "+0.73%", market: "A股", updateTime: "2026-08-07 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14334.59", change: "+1.59%", market: "A股", updateTime: "2026-08-07 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3585.43", change: "+1.99%", market: "A股", updateTime: "2026-08-07 实时" },
-        { name: "沪深300", code: "SH000300", value: "4695.45", change: "+0.95%", market: "A股", updateTime: "2026-08-07 实时" },
-        { name: "科创50", code: "SH000688", value: "1736.42", change: "+2.06%", market: "A股", updateTime: "2026-08-07 实时" },
+                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-07 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-07 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-07 实时" },
+        { name: "沪深300", code: "SH000300", value: "4694.44", change: "+0.93%", market: "A股", updateTime: "2026-08-07 实时" },
+        { name: "科创50", code: "SH000688", value: "1744.02", change: "+2.51%", market: "A股", updateTime: "2026-08-07 实时" },
         { name: "标普500", code: "SPX", value: "7,709.96", change: "+3.66%", market: "美股", updateTime: "2026-08-07 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,348.35", change: "+4.88%", market: "美股", updateTime: "2026-08-07 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,885.10", change: "+3.21%", market: "美股", updateTime: "2026-08-07 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                    marketNews: [
+                                        marketNews: [
         {
-            title: "因担忧电价暴涨，弗吉尼亚州长将介入NextEra与Dominion合并案",
-            summary: " 弗吉尼亚州长Abigail Spanberger周四宣布，将介入NextEra收购Dominion Energy的大型合并交易。此举在选民对电费上涨日益不满之际属前所未有。",
-            source: "环球市场播报",
+            title: "对话熠序科技创始人李德辉：给AI打疫苗、发身份证，这家5个月的公司天使轮拿到了15亿估值",
+            summary: "文 | 新浪科技 陈思竹 2026年1月底，北京白塔寺附近的一家咖啡馆里，熠序科技创始人李德辉萌发出一个想法：人类社会中有着各种规章制度来维持社会稳定...",
+            source: "新浪科技",
             date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkuf4150069.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/tech/it/2026-08-07/doc-inimnram0033788.shtml"
         },
         {
-            title: "FCC取消全国电视所有权上限 特朗普阵营广播公司迎重大利好",
-            summary: "美国联邦通信委员会（FCC）周四以党派表决通过决议，取消禁止单一公司通过公共电波覆盖超过39%美国电视家庭的全国广播所有权上限。",
-            source: "环球市场播报",
+            title: "宇树科技王兴兴：公司将并行开展WMA世界模型、VLA视觉语言动作具身大模型研发",
+            summary: "新浪科技讯 8月7日下午消息 在宇树科技今日的网上路演上，有投资者询问：公司募投项目之一智能机器人模型研发项目的具身智能核心模块“大脑”采用的是大语言模型还是世界模型...",
+            source: "新浪科技",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkuf4146006.shtml"
+            url: "https://finance.sina.com.cn/tech/it/2026-08-07/doc-inimnrap3208937.shtml"
         },
         {
-            title: "日本公共部门员工今年有望获得超过3%的加薪",
-            summary: "日本公务员的月基本工资今年有望平均增长3.51%，这与去年的3.62%涨幅相差不大，后者是自1991年以来的最大增幅。 日本人事院周五向国会和内阁提交了一份建议。",
-            source: "环球市场播报",
+            title: "因严重违纪违法 金融监管总局原局长李云泽被罢免全国人大代表",
+            summary: "记者 李微敖 因严重违纪违法 金融监管总局原局长李云泽被罢免全国人大代表 经济观察报 记者 李微敖 实习生 许多 因严重违纪违法，国家金融监督管理总局原党委书记...",
+            source: "经济观察报",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkup0043110.shtml"
+            url: "https://finance.sina.com.cn/china/2026-08-07/doc-inimnrap3213369.shtml"
         },
         {
-            title: "法国第二季度失业率升至2020年底以来最高水平",
-            summary: "法国失业率持续攀升，触及近六年来最高水平。 法国国家统计机构Insee公布的数据显示，第二季度失业率为8.3%，高于前一季度的8.1%。这一数字也高于经济学家预估中值8.2%。",
-            source: "环球市场播报",
+            title: "7月末，我国外汇储备规模为34188亿美元，较6月末上升25亿美元，升幅为0.07%",
+            summary: "国家外汇管理局公布2026年7月末外汇储备规模数据 国家外汇管理局统计数据显示，截至2026年7月末，我国外汇储备规模为34188亿美元，较6月末上升25亿美元，升幅为0.07%。",
+            source: "国家外汇管理局网站",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkuf4141730.shtml"
+            url: "https://finance.sina.com.cn/china/2026-08-07/doc-inimnrai3256607.shtml"
         },
         {
-            title: "T-Mobile首席执行官称星链对移动运营商构成的威胁被夸大",
-            summary: " T-Mobile首席执行官Srini Gopalan在接受采访时表示，马斯克旗下星链（Starlink）这样的卫星互联网服务构成的威胁被夸大了。",
-            source: "环球市场播报",
+            title: "贵金属 ：宏观情绪与技术面同步提振 贵金属震荡走强",
+            summary: "广发期货研究 证监许可【2011】1292号  叶倩宁Z0016628 | 2026年08月07日 星期五 行情导读： 本周，随着美国公布7月经济前瞻数据显示就业等出现降温...",
+            source: "市场资讯",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkur3196449.shtml"
+            url: "https://finance.sina.com.cn/money/future/2026-08-07/doc-inimnrac4145624.shtml"
         },
         {
-            title: "SpaceX股价腰斩 散户却持续净买入",
-            summary: " 自6月12日上市以来，SpaceX（SPCX）股价从峰值回落超过一半并跌破发行价，但散户投资者始终保持净买入，从未出现过净卖出日。",
-            source: "环球市场播报",
+            title: "快讯：现货白银突破64美元/盎司 日内涨超4%",
+            summary: "现货白银突破64美元/盎司，日内涨超4%。",
+            source: "市场资讯",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkum3260440.shtml"
+            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-07/doc-inimnrac4138381.shtml"
         },
         {
-            title: "The Trade Desk公布2026年第二季度财报 营收不及分析师预期 股价下跌21.8%",
-            summary: "数字广告平台The Trade Desk（纳斯达克：TTD）在2026年第二季度未达市场营收预期，销售额同比增长3%至7.151亿美元。公司给出的下季度营收指引为6.5亿美元...",
-            source: "环球市场播报",
+            title: "海融科技高溢价收购盒马供应链，标的超九成收入依赖关联方",
+            summary: "来源：证券之星 7月30日晚间，“奶油第一股”海融科技（300915.SZ）发布公告，公司拟以自有资金1.3亿元收购上海糖兜科技有限公司（以下简称“糖兜科技”）持有的糖盒食品（昆山...",
+            source: "市场资讯",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkup0029515.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-08-07/doc-inimnram0028833.shtml"
         },
         {
-            title: "Meta被判支付9.42亿美元，以应对社交媒体对儿童造成的伤害",
-            summary: "新墨西哥州一名法官周四裁定，Meta Platforms须支付超过9亿美元，并限制该州青少年在Facebook和Instagram上的使用时间。这一裁决显著提高了针对该公司儿童安全问题的里程碑...",
-            source: "环球市场播报",
+            title: "H1再陷增收降利困局，新泉股份净利率连跌，砸钱出海资金承压",
+            summary: "来源：证券之星 继2025年出现增收不增利后，新泉股份（603179.SH）仍未摆脱业绩下滑的窘境。2026年上半年，公司营收同比增长7.45%，归母净利润同比下滑1.9%...",
+            source: "市场资讯",
             date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkup0026369.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-07/doc-inimnrap3205011.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                    investmentSummary: {
+                                        investmentSummary: {
         date: "2026-08-07",
-        marketAssessment: "A股方面：上证指数报3928.87点（+0.73%），深证成指报14334.59点（+1.59%），创业板指报3585.43点（+1.99%）。美股方面：标普500报7,709.96（+3.66%），纳斯达克报26,348.35（+4.88%）。",
+        marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,709.96（+3.66%），纳斯达克报26,348.35（+4.88%）。",
         hotSectors: [
-            { name: "医疗研发外包", reason: "板块涨幅+11.20%", strength: "强" },
-            { name: "印制电路板", reason: "板块涨幅+8.52%", strength: "强" },
-            { name: "钴", reason: "板块涨幅+7.53%", strength: "强" },
-            { name: "医疗服务", reason: "板块涨幅+6.88%", strength: "强" },
+            { name: "医疗研发外包", reason: "板块涨幅+13.03%", strength: "强" },
+            { name: "印制电路板", reason: "板块涨幅+8.31%", strength: "强" },
+            { name: "医疗服务", reason: "板块涨幅+8.19%", strength: "强" },
+            { name: "其他生物制品", reason: "板块涨幅+8.09%", strength: "强" },
         ],
         weakSectors: [
-            { name: "金融信息服务", reason: "板块跌幅-3.25%", strength: "弱" },
-            { name: "焦炭Ⅱ", reason: "板块跌幅-3.13%", strength: "弱" },
+            { name: "金融信息服务", reason: "板块跌幅-3.05%", strength: "弱" },
+            { name: "焦炭Ⅱ", reason: "板块跌幅-3.02%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注医疗研发外包、印制电路板、钴等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注医疗研发外包、印制电路板、医疗服务等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

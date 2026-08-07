@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                        marketIndices: [
+                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-07 实时" },
         { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-07 实时" },
         { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-07 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                        marketNews: [
+                                            marketNews: [
         {
-            title: "对话熠序科技创始人李德辉：给AI打疫苗、发身份证，这家5个月的公司天使轮拿到了15亿估值",
-            summary: "文 | 新浪科技 陈思竹 2026年1月底，北京白塔寺附近的一家咖啡馆里，熠序科技创始人李德辉萌发出一个想法：人类社会中有着各种规章制度来维持社会稳定...",
-            source: "新浪科技",
+            title: "300506，跨界存储，却罕见大阴线！光纤需求激增，稀土细分原料，火了",
+            summary: "掺铒光纤放大器需求激增，进而推动稀土氧化铒的需求。 今日（8月7日），A股三大指数集体上涨，其中沪指涨1.02%，深证成指涨1.42%，创业板指涨1.35%。",
+            source: "数据宝",
+            date: "2026-08-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-07/doc-inimnvkh9994103.shtml"
+        },
+        {
+            title: "宇树科技回应机器人销售禁令：不会影响现有主要产品销售",
+            summary: "8月7日下午，宇树科技科创板上市网上投资者交流会上，有投资者提问，美国的机器人销售禁令有什么影响？ 宇树科技董事会秘书傅风华回应...",
+            source: "中证网",
+            date: "2026-08-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/chanjing/gsnews/2026-08-07/doc-inimnvkh9988707.shtml"
+        },
+        {
+            title: "英伟达考量激进方案：削减Rubin Ultra芯片显存容量",
+            summary: " 受先进高带宽显存芯片紧缺影响，英伟达正考虑一项激进方案：在下一代 GPU Rubin Ultra 上，搭载比原定规划更少的显存。",
+            source: "环球市场播报",
+            date: "2026-08-07",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnvkh9985434.shtml"
+        },
+        {
+            title: "反导初创企业Furientis吸引知名一线投资机构入局",
+            summary: "作者：利奥・施瓦茨、朱莉娅・霍恩斯坦 过去一年，越来越多综合型风投机构开始进军国防科技赛道。这一细分领域此前只吸引特定专业投资者：他们能够接受业绩高度依赖不稳定...",
+            source: "环球市场播报",
+            date: "2026-08-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnvkp4773208.shtml"
+        },
+        {
+            title: "软银以OpenAI股权质押贷款一事，凸显其融资策略潜藏风险",
+            summary: "如果你是谷歌母公司 Alphabet、Meta 或是亚马逊负责对接投资者的高管，不妨参考一个办法：在办公室墙上挂上一张大幅软银首席执行官孙正义的照片。",
+            source: "环球市场播报",
             date: "2026-08-07",
             tag: "行业",
-            url: "https://finance.sina.com.cn/tech/it/2026-08-07/doc-inimnram0033788.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnvkh9980847.shtml"
         },
         {
-            title: "宇树科技王兴兴：公司将并行开展WMA世界模型、VLA视觉语言动作具身大模型研发",
-            summary: "新浪科技讯 8月7日下午消息 在宇树科技今日的网上路演上，有投资者询问：公司募投项目之一智能机器人模型研发项目的具身智能核心模块“大脑”采用的是大语言模型还是世界模型...",
-            source: "新浪科技",
+            title: "中国联通被曝“狂砍”区域代理佣金：扣减缓发40%，部分套餐资费涨幅达100%",
+            summary: "文 丨 《BUG》栏目 周文猛 在运营商集体出手清退第三方线上号卡业务，集体反内卷的大背景下，中国联通杭州区域行销代理商佣金缩水的事实，也正浮出水面。",
+            source: "BUG",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/tech/it/2026-08-07/doc-inimnrap3208937.shtml"
+            url: "https://finance.sina.com.cn/tech/it/2026-08-07/doc-inimnvkf3201631.shtml"
         },
         {
-            title: "因严重违纪违法 金融监管总局原局长李云泽被罢免全国人大代表",
-            summary: "记者 李微敖 因严重违纪违法 金融监管总局原局长李云泽被罢免全国人大代表 经济观察报 记者 李微敖 实习生 许多 因严重违纪违法，国家金融监督管理总局原党委书记...",
-            source: "经济观察报",
+            title: "蜜雪集团股价震荡向下一度破发、闭店数创新高！国内门店趋饱和增长天花板隐现、海外门店净减少400多家",
+            summary: "出品：新浪财经上市公司研究院 作者：cici 2026年7月10日，蜜雪冰城品牌主体蜜雪集团盘中最低跌至201.2港元/股，跌破202.5港元的发行价，股价创下历史新低。",
+            source: "新浪证券",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-08-07/doc-inimnrap3213369.shtml"
+            url: "https://finance.sina.com.cn/stock/observe/2026-08-07/doc-inimnvkf3197462.shtml"
         },
         {
-            title: "7月末，我国外汇储备规模为34188亿美元，较6月末上升25亿美元，升幅为0.07%",
-            summary: "国家外汇管理局公布2026年7月末外汇储备规模数据 国家外汇管理局统计数据显示，截至2026年7月末，我国外汇储备规模为34188亿美元，较6月末上升25亿美元，升幅为0.07%。",
-            source: "国家外汇管理局网站",
-            date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-08-07/doc-inimnrai3256607.shtml"
-        },
-        {
-            title: "贵金属 ：宏观情绪与技术面同步提振 贵金属震荡走强",
-            summary: "广发期货研究 证监许可【2011】1292号  叶倩宁Z0016628 | 2026年08月07日 星期五 行情导读： 本周，随着美国公布7月经济前瞻数据显示就业等出现降温...",
+            title: "“守财奴”式增长能坚持多久？神火股份：百亿现金在手，扩张按兵不动",
+            summary: "来源：市值风云 电解铝独揽九成利润，煤炭铝箔难掩“单腿狂奔”之困。 作者 |beyond 编辑 |小白 2026年7月底，神火股份（000933.SZ...",
             source: "市场资讯",
             date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-08-07/doc-inimnrac4145624.shtml"
-        },
-        {
-            title: "快讯：现货白银突破64美元/盎司 日内涨超4%",
-            summary: "现货白银突破64美元/盎司，日内涨超4%。",
-            source: "市场资讯",
-            date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-07/doc-inimnrac4138381.shtml"
-        },
-        {
-            title: "海融科技高溢价收购盒马供应链，标的超九成收入依赖关联方",
-            summary: "来源：证券之星 7月30日晚间，“奶油第一股”海融科技（300915.SZ）发布公告，公司拟以自有资金1.3亿元收购上海糖兜科技有限公司（以下简称“糖兜科技”）持有的糖盒食品（昆山...",
-            source: "市场资讯",
-            date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-07/doc-inimnram0028833.shtml"
-        },
-        {
-            title: "H1再陷增收降利困局，新泉股份净利率连跌，砸钱出海资金承压",
-            summary: "来源：证券之星 继2025年出现增收不增利后，新泉股份（603179.SH）仍未摆脱业绩下滑的窘境。2026年上半年，公司营收同比增长7.45%，归母净利润同比下滑1.9%...",
-            source: "市场资讯",
-            date: "2026-08-07",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-07/doc-inimnrap3205011.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-08-07/doc-inimnvkm3162542.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                        investmentSummary: {
+                                            investmentSummary: {
         date: "2026-08-07",
         marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,709.96（+3.66%），纳斯达克报26,348.35（+4.88%）。",
         hotSectors: [
@@ -775,8 +775,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "其他生物制品", reason: "板块涨幅+8.09%", strength: "强" },
         ],
         weakSectors: [
-            { name: "金融信息服务", reason: "板块跌幅-3.05%", strength: "弱" },
-            { name: "焦炭Ⅱ", reason: "板块跌幅-3.02%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
         shortTermStrategy: "超短线关注医疗研发外包、印制电路板、医疗服务等板块的延续性，顺势操作，严格止损。",

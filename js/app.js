@@ -255,10 +255,10 @@ const StockModule = {
         if (!savedNews || savedNews.length === 0 || needsRefresh) {
             Storage.set('stockNews', ContentLibrary.marketNews || []);
         }
-        // 潜力观察个股 — 首次访问或版本变更时刷新
+        // 潜力观察个股 — 首次访问或版本变更时刷新（标记为系统生成，刷新时会被实时数据替换）
         const savedScreening = Storage.get('screeningStocks', null);
         if (!savedScreening || savedScreening.length === 0 || needsRefresh) {
-            Storage.set('screeningStocks', ContentLibrary.screeningStocks || []);
+            Storage.set('screeningStocks', (ContentLibrary.screeningStocks || []).map(s => ({ ...s, auto: true })));
         }
         // 自媒体案例 — 首次访问或版本变更时刷新
         const savedCases = Storage.get('vlogCases', null);
@@ -358,6 +358,15 @@ const StockModule = {
             }
         } catch (e) {
             console.warn('[实时数据] 板块数据获取失败:', e.message);
+        }
+
+        // 4.5 个股推荐 — 东方财富实时生成（涨幅榜 + 资金流）
+        try {
+            const ok = await this.fetchScreeningStocks(today);
+            if (ok) updated = true;
+            else console.warn('[实时数据] 个股推荐实时生成失败，保留静态种子');
+        } catch (e) {
+            console.warn('[实时数据] 个股推荐获取失败:', e.message);
         }
 
         // 5. K线图
@@ -576,6 +585,76 @@ const StockModule = {
             ]
         };
         Storage.set('investmentSummary', summary);
+    },
+
+    // 个股推荐 — 从东方财富实时拉取（涨幅榜 + 主力资金流），动态生成，不再用静态种子
+    async fetchScreeningStocks(today) {
+        const proxy = 'https://api.allorigins.win/raw?url=';
+        const base = 'https://push2.eastmoney.com/api/qt/clist/get';
+        // 字段：f2最新价 f3涨跌幅 f12代码 f13市场 f14名称 f62主力净流入(元)
+        const mk = (fid, pz) =>
+            `${base}?pn=1&np=1&fltt=2&invt=2&fields=f2,f3,f12,f13,f14,f62&fs=m:90+t:2+f:!50&fid=${fid}&po=1&pz=${pz}`;
+        const seen = new Set();
+        const out = [];
+
+        // 1) 涨幅榜（超短线情绪标的）
+        try {
+            const resp = await fetch(proxy + encodeURIComponent(mk('f3', 8)), { signal: AbortSignal.timeout(15000) });
+            const data = await resp.json();
+            let items = data?.data?.diff || [];
+            if (!Array.isArray(items) && items && typeof items === 'object') items = Object.values(items);
+            for (const it of items.slice(0, 8)) {
+                const code = String(it.f12 || '');
+                const name = it.f14 || '';
+                if (!code || !name || seen.has(code)) continue;
+                seen.add(code);
+                const pct = parseFloat(it.f3 || 0);
+                const market = (it.f13 === 1 || /^([69])/.test(code)) ? 'SH' : 'SZ';
+                out.push({
+                    name, code: market + code, market: 'A股', industry: '—',
+                    strategy: '超短线',
+                    reason: `今日涨幅${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%，位列沪深涨幅榜前列，短线情绪与资金关注度最高`,
+                    source: '东方财富·实时行情', url: `https://quote.eastmoney.com/${market === 'SH' ? 'sh' : 'sz'}${code}.html`
+                });
+            }
+        } catch (e) { console.warn('[个股推荐] 涨幅榜获取失败:', e.message); }
+
+        // 2) 主力资金净流入排行（长线价值/机构关注）
+        try {
+            const resp = await fetch(proxy + encodeURIComponent(mk('f62', 6)), { signal: AbortSignal.timeout(15000) });
+            const data = await resp.json();
+            let items = data?.data?.diff || [];
+            if (!Array.isArray(items) && items && typeof items === 'object') items = Object.values(items);
+            for (const it of items.slice(0, 6)) {
+                const code = String(it.f12 || '');
+                const name = it.f14 || '';
+                if (!code || !name || seen.has(code)) continue;
+                seen.add(code);
+                const net = (parseFloat(it.f62 || 0)) / 1e8; // 元→亿元
+                const market = (it.f13 === 1 || /^([69])/.test(code)) ? 'SH' : 'SZ';
+                out.push({
+                    name, code: market + code, market: 'A股', industry: '—',
+                    strategy: '长线价值',
+                    reason: `主力资金净流入${net >= 0 ? '+' : ''}${net.toFixed(2)}亿元，机构关注度提升，适合逢低布局`,
+                    source: '东方财富·资金流向', url: `https://quote.eastmoney.com/${market === 'SH' ? 'sh' : 'sz'}${code}.html`
+                });
+            }
+        } catch (e) { console.warn('[个股推荐] 资金流获取失败:', e.message); }
+
+        if (out.length > 0) {
+            // 合并策略：实时数据替换所有系统条目（含旧静态种子），仅保留用户手动添加的个股
+            const existing = Storage.get('screeningStocks', []);
+            const seedIds = new Set((ContentLibrary.screeningStocks || []).map(s => `${s.code}|${s.name}`));
+            // 用户手动添加的 = 不在静态种子库里、且无 auto 标记
+            const userStocks = existing.filter(s => !s.auto && !seedIds.has(`${s.code}|${s.name}`));
+            const liveStocks = out.map(s => ({ ...s, auto: true }));
+            Storage.set('screeningStocks', [...liveStocks, ...userStocks]);
+            Storage.set('screeningDate', today);
+            this.renderScreening();
+            console.log('[个股推荐] 实时生成', liveStocks.length, '只（保留手动', userStocks.length, '只）');
+            return true;
+        }
+        return false;
     },
 
     // K线图 — 使用 TradingView lightweight-charts
@@ -854,16 +933,23 @@ const StockModule = {
     renderScreening() {
         const stocks = Storage.get('screeningStocks', []);
         const body = document.getElementById('screeningBody');
+        // 显示更新日期
+        const dateEl = document.getElementById('screeningDate');
+        if (dateEl) {
+            const d = Storage.get('screeningDate', null);
+            dateEl.textContent = d ? `更新于 ${d}` : '';
+        }
         if (stocks.length === 0) {
             body.innerHTML = '<tr><td colspan="8" class="empty-state">暂无观察个股，点击"添加个股"手动录入</td></tr>';
             return;
         }
         body.innerHTML = stocks.map((s, i) => {
             const stratClass = s.strategy === '长线价值' ? 'strat-long' : s.strategy === '超短线' ? 'strat-short' : 'strat-default';
+            const manualTag = s.auto ? '' : ' <span class="manual-tag">手动</span>';
             return `
             <tr>
                 <td>${i + 1}</td>
-                <td>${escapeHtml(s.name)}</td>
+                <td>${escapeHtml(s.name)}${manualTag}</td>
                 <td>${escapeHtml(s.code)}</td>
                 <td><span class="news-tag">${escapeHtml(s.market)}</span></td>
                 <td>${escapeHtml(s.industry)}</td>

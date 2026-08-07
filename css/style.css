@@ -980,6 +980,24 @@ html, body {
     font-size: 11px;
     padding: 1px 6px;
 }
+.screening-date {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-right: 4px;
+    align-self: center;
+}
+.manual-tag {
+    display: inline-block;
+    font-size: 9px;
+    line-height: 1;
+    padding: 2px 5px;
+    border-radius: 4px;
+    background: rgba(98, 164, 200, 0.15);
+    color: var(--accent-blue);
+    border: 1px solid rgba(98, 164, 200, 0.35);
+    vertical-align: middle;
+    margin-left: 4px;
+}
 
 /* ---------- 投资推荐总结面板 ---------- */
 .investment-summary {

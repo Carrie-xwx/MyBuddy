@@ -174,14 +174,15 @@
                     <div class="sub-panel" id="sub-stock-screening">
                         <div class="card">
                             <div class="card-header">
-                                <h3>个股推荐（长线价值 + 超短线热门）</h3>
+                                <h3>个股推荐（实时 · 长线价值 + 超短线热门）</h3>
                                 <div class="card-actions">
+                                    <span id="screeningDate" class="screening-date"></span>
                                     <button class="btn-sm btn-ghost" onclick="StockModule.addScreeningStock()">+ 添加个股</button>
                                     <button class="btn-sm btn-outline" onclick="StockModule.copyScreening()">复制全部</button>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <p class="hint-text">参考同花顺热榜/券商金股 + 富途moomoo美股热度，按长线价值和超短线两种策略分类。仅做客观汇总。</p>
+                                <p class="hint-text">实时抓取东方财富涨幅榜 + 主力资金净流入排行，按长线价值和超短线两种策略自动生成，每次打开/刷新自动更新。手动添加的个股不会被覆盖。仅做客观汇总，不构成投资建议。</p>
                                 <div class="table-wrap">
                                     <table class="data-table" id="screeningTable">
                                         <thead>

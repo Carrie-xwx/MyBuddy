@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3900.35", change: "+0.57%", market: "A股", updateTime: "2026-08-06 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14110.12", change: "-0.24%", market: "A股", updateTime: "2026-08-06 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3515.56", change: "-0.55%", market: "A股", updateTime: "2026-08-06 实时" },
-        { name: "沪深300", code: "SH000300", value: "4651.31", change: "-0.15%", market: "A股", updateTime: "2026-08-06 实时" },
-        { name: "科创50", code: "SH000688", value: "1701.29", change: "+0.45%", market: "A股", updateTime: "2026-08-06 实时" },
-        { name: "标普500", code: "SPX", value: "7,723.55", change: "+5.57%", market: "美股", updateTime: "2026-08-06 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,363.44", change: "+7.86%", market: "美股", updateTime: "2026-08-06 收盘" },
-        { name: "道琼斯", code: "DJI", value: "54,349.12", change: "+5.34%", market: "美股", updateTime: "2026-08-06 收盘" },
+                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3928.87", change: "+0.73%", market: "A股", updateTime: "2026-08-07 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14334.59", change: "+1.59%", market: "A股", updateTime: "2026-08-07 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3585.43", change: "+1.99%", market: "A股", updateTime: "2026-08-07 实时" },
+        { name: "沪深300", code: "SH000300", value: "4695.45", change: "+0.95%", market: "A股", updateTime: "2026-08-07 实时" },
+        { name: "科创50", code: "SH000688", value: "1736.42", change: "+2.06%", market: "A股", updateTime: "2026-08-07 实时" },
+        { name: "标普500", code: "SPX", value: "7,709.96", change: "+3.66%", market: "美股", updateTime: "2026-08-07 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,348.35", change: "+4.88%", market: "美股", updateTime: "2026-08-07 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,885.10", change: "+3.21%", market: "美股", updateTime: "2026-08-07 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                marketNews: [
+                                    marketNews: [
         {
-            title: "康菲石油任命新CEO，油价上涨助推二季度利润增长",
-            summary: "康菲石油第二季度录得较高利润，得益于油气平均价格飙升36%，同时公司提拔首席财务官安迪·奥布莱恩为新任首席执行官。 康菲石油周四表示...",
+            title: "因担忧电价暴涨，弗吉尼亚州长将介入NextEra与Dominion合并案",
+            summary: " 弗吉尼亚州长Abigail Spanberger周四宣布，将介入NextEra收购Dominion Energy的大型合并交易。此举在选民对电费上涨日益不满之际属前所未有。",
             source: "环球市场播报",
-            date: "2026-08-06",
+            date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimksmi0603001.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkuf4150069.shtml"
         },
         {
-            title: "亚马逊药房将向Medicare Part D患者提供GLP-1减肥药物",
-            summary: "亚马逊公司表示，Medicare Part D患者现在可以通过亚马逊药房获得部分GLP-1减肥药物。 Medicare Part D患者指的是加入了美国联邦医疗保险（Medicare）中处方药福利计划（Pa...",
+            title: "FCC取消全国电视所有权上限 特朗普阵营广播公司迎重大利好",
+            summary: "美国联邦通信委员会（FCC）周四以党派表决通过决议，取消禁止单一公司通过公共电波覆盖超过39%美国电视家庭的全国广播所有权上限。",
             source: "环球市场播报",
-            date: "2026-08-06",
+            date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimksmf3828964.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkuf4146006.shtml"
         },
         {
-            title: "全球最大烈酒制造商帝亚吉欧推出10亿美元成本削减计划",
-            summary: "帝亚吉欧股价周四大幅上涨，此前该公司公布了一项为期三年、规模10亿美元的节约计划，以扭转业务颓势。 这家全球最大烈酒公司的品牌组合包括尊尼获加苏格兰威士忌...",
+            title: "日本公共部门员工今年有望获得超过3%的加薪",
+            summary: "日本公务员的月基本工资今年有望平均增长3.51%，这与去年的3.62%涨幅相差不大，后者是自1991年以来的最大增幅。 日本人事院周五向国会和内阁提交了一份建议。",
             source: "环球市场播报",
-            date: "2026-08-06",
+            date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimkskz4600806.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkup0043110.shtml"
         },
         {
-            title: "《清晰法案》不足以重启加密货币行业繁荣",
-            summary: " 2024 年助力特朗普成功当选总统之后，加密货币行业对立法寄予厚望。行业期盼出台法案搭建清晰监管框架，借此吸引海量大型资本与主流投资者入场。",
+            title: "法国第二季度失业率升至2020年底以来最高水平",
+            summary: "法国失业率持续攀升，触及近六年来最高水平。 法国国家统计机构Insee公布的数据显示，第二季度失业率为8.3%，高于前一季度的8.1%。这一数字也高于经济学家预估中值8.2%。",
             source: "环球市场播报",
-            date: "2026-08-06",
+            date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimksmf3825120.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkuf4141730.shtml"
         },
         {
-            title: "今年手机已多轮涨价，余承东：还将大规模涨价",
-            summary: " 手机经销商提到，华为发布的新品手机多为定价6000元以上的高端款，这让它拥有足够的利润空间来吸收成本波动，受内存上涨影响相对有限",
-            source: "《财经》杂志",
-            date: "2026-08-06",
+            title: "T-Mobile首席执行官称星链对移动运营商构成的威胁被夸大",
+            summary: " T-Mobile首席执行官Srini Gopalan在接受采访时表示，马斯克旗下星链（Starlink）这样的卫星互联网服务构成的威胁被夸大了。",
+            source: "环球市场播报",
+            date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/wm/2026-08-06/doc-inimkskx2999105.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkur3196449.shtml"
         },
         {
-            title: "欧盟敦促加勒比国家关闭“黄金护照”项目，否则将面临旅行限制",
-            summary: "欧盟已通知五个加勒比国家，它们需要在2028年前终止投资入籍项目，否则将面临失去进入欧洲申根区免签待遇的风险。 进入申根区29个国家的免签资格...",
+            title: "SpaceX股价腰斩 散户却持续净买入",
+            summary: " 自6月12日上市以来，SpaceX（SPCX）股价从峰值回落超过一半并跌破发行价，但散户投资者始终保持净买入，从未出现过净卖出日。",
             source: "环球市场播报",
-            date: "2026-08-06",
+            date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimkskz4596098.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkum3260440.shtml"
         },
         {
-            title: "谷歌AI架构大调整，将如何影响皮查伊接班人布局",
-            summary: "正当优步、达达外卖、Shopify、迪士尼等一大批企业集中发布二季度财报之际，周四谷歌突然抛出重磅人事消息：AI 领军人物、Google DeepMind...",
+            title: "The Trade Desk公布2026年第二季度财报 营收不及分析师预期 股价下跌21.8%",
+            summary: "数字广告平台The Trade Desk（纳斯达克：TTD）在2026年第二季度未达市场营收预期，销售额同比增长3%至7.151亿美元。公司给出的下季度营收指引为6.5亿美元...",
             source: "环球市场播报",
-            date: "2026-08-06",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimksmf3822933.shtml"
+            date: "2026-08-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkup0029515.shtml"
         },
         {
-            title: "红杉资本新管理层全力押注人工智能",
-            summary: " 前任全球负责人 11 月离任之后，这家传奇风投机构由两大王牌投资人林君睿（Alfred Lin）与帕特・格雷迪掌舵，全力争抢 AI 赛道交易",
+            title: "Meta被判支付9.42亿美元，以应对社交媒体对儿童造成的伤害",
+            summary: "新墨西哥州一名法官周四裁定，Meta Platforms须支付超过9亿美元，并限制该州青少年在Facebook和Instagram上的使用时间。这一裁决显著提高了针对该公司儿童安全问题的里程碑...",
             source: "环球市场播报",
-            date: "2026-08-06",
+            date: "2026-08-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimkskx2986640.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimnkup0026369.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                investmentSummary: {
-        date: "2026-08-06",
-        marketAssessment: "A股方面：上证指数报3900.35点（+0.57%），深证成指报14110.12点（-0.24%），创业板指报3515.56点（-0.55%）。美股方面：标普500报7,723.55（+5.57%），纳斯达克报26,363.44（+7.86%）。",
+                                    investmentSummary: {
+        date: "2026-08-07",
+        marketAssessment: "A股方面：上证指数报3928.87点（+0.73%），深证成指报14334.59点（+1.59%），创业板指报3585.43点（+1.99%）。美股方面：标普500报7,709.96（+3.66%），纳斯达克报26,348.35（+4.88%）。",
         hotSectors: [
-            { name: "钨", reason: "板块涨幅+6.85%", strength: "强" },
-            { name: "种子", reason: "板块涨幅+6.07%", strength: "强" },
-            { name: "焦煤", reason: "板块涨幅+5.82%", strength: "强" },
-            { name: "煤炭开采", reason: "板块涨幅+5.43%", strength: "强" },
+            { name: "医疗研发外包", reason: "板块涨幅+11.20%", strength: "强" },
+            { name: "印制电路板", reason: "板块涨幅+8.52%", strength: "强" },
+            { name: "钴", reason: "板块涨幅+7.53%", strength: "强" },
+            { name: "医疗服务", reason: "板块涨幅+6.88%", strength: "强" },
         ],
         weakSectors: [
-            { name: "学历教育", reason: "板块跌幅-3.96%", strength: "弱" },
-            { name: "电动乘用车", reason: "板块跌幅-3.67%", strength: "弱" },
+            { name: "金融信息服务", reason: "板块跌幅-3.25%", strength: "弱" },
+            { name: "焦炭Ⅱ", reason: "板块跌幅-3.13%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注钨、种子、焦煤等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注医疗研发外包、印制电路板、钴等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

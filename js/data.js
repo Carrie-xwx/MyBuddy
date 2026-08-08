@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                    marketIndices: [
+                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-08 实时" },
         { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-08 实时" },
         { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-08 实时" },
@@ -669,7 +669,23 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                    marketNews: [
+                                                        marketNews: [
+        {
+            title: "OpenAI出于网络安全担忧暂停新Astra模型的部分研发工作",
+            summary: " OpenAI正暂停其即将推出的一款人工智能模型的相关内部工作，以实施更严格的安全保障措施，此前发现该系统在网络安全任务方面表现显著更胜一筹。",
+            source: "环球市场播报",
+            date: "2026-08-08",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqptr2699541.shtml"
+        },
+        {
+            title: "美国称乌克兰将避免以油轮和黑海石油码头为打击目标",
+            summary: " 据一位美国官员透露，乌克兰已同意不将部分非俄罗斯油轮以及对哈萨克斯坦原油出口至关重要的黑海基础设施作为打击目标，此前上个月针对船只的袭击导致装载作业中断。",
+            source: "环球市场播报",
+            date: "2026-08-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqptt9789216.shtml"
+        },
         {
             title: "新兴产业新设企业40万户 上半年全国经营主体发展数据发布",
             summary: " 8月8日，市场监管总局公布数据显示，新产业新赛道企业蓄能成势，服务业新消费与高技术服务业双轮驱动，制造业转型加快，产业发展亮点纷呈。",
@@ -718,22 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "美股",
             url: "https://finance.sina.com.cn/world/2026-08-08/doc-inimqccv2756070.shtml"
         },
-        {
-            title: "伊朗官员称防务协议无法保障沙特安全",
-            summary: "沙特阿拉伯王储兼首相穆罕默德·本·萨勒曼7日与到访的土耳其总统埃尔多安和巴基斯坦总理夏巴兹在沙特麦加签署《麦加共同防务协议》。",
-            source: "央视",
-            date: "2026-08-08",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-08/doc-inimqccx4359603.shtml"
-        },
-        {
-            title: "OpenAI提示新模型Astra存在潜在重大网络安全风险，强化安全管控",
-            summary: " OpenAI周五表示，其即将推出的AI模型Astra可能具备“关键性”网络安全能力，这促使OpenAI暂停了部分内部开发并启动了安全协议。",
-            source: "环球市场播报",
-            date: "2026-08-08",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/world/2026-08-08/doc-inimpwwc6765308.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                    investmentSummary: {
+                                                        investmentSummary: {
         date: "2026-08-08",
         marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
         hotSectors: [
@@ -775,7 +775,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "其他生物制品", reason: "板块涨幅+8.09%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "金融信息服务", reason: "板块跌幅-3.05%", strength: "弱" },
+            { name: "焦炭Ⅱ", reason: "板块跌幅-3.02%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
         shortTermStrategy: "超短线关注医疗研发外包、印制电路板、医疗服务等板块的延续性，顺势操作，严格止损。",

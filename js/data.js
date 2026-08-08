@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                        marketIndices: [
+                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-08 实时" },
         { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-08 实时" },
         { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-08 实时" },
@@ -669,7 +669,23 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                        marketNews: [
+                                                            marketNews: [
+        {
+            title: "美国参议院确认由特朗普提名的托德·布兰奇出任司法部长",
+            summary: " 美国参议院确认托德·布兰奇出任司法部长，将总统唐纳德·特朗普昔日的私人辩护律师提拔至领导美国最高联邦执法机构的职位。",
+            source: "环球市场播报",
+            date: "2026-08-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqyip9653412.shtml"
+        },
+        {
+            title: "多家A股公司公告：收到美国关税退税！最高近亿元",
+            summary: "8月6日晚，贵州轮胎公告，公司境外全资子公司NACTR公司近期陆续收到美国海关与边境保护局的退税。截至目前，NACTR公司已累计收到退回关税及利息合计1198.30万美元...",
+            source: "每日经济新闻",
+            date: "2026-08-08",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-08/doc-inimqtzp2605900.shtml"
+        },
         {
             title: "OpenAI出于网络安全担忧暂停新Astra模型的部分研发工作",
             summary: " OpenAI正暂停其即将推出的一款人工智能模型的相关内部工作，以实施更严格的安全保障措施，此前发现该系统在网络安全任务方面表现显著更胜一筹。",
@@ -718,22 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "美股",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqimv9824212.shtml"
         },
-        {
-            title: "7月非农降温难解政策分歧 通胀连续五年高于目标 美联储支持加息阵营扩大",
-            summary: "来源：智通财经网 美国通胀连续五年高于美联储2%的政策目标，正不断考验决策层的耐心。尽管美联储7月议息会议维持利率不变，越来越多官员开始认为...",
-            source: "市场资讯",
-            date: "2026-08-08",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-08-08/doc-inimqccz6652193.shtml"
-        },
-        {
-            title: "8月8日隔夜要闻：美股创4月份以来最大单周涨幅 金价大涨 SpaceX涨近16%",
-            summary: "市场 8月8日收盘：标普指数再创新高，三大指数本周均录得较大涨幅 8月8日美股成交额前20：SpaceX将自建发电厂保障电力供应 8月8日热门中概股多数上涨 小鹏汽车涨3.72%...",
-            source: "环球市场播报",
-            date: "2026-08-08",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/world/2026-08-08/doc-inimqccv2756070.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                        investmentSummary: {
+                                                            investmentSummary: {
         date: "2026-08-08",
         marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
         hotSectors: [

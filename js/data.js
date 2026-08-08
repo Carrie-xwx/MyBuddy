@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                            marketIndices: [
+                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-08 实时" },
         { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-08 实时" },
         { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-08 实时" },
@@ -669,7 +669,23 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                            marketNews: [
+                                                                marketNews: [
+        {
+            title: "伊朗称“非常接近”与阿曼达成霍尔木兹协议 但海峡开放取决于其他条件",
+            summary: " 伊朗表示，已经“非常接近”与阿曼就霍尔木兹海峡新的海上通航路线达成一项协议。本周以来，外界对于相关协议可能很快宣布的预期升温。",
+            source: "环球市场播报",
+            date: "2026-08-08",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimrkxf2450360.shtml"
+        },
+        {
+            title: "阿布扎比国家石油公司称其船只在霍尔木兹海域遭袭",
+            summary: "据阿联酋媒体报道，阿布扎比国家石油公司表示，其一艘船只在周六凌晨通过霍尔木兹海峡时遭到导弹袭击。 事件未造成人员伤亡；局势已得到控制。",
+            source: "环球市场播报",
+            date: "2026-08-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimrerm4118391.shtml"
+        },
         {
             title: "美国参议院确认由特朗普提名的托德·布兰奇出任司法部长",
             summary: " 美国参议院确认托德·布兰奇出任司法部长，将总统唐纳德·特朗普昔日的私人辩护律师提拔至领导美国最高联邦执法机构的职位。",
@@ -677,6 +693,14 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-08-08",
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqyip9653412.shtml"
+        },
+        {
+            title: "大手笔！603175，拟超20亿元扩产，优化高端PCB战略布局",
+            summary: "8月7日晚间超颖电子（603175）公告，公司拟投资建设高多层及HDI印制电路板P3项目，投资金额20.86亿元人民币或等值外币（以相关政府主管部门批准金额为准）...",
+            source: "证券时报",
+            date: "2026-08-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/wm/2026-08-08/doc-inimqyip9631526.shtml"
         },
         {
             title: "多家A股公司公告：收到美国关税退税！最高近亿元",
@@ -710,30 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/jjxw/2026-08-08/doc-inimqptt9765112.shtml"
         },
-        {
-            title: "美国法官下令Verisk推进23.5亿美元收购AccuLynx的交易",
-            summary: " 美国特拉华州一名法官下令，要求数据分析公司Verisk尝试完成其计划中的23.5亿美元收购屋顶软件制造商AccuLynx的交易。此前七个多月，Verisk曾宣布终止该交易。",
-            source: "环球市场播报",
-            date: "2026-08-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqimv9872219.shtml"
-        },
-        {
-            title: "SK海力士据悉评估重庆资产方案 包括引入投资者",
-            summary: "据知情人士称，SK海力士正研究旗下重庆资产的方案选项，包括引入投资者以帮助加速增长。 消息人士称，作为英伟达高带宽内存芯片的重要供应商，SK海力士正与潜在顾问接洽...",
-            source: "环球市场播报",
-            date: "2026-08-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqimx6631227.shtml"
-        },
-        {
-            title: "英伟达据悉将向Lancium投资至冬30亿美元",
-            summary: " 据报道，英伟达将向黑石集团支持的电力基础设施开发商Lancium投资至多30亿美元，该公司正是 Stargate 项目的幕后推手。",
-            source: "环球市场播报",
-            date: "2026-08-08",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqimv9824212.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                            investmentSummary: {
+                                                                investmentSummary: {
         date: "2026-08-08",
         marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
         hotSectors: [
-            { name: "医疗研发外包", reason: "板块涨幅+13.03%", strength: "强" },
-            { name: "印制电路板", reason: "板块涨幅+8.31%", strength: "强" },
-            { name: "医疗服务", reason: "板块涨幅+8.19%", strength: "强" },
-            { name: "其他生物制品", reason: "板块涨幅+8.09%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "金融信息服务", reason: "板块跌幅-3.05%", strength: "弱" },
-            { name: "焦炭Ⅱ", reason: "板块跌幅-3.02%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注医疗研发外包、印制电路板、医疗服务等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

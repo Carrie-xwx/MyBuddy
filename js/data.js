@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-07 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-07 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-07 实时" },
-        { name: "沪深300", code: "SH000300", value: "4694.44", change: "+0.93%", market: "A股", updateTime: "2026-08-07 实时" },
-        { name: "科创50", code: "SH000688", value: "1744.02", change: "+2.51%", market: "A股", updateTime: "2026-08-07 实时" },
-        { name: "标普500", code: "SPX", value: "7,758.55", change: "+3.59%", market: "美股", updateTime: "2026-08-07 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,697.09", change: "+5.21%", market: "美股", updateTime: "2026-08-07 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,981.21", change: "+2.85%", market: "美股", updateTime: "2026-08-07 收盘" },
+                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-08 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-08 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-08 实时" },
+        { name: "沪深300", code: "SH000300", value: "4694.44", change: "+0.93%", market: "A股", updateTime: "2026-08-08 实时" },
+        { name: "科创50", code: "SH000688", value: "1744.02", change: "+2.51%", market: "A股", updateTime: "2026-08-08 实时" },
+        { name: "标普500", code: "SPX", value: "7,757.64", change: "+3.58%", market: "美股", updateTime: "2026-08-08 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,690.62", change: "+5.19%", market: "美股", updateTime: "2026-08-08 收盘" },
+        { name: "道琼斯", code: "DJI", value: "54,036.93", change: "+2.96%", market: "美股", updateTime: "2026-08-08 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                marketNews: [
+                                                    marketNews: [
         {
-            title: "汤姆・李预判2027年将成为股市“表现最好年份之一”，他的看多逻辑颇具说服力",
-            summary: "速读要点富途策略（Fundstrat）汤姆・李将标普 500 目标位上调至 8000 点，看好 2027 年行情；核心驱动因素：AI 带来生产力提升、美国 AI 出口优势...",
-            source: "环球市场播报",
-            date: "2026-08-07",
+            title: "新兴产业新设企业40万户 上半年全国经营主体发展数据发布",
+            summary: " 8月8日，市场监管总局公布数据显示，新产业新赛道企业蓄能成势，服务业新消费与高技术服务业双轮驱动，制造业转型加快，产业发展亮点纷呈。",
+            source: "央视",
+            date: "2026-08-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfya9881584.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-08/doc-inimqptt9765112.shtml"
         },
         {
-            title: "芒格曾说净资产达到10万美元后财富将“爆发式增长”",
-            summary: "作者：维谢什・莱辛哈尼 多年以来流传一条财富共识：净资产迈入六位数门槛，财富增长就会进入加速通道。这套理论最早由已故亿万富豪...",
+            title: "美国法官下令Verisk推进23.5亿美元收购AccuLynx的交易",
+            summary: " 美国特拉华州一名法官下令，要求数据分析公司Verisk尝试完成其计划中的23.5亿美元收购屋顶软件制造商AccuLynx的交易。此前七个多月，Verisk曾宣布终止该交易。",
             source: "环球市场播报",
-            date: "2026-08-07",
+            date: "2026-08-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfxz3106494.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqimv9872219.shtml"
         },
         {
-            title: "美国就业数据公布后日元大涨 交易员关注汇市干预迹象",
-            summary: " 周五公布的美国非农就业报告意外疲软，美元随之走弱，日元大幅攀升，进一步引发市场对有关当局可能再次出手干预日元汇率的猜测。",
+            title: "SK海力士据悉评估重庆资产方案 包括引入投资者",
+            summary: "据知情人士称，SK海力士正研究旗下重庆资产的方案选项，包括引入投资者以帮助加速增长。 消息人士称，作为英伟达高带宽内存芯片的重要供应商，SK海力士正与潜在顾问接洽...",
             source: "环球市场播报",
-            date: "2026-08-07",
+            date: "2026-08-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqimx6631227.shtml"
+        },
+        {
+            title: "英伟达据悉将向Lancium投资至冬30亿美元",
+            summary: " 据报道，英伟达将向黑石集团支持的电力基础设施开发商Lancium投资至多30亿美元，该公司正是 Stargate 项目的幕后推手。",
+            source: "环球市场播报",
+            date: "2026-08-08",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqimv9824212.shtml"
+        },
+        {
+            title: "7月非农降温难解政策分歧 通胀连续五年高于目标 美联储支持加息阵营扩大",
+            summary: "来源：智通财经网 美国通胀连续五年高于美联储2%的政策目标，正不断考验决策层的耐心。尽管美联储7月议息会议维持利率不变，越来越多官员开始认为...",
+            source: "市场资讯",
+            date: "2026-08-08",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-08-08/doc-inimqccz6652193.shtml"
+        },
+        {
+            title: "8月8日隔夜要闻：美股创4月份以来最大单周涨幅 金价大涨 SpaceX涨近16%",
+            summary: "市场 8月8日收盘：标普指数再创新高，三大指数本周均录得较大涨幅 8月8日美股成交额前20：SpaceX将自建发电厂保障电力供应 8月8日热门中概股多数上涨 小鹏汽车涨3.72%...",
+            source: "环球市场播报",
+            date: "2026-08-08",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/world/2026-08-08/doc-inimqccv2756070.shtml"
+        },
+        {
+            title: "伊朗官员称防务协议无法保障沙特安全",
+            summary: "沙特阿拉伯王储兼首相穆罕默德·本·萨勒曼7日与到访的土耳其总统埃尔多安和巴基斯坦总理夏巴兹在沙特麦加签署《麦加共同防务协议》。",
+            source: "央视",
+            date: "2026-08-08",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfyi4685060.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-08/doc-inimqccx4359603.shtml"
         },
         {
-            title: "海湾投资者奔赴亚洲，挖掘人工智能投资机遇",
-            summary: "作者：凯尔西・沃纳 受中东、欧洲多地冲突持续，叠加供应链不确定性影响，具备相对稳定特质的亚洲市场吸引力上升，海湾地区投资者正转向亚洲布局人工智能赛道。",
+            title: "OpenAI提示新模型Astra存在潜在重大网络安全风险，强化安全管控",
+            summary: " OpenAI周五表示，其即将推出的AI模型Astra可能具备“关键性”网络安全能力，这促使OpenAI暂停了部分内部开发并启动了安全协议。",
             source: "环球市场播报",
-            date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfyf3078661.shtml"
-        },
-        {
-            title: "密歇根州环孢子虫疫情减弱 病例正在减少",
-            summary: "随着环孢子虫病例数量下降——至少在密歇根州是这样——现在再次食用生菜和袋装沙拉绿叶菜是安全的。 密歇根州一直处于美国最大规模环孢子虫疫情的中心。",
-            source: "环球市场播报",
-            date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfyf3076888.shtml"
-        },
-        {
-            title: "加拿大7月新增就业远超预期 失业率降至两年低点",
-            summary: "加拿大7月意外新增就业7.51万，失业率降至两年低点，进一步显示经济正在复苏。 加拿大统计局周五公布的数据显示，7月失业率由前一个月的6.5%降至6.4%。",
-            source: "环球市场播报",
-            date: "2026-08-07",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfya9869729.shtml"
-        },
-        {
-            title: "爱彼迎早盘上涨近15%，有望创下自2022年4月以来最高收盘价",
-            summary: "爱彼迎（Airbnb， Inc．）A类股（ABNB）目前报173.96美元，上涨22.32美元，涨幅14.72% ——有望创下自2022年4月4日以来的最高收盘价，当日收盘报177...",
-            source: "环球市场播报",
-            date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfyf3069326.shtml"
-        },
-        {
-            title: "瑞银：黄金上涨行情具备支撑，金价明年有望向5000美元迈进",
-            summary: "黄金为何持续受青睐？六大因素解析其跨越五千年的保值地位 过去一周，这只曾经大涨的贵金属再度启动上行，瑞银分析师看好黄金（GC=F）后续价格走势。",
-            source: "环球市场播报",
-            date: "2026-08-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-07/doc-inimpfyi4671646.shtml"
+            date: "2026-08-08",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/world/2026-08-08/doc-inimpwwc6765308.shtml"
         },
     ],
 
@@ -765,17 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                investmentSummary: {
-        date: "2026-08-07",
-        marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,758.55（+3.59%），纳斯达克报26,697.09（+5.21%）。",
+                                                    investmentSummary: {
+        date: "2026-08-08",
+        marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
         hotSectors: [
-
+            { name: "医疗研发外包", reason: "板块涨幅+13.03%", strength: "强" },
+            { name: "印制电路板", reason: "板块涨幅+8.31%", strength: "强" },
+            { name: "医疗服务", reason: "板块涨幅+8.19%", strength: "强" },
+            { name: "其他生物制品", reason: "板块涨幅+8.09%", strength: "强" },
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注医疗研发外包、印制电路板、医疗服务等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

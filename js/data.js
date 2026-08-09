@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                        marketIndices: [
+                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-09 实时" },
         { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-09 实时" },
         { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-09 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                        marketNews: [
+                                                                            marketNews: [
         {
-            title: "长崎遭美原子弹轰炸81周年，高市早苗再度含糊表态！俄驻日大使：日本推翻“无核三原则”将招致邻国反制",
-            summary: "当地时间9日，日本长崎遭原子弹轰炸81周年纪念仪式在长崎市和平纪念公园举行。日本首相高市早苗参加仪式，其致辞时对“无核三原则”仍含糊表态...",
-            source: "每日经济新闻",
+            title: "中际旭创挑战来袭",
+            summary: "来源：富凯财经 富凯摘要 交银国际证券上月给出目标价1600元。 作者|辛思路 排版|十 一 8月3日至7日，A股三大指数均实现上涨，科技成长板块表现尤为强势...",
+            source: "市场资讯",
             date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-09/doc-inimtchp3428947.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtiqp5548151.shtml"
         },
         {
-            title: "俄罗斯通报称俄军持续打击敖德萨及尼古拉耶夫涉军目标",
-            summary: "俄罗斯国防部8日发布通报称，俄军正持续对乌克兰港口基础设施及为乌克兰武装部队提供支持的船只实施火力打击。 俄国防部表示，俄军动用空基精确制导武器及攻击型无人机...",
-            source: "环球市场播报",
+            title: "“一斤羊肉180元” 西贝贾国龙再入局鲜羊餐饮：羊肉串8元起，部分店员来自西贝，网友：更贵了？",
+            summary: "文 | 《BUG》栏目 张奥 近日，继西贝事件后，西贝餐饮集团创始人贾国龙再度入局“鲜羊”领域，并开出全新品牌“天边羊多”。 恰逢开业首个周末，新品牌首店的状况如何？",
+            source: "新浪科技",
             date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchp8822104.shtml"
+            url: "https://finance.sina.com.cn/tob/2026-08-09/doc-inimtiqm8772580.shtml"
         },
         {
-            title: "特朗普家族关联金融科技企业AI Financial出售其加拿大子公司",
-            summary: "近日，与美国特朗普家族支持的加密货币项目“世界自由金融”（World Liberty Financial）存在密切关联的金融科技企业AI Financial Corp宣布...",
-            source: "环球市场播报",
+            title: "飞猪启动台风“白海豚”应急响应机制，已保障多批消费者无损退改",
+            summary: "据中央气象台消息，台风“白海豚”（强台风级）预计于9日傍晚至10日凌晨在浙江舟山到福建福鼎一带沿海登陆。目前，飞猪已启动应急响应机制，充分保障消费者的退改权益。",
+            source: "新浪科技",
             date: "2026-08-09",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchm1817059.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tob/2026-08-09/doc-inimtiqm3377715.shtml"
         },
         {
-            title: "因防范网络安全隐患 OpenAI暂停新一代人工智能模型部分研发",
-            summary: " 鉴于新一代人工智能模型“Astra”被评估出具备自主发起网络攻击的高危潜能，OpenAI近日宣布，将暂停涉及该模型的部分内部研发活动，并全面升级相关安全管控机制。",
-            source: "环球市场播报",
-            date: "2026-08-09",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchr5588994.shtml"
-        },
-        {
-            title: "土耳其、巴基斯坦与沙特签署《麦加共同防御协定》",
-            summary: "当地时间8日，土耳其外交部长哈坎·菲丹证实，土耳其、巴基斯坦与沙特阿拉伯已于7日正式签署《麦加共同防御协定》。该协定旨在强化三国间的集体安全与威慑能力...",
+            title: "阿拉格齐称在谅解备忘录持续遭美方违反时无法与美国谈判",
+            summary: "外交部长阿巴斯·阿拉格齐的话表示：“只要美国继续违反谅解备忘录，并且不对其违约行为作出补救，谈判就不可能恢复。” “一些中间国家正试图重新奠定谈判基础” “目前...",
             source: "环球市场播报",
             date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchm1814664.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchr5648611.shtml"
         },
         {
-            title: "因座椅金属车标存高温烫伤缺陷，奔驰AMG车型在美面临集体诉讼",
-            summary: "近日，两名美国梅赛德斯-奔驰（Mercedes-Benz）AMG车型车主向美国加利福尼亚州联邦地区法院提起集体诉讼，指控该品牌部分车型的前排座椅金属车标存在设计缺陷...",
-            source: "环球市场播报",
+            title: "摩尔线程：2026上半年营收17.36亿元，同比增长147.42%",
+            summary: "新浪科技讯 8月9日下午消息，摩尔线程发布2026年半年度报告。根据报告，2026年上半年，摩尔线程实现营收17.36亿元，同比增长147.42%，已超2025年全年营收；毛利总额达9...",
+            source: "新浪科技",
             date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchr5586931.shtml"
+            url: "https://finance.sina.com.cn/tob/2026-08-09/doc-inimtchp3473249.shtml"
         },
         {
-            title: "亚马逊拟在得州建大型自备天然气电厂 耗能与碳排放引发舆论担忧",
-            summary: "亚马逊已确认在得克萨斯州佩科斯县筹建大型数据中心，并配套投资建设一座离网天然气发电厂。相关监管许可文件显示，该电厂获准的年二氧化碳排放量上限高达3300万吨...",
-            source: "环球市场播报",
+            title: "苹果回应删除接入千问手册：没收到通知，中国大陆还没推出“Apple智能使用千问”功能",
+            summary: "新浪科技讯 8月9日下午消息，针对删除《在 Mac 上配合Apple智能使用千问》使用文档一事，苹果客服最新回应新浪科技称：“我们有功能或新项目发布时，都会提前收到通知...",
+            source: "新浪科技",
             date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchr5586367.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/tob/2026-08-09/doc-inimtchr5630368.shtml"
         },
         {
-            title: "亚马逊得州数据中心项目或成全美最大碳排放源",
-            summary: "亚马逊公司计划在美国得克萨斯州佩科斯县投资建设一座大型数据中心及配套天然气发电厂。该发电厂获准的年二氧化碳排放量高达3300万吨，超过美国境内任何现有发电设施...",
-            source: "环球市场播报",
+            title: "摩尔线程：2026上半年营收17.36亿元，已超2025全年",
+            summary: "8月9日，国产GPU龙头摩尔线程（688795.SH）发布《2026年半年度报告》。2026年上半年，公司实现营收17.36亿元，同比大幅增长147.42%，已超2025年全年营收；毛利总额达9...",
+            source: "新浪财经",
             date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimswyr3544691.shtml"
+            url: "https://finance.sina.com.cn/tob/2026-08-09/doc-inimtchp3465077.shtml"
+        },
+        {
+            title: "百万罚单叠加股东清仓减持，首创证券H股冲刺再添阴影",
+            summary: "来源：证券之星 近日，中国人民银行北京市分行一纸行政处罚决定书，将首创证券（601136.SH）推至舆论焦点。公司因反洗钱三项违规，领到一张百万级罚单...",
+            source: "市场资讯",
+            date: "2026-08-09",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtchr5641057.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                        investmentSummary: {
+                                                                            investmentSummary: {
         date: "2026-08-09",
         marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
         hotSectors: [
-            { name: "医疗研发外包", reason: "板块涨幅+13.03%", strength: "强" },
-            { name: "印制电路板", reason: "板块涨幅+8.31%", strength: "强" },
-            { name: "医疗服务", reason: "板块涨幅+8.19%", strength: "强" },
-            { name: "其他生物制品", reason: "板块涨幅+8.09%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "金融信息服务", reason: "板块跌幅-3.05%", strength: "弱" },
-            { name: "焦炭Ⅱ", reason: "板块跌幅-3.02%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注医疗研发外包、印制电路板、医疗服务等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

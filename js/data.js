@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-08 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-08 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-08 实时" },
-        { name: "沪深300", code: "SH000300", value: "4694.44", change: "+0.93%", market: "A股", updateTime: "2026-08-08 实时" },
-        { name: "科创50", code: "SH000688", value: "1744.02", change: "+2.51%", market: "A股", updateTime: "2026-08-08 实时" },
-        { name: "标普500", code: "SPX", value: "7,757.64", change: "+3.58%", market: "美股", updateTime: "2026-08-08 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,690.62", change: "+5.19%", market: "美股", updateTime: "2026-08-08 收盘" },
-        { name: "道琼斯", code: "DJI", value: "54,036.93", change: "+2.96%", market: "美股", updateTime: "2026-08-08 收盘" },
+                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-09 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-09 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-09 实时" },
+        { name: "沪深300", code: "SH000300", value: "4694.44", change: "+0.93%", market: "A股", updateTime: "2026-08-09 实时" },
+        { name: "科创50", code: "SH000688", value: "1744.02", change: "+2.51%", market: "A股", updateTime: "2026-08-09 实时" },
+        { name: "标普500", code: "SPX", value: "7,757.64", change: "+3.58%", market: "美股", updateTime: "2026-08-09 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,690.62", change: "+5.19%", market: "美股", updateTime: "2026-08-09 收盘" },
+        { name: "道琼斯", code: "DJI", value: "54,036.93", change: "+2.96%", market: "美股", updateTime: "2026-08-09 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                marketNews: [
+                                                                    marketNews: [
         {
-            title: "伊朗称“非常接近”与阿曼达成霍尔木兹协议 但海峡开放取决于其他条件",
-            summary: " 伊朗表示，已经“非常接近”与阿曼就霍尔木兹海峡新的海上通航路线达成一项协议。本周以来，外界对于相关协议可能很快宣布的预期升温。",
-            source: "环球市场播报",
-            date: "2026-08-08",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimrkxf2450360.shtml"
-        },
-        {
-            title: "阿布扎比国家石油公司称其船只在霍尔木兹海域遭袭",
-            summary: "据阿联酋媒体报道，阿布扎比国家石油公司表示，其一艘船只在周六凌晨通过霍尔木兹海峡时遭到导弹袭击。 事件未造成人员伤亡；局势已得到控制。",
-            source: "环球市场播报",
-            date: "2026-08-08",
+            title: "税收征管新阶段",
+            summary: "税收征管正在进入新的阶段。多位受访者提及这一阶段并非短期现象，而是税收征管走向法治化、成熟化的必然趋势。因此，涉税主体需要进一步规范涉税行为...",
+            source: "经济观察报",
+            date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimrerm4118391.shtml"
+            url: "https://finance.sina.com.cn/china/2026-08-09/doc-inimswyr8890168.shtml"
         },
         {
-            title: "美国参议院确认由特朗普提名的托德·布兰奇出任司法部长",
-            summary: " 美国参议院确认托德·布兰奇出任司法部长，将总统唐纳德·特朗普昔日的私人辩护律师提拔至领导美国最高联邦执法机构的职位。",
+            title: "白海豚残涡可能致北京暴雨",
+            summary: "【#白海豚残涡可能致北京暴雨#】#京津冀将有暴雨#8月9日上午，中国气象局召开台风“白海豚”媒体通气会。台风“白海豚”登陆后将深入内陆北上...",
+            source: "北京晚报",
+            date: "2026-08-09",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-09/doc-inimssst3598721.shtml"
+        },
+        {
+            title: "三星得州工厂即将投产 首批实习生招聘正式启动",
+            summary: "三星电子即将为其位于得克萨斯州的先进晶圆代工厂开启首届实习生招募，该工厂计划于今年年底正式投产。 消息显示，三星电子近期启动美国泰勒工厂明年夏季的实习生招聘。",
             source: "环球市场播报",
-            date: "2026-08-08",
+            date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqyip9653412.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimssst8991175.shtml"
         },
         {
-            title: "大手笔！603175，拟超20亿元扩产，优化高端PCB战略布局",
-            summary: "8月7日晚间超颖电子（603175）公告，公司拟投资建设高多层及HDI印制电路板P3项目，投资金额20.86亿元人民币或等值外币（以相关政府主管部门批准金额为准）...",
-            source: "证券时报",
-            date: "2026-08-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/wm/2026-08-08/doc-inimqyip9631526.shtml"
-        },
-        {
-            title: "多家A股公司公告：收到美国关税退税！最高近亿元",
-            summary: "8月6日晚，贵州轮胎公告，公司境外全资子公司NACTR公司近期陆续收到美国海关与边境保护局的退税。截至目前，NACTR公司已累计收到退回关税及利息合计1198.30万美元...",
-            source: "每日经济新闻",
-            date: "2026-08-08",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-08/doc-inimqtzp2605900.shtml"
-        },
-        {
-            title: "OpenAI出于网络安全担忧暂停新Astra模型的部分研发工作",
-            summary: " OpenAI正暂停其即将推出的一款人工智能模型的相关内部工作，以实施更严格的安全保障措施，此前发现该系统在网络安全任务方面表现显著更胜一筹。",
+            title: "受高温影响 韩国用电量创下本年度峰值",
+            summary: "周日行业数据显示，受持续热浪影响，韩国近日用电量创下本年度峰值。 韩国电力交易所数据显示，周五全国最高电力负荷达到953.21万千瓦，备用容量为820万千瓦。",
             source: "环球市场播报",
-            date: "2026-08-08",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqptr2699541.shtml"
+            date: "2026-08-09",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimssst3571198.shtml"
         },
         {
-            title: "美国称乌克兰将避免以油轮和黑海石油码头为打击目标",
-            summary: " 据一位美国官员透露，乌克兰已同意不将部分非俄罗斯油轮以及对哈萨克斯坦原油出口至关重要的黑海基础设施作为打击目标，此前上个月针对船只的袭击导致装载作业中断。",
+            title: "韩国旅游收支创下疫情以来顺差新高",
+            summary: "周日行业数据显示，得益于本国流行文化的海外热度，韩国旅游收支创下新冠疫情之后的最高顺差水平。 韩国观光公社数据显示，6月韩国旅游账户实现顺差5.966亿美元...",
             source: "环球市场播报",
-            date: "2026-08-08",
+            date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-08/doc-inimqptt9789216.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimsssr1966593.shtml"
         },
         {
-            title: "新兴产业新设企业40万户 上半年全国经营主体发展数据发布",
-            summary: " 8月8日，市场监管总局公布数据显示，新产业新赛道企业蓄能成势，服务业新消费与高技术服务业双轮驱动，制造业转型加快，产业发展亮点纷呈。",
-            source: "央视",
-            date: "2026-08-08",
+            title: "美媒爆“美副防长致信国防业界领袖，勒令其21天内提交增产计划”，五角大楼回应",
+            summary: "【环球网报道 记者 闫珮云】据美国《华盛顿邮报》当地时间8日援引其获得的一份美国防部备忘录报道，在美国面临严重弹药短缺问题之际...",
+            source: "环球网",
+            date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-08/doc-inimqptt9765112.shtml"
+            url: "https://finance.sina.com.cn/roll/2026-08-09/doc-inimssst8976900.shtml"
+        },
+        {
+            title: "碧生源发布中期业绩 净利润1506.6万元同比增加21.48%",
+            summary: "碧生源（00926）发布截至2026年6月30日止6个月中期业绩，该公司取得收入人民币3.05亿元（单位下同），同比增加17.74%；净利润1506.6万元，同比增加21.48%；每股基本盈利0...",
+            source: "新浪港股",
+            date: "2026-08-09",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-09/doc-inimssst3561118.shtml"
+        },
+        {
+            title: "越秀地产前7个月累计合同销售金额约为556.08亿元",
+            summary: "越秀地产（00123）发布公告，2026年7月，公司实现合同销售（连同合营企业及联营公司项目的合同销售）金额约为人民币51.03亿元，同比下降约15.0%，实现合同销售面积约为16...",
+            source: "新浪港股",
+            date: "2026-08-09",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-09/doc-inimsssv5746329.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                investmentSummary: {
-        date: "2026-08-08",
+                                                                    investmentSummary: {
+        date: "2026-08-09",
         marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
         hotSectors: [
-
+            { name: "医疗研发外包", reason: "板块涨幅+13.03%", strength: "强" },
+            { name: "印制电路板", reason: "板块涨幅+8.31%", strength: "强" },
+            { name: "医疗服务", reason: "板块涨幅+8.19%", strength: "强" },
+            { name: "其他生物制品", reason: "板块涨幅+8.09%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "金融信息服务", reason: "板块跌幅-3.05%", strength: "弱" },
+            { name: "焦炭Ⅱ", reason: "板块跌幅-3.02%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注医疗研发外包、印制电路板、医疗服务等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

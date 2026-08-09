@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                    marketIndices: [
+                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-09 实时" },
         { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-09 实时" },
         { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-09 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                    marketNews: [
+                                                                        marketNews: [
         {
-            title: "税收征管新阶段",
-            summary: "税收征管正在进入新的阶段。多位受访者提及这一阶段并非短期现象，而是税收征管走向法治化、成熟化的必然趋势。因此，涉税主体需要进一步规范涉税行为...",
-            source: "经济观察报",
+            title: "长崎遭美原子弹轰炸81周年，高市早苗再度含糊表态！俄驻日大使：日本推翻“无核三原则”将招致邻国反制",
+            summary: "当地时间9日，日本长崎遭原子弹轰炸81周年纪念仪式在长崎市和平纪念公园举行。日本首相高市早苗参加仪式，其致辞时对“无核三原则”仍含糊表态...",
+            source: "每日经济新闻",
             date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-08-09/doc-inimswyr8890168.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-09/doc-inimtchp3428947.shtml"
         },
         {
-            title: "白海豚残涡可能致北京暴雨",
-            summary: "【#白海豚残涡可能致北京暴雨#】#京津冀将有暴雨#8月9日上午，中国气象局召开台风“白海豚”媒体通气会。台风“白海豚”登陆后将深入内陆北上...",
-            source: "北京晚报",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-09/doc-inimssst3598721.shtml"
-        },
-        {
-            title: "三星得州工厂即将投产 首批实习生招聘正式启动",
-            summary: "三星电子即将为其位于得克萨斯州的先进晶圆代工厂开启首届实习生招募，该工厂计划于今年年底正式投产。 消息显示，三星电子近期启动美国泰勒工厂明年夏季的实习生招聘。",
+            title: "俄罗斯通报称俄军持续打击敖德萨及尼古拉耶夫涉军目标",
+            summary: "俄罗斯国防部8日发布通报称，俄军正持续对乌克兰港口基础设施及为乌克兰武装部队提供支持的船只实施火力打击。 俄国防部表示，俄军动用空基精确制导武器及攻击型无人机...",
             source: "环球市场播报",
             date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimssst8991175.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchp8822104.shtml"
         },
         {
-            title: "受高温影响 韩国用电量创下本年度峰值",
-            summary: "周日行业数据显示，受持续热浪影响，韩国近日用电量创下本年度峰值。 韩国电力交易所数据显示，周五全国最高电力负荷达到953.21万千瓦，备用容量为820万千瓦。",
+            title: "特朗普家族关联金融科技企业AI Financial出售其加拿大子公司",
+            summary: "近日，与美国特朗普家族支持的加密货币项目“世界自由金融”（World Liberty Financial）存在密切关联的金融科技企业AI Financial Corp宣布...",
+            source: "环球市场播报",
+            date: "2026-08-09",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchm1817059.shtml"
+        },
+        {
+            title: "因防范网络安全隐患 OpenAI暂停新一代人工智能模型部分研发",
+            summary: " 鉴于新一代人工智能模型“Astra”被评估出具备自主发起网络攻击的高危潜能，OpenAI近日宣布，将暂停涉及该模型的部分内部研发活动，并全面升级相关安全管控机制。",
+            source: "环球市场播报",
+            date: "2026-08-09",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchr5588994.shtml"
+        },
+        {
+            title: "土耳其、巴基斯坦与沙特签署《麦加共同防御协定》",
+            summary: "当地时间8日，土耳其外交部长哈坎·菲丹证实，土耳其、巴基斯坦与沙特阿拉伯已于7日正式签署《麦加共同防御协定》。该协定旨在强化三国间的集体安全与威慑能力...",
             source: "环球市场播报",
             date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimssst3571198.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchm1814664.shtml"
         },
         {
-            title: "韩国旅游收支创下疫情以来顺差新高",
-            summary: "周日行业数据显示，得益于本国流行文化的海外热度，韩国旅游收支创下新冠疫情之后的最高顺差水平。 韩国观光公社数据显示，6月韩国旅游账户实现顺差5.966亿美元...",
+            title: "因座椅金属车标存高温烫伤缺陷，奔驰AMG车型在美面临集体诉讼",
+            summary: "近日，两名美国梅赛德斯-奔驰（Mercedes-Benz）AMG车型车主向美国加利福尼亚州联邦地区法院提起集体诉讼，指控该品牌部分车型的前排座椅金属车标存在设计缺陷...",
             source: "环球市场播报",
             date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimsssr1966593.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchr5586931.shtml"
         },
         {
-            title: "美媒爆“美副防长致信国防业界领袖，勒令其21天内提交增产计划”，五角大楼回应",
-            summary: "【环球网报道 记者 闫珮云】据美国《华盛顿邮报》当地时间8日援引其获得的一份美国防部备忘录报道，在美国面临严重弹药短缺问题之际...",
-            source: "环球网",
+            title: "亚马逊拟在得州建大型自备天然气电厂 耗能与碳排放引发舆论担忧",
+            summary: "亚马逊已确认在得克萨斯州佩科斯县筹建大型数据中心，并配套投资建设一座离网天然气发电厂。相关监管许可文件显示，该电厂获准的年二氧化碳排放量上限高达3300万吨...",
+            source: "环球市场播报",
             date: "2026-08-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-08-09/doc-inimssst8976900.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchr5586367.shtml"
         },
         {
-            title: "碧生源发布中期业绩 净利润1506.6万元同比增加21.48%",
-            summary: "碧生源（00926）发布截至2026年6月30日止6个月中期业绩，该公司取得收入人民币3.05亿元（单位下同），同比增加17.74%；净利润1506.6万元，同比增加21.48%；每股基本盈利0...",
-            source: "新浪港股",
+            title: "亚马逊得州数据中心项目或成全美最大碳排放源",
+            summary: "亚马逊公司计划在美国得克萨斯州佩科斯县投资建设一座大型数据中心及配套天然气发电厂。该发电厂获准的年二氧化碳排放量高达3300万吨，超过美国境内任何现有发电设施...",
+            source: "环球市场播报",
             date: "2026-08-09",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-09/doc-inimssst3561118.shtml"
-        },
-        {
-            title: "越秀地产前7个月累计合同销售金额约为556.08亿元",
-            summary: "越秀地产（00123）发布公告，2026年7月，公司实现合同销售（连同合营企业及联营公司项目的合同销售）金额约为人民币51.03亿元，同比下降约15.0%，实现合同销售面积约为16...",
-            source: "新浪港股",
-            date: "2026-08-09",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-09/doc-inimsssv5746329.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimswyr3544691.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                    investmentSummary: {
+                                                                        investmentSummary: {
         date: "2026-08-09",
         marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
         hotSectors: [

@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                            marketIndices: [
+                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-09 实时" },
         { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-09 实时" },
         { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-09 实时" },
@@ -669,7 +669,55 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                            marketNews: [
+                                                                                marketNews: [
+        {
+            title: "美财长贝森特多举措干预债市，华尔街担忧“卖出美国”情绪升温",
+            summary: "美国财政部长贝森特近日采取联合干预日元汇率、调整债券发行指导方针等一系列非常规举措，试图遏制美国长期国债收益率的飙升。然而，受财政赤字扩大...",
+            source: "环球市场播报",
+            date: "2026-08-09",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-09/doc-inimtuef8608303.shtml"
+        },
+        {
+            title: "300246，老板要卖控制权，结果没卖掉！上半年他已套现1.5亿元，公司连亏3年",
+            summary: "来源：财通社 宝莱特（300246，股价19.26元，市值50.96亿元）控制权变更事项突然终止。 8月9日晚间公告显示，停牌期间，公司控股股东与交易对方就可能导致公司控制权发生变...",
+            source: "市场资讯",
+            date: "2026-08-09",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtuei5379041.shtml"
+        },
+        {
+            title: "600449，拟最高2亿元回购，注销！",
+            summary: "宁夏建材宣布拟回购股份。 8月9日，宁夏建材（600449）推出回购公司股份方案，公司拟斥资1亿元至2亿元回购公司股份，价格上限为19.47元/股，回购的相关股份将予以注销。",
+            source: "",
+            date: "2026-08-09",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtuec1630641.shtml"
+        },
+        {
+            title: "摩尔线程，上半年营收同比增长147%！筹划赴港上市",
+            summary: "8月9日晚间，国产GPU厂商摩尔线程-U发布2026年半年度报告。同时，公司拟发行H股股票并申请在香港联交所主板挂牌上市。 据披露，2026年上半年...",
+            source: "证券时报",
+            date: "2026-08-09",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtpwi3306363.shtml"
+        },
+        {
+            title: "并购踩雷后上市公司如何维权，智动力给大家打了个样",
+            summary: "每天都有上市公司在看并购项目，但是对于上市公司来说，做并购做大公司主业或者寻找第二增长曲线是最直接的做法，但是并购带来的风险也很大，一不小心就会钱没了...",
+            source: "董秘学苑",
+            date: "2026-08-09",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtpwi3305756.shtml"
+        },
+        {
+            title: "中信证券：A股市场处于超跌反弹阶段 科技聚焦核心资产 增配能化、有色等板块",
+            summary: "中信证券发布研报称，8月初的A股市场处于超跌反弹阶段，前期跌幅越大的品种弹性越大，当前有色、化工、非银、电新行业的年内收益率仍低于理论中枢。",
+            source: "智通财经APP",
+            date: "2026-08-09",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-09/doc-inimtiqi1819917.shtml"
+        },
         {
             title: "中际旭创挑战来袭",
             summary: "来源：富凯财经 富凯摘要 交银国际证券上月给出目标价1600元。 作者|辛思路 排版|十 一 8月3日至7日，A股三大指数均实现上涨，科技成长板块表现尤为强势...",
@@ -685,54 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-08-09",
             tag: "A股",
             url: "https://finance.sina.com.cn/tob/2026-08-09/doc-inimtiqm8772580.shtml"
-        },
-        {
-            title: "飞猪启动台风“白海豚”应急响应机制，已保障多批消费者无损退改",
-            summary: "据中央气象台消息，台风“白海豚”（强台风级）预计于9日傍晚至10日凌晨在浙江舟山到福建福鼎一带沿海登陆。目前，飞猪已启动应急响应机制，充分保障消费者的退改权益。",
-            source: "新浪科技",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tob/2026-08-09/doc-inimtiqm3377715.shtml"
-        },
-        {
-            title: "阿拉格齐称在谅解备忘录持续遭美方违反时无法与美国谈判",
-            summary: "外交部长阿巴斯·阿拉格齐的话表示：“只要美国继续违反谅解备忘录，并且不对其违约行为作出补救，谈判就不可能恢复。” “一些中间国家正试图重新奠定谈判基础” “目前...",
-            source: "环球市场播报",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-09/doc-inimtchr5648611.shtml"
-        },
-        {
-            title: "摩尔线程：2026上半年营收17.36亿元，同比增长147.42%",
-            summary: "新浪科技讯 8月9日下午消息，摩尔线程发布2026年半年度报告。根据报告，2026年上半年，摩尔线程实现营收17.36亿元，同比增长147.42%，已超2025年全年营收；毛利总额达9...",
-            source: "新浪科技",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tob/2026-08-09/doc-inimtchp3473249.shtml"
-        },
-        {
-            title: "苹果回应删除接入千问手册：没收到通知，中国大陆还没推出“Apple智能使用千问”功能",
-            summary: "新浪科技讯 8月9日下午消息，针对删除《在 Mac 上配合Apple智能使用千问》使用文档一事，苹果客服最新回应新浪科技称：“我们有功能或新项目发布时，都会提前收到通知...",
-            source: "新浪科技",
-            date: "2026-08-09",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/tob/2026-08-09/doc-inimtchr5630368.shtml"
-        },
-        {
-            title: "摩尔线程：2026上半年营收17.36亿元，已超2025全年",
-            summary: "8月9日，国产GPU龙头摩尔线程（688795.SH）发布《2026年半年度报告》。2026年上半年，公司实现营收17.36亿元，同比大幅增长147.42%，已超2025年全年营收；毛利总额达9...",
-            source: "新浪财经",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tob/2026-08-09/doc-inimtchp3465077.shtml"
-        },
-        {
-            title: "百万罚单叠加股东清仓减持，首创证券H股冲刺再添阴影",
-            summary: "来源：证券之星 近日，中国人民银行北京市分行一纸行政处罚决定书，将首创证券（601136.SH）推至舆论焦点。公司因反洗钱三项违规，领到一张百万级罚单...",
-            source: "市场资讯",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtchr5641057.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                            investmentSummary: {
+                                                                                investmentSummary: {
         date: "2026-08-09",
         marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
         hotSectors: [
-
+            { name: "医疗研发外包", reason: "板块涨幅+13.03%", strength: "强" },
+            { name: "印制电路板", reason: "板块涨幅+8.31%", strength: "强" },
+            { name: "医疗服务", reason: "板块涨幅+8.19%", strength: "强" },
+            { name: "其他生物制品", reason: "板块涨幅+8.09%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "金融信息服务", reason: "板块跌幅-3.05%", strength: "弱" },
+            { name: "焦炭Ⅱ", reason: "板块跌幅-3.02%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注医疗研发外包、印制电路板、医疗服务等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

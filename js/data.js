@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3948.67", change: "+0.22%", market: "A股", updateTime: "2026-08-10 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14173.61", change: "-0.96%", market: "A股", updateTime: "2026-08-10 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3490.88", change: "-2.03%", market: "A股", updateTime: "2026-08-10 实时" },
-        { name: "沪深300", code: "SH000300", value: "4673.75", change: "-0.44%", market: "A股", updateTime: "2026-08-10 实时" },
-        { name: "科创50", code: "SH000688", value: "1709.59", change: "-1.97%", market: "A股", updateTime: "2026-08-10 实时" },
+                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3966.59", change: "+0.67%", market: "A股", updateTime: "2026-08-10 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14316.96", change: "+0.04%", market: "A股", updateTime: "2026-08-10 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3537.21", change: "-0.73%", market: "A股", updateTime: "2026-08-10 实时" },
+        { name: "沪深300", code: "SH000300", value: "4702.02", change: "+0.16%", market: "A股", updateTime: "2026-08-10 实时" },
+        { name: "科创50", code: "SH000688", value: "1737.77", change: "-0.36%", market: "A股", updateTime: "2026-08-10 实时" },
         { name: "标普500", code: "SPX", value: "7,757.64", change: "+3.58%", market: "美股", updateTime: "2026-08-10 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,690.62", change: "+5.19%", market: "美股", updateTime: "2026-08-10 收盘" },
         { name: "道琼斯", code: "DJI", value: "54,036.93", change: "+2.96%", market: "美股", updateTime: "2026-08-10 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                    marketNews: [
+                                                                                        marketNews: [
         {
-            title: "国泰海通证券：英矽智能首予“增持”评级 目标价73.23港元",
-            summary: "国泰海通证券发布研报称，预计英矽智能（03696）2026-2028年营业收入分别为189.47/246.05/326.04百万美元，分别同比增长232%/32%/33%。",
-            source: "新浪港股",
-            date: "2026-08-10",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-10/doc-inimvhfm1228135.shtml"
-        },
-        {
-            title: "中金：法拉帝维持跑赢行业评级 目标价36港元",
-            summary: " 中金发布研报称，维持法拉帝（09638）跑赢行业评级及目标价36港元，对应6.3倍2026年EV/EBITDA。当前股价交易于6.3倍2026年EV/EBITDA，与目标价一致。",
-            source: "新浪港股",
-            date: "2026-08-10",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-10/doc-inimvhfm1227693.shtml"
-        },
-        {
-            title: "台积电7月营业额同比跃增45% 显示AI硬件需求不坠",
-            summary: "台积电公布7月份营业额同比增长45%，显示尽管市场波动，但对AI硬件的需求仍然强劲。 这家英伟达和苹果公司首选的芯片制造商7月营收达4，675.8亿元台币（145亿美元）。",
+            title: "美国持续推进霍尔木兹海峡封锁管控，谈判陷入僵局，已勒令55艘船舶改道",
+            summary: "核心要点 美军依托海上封锁行动，上周再度勒令 20 艘商船不得驶往伊朗港口。 特朗普表示，准备静待伊朗国内经济压力持续加剧，暂缓发起新一轮军事打击。",
             source: "环球市场播报",
-            date: "2026-08-10",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvhfp2830777.shtml"
-        },
-        {
-            title: "李在明呼吁迅速推进Honam半导体产业集群的建设",
-            summary: "韩国总统李在明在主持召开会议审查该超级项目的进展时，呼吁迅速推进Honam半导体产业集群的建设。 他表示，Honam芯片集群的建设应像日本熊本半导体枢纽那样迅速推进。",
-            source: "环球市场播报",
-            date: "2026-08-10",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvhfp2828857.shtml"
-        },
-        {
-            title: "美股牛市即将逆转？美银直指这一“转折点” 建议用黄金对冲！",
-            summary: "文章来源：财联社 美股牛市即将逆转？美银直指这一“转折点” 建议用黄金对冲！ 炒股第一步，先开个股票账户美国银行 （Bank of America）最新警告称...",
-            source: "市场资讯",
-            date: "2026-08-10",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/roll/2026-08-10/doc-inimvhfm1227500.shtml"
-        },
-        {
-            title: "金价突然大涨，原因找到",
-            summary: "上周，国际金价迎来强势反弹，盘中一度站上每盎司4400美元关口，创下6月中旬以来新高。  截至上周五收盘，纽约商品交易所12月交割的黄金期货价格报每盎司4399.70美元...",
-            source: "市场资讯",
             date: "2026-08-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-08-10/doc-inimvhfm1224187.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvnpm8146767.shtml"
         },
         {
-            title: "中信里昂：太古股份公司A维持“跑赢大市”评级 目标价调至114港元",
-            summary: "中信里昂发布研报称，太古股份公司A（00019）上半年经常性溢利年度同比增长48%，所有报告分部的贡献均有所增加，除国泰航空（00293）外，中国的地产业务...",
-            source: "新浪港股",
+            title: "兰州银行董秘张少伟荣获第十二届金麒麟·金牌董秘荣誉",
+            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘榜单正式揭晓。兰州银行董事会秘书张少伟凭借扎实的合规治理能力、成熟的投资者关系运营、长期稳健的资本价值传递表现...",
+            source: "新浪财经",
             date: "2026-08-10",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-10/doc-inimvhfp2824969.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvnpm8145565.shtml"
         },
         {
-            title: "招商证券国际：东方甄选上调至“买入”评级 目标价27港元",
-            summary: "招商证券国际发布研报称，将东方甄选（01797）的投资评级，由“持有”调高至“买入”，维持目标价为27港元。该行认为，东方甄选正稳步转型为以自有品牌和全通路（Omnichannel）...",
-            source: "新浪港股",
+            title: "国能日新董秘赵楠荣获第十二届金麒麟·金牌董秘荣誉",
+            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘榜单正式揭晓。国能日新董事会秘书赵楠凭借扎实的合规治理能力、成熟的投资者关系运营、长期稳健的资本价值传递表现...",
+            source: "新浪财经",
             date: "2026-08-10",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-10/doc-inimvhfp2824210.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvnpm2846843.shtml"
+        },
+        {
+            title: "欧陆通董秘蔡丽琳荣获第十二届金麒麟·金牌董秘荣誉",
+            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘榜单正式揭晓。欧陆通董事会秘书蔡丽琳凭借扎实的合规治理能力、成熟的投资者关系运营、长期稳健的资本价值传递表现...",
+            source: "新浪财经",
+            date: "2026-08-10",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvnpi1242721.shtml"
+        },
+        {
+            title: "Myspace谋求东山再起，欲成为治愈社交媒体倦怠的“解药”，但成功希望渺茫",
+            summary: "核心要点 Myspace 的持有者计划在拥挤、格局复杂的社交媒体赛道卷土重来。 这款诞生于 21 世纪初的社交平台，打算依托怀旧情绪，抓住大众对传统社交媒体体验的厌倦心理。",
+            source: "环球市场播报",
+            date: "2026-08-10",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvnpp4915722.shtml"
+        },
+        {
+            title: "深科达董秘郑亦平荣获第十二届金麒麟·金牌董秘荣誉",
+            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘榜单正式揭晓。深科达董事会秘书郑亦平凭借扎实的合规治理能力、成熟的投资者关系运营、长期稳健的资本价值传递表现...",
+            source: "新浪财经",
+            date: "2026-08-10",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvnpm2845983.shtml"
+        },
+        {
+            title: "健友股份董秘黄锡伟荣获第十二届金麒麟·金牌董秘荣誉",
+            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘榜单正式揭晓。健友股份董事会秘书黄锡伟凭借扎实的合规治理能力、成熟的投资者关系运营、长期稳健的资本价值传递表现...",
+            source: "新浪财经",
+            date: "2026-08-10",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvnpm8143785.shtml"
+        },
+        {
+            title: "亚马逊得州数据中心配套电厂或成美国最大碳排放源",
+            summary: "亚马逊在得克萨斯州规划的一座大型数据中心，将配套建设自有天然气发电厂。根据获批文件，这座电厂每年最多可排放3300万吨二氧化碳，若最终按此规模运行...",
+            source: "环球市场播报",
+            date: "2026-08-10",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvnpi1240806.shtml"
         },
     ],
 
@@ -765,21 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                    investmentSummary: {
+                                                                                        investmentSummary: {
         date: "2026-08-10",
-        marketAssessment: "A股方面：上证指数报3948.67点（+0.22%），深证成指报14173.61点（-0.96%），创业板指报3490.88点（-2.03%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
+        marketAssessment: "A股方面：上证指数报3966.59点（+0.67%），深证成指报14316.96点（+0.04%），创业板指报3537.21点（-0.73%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
         hotSectors: [
-            { name: "钴", reason: "板块涨幅+6.05%", strength: "强" },
-            { name: "肉鸡养殖", reason: "板块涨幅+5.82%", strength: "强" },
-            { name: "院线", reason: "板块涨幅+5.27%", strength: "强" },
-            { name: "诊断服务", reason: "板块涨幅+5.18%", strength: "强" },
+            { name: "钴", reason: "板块涨幅+6.95%", strength: "强" },
+            { name: "钨", reason: "板块涨幅+6.64%", strength: "强" },
+            { name: "肉鸡养殖", reason: "板块涨幅+6.41%", strength: "强" },
+            { name: "地面兵装Ⅲ", reason: "板块涨幅+5.81%", strength: "强" },
         ],
         weakSectors: [
-            { name: "分立器件", reason: "板块跌幅-3.69%", strength: "弱" },
-            { name: "通信线缆及配套", reason: "板块跌幅-3.38%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注钴、肉鸡养殖、院线等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注钴、钨、肉鸡养殖等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

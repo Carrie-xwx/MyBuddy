@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                        marketIndices: [
+                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3966.59", change: "+0.67%", market: "A股", updateTime: "2026-08-10 实时" },
         { name: "深证成指", code: "SZ399001", value: "14316.96", change: "+0.04%", market: "A股", updateTime: "2026-08-10 实时" },
         { name: "创业板指", code: "SZ399006", value: "3537.21", change: "-0.73%", market: "A股", updateTime: "2026-08-10 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                        marketNews: [
+                                                                                            marketNews: [
         {
-            title: "美国持续推进霍尔木兹海峡封锁管控，谈判陷入僵局，已勒令55艘船舶改道",
-            summary: "核心要点 美军依托海上封锁行动，上周再度勒令 20 艘商船不得驶往伊朗港口。 特朗普表示，准备静待伊朗国内经济压力持续加剧，暂缓发起新一轮军事打击。",
+            title: "全球海洋温度7月再创新高 极端天气频发凸显气候变化加剧",
+            summary: "欧盟地球观测机构哥白尼气候变化服务局最新报告显示，全球海洋温度在7月达到同期历史最高水平，大西洋、太平洋和地中海西部部分区域遭受“严重”海洋热浪侵袭。",
             source: "环球市场播报",
             date: "2026-08-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvnpm8146767.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvsvm4879981.shtml"
         },
         {
-            title: "兰州银行董秘张少伟荣获第十二届金麒麟·金牌董秘荣誉",
-            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘榜单正式揭晓。兰州银行董事会秘书张少伟凭借扎实的合规治理能力、成熟的投资者关系运营、长期稳健的资本价值传递表现...",
-            source: "新浪财经",
+            title: "苹果股价盘前下跌 Jefferies担忧高价iPhone前景并下调评级",
+            summary: " 苹果股价周一盘前下跌1.3%。Jefferies将苹果评级从持有下调至跑输大盘，并指出苹果通过推出价格更高的iPhone来推动增长的产品路线面临挑战。",
+            source: "环球市场播报",
             date: "2026-08-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvnpm8145565.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvsvi8107134.shtml"
         },
         {
-            title: "国能日新董秘赵楠荣获第十二届金麒麟·金牌董秘荣誉",
-            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘榜单正式揭晓。国能日新董事会秘书赵楠凭借扎实的合规治理能力、成熟的投资者关系运营、长期稳健的资本价值传递表现...",
-            source: "新浪财经",
-            date: "2026-08-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvnpm2846843.shtml"
-        },
-        {
-            title: "欧陆通董秘蔡丽琳荣获第十二届金麒麟·金牌董秘荣誉",
-            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘榜单正式揭晓。欧陆通董事会秘书蔡丽琳凭借扎实的合规治理能力、成熟的投资者关系运营、长期稳健的资本价值传递表现...",
-            source: "新浪财经",
-            date: "2026-08-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvnpi1242721.shtml"
-        },
-        {
-            title: "Myspace谋求东山再起，欲成为治愈社交媒体倦怠的“解药”，但成功希望渺茫",
-            summary: "核心要点 Myspace 的持有者计划在拥挤、格局复杂的社交媒体赛道卷土重来。 这款诞生于 21 世纪初的社交平台，打算依托怀旧情绪，抓住大众对传统社交媒体体验的厌倦心理。",
+            title: "海湾开发商重金冠名 特朗普海外品牌授权业务营收飙升至5950万美元",
+            summary: "特朗普重返白宫首年，旗下海外地产品牌授权业务迎来爆发式增长。2025年该板块创收5950万美元，多国海外开发商斥重金取得授权，将特朗普品牌冠名当地高端住宅楼...",
             source: "环球市场播报",
             date: "2026-08-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvnpp4915722.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-10/doc-inimvsvi2795172.shtml"
         },
         {
-            title: "深科达董秘郑亦平荣获第十二届金麒麟·金牌董秘荣誉",
-            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘榜单正式揭晓。深科达董事会秘书郑亦平凭借扎实的合规治理能力、成熟的投资者关系运营、长期稳健的资本价值传递表现...",
+            title: "就业数据骤冷，本周通胀报告成市场焦点",
+            summary: "美国7月就业数据大幅不及预期，令本周即将公布的通胀报告重要性显著上升。 美国劳工统计局上周五公布，7月非农就业人数减少2.3万，可能预示劳动力市场正转向不健康方向。",
+            source: "环球市场播报",
+            date: "2026-08-10",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvsvi2787182.shtml"
+        },
+        {
+            title: "沪上阿姨，一天“瘦身”超24亿元",
+            summary: "8月10日，知名奶茶品牌沪上阿姨港股股价一路大跌。截至港股收盘，沪上阿姨股价大跌23.4%，市值蒸发约28.82亿港元（约合24.77亿元人民币），收盘价为89.85港元，最新市值94...",
+            source: "每日经济新闻",
+            date: "2026-08-10",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-10/doc-inimvsvi8088595.shtml"
+        },
+        {
+            title: "天润乳业事务代表陶茜荣获金麒麟·优秀证代荣誉",
+            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘及优秀证券事务代表完整榜单正式发布，天润乳业公司证代陶茜荣耀加冕优秀证券事务代表。",
             source: "新浪财经",
             date: "2026-08-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvnpm2845983.shtml"
+            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvsvi8082784.shtml"
         },
         {
-            title: "健友股份董秘黄锡伟荣获第十二届金麒麟·金牌董秘荣誉",
-            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘榜单正式揭晓。健友股份董事会秘书黄锡伟凭借扎实的合规治理能力、成熟的投资者关系运营、长期稳健的资本价值传递表现...",
-            source: "新浪财经",
-            date: "2026-08-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvnpm8143785.shtml"
-        },
-        {
-            title: "亚马逊得州数据中心配套电厂或成美国最大碳排放源",
-            summary: "亚马逊在得克萨斯州规划的一座大型数据中心，将配套建设自有天然气发电厂。根据获批文件，这座电厂每年最多可排放3300万吨二氧化碳，若最终按此规模运行...",
+            title: "Meta重启开源模型路线 扎克伯格抨击“闭源”人工智能竞争对手",
+            summary: " Meta再度向外部开发者免费开放部分自研人工智能模型，公司首席执行官马克·扎克伯格就此表态，反对高性能人工智能技术被少数企业与政府垄断。",
             source: "环球市场播报",
             date: "2026-08-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvnpi1240806.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvsvi2783516.shtml"
+        },
+        {
+            title: "腾景科技事务代表黄联城荣获金麒麟·优秀证代荣誉",
+            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘及优秀证券事务代表完整榜单正式发布，腾景科技公司证代黄联城荣耀加冕优秀证券事务代表。",
+            source: "新浪财经",
+            date: "2026-08-10",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvsvm4854804.shtml"
         },
     ],
 
@@ -765,20 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                        investmentSummary: {
+                                                                                            investmentSummary: {
         date: "2026-08-10",
         marketAssessment: "A股方面：上证指数报3966.59点（+0.67%），深证成指报14316.96点（+0.04%），创业板指报3537.21点（-0.73%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
         hotSectors: [
-            { name: "钴", reason: "板块涨幅+6.95%", strength: "强" },
-            { name: "钨", reason: "板块涨幅+6.64%", strength: "强" },
-            { name: "肉鸡养殖", reason: "板块涨幅+6.41%", strength: "强" },
-            { name: "地面兵装Ⅲ", reason: "板块涨幅+5.81%", strength: "强" },
+
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注钴、钨、肉鸡养殖等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

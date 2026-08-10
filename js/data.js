@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                            marketIndices: [
+                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3966.59", change: "+0.67%", market: "A股", updateTime: "2026-08-10 实时" },
         { name: "深证成指", code: "SZ399001", value: "14316.96", change: "+0.04%", market: "A股", updateTime: "2026-08-10 实时" },
         { name: "创业板指", code: "SZ399006", value: "3537.21", change: "-0.73%", market: "A股", updateTime: "2026-08-10 实时" },
         { name: "沪深300", code: "SH000300", value: "4702.02", change: "+0.16%", market: "A股", updateTime: "2026-08-10 实时" },
         { name: "科创50", code: "SH000688", value: "1737.77", change: "-0.36%", market: "A股", updateTime: "2026-08-10 实时" },
-        { name: "标普500", code: "SPX", value: "7,757.64", change: "+3.58%", market: "美股", updateTime: "2026-08-10 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,690.62", change: "+5.19%", market: "美股", updateTime: "2026-08-10 收盘" },
-        { name: "道琼斯", code: "DJI", value: "54,036.93", change: "+2.96%", market: "美股", updateTime: "2026-08-10 收盘" },
+        { name: "标普500", code: "SPX", value: "7,760.64", change: "+2.11%", market: "美股", updateTime: "2026-08-10 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,635.26", change: "+2.78%", market: "美股", updateTime: "2026-08-10 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,963.02", change: "+1.48%", market: "美股", updateTime: "2026-08-10 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                            marketNews: [
+                                                                                                marketNews: [
         {
-            title: "全球海洋温度7月再创新高 极端天气频发凸显气候变化加剧",
-            summary: "欧盟地球观测机构哥白尼气候变化服务局最新报告显示，全球海洋温度在7月达到同期历史最高水平，大西洋、太平洋和地中海西部部分区域遭受“严重”海洋热浪侵袭。",
+            title: "英特尔将发行150亿美元普通股 趁AI热潮之际融资",
+            summary: "英特尔公司寻求通过发行新股筹集150亿美元，这可能是该公司自1971年上市以来首次公开增发股票。随着人工智能数据中心热潮重新点燃投资者对英特尔业务前景的兴趣...",
+            source: "环球市场播报",
+            date: "2026-08-10",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/world/2026-08-10/doc-inimwcmc7968134.shtml"
+        },
+        {
+            title: "日元颓势加深 美日历史性干预带来的半数涨幅已消失殆尽",
+            summary: "日元跌势扩大，美国和日本历史性联手干预激发的涨幅已半数回吐。 该货币兑美元周一下跌多达0.8%，触及159.06，在十国集团中表现垫底。",
             source: "环球市场播报",
             date: "2026-08-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvsvm4879981.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimwcmh6231368.shtml"
         },
         {
-            title: "苹果股价盘前下跌 Jefferies担忧高价iPhone前景并下调评级",
-            summary: " 苹果股价周一盘前下跌1.3%。Jefferies将苹果评级从持有下调至跑输大盘，并指出苹果通过推出价格更高的iPhone来推动增长的产品路线面临挑战。",
+            title: "美国政府文件显示美联储主席沃什已完成所承诺的投资权益剥离",
+            summary: "一项政府记录显示，美联储主席凯文·沃什表示，他已卖出了此前承诺剥离的全部金融持仓。 沃什签署了一份美国政府道德办公室的道德协议合规认证文件，日期标注为上周四。",
             source: "环球市场播报",
             date: "2026-08-10",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvsvi8107134.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimwcmh6226975.shtml"
         },
         {
-            title: "海湾开发商重金冠名 特朗普海外品牌授权业务营收飙升至5950万美元",
-            summary: "特朗普重返白宫首年，旗下海外地产品牌授权业务迎来爆发式增长。2025年该板块创收5950万美元，多国海外开发商斥重金取得授权，将特朗普品牌冠名当地高端住宅楼...",
+            title: "SpaceX股价反弹，逼近135美元IPO发行价",
+            summary: "核心要点 埃隆・马斯克旗下 SpaceX 股价周一大涨，重回 135 美元 IPO 发行价附近。 上周，SpaceX 登陆纳斯达克后首度发布财报，营收数据超出市场预期。",
             source: "环球市场播报",
             date: "2026-08-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-10/doc-inimvsvi2795172.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimwcmc7957262.shtml"
         },
         {
-            title: "就业数据骤冷，本周通胀报告成市场焦点",
-            summary: "美国7月就业数据大幅不及预期，令本周即将公布的通胀报告重要性显著上升。 美国劳工统计局上周五公布，7月非农就业人数减少2.3万，可能预示劳动力市场正转向不健康方向。",
+            title: "人工智能需求持续爆发，英特尔计划增发150亿美元普通股",
+            summary: "核心要点 英特尔周一宣布拟增发 150 亿美元普通股，用以支撑客户激增的人工智能算力需求。 公司重点看好物理 AI、专用芯片、先进封装三大增长赛道。",
+            source: "环球市场播报",
+            date: "2026-08-10",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimwcmc7955739.shtml"
+        },
+        {
+            title: "美国利率或将在更长时间维持高位，这对普通民众意味着什么",
+            summary: "核心要点 非农就业数据不及预期之后，市场目光全部聚焦将于 8 月 12 日公布的消费者物价指数（CPI）。 美银全球研究 8 月 7 日研报指出，在 7 月通胀数据出炉前...",
             source: "环球市场播报",
             date: "2026-08-10",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvsvi2787182.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimwckz1062519.shtml"
         },
         {
-            title: "沪上阿姨，一天“瘦身”超24亿元",
-            summary: "8月10日，知名奶茶品牌沪上阿姨港股股价一路大跌。截至港股收盘，沪上阿姨股价大跌23.4%，市值蒸发约28.82亿港元（约合24.77亿元人民币），收盘价为89.85港元，最新市值94...",
-            source: "每日经济新闻",
+            title: "传智谱ARR今年将达20亿美元，七月来新增200万API用户",
+            summary: " 新浪科技讯 8月10日晚间消息，据报道，智谱MaaS开放平台注册用户（即API用户）已达约700万，较七月初新增约200万，对标Codex的开发者产品ZCode上线1个月用户已突破100万。",
+            source: "新浪科技",
             date: "2026-08-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-10/doc-inimvsvi8088595.shtml"
+            url: "https://finance.sina.com.cn/tech/it/2026-08-10/doc-inimwcmh6217453.shtml"
         },
         {
-            title: "天润乳业事务代表陶茜荣获金麒麟·优秀证代荣誉",
-            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘及优秀证券事务代表完整榜单正式发布，天润乳业公司证代陶茜荣耀加冕优秀证券事务代表。",
-            source: "新浪财经",
+            title: "业绩“炸裂”！301308，净利猛增71528.66%，拟最高8亿元回购",
+            summary: "来源：中国基金报 【导读】存储高景气度带动业绩大增，江波龙上半年净利润同比增长71528.66% 中国基金报记者 闻言 正在申报港股IPO的江波龙...",
+            source: "市场资讯",
             date: "2026-08-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvsvi8082784.shtml"
-        },
-        {
-            title: "Meta重启开源模型路线 扎克伯格抨击“闭源”人工智能竞争对手",
-            summary: " Meta再度向外部开发者免费开放部分自研人工智能模型，公司首席执行官马克·扎克伯格就此表态，反对高性能人工智能技术被少数企业与政府垄断。",
-            source: "环球市场播报",
-            date: "2026-08-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvsvi2783516.shtml"
-        },
-        {
-            title: "腾景科技事务代表黄联城荣获金麒麟·优秀证代荣誉",
-            summary: "8月10日，新浪财经第十二届金麒麟・金牌董秘及优秀证券事务代表完整榜单正式发布，腾景科技公司证代黄联城荣耀加冕优秀证券事务代表。",
-            source: "新浪财经",
-            date: "2026-08-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/roll/2026-08-10/doc-inimvsvm4854804.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-10/doc-inimwcmf4724477.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                            investmentSummary: {
+                                                                                                investmentSummary: {
         date: "2026-08-10",
-        marketAssessment: "A股方面：上证指数报3966.59点（+0.67%），深证成指报14316.96点（+0.04%），创业板指报3537.21点（-0.73%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
+        marketAssessment: "A股方面：上证指数报3966.59点（+0.67%），深证成指报14316.96点（+0.04%），创业板指报3537.21点（-0.73%）。美股方面：标普500报7,760.64（+2.11%），纳斯达克报26,635.26（+2.78%）。",
         hotSectors: [
 
         ],

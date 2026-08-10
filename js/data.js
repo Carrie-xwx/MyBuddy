@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3940.04", change: "+1.02%", market: "A股", updateTime: "2026-08-09 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14311.01", change: "+1.42%", market: "A股", updateTime: "2026-08-09 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3563.12", change: "+1.35%", market: "A股", updateTime: "2026-08-09 实时" },
-        { name: "沪深300", code: "SH000300", value: "4694.44", change: "+0.93%", market: "A股", updateTime: "2026-08-09 实时" },
-        { name: "科创50", code: "SH000688", value: "1744.02", change: "+2.51%", market: "A股", updateTime: "2026-08-09 实时" },
-        { name: "标普500", code: "SPX", value: "7,757.64", change: "+3.58%", market: "美股", updateTime: "2026-08-09 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,690.62", change: "+5.19%", market: "美股", updateTime: "2026-08-09 收盘" },
-        { name: "道琼斯", code: "DJI", value: "54,036.93", change: "+2.96%", market: "美股", updateTime: "2026-08-09 收盘" },
+                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3948.67", change: "+0.22%", market: "A股", updateTime: "2026-08-10 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14173.61", change: "-0.96%", market: "A股", updateTime: "2026-08-10 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3490.88", change: "-2.03%", market: "A股", updateTime: "2026-08-10 实时" },
+        { name: "沪深300", code: "SH000300", value: "4673.75", change: "-0.44%", market: "A股", updateTime: "2026-08-10 实时" },
+        { name: "科创50", code: "SH000688", value: "1709.59", change: "-1.97%", market: "A股", updateTime: "2026-08-10 实时" },
+        { name: "标普500", code: "SPX", value: "7,757.64", change: "+3.58%", market: "美股", updateTime: "2026-08-10 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,690.62", change: "+5.19%", market: "美股", updateTime: "2026-08-10 收盘" },
+        { name: "道琼斯", code: "DJI", value: "54,036.93", change: "+2.96%", market: "美股", updateTime: "2026-08-10 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                marketNews: [
+                                                                                    marketNews: [
         {
-            title: "美财长贝森特多举措干预债市，华尔街担忧“卖出美国”情绪升温",
-            summary: "美国财政部长贝森特近日采取联合干预日元汇率、调整债券发行指导方针等一系列非常规举措，试图遏制美国长期国债收益率的飙升。然而，受财政赤字扩大...",
+            title: "国泰海通证券：英矽智能首予“增持”评级 目标价73.23港元",
+            summary: "国泰海通证券发布研报称，预计英矽智能（03696）2026-2028年营业收入分别为189.47/246.05/326.04百万美元，分别同比增长232%/32%/33%。",
+            source: "新浪港股",
+            date: "2026-08-10",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-10/doc-inimvhfm1228135.shtml"
+        },
+        {
+            title: "中金：法拉帝维持跑赢行业评级 目标价36港元",
+            summary: " 中金发布研报称，维持法拉帝（09638）跑赢行业评级及目标价36港元，对应6.3倍2026年EV/EBITDA。当前股价交易于6.3倍2026年EV/EBITDA，与目标价一致。",
+            source: "新浪港股",
+            date: "2026-08-10",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-10/doc-inimvhfm1227693.shtml"
+        },
+        {
+            title: "台积电7月营业额同比跃增45% 显示AI硬件需求不坠",
+            summary: "台积电公布7月份营业额同比增长45%，显示尽管市场波动，但对AI硬件的需求仍然强劲。 这家英伟达和苹果公司首选的芯片制造商7月营收达4，675.8亿元台币（145亿美元）。",
             source: "环球市场播报",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-09/doc-inimtuef8608303.shtml"
+            date: "2026-08-10",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvhfp2830777.shtml"
         },
         {
-            title: "300246，老板要卖控制权，结果没卖掉！上半年他已套现1.5亿元，公司连亏3年",
-            summary: "来源：财通社 宝莱特（300246，股价19.26元，市值50.96亿元）控制权变更事项突然终止。 8月9日晚间公告显示，停牌期间，公司控股股东与交易对方就可能导致公司控制权发生变...",
+            title: "李在明呼吁迅速推进Honam半导体产业集群的建设",
+            summary: "韩国总统李在明在主持召开会议审查该超级项目的进展时，呼吁迅速推进Honam半导体产业集群的建设。 他表示，Honam芯片集群的建设应像日本熊本半导体枢纽那样迅速推进。",
+            source: "环球市场播报",
+            date: "2026-08-10",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-10/doc-inimvhfp2828857.shtml"
+        },
+        {
+            title: "美股牛市即将逆转？美银直指这一“转折点” 建议用黄金对冲！",
+            summary: "文章来源：财联社 美股牛市即将逆转？美银直指这一“转折点” 建议用黄金对冲！ 炒股第一步，先开个股票账户美国银行 （Bank of America）最新警告称...",
             source: "市场资讯",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtuei5379041.shtml"
+            date: "2026-08-10",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/roll/2026-08-10/doc-inimvhfm1227500.shtml"
         },
         {
-            title: "600449，拟最高2亿元回购，注销！",
-            summary: "宁夏建材宣布拟回购股份。 8月9日，宁夏建材（600449）推出回购公司股份方案，公司拟斥资1亿元至2亿元回购公司股份，价格上限为19.47元/股，回购的相关股份将予以注销。",
-            source: "",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtuec1630641.shtml"
-        },
-        {
-            title: "摩尔线程，上半年营收同比增长147%！筹划赴港上市",
-            summary: "8月9日晚间，国产GPU厂商摩尔线程-U发布2026年半年度报告。同时，公司拟发行H股股票并申请在香港联交所主板挂牌上市。 据披露，2026年上半年...",
-            source: "证券时报",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtpwi3306363.shtml"
-        },
-        {
-            title: "并购踩雷后上市公司如何维权，智动力给大家打了个样",
-            summary: "每天都有上市公司在看并购项目，但是对于上市公司来说，做并购做大公司主业或者寻找第二增长曲线是最直接的做法，但是并购带来的风险也很大，一不小心就会钱没了...",
-            source: "董秘学苑",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtpwi3305756.shtml"
-        },
-        {
-            title: "中信证券：A股市场处于超跌反弹阶段 科技聚焦核心资产 增配能化、有色等板块",
-            summary: "中信证券发布研报称，8月初的A股市场处于超跌反弹阶段，前期跌幅越大的品种弹性越大，当前有色、化工、非银、电新行业的年内收益率仍低于理论中枢。",
-            source: "智通财经APP",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-09/doc-inimtiqi1819917.shtml"
-        },
-        {
-            title: "中际旭创挑战来袭",
-            summary: "来源：富凯财经 富凯摘要 交银国际证券上月给出目标价1600元。 作者|辛思路 排版|十 一 8月3日至7日，A股三大指数均实现上涨，科技成长板块表现尤为强势...",
+            title: "金价突然大涨，原因找到",
+            summary: "上周，国际金价迎来强势反弹，盘中一度站上每盎司4400美元关口，创下6月中旬以来新高。  截至上周五收盘，纽约商品交易所12月交割的黄金期货价格报每盎司4399.70美元...",
             source: "市场资讯",
-            date: "2026-08-09",
+            date: "2026-08-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-09/doc-inimtiqp5548151.shtml"
+            url: "https://finance.sina.com.cn/roll/2026-08-10/doc-inimvhfm1224187.shtml"
         },
         {
-            title: "“一斤羊肉180元” 西贝贾国龙再入局鲜羊餐饮：羊肉串8元起，部分店员来自西贝，网友：更贵了？",
-            summary: "文 | 《BUG》栏目 张奥 近日，继西贝事件后，西贝餐饮集团创始人贾国龙再度入局“鲜羊”领域，并开出全新品牌“天边羊多”。 恰逢开业首个周末，新品牌首店的状况如何？",
-            source: "新浪科技",
-            date: "2026-08-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tob/2026-08-09/doc-inimtiqm8772580.shtml"
+            title: "中信里昂：太古股份公司A维持“跑赢大市”评级 目标价调至114港元",
+            summary: "中信里昂发布研报称，太古股份公司A（00019）上半年经常性溢利年度同比增长48%，所有报告分部的贡献均有所增加，除国泰航空（00293）外，中国的地产业务...",
+            source: "新浪港股",
+            date: "2026-08-10",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-10/doc-inimvhfp2824969.shtml"
+        },
+        {
+            title: "招商证券国际：东方甄选上调至“买入”评级 目标价27港元",
+            summary: "招商证券国际发布研报称，将东方甄选（01797）的投资评级，由“持有”调高至“买入”，维持目标价为27港元。该行认为，东方甄选正稳步转型为以自有品牌和全通路（Omnichannel）...",
+            source: "新浪港股",
+            date: "2026-08-10",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-10/doc-inimvhfp2824210.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                investmentSummary: {
-        date: "2026-08-09",
-        marketAssessment: "A股方面：上证指数报3940.04点（+1.02%），深证成指报14311.01点（+1.42%），创业板指报3563.12点（+1.35%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
+                                                                                    investmentSummary: {
+        date: "2026-08-10",
+        marketAssessment: "A股方面：上证指数报3948.67点（+0.22%），深证成指报14173.61点（-0.96%），创业板指报3490.88点（-2.03%）。美股方面：标普500报7,757.64（+3.58%），纳斯达克报26,690.62（+5.19%）。",
         hotSectors: [
-            { name: "医疗研发外包", reason: "板块涨幅+13.03%", strength: "强" },
-            { name: "印制电路板", reason: "板块涨幅+8.31%", strength: "强" },
-            { name: "医疗服务", reason: "板块涨幅+8.19%", strength: "强" },
-            { name: "其他生物制品", reason: "板块涨幅+8.09%", strength: "强" },
+            { name: "钴", reason: "板块涨幅+6.05%", strength: "强" },
+            { name: "肉鸡养殖", reason: "板块涨幅+5.82%", strength: "强" },
+            { name: "院线", reason: "板块涨幅+5.27%", strength: "强" },
+            { name: "诊断服务", reason: "板块涨幅+5.18%", strength: "强" },
         ],
         weakSectors: [
-            { name: "金融信息服务", reason: "板块跌幅-3.05%", strength: "弱" },
-            { name: "焦炭Ⅱ", reason: "板块跌幅-3.02%", strength: "弱" },
+            { name: "分立器件", reason: "板块跌幅-3.69%", strength: "弱" },
+            { name: "通信线缆及配套", reason: "板块跌幅-3.38%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注医疗研发外包、印制电路板、医疗服务等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注钴、肉鸡养殖、院线等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                            marketIndices: [
+                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3934.09", change: "-0.82%", market: "A股", updateTime: "2026-08-11 实时" },
         { name: "深证成指", code: "SZ399001", value: "14259.44", change: "-0.40%", market: "A股", updateTime: "2026-08-11 实时" },
         { name: "创业板指", code: "SZ399006", value: "3549.16", change: "+0.34%", market: "A股", updateTime: "2026-08-11 实时" },
         { name: "沪深300", code: "SH000300", value: "4663.79", change: "-0.81%", market: "A股", updateTime: "2026-08-11 实时" },
         { name: "科创50", code: "SH000688", value: "1709.50", change: "-1.63%", market: "A股", updateTime: "2026-08-11 实时" },
-        { name: "标普500", code: "SPX", value: "7,753.11", change: "+2.01%", market: "美股", updateTime: "2026-08-11 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,605.36", change: "+2.67%", market: "美股", updateTime: "2026-08-11 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,975.98", change: "+1.50%", market: "美股", updateTime: "2026-08-11 收盘" },
+        { name: "标普500", code: "SPX", value: "7,744.40", change: "+0.10%", market: "美股", updateTime: "2026-08-11 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,523.23", change: "-0.23%", market: "美股", updateTime: "2026-08-11 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,933.40", change: "-0.28%", market: "美股", updateTime: "2026-08-11 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                            marketNews: [
+                                                                                                                marketNews: [
         {
-            title: "中天期货:商品指数继续走高 碳酸锂震荡修复",
-            summary: "热点品种分析 一、商品指数 二、股指 中国上证综指 8 月 11 日（周二）收盘下跌 32.50 点，跌幅 0.82%，报 3934.09 点； 中国深证成指 8 月 11 日（周二）收盘下跌 57...",
-            source: "市场资讯",
-            date: "2026-08-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-11/doc-inimxvuf0698516.shtml"
-        },
-        {
-            title: "抵触建设数据中心，只会让红利与就业流向别处",
-            summary: "作者：戴维・J・德克尔 《密尔沃基新闻哨兵报》特约撰稿人 如今越来越多美国人对人工智能心存担忧。 路透社与益普索近期联合民调显示...",
+            title: "哥伦比亚强震死亡人数超过180人 咖啡产区受灾",
+            summary: " 哥伦比亚西部发生强烈地震后，搜救工作进入第二天。这场强震导致大量人员被埋废墟，并对该国太平洋沿岸地区和中部安第斯山区造成严重破坏。",
             source: "环球市场播报",
             date: "2026-08-11",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvui7491114.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-11/doc-inimynse5626597.shtml"
         },
         {
-            title: "标普500逼近历史高位，现在真的适合入场买股票吗？听听巴菲特给投资者的宝贵建议",
-            summary: "作者：特雷弗・詹纽温|The Motley Fool（愚人投资） 2026 年至今标普 500 指数上涨 13%，有望实现连续第四年录得两位数涨幅。大规模人工智能投资拉动企业盈利强劲增长...",
+            title: "英特尔股票发行交易据悉约三分之一认购者未获配股份",
+            summary: "知情人士称，在英特尔200亿美元的股票发行中，约三分之一提交认购订单的投资者最终未获配股份。 知情人士表示，英特尔此次发行最终获得数倍超额认购...",
+            source: "环球市场播报",
+            date: "2026-08-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-11/doc-inimyhkf4151777.shtml"
+        },
+        {
+            title: "预测市场迎来秋季行情爆发预期，Polymarket密集内部整顿、蓄力备战",
+            summary: "核心要点预测交易平台 Polymarket 近期完成多笔重磅高管招聘，重点补强其 5 月上线的美国本土交易所业务。知情人士透露，正值美国商品期货交易委员会（CFTC）调查平台运营...",
+            source: "环球市场播报",
+            date: "2026-08-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimyhkc7376683.shtml"
+        },
+        {
+            title: "英伟达推出首款开源AI模型",
+            summary: "核心要点英伟达发布Nemotron 3.5 Lightning开源模型，官方称这款模型轻量化，可在笔记本或台式电脑单块 GPU 上运行。这是自上月 CEO 黄仁勋公开表态力挺开源路线后...",
             source: "环球市场播报",
             date: "2026-08-11",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvuf0685568.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimyhiz0589744.shtml"
         },
         {
-            title: "十年一遇布局良机：一只回撤45%的标普500高股息成长股，当下值得买入？",
-            summary: "作者：乔希・科恩 - 林德奎斯特|愚人投资（The Motley Fool） TSCO 是标普 500 中典型的稳健标的，已连续 15 年上调股息，早就进入我的观察清单。",
+            title: "婴童用品品牌Frida进军儿童个护赛道",
+            summary: "核心要点 Frida透露，这家母婴用品企业即将推出面向儿童的个人护理产品线，包含沐浴露、止汗剂、电动冲牙器等产品。 本次新品上市将与沃尔玛合作。",
+            source: "环球市场播报",
+            date: "2026-08-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimyhkh5746853.shtml"
+        },
+        {
+            title: "英伟达推出Nemotron 3.5 Lightning 瞄准智能体AI提速",
+            summary: " 英伟达将扩展Nemotron 3模型系列，推出Nemotron 3.5 Lightning。与同类其他模型相比，该模型的输出速度最高可提升4倍，智能体任务完成速度可提升30%。",
             source: "环球市场播报",
             date: "2026-08-11",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvuf0682373.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-11/doc-inimyhkf4144368.shtml"
         },
         {
-            title: "日元跌向1美元兑160重要关口 干预忧虑进一步升温",
-            summary: "日元小幅走弱，兑美元逼近一个关键水平，可能加剧市场对日本政府再次出手支撑日元的猜测。 由于东京市场周二因假日休市，市场波动较为温和...",
+            title: "酒店巨头：中产群体持续壮大提振住宿需求，中东市场受挫影响得到对冲",
+            summary: "核心要点洲际酒店集团（IHG）利润上涨 10%，中产消费群体与世界杯赛事拉动酒店需求。首席执行官埃利・马卢夫表示，居民财富增长促使消费者更愿意为体验消费...",
             source: "环球市场播报",
             date: "2026-08-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvun5839608.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimyhkf4144111.shtml"
         },
         {
-            title: "台积电核准配发2026年第二季度每股现金股利7.0元台币",
-            summary: "台积电发布董事会决议，核准配发2026年第二季度每股现金股利7.0元台币。 将于2027年1月7日发放股利。",
-            source: "环球市场播报",
+            title: "存储巨头拟回购，用于减少注册资本",
+            summary: "佰维存储（688525）8月11日晚间公告，公司拟以2亿元—2.5亿元回购股份，用于减少注册资本，回购价格不超过468.24元/股。佰维存储表示...",
+            source: "证券时报",
             date: "2026-08-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvun5836720.shtml"
-        },
-        {
-            title: "英伟达盘前领涨科技七巨头 英伟达为AI基础设施筹5000亿美元融资",
-            summary: "英伟达在盘前交易中领涨科技七巨头。此前，这家芯片制造商邀请包括阿波罗全球管理、黑石集团、贝莱德和博枫资产管理在内的美国投资巨头参与...",
-            source: "环球市场播报",
-            date: "2026-08-11",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvuf0677388.shtml"
-        },
-        {
-            title: "英特尔为何将股票增发规模上调至200亿美元",
-            summary: "作者：亚当・克拉克过去一年英特尔股价涨幅超三倍。 核心要点英特尔计划通过股票增发融资 200 亿美元，高于最初拟定的 150 亿美元募资规模。",
-            source: "环球市场播报",
-            date: "2026-08-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvun5834770.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-08-11/doc-inimyhkf4137742.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                            investmentSummary: {
+                                                                                                                investmentSummary: {
         date: "2026-08-11",
-        marketAssessment: "A股方面：上证指数报3934.09点（-0.82%），深证成指报14259.44点（-0.40%），创业板指报3549.16点（+0.34%）。美股方面：标普500报7,753.11（+2.01%），纳斯达克报26,605.36（+2.67%）。",
+        marketAssessment: "A股方面：上证指数报3934.09点（-0.82%），深证成指报14259.44点（-0.40%），创业板指报3549.16点（+0.34%）。美股方面：标普500报7,744.40（+0.10%），纳斯达克报26,523.23（-0.23%）。",
         hotSectors: [
             { name: "纺织鞋类制造", reason: "板块涨幅+5.83%", strength: "强" },
             { name: "线下药店", reason: "板块涨幅+5.44%", strength: "强" },
@@ -775,7 +775,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "医疗研发外包", reason: "板块涨幅+3.10%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "钨", reason: "板块跌幅-5.64%", strength: "弱" },
+            { name: "黄金", reason: "板块跌幅-5.59%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
         shortTermStrategy: "超短线关注纺织鞋类制造、线下药店、逆变器等板块的延续性，顺势操作，严格止损。",

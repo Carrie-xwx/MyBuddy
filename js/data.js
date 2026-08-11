@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                        marketIndices: [
+                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3934.09", change: "-0.82%", market: "A股", updateTime: "2026-08-11 实时" },
         { name: "深证成指", code: "SZ399001", value: "14259.44", change: "-0.40%", market: "A股", updateTime: "2026-08-11 实时" },
         { name: "创业板指", code: "SZ399006", value: "3549.16", change: "+0.34%", market: "A股", updateTime: "2026-08-11 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                        marketNews: [
+                                                                                                            marketNews: [
         {
-            title: "英国30人初创企业Cosine获政府支持打造主权AI模型 挑战行业巨头",
-            summary: "总部位于伦敦的人工智能初创企业Cosine正致力于构建名为Lumen Sovereign的前沿AI模型，该项目获得英国政府支持，并与BAE Systems...",
-            source: "环球市场播报",
+            title: "中天期货:商品指数继续走高 碳酸锂震荡修复",
+            summary: "热点品种分析 一、商品指数 二、股指 中国上证综指 8 月 11 日（周二）收盘下跌 32.50 点，跌幅 0.82%，报 3934.09 点； 中国深证成指 8 月 11 日（周二）收盘下跌 57...",
+            source: "市场资讯",
             date: "2026-08-11",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxrnp4310485.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-11/doc-inimxvuf0698516.shtml"
         },
         {
-            title: "报道：伊朗到9月将恢复约9500万立方米损失的天然气产量",
-            summary: " 伊朗石油部官方通讯社Shana援引部长Mohsen Paknejad的话称，伊朗到9月将恢复因阿萨卢耶（Asaluyeh）的加工设施遇袭而损失的约9500万立方米天然气产量。 ",
+            title: "抵触建设数据中心，只会让红利与就业流向别处",
+            summary: "作者：戴维・J・德克尔 《密尔沃基新闻哨兵报》特约撰稿人 如今越来越多美国人对人工智能心存担忧。 路透社与益普索近期联合民调显示...",
             source: "环球市场播报",
             date: "2026-08-11",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxrnp4310338.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvui7491114.shtml"
         },
         {
-            title: "菲律宾比索创5月以来最大跌幅 受油价上涨拖累",
-            summary: "菲律宾比索下跌0.9%，创5月11日以来最大跌幅，因霍尔木兹海峡协议再度面临不确定性推动油价上涨。 美元/比索盘中最高触及61.24。 注：菲律宾几乎所有石油需求都依赖进口。",
+            title: "标普500逼近历史高位，现在真的适合入场买股票吗？听听巴菲特给投资者的宝贵建议",
+            summary: "作者：特雷弗・詹纽温|The Motley Fool（愚人投资） 2026 年至今标普 500 指数上涨 13%，有望实现连续第四年录得两位数涨幅。大规模人工智能投资拉动企业盈利强劲增长...",
+            source: "环球市场播报",
+            date: "2026-08-11",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvuf0685568.shtml"
+        },
+        {
+            title: "十年一遇布局良机：一只回撤45%的标普500高股息成长股，当下值得买入？",
+            summary: "作者：乔希・科恩 - 林德奎斯特|愚人投资（The Motley Fool） TSCO 是标普 500 中典型的稳健标的，已连续 15 年上调股息，早就进入我的观察清单。",
+            source: "环球市场播报",
+            date: "2026-08-11",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvuf0682373.shtml"
+        },
+        {
+            title: "日元跌向1美元兑160重要关口 干预忧虑进一步升温",
+            summary: "日元小幅走弱，兑美元逼近一个关键水平，可能加剧市场对日本政府再次出手支撑日元的猜测。 由于东京市场周二因假日休市，市场波动较为温和...",
             source: "环球市场播报",
             date: "2026-08-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-11/doc-inimxrni0723768.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvun5839608.shtml"
         },
         {
-            title: "港股收评：恒指跌1.1% 科指跌1.93% 科网股、黄金股普跌 石油股逆势活跃",
-            summary: "8月11日消息，港股三大指数集体下跌。截至收盘，恒生指数跌1.1%，报25652.82，恒生科技指数跌1.93%，国企指数跌1.09%。盘面上，科网股普跌，快手、小米跌超3%，京东...",
-            source: "新浪港股",
-            date: "2026-08-11",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-11/doc-inimxrnq5882288.shtml"
-        },
-        {
-            title: "路易威登位于K11 MUSEA的旗舰店申请酒牌",
-            summary: " 据报道，奢侈品牌巨头路易威登位于尖沙咀K11 MUSEA的旗舰店已申请酒牌。该旗舰店占地4万平方英尺，预计将于今年年底开业。",
+            title: "台积电核准配发2026年第二季度每股现金股利7.0元台币",
+            summary: "台积电发布董事会决议，核准配发2026年第二季度每股现金股利7.0元台币。 将于2027年1月7日发放股利。",
             source: "环球市场播报",
             date: "2026-08-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxrnq5880869.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvun5836720.shtml"
         },
         {
-            title: "国泰海通子公司百亿港元私有化背后：贷款成本是否偏高？境外业务毛利、毛利率显著低于“二中”",
-            summary: "出品：新浪财经上市公司研究院 作者：图灵 近日，国泰君安国际发布公告称，国泰海通金控将采取协议安排方式，按照3 港元/股价格收购国泰君安国际除国泰海通金控所持股票外...",
-            source: "新浪证券",
+            title: "英伟达盘前领涨科技七巨头 英伟达为AI基础设施筹5000亿美元融资",
+            summary: "英伟达在盘前交易中领涨科技七巨头。此前，这家芯片制造商邀请包括阿波罗全球管理、黑石集团、贝莱德和博枫资产管理在内的美国投资巨头参与...",
+            source: "环球市场播报",
             date: "2026-08-11",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/observe/2026-08-11/doc-inimxrnq5878773.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvuf0677388.shtml"
         },
         {
-            title: "欧洲天然气逼近两周高位 霍尔木兹海峡前景转差",
-            summary: " 美国总统唐纳德·特朗普向伊朗提出多项新诉求，欧洲天然气价格维持在两周高位附近，市场对于达成协议、重开霍尔木兹海峡、恢复全球供应的预期降温。",
+            title: "英特尔为何将股票增发规模上调至200亿美元",
+            summary: "作者：亚当・克拉克过去一年英特尔股价涨幅超三倍。 核心要点英特尔计划通过股票增发融资 200 亿美元，高于最初拟定的 150 亿美元募资规模。",
             source: "环球市场播报",
             date: "2026-08-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-11/doc-inimxrnp4305355.shtml"
-        },
-        {
-            title: "澳大利亚央行按兵不动 但行长在发布会上唱鹰调",
-            summary: " 在澳大利亚央行周二维持关键利率不变之后，行长Michele Bullock采取了鹰派立场，警告称该行未来“很有可能”需要进一步收紧货币政策。",
-            source: "环球市场播报",
-            date: "2026-08-11",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxrni0719785.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimxvun5834770.shtml"
         },
     ],
 
@@ -765,17 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                        investmentSummary: {
+                                                                                                            investmentSummary: {
         date: "2026-08-11",
         marketAssessment: "A股方面：上证指数报3934.09点（-0.82%），深证成指报14259.44点（-0.40%），创业板指报3549.16点（+0.34%）。美股方面：标普500报7,753.11（+2.01%），纳斯达克报26,605.36（+2.67%）。",
         hotSectors: [
-
+            { name: "纺织鞋类制造", reason: "板块涨幅+5.83%", strength: "强" },
+            { name: "线下药店", reason: "板块涨幅+5.44%", strength: "强" },
+            { name: "逆变器", reason: "板块涨幅+3.10%", strength: "强" },
+            { name: "医疗研发外包", reason: "板块涨幅+3.10%", strength: "强" },
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注纺织鞋类制造、线下药店、逆变器等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

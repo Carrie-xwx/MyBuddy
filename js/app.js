@@ -234,7 +234,7 @@ const StockModule = {
 
     // 首次加载预填充真实数据
     // 数据版本号 — 每次内容库重大更新时递增，强制刷新本地存储
-    DATA_VERSION: '2026-08-10',
+    DATA_VERSION: '2026-08-11',
 
     prepopulateData() {
         const currentVersion = Storage.get('dataVersion', null);

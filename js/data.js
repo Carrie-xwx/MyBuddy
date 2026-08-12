@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                        marketIndices: [
+                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3946.68", change: "+0.32%", market: "A股", updateTime: "2026-08-12 实时" },
         { name: "深证成指", code: "SZ399001", value: "14414.43", change: "+1.09%", market: "A股", updateTime: "2026-08-12 实时" },
         { name: "创业板指", code: "SZ399006", value: "3602.08", change: "+1.49%", market: "A股", updateTime: "2026-08-12 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                        marketNews: [
+                                                                                                                            marketNews: [
         {
-            title: "昔日“河北王”，还廊坊银行旧账",
-            summary: "来源：地产K线 文丨乐居财经 曾树佳 荣盛发展（002146）的子公司廊坊盛宏房地产（简称“廊坊盛宏”），在廊坊银行还有债务没有结清。",
+            title: "日食期间，英国电力供应或将面临紧张压力",
+            summary: "英国电力系统运营商呼吁在周三晚间日食期间增配额外电力储备，称此举属于预防性举措。 国有机构英国国家能源系统运营商（NESO）周二晚间向市场发布通知...",
+            source: "环球市场播报",
+            date: "2026-08-12",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezf6807427.shtml"
+        },
+        {
+            title: "哥伦比亚发生地震，咖啡出口主干道通行受阻",
+            summary: "哥伦比亚遭遇地震，该国承担约60%咖啡出口运输量的主干道通行中断，一座重要太平洋港口运营也陷入停滞。作为全球第三大咖啡出产国...",
+            source: "环球市场播报",
+            date: "2026-08-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezp3980338.shtml"
+        },
+        {
+            title: "纽约市议会宣布将针对预测交易平台的营销策略展开调查",
+            summary: "纽约市议会议长朱莉・梅宁办公室周三透露，纽约市议会正针对各大预测市场平台的营销行为展开调查。 梅宁已致函四家预测市场平台，分别是Polymarket、Kalshi...",
+            source: "环球市场播报",
+            date: "2026-08-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezi3567135.shtml"
+        },
+        {
+            title: "科大讯飞的城墙与绕路的人",
+            summary: "来源：翠鸟资本 文|翠鸟资本 2025年11月，豆包输入法上线首周下载量突破5000万。一家以语音起家的公司，在语音输入这个老战场上被绕了后。",
             source: "市场资讯",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-12/doc-inimzytm3627380.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-08-12/doc-ininaezf6795743.shtml"
         },
         {
-            title: "观点：美国7月CPI料温和回升0.1%，油价回落为通胀降温，加息预期继续减弱",
-            summary: " 美国消费者物价指数（CPI）预计在7月温和上升，汽油价格回落是主要缓冲因素。这一结果可能进一步降低金融市场对美联储年内加息的预期。",
-            source: "环球市场播报",
-            date: "2026-08-12",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzyti6850510.shtml"
-        },
-        {
-            title: "投资者静待关键通胀数据出炉，美债收益率基本持平",
-            summary: "周三早盘美国国债收益率小幅震荡、基本持平，华尔街投资者静待日内稍后公布的关键通胀数据。 作为美国政府融资核心基准的10年期美债收益率大致维持不变，报4.682%。",
-            source: "环球市场播报",
-            date: "2026-08-12",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzytr4017264.shtml"
-        },
-        {
-            title: "小麦期货价格上涨3% 俄罗斯主要粮食港口遭袭后起火",
-            summary: "小麦期货价格上涨3%，俄罗斯主要粮食出口港口遇袭后，加剧了对黑海地区粮食出口中断的担忧。 俄罗斯黑海港口新罗西斯克是重要的石油和粮食码头以及海军基地。",
+            title: "瑞典“氛围式编程”初创企业Lovable估值达130亿美元",
+            summary: " 人工智能初创公司Lovable完成新一轮融资，投后估值升至133亿美元，凸显投资者对氛围式编程（vibe-coding）工具的高涨热情。",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzytm3620682.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezp3967542.shtml"
         },
         {
-            title: "法拉奇补选遭遇“垃圾桶伯爵”：英国政坛最荒诞的对手出现了",
-            summary: "英国右翼民粹政党Reform UK领袖奈杰尔·法拉奇（Nigel Farage），因财务争议主动辞职后，被迫在自己的选区Clacton举行补选。结果，他最主要的对手...",
+            title: "Kalshi年化营收突破40亿美元，新一轮融资目标估值4000亿美元",
+            summary: " 知情人士透露，受世界杯投注业务拉动，Kalshi 营收规模实现翻倍。7 月公司年化营收规模突破 40 亿美元，而两个月前这一数值仅略高于 20 亿美元。",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzytm3618283.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezk5227935.shtml"
         },
         {
-            title: "英国首相伯纳姆将召开科布拉紧急内阁委员会会议，应对热浪灾害",
-            summary: " 随着英国多个地区即将迎来本年度第五轮热浪天气，安迪・伯纳姆将召开紧急会议，统筹英国应对干旱与极端高温的相关举措。",
+            title: "纽约市议会宣布调查预测市场平台营销策略",
+            summary: "核心要点纽约市议会议长朱莉・梅宁办公室周三通报，市议会正在调查多家预测市场平台的营销行为。四家被调查平台中，Kalshi、Polymarket...",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzytm3616259.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezf6777887.shtml"
         },
         {
-            title: "中央气象台：全球天气公报（2026年08月12日）",
-            summary: "来源：中央气象台网站 1．日本中南半岛等地出现较强降水 过去24小时（8月11日00时-8月12日00时，UTC），日本、琉球群岛、孟加拉国、缅甸、泰国、柬埔寨、澳大利亚东南部...",
-            source: "",
-            date: "2026-08-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/hyxh/2026-08-12/doc-inimzytn5282907.shtml"
-        },
-        {
-            title: "丰田全球召回65.5万辆凯美瑞：仪表盘黑屏或致转向灯、警示灯全部失灵",
-            summary: " 丰田汽车周二宣布，因仪表盘显示故障，在全球范围内召回约65.5万辆凯美瑞（Camry）。该缺陷可能导致转向灯、危险警示灯以及部分安全提示音失效，增加碰撞风险。",
+            title: "周三通胀数据对美联储至关重要，市场重点前瞻",
+            summary: "核心要点周三即将公布消费者物价指数（CPI），预计环比小幅上行，但通胀水平仍显著高于美联储 2% 的目标。此前就业数据走弱，如果本次通胀数据温和...",
             source: "环球市场播报",
             date: "2026-08-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzytn5280840.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezi3548001.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                        investmentSummary: {
+                                                                                                                            investmentSummary: {
         date: "2026-08-12",
         marketAssessment: "A股方面：上证指数报3946.68点（+0.32%），深证成指报14414.43点（+1.09%），创业板指报3602.08点（+1.49%）。美股方面：标普500报7,728.20（-0.11%），纳斯达克报26,445.44（-0.52%）。",
         hotSectors: [
-
+            { name: "通信线缆及配套", reason: "板块涨幅+6.05%", strength: "强" },
+            { name: "其他数字媒体", reason: "板块涨幅+6.01%", strength: "强" },
+            { name: "会展服务", reason: "板块涨幅+5.00%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+4.11%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "油气及炼化工程", reason: "板块跌幅-2.04%", strength: "弱" },
+            { name: "油服工程", reason: "板块跌幅-1.98%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注通信线缆及配套、其他数字媒体、会展服务等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

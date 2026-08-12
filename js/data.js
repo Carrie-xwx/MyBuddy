@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3942.26", change: "+0.21%", market: "A股", updateTime: "2026-08-12 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14381.42", change: "+0.86%", market: "A股", updateTime: "2026-08-12 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3590.99", change: "+1.18%", market: "A股", updateTime: "2026-08-12 实时" },
-        { name: "沪深300", code: "SH000300", value: "4685.48", change: "+0.47%", market: "A股", updateTime: "2026-08-12 实时" },
-        { name: "科创50", code: "SH000688", value: "1729.28", change: "+1.16%", market: "A股", updateTime: "2026-08-12 实时" },
+                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3946.68", change: "+0.32%", market: "A股", updateTime: "2026-08-12 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14414.43", change: "+1.09%", market: "A股", updateTime: "2026-08-12 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3602.08", change: "+1.49%", market: "A股", updateTime: "2026-08-12 实时" },
+        { name: "沪深300", code: "SH000300", value: "4690.92", change: "+0.58%", market: "A股", updateTime: "2026-08-12 实时" },
+        { name: "科创50", code: "SH000688", value: "1736.99", change: "+1.61%", market: "A股", updateTime: "2026-08-12 实时" },
         { name: "标普500", code: "SPX", value: "7,728.20", change: "-0.11%", market: "美股", updateTime: "2026-08-12 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,445.44", change: "-0.52%", market: "美股", updateTime: "2026-08-12 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,791.85", change: "-0.54%", market: "美股", updateTime: "2026-08-12 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                    marketNews: [
+                                                                                                                        marketNews: [
         {
-            title: "花旗：港灯-SS维持“中性”评级 目标价7港元",
-            summary: "花旗发布研报称，维持对港灯-SS（02638）“中性”评级，目标价7港元，因上半年业绩符合预期。公司拥有防御性盈利基础，来自香港电力业务按受规管资产基础计算的固定8%资产回...",
-            source: "新浪港股",
+            title: "昔日“河北王”，还廊坊银行旧账",
+            summary: "来源：地产K线 文丨乐居财经 曾树佳 荣盛发展（002146）的子公司廊坊盛宏房地产（简称“廊坊盛宏”），在廊坊银行还有债务没有结清。",
+            source: "市场资讯",
             date: "2026-08-12",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-12/doc-inimzumt4020442.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-12/doc-inimzytm3627380.shtml"
         },
         {
-            title: "大和：长飞光纤光缆首次覆盖给予“买入”评级 目标价152港元",
-            summary: "大和发布研报称，首次覆盖长飞光纤光缆（06869），给予“买入”评级及目标价152港元，相当于预测明年市盈率10倍。 大和表示，长飞光纤受惠于目前光纤行业的强劲上升周期...",
-            source: "新浪港股",
+            title: "观点：美国7月CPI料温和回升0.1%，油价回落为通胀降温，加息预期继续减弱",
+            summary: " 美国消费者物价指数（CPI）预计在7月温和上升，汽油价格回落是主要缓冲因素。这一结果可能进一步降低金融市场对美联储年内加息的预期。",
+            source: "环球市场播报",
             date: "2026-08-12",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-12/doc-inimzumq5293007.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzyti6850510.shtml"
         },
         {
-            title: "瑞银：建滔积层板首次覆盖给予“买入”评级 目标价58港元",
-            summary: "瑞银发布研报称，AI需求带动覆铜板及上游原材料供应趋紧，建滔积层板（01888）作为全球最大的传统FR4覆铜板供应商，将成为主要受益者，首次覆盖予“买入”评级...",
-            source: "新浪港股",
+            title: "投资者静待关键通胀数据出炉，美债收益率基本持平",
+            summary: "周三早盘美国国债收益率小幅震荡、基本持平，华尔街投资者静待日内稍后公布的关键通胀数据。 作为美国政府融资核心基准的10年期美债收益率大致维持不变，报4.682%。",
+            source: "环球市场播报",
             date: "2026-08-12",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-12/doc-inimzumq5292993.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzytr4017264.shtml"
         },
         {
-            title: "大韩航空和韩亚航空获股东批准于12月17日合并",
-            summary: "大韩航空和韩亚航空在一份声明中表示，股东已批准合并协议，这为12月17日成立一家综合航空公司迈出了重要一步。 韩亚航空股东以99.3%的赞成票批准了合并案。",
+            title: "小麦期货价格上涨3% 俄罗斯主要粮食港口遭袭后起火",
+            summary: "小麦期货价格上涨3%，俄罗斯主要粮食出口港口遇袭后，加剧了对黑海地区粮食出口中断的担忧。 俄罗斯黑海港口新罗西斯克是重要的石油和粮食码头以及海军基地。",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzumt4020372.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzytm3620682.shtml"
         },
         {
-            title: "中金：阅文集团维持跑赢行业评级 目标价29港元",
-            summary: "中金发布研报称，维持阅文集团（00772）2026/2027年Non-IFRS归母净利润8.50/13.11亿元。现价对应2026/2027年21/14倍Non-IFRS市盈率。",
-            source: "新浪港股",
-            date: "2026-08-12",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-12/doc-inimzumt4020376.shtml"
-        },
-        {
-            title: "瑞银：中国铁塔维持“中性”评级 目标价下调至10港元",
-            summary: "瑞银发布研报称，下调中国铁塔（00788）目标价14%，从11.6港元降至10港元，维持“中性”评级。该行下调对该公司2026-2028年净利润和每股盈利预期10-14%...",
-            source: "新浪港股",
-            date: "2026-08-12",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-12/doc-inimzumt4020241.shtml"
-        },
-        {
-            title: "中东局势持续紧张，霍尔木兹海峡船只通行量降至一周低点",
-            summary: " 航运数据显示，周二霍尔木兹海峡被追踪到的船舶通行数量降至一周最低水平，仅八艘。中东局势持续紧张，船只纷纷避开这条关键水道。",
+            title: "法拉奇补选遭遇“垃圾桶伯爵”：英国政坛最荒诞的对手出现了",
+            summary: "英国右翼民粹政党Reform UK领袖奈杰尔·法拉奇（Nigel Farage），因财务争议主动辞职后，被迫在自己的选区Clacton举行补选。结果，他最主要的对手...",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzumm6861709.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzytm3618283.shtml"
         },
         {
-            title: "印度散户股票衍生品交易一年亏损96亿美元 监管遏制措施成效有限",
-            summary: " 在截至3月的这一年中，印度散户在股票期货和期权交易中损失了9168.5亿卢比（96亿美元），说明监管部门为遏制个人投资者巨额亏损采取的措施收效有限。",
+            title: "英国首相伯纳姆将召开科布拉紧急内阁委员会会议，应对热浪灾害",
+            summary: " 随着英国多个地区即将迎来本年度第五轮热浪天气，安迪・伯纳姆将召开紧急会议，统筹英国应对干旱与极端高温的相关举措。",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzumt4012955.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzytm3616259.shtml"
+        },
+        {
+            title: "中央气象台：全球天气公报（2026年08月12日）",
+            summary: "来源：中央气象台网站 1．日本中南半岛等地出现较强降水 过去24小时（8月11日00时-8月12日00时，UTC），日本、琉球群岛、孟加拉国、缅甸、泰国、柬埔寨、澳大利亚东南部...",
+            source: "",
+            date: "2026-08-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/hyxh/2026-08-12/doc-inimzytn5282907.shtml"
+        },
+        {
+            title: "丰田全球召回65.5万辆凯美瑞：仪表盘黑屏或致转向灯、警示灯全部失灵",
+            summary: " 丰田汽车周二宣布，因仪表盘显示故障，在全球范围内召回约65.5万辆凯美瑞（Camry）。该缺陷可能导致转向灯、危险警示灯以及部分安全提示音失效，增加碰撞风险。",
+            source: "环球市场播报",
+            date: "2026-08-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-inimzytn5280840.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                    investmentSummary: {
+                                                                                                                        investmentSummary: {
         date: "2026-08-12",
-        marketAssessment: "A股方面：上证指数报3942.26点（+0.21%），深证成指报14381.42点（+0.86%），创业板指报3590.99点（+1.18%）。美股方面：标普500报7,728.20（-0.11%），纳斯达克报26,445.44（-0.52%）。",
+        marketAssessment: "A股方面：上证指数报3946.68点（+0.32%），深证成指报14414.43点（+1.09%），创业板指报3602.08点（+1.49%）。美股方面：标普500报7,728.20（-0.11%），纳斯达克报26,445.44（-0.52%）。",
         hotSectors: [
-            { name: "其他数字媒体", reason: "板块涨幅+6.02%", strength: "强" },
-            { name: "会展服务", reason: "板块涨幅+5.89%", strength: "强" },
-            { name: "通信线缆及配套", reason: "板块涨幅+5.65%", strength: "强" },
-            { name: "院线", reason: "板块涨幅+3.88%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "油气及炼化工程", reason: "板块跌幅-1.93%", strength: "弱" },
-            { name: "油服工程", reason: "板块跌幅-1.90%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注其他数字媒体、会展服务、通信线缆及配套等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

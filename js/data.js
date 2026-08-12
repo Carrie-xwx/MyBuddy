@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                            marketIndices: [
+                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3946.68", change: "+0.32%", market: "A股", updateTime: "2026-08-12 实时" },
         { name: "深证成指", code: "SZ399001", value: "14414.43", change: "+1.09%", market: "A股", updateTime: "2026-08-12 实时" },
         { name: "创业板指", code: "SZ399006", value: "3602.08", change: "+1.49%", market: "A股", updateTime: "2026-08-12 实时" },
         { name: "沪深300", code: "SH000300", value: "4690.92", change: "+0.58%", market: "A股", updateTime: "2026-08-12 实时" },
         { name: "科创50", code: "SH000688", value: "1736.99", change: "+1.61%", market: "A股", updateTime: "2026-08-12 实时" },
-        { name: "标普500", code: "SPX", value: "7,728.20", change: "-0.11%", market: "美股", updateTime: "2026-08-12 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,445.44", change: "-0.52%", market: "美股", updateTime: "2026-08-12 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,791.85", change: "-0.54%", market: "美股", updateTime: "2026-08-12 收盘" },
+        { name: "标普500", code: "SPX", value: "7,741.21", change: "+0.23%", market: "美股", updateTime: "2026-08-12 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,558.47", change: "+0.74%", market: "美股", updateTime: "2026-08-12 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,794.10", change: "-1.02%", market: "美股", updateTime: "2026-08-12 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                            marketNews: [
+                                                                                                                                marketNews: [
         {
-            title: "日食期间，英国电力供应或将面临紧张压力",
-            summary: "英国电力系统运营商呼吁在周三晚间日食期间增配额外电力储备，称此举属于预防性举措。 国有机构英国国家能源系统运营商（NESO）周二晚间向市场发布通知...",
-            source: "环球市场播报",
-            date: "2026-08-12",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezf6807427.shtml"
-        },
-        {
-            title: "哥伦比亚发生地震，咖啡出口主干道通行受阻",
-            summary: "哥伦比亚遭遇地震，该国承担约60%咖啡出口运输量的主干道通行中断，一座重要太平洋港口运营也陷入停滞。作为全球第三大咖啡出产国...",
+            title: "谷歌发布新款Pixel 11智能手机系列",
+            summary: " Alphabet周三发布了新款Pixel11智能手机系列，将其迄今为止最具代理性的Gemini版本置于设备核心位置，而此时距离苹果预计推出由谷歌AI模型驱动、经过重构的Siri仅剩数周。",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezp3980338.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarqz6663549.shtml"
         },
         {
-            title: "纽约市议会宣布将针对预测交易平台的营销策略展开调查",
-            summary: "纽约市议会议长朱莉・梅宁办公室周三透露，纽约市议会正针对各大预测市场平台的营销行为展开调查。 梅宁已致函四家预测市场平台，分别是Polymarket、Kalshi...",
+            title: "特朗普因Truth Social提前访问权交易被起诉",
+            summary: "美国总统特朗普周三因出售其Truth Social帖子提前通知的争议性交易而被起诉。 该诉讼在曼哈顿的美国地方法院提起，指出特朗普在他自己的社交媒体网站上的帖子经常影响金融...",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezi3567135.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarre5125808.shtml"
         },
         {
-            title: "科大讯飞的城墙与绕路的人",
-            summary: "来源：翠鸟资本 文|翠鸟资本 2025年11月，豆包输入法上线首周下载量突破5000万。一家以语音起家的公司，在语音输入这个老战场上被绕了后。",
-            source: "市场资讯",
-            date: "2026-08-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-12/doc-ininaezf6795743.shtml"
-        },
-        {
-            title: "瑞典“氛围式编程”初创企业Lovable估值达130亿美元",
-            summary: " 人工智能初创公司Lovable完成新一轮融资，投后估值升至133亿美元，凸显投资者对氛围式编程（vibe-coding）工具的高涨热情。",
+            title: "暗流汹涌的夏日行情持续，多头一边看多一边买入大跌保险",
+            summary: "股市正经历躁动的夏日行情，表面却不易察觉：标普 500 指数再度刷新历史新高，芝加哥期权交易所 VIX 恐慌指数逼近年内低点。小盘股相对大盘股的波动幅度...",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezp3967542.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarqz6660516.shtml"
         },
         {
-            title: "Kalshi年化营收突破40亿美元，新一轮融资目标估值4000亿美元",
-            summary: " 知情人士透露，受世界杯投注业务拉动，Kalshi 营收规模实现翻倍。7 月公司年化营收规模突破 40 亿美元，而两个月前这一数值仅略高于 20 亿美元。",
+            title: "日食拉动欧洲酒店房价飙升，部分地区一晚超 1000 美元",
+            summary: "核心要点 欧洲罕见日全食带途经区域，酒店与短租民宿价格暴涨。 冰岛雷克雅未克 7 月中旬酒店房价达到每晚 1012 美元，较 2025 年同期翻番。",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezk5227935.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarri3851756.shtml"
         },
         {
-            title: "纽约市议会宣布调查预测市场平台营销策略",
-            summary: "核心要点纽约市议会议长朱莉・梅宁办公室周三通报，市议会正在调查多家预测市场平台的营销行为。四家被调查平台中，Kalshi、Polymarket...",
+            title: "家得宝CEO临时休医疗假，两名高管共同代管公司",
+            summary: "核心要点 家得宝首席执行官泰德・德克将临时休医疗假，预计为期数月。 休假期间，美国门店及运营负责人、首席财务官两名高管共同承担 CEO 相关职责。",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezf6777887.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarrc3431106.shtml"
         },
         {
-            title: "周三通胀数据对美联储至关重要，市场重点前瞻",
-            summary: "核心要点周三即将公布消费者物价指数（CPI），预计环比小幅上行，但通胀水平仍显著高于美联储 2% 的目标。此前就业数据走弱，如果本次通胀数据温和...",
+            title: "鲍勃·艾格与约书亚·库什纳以125亿美元估值收购洛杉矶湖人队",
+            summary: "洛杉矶湖人队——再次易主。 根据一份声明，在购入NBA湖人队控股股权不到一年后，马克·沃尔特已将其多数股权出售给约书亚·库什纳和鲍勃·艾格。",
+            source: "环球市场播报",
+            date: "2026-08-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarrc3430645.shtml"
+        },
+        {
+            title: "管理2.3万亿美元主权基金首席执行官警示，上半年丰厚回报难以持续",
+            summary: "核心要点 挪威主权财富基金运营机构挪威银行投资管理公司（NBIM）首席执行官向股市投资者发出预警：艰难时期即将到来。 挪威石油基金持有全球约 1.5% 的上市公司股份。",
+            source: "环球市场播报",
+            date: "2026-08-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarre5121818.shtml"
+        },
+        {
+            title: "Meta与英伟达在开源权重AI赛道竖起鲜明旗帜，该赛道当前由中国AI实验室领跑",
+            summary: "核心要点 Meta 与英伟达本周发布开源权重 AI 模型，这是美国科技企业追赶头部中国 AI 实验室竞争布局的一环。 二十余家美国科技企业近期联名呼吁政策制定者...",
             source: "环球市场播报",
             date: "2026-08-12",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininaezi3548001.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarrc3428935.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                            investmentSummary: {
+                                                                                                                                investmentSummary: {
         date: "2026-08-12",
-        marketAssessment: "A股方面：上证指数报3946.68点（+0.32%），深证成指报14414.43点（+1.09%），创业板指报3602.08点（+1.49%）。美股方面：标普500报7,728.20（-0.11%），纳斯达克报26,445.44（-0.52%）。",
+        marketAssessment: "A股方面：上证指数报3946.68点（+0.32%），深证成指报14414.43点（+1.09%），创业板指报3602.08点（+1.49%）。美股方面：标普500报7,741.21（+0.23%），纳斯达克报26,558.47（+0.74%）。",
         hotSectors: [
             { name: "通信线缆及配套", reason: "板块涨幅+6.05%", strength: "强" },
             { name: "其他数字媒体", reason: "板块涨幅+6.01%", strength: "强" },

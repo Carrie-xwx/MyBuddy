@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                        marketIndices: [
+                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3926.96", change: "-0.50%", market: "A股", updateTime: "2026-08-13 实时" },
         { name: "深证成指", code: "SZ399001", value: "14289.44", change: "-0.87%", market: "A股", updateTime: "2026-08-13 实时" },
         { name: "创业板指", code: "SZ399006", value: "3586.04", change: "-0.45%", market: "A股", updateTime: "2026-08-13 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                        marketNews: [
+                                                                                                                                            marketNews: [
         {
-            title: "思美传媒索赔时效剩三个月  此前已有股民二审胜诉",
-            summary: "近日，投资者诉思美传媒股份有限公司（证券简称：思美传媒，证券代码：002712）证券虚假陈述案持续推进中。 曾代理投资者告赢130余家上市公司并获赔的浙江裕丰律师事务所厉...",
+            title: "宇树科技遭弃购8734股！中一签盈利或超20万元",
+            summary: "8月13日晚间，宇树科技公告，网上投资者缴款认购的股份数量9，698，266股，网上投资者放弃认购数量8，734股；网下投资者缴款认购的股份数量22，650，148股...",
+            source: "21世纪经济报道",
+            date: "2026-08-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-13/doc-inineqhm3359937.shtml"
+        },
+        {
+            title: "东方时尚因信披违规受到处罚，受损投资者可依法索赔",
+            summary: "东方时尚及时任实控人等责任人于2026年5月21日收到北京证监局《行政处罚决定书》。 经调查，其违规事实主要集中在财务数据造假上...",
             source: "市场资讯",
             date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineiyq3221100.shtml"
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhn3170637.shtml"
         },
         {
-            title: "据报Flipkart创始人旗下Navi聘请投行推进3.15亿美元IPO",
-            summary: "知情人士透露，金融科技初创企业Navi有限公司准备正式启动印度IPO，拟最高募资300亿卢比（折合3.14亿美元）。 知情人士表示，这家由Flipkart联合创始人萨钦·班萨尔创立的企...",
-            source: "环球市场播报",
-            date: "2026-08-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inineiyp3391294.shtml"
-        },
-        {
-            title: "日本政府据悉支持央行加快加息步伐 9月紧缩政策的几率为74%",
-            summary: "知情人士透露，首相高市早苗的政府支持日本央行在近期内加息，下一步加息的时间可能在9月或10月。 知情人士补充说，央行担心日元疲软会推高物价...",
-            source: "环球市场播报",
-            date: "2026-08-13",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-08-13/doc-inineiyk4663423.shtml"
-        },
-        {
-            title: "这家中国企业关键 NAND 闪存芯片出货量超越美光与铠侠",
-            summary: "核心要点 人工智能普及推高存储芯片需求，在 NAND 闪存赛道，一家中国企业跻身全球第三。 在规模更大的 DRAM 内存芯片市场，长江存储位列全球第四。",
-            source: "环球市场播报",
-            date: "2026-08-13",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inineiyr9989007.shtml"
-        },
-        {
-            title: "中东问题专家警示：特朗普单纯依靠封锁制裁难以打破当前美伊对峙困局",
-            summary: "特朗普政府谋求结束伊朗战争的数次尝试均遭遇挫折。 美军有限规模的空袭行动未能扭转局势，特朗普扬言要将伊朗“从地球上抹去”的威胁同样收效甚微。",
-            source: "环球市场播报",
-            date: "2026-08-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inineiyq3216379.shtml"
-        },
-        {
-            title: "黄金、白银，快速跳水",
-            summary: "文章来源：中国基金报 中国基金报记者 李智 8月13日，现货黄金冲高回落，盘中快速跳水，跌破4400美元/盎司，日内跌0.74%，最新报4375.38美元/盎司。",
-            source: "滚动播报",
-            date: "2026-08-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-13/doc-inineiyr9987292.shtml"
-        },
-        {
-            title: "【点评报告|棉花】2026年8月USDA棉花供需报告解读",
-            summary: "国投期货研究院 棉花：报告中性偏多，美棉产量微调 2025/26年度供需数据调整情况：  美国农业部8月供需报告，26/27年全球棉花产量环比上月小幅上调，全球产量上调8.2万吨...",
+            title: "广誉远维权时效将在年底到期，受损投资者应抓紧维权索赔",
+            summary: "2024年4月10日，广誉远及相关当事人收到山西证监局下发的《行政处罚决定书》，主要因其连续多年存在财务造假行为。  上海沪紫律师事务所刘鹏律师提示...",
             source: "市场资讯",
             date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-08-13/doc-inineiyp3389405.shtml"
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhm3353515.shtml"
         },
         {
-            title: "【点评报告|玉米】2026年8月USDA农产品供需报告解读",
-            summary: "国投期货研究院 面积增单产减期末库存下降，美玉米偏强运行 北京时间8月13日凌晨，美国农业部发布8月农产品供需报告，玉米方面整体偏利多。",
+            title: "浩丰科技维权索赔仍可参与，剩余时效仅剩最后半年",
+            summary: "2024年11月6日，浩丰科技发布公告称，公司收到北京证监局下发的《行政处罚决定书》。随着处罚结果正式落地，涉及该公司信息披露违法违规事项的投资者索赔工作也进入新阶段...",
             source: "市场资讯",
             date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-08-13/doc-inineiyk4661744.shtml"
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhp9940649.shtml"
+        },
+        {
+            title: "上海易连退市不退责，受损投资者仍可维权",
+            summary: " 2025年1月8日，上海易连披露公司收到中国证监会上海监管局出具的《行政处罚决定书》，这意味着公司此前涉及的信息披露违法违规事项已经出具监管处理结果。",
+            source: "市场资讯",
+            date: "2026-08-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhn3165851.shtml"
+        },
+        {
+            title: "欢瑞世纪索赔持续征集中，符合条件仍可加入",
+            summary: "上海沪紫律师事务所刘鹏律师团队截止目前已收到数千位投资者的索赔报名，符合要求还可加入。暂定符合于2026年4月22日（含当日）之前买入...",
+            source: "市场资讯",
+            date: "2026-08-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhp9937262.shtml"
+        },
+        {
+            title: "卓然股份退市风险高悬，索赔刻不容缓",
+            summary: "自2026年7月被实施退市风险警示以来，科创板公司*ST卓然（688121）的命运走到了关键的十字路口。随着监管调查的深入，该公司不仅面临规范类强制退市风险...",
+            source: "市场资讯",
+            date: "2026-08-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhp9935005.shtml"
+        },
+        {
+            title: "柳化股份业绩大幅增长，索赔还可进行登记",
+            summary: "8月10日，*ST柳化召开2026年半年度业绩说明会，财报显示，报告期内，*ST柳化实现营业收入7668.05万元，同比增长12.81%；实现归属于上市公司股东的净利润1418.36万元...",
+            source: "市场资讯",
+            date: "2026-08-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhp9933940.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                        investmentSummary: {
+                                                                                                                                            investmentSummary: {
         date: "2026-08-13",
         marketAssessment: "A股方面：上证指数报3926.96点（-0.50%），深证成指报14289.44点（-0.87%），创业板指报3586.04点（-0.45%）。美股方面：标普500报7,748.50（+0.32%），纳斯达克报26,588.49（+0.85%）。",
         hotSectors: [

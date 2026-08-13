@@ -47,6 +47,41 @@ function escapeHtml(str) {
     return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+/* ---------- 通用 JSONP 工具（绕过 CORS，用于东方财富/新浪等） ---------- */
+function jsonp(url, callbackParam = 'callback', timeout = 15000) {
+    return new Promise((resolve, reject) => {
+        const cb = 'jsonp_' + Date.now() + '_' + Math.random().toString(36).slice(2, 9);
+        const sep = url.includes('?') ? '&' : '?';
+        const script = document.createElement('script');
+        script.src = `${url}${sep}${callbackParam}=${cb}`;
+        script.charset = 'utf-8';
+
+        let timer = null;
+        const cleanup = () => {
+            delete window[cb];
+            if (script.parentNode) script.parentNode.removeChild(script);
+            if (timer) clearTimeout(timer);
+        };
+
+        window[cb] = (data) => {
+            cleanup();
+            resolve(data);
+        };
+
+        script.onerror = () => {
+            cleanup();
+            reject(new Error('JSONP request failed: ' + url));
+        };
+
+        timer = setTimeout(() => {
+            cleanup();
+            reject(new Error('JSONP request timeout: ' + url));
+        }, timeout);
+
+        document.head.appendChild(script);
+    });
+}
+
 /* ---------- App 控制器 ---------- */
 const App = {
     init() {
@@ -59,6 +94,7 @@ const App = {
         IELTSModule.init();
         PlannerModule.init();
         VlogModule.init();
+        AccountingModule.init();
         this.updateQuickStats();
     },
 
@@ -171,11 +207,15 @@ const App = {
         const tasks = Storage.get('tasks_' + formatDate(new Date()), []);
         const done = tasks.filter(t => t.done).length;
         const lib = Storage.get('vlogLibrary', []);
+        const entries = Storage.get('accountingEntries', []);
+        const todayExp = entries.filter(e => e.date === formatDate(new Date())).reduce((sum, e) => sum + e.amount, 0);
 
         document.getElementById('statStock').textContent = wl.length;
         document.getElementById('statStudy').textContent = totalStudy + 'h';
         document.getElementById('statTasks').textContent = done + '/' + tasks.length;
         document.getElementById('statTopics').textContent = lib.length;
+        const accEl = document.getElementById('statAccounting');
+        if (accEl) accEl.textContent = '¥' + todayExp.toFixed(0);
     },
 
     exportAll() {
@@ -200,6 +240,11 @@ const App = {
             vlog: {
                 library: Storage.get('vlogLibrary', []),
                 cases: Storage.get('vlogCases', [])
+            },
+            accounting: {
+                entries: Storage.get('accountingEntries', []),
+                hourlyWage: Storage.get('hourlyWage', 0),
+                monthlyBudget: Storage.get('monthlyBudget', 0)
             }
         };
         const text = JSON.stringify(data, null, 2);
@@ -234,7 +279,7 @@ const StockModule = {
 
     // 首次加载预填充真实数据
     // 数据版本号 — 每次内容库重大更新时递增，强制刷新本地存储
-    DATA_VERSION: '2026-08-12',
+    DATA_VERSION: '2026-08-13',
 
     prepopulateData() {
         const currentVersion = Storage.get('dataVersion', null);
@@ -284,25 +329,14 @@ const StockModule = {
     async fetchRealTimeData() {
         const today = formatDate(new Date());
         let updated = false;
-
         const lastUpdatedEl = document.getElementById('lastUpdated');
         if (lastUpdatedEl) lastUpdatedEl.textContent = '正在获取实时数据...';
 
-        // 1. A股指数 — Tencent JSONP（script tag，无 CORS 问题）
+        // 1. A股指数 — Tencent JSONP（最可靠）
         try {
             const aIndices = await this.fetchAShareIndices(today);
             if (aIndices && aIndices.length > 0) {
-                const existing = Storage.get('marketIndices', ContentLibrary.marketIndices);
-                const usExisting = existing.filter(i => i.market === '美股');
-                const newIndices = [...aIndices, ...usExisting];
-                Storage.set('marketIndices', newIndices);
-                const dataText = newIndices.map(idx =>
-                    `${idx.name} ${idx.value} ${idx.change} (${idx.updateTime || ''})`
-                ).join('\n');
-                Storage.set('marketData', dataText);
-                if (document.getElementById('marketDataInput')) {
-                    document.getElementById('marketDataInput').value = dataText;
-                }
+                this.updateMarketIndices(aIndices, 'A股');
                 this.renderIndices();
                 updated = true;
                 console.log('[实时数据] A股指数更新成功', aIndices.length, '条');
@@ -311,21 +345,11 @@ const StockModule = {
             console.warn('[实时数据] A股指数获取失败:', e.message);
         }
 
-        // 2. 美股指数 — Yahoo Finance via CORS proxy
+        // 2. 美股指数 — Yahoo Finance via 多个 CORS proxy 轮询
         try {
             const usIndices = await this.fetchUSIndices(today);
             if (usIndices && usIndices.length > 0) {
-                const existing = Storage.get('marketIndices', []);
-                const aExisting = existing.filter(i => i.market === 'A股');
-                const newIndices = [...aExisting, ...usIndices];
-                Storage.set('marketIndices', newIndices);
-                const dataText = newIndices.map(idx =>
-                    `${idx.name} ${idx.value} ${idx.change} (${idx.updateTime || ''})`
-                ).join('\n');
-                Storage.set('marketData', dataText);
-                if (document.getElementById('marketDataInput')) {
-                    document.getElementById('marketDataInput').value = dataText;
-                }
+                this.updateMarketIndices(usIndices, '美股');
                 this.renderIndices();
                 updated = true;
                 console.log('[实时数据] 美股指数更新成功', usIndices.length, '条');
@@ -334,7 +358,7 @@ const StockModule = {
             console.warn('[实时数据] 美股指数获取失败:', e.message);
         }
 
-        // 3. 财经资讯 — 新浪财经 via CORS proxy
+        // 3. 财经资讯 — 新浪/东方财富 JSONP（绕过 CORS proxy）
         try {
             const news = await this.fetchNews(today);
             if (news && news.length > 0) {
@@ -347,43 +371,57 @@ const StockModule = {
             console.warn('[实时数据] 财经资讯获取失败:', e.message);
         }
 
-        // 4. 强弱板块 — 东方财富 via CORS proxy
+        // 4. 强弱板块 — 东方财富 JSONP
+        let sectors = { hot: [], weak: [] };
         try {
-            const sectors = await this.fetchSectors(today);
-            if (sectors && sectors.hot && sectors.hot.length >= 0) {
-                this.updateInvestmentSummary(today, sectors);
-                this.renderInvestmentSummary();
-                updated = true;
-                console.log('[实时数据] 板块数据更新成功');
-            }
+            sectors = await this.fetchSectors(today);
+            console.log('[实时数据] 板块数据:', sectors.hot.length, '强', sectors.weak.length, '弱');
         } catch (e) {
             console.warn('[实时数据] 板块数据获取失败:', e.message);
         }
 
-        // 4.5 个股推荐 — 东方财富实时生成（涨幅榜 + 资金流）
+        // 5. 个股推荐 — 东方财富 JSONP（A股涨幅榜 + 主力资金流）
         try {
             const ok = await this.fetchScreeningStocks(today);
-            if (ok) updated = true;
-            else console.warn('[实时数据] 个股推荐实时生成失败，保留静态种子');
+            if (ok) {
+                updated = true;
+                console.log('[实时数据] 个股推荐更新成功');
+            }
         } catch (e) {
             console.warn('[实时数据] 个股推荐获取失败:', e.message);
         }
 
-        // 5. K线图
+        // 6. 投资推荐总结（基于指数+板块+前一日分析）
         try {
-            await this.renderKLineChart();
+            this.updateInvestmentSummary(today, sectors);
+            this.renderInvestmentSummary();
+            updated = true;
+            console.log('[实时数据] 投资总结更新成功');
         } catch (e) {
-            console.warn('[实时数据] K线图获取失败:', e.message);
+            console.warn('[实时数据] 投资总结更新失败:', e.message);
         }
 
         if (lastUpdatedEl) {
             lastUpdatedEl.textContent = '更新于 ' + new Date().toLocaleTimeString('zh-CN');
         }
-
         if (updated) {
             App.toast('实时数据已更新');
         }
         return updated;
+    },
+
+    // 合并指数到本地存储
+    updateMarketIndices(newItems, marketFilter) {
+        const existing = Storage.get('marketIndices', ContentLibrary.marketIndices);
+        const others = existing.filter(i => i.market !== marketFilter);
+        const merged = [...others, ...newItems];
+        Storage.set('marketIndices', merged);
+        const dataText = merged.map(idx =>
+            `${idx.name} ${idx.value} ${idx.change} (${idx.updateTime || ''})`
+        ).join('\n');
+        Storage.set('marketData', dataText);
+        const input = document.getElementById('marketDataInput');
+        if (input) input.value = dataText;
     },
 
     // A股指数 — Tencent JSONP（script tag 方式，绕过 CORS）
@@ -433,61 +471,114 @@ const StockModule = {
         });
     },
 
-    // 美股指数 — Yahoo Finance via CORS proxy
+    // 美股指数 — Yahoo Finance，多 CORS proxy 轮询
     async fetchUSIndices(today) {
-        const proxy = 'https://api.allorigins.win/raw?url=';
+        const proxies = [
+            'https://api.allorigins.win/raw?url=',
+            'https://corsproxy.io/?',
+            'https://api.codetabs.com/v1/proxy?quest='
+        ];
         const symbols = [
             { sym: '^GSPC', name: '标普500', code: 'SPX' },
             { sym: '^IXIC', name: '纳斯达克', code: 'IXIC' },
             { sym: '^DJI', name: '道琼斯', code: 'DJI' },
         ];
         const results = [];
-        for (const { sym, name, code } of symbols) {
-            try {
-                const yahooUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=1d&range=5d`;
-                const resp = await fetch(proxy + encodeURIComponent(yahooUrl), { signal: AbortSignal.timeout(15000) });
-                const data = await resp.json();
-                const meta = data?.chart?.result?.[0]?.meta;
-                if (meta) {
-                    const price = meta.regularMarketPrice || 0;
-                    const prev = meta.chartPreviousClose || meta.previousClose || price;
-                    let changePct = prev > 0 ? (price - prev) / prev * 100 : 0;
-                    const chgSign = changePct >= 0 ? '+' : '';
-                    results.push({
-                        name, code,
-                        value: price.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}),
-                        change: `${chgSign}${changePct.toFixed(2)}%`,
-                        market: '美股',
-                        updateTime: `${today} 收盘`
-                    });
+
+        const fetchOne = async (sym, name, code) => {
+            const yahooUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=1d&range=5d`;
+            for (const proxy of proxies) {
+                try {
+                    const resp = await fetch(proxy + encodeURIComponent(yahooUrl), { signal: AbortSignal.timeout(12000) });
+                    if (!resp.ok) continue;
+                    const data = await resp.json();
+                    const meta = data?.chart?.result?.[0]?.meta;
+                    if (meta) {
+                        const price = meta.regularMarketPrice || 0;
+                        const prev = meta.chartPreviousClose || meta.previousClose || price;
+                        let changePct = prev > 0 ? (price - prev) / prev * 100 : 0;
+                        const chgSign = changePct >= 0 ? '+' : '';
+                        return {
+                            name, code,
+                            value: price.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}),
+                            change: `${chgSign}${changePct.toFixed(2)}%`,
+                            market: '美股',
+                            updateTime: `${today} 收盘`
+                        };
+                    }
+                } catch (e) {
+                    console.warn(`[实时数据] 美股 ${name} via ${proxy} 失败:`, e.message);
                 }
-            } catch (e) {
-                console.warn(`[实时数据] 美股 ${name} 获取失败:`, e.message);
             }
+            return null;
+        };
+
+        for (const { sym, name, code } of symbols) {
+            const item = await fetchOne(sym, name, code);
+            if (item) results.push(item);
         }
         return results;
     },
 
-    // 财经资讯 — 新浪财经 via CORS proxy
+    // 财经资讯 — 新浪/东方财富 JSONP，失败则回退本地
     async fetchNews(today) {
-        const proxy = 'https://api.allorigins.win/raw?url=';
-        const sinaUrl = 'https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2516&k=&num=10&page=1';
-        const resp = await fetch(proxy + encodeURIComponent(sinaUrl), { signal: AbortSignal.timeout(15000) });
-        const data = await resp.json();
-        const articles = data?.result?.data || [];
+        // 尝试 1：新浪财经 JSONP
+        try {
+            const sinaUrl = 'https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2516&k=&num=10&page=1';
+            const data = await jsonp(sinaUrl, 'callback', 10000);
+            const articles = data?.result?.data || [];
+            if (articles.length > 0) {
+                return this.parseNews(articles, today, 'sina');
+            }
+        } catch (e) {
+            console.warn('[财经资讯] 新浪 JSONP 失败:', e.message);
+        }
+
+        // 尝试 2：东方财富 7x24 JSONP
+        try {
+            const emUrl = 'https://searchapi.eastmoney.com/api/sns/list?type=2&keyword=&pageindex=0&pagesize=10';
+            const data = await jsonp(emUrl, 'callback', 10000);
+            // Eastmoney sns/list 结构：data 是数组或 result.data
+            const articles = Array.isArray(data) ? data : (data?.result?.data || data?.data || []);
+            if (articles.length > 0) {
+                return this.parseNews(articles, today, 'eastmoney');
+            }
+        } catch (e) {
+            console.warn('[财经资讯] 东方财富 JSONP 失败:', e.message);
+        }
+
+        // 尝试 3：CORS proxy 兜底
+        try {
+            const proxy = 'https://corsproxy.io/?';
+            const sinaUrl = 'https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2516&k=&num=10&page=1';
+            const resp = await fetch(proxy + encodeURIComponent(sinaUrl), { signal: AbortSignal.timeout(12000) });
+            const data = await resp.json();
+            const articles = data?.result?.data || [];
+            if (articles.length > 0) {
+                return this.parseNews(articles, today, 'sina');
+            }
+        } catch (e) {
+            console.warn('[财经资讯] CORS proxy 兜底失败:', e.message);
+        }
+
+        return [];
+    },
+
+    // 统一解析财经资讯
+    parseNews(articles, today, sourceType) {
         const results = [];
         for (const art of articles.slice(0, 10)) {
             let title = (art.title || '').replace(/<[^>]+>/g, '');
-            let summary = (art.summary || art.intro || '').replace(/<[^>]+>/g, '') || title;
-            const media = art.media_name || '新浪财经';
+            let summary = (art.summary || art.intro || art.content || '').replace(/<[^>]+>/g, '') || title;
+            const media = art.media_name || art.source || (sourceType === 'eastmoney' ? '东方财富' : '新浪财经');
             const url = art.url || '';
             let dateStr = today;
-            const ctime = art.ctime || '';
+            const ctime = art.ctime || art.pubDate || art.publish_time || '';
             if (ctime) {
-                if (/^\d+$/.test(ctime)) {
+                if (/^\d+$/.test(String(ctime))) {
                     dateStr = new Date(parseInt(ctime) * 1000).toLocaleDateString('zh-CN').replace(/\//g, '-');
                 } else {
-                    dateStr = ctime.slice(0, 10);
+                    dateStr = String(ctime).slice(0, 10);
                 }
             }
             let tag = 'A股';
@@ -501,38 +592,66 @@ const StockModule = {
         return results;
     },
 
-    // 强弱板块 — 东方财富 via CORS proxy
+    // 强弱板块 — 东方财富 JSONP（行业板块涨幅/跌幅排行）
     async fetchSectors(today) {
-        const proxy = 'https://api.allorigins.win/raw?url=';
         const baseUrl = 'https://push2.eastmoney.com/api/qt/clist/get';
         const baseParams = 'pn=1&np=1&fltt=2&invt=2&fields=f2,f3,f4,f12,f14&fs=m:90+t:2+f:!50&fid=f3';
         const hot = [], weak = [];
+
+        const fetchSectorList = async (po, pz) => {
+            const url = `${baseUrl}?${baseParams}&po=${po}&pz=${pz}`;
+            try {
+                const data = await jsonp(url, 'callback', 12000);
+                let items = data?.data?.diff || [];
+                if (!Array.isArray(items) && items && typeof items === 'object') items = Object.values(items);
+                return items;
+            } catch (e) {
+                console.warn('[板块] JSONP 失败，尝试 CORS proxy:', e.message);
+                // fallback
+                try {
+                    const proxy = 'https://corsproxy.io/?';
+                    const resp = await fetch(proxy + encodeURIComponent(url), { signal: AbortSignal.timeout(12000) });
+                    const data = await resp.json();
+                    let items = data?.data?.diff || [];
+                    if (!Array.isArray(items) && items && typeof items === 'object') items = Object.values(items);
+                    return items;
+                } catch (e2) {
+                    console.warn('[板块] CORS proxy 也失败:', e2.message);
+                    return [];
+                }
+            }
+        };
+
         try {
-            const hotUrl = `${baseUrl}?${baseParams}&po=1&pz=5`;
-            const hotResp = await fetch(proxy + encodeURIComponent(hotUrl), { signal: AbortSignal.timeout(15000) });
-            const hotData = await hotResp.json();
-            let items = hotData?.data?.diff || [];
-            if (Array.isArray(items) === false && typeof items === 'object') items = Object.values(items);
-            for (const item of items.slice(0, 4)) {
-                const change = item.f3 || 0;
-                hot.push({ name: item.f14 || '', reason: `板块涨幅${change >= 0 ? '+' : ''}${change.toFixed(2)}%`, strength: change > 3 ? '强' : (change > 1 ? '中强' : '中') });
+            const hotItems = await fetchSectorList(1, 6);
+            for (const item of hotItems.slice(0, 5)) {
+                const change = parseFloat(item.f3 || 0);
+                if (!item.f14) continue;
+                hot.push({
+                    name: item.f14,
+                    reason: `板块涨幅${change >= 0 ? '+' : ''}${change.toFixed(2)}%`,
+                    strength: change > 3 ? '强' : (change > 1 ? '中强' : '中')
+                });
             }
         } catch (e) { console.warn('[板块] 热门板块获取失败:', e.message); }
+
         try {
-            const weakUrl = `${baseUrl}?${baseParams}&po=0&pz=3`;
-            const weakResp = await fetch(proxy + encodeURIComponent(weakUrl), { signal: AbortSignal.timeout(15000) });
-            const weakData = await weakResp.json();
-            let items = weakData?.data?.diff || [];
-            if (Array.isArray(items) === false && typeof items === 'object') items = Object.values(items);
-            for (const item of items.slice(0, 2)) {
-                const change = item.f3 || 0;
-                weak.push({ name: item.f14 || '', reason: `板块跌幅${change.toFixed(2)}%`, strength: '弱' });
+            const weakItems = await fetchSectorList(0, 4);
+            for (const item of weakItems.slice(0, 3)) {
+                const change = parseFloat(item.f3 || 0);
+                if (!item.f14) continue;
+                weak.push({
+                    name: item.f14,
+                    reason: `板块跌幅${change.toFixed(2)}%`,
+                    strength: '弱'
+                });
             }
         } catch (e) { console.warn('[板块] 弱势板块获取失败:', e.message); }
+
         return { hot, weak };
     },
 
-    // 更新投资总结
+    // 更新投资总结（结合当日行情 + 前一天分析生成动态策略）
     updateInvestmentSummary(today, sectors) {
         const indices = Storage.get('marketIndices', []);
         const aIdx = indices.filter(i => i.market === 'A股');
@@ -554,55 +673,152 @@ const StockModule = {
         if (ndq) usParts.push(`纳斯达克报${ndq.value}（${ndq.change}）`);
         if (usParts.length) assessment += '美股方面：' + usParts.join('，') + '。';
 
-        const isDown = sh && sh.change && sh.change.startsWith('-');
-        let longStrat, shortStrat;
-        if (isDown) {
-            longStrat = '市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI/科技业绩龙头，一手高股息防御。';
-            shortStrat = '超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。';
+        // 解析涨跌幅数值
+        const parseChg = (str) => {
+            if (!str) return 0;
+            const m = String(str).match(/([+-]?\d+\.?\d*)/);
+            return m ? parseFloat(m[1]) : 0;
+        };
+        const shChg = parseChg(sh?.change);
+        const szChg = parseChg(sz?.change);
+        const cyChg = parseChg(cy?.change);
+        const avgAChg = (shChg + szChg + cyChg) / 3;
+
+        // 读取前一日总结做对比
+        const yesterdaySummary = Storage.get('investmentSummary', null);
+        const yesterdayHotNames = new Set((yesterdaySummary?.hotSectors || []).map(s => s.name));
+        const yesterdayWeakNames = new Set((yesterdaySummary?.weakSectors || []).map(s => s.name));
+
+        // 生成板块推荐与延续/反转信号
+        const hotSectors = (sectors.hot || []).map(s => ({
+            ...s,
+            recommendation: yesterdayHotNames.has(s.name)
+                ? `连续强势，可关注龙头低吸或板块内补涨机会`
+                : `新晋热点，观察资金持续性，谨慎追高`
+        }));
+        const weakSectors = (sectors.weak || []).map(s => ({
+            ...s,
+            recommendation: yesterdayHotNames.has(s.name)
+                ? `前日强势板块今日转弱，警惕获利回吐`
+                : (yesterdayWeakNames.has(s.name)
+                    ? `延续弱势，短线回避，等待企稳信号`
+                    : `今日新弱，暂时观望为主`)
+        }));
+
+        // 市场情绪评级
+        let sentiment = '中性';
+        if (avgAChg > 0.8) sentiment = '积极';
+        else if (avgAChg > 0.2) sentiment = '偏暖';
+        else if (avgAChg < -0.8) sentiment = '谨慎';
+        else if (avgAChg < -0.2) sentiment = '偏弱';
+
+        // 动态长线策略
+        let longStrat = '';
+        if (avgAChg > 0.5) {
+            longStrat = `市场情绪${sentiment}，长线继续布局业绩确定性强的龙头。重点跟踪今日强势板块中具备基本面支撑的标的，半年报披露期优先选择业绩超预期个股。`;
+        } else if (avgAChg < -0.5) {
+            longStrat = `市场${sentiment}，长线宜控制仓位，逢低分批布局高股息防御资产与超跌绩优股。远离纯概念炒作，等待情绪修复。`;
         } else {
-            longStrat = '市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。';
-            shortStrat = '超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。';
+            longStrat = `大盘震荡，长线维持均衡配置：一端是AI/科技业绩龙头，一端是高股息红利资产。半年报期重点筛选有业绩兑现的标的。`;
         }
-        if (sectors.hot && sectors.hot.length > 0) {
-            const hotNames = sectors.hot.slice(0, 3).map(s => s.name).join('、');
-            shortStrat = `超短线关注${hotNames}等板块的延续性，顺势操作，严格止损。`;
+
+        // 动态短线策略
+        let shortStrat = '';
+        if (hotSectors.length > 0) {
+            const hotNames = hotSectors.slice(0, 3).map(s => s.name).join('、');
+            if (avgAChg > 0.3) {
+                shortStrat = `超短线可轻仓参与${hotNames}等热点板块的龙头标的，顺势操作，设置好止损位，避免追高后排补涨股。`;
+            } else {
+                shortStrat = `市场尚未形成一致方向，超短线仅关注${hotNames}等少数强势板块的低吸机会，快进快出，严格控制仓位。`;
+            }
+        } else {
+            shortStrat = `今日暂无明确热点，超短线以观望为主，等待板块轮动出现清晰方向。`;
+        }
+        if (weakSectors.length > 0) {
+            const weakNames = weakSectors.slice(0, 2).map(s => s.name).join('、');
+            shortStrat += ` 短线回避${weakNames}等弱势板块。`;
+        }
+
+        // 动态仓位建议
+        let positionAdvice = '';
+        if (avgAChg > 0.8) {
+            positionAdvice = '激进型7-8成（聚焦今日强势板块龙头），稳健型5-6成（业绩龙头+少量热点），保守型3-4成（仅核心资产）。';
+        } else if (avgAChg > 0.2) {
+            positionAdvice = '激进型6-7成（跟随热点），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）。';
+        } else if (avgAChg > -0.5) {
+            positionAdvice = '激进型5成（试错热点），稳健型3-4成（防守为主），保守型1-2成（现金为王）。';
+        } else {
+            positionAdvice = '激进型4成以下（仅短线反弹），稳健型2-3成（高股息避险），保守型空仓或1成以下（等待企稳）。';
         }
 
         const summary = {
             date: today,
+            sentiment,
             marketAssessment: assessment || '今日市场数据获取中。',
-            hotSectors: sectors.hot || [],
-            weakSectors: sectors.weak || [],
+            hotSectors,
+            weakSectors,
             longTermStrategy: longStrat,
             shortTermStrategy: shortStrat,
-            positionAdvice: '激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）',
+            positionAdvice,
             riskWarning: '以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。',
             sources: [
                 { name: '腾讯财经·行情', url: 'https://gu.qq.com/' },
                 { name: '新浪财经·资讯', url: 'https://finance.sina.com.cn/' },
-                { name: '东方财富·板块', url: 'https://quote.eastmoney.com/' },
+                { name: '东方财富·板块/个股', url: 'https://quote.eastmoney.com/' },
                 { name: 'Yahoo Finance', url: 'https://finance.yahoo.com/' }
             ]
         };
+
+        // 保存今日总结前，把昨天的另存为 history（用于后续对比）
+        if (yesterdaySummary && yesterdaySummary.date && yesterdaySummary.date !== today) {
+            const history = Storage.get('investmentSummaryHistory', []);
+            if (!history.find(h => h.date === yesterdaySummary.date)) {
+                history.unshift(yesterdaySummary);
+                if (history.length > 30) history.pop();
+                Storage.set('investmentSummaryHistory', history);
+            }
+        }
         Storage.set('investmentSummary', summary);
     },
 
-    // 个股推荐 — 从东方财富实时拉取（涨幅榜 + 主力资金流），动态生成，不再用静态种子
+    // 个股推荐 — 东方财富 JSONP：A股涨幅榜 + 主力资金净流入，每日动态刷新
     async fetchScreeningStocks(today) {
-        const proxy = 'https://api.allorigins.win/raw?url=';
         const base = 'https://push2.eastmoney.com/api/qt/clist/get';
+        // fs: 沪深A股 + 科创板/创业板；f13=1 沪市(6/9开头)，f13=0 深市(0/3开头)
+        const fs = 'm:0+t:6,m:1+t:2,m:1+t:23,m:0+t:80';
         // 字段：f2最新价 f3涨跌幅 f12代码 f13市场 f14名称 f62主力净流入(元)
         const mk = (fid, pz) =>
-            `${base}?pn=1&np=1&fltt=2&invt=2&fields=f2,f3,f12,f13,f14,f62&fs=m:90+t:2+f:!50&fid=${fid}&po=1&pz=${pz}`;
+            `${base}?pn=1&np=1&fltt=2&invt=2&fields=f2,f3,f12,f13,f14,f62&fs=${fs}&fid=${fid}&po=1&pz=${pz}`;
+
         const seen = new Set();
         const out = [];
 
+        const fetchList = async (fid, pz) => {
+            const url = mk(fid, pz);
+            try {
+                const data = await jsonp(url, 'callback', 12000);
+                let items = data?.data?.diff || [];
+                if (!Array.isArray(items) && items && typeof items === 'object') items = Object.values(items);
+                return items;
+            } catch (e) {
+                console.warn(`[个股推荐] JSONP ${fid} 失败，尝试 CORS proxy:`, e.message);
+                try {
+                    const proxy = 'https://corsproxy.io/?';
+                    const resp = await fetch(proxy + encodeURIComponent(url), { signal: AbortSignal.timeout(12000) });
+                    const data = await resp.json();
+                    let items = data?.data?.diff || [];
+                    if (!Array.isArray(items) && items && typeof items === 'object') items = Object.values(items);
+                    return items;
+                } catch (e2) {
+                    console.warn('[个股推荐] CORS proxy 也失败:', e2.message);
+                    return [];
+                }
+            }
+        };
+
         // 1) 涨幅榜（超短线情绪标的）
         try {
-            const resp = await fetch(proxy + encodeURIComponent(mk('f3', 8)), { signal: AbortSignal.timeout(15000) });
-            const data = await resp.json();
-            let items = data?.data?.diff || [];
-            if (!Array.isArray(items) && items && typeof items === 'object') items = Object.values(items);
+            const items = await fetchList('f3', 8);
             for (const it of items.slice(0, 8)) {
                 const code = String(it.f12 || '');
                 const name = it.f14 || '';
@@ -614,17 +830,15 @@ const StockModule = {
                     name, code: market + code, market: 'A股', industry: '—',
                     strategy: '超短线',
                     reason: `今日涨幅${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%，位列沪深涨幅榜前列，短线情绪与资金关注度最高`,
-                    source: '东方财富·实时行情', url: `https://quote.eastmoney.com/${market === 'SH' ? 'sh' : 'sz'}${code}.html`
+                    source: '东方财富·实时行情',
+                    url: `https://quote.eastmoney.com/${market === 'SH' ? 'sh' : 'sz'}${code}.html`
                 });
             }
         } catch (e) { console.warn('[个股推荐] 涨幅榜获取失败:', e.message); }
 
         // 2) 主力资金净流入排行（长线价值/机构关注）
         try {
-            const resp = await fetch(proxy + encodeURIComponent(mk('f62', 6)), { signal: AbortSignal.timeout(15000) });
-            const data = await resp.json();
-            let items = data?.data?.diff || [];
-            if (!Array.isArray(items) && items && typeof items === 'object') items = Object.values(items);
+            const items = await fetchList('f62', 6);
             for (const it of items.slice(0, 6)) {
                 const code = String(it.f12 || '');
                 const name = it.f14 || '';
@@ -636,17 +850,16 @@ const StockModule = {
                     name, code: market + code, market: 'A股', industry: '—',
                     strategy: '长线价值',
                     reason: `主力资金净流入${net >= 0 ? '+' : ''}${net.toFixed(2)}亿元，机构关注度提升，适合逢低布局`,
-                    source: '东方财富·资金流向', url: `https://quote.eastmoney.com/${market === 'SH' ? 'sh' : 'sz'}${code}.html`
+                    source: '东方财富·资金流向',
+                    url: `https://quote.eastmoney.com/${market === 'SH' ? 'sh' : 'sz'}${code}.html`
                 });
             }
         } catch (e) { console.warn('[个股推荐] 资金流获取失败:', e.message); }
 
         if (out.length > 0) {
-            // 合并策略：实时数据替换所有系统条目（含旧静态种子），仅保留用户手动添加的个股
+            // 合并策略：实时数据替换所有系统条目，仅保留用户手动添加的个股
             const existing = Storage.get('screeningStocks', []);
-            const seedIds = new Set((ContentLibrary.screeningStocks || []).map(s => `${s.code}|${s.name}`));
-            // 用户手动添加的 = 不在静态种子库里、且无 auto 标记
-            const userStocks = existing.filter(s => !s.auto && !seedIds.has(`${s.code}|${s.name}`));
+            const userStocks = existing.filter(s => !s.auto);
             const liveStocks = out.map(s => ({ ...s, auto: true }));
             Storage.set('screeningStocks', [...liveStocks, ...userStocks]);
             Storage.set('screeningDate', today);
@@ -655,137 +868,6 @@ const StockModule = {
             return true;
         }
         return false;
-    },
-
-    // K线图 — 使用 TradingView lightweight-charts
-    async renderKLineChart() {
-        const container = document.getElementById('klineChart');
-        if (!container) return;
-
-        // 动态加载 lightweight-charts
-        if (!window.LightweightCharts) {
-            await new Promise((resolve, reject) => {
-                const s = document.createElement('script');
-                s.src = 'https://cdn.jsdelivr.net/npm/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js';
-                s.onload = resolve;
-                s.onerror = reject;
-                document.head.appendChild(s);
-            });
-        }
-
-        // 获取上证指数日K线数据（Tencent API，JSONP方式）
-        const klineData = await this.fetchKLineData('sh000001');
-        if (!klineData || klineData.length === 0) {
-            container.innerHTML = '<p style="color:var(--text-muted);font-size:12px;text-align:center;padding:20px">K线数据获取失败，请稍后刷新重试</p>';
-            return;
-        }
-
-        // 清空容器
-        container.innerHTML = '';
-        const chart = LightweightCharts.createChart(container, {
-            width: container.clientWidth,
-            height: 320,
-            layout: {
-                background: { type: 'solid', color: '#1e1e30' },
-                textColor: '#9a9ab0',
-                fontSize: 11,
-            },
-            grid: {
-                vertLines: { color: '#2a2a40' },
-                horzLines: { color: '#2a2a40' },
-            },
-            timeScale: {
-                borderColor: '#2a2a40',
-                timeVisible: false,
-            },
-            rightPriceScale: {
-                borderColor: '#2a2a40',
-            },
-            crosshair: {
-                mode: 1,
-            },
-        });
-
-        const candleSeries = chart.addCandlestickSeries({
-            upColor: '#48A878',
-            downColor: '#D15757',
-            borderUpColor: '#48A878',
-            borderDownColor: '#D15757',
-            wickUpColor: '#48A878',
-            wickDownColor: '#D15757',
-        });
-
-        candleSeries.setData(klineData);
-        chart.timeScale().fitContent();
-
-        // 响应式
-        const resizeObserver = new ResizeObserver(() => {
-            chart.applyOptions({ width: container.clientWidth });
-        });
-        resizeObserver.observe(container);
-    },
-
-    // 获取K线数据 — Tencent API (JSONP)
-    fetchKLineData(symbol) {
-        return new Promise((resolve, reject) => {
-            const callbackName = 'kline_cb_' + Date.now();
-            window[callbackName] = function(data) {
-                delete window[callbackName];
-                const script = document.getElementById(callbackName + '_script');
-                if (script) script.remove();
-                try {
-                    const dayData = data?.data?.[symbol]?.day || data?.data?.[symbol]?.qfqday || [];
-                    if (!dayData || dayData.length === 0) {
-                        // 尝试另一种格式
-                        const d = data?.data?.[symbol];
-                        if (d && d.day) {
-                            const parsed = d.day.map(item => ({
-                                time: item[0],
-                                open: parseFloat(item[1]),
-                                high: parseFloat(item[2]),
-                                low: parseFloat(item[3]),
-                                close: parseFloat(item[4]),
-                            }));
-                            resolve(parsed.slice(-120));
-                            return;
-                        }
-                        resolve([]);
-                        return;
-                    }
-                    // qfqday 格式: [date, open, close, high, low, ...]
-                    // day 格式: [date, open, close, high, low]
-                    const parsed = dayData.map(item => ({
-                        time: item[0],
-                        open: parseFloat(item[1]),
-                        high: parseFloat(item[3] || item[2]),
-                        low: parseFloat(item[4] || item[3]),
-                        close: parseFloat(item[2] || item[4]),
-                    }));
-                    resolve(parsed.slice(-120));
-                } catch (e) {
-                    console.warn('[K线] 数据解析失败:', e);
-                    resolve([]);
-                }
-            };
-
-            const script = document.createElement('script');
-            script.id = callbackName + '_script';
-            // Tencent K-line API
-            script.src = `https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=${symbol},day,,,120,qfq&callback=${callbackName}`;
-            script.onerror = () => {
-                delete window[callbackName];
-                script.remove();
-                reject(new Error('K-line fetch failed'));
-            };
-            setTimeout(() => {
-                if (document.head.contains(script)) {
-                    delete window[callbackName];
-                    script.remove();
-                    reject(new Error('K-line timeout'));
-                }
-            }, 10000);
-            document.head.appendChild(script);
-        });
     },
 
     // ---- 市场概览 ----
@@ -1064,6 +1146,14 @@ const StockModule = {
             return 'moderate';
         };
 
+        const sentimentClass = {
+            '积极': 'strong',
+            '偏暖': 'moderate',
+            '中性': '',
+            '偏弱': 'weak-tag',
+            '谨慎': 'weak-tag'
+        }[summary.sentiment] || '';
+
         const hotHtml = (summary.hotSectors || []).map(s => `
             <div class="sector-item sector-hot">
                 <div class="sector-header">
@@ -1071,6 +1161,7 @@ const StockModule = {
                     <span class="sector-strength ${strengthClass(s.strength)}">${escapeHtml(s.strength || '')}</span>
                 </div>
                 <div class="sector-reason">${escapeHtml(s.reason)}</div>
+                ${s.recommendation ? `<div class="sector-recommend"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#48A878" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 7v10M7 12h10"/></svg> ${escapeHtml(s.recommendation)}</div>` : ''}
             </div>`).join('');
 
         const weakHtml = (summary.weakSectors || []).map(s => `
@@ -1080,6 +1171,7 @@ const StockModule = {
                     <span class="sector-strength weak-tag">${escapeHtml(s.strength || '')}</span>
                 </div>
                 <div class="sector-reason">${escapeHtml(s.reason)}</div>
+                ${s.recommendation ? `<div class="sector-recommend"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#D15757" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M7 12h10"/></svg> ${escapeHtml(s.recommendation)}</div>` : ''}
             </div>`).join('');
 
         const sourcesHtml = (summary.sources || []).map(s =>
@@ -1087,18 +1179,21 @@ const StockModule = {
         ).join(' ');
 
         el.innerHTML = `
-            <div class="summary-date">更新日期：${escapeHtml(summary.date)}</div>
+            <div class="summary-date">
+                更新日期：${escapeHtml(summary.date)}
+                ${summary.sentiment ? `<span class="sentiment-badge ${sentimentClass}">${escapeHtml(summary.sentiment)}</span>` : ''}
+            </div>
             <div class="summary-section">
                 <div class="summary-label">大盘研判</div>
                 <div class="summary-text">${escapeHtml(summary.marketAssessment || '')}</div>
             </div>
             <div class="summary-grid">
                 <div class="summary-section">
-                    <div class="summary-label label-hot">强势板块</div>
+                    <div class="summary-label label-hot">强势板块 · 推荐</div>
                     ${hotHtml || '<div class="empty-mini">暂无</div>'}
                 </div>
                 <div class="summary-section">
-                    <div class="summary-label label-weak">弱势板块</div>
+                    <div class="summary-label label-weak">弱势板块 · 回避</div>
                     ${weakHtml || '<div class="empty-mini">暂无</div>'}
                 </div>
             </div>
@@ -2175,6 +2270,277 @@ const VlogModule = {
         parts.push('\n=== 对标案例 ===');
         parts.push(cases.map((c,i) => `${i+1}. ${c.title} - ${c.channel}`).join('\n'));
         copyToClipboard(parts.join('\n'));
+    }
+};
+
+/* ========================================
+   模块5: 记账本
+   ======================================== */
+const AccountingModule = {
+    categories: [
+        { key: 'food', label: '吃饭', color: '#48A878' },
+        { key: 'transport', label: '交通', color: '#62A4C8' },
+        { key: 'shopping', label: '购物', color: '#a78bfa' },
+        { key: 'entertainment', label: '娱乐', color: '#f472b6' },
+        { key: 'study', label: '学习', color: '#f0a040' },
+        { key: 'housing', label: '住房', color: '#2dd4bf' },
+        { key: 'medical', label: '医疗', color: '#D15757' },
+        { key: 'other', label: '其他', color: '#9a9ab0' }
+    ],
+    editingId: null,
+
+    init() {
+        this.render();
+        this.updateQuickStats();
+    },
+
+    getMonthKey(d) {
+        if (typeof d === 'string') d = new Date(d);
+        return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+    },
+
+    getToday() {
+        return formatDate(new Date());
+    },
+
+    getEntries() {
+        return Storage.get('accountingEntries', []);
+    },
+
+    saveEntries(entries) {
+        Storage.set('accountingEntries', entries);
+        this.render();
+        this.updateQuickStats();
+        App.updateQuickStats();
+    },
+
+    render() {
+        const entries = this.getEntries();
+        const today = this.getToday();
+        const monthKey = this.getMonthKey(new Date());
+        const hourlyWage = parseFloat(Storage.get('hourlyWage', 50)) || 50;
+        const monthlyBudget = parseFloat(Storage.get('monthlyBudget', 3000)) || 3000;
+
+        const todayExp = entries.filter(e => e.date === today).reduce((s, e) => s + e.amount, 0);
+        const monthExp = entries.filter(e => this.getMonthKey(e.date) === monthKey).reduce((s, e) => s + e.amount, 0);
+        const workHours = hourlyWage > 0 ? (monthExp / hourlyWage) : 0;
+        const budgetPct = monthlyBudget > 0 ? Math.min((monthExp / monthlyBudget) * 100, 100) : 0;
+
+        // 分类统计
+        const catTotals = {};
+        entries.filter(e => this.getMonthKey(e.date) === monthKey).forEach(e => {
+            catTotals[e.category] = (catTotals[e.category] || 0) + e.amount;
+        });
+        const maxCat = Math.max(...Object.values(catTotals).concat([0]));
+
+        document.getElementById('accTodayExpense').textContent = '¥' + todayExp.toFixed(2);
+        document.getElementById('accMonthExpense').textContent = '¥' + monthExp.toFixed(2);
+        document.getElementById('accWorkHours').textContent = this.formatHours(workHours);
+        document.getElementById('accBudgetBar').style.width = budgetPct + '%';
+        document.getElementById('accBudgetText').textContent = `¥${monthExp.toFixed(0)} / ¥${monthlyBudget}`;
+
+        // 最近记录
+        const list = document.getElementById('accRecentList');
+        const sorted = entries.slice().sort((a, b) => new Date(b.date + 'T00:00:00') - new Date(a.date + 'T00:00:00') || b.id - a.id);
+        if (sorted.length === 0) {
+            list.innerHTML = '<div class="empty-state">暂无支出记录，记一笔开始管理账目</div>';
+        } else {
+            list.innerHTML = sorted.slice(0, 50).map((e, i) => {
+                const cat = this.categories.find(c => c.key === e.category) || this.categories[7];
+                return `
+                <div class="acc-record">
+                    <div class="acc-record-icon" style="background:${cat.color}20;color:${cat.color}">${cat.label[0]}</div>
+                    <div class="acc-record-info">
+                        <div class="acc-record-title">${escapeHtml(e.note || cat.label)}</div>
+                        <div class="acc-record-meta">${escapeHtml(e.date)} · ${cat.label}</div>
+                    </div>
+                    <div class="acc-record-amount">-¥${e.amount.toFixed(2)}</div>
+                    <div class="acc-record-actions">
+                        <button class="btn-sm btn-ghost" onclick="AccountingModule.editEntry(${e.id})">编辑</button>
+                        <button class="btn-sm btn-danger" onclick="AccountingModule.deleteEntry(${e.id})">删除</button>
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
+        // 分类汇总
+        const catList = document.getElementById('accCategoryList');
+        const catHtml = this.categories.map(c => {
+            const total = catTotals[c.key] || 0;
+            const pct = maxCat > 0 ? (total / maxCat) * 100 : 0;
+            return `
+            <div class="acc-cat-row">
+                <span class="acc-cat-label">${c.label}</span>
+                <div class="acc-cat-bar-wrap">
+                    <div class="acc-cat-bar" style="width:${pct}%;background:${c.color}"></div>
+                </div>
+                <span class="acc-cat-value">¥${total.toFixed(0)}</span>
+            </div>`;
+        }).join('');
+        catList.innerHTML = catHtml;
+    },
+
+    formatHours(h) {
+        const hours = Math.floor(h);
+        const mins = Math.round((h - hours) * 60);
+        if (hours === 0) return `${mins} 分钟`;
+        if (mins === 0) return `${hours} 小时`;
+        return `${hours} 小时 ${mins} 分钟`;
+    },
+
+    addEntry() {
+        const amount = parseFloat(document.getElementById('accAmount').value);
+        const category = document.getElementById('accCategory').value;
+        const note = document.getElementById('accNote').value.trim();
+        const date = document.getElementById('accDate').value || this.getToday();
+        if (!amount || amount <= 0) { App.toast('请输入有效金额'); return; }
+
+        const entries = this.getEntries();
+        if (this.editingId) {
+            const idx = entries.findIndex(e => e.id === this.editingId);
+            if (idx >= 0) entries[idx] = { id: this.editingId, amount, category, note, date };
+            this.editingId = null;
+            App.toast('支出已更新');
+        } else {
+            entries.push({ id: Date.now(), amount, category, note, date });
+            App.toast('支出已记录');
+        }
+        this.saveEntries(entries);
+        document.getElementById('accAmount').value = '';
+        document.getElementById('accNote').value = '';
+        document.getElementById('accDate').value = this.getToday();
+        document.getElementById('accSaveBtn').textContent = '保存支出';
+    },
+
+    editEntry(id) {
+        const entries = this.getEntries();
+        const e = entries.find(x => x.id === id);
+        if (!e) return;
+        document.getElementById('accAmount').value = e.amount.toFixed(2);
+        document.getElementById('accCategory').value = e.category;
+        document.getElementById('accNote').value = e.note || '';
+        document.getElementById('accDate').value = e.date;
+        document.getElementById('accSaveBtn').textContent = '更新支出';
+        this.editingId = id;
+        // 滚动到顶部表单
+        document.getElementById('module-accounting').scrollIntoView({ behavior: 'smooth' });
+    },
+
+    deleteEntry(id) {
+        if (!confirm('确定删除这条记录？')) return;
+        const entries = this.getEntries().filter(e => e.id !== id);
+        this.saveEntries(entries);
+        App.toast('已删除');
+    },
+
+    updateSettings() {
+        const wage = parseFloat(document.getElementById('accHourlyWage').value);
+        const budget = parseFloat(document.getElementById('accMonthlyBudget').value);
+        if (wage > 0) Storage.set('hourlyWage', wage);
+        if (budget > 0) Storage.set('monthlyBudget', budget);
+        this.render();
+        App.toast('设置已保存');
+    },
+
+    updateQuickStats() {
+        // 侧边栏会显示今日支出
+        const entries = this.getEntries();
+        const todayExp = entries.filter(e => e.date === this.getToday()).reduce((s, e) => s + e.amount, 0);
+        const el = document.getElementById('statAccounting');
+        if (el) el.textContent = '¥' + todayExp.toFixed(0);
+    },
+
+    exportJSON() {
+        const data = {
+            exportDate: new Date().toISOString(),
+            hourlyWage: Storage.get('hourlyWage', 50),
+            monthlyBudget: Storage.get('monthlyBudget', 3000),
+            entries: this.getEntries()
+        };
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'mybuddy_accounting_' + this.getToday() + '.json';
+        a.click();
+        URL.revokeObjectURL(url);
+        App.toast('记账数据已导出');
+    },
+
+    exportCSV() {
+        const entries = this.getEntries().slice().sort((a, b) => new Date(a.date) - new Date(b.date));
+        const header = '日期,金额,分类,备注';
+        const rows = entries.map(e => {
+            const cat = this.categories.find(c => c.key === e.category)?.label || '其他';
+            return `${e.date},${e.amount.toFixed(2)},${cat},"${(e.note || '').replace(/"/g, '""')}"`;
+        });
+        const csv = [header, ...rows].join('\n');
+        const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'mybuddy_accounting_' + this.getToday() + '.csv';
+        a.click();
+        URL.revokeObjectURL(url);
+        App.toast('CSV 已导出');
+    },
+
+    importJSON() {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = 'application/json';
+        input.onchange = (ev) => {
+            const file = ev.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    if (Array.isArray(data.entries)) {
+                        const existing = this.getEntries();
+                        const merged = [...existing, ...data.entries];
+                        // 去重
+                        const seen = new Set();
+                        const unique = [];
+                        for (const item of merged) {
+                            const key = `${item.date}|${item.amount}|${item.category}|${item.note}`;
+                            if (!seen.has(key)) {
+                                seen.add(key);
+                                unique.push(item);
+                            }
+                        }
+                        this.saveEntries(unique);
+                        if (data.hourlyWage) Storage.set('hourlyWage', data.hourlyWage);
+                        if (data.monthlyBudget) Storage.set('monthlyBudget', data.monthlyBudget);
+                        App.toast('导入成功');
+                    } else {
+                        App.toast('文件格式不正确');
+                    }
+                } catch (err) {
+                    App.toast('导入失败：' + err.message);
+                }
+            };
+            reader.readAsText(file);
+        };
+        input.click();
+    },
+
+    clearAll() {
+        if (!confirm('确定清空所有记账数据？此操作不可恢复！')) return;
+        Storage.set('accountingEntries', []);
+        this.render();
+        App.updateQuickStats();
+        App.toast('记账数据已清空');
+    },
+
+    copyAll() {
+        const entries = this.getEntries().slice().sort((a, b) => new Date(a.date) - new Date(b.date));
+        if (!entries.length) { App.toast('暂无记录'); return; }
+        const lines = entries.map(e => {
+            const cat = this.categories.find(c => c.key === e.category)?.label || '其他';
+            return `${e.date}  ¥${e.amount.toFixed(2)}  ${cat}  ${e.note || ''}`;
+        });
+        copyToClipboard(lines.join('\n'));
     }
 };
 

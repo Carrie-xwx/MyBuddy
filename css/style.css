@@ -1172,6 +1172,119 @@ html, body {
     font-size: 13px;
 }
 
+/* ---------- 记账本模块 ---------- */
+.acc-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 16px;
+}
+.acc-stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.acc-stat-label {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+.acc-stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+.acc-budget-track {
+    height: 12px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 99px;
+    overflow: hidden;
+}
+.acc-budget-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-blue), var(--stock-up));
+    border-radius: 99px;
+    transition: width 0.4s ease;
+}
+.acc-form { display: flex; flex-direction: column; gap: 12px; }
+.acc-form-row { display: flex; gap: 10px; }
+.acc-form-row .input,
+.acc-form-row .select,
+.acc-form-row .date-input { flex: 1; min-width: 0; }
+.acc-category-list { display: flex; flex-direction: column; gap: 10px; }
+.acc-cat-row { display: flex; align-items: center; gap: 10px; font-size: 13px; }
+.acc-cat-label { width: 48px; color: var(--text-secondary); flex-shrink: 0; }
+.acc-cat-bar-wrap { flex: 1; height: 10px; background: rgba(255, 255, 255, 0.06); border-radius: 99px; overflow: hidden; }
+.acc-cat-bar { height: 100%; border-radius: 99px; transition: width 0.4s ease; }
+.acc-cat-value { width: 64px; text-align: right; color: var(--text-primary); font-weight: 600; }
+.acc-recent-list { display: flex; flex-direction: column; gap: 8px; }
+.acc-record {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+.acc-record-icon {
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; font-weight: 700; flex-shrink: 0;
+}
+.acc-record-info { flex: 1; min-width: 0; }
+.acc-record-title { font-size: 13px; color: var(--text-primary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.acc-record-meta { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+.acc-record-amount { font-size: 14px; font-weight: 700; color: var(--stock-down); flex-shrink: 0; }
+.acc-record-actions { display: flex; gap: 6px; flex-shrink: 0; }
+.acc-settings { display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px; }
+.acc-set-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.acc-set-row label { font-size: 13px; color: var(--text-secondary); }
+.acc-set-row .input { width: 140px; flex-shrink: 0; }
+.acc-data-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* 投资推荐：情绪徽章 & 板块操作建议 */
+.sentiment-badge {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 12px;
+    border-radius: 99px;
+    margin-left: 10px;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+.sentiment-badge.strong {
+    background: rgba(72, 168, 120, 0.18);
+    color: var(--stock-up);
+    border-color: rgba(72, 168, 120, 0.35);
+}
+.sentiment-badge.moderate {
+    background: rgba(196, 154, 74, 0.16);
+    color: var(--accent-amber);
+    border-color: rgba(196, 154, 74, 0.35);
+}
+.sentiment-badge.weak-tag {
+    background: rgba(209, 87, 87, 0.16);
+    color: var(--stock-down);
+    border-color: rgba(209, 87, 87, 0.35);
+}
+.sector-recommend {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
 /* ---------- Logo 图标 ---------- */
 .logo-img {
     width: 28px;
@@ -1446,4 +1559,14 @@ html, body {
     .strat-badge { font-size: 10px; padding: 1px 6px; }
     .screening-source { font-size: 10px; }
     .news-link { font-size: 11px; padding: 1px 6px; }
+
+    /* 记账本模块手机适配 */
+    .acc-stats { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .acc-stat-card { padding: 12px 10px; }
+    .acc-stat-value { font-size: 16px; }
+    .acc-form-row { flex-direction: column; }
+    .acc-set-row { flex-direction: column; align-items: stretch; gap: 6px; }
+    .acc-set-row .input { width: 100%; }
+    .acc-record { flex-wrap: wrap; }
+    .acc-record-actions { width: 100%; justify-content: flex-end; margin-top: 4px; }
 }

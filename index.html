@@ -80,12 +80,18 @@
                     <span class="nav-label">自媒体创作</span>
                     <span class="nav-sub">高变现赛道</span>
                 </button>
+                <button class="nav-item" data-module="accounting">
+                    <span class="nav-icon">📒</span>
+                    <span class="nav-label">记账本</span>
+                    <span class="nav-sub">收支管理</span>
+                </button>
                 <div class="sidebar-footer">
                     <div class="quick-stats" id="quickStats">
                         <div class="stat-item"><span id="statStock">0</span><small>自选股</small></div>
                         <div class="stat-item"><span id="statStudy">0h</span><small>今日学习</small></div>
                         <div class="stat-item"><span id="statTasks">0/0</span><small>今日任务</small></div>
                         <div class="stat-item"><span id="statTopics">0</span><small>选题库</small></div>
+                        <div class="stat-item"><span id="statAccounting">¥0</span><small>今日支出</small></div>
                     </div>
                 </div>
             </nav>
@@ -118,15 +124,6 @@
                     <!-- 市场概览 -->
                     <div class="sub-panel active" id="sub-market-overview">
                         <div class="index-grid" id="indexGrid"></div>
-                        <div class="card">
-                            <div class="card-header">
-                                <h3>上证指数 K线图 (120日)</h3>
-                                <button class="btn-sm btn-ghost" onclick="StockModule.renderKLineChart()">刷新K线</button>
-                            </div>
-                            <div class="card-body">
-                                <div id="klineChart" style="width:100%;min-height:320px"></div>
-                            </div>
-                        </div>
                         <div class="card">
                             <div class="card-header">
                                 <h3>今日市场数据录入</h3>
@@ -550,6 +547,122 @@
                             </div>
                             <div class="card-body">
                                 <div class="library-list" id="libraryList"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===================== 模块5: 记账本 ===================== -->
+                <section class="module-view" id="module-accounting">
+                    <div class="module-header">
+                        <h2>记账本 · 打工人小账本</h2>
+                        <div class="module-actions">
+                            <button class="btn-sm btn-outline" onclick="AccountingModule.copyAll()">复制全部</button>
+                        </div>
+                    </div>
+
+                    <!-- 统计卡片 -->
+                    <div class="acc-stats">
+                        <div class="acc-stat-card">
+                            <span class="acc-stat-label">今日支出</span>
+                            <span class="acc-stat-value" id="accTodayExpense">¥0.00</span>
+                        </div>
+                        <div class="acc-stat-card">
+                            <span class="acc-stat-label">本月支出</span>
+                            <span class="acc-stat-value" id="accMonthExpense">¥0.00</span>
+                        </div>
+                        <div class="acc-stat-card">
+                            <span class="acc-stat-label">本月等效工时</span>
+                            <span class="acc-stat-value" id="accWorkHours">0 小时</span>
+                        </div>
+                    </div>
+
+                    <!-- 预算进度 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>本月预算进度</h3>
+                            <span class="card-actions"><span id="accBudgetText" class="screening-date">¥0 / ¥3000</span></span>
+                        </div>
+                        <div class="card-body">
+                            <div class="acc-budget-track">
+                                <div class="acc-budget-fill" id="accBudgetBar" style="width:0%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 快速记账 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>快速记账</h3>
+                            <div class="card-actions">
+                                <button class="btn-sm btn-ghost" id="accSaveBtn" onclick="AccountingModule.addEntry()">保存支出</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="acc-form">
+                                <div class="acc-form-row">
+                                    <input type="number" id="accAmount" class="input" placeholder="金额 (¥)" step="0.01" min="0" inputmode="decimal">
+                                    <select id="accCategory" class="select">
+                                        <option value="food">吃饭</option>
+                                        <option value="transport">交通</option>
+                                        <option value="shopping">购物</option>
+                                        <option value="entertainment">娱乐</option>
+                                        <option value="study">学习</option>
+                                        <option value="housing">住房</option>
+                                        <option value="medical">医疗</option>
+                                        <option value="other">其他</option>
+                                    </select>
+                                </div>
+                                <div class="acc-form-row">
+                                    <input type="text" id="accNote" class="input" placeholder="备注（可选）">
+                                    <input type="date" id="accDate" class="date-input">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 分类支出 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>本月分类支出</h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="accCategoryList" class="acc-category-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- 最近记录 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>最近记录</h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="accRecentList" class="acc-recent-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- 设置与数据 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>设置 & 数据</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="acc-settings">
+                                <div class="acc-set-row">
+                                    <label>时薪 (¥/小时)</label>
+                                    <input type="number" id="accHourlyWage" class="input" value="50" step="1" min="0">
+                                </div>
+                                <div class="acc-set-row">
+                                    <label>本月预算 (¥)</label>
+                                    <input type="number" id="accMonthlyBudget" class="input" value="3000" step="100" min="0">
+                                </div>
+                                <button class="btn-sm btn-ghost" onclick="AccountingModule.updateSettings()">保存设置</button>
+                            </div>
+                            <div class="acc-data-actions">
+                                <button class="btn-sm btn-outline" onclick="AccountingModule.exportJSON()">导出JSON</button>
+                                <button class="btn-sm btn-outline" onclick="AccountingModule.exportCSV()">导出CSV</button>
+                                <button class="btn-sm btn-outline" onclick="AccountingModule.importJSON()">导入恢复</button>
+                                <button class="btn-sm btn-danger" onclick="AccountingModule.clearAll()">清空数据</button>
                             </div>
                         </div>
                     </div>

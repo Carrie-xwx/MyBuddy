@@ -1,5 +1,5 @@
 // MyBuddy Service Worker - Offline Cache Support
-const CACHE_NAME = 'mybuddy-v8';
+const CACHE_NAME = 'mybuddy-v9';
 const ASSETS = [
     './',
     './index.html',

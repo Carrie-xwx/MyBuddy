@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3946.68", change: "+0.32%", market: "A股", updateTime: "2026-08-12 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14414.43", change: "+1.09%", market: "A股", updateTime: "2026-08-12 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3602.08", change: "+1.49%", market: "A股", updateTime: "2026-08-12 实时" },
-        { name: "沪深300", code: "SH000300", value: "4690.92", change: "+0.58%", market: "A股", updateTime: "2026-08-12 实时" },
-        { name: "科创50", code: "SH000688", value: "1736.99", change: "+1.61%", market: "A股", updateTime: "2026-08-12 实时" },
-        { name: "标普500", code: "SPX", value: "7,741.21", change: "+0.23%", market: "美股", updateTime: "2026-08-12 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,558.47", change: "+0.74%", market: "美股", updateTime: "2026-08-12 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,794.10", change: "-1.02%", market: "美股", updateTime: "2026-08-12 收盘" },
+                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3957.96", change: "+0.29%", market: "A股", updateTime: "2026-08-13 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14478.05", change: "+0.44%", market: "A股", updateTime: "2026-08-13 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3641.70", change: "+1.10%", market: "A股", updateTime: "2026-08-13 实时" },
+        { name: "沪深300", code: "SH000300", value: "4706.75", change: "+0.34%", market: "A股", updateTime: "2026-08-13 实时" },
+        { name: "科创50", code: "SH000688", value: "1755.99", change: "+1.09%", market: "A股", updateTime: "2026-08-13 实时" },
+        { name: "标普500", code: "SPX", value: "7,748.50", change: "+0.32%", market: "美股", updateTime: "2026-08-13 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,588.49", change: "+0.85%", market: "美股", updateTime: "2026-08-13 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,770.27", change: "-1.07%", market: "美股", updateTime: "2026-08-13 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                marketNews: [
+                                                                                                                                    marketNews: [
         {
-            title: "谷歌发布新款Pixel 11智能手机系列",
-            summary: " Alphabet周三发布了新款Pixel11智能手机系列，将其迄今为止最具代理性的Gemini版本置于设备核心位置，而此时距离苹果预计推出由谷歌AI模型驱动、经过重构的Siri仅剩数周。",
-            source: "环球市场播报",
-            date: "2026-08-12",
+            title: "正信期货黄益：反弹驱动有限，纯碱基本面压力未改",
+            summary: "摘要 近期纯碱反弹主要是供给扰动、成本底部、资金行为共振。但供需宽松大格局未扭转，高成本产能出清缓慢，供应高位；下游主要行业压力延续...",
+            source: "市场资讯",
+            date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarqz6663549.shtml"
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-13/doc-inincxku3364026.shtml"
         },
         {
-            title: "特朗普因Truth Social提前访问权交易被起诉",
-            summary: "美国总统特朗普周三因出售其Truth Social帖子提前通知的争议性交易而被起诉。 该诉讼在曼哈顿的美国地方法院提起，指出特朗普在他自己的社交媒体网站上的帖子经常影响金融...",
+            title: "韩国总统李在明称房地产泡沫已不容忽视",
+            summary: " 韩国总统李在明周四在与幕僚的一次会议上表示，房地产是韩国面临的一个重要问题，深刻影响着社会的方方面面，而房地产泡沫已经达到不容忽视的程度。",
             source: "环球市场播报",
-            date: "2026-08-12",
+            date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarre5125808.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inincxkw0135334.shtml"
         },
         {
-            title: "暗流汹涌的夏日行情持续，多头一边看多一边买入大跌保险",
-            summary: "股市正经历躁动的夏日行情，表面却不易察觉：标普 500 指数再度刷新历史新高，芝加哥期权交易所 VIX 恐慌指数逼近年内低点。小盘股相对大盘股的波动幅度...",
-            source: "环球市场播报",
-            date: "2026-08-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarqz6660516.shtml"
+            title: "韩国央行豪掷2.5亿美元买入黄金ETF，这只是“热身”？",
+            summary: "文章来源：金十数据 韩国央行时隔13年首次买入黄金相关资产，加入了全球储备管理机构将贵金属作为地缘政治和经济不确定性对冲工具的行列。",
+            source: "市场资讯",
+            date: "2026-08-13",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-13/doc-inincxkw0132615.shtml"
         },
         {
-            title: "日食拉动欧洲酒店房价飙升，部分地区一晚超 1000 美元",
-            summary: "核心要点 欧洲罕见日全食带途经区域，酒店与短租民宿价格暴涨。 冰岛雷克雅未克 7 月中旬酒店房价达到每晚 1012 美元，较 2025 年同期翻番。",
-            source: "环球市场播报",
-            date: "2026-08-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarri3851756.shtml"
+            title: "花旗：银河娱乐维持“买入”评级 目标价44港元",
+            summary: "花旗发布研报称，银河娱乐（00027）今年第二季净收益同比跌2%至118.35亿港元，经调整EBITDA同比跌5%至33.8亿港元，大致符合该行及市场预期。",
+            source: "新浪港股",
+            date: "2026-08-13",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-13/doc-inincxkq4785886.shtml"
         },
         {
-            title: "家得宝CEO临时休医疗假，两名高管共同代管公司",
-            summary: "核心要点 家得宝首席执行官泰德・德克将临时休医疗假，预计为期数月。 休假期间，美国门店及运营负责人、首席财务官两名高管共同承担 CEO 相关职责。",
-            source: "环球市场播报",
-            date: "2026-08-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarrc3431106.shtml"
+            title: "小摩：海丰国际首予“增持”评级 目标价47港元",
+            summary: "摩根大通发布研报称，首次给予海丰国际（01308）“增持”评级，看好该公司在亚洲区内有高密度且稳健布局，多元化客户基础覆盖大中华、日本、韩国及东南亚市场...",
+            source: "新浪港股",
+            date: "2026-08-13",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-13/doc-inincxkq4785338.shtml"
         },
         {
-            title: "鲍勃·艾格与约书亚·库什纳以125亿美元估值收购洛杉矶湖人队",
-            summary: "洛杉矶湖人队——再次易主。 根据一份声明，在购入NBA湖人队控股股权不到一年后，马克·沃尔特已将其多数股权出售给约书亚·库什纳和鲍勃·艾格。",
-            source: "环球市场播报",
-            date: "2026-08-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarrc3430645.shtml"
+            title: "瑞银：电能实业给予“买入”评级 目标价升至73港元",
+            summary: "瑞银发布研报称，电能实业（00006）上半年业绩大致符合预期，中期股息维持每股78港仙不变，并无派发特别股息。按该行估算，扣除英国电力网络及英国铁路出售收益及其他一次...",
+            source: "新浪港股",
+            date: "2026-08-13",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-13/doc-inincxkq4783994.shtml"
         },
         {
-            title: "管理2.3万亿美元主权基金首席执行官警示，上半年丰厚回报难以持续",
-            summary: "核心要点 挪威主权财富基金运营机构挪威银行投资管理公司（NBIM）首席执行官向股市投资者发出预警：艰难时期即将到来。 挪威石油基金持有全球约 1.5% 的上市公司股份。",
-            source: "环球市场播报",
-            date: "2026-08-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarre5121818.shtml"
+            title: "粤港湾智算午后上涨4% 公司在手订单总规模突破300亿元",
+            summary: "粤港湾智算（01396）盘中最高涨超9%，截至午后发稿，股价上涨4%，现报11.43港元，成交额6644.27万港元。 隔夜美股AI云厂商龙头CoreWeave绩后大涨逾19%...",
+            source: "新浪港股",
+            date: "2026-08-13",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-13/doc-inincxkq4782702.shtml"
         },
         {
-            title: "Meta与英伟达在开源权重AI赛道竖起鲜明旗帜，该赛道当前由中国AI实验室领跑",
-            summary: "核心要点 Meta 与英伟达本周发布开源权重 AI 模型，这是美国科技企业追赶头部中国 AI 实验室竞争布局的一环。 二十余家美国科技企业近期联名呼吁政策制定者...",
+            title: "77岁桥水创始人达力欧夜店狂欢庆生 引发网友关注",
+            summary: "全球最大对冲基金桥水创始人瑞·达力欧近日迎来自己77岁生日，并选择一种独特的方式进行庆祝，引发网友关注。 当地时间8月10日，达力欧在社交平台X上发布了一段他两天前在一...",
             source: "环球市场播报",
-            date: "2026-08-12",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-12/doc-ininarrc3428935.shtml"
+            date: "2026-08-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inincxku3349861.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                investmentSummary: {
-        date: "2026-08-12",
-        marketAssessment: "A股方面：上证指数报3946.68点（+0.32%），深证成指报14414.43点（+1.09%），创业板指报3602.08点（+1.49%）。美股方面：标普500报7,741.21（+0.23%），纳斯达克报26,558.47（+0.74%）。",
+                                                                                                                                    investmentSummary: {
+        date: "2026-08-13",
+        marketAssessment: "A股方面：上证指数报3957.96点（+0.29%），深证成指报14478.05点（+0.44%），创业板指报3641.70点（+1.10%）。美股方面：标普500报7,748.50（+0.32%），纳斯达克报26,588.49（+0.85%）。",
         hotSectors: [
-            { name: "通信线缆及配套", reason: "板块涨幅+6.05%", strength: "强" },
-            { name: "其他数字媒体", reason: "板块涨幅+6.01%", strength: "强" },
-            { name: "会展服务", reason: "板块涨幅+5.00%", strength: "强" },
-            { name: "房产租赁经纪", reason: "板块涨幅+4.11%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "油气及炼化工程", reason: "板块跌幅-2.04%", strength: "弱" },
-            { name: "油服工程", reason: "板块跌幅-1.98%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注通信线缆及配套、其他数字媒体、会展服务等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

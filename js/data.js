@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                            marketIndices: [
+                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3926.96", change: "-0.50%", market: "A股", updateTime: "2026-08-13 实时" },
         { name: "深证成指", code: "SZ399001", value: "14289.44", change: "-0.87%", market: "A股", updateTime: "2026-08-13 实时" },
         { name: "创业板指", code: "SZ399006", value: "3586.04", change: "-0.45%", market: "A股", updateTime: "2026-08-13 实时" },
         { name: "沪深300", code: "SH000300", value: "4663.95", change: "-0.57%", market: "A股", updateTime: "2026-08-13 实时" },
         { name: "科创50", code: "SH000688", value: "1717.75", change: "-1.11%", market: "A股", updateTime: "2026-08-13 实时" },
-        { name: "标普500", code: "SPX", value: "7,748.50", change: "+0.32%", market: "美股", updateTime: "2026-08-13 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,588.49", change: "+0.85%", market: "美股", updateTime: "2026-08-13 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,770.27", change: "-1.07%", market: "美股", updateTime: "2026-08-13 收盘" },
+        { name: "标普500", code: "SPX", value: "7,785.44", change: "+0.98%", market: "美股", updateTime: "2026-08-13 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,763.67", change: "+1.58%", market: "美股", updateTime: "2026-08-13 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,688.61", change: "-0.36%", market: "美股", updateTime: "2026-08-13 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                            marketNews: [
+                                                                                                                                                marketNews: [
         {
-            title: "宇树科技遭弃购8734股！中一签盈利或超20万元",
-            summary: "8月13日晚间，宇树科技公告，网上投资者缴款认购的股份数量9，698，266股，网上投资者放弃认购数量8，734股；网下投资者缴款认购的股份数量22，650，148股...",
-            source: "21世纪经济报道",
+            title: "AMD拟发行投资级债券 筹资最高50亿美元",
+            summary: "AMD计划通过发行可能创公司历史最大规模的投资级债券，筹集最高50亿美元资金，加入人工智能热潮带动的企业发债行列。 据知情人士透露，此次发债的最终规模尚未确定...",
+            source: "环球市场播报",
             date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-13/doc-inineqhm3359937.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-13/doc-inineywf3227189.shtml"
         },
         {
-            title: "东方时尚因信披违规受到处罚，受损投资者可依法索赔",
-            summary: "东方时尚及时任实控人等责任人于2026年5月21日收到北京证监局《行政处罚决定书》。 经调查，其违规事实主要集中在财务数据造假上...",
-            source: "市场资讯",
+            title: "高盛副董事长称美联储7月未加息绝对正确 或可“拖一拖”观察更多信号",
+            summary: "高盛集团副董事长、前达拉斯联储银行行长Robert Kaplan表示，美联储7月没有加息“绝对”是正确的决定，并呼吁决策者在9月前保持开放态度。",
+            source: "环球市场播报",
             date: "2026-08-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhn3170637.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/world/2026-08-13/doc-inineywi9802173.shtml"
         },
         {
-            title: "广誉远维权时效将在年底到期，受损投资者应抓紧维权索赔",
-            summary: "2024年4月10日，广誉远及相关当事人收到山西证监局下发的《行政处罚决定书》，主要因其连续多年存在财务造假行为。  上海沪紫律师事务所刘鹏律师提示...",
-            source: "市场资讯",
+            title: "惠誉：美国私募信贷违约率7月升至纪录新高",
+            summary: "惠誉评级周四发布报告称，其追踪的1300家美国私募信贷借款人的违约率在7月升至纪录新高。 惠誉自2024年8月开始追踪该数据，按过去12个月滚动计算...",
+            source: "环球市场播报",
             date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhm3353515.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-13/doc-inineywa4494655.shtml"
         },
         {
-            title: "浩丰科技维权索赔仍可参与，剩余时效仅剩最后半年",
-            summary: "2024年11月6日，浩丰科技发布公告称，公司收到北京证监局下发的《行政处罚决定书》。随着处罚结果正式落地，涉及该公司信息披露违法违规事项的投资者索赔工作也进入新阶段...",
-            source: "市场资讯",
+            title: "油价下跌且通胀接连报喜 交易员不再充分消化美联储年内加息的情景",
+            summary: "随着油价回落强化市场对通胀前景的乐观情绪，债券交易员已不再完全消化美联储今年会加息的情景。 美国国债随之上涨，各期限收益率最多下跌9个基点。",
+            source: "环球市场播报",
             date: "2026-08-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhp9940649.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/world/2026-08-13/doc-inineywi9797601.shtml"
         },
         {
-            title: "上海易连退市不退责，受损投资者仍可维权",
-            summary: " 2025年1月8日，上海易连披露公司收到中国证监会上海监管局出具的《行政处罚决定书》，这意味着公司此前涉及的信息披露违法违规事项已经出具监管处理结果。",
-            source: "市场资讯",
+            title: "香港IPO升温催热人才争夺 花旗资深银行家Schrantz将重返高盛",
+            summary: " 据知情人士透露，花旗集团资深银行家Alexander Schrantz将跳槽至高盛。这是继花旗亚洲投行业务主管今年早些时候离职后，其香港团队又一名高管离职。",
+            source: "环球市场播报",
             date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhn3165851.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-13/doc-inineuqe4620283.shtml"
         },
         {
-            title: "欢瑞世纪索赔持续征集中，符合条件仍可加入",
-            summary: "上海沪紫律师事务所刘鹏律师团队截止目前已收到数千位投资者的索赔报名，符合要求还可加入。暂定符合于2026年4月22日（含当日）之前买入...",
-            source: "市场资讯",
+            title: "美联储的哈马克称三个领域可能影响金融稳定 包括美债市场的高杠杆",
+            summary: " 美国克利夫兰联储银行行长贝丝·哈马克表示，她目前重点关注三个可能影响美国金融稳定的领域，包括美国国债市场的杠杆水平。",
+            source: "环球市场播报",
             date: "2026-08-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhp9937262.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/world/2026-08-13/doc-inineuqk3151991.shtml"
         },
         {
-            title: "卓然股份退市风险高悬，索赔刻不容缓",
-            summary: "自2026年7月被实施退市风险警示以来，科创板公司*ST卓然（688121）的命运走到了关键的十字路口。随着监管调查的深入，该公司不仅面临规范类强制退市风险...",
-            source: "市场资讯",
+            title: "美国7月批发物价并未加速上行，但通胀压力依旧居高不下",
+            summary: "美国劳工部周四公布数据：7 月批发物价较 6 月有所回落，但整体通胀水平高于市场预期。 核心结论：周三公布的数据显示居民端通胀有所缓和...",
+            source: "环球市场播报",
             date: "2026-08-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhp9935005.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inineuqk3151441.shtml"
         },
         {
-            title: "柳化股份业绩大幅增长，索赔还可进行登记",
-            summary: "8月10日，*ST柳化召开2026年半年度业绩说明会，财报显示，报告期内，*ST柳化实现营业收入7668.05万元，同比增长12.81%；实现归属于上市公司股东的净利润1418.36万元...",
-            source: "市场资讯",
+            title: "金价想要开启新一轮上涨行情，必须先攻克这道关键阻力",
+            summary: "黄金持续一个月的上涨行情，让这一贵金属来到关键节点；技术派交易者与期待金价大幅突破的多头正密切观望。 周三金价在重要心理关口 ——200 日均线位置遇阻回落。",
+            source: "环球市场播报",
             date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineqhp9933940.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inineuqi3345765.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                            investmentSummary: {
+                                                                                                                                                investmentSummary: {
         date: "2026-08-13",
-        marketAssessment: "A股方面：上证指数报3926.96点（-0.50%），深证成指报14289.44点（-0.87%），创业板指报3586.04点（-0.45%）。美股方面：标普500报7,748.50（+0.32%），纳斯达克报26,588.49（+0.85%）。",
+        marketAssessment: "A股方面：上证指数报3926.96点（-0.50%），深证成指报14289.44点（-0.87%），创业板指报3586.04点（-0.45%）。美股方面：标普500报7,785.44（+0.98%），纳斯达克报26,763.67（+1.58%）。",
         hotSectors: [
             { name: "诊断服务", reason: "板块涨幅+5.66%", strength: "强" },
             { name: "医疗研发外包", reason: "板块涨幅+5.39%", strength: "强" },

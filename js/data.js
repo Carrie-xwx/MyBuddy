@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3957.96", change: "+0.29%", market: "A股", updateTime: "2026-08-13 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14478.05", change: "+0.44%", market: "A股", updateTime: "2026-08-13 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3641.70", change: "+1.10%", market: "A股", updateTime: "2026-08-13 实时" },
-        { name: "沪深300", code: "SH000300", value: "4706.75", change: "+0.34%", market: "A股", updateTime: "2026-08-13 实时" },
-        { name: "科创50", code: "SH000688", value: "1755.99", change: "+1.09%", market: "A股", updateTime: "2026-08-13 实时" },
+                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3926.96", change: "-0.50%", market: "A股", updateTime: "2026-08-13 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14289.44", change: "-0.87%", market: "A股", updateTime: "2026-08-13 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3586.04", change: "-0.45%", market: "A股", updateTime: "2026-08-13 实时" },
+        { name: "沪深300", code: "SH000300", value: "4663.95", change: "-0.57%", market: "A股", updateTime: "2026-08-13 实时" },
+        { name: "科创50", code: "SH000688", value: "1717.75", change: "-1.11%", market: "A股", updateTime: "2026-08-13 实时" },
         { name: "标普500", code: "SPX", value: "7,748.50", change: "+0.32%", market: "美股", updateTime: "2026-08-13 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,588.49", change: "+0.85%", market: "美股", updateTime: "2026-08-13 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,770.27", change: "-1.07%", market: "美股", updateTime: "2026-08-13 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                    marketNews: [
+                                                                                                                                        marketNews: [
         {
-            title: "正信期货黄益：反弹驱动有限，纯碱基本面压力未改",
-            summary: "摘要 近期纯碱反弹主要是供给扰动、成本底部、资金行为共振。但供需宽松大格局未扭转，高成本产能出清缓慢，供应高位；下游主要行业压力延续...",
+            title: "思美传媒索赔时效剩三个月  此前已有股民二审胜诉",
+            summary: "近日，投资者诉思美传媒股份有限公司（证券简称：思美传媒，证券代码：002712）证券虚假陈述案持续推进中。 曾代理投资者告赢130余家上市公司并获赔的浙江裕丰律师事务所厉...",
             source: "市场资讯",
             date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-13/doc-inincxku3364026.shtml"
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-13/doc-inineiyq3221100.shtml"
         },
         {
-            title: "韩国总统李在明称房地产泡沫已不容忽视",
-            summary: " 韩国总统李在明周四在与幕僚的一次会议上表示，房地产是韩国面临的一个重要问题，深刻影响着社会的方方面面，而房地产泡沫已经达到不容忽视的程度。",
+            title: "据报Flipkart创始人旗下Navi聘请投行推进3.15亿美元IPO",
+            summary: "知情人士透露，金融科技初创企业Navi有限公司准备正式启动印度IPO，拟最高募资300亿卢比（折合3.14亿美元）。 知情人士表示，这家由Flipkart联合创始人萨钦·班萨尔创立的企...",
             source: "环球市场播报",
             date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inincxkw0135334.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inineiyp3391294.shtml"
         },
         {
-            title: "韩国央行豪掷2.5亿美元买入黄金ETF，这只是“热身”？",
-            summary: "文章来源：金十数据 韩国央行时隔13年首次买入黄金相关资产，加入了全球储备管理机构将贵金属作为地缘政治和经济不确定性对冲工具的行列。",
-            source: "市场资讯",
+            title: "日本政府据悉支持央行加快加息步伐 9月紧缩政策的几率为74%",
+            summary: "知情人士透露，首相高市早苗的政府支持日本央行在近期内加息，下一步加息的时间可能在9月或10月。 知情人士补充说，央行担心日元疲软会推高物价...",
+            source: "环球市场播报",
             date: "2026-08-13",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-13/doc-inincxkw0132615.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-13/doc-inineiyk4663423.shtml"
         },
         {
-            title: "花旗：银河娱乐维持“买入”评级 目标价44港元",
-            summary: "花旗发布研报称，银河娱乐（00027）今年第二季净收益同比跌2%至118.35亿港元，经调整EBITDA同比跌5%至33.8亿港元，大致符合该行及市场预期。",
-            source: "新浪港股",
+            title: "这家中国企业关键 NAND 闪存芯片出货量超越美光与铠侠",
+            summary: "核心要点 人工智能普及推高存储芯片需求，在 NAND 闪存赛道，一家中国企业跻身全球第三。 在规模更大的 DRAM 内存芯片市场，长江存储位列全球第四。",
+            source: "环球市场播报",
             date: "2026-08-13",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-13/doc-inincxkq4785886.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inineiyr9989007.shtml"
         },
         {
-            title: "小摩：海丰国际首予“增持”评级 目标价47港元",
-            summary: "摩根大通发布研报称，首次给予海丰国际（01308）“增持”评级，看好该公司在亚洲区内有高密度且稳健布局，多元化客户基础覆盖大中华、日本、韩国及东南亚市场...",
-            source: "新浪港股",
-            date: "2026-08-13",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-13/doc-inincxkq4785338.shtml"
-        },
-        {
-            title: "瑞银：电能实业给予“买入”评级 目标价升至73港元",
-            summary: "瑞银发布研报称，电能实业（00006）上半年业绩大致符合预期，中期股息维持每股78港仙不变，并无派发特别股息。按该行估算，扣除英国电力网络及英国铁路出售收益及其他一次...",
-            source: "新浪港股",
-            date: "2026-08-13",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-13/doc-inincxkq4783994.shtml"
-        },
-        {
-            title: "粤港湾智算午后上涨4% 公司在手订单总规模突破300亿元",
-            summary: "粤港湾智算（01396）盘中最高涨超9%，截至午后发稿，股价上涨4%，现报11.43港元，成交额6644.27万港元。 隔夜美股AI云厂商龙头CoreWeave绩后大涨逾19%...",
-            source: "新浪港股",
-            date: "2026-08-13",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-13/doc-inincxkq4782702.shtml"
-        },
-        {
-            title: "77岁桥水创始人达力欧夜店狂欢庆生 引发网友关注",
-            summary: "全球最大对冲基金桥水创始人瑞·达力欧近日迎来自己77岁生日，并选择一种独特的方式进行庆祝，引发网友关注。 当地时间8月10日，达力欧在社交平台X上发布了一段他两天前在一...",
+            title: "中东问题专家警示：特朗普单纯依靠封锁制裁难以打破当前美伊对峙困局",
+            summary: "特朗普政府谋求结束伊朗战争的数次尝试均遭遇挫折。 美军有限规模的空袭行动未能扭转局势，特朗普扬言要将伊朗“从地球上抹去”的威胁同样收效甚微。",
             source: "环球市场播报",
             date: "2026-08-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inincxku3349861.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inineiyq3216379.shtml"
+        },
+        {
+            title: "黄金、白银，快速跳水",
+            summary: "文章来源：中国基金报 中国基金报记者 李智 8月13日，现货黄金冲高回落，盘中快速跳水，跌破4400美元/盎司，日内跌0.74%，最新报4375.38美元/盎司。",
+            source: "滚动播报",
+            date: "2026-08-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-13/doc-inineiyr9987292.shtml"
+        },
+        {
+            title: "【点评报告|棉花】2026年8月USDA棉花供需报告解读",
+            summary: "国投期货研究院 棉花：报告中性偏多，美棉产量微调 2025/26年度供需数据调整情况：  美国农业部8月供需报告，26/27年全球棉花产量环比上月小幅上调，全球产量上调8.2万吨...",
+            source: "市场资讯",
+            date: "2026-08-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-08-13/doc-inineiyp3389405.shtml"
+        },
+        {
+            title: "【点评报告|玉米】2026年8月USDA农产品供需报告解读",
+            summary: "国投期货研究院 面积增单产减期末库存下降，美玉米偏强运行 北京时间8月13日凌晨，美国农业部发布8月农产品供需报告，玉米方面整体偏利多。",
+            source: "市场资讯",
+            date: "2026-08-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-08-13/doc-inineiyk4661744.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                    investmentSummary: {
+                                                                                                                                        investmentSummary: {
         date: "2026-08-13",
-        marketAssessment: "A股方面：上证指数报3957.96点（+0.29%），深证成指报14478.05点（+0.44%），创业板指报3641.70点（+1.10%）。美股方面：标普500报7,748.50（+0.32%），纳斯达克报26,588.49（+0.85%）。",
+        marketAssessment: "A股方面：上证指数报3926.96点（-0.50%），深证成指报14289.44点（-0.87%），创业板指报3586.04点（-0.45%）。美股方面：标普500报7,748.50（+0.32%），纳斯达克报26,588.49（+0.85%）。",
         hotSectors: [
-
+            { name: "诊断服务", reason: "板块涨幅+5.66%", strength: "强" },
+            { name: "医疗研发外包", reason: "板块涨幅+5.39%", strength: "强" },
+            { name: "医疗服务", reason: "板块涨幅+3.90%", strength: "强" },
+            { name: "其他数字媒体", reason: "板块涨幅+3.81%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "白银", reason: "板块跌幅-6.44%", strength: "弱" },
+            { name: "贵金属", reason: "板块跌幅-5.50%", strength: "弱" },
         ],
-        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
+        shortTermStrategy: "超短线关注诊断服务、医疗研发外包、医疗服务等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

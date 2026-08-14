@@ -17,7 +17,8 @@ from datetime import datetime
 
 import pandas as pd
 
-from data import get_a_daily, get_us_daily, get_index_daily, get_a_universe, get_us_universe
+from data import (get_a_daily, get_us_daily, get_index_daily,
+               get_a_universe, get_us_universe, get_hs300_constituents)
 from strategy import build_factor_panel, generate_weights, compute_market_regime
 from backtest import run_backtest
 from metrics import compute_metrics, plot_nav_curves
@@ -53,23 +54,45 @@ US_SAMPLE = ["AAPL", "MSFT", "NVDA", "TSLA", "AMZN", "GOOG", "META",
 STOP_LOSS = -0.10   # 个股浮亏 10% 止损
 
 
-def run(market="A", top_n=10, start="20210101", end=None, stop_loss=STOP_LOSS):
+def run(market="A", top_n=10, start="20210101", end=None, stop_loss=STOP_LOSS,
+        universe="sample", out_name="quant_output.json"):
     if end is None:
         end = datetime.now().strftime("%Y%m%d")
-    symbols = A_SAMPLE if market == "A" else US_SAMPLE
+    if market == "A":
+        if universe == "hs300":
+            print("[0/5] 获取沪深300成分股 ...")
+            constituents = get_hs300_constituents()
+            symbols = [c[0] for c in constituents]
+            universe_label = f"沪深300({len(symbols)}只)"
+            print(f"  沪深300 成分股 {len(symbols)} 只")
+        else:
+            symbols = A_SAMPLE
+            universe_label = f"龙头样本({len(symbols)}只)"
+    else:
+        symbols = US_SAMPLE
+        universe_label = f"美股样本({len(symbols)}只)"
     idx_code = "000300" if market == "A" else "SP500"
 
     print(f"[1/5] 拉取 {market} 市场 {len(symbols)} 只标的历史数据 ...")
+    import time as _t
     prices = {}
     for i, s in enumerate(symbols):
-        try:
-            df = get_a_daily(s, start, end) if market == "A" else get_us_daily(s, start, end)
-            if len(df) > 60:
-                prices[s] = df
-        except Exception as e:  # noqa
-            print(f"  skip {s}: {e}")
-        if (i + 1) % 5 == 0:
-            print(f"  已处理 {i + 1}/{len(symbols)}")
+        df = None
+        for attempt in range(2):
+            try:
+                df = get_a_daily(s, start, end) if market == "A" else get_us_daily(s, start, end)
+                break
+            except Exception as e:  # noqa
+                if attempt == 0:
+                    print(f"  retry {s}: {e}")
+                    _t.sleep(4)
+                else:
+                    print(f"  skip {s}: {e}")
+        if df is not None and len(df) > 60:
+            prices[s] = df
+        _t.sleep(0.4)  # 节流，避免触发源站限流
+        if (i + 1) % 20 == 0:
+            print(f"  已处理 {i + 1}/{len(symbols)}，成功 {len(prices)} 只")
     print(f"  成功载入 {len(prices)} 只")
 
     print("[2/5] 计算因子 ...")
@@ -130,6 +153,7 @@ def run(market="A", top_n=10, start="20210101", end=None, stop_loss=STOP_LOSS):
         "market": market,
         "strategy": strat_desc,
         "version": "v2",
+        "universe": universe_label,
         "universe_size": len(prices),
         "stop_loss": stop_loss,
         "metrics": metrics,
@@ -143,13 +167,14 @@ def run(market="A", top_n=10, start="20210101", end=None, stop_loss=STOP_LOSS):
         "disclaimer": "历史回测不代表未来收益，仅供参考学习，不构成投资建议。",
     }
 
-    out_json = os.path.join(OUT_DIR, "quant_output.json")
+    out_json = os.path.join(OUT_DIR, out_name)
     with open(out_json, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"  已写出 {out_json}")
 
-    _write_report(output, os.path.join(OUT_DIR, "report.html"))
-    print("  已写出 report.html")
+    report_base = out_name.replace(".json", "") if out_name.endswith(".json") else out_name
+    _write_report(output, os.path.join(OUT_DIR, f"report_{report_base}.html"))
+    print(f"  已写出 report_{report_base}.html")
 
     print("\n===== 回测结果摘要 (v2) =====")
     for k, v in metrics.items():
@@ -184,6 +209,7 @@ img{{max-width:100%;background:#1e1e30;border-radius:12px;padding:8px}}
 <p><span class="tag">市场 {output['market']}</span><span class="tag">版本 {output.get('version','v2')}</span><span class="tag">止损 {int(output.get('stop_loss',-0.1)*100)}%</span></p>
 <p>策略：{output['strategy']}</p>
 <p>股票池：{output['universe_size']} 只 ｜ 调仓次数：{output['rebalance_count']} ｜ 交易笔数：{output['trades_count']}</p>
+<p>股票池范围：{output.get('universe','-')}</p>
 <p>最新市场状态：{pos_state} ｜ 最近调仓日：{output.get('last_rebalance_date','-')}</p>
 <p>生成时间：{output['generated_at']}</p></div>
 <div class="card"><h2>绩效指标</h2><table>{rows}</table></div>
@@ -200,5 +226,10 @@ if __name__ == "__main__":
     ap.add_argument("--top-n", type=int, default=10)
     ap.add_argument("--start", default="20210101")
     ap.add_argument("--end", default=None)
+    ap.add_argument("--universe", choices=["sample", "hs300"], default="sample",
+                    help="sample=龙头样本(默认) / hs300=沪深300全成分")
+    ap.add_argument("--out", default="quant_output.json",
+                    help="输出 JSON 文件名（默认 quant_output.json，生产版）")
     args = ap.parse_args()
-    run(market=args.market, top_n=args.top_n, start=args.start, end=args.end)
+    run(market=args.market, top_n=args.top_n, start=args.start, end=args.end,
+        universe=args.universe, out_name=args.out)

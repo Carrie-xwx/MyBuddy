@@ -316,7 +316,7 @@ const StockModule = {
 
     // 首次加载预填充真实数据
     // 数据版本号 — 每次内容库重大更新时递增，强制刷新本地存储
-    DATA_VERSION: '2026-08-14',
+    DATA_VERSION: '2026-08-13',
 
     prepopulateData() {
         const currentVersion = Storage.get('dataVersion', null);
@@ -2617,7 +2617,7 @@ const QuantModule = {
 
         // 元信息
         const meta = document.getElementById('quantMeta');
-        if (meta) meta.textContent = `${data.market === 'A' ? 'A股' : '美股'} · ${data.strategy} · 生成 ${data.generated_at}`;
+        if (meta) meta.textContent = `${data.market === 'A' ? 'A股' : '美股'} · 股票池 ${data.universe || (data.universe_size + '只')} · 生成 ${data.generated_at}`;
 
         // 市场状态徽章
         const regime = document.getElementById('quantRegime');

@@ -54,6 +54,8 @@ def get_a_daily(symbol, start=None, end=None, adjust="qfq", use_cache=True):
     """
     symbol: 6位代码，如 '600519'（贵州茅台）/'000001'（平安银行）
     返回 DataFrame[date, open, high, low, close, volume]
+    数据源：新浪 stock_zh_a_daily 为主（沙箱对东财连接会被中断），
+           东财 stock_zh_a_hist 为兜底。两源列名一致，缓存可通用。
     """
     if start is None:
         start = (datetime.now() - timedelta(days=365 * 3)).strftime("%Y%m%d")
@@ -65,8 +67,15 @@ def get_a_daily(symbol, start=None, end=None, adjust="qfq", use_cache=True):
         if c is not None:
             return c
     import akshare as ak
-    df = _retry(ak.stock_zh_a_hist, symbol=symbol, period="daily",
-                start_date=start, end_date=end, adjust=adjust)
+    sina_symbol = ("sh" if symbol[0] == "6" else "sz") + symbol
+    df = None
+    try:
+        df = _retry(ak.stock_zh_a_daily, symbol=sina_symbol,
+                    start_date=start, end_date=end, adjust=adjust)
+    except Exception as e:  # noqa
+        print(f"  [warn] 新浪失败 {symbol}: {e}，降级东财")
+        df = _retry(ak.stock_zh_a_hist, symbol=symbol, period="daily",
+                    start_date=start, end_date=end, adjust=adjust)
     df = df.rename(columns={
         "日期": "date", "开盘": "open", "最高": "high", "最低": "low",
         "收盘": "close", "成交量": "volume",
@@ -96,8 +105,14 @@ def get_us_daily(symbol, start=None, end=None, adjust="qfq", use_cache=True):
         if c is not None:
             return c
     import akshare as ak
-    df = _retry(ak.stock_us_hist, symbol=code, period="daily",
-                start_date=start, end_date=end, adjust=adjust)
+    df = None
+    try:
+        df = _retry(ak.stock_us_daily, symbol=symbol.upper(),
+                    start_date=start, end_date=end, adjust=adjust)
+    except Exception as e:  # noqa
+        print(f"  [warn] 美股新浪失败 {symbol}: {e}，降级东财")
+        df = _retry(ak.stock_us_hist, symbol=code, period="daily",
+                    start_date=start, end_date=end, adjust=adjust)
     df = df.rename(columns={
         "日期": "date", "开盘": "open", "最高": "high", "最低": "low",
         "收盘": "close", "成交量": "volume",
@@ -176,6 +191,57 @@ def get_us_universe(use_cache=True):
     """返回常见美股标的（采样，避免一次性拉全市场）"""
     return ["AAPL", "MSFT", "NVDA", "TSLA", "AMZN", "GOOG", "META",
             "JPM", "V", "UNH", "XOM", "JNJ", "WMT", "MA", "PG"]
+
+
+def get_hs300_constituents(use_cache=True):
+    """
+    返回 沪深300 成分股 [(code, name), ...]
+    用于扩大回测股票池、检验多因子模型能否跑赢沪深300基准。
+    兼容 AKShare 不同版本的列名（'代码'/'symbol_code'/'code' 等）。
+    """
+    key = "hs300_constituents"
+    if use_cache:
+        path = os.path.join(CACHE_DIR, key + ".json")
+        if os.path.exists(path):
+            with open(path) as f:
+                return json.load(f)
+    import akshare as ak
+    df = None
+    # 首选中证指数官方接口（最权威、列规范）
+    try:
+        df = _retry(ak.index_stock_cons_csindex, symbol="000300")
+    except Exception as e:  # noqa
+        print(f"  [warn] csindex 接口失败，降级东财: {e}")
+        df = None
+    # 兜底：东财成分股接口（裸代码格式 '000300'）
+    if df is None or len(df) == 0:
+        df = _retry(ak.index_stock_cons, symbol="000300")
+    cols = list(df.columns)
+    # 优先取「成分券」列（中证接口同时含 指数代码/指数名称 与 成分券代码/成分券名称，
+    # 必须避开 指数代码，否则会全部取到指数本身的代码 000300）
+    code_col = (
+        next((c for c in cols if "成分券代码" in c or c.lower() == "symbol_code"), None)
+        or next((c for c in cols if "代码" in c and "指数" not in c), None)
+        or next((c for c in cols if "code" in c.lower()), None)
+    )
+    name_col = (
+        next((c for c in cols if "成分券名称" in c or c.lower() == "symbol_name"), None)
+        or next((c for c in cols if "名称" in c and "指数" not in c), None)
+        or next((c for c in cols if "name" in c.lower()), None)
+    )
+    if code_col is None:
+        code_col = cols[1] if len(cols) > 1 else cols[0]
+    if name_col is None:
+        name_col = cols[2] if len(cols) > 2 else code_col
+    uni = []
+    for _, r in df.iterrows():
+        code = str(r[code_col]).strip().zfill(6)
+        if not code.isdigit() or len(code) != 6:
+            continue
+        uni.append((code, str(r[name_col])))
+    with open(os.path.join(CACHE_DIR, key + ".json"), "w") as f:
+        json.dump(uni, f, ensure_ascii=False)
+    return uni
 
 
 if __name__ == "__main__":

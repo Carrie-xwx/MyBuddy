@@ -32,11 +32,14 @@ jobs:
           # 安装中文字体（让净值曲线图的中文标题正常显示）
           sudo apt-get update && sudo apt-get install -y fonts-wqy-zenhei || true
 
-      - name: Run A-share backtest
-        run: python quant/run_quant.py --market A --top-n 10 --start 20210101
-
-      - name: Run US backtest
+      - name: Run US backtest (先跑，结果会被 A股覆盖)
         run: python quant/run_quant.py --market US --top-n 10 --start 20210101 || echo "US market fetch failed (network), skip"
+
+      - name: Run A-share backtest - 沪深300 实验版 (宽股票池，验证用)
+        run: python quant/run_quant.py --market A --top-n 15 --universe hs300 --start 20210101 --out quant_output_hs300.json || echo "hs300 backtest failed (network), skip"
+
+      - name: Run A-share backtest - 生产版 (32样本龙头，正alpha，最后写保证部署版为A股)
+        run: python quant/run_quant.py --market A --top-n 10 --universe sample --start 20210101 --out quant_output.json
 
       - name: Commit and push results
         run: |

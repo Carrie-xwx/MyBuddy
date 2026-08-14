@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3920.47", change: "-0.17%", market: "A股", updateTime: "2026-08-14 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14318.56", change: "+0.20%", market: "A股", updateTime: "2026-08-14 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3615.27", change: "+0.82%", market: "A股", updateTime: "2026-08-14 实时" },
-        { name: "沪深300", code: "SH000300", value: "4659.62", change: "-0.09%", market: "A股", updateTime: "2026-08-14 实时" },
-        { name: "科创50", code: "SH000688", value: "1712.13", change: "-0.33%", market: "A股", updateTime: "2026-08-14 实时" },
+                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-14 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-14 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-14 实时" },
+        { name: "沪深300", code: "SH000300", value: "4665.88", change: "+0.04%", market: "A股", updateTime: "2026-08-14 实时" },
+        { name: "科创50", code: "SH000688", value: "1717.68", change: "+-0.00%", market: "A股", updateTime: "2026-08-14 实时" },
         { name: "标普500", code: "SPX", value: "7,798.99", change: "+1.15%", market: "美股", updateTime: "2026-08-14 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,803.03", change: "+1.73%", market: "美股", updateTime: "2026-08-14 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,839.99", change: "-0.08%", market: "美股", updateTime: "2026-08-14 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                    marketNews: [
+                                                                                                                                                        marketNews: [
         {
-            title: "消息人士称日本央行考虑9月加息，并加快紧缩步伐",
-            summary: "据三位知情人士透露，日本央行最早可能在9月份加息，并考虑在此之后以比目前每年约两次的频率更积极的方式加息。 此举反映出日本央行对中东冲突带来的价格压力...",
-            source: "环球市场播报",
-            date: "2026-08-14",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhhrt9404523.shtml"
-        },
-        {
-            title: "小马智行-W扩展与Uber的合作 于欧洲五座城市部署超过2000辆自动驾驶出租车",
-            summary: "小马智行-W（02026）公布，扩展与Uber Technologies， Inc．（Uber）的合作，以在欧洲部署超过2，000辆自动驾驶出租车。合作范围将由萨格勒布现有商业化服务（即将上线...",
-            source: "新浪港股",
-            date: "2026-08-14",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-14/doc-ininhhrn4150423.shtml"
-        },
-        {
-            title: "中通快递-W近两日合共耗资约667.62万美元回购约29.14万股",
-            summary: "中通快递-W（02057）公布，2026年8月12日及13日合共耗资约667.62万美元回购约29.14万股股份。",
-            source: "新浪港股",
-            date: "2026-08-14",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-14/doc-ininhhrr2877796.shtml"
-        },
-        {
-            title: "果下科技发盈喜 预期上半年溢利大增至约5500万至6500万元",
-            summary: " 果下科技（02655）公布，该集团预期于2026年上半年取得收益约13.5亿-14.5亿元，而2025年同期收益约6.914亿元；溢利约5500万-6500万元，而2025年同期溢利约560万元。",
-            source: "新浪港股",
-            date: "2026-08-14",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-14/doc-ininhhrn4150365.shtml"
-        },
-        {
-            title: "花旗：越秀房产基金维持“中性”评级 目标价下调至0.67港元",
-            summary: " 花旗发布研报称，维持越秀房产基金（00405）“中性”评级，下调2026至2028年核心盈利预测3.9%至7.5%，基于股息贴现模型，将目标价由0.8港元下调16%至0.67港元。",
-            source: "新浪港股",
-            date: "2026-08-14",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-14/doc-ininhhrr2877764.shtml"
-        },
-        {
-            title: "全球资金谨慎重返韩国股市",
-            summary: "韩国股市有望迎来4月初以来最大单周外资净流入，这表明，在经历一轮历史性抛售之后，全球投资者正重新回流这个规模达4.1万亿美元的股票市场。",
+            title: "霍尔木兹海峡风险加剧 六成以上油轮关闭应答器“暗航”",
+            summary: " 超大型油轮正以更长时间的“暗航”方式穿越霍尔木兹海峡和曼德海峡，将原油运出中东。这一做法是在伊朗战争初期形成的应对策略基础上的进一步升级。",
             source: "环球市场播报",
             date: "2026-08-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhhrr2875475.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-14/doc-ininhnxq2626415.shtml"
         },
         {
-            title: "韩国时尚零售平台Musinsa拟明年再印尼开设首家实体店",
-            summary: "韩国时尚零售平台Musinsa周五表示，作为其全球扩张战略的一部分，将在印尼开设一家线下门店。 该公司在一份新闻稿中称，已与印尼零售商PT Mitra Adiperkasa...",
-            source: "环球市场播报",
+            title: "【数据点评】服务业修复拉动景气回暖，经济复苏前路曲折仍存",
+            summary: "作者：车美超/F0284346、Z0011885/ 一德期货宏观分析师 要点速览版总体评估 全球海外PMI数据传递出比6月更为积极的信号，服务业大幅修复引领综合景气回暖...",
+            source: "市场资讯",
             date: "2026-08-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhhrs2617001.shtml"
+            url: "https://finance.sina.com.cn/money/future/2026-08-14/doc-ininhnxk4168801.shtml"
         },
         {
-            title: "从黄金ETF到国产金条，13年后韩国央行为何又对黄金“动心”了",
-            summary: "时隔13年，韩国央行又开始恢复对黄金交易的兴趣。 8月13日，据韩国央行（BOK）披露的信息显示，该行在今年第二季度已持有价值超过2...",
-            source: "第一财经",
+            title: "玻璃持续探底！底究竟在哪里？",
+            summary: "作者：张丽/F3025228、Z0013855/ 一德期货能源化工分析师 要点速览版基本面 供应端：日熔量去化缓慢，产线点火增加短期压力； 库存端：去库缓慢...",
+            source: "市场资讯",
+            date: "2026-08-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-08-14/doc-ininhnxr9398107.shtml"
+        },
+        {
+            title: "央行：7月末社会融资规模存量同比增长7.4%",
+            summary: "2026年7月金融统计数据报告 一、社会融资规模存量同比增长7.4% 初步统计，2026年7月末社会融资规模存量为463.27万亿元，同比增长7.4%。",
+            source: "央行",
             date: "2026-08-14",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-14/doc-ininhhrr2861994.shtml"
+            url: "https://finance.sina.com.cn/china/2026-08-14/doc-ininhnxp2892588.shtml"
+        },
+        {
+            title: "央行：前七个月人民币贷款增加10.38万亿元 7月末M2同比增长7.7%",
+            summary: "2026年7月金融统计数据报告 一、社会融资规模存量同比增长7.4% 初步统计，2026年7月末社会融资规模存量为463.27万亿元，同比增长7.4%。",
+            source: "央行",
+            date: "2026-08-14",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/china/2026-08-14/doc-ininhnxq2620695.shtml"
+        },
+        {
+            title: "合肥最牛大学，一战回报1000倍",
+            summary: "这所向来低调的合肥985意外爆红。 本周，国仪公司正式登陆科创板，缔造“量子精密测量第一股”，首日市值破400亿元，身后投资人收获超级回报。",
+            source: "投资界",
+            date: "2026-08-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-08-14/doc-ininhnxp2893344.shtml"
+        },
+        {
+            title: "光大期货0814热点追踪：美长债发出警示信号，银价冲高回落",
+            summary: "8月14日，白银市场经历了先涨后跌的戏剧走势。周四夜盘时段，沪银主力合约开盘上行，一度冲高至16000点整数关口附近；然而进入周五早盘...",
+            source: "市场资讯",
+            date: "2026-08-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-08-14/doc-ininhnxr9380493.shtml"
+        },
+        {
+            title: "虚假披露“华为合作”，中坚科技及高管被罚390万，豪赌机器人陷亏损困局",
+            summary: "来源：证券之星 近日，一场围绕华为具身智能合作备忘录的信披违规事项处罚落下，中坚科技（002779.SZ）及三名时任高管合计被处以罚款390万元。",
+            source: "市场资讯",
+            date: "2026-08-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-14/doc-ininhnxq2606194.shtml"
         },
     ],
 
@@ -765,17 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                    investmentSummary: {
+                                                                                                                                                        investmentSummary: {
         date: "2026-08-14",
-        marketAssessment: "A股方面：上证指数报3920.47点（-0.17%），深证成指报14318.56点（+0.20%），创业板指报3615.27点（+0.82%）。美股方面：标普500报7,798.99（+1.15%），纳斯达克报26,803.03（+1.73%）。",
+        marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,798.99（+1.15%），纳斯达克报26,803.03（+1.73%）。",
         hotSectors: [
 
         ],
         weakSectors: [
 
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

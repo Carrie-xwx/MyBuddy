@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                            marketIndices: [
+                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-14 实时" },
         { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-14 实时" },
         { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-14 实时" },
         { name: "沪深300", code: "SH000300", value: "4665.88", change: "+0.04%", market: "A股", updateTime: "2026-08-14 实时" },
         { name: "科创50", code: "SH000688", value: "1717.68", change: "+-0.00%", market: "A股", updateTime: "2026-08-14 实时" },
-        { name: "标普500", code: "SPX", value: "7,798.99", change: "+1.15%", market: "美股", updateTime: "2026-08-14 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,803.03", change: "+1.73%", market: "美股", updateTime: "2026-08-14 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,839.99", change: "-0.08%", market: "美股", updateTime: "2026-08-14 收盘" },
+        { name: "标普500", code: "SPX", value: "7,781.78", change: "+0.31%", market: "美股", updateTime: "2026-08-14 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,671.59", change: "-0.07%", market: "美股", updateTime: "2026-08-14 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,741.89", change: "-0.55%", market: "美股", updateTime: "2026-08-14 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                            marketNews: [
+                                                                                                                                                                marketNews: [
         {
-            title: "应用材料业绩强劲：营收利润双增，计划2028年半导体设备产能翻倍",
-            summary: "半导体设备制造商应用材料（Applied Materials）周四公布的第三财季业绩全面超预期，营收与利润均大幅增长。公司同时宣布，将大幅提升制造产能...",
+            title: "法国宪法委员会否决青少年社交媒体禁令 马克龙改革议程受挫",
+            summary: "法国最高宪法权力机构否决了议会上月通过的禁止15岁以下儿童使用社交媒体的法律，令力推该法案的总统马克龙遭遇挫折。 法国宪法委员会周五裁定，该禁令违宪...",
+            source: "环球市场播报",
+            date: "2026-08-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininicvf2731370.shtml"
+        },
+        {
+            title: "沃伦致函 要求贝森特说明干预日元的依据",
+            summary: " 美国参议员伊丽莎白·沃伦要求财政部长斯科特·贝森特解释特朗普政府干预日元的依据，延续了这位资深民主党人对特朗普政府外汇政策进行审查的一贯做法。",
+            source: "环球市场播报",
+            date: "2026-08-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-14/doc-ininicva4003641.shtml"
+        },
+        {
+            title: "美国8月密歇根大学消费者信心指数初值为51.0，预估为55",
+            summary: "密歇根大学8月消费者信心指数初值为51.0，前月为55.2。 预估中值为55，41位经济学家的预测区间为51.0至57.2； 当前经济状况指数为51.8；前月为54.8； 预期指数为50.6...",
+            source: "环球市场播报",
+            date: "2026-08-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-14/doc-ininicva4003260.shtml"
+        },
+        {
+            title: "丸红乐见日元走强，以便充分落实120亿美元投资计划",
+            summary: "这家获得伯克希尔・哈撒韦投资的日本综合商社认为，日元升值将为海外并购提供更强购买力 作者：成冈耕作丸红株式会社社长大本真幸在亚太经合组织工商领导人峰会上发言。",
+            source: "环球市场播报",
+            date: "2026-08-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininicvf2722611.shtml"
+        },
+        {
+            title: "企业重金布局量子计算",
+            summary: "大量企业投入数百万资金搭建量子计算项目，谋求竞争优势，并为未来加密技术面临的威胁提前备战 作者：伊莎贝尔・布斯凯特纽约约克敦海茨 IBM 托马斯・J・沃森研究中心内的...",
+            source: "环球市场播报",
+            date: "2026-08-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininicva3993822.shtml"
+        },
+        {
+            title: "AI重塑营销搜索格局之际，Reddit竭力维持自身本色",
+            summary: "此外，Flock 公司出台新规，试图平息车牌扫描设备引发的舆论抗议 作者：纳特・艾夫斯 领导力研究院记者凯蒂・迪顿报道：各大品牌争相入驻 Reddit...",
             source: "环球市场播报",
             date: "2026-08-14",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfh4129411.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininicva3991282.shtml"
         },
         {
-            title: "巴尔的摩起诉Kalshi与Polymarket：指控其提供无牌照体育博彩",
-            summary: " 巴尔的摩市已对预测市场平台Kalshi和Polymarket提起诉讼，指控两家公司在未获得牌照的情况下提供体育博彩服务。这是美国各州与地方政府持续打压预测市场的最新动作。",
-            source: "环球市场播报",
+            title: "筹划8个月，002235控制权变更正式落地",
+            summary: "筹划近八个月后，安妮股份控制权变更终于落地。 8月14日晚，安妮股份（002235）公告称，公司原控股股东、实际控制人林旭曦、张杰向北京晟世天安科技有限公司（以下简称“晟...",
+            source: "上海证券报",
             date: "2026-08-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfm2855136.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-08-14/doc-ininicvh2430595.shtml"
         },
         {
-            title: "FBI没收古根海姆高管手机：道奇队老板Mark Walter商业帝国调查再升级",
-            summary: "美国联邦调查局（FBI）去年9月没收了古根海姆投资（Guggenheim Investments）总裁Dina DiLorenzo的手机。同一天，亿万富翁Mark Walter的手机和笔记本电脑也被没收。",
-            source: "环球市场播报",
+            title: "新材料龙头，上半年亏损1.67亿元，推逾806万股激励计划",
+            summary: "8月14日晚，上纬新材（688585.SH）披露2026年半年度报告。上半年，公司实现营业收入8.03亿元，同比增长2.42%；归属于上市公司股东的净利润亏损1.67亿元...",
+            source: "上海证券报",
             date: "2026-08-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfn2572551.shtml"
-        },
-        {
-            title: "库克卸任前最后高光：苹果德州工厂秀Mac Mini产线，特朗普政府力挺美制造",
-            summary: "苹果CEO蒂姆·库克周四与美国商务部长霍华德·卢特尼克一起，参观了位于休斯敦的富士康工厂。这是库克作为CEO为数不多的最后公开亮相之一。",
-            source: "环球市场播报",
-            date: "2026-08-14",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfp9340654.shtml"
-        },
-        {
-            title: "301070，终止收购高端镀膜装备资产",
-            summary: " 开勒股份（301070）8月14日晚间公告，公司拟终止收购东莞市科盛机电设备有限公司（简称“科盛机电”）不低于50%的股权。这笔筹划近10个月的收购事项正式告吹。",
-            source: "",
-            date: "2026-08-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-14/doc-ininhtfp9339454.shtml"
-        },
-        {
-            title: "纳入标普500后Reddit股价大涨 —— 这家平台下一个重大机遇在此",
-            summary: "Reddit（股票代码：RDDT）正式迈入主流大盘股行列。 标普道琼斯指数公司周四晚间宣布，Reddit 将于 8 月 18 日开盘前被纳入标普 500 指数。",
-            source: "环球市场播报",
-            date: "2026-08-14",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfh4112315.shtml"
-        },
-        {
-            title: "直线跳水！4倍跨界牛股，上演“天地板”",
-            summary: "来源：华夏时报 8月14日，在连续4天涨停后，京投发展（600683.SH）股价盘中上演“天地板”行情。 当天，京投发展股价开盘涨停，盘初直线跳水，剧烈震荡后尾盘跌停封板。",
-            source: "市场资讯",
-            date: "2026-08-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-14/doc-ininhtfh4111813.shtml"
-        },
-        {
-            title: "盘点2026年离职的12位OpenAI高管",
-            summary: "OpenAI 领导层迎来大规模人事变动，多名高管在 2026 年相继离职。 核心离任人员包括丹妮丝・德雷瑟、布拉德・莱特卡普、菲吉・西莫。",
-            source: "环球市场播报",
-            date: "2026-08-14",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfp9333451.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-14/doc-ininicvf2712459.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                investmentSummary: {
         date: "2026-08-14",
-        marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,798.99（+1.15%），纳斯达克报26,803.03（+1.73%）。",
+        marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,781.78（+0.31%），纳斯达克报26,671.59（-0.07%）。",
         hotSectors: [
 
         ],

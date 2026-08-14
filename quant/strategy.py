@@ -1,19 +1,63 @@
 """
-quant/strategy.py — 多因子组合策略
-思路（借鉴 Qlib 因子工作流 + 简化版）：
-  1. 对股票池每只股票计算因子（factors.py）
-  2. 每个调仓日，对因子做横截面 z-score 标准化
-  3. 按权重合成综合得分
-  4. 取得分最高的 TopN 作为下期持仓，等权配置
-  5. 月度调仓（可配置）
+quant/strategy.py — 多因子组合策略 v2
+改进（对比 v1）：
+  1. 市场状态过滤（market regime）：基于基准指数均线+动量判断牛熊，
+     熊市空仓、震荡市半仓、牛市满仓 —— 这是熊市保护最有效的单一机制。
+  2. 个股趋势过滤：只选处在上升通道(ret_60>0 且 close>ma60)的个股。
+  3. 动态总仓位（gross）：随市场状态在 0/0.5/1.0 之间切换。
 
-预留 ML 接口：若提供 model，则用模型预测收益率替代线性加权打分。
+因子合成仍沿用 Qlib 风格的横截面 z-score 标准化 + 加权打分。
 """
 from datetime import datetime
 import numpy as np
 import pandas as pd
 
 from factors import FACTOR_WEIGHTS, compute_factors, normalize_cross_section
+
+# 市场状态 -> 目标总仓位系数
+REGIME_GROSS = {"BULL": 1.0, "NEUTRAL": 0.5, "BEAR": 0.0}
+
+
+def compute_market_regime(benchmark_df: pd.DataFrame,
+                          ma_long: int = 200, mom: int = 60,
+                          mom_long: int = 120, strict: bool = False,
+                          dd_guard: float = 0.15) -> dict:
+    """
+    benchmark_df: DataFrame[date, close]
+    返回 dict[date_str] -> ('BULL'|'NEUTRAL'|'BEAR', gross)
+      BULL:    收盘价>长期均线 且 中期动量>0
+      BEAR:    收盘价<长期均线 且 中期动量<0
+      NEUTRAL: 其他
+    牛顶保护(dd_guard): 基准从 ma_long 高点回撤超过 dd_guard 时强制空仓，
+      能在牛顶崩塌初期及时撤退，显著降低完整牛熊周期的回撤。
+    """
+    df = benchmark_df.copy().sort_values("date").reset_index(drop=True)
+    c = df["close"]
+    ma_l = c.rolling(ma_long, min_periods=min(ma_long, 20)).mean()
+    mom_n = c.pct_change(mom)
+    mom_l = c.pct_change(mom_long)
+    high_l = c.rolling(ma_long, min_periods=60).max()
+    dd = c / (high_l + 1e-9) - 1
+    regime = {}
+    for _, r in df.iterrows():
+        d = r["date"].strftime("%Y-%m-%d")
+        i = r.name
+        if pd.isna(ma_l.iloc[i]) or pd.isna(mom_n.iloc[i]):
+            regime[d] = ("NEUTRAL", REGIME_GROSS["NEUTRAL"])
+            continue
+        # 牛顶回撤保护：强制空仓
+        if dd.iloc[i] < -dd_guard:
+            regime[d] = ("BEAR", 0.0)
+            continue
+        above = c.iloc[i] > ma_l.iloc[i]
+        up = mom_n.iloc[i] > 0
+        if above and up:
+            regime[d] = ("BULL", REGIME_GROSS["BULL"])
+        elif (not above) and (not up):
+            regime[d] = ("BEAR", REGIME_GROSS["BEAR"])
+        else:
+            regime[d] = ("NEUTRAL", REGIME_GROSS["NEUTRAL"])
+    return regime
 
 
 def build_factor_panel(prices: dict) -> dict:
@@ -34,58 +78,87 @@ def _month_end_dates(dates: pd.DatetimeIndex) -> list:
     return [d for d in month_groups.max().dt.strftime("%Y-%m-%d")]
 
 
-def generate_weights(panel: dict, top_n: int = 10,
-                      rebalance: str = "M") -> dict:
+def generate_weights(panel: dict, top_n: int = 10, rebalance: str = "M",
+                     benchmark_df: pd.DataFrame = None,
+                     regime: dict = None, regime_mode: str = "binary") -> tuple:
     """
-    返回 weights: dict[rebalance_date] -> dict[symbol] -> weight
-    调仓日使用的因子值为该调仓日当天可得的最新因子（防未来函数：用上月末因子决定下月初调仓）
+    返回 (weights, gross)
+      weights: dict[rebalance_date] -> dict[symbol] -> 归一化权重(和为1)
+      gross:   dict[rebalance_date] -> 目标总仓位系数 0..1
+    regime_mode:
+      'binary' : 牛市满仓，非牛市空仓（回撤最小，默认）
+      'tri'    : 牛市满仓/震荡半仓/熊市空仓
+    防未来函数：用调仓日当天的因子值 + 调仓日当天的市场状态。
     """
-    # 收集所有交易日
     all_dates = set()
     for df in panel.values():
         all_dates.update(df["date"].dt.strftime("%Y-%m-%d").tolist())
     all_dates = sorted(all_dates)
-    date_set = set(all_dates)
 
-    # 调仓日：月末
+    # 计算市场状态（若未提供 benchmark 则退化为全仓多头 v1 行为）
+    if regime is None and benchmark_df is not None:
+        regime = compute_market_regime(benchmark_df)
+    use_regime = regime is not None
+
     rebal_days = _month_end_dates(pd.to_datetime(all_dates))
 
-    weights = {}
-    for i, rd in enumerate(rebal_days):
-        # 用该调仓日当天的因子值
+    weights, gross = {}, {}
+    for rd in rebal_days:
+        # 市场状态 -> 目标总仓位
+        if use_regime:
+            reg, _ = regime.get(rd, ("NEUTRAL", 0.5))
+        else:
+            reg, _ = "BULL", 1.0
+        if regime_mode == "binary":
+            g = 1.0 if reg == "BULL" else 0.0
+        else:
+            g = REGIME_GROSS.get(reg, 0.5)
+
+        # 非满仓市场：清仓（空仓或待命）
+        if g == 0.0:
+            weights[rd] = {}
+            gross[rd] = 0.0
+            continue
+
+        # 个股打分
         scores = {}
-        valid = {}
         for sym, df in panel.items():
             row = df[df["date"].dt.strftime("%Y-%m-%d") == rd]
             if row.empty:
                 continue
             r = row.iloc[0]
+            # 个股趋势过滤：上升通道（ret_60>0 且 close>ma60）
+            if not (r.get("ret_60", 0) is not None and r.get("ret_60", -9) > 0
+                    and r.get("ma_dev_60", -9) > 0):
+                continue
             score = 0.0
             for fac, w in FACTOR_WEIGHTS.items():
                 v = r.get(fac)
                 if pd.notna(v) and np.isfinite(v):
                     score += w * v
             if pd.notna(score) and np.isfinite(score):
-                scores[sym] = (score, r)
-                valid[sym] = r
+                scores[sym] = score
         if not scores:
+            weights[rd] = {}
+            gross[rd] = g * 0.0  # 无可选标的时也保守
             continue
-        # 横截面标准化综合得分
-        raw = pd.Series({s: v[0] for s, v in scores.items()})
+
+        raw = pd.Series(scores)
         z = normalize_cross_section(raw)
-        # 选 TopN（得分最高）
         ranked = z.sort_values(ascending=False)
         picks = ranked.head(top_n)
         if picks.sum() == 0:
             picks = picks + 1e-9
         w = picks / picks.sum()
         weights[rd] = w.to_dict()
-    return weights
+        gross[rd] = g  # 牛市1.0 / 震荡0.5
+
+    return weights, gross
 
 
 def generate_weights_with_model(panel: dict, model, feature_cols: list,
                                  top_n: int = 10) -> dict:
-    """ML 版本：用 model 预测下期收益，取预测最高的 TopN"""
+    """ML 版本：用 model 预测下期收益，取预测最高的 TopN（保留 v1 接口）"""
     all_dates = set()
     for df in panel.values():
         all_dates.update(df["date"].dt.strftime("%Y-%m-%d").tolist())
@@ -117,12 +190,14 @@ def generate_weights_with_model(panel: dict, model, feature_cols: list,
 
 
 if __name__ == "__main__":
-    from data import get_a_daily
-    # 采样 8 只龙头股验证
-    sample = ["600519", "000001", "601318", "600036", "000858", "601166", "600276", "000333"]
+    from data import get_a_daily, get_index_daily
+    sample = ["600519", "000001", "601318", "600036", "000858", "601166",
+              "600276", "000333"]
     prices = {s: get_a_daily(s, "20210101", "20231231") for s in sample}
+    bm = get_index_daily("A", "000300", "20210101", "20231231")
+    regime = compute_market_regime(bm)
     panel = build_factor_panel(prices)
-    w = generate_weights(panel, top_n=5)
+    w, g = generate_weights(panel, top_n=5, benchmark_df=bm, regime=regime)
     print("调仓次数:", len(w))
-    first_rd = sorted(w.keys())[1]
-    print("首个调仓日", first_rd, "持仓:", w[first_rd])
+    first_rd = sorted(w.keys())[2]
+    print("调仓日", first_rd, "仓位系数", g[first_rd], "持仓:", w[first_rd])

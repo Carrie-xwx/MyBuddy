@@ -114,6 +114,7 @@ def get_us_daily(symbol, start=None, end=None, adjust="qfq", use_cache=True):
 def get_index_daily(market="A", symbol="000300", start=None, end=None, use_cache=True):
     """
     market='A' 用沪深重要指数；market='US' 用美股指数(如 'SP500' / 'IXIC')
+    A股优先东方财富，失败自动降级新浪(沙箱更稳)；美股用新浪。
     """
     if start is None:
         start = (datetime.now() - timedelta(days=365 * 3)).strftime("%Y%m%d")
@@ -125,11 +126,23 @@ def get_index_daily(market="A", symbol="000300", start=None, end=None, use_cache
         if c is not None:
             return c
     import akshare as ak
+    df = None
     if market == "A":
-        df = _retry(ak.index_zh_a_hist, symbol=symbol, period="daily",
-                    start_date=start, end_date=end)
-        df = df.rename(columns={"日期": "date", "开盘": "open", "最高": "high",
-                                 "最低": "low", "收盘": "close", "成交量": "volume"})
+        try:
+            df = _retry(ak.index_zh_a_hist, symbol=symbol, period="daily",
+                        start_date=start, end_date=end)
+            df = df.rename(columns={"日期": "date", "开盘": "open", "最高": "high",
+                                     "最低": "low", "收盘": "close", "成交量": "volume"})
+        except Exception as e:  # noqa
+            # 降级新浪指数日线（代码转换：000300->sh000300, 399001->sz399001）
+            sina_code = ("sh" if symbol[0] == "0" and symbol != "399001" else
+                         ("sz" if symbol.startswith("399") else "sh")) + symbol
+            sina = _retry(ak.stock_zh_index_daily, symbol=sina_code)
+            sina = sina.rename(columns={"date": "date", "open": "open", "high": "high",
+                                        "low": "low", "close": "close", "volume": "volume"})
+            sina["date"] = pd.to_datetime(sina["date"])
+            sd, ed = pd.to_datetime(start), pd.to_datetime(end)
+            df = sina[(sina["date"] >= sd) & (sina["date"] <= ed)].reset_index(drop=True)
     else:
         df = _retry(ak.index_us_stock_sina, symbol=symbol)
         df = df.rename(columns={"date": "date", "open": "open", "high": "high",

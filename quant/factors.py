@@ -39,6 +39,8 @@ def compute_factors(df: pd.DataFrame) -> pd.DataFrame:
     df["ma_dev_20"] = c / (ma20 + 1e-9) - 1
     ma60 = c.rolling(60, min_periods=10).mean()
     df["ma_dev_60"] = c / (ma60 + 1e-9) - 1
+    ma250 = c.rolling(250, min_periods=60).mean()
+    df["ma_dev_250"] = c / (ma250 + 1e-9) - 1   # 长期估值偏离：越低越便宜
 
     # RSI
     df["rsi_14"] = _rsi(c, 14)
@@ -58,15 +60,16 @@ def compute_factors(df: pd.DataFrame) -> pd.DataFrame:
 
 # 因子权重（用于合成综合得分，范围 -1..1，越正越看好）
 FACTOR_WEIGHTS = {
-    "ret_20": 0.25,
-    "ret_60": 0.20,
-    "ret_120": 0.10,
-    "ma_dev_20": 0.10,
-    "ma_dev_60": 0.05,
+    "ret_20": 0.22,
+    "ret_60": 0.18,
+    "ret_120": 0.08,
+    "ma_dev_20": 0.08,
+    "ma_dev_60": 0.04,
+    "ma_dev_250": -0.15,    # 低估值(长期低位)加分 —— 价值因子
     "rsi_14": -0.05,        # RSI 过高略减分（防追高）
-    "vol_ratio_20": 0.10,   # 温和放量加分
-    "volatility_20": -0.10, # 高波动减分
-    "golden_cross": 0.05,
+    "vol_ratio_20": 0.08,   # 温和放量加分
+    "volatility_20": -0.12, # 高波动减分（防御）
+    "golden_cross": 0.04,
 }
 
 

@@ -2619,6 +2619,16 @@ const QuantModule = {
         const meta = document.getElementById('quantMeta');
         if (meta) meta.textContent = `${data.market === 'A' ? 'A股' : '美股'} · ${data.strategy} · 生成 ${data.generated_at}`;
 
+        // 市场状态徽章
+        const regime = document.getElementById('quantRegime');
+        if (regime) {
+            const r = data.last_market_regime || 'N/A';
+            const g = data.last_gross != null ? data.last_gross : 1;
+            const map = { BULL: ['牛', '#48A878'], NEUTRAL: ['震', '#f0a040'], BEAR: ['熊', '#D15757'], 'N/A': ['—', '#9a9ab0'] };
+            const [txt, color] = map[r] || map['N/A'];
+            regime.innerHTML = `<span style="display:inline-block;padding:2px 9px;border-radius:10px;font-size:12px;font-weight:600;color:#fff;background:${color}">市场:${txt}市</span> <span style="display:inline-block;padding:2px 9px;border-radius:10px;font-size:12px;color:#d8d8e8;background:#2a2a40">仓位:${Math.round(g * 100)}%</span>`;
+        }
+
         // 指标
         const m = data.metrics || {};
         const labelMap = {
@@ -2647,16 +2657,20 @@ const QuantModule = {
         const holdBox = document.getElementById('quantHolding');
         const holdDate = document.getElementById('quantHoldDate');
         const entries = Object.entries(hold).sort((a, b) => b[1] - a[1]);
-        if (holdDate && entries.length) holdDate.textContent = '调仓日持仓权重';
+        if (holdDate) holdDate.textContent = entries.length ? (data.last_rebalance_date ? `调仓日 ${data.last_rebalance_date} 持仓权重` : '调仓日持仓权重') : '';
         if (holdBox) {
-            holdBox.innerHTML = entries.map(([s, w]) => `
-                <div class="acc-cat-row">
-                    <span class="acc-cat-name">${s}</span>
-                    <div class="acc-cat-bar-wrap">
-                        <div class="acc-cat-bar" style="width:${(w * 100).toFixed(1)}%"></div>
-                    </div>
-                    <span class="acc-cat-val">${(w * 100).toFixed(1)}%</span>
-                </div>`).join('');
+            if (entries.length) {
+                holdBox.innerHTML = entries.map(([s, w]) => `
+                    <div class="acc-cat-row">
+                        <span class="acc-cat-name">${s}</span>
+                        <div class="acc-cat-bar-wrap">
+                            <div class="acc-cat-bar" style="width:${(w * 100).toFixed(1)}%"></div>
+                        </div>
+                        <span class="acc-cat-val">${(w * 100).toFixed(1)}%</span>
+                    </div>`).join('');
+            } else {
+                holdBox.innerHTML = `<p class="empty-mini">当前空仓（市场空头信号或无可选标的）。下一调仓日将依据市场状态重新建仓。</p>`;
+            }
         }
     },
 

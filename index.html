@@ -89,6 +89,11 @@
                     <span class="nav-label">记账本</span>
                     <span class="nav-sub">收支管理</span>
                 </button>
+                <button class="nav-item" data-module="quant">
+                    <span class="nav-icon">📈</span>
+                    <span class="nav-label">量化回测</span>
+                    <span class="nav-sub">多因子策略</span>
+                </button>
                 <div class="sidebar-footer">
                     <div class="quick-stats" id="quickStats">
                         <div class="stat-item"><span id="statStock">0</span><small>自选股</small></div>
@@ -667,6 +672,52 @@
                                 <button class="btn-sm btn-outline" onclick="AccountingModule.exportCSV()">导出CSV</button>
                                 <button class="btn-sm btn-outline" onclick="AccountingModule.importJSON()">导入恢复</button>
                                 <button class="btn-sm btn-danger" onclick="AccountingModule.clearAll()">清空数据</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 量化回测模块 -->
+                <section class="module-view" id="module-quant">
+                    <div class="section-head">
+                        <h2>📈 量化回测 · 多因子策略</h2>
+                        <p class="section-desc">基于免费数据（AKShare）的多因子打分选股 + 向量化回测，A股/美股双市场。历史回测仅供参考，不构成投资建议。</p>
+                    </div>
+
+                    <div class="card" id="quantLoadingCard">
+                        <div class="card-body">
+                            <p class="empty-mini" id="quantStatus">正在加载回测结果…</p>
+                            <button class="btn-sm btn-primary" id="quantRunBtn" style="display:none" onclick="QuantModule.runLocal()">在浏览器端无法回测，点击查看报告</button>
+                        </div>
+                    </div>
+
+                    <div id="quantResult" style="display:none">
+                        <div class="card">
+                            <div class="card-header"><h3>净值曲线</h3><span class="card-sub" id="quantMeta"></span></div>
+                            <div class="card-body">
+                                <img id="quantCurve" alt="净值曲线" style="width:100%;background:#1e1e30;border-radius:12px;padding:8px">
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header"><h3>绩效指标</h3></div>
+                            <div class="card-body">
+                                <div class="summary-grid" id="quantMetrics"></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header"><h3>最新一期持仓</h3><span class="card-sub" id="quantHoldDate"></span></div>
+                            <div class="card-body">
+                                <div id="quantHolding"></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header"><h3>独立报告</h3></div>
+                            <div class="card-body">
+                                <a href="quant/output/report.html" target="_blank" class="btn-sm btn-outline">打开完整回测报告 ↗</a>
+                                <a href="quant/output/quant_output.json" target="_blank" class="btn-sm btn-ghost">查看原始 JSON</a>
                             </div>
                         </div>
                     </div>

@@ -95,6 +95,7 @@ const App = {
         PlannerModule.init();
         VlogModule.init();
         AccountingModule.init();
+        QuantModule.init();
         this.updateQuickStats();
     },
 
@@ -2577,6 +2578,91 @@ const AccountingModule = {
             return `${e.date}  ¥${e.amount.toFixed(2)}  ${cat}  ${e.note || ''}`;
         });
         copyToClipboard(lines.join('\n'));
+    }
+};
+
+/* ---------- 量化回测模块 ---------- */
+const QuantModule = {
+    DATA_URL: 'quant/output/quant_output.json',
+    init() {
+        this.load();
+    },
+
+    load() {
+        const status = document.getElementById('quantStatus');
+        const result = document.getElementById('quantResult');
+        const loading = document.getElementById('quantLoadingCard');
+        fetch(this.DATA_URL + '?t=' + Date.now())
+            .then(r => {
+                if (!r.ok) throw new Error('no data');
+                return r.json();
+            })
+            .then(data => {
+                if (status) status.textContent = '';
+                if (loading) loading.style.display = 'none';
+                if (result) result.style.display = 'block';
+                this.render(data);
+            })
+            .catch(() => {
+                if (status) status.textContent = '尚未生成回测数据。GitHub Actions 正在定时运行；你也可以本地执行 python quant/run_quant.py 生成。';
+                const btn = document.getElementById('quantRunBtn');
+                if (btn) btn.style.display = 'inline-block';
+            });
+    },
+
+    render(data) {
+        // 净值曲线
+        const curve = document.getElementById('quantCurve');
+        if (curve && data.nav_curve_svg) curve.src = data.nav_curve_svg;
+
+        // 元信息
+        const meta = document.getElementById('quantMeta');
+        if (meta) meta.textContent = `${data.market === 'A' ? 'A股' : '美股'} · ${data.strategy} · 生成 ${data.generated_at}`;
+
+        // 指标
+        const m = data.metrics || {};
+        const labelMap = {
+            start_date: '起始日期', end_date: '结束日期',
+            total_return: '累计收益(%)', cagr: '年化收益(%)',
+            annual_vol: '年化波动(%)', sharpe: '夏普比率',
+            max_drawdown: '最大回撤(%)', win_rate: '胜率(%)',
+            calmar: '卡玛比率', final_nav: '期末净值',
+            excess_return_vs_bench: '超额收益 vs 基准(%)'
+        };
+        const box = document.getElementById('quantMetrics');
+        if (box) {
+            box.innerHTML = Object.keys(labelMap).filter(k => m[k] !== undefined).map(k => {
+                const v = m[k];
+                let cls = '';
+                if (['total_return', 'cagr', 'excess_return_vs_bench', 'sharpe', 'calmar', 'win_rate'].includes(k)) {
+                    cls = v >= 0 ? 'pos' : 'neg';
+                }
+                if (k === 'max_drawdown') cls = 'neg';
+                return `<div class="summary-item"><span class="summary-label">${labelMap[k]}</span><span class="summary-value ${cls}">${v}</span></div>`;
+            }).join('');
+        }
+
+        // 持仓
+        const hold = data.latest_holding || {};
+        const holdBox = document.getElementById('quantHolding');
+        const holdDate = document.getElementById('quantHoldDate');
+        const entries = Object.entries(hold).sort((a, b) => b[1] - a[1]);
+        if (holdDate && entries.length) holdDate.textContent = '调仓日持仓权重';
+        if (holdBox) {
+            holdBox.innerHTML = entries.map(([s, w]) => `
+                <div class="acc-cat-row">
+                    <span class="acc-cat-name">${s}</span>
+                    <div class="acc-cat-bar-wrap">
+                        <div class="acc-cat-bar" style="width:${(w * 100).toFixed(1)}%"></div>
+                    </div>
+                    <span class="acc-cat-val">${(w * 100).toFixed(1)}%</span>
+                </div>`).join('');
+        }
+    },
+
+    // 浏览器端无法跑 Python 回测，此按钮仅作提示/跳转
+    runLocal() {
+        App.toast('量化回测需 Python 环境，请在本地运行 quant/run_quant.py 或等待 GitHub Actions 自动生成');
     }
 };
 

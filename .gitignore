@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Quant module local cache (regenerated at runtime)
+quant/.cache/
+
+# Node / OS
+node_modules/
+.DS_Store

@@ -1032,6 +1032,29 @@ html, body {
     color: var(--text-primary);
     border: 1px solid var(--border-color);
 }
+
+/* 量化回测绩效指标网格 */
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+}
+.summary-item {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+    border-radius: 10px;
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.summary-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+.summary-value.pos { color: #48A878; }
+.summary-value.neg { color: #D15757; }
 .label-hot {
     background: rgba(72, 168, 120, 0.15);
     color: var(--stock-up);

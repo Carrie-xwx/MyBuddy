@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                        marketIndices: [
+                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-14 实时" },
         { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-14 实时" },
         { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-14 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                        marketNews: [
+                                                                                                                                                            marketNews: [
         {
-            title: "霍尔木兹海峡风险加剧 六成以上油轮关闭应答器“暗航”",
-            summary: " 超大型油轮正以更长时间的“暗航”方式穿越霍尔木兹海峡和曼德海峡，将原油运出中东。这一做法是在伊朗战争初期形成的应对策略基础上的进一步升级。",
+            title: "应用材料业绩强劲：营收利润双增，计划2028年半导体设备产能翻倍",
+            summary: "半导体设备制造商应用材料（Applied Materials）周四公布的第三财季业绩全面超预期，营收与利润均大幅增长。公司同时宣布，将大幅提升制造产能...",
+            source: "环球市场播报",
+            date: "2026-08-14",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfh4129411.shtml"
+        },
+        {
+            title: "巴尔的摩起诉Kalshi与Polymarket：指控其提供无牌照体育博彩",
+            summary: " 巴尔的摩市已对预测市场平台Kalshi和Polymarket提起诉讼，指控两家公司在未获得牌照的情况下提供体育博彩服务。这是美国各州与地方政府持续打压预测市场的最新动作。",
             source: "环球市场播报",
             date: "2026-08-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-14/doc-ininhnxq2626415.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfm2855136.shtml"
         },
         {
-            title: "【数据点评】服务业修复拉动景气回暖，经济复苏前路曲折仍存",
-            summary: "作者：车美超/F0284346、Z0011885/ 一德期货宏观分析师 要点速览版总体评估 全球海外PMI数据传递出比6月更为积极的信号，服务业大幅修复引领综合景气回暖...",
+            title: "FBI没收古根海姆高管手机：道奇队老板Mark Walter商业帝国调查再升级",
+            summary: "美国联邦调查局（FBI）去年9月没收了古根海姆投资（Guggenheim Investments）总裁Dina DiLorenzo的手机。同一天，亿万富翁Mark Walter的手机和笔记本电脑也被没收。",
+            source: "环球市场播报",
+            date: "2026-08-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfn2572551.shtml"
+        },
+        {
+            title: "库克卸任前最后高光：苹果德州工厂秀Mac Mini产线，特朗普政府力挺美制造",
+            summary: "苹果CEO蒂姆·库克周四与美国商务部长霍华德·卢特尼克一起，参观了位于休斯敦的富士康工厂。这是库克作为CEO为数不多的最后公开亮相之一。",
+            source: "环球市场播报",
+            date: "2026-08-14",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfp9340654.shtml"
+        },
+        {
+            title: "301070，终止收购高端镀膜装备资产",
+            summary: " 开勒股份（301070）8月14日晚间公告，公司拟终止收购东莞市科盛机电设备有限公司（简称“科盛机电”）不低于50%的股权。这笔筹划近10个月的收购事项正式告吹。",
+            source: "",
+            date: "2026-08-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-14/doc-ininhtfp9339454.shtml"
+        },
+        {
+            title: "纳入标普500后Reddit股价大涨 —— 这家平台下一个重大机遇在此",
+            summary: "Reddit（股票代码：RDDT）正式迈入主流大盘股行列。 标普道琼斯指数公司周四晚间宣布，Reddit 将于 8 月 18 日开盘前被纳入标普 500 指数。",
+            source: "环球市场播报",
+            date: "2026-08-14",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfh4112315.shtml"
+        },
+        {
+            title: "直线跳水！4倍跨界牛股，上演“天地板”",
+            summary: "来源：华夏时报 8月14日，在连续4天涨停后，京投发展（600683.SH）股价盘中上演“天地板”行情。 当天，京投发展股价开盘涨停，盘初直线跳水，剧烈震荡后尾盘跌停封板。",
             source: "市场资讯",
             date: "2026-08-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-08-14/doc-ininhnxk4168801.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-08-14/doc-ininhtfh4111813.shtml"
         },
         {
-            title: "玻璃持续探底！底究竟在哪里？",
-            summary: "作者：张丽/F3025228、Z0013855/ 一德期货能源化工分析师 要点速览版基本面 供应端：日熔量去化缓慢，产线点火增加短期压力； 库存端：去库缓慢...",
-            source: "市场资讯",
+            title: "盘点2026年离职的12位OpenAI高管",
+            summary: "OpenAI 领导层迎来大规模人事变动，多名高管在 2026 年相继离职。 核心离任人员包括丹妮丝・德雷瑟、布拉德・莱特卡普、菲吉・西莫。",
+            source: "环球市场播报",
             date: "2026-08-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-08-14/doc-ininhnxr9398107.shtml"
-        },
-        {
-            title: "央行：7月末社会融资规模存量同比增长7.4%",
-            summary: "2026年7月金融统计数据报告 一、社会融资规模存量同比增长7.4% 初步统计，2026年7月末社会融资规模存量为463.27万亿元，同比增长7.4%。",
-            source: "央行",
-            date: "2026-08-14",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/china/2026-08-14/doc-ininhnxp2892588.shtml"
-        },
-        {
-            title: "央行：前七个月人民币贷款增加10.38万亿元 7月末M2同比增长7.7%",
-            summary: "2026年7月金融统计数据报告 一、社会融资规模存量同比增长7.4% 初步统计，2026年7月末社会融资规模存量为463.27万亿元，同比增长7.4%。",
-            source: "央行",
-            date: "2026-08-14",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/china/2026-08-14/doc-ininhnxq2620695.shtml"
-        },
-        {
-            title: "合肥最牛大学，一战回报1000倍",
-            summary: "这所向来低调的合肥985意外爆红。 本周，国仪公司正式登陆科创板，缔造“量子精密测量第一股”，首日市值破400亿元，身后投资人收获超级回报。",
-            source: "投资界",
-            date: "2026-08-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-08-14/doc-ininhnxp2893344.shtml"
-        },
-        {
-            title: "光大期货0814热点追踪：美长债发出警示信号，银价冲高回落",
-            summary: "8月14日，白银市场经历了先涨后跌的戏剧走势。周四夜盘时段，沪银主力合约开盘上行，一度冲高至16000点整数关口附近；然而进入周五早盘...",
-            source: "市场资讯",
-            date: "2026-08-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-08-14/doc-ininhnxr9380493.shtml"
-        },
-        {
-            title: "虚假披露“华为合作”，中坚科技及高管被罚390万，豪赌机器人陷亏损困局",
-            summary: "来源：证券之星 近日，一场围绕华为具身智能合作备忘录的信披违规事项处罚落下，中坚科技（002779.SZ）及三名时任高管合计被处以罚款390万元。",
-            source: "市场资讯",
-            date: "2026-08-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-14/doc-ininhnxq2606194.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhtfp9333451.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                        investmentSummary: {
+                                                                                                                                                            investmentSummary: {
         date: "2026-08-14",
         marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,798.99（+1.15%），纳斯达克报26,803.03（+1.73%）。",
         hotSectors: [

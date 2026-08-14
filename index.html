@@ -50,6 +50,10 @@
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                     <span>导出数据</span>
                 </button>
+                <button class="btn-icon" id="clearCacheBtn" title="清除缓存并刷新">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+                    <span>清缓存</span>
+                </button>
                 <div class="status-indicator">
                     <span class="status-dot"></span>
                     <span class="status-text" id="lastUpdated">就绪</span>
@@ -706,8 +710,26 @@
             window.addEventListener('load', function() {
                 navigator.serviceWorker.register('sw.js').then(function(reg) {
                     console.log('MyBuddy PWA: Service Worker registered');
+                    // Auto-activate new service worker when it is waiting
+                    reg.addEventListener('updatefound', function() {
+                        var newWorker = reg.installing;
+                        newWorker.addEventListener('statechange', function() {
+                            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                console.log('MyBuddy PWA: New version waiting, skipping waiting...');
+                                newWorker.postMessage({ type: 'SKIP_WAITING' });
+                            }
+                        });
+                    });
                 }).catch(function(err) {
                     console.log('MyBuddy PWA: SW registration failed:', err);
+                });
+                // When the new service worker takes over, refresh to load latest app
+                var reloaded = false;
+                navigator.serviceWorker.addEventListener('controllerchange', function() {
+                    if (!reloaded) {
+                        reloaded = true;
+                        window.location.reload();
+                    }
                 });
             });
         }

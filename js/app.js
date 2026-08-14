@@ -171,6 +171,42 @@ const App = {
         document.getElementById('exportAllBtn').addEventListener('click', () => {
             this.exportAll();
         });
+
+        document.getElementById('clearCacheBtn').addEventListener('click', () => {
+            this.clearCacheAndReload();
+        });
+    },
+
+    clearCacheAndReload() {
+        const run = async () => {
+            // Unregister all service workers
+            if ('serviceWorker' in navigator) {
+                try {
+                    const regs = await navigator.serviceWorker.getRegistrations();
+                    for (const reg of regs) {
+                        await reg.unregister();
+                    }
+                } catch (e) { /* ignore */ }
+            }
+            // Delete all caches
+            if ('caches' in window) {
+                try {
+                    const names = await caches.keys();
+                    await Promise.all(names.map(n => caches.delete(n)));
+                } catch (e) { /* ignore */ }
+            }
+            // Clear localStorage items that are safe to reset (keep user data)
+            const keysToRemove = [];
+            for (let i = 0; i < localStorage.length; i++) {
+                const k = localStorage.key(i);
+                if (k && (k.includes('sw') || k.includes('cache') || k.includes('version'))) {
+                    keysToRemove.push(k);
+                }
+            }
+            keysToRemove.forEach(k => localStorage.removeItem(k));
+            window.location.reload(true);
+        };
+        this.modal('清除缓存并刷新', '<p>将注销 Service Worker、清空浏览器缓存并重新加载页面。<br>你的记账/计划/自选股等用户数据不会丢失。</p>', run);
     },
 
     toast(msg) {

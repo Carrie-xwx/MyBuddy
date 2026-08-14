@@ -26,6 +26,12 @@ self.addEventListener('install', function(event) {
     self.skipWaiting();
 });
 
+self.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'SKIP_WAITING') {
+        self.skipWaiting();
+    }
+});
+
 // Activate: clean up old caches
 self.addEventListener('activate', function(event) {
     event.waitUntil(

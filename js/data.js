@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-15 实时" },
         { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-15 实时" },
         { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-15 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                        marketNews: [
+                                                                                                                                                                            marketNews: [
         {
-            title: "英伟达CPO交换机全面量产：能效提升5倍，供应商包括天孚通信",
-            summary: "8月14日，英伟达NVIDIA AI Infrastructure官方X账号宣布，Spectrum-X以太网硅光交换机（Ethernet Photonics）现已全面量产，为AI工厂提供下一代Scale-Out（横向扩展）网络...",
-            source: "澎湃新闻",
-            date: "2026-08-15",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkmqs1962999.shtml"
-        },
-        {
-            title: "中际旭创等AH股价格倒挂 国际资本重新定价硬科技核心资产",
-            summary: "伴随着国际资本持续“买买买”，越来越多硬科技次新股 出现AH价格倒挂。 截至8月13日，共有7家公司H股较A股出现溢价，分别为宁德时代 、澜起科技 、招商银行 、兆易创新 ...",
-            source: "21世纪经济报道",
+            title: "郭德纲被立案调查，湖北文旅厅回应，此前西安站演出已取消",
+            summary: "近日，郭德纲被举报于7月24日在武汉演出时，篡改红歌《弹起我心爱的土琵琶》。澎湃新闻从武汉市文旅局获悉，该改编内容没有出现在报备材料中。",
+            source: "中国新闻网",
             date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkmqs1961968.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkrwr8660094.shtml"
         },
         {
-            title: "资管机构角逐德国规模达5000亿欧元养老金历史性转型",
-            summary: " 自19世纪末俾斯麦首相创立以来，德国养老金体系规模最大的改革之一即将落地，将为现代基金管理人带来规模庞大的新增可配置资金。",
-            source: "环球市场播报",
-            date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-15/doc-ininkmqt8729053.shtml"
-        },
-        {
-            title: "印度下调8月下半年运输燃料出口税",
-            summary: "印度政府一份公告显示，印度下调8月中旬至月底的柴油、汽油以及航空煤油出口关税。 柴油全部消费税由每升25.5卢比下调至24卢比。",
-            source: "环球市场播报",
-            date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-15/doc-ininkmqn3552915.shtml"
-        },
-        {
-            title: "刚刚！持续拉升，空头遭“重锤”！美国经济，生变！又有油轮，遭伊朗袭击！",
-            summary: "本文源自：期货日报 一起来看下重要资讯！ 加密货币主要币种持续上涨截至发稿，比特币美元指数上涨0.2%，以太坊上涨0.18%，瑞波币上涨0.74%。",
+            title: "视频|多花1.4亿元打广告辣条却少卖1.3亿元 卫龙中报增速放缓 九成派息引争议",
+            summary: "视频|多花1.4亿元打广告辣条却少卖1.3亿元 卫龙中报增速放缓 九成派息引争议",
             source: "滚动播报",
             date: "2026-08-15",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-08-15/doc-ininkmqs1951926.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkrwq1870335.shtml"
         },
         {
-            title: "于东来凌晨发文回应“胖东来再招20名刑释人员”：第一批刑释人员上岗后没有一个离开",
-            summary: "8月15日凌晨，胖东来创始人于东来在社交平台发文称：好的环境、好的制度、好的文化。胖东来第一批刑释人员进入岗位以后，没有一个离开...",
-            source: "新京报",
+            title: "被群嘲后，影片票房突飞猛进",
+            summary: "来源：中国新闻周刊 近日，动画电影《牛来》因制作粗糙、上映9天票房仅7169元被群嘲，却意外引爆全民猎奇围观，排片从个位数猛增至600场，票房一路突破10万元。",
+            source: "滚动播报",
             date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/wm/2026-08-15/doc-ininkmqt8720843.shtml"
+            url: "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkrwr8644271.shtml"
         },
         {
-            title: "「微特稿」疑似受沙门氏菌污染 美国千万枚鸡蛋被召回",
-            summary: "【新华社微特稿】法新社14日报道说，美国一家企业上月自愿召回疑似受沙门氏菌污染的上千万枚鸡蛋。美国食品和药物管理局本周将此定为“一级召回”...",
-            source: "新华社",
+            title: "江苏吴中连续四年财务造假 两任会计所无觉察合计罚没1962万元",
+            summary: "来源：中国经营报 中经记者 孙汝祥 夏欣 北京报道 中国证监会日前公布对中汇会计师事务所（以下简称“中汇所”）、中兴财光华会计师事务所（以下简称“中兴财光华”）行政处罚...",
+            source: "滚动播报",
             date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-15/doc-ininkmqn3552498.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkrwp2195742.shtml"
         },
         {
-            title: "美团：已有20多个城市正评估“红灯停表”相关试点条件",
-            summary: "新京报讯（记者秦胜南）美团“红灯停表”功能日前在北京试点路测。随后美团在北京举行骑手恳谈会听取骑手以及专业意见。另据美团介绍...",
-            source: "新京报",
+            title: "澳大利亚出现万事达卡支付遭拒情况",
+            summary: "澳大利亚联邦银行称，受万事达卡全球性故障影响，澳大利亚用户的万事达卡支付出现交易被拒情况。 用户可上报服务故障的网站Downdetector在周六下午3点收到超过1700条关于万...",
+            source: "环球市场播报",
             date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkmqt8711389.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininkrwq1854272.shtml"
+        },
+        {
+            title: "甲骨文(ORCL.US)“星际之门”数据中心遇“能源劫”：核心天然气管道延期至2027年",
+            summary: "来源：智通财经网 一条为新墨西哥州拟建的甲骨文（ORCL.US）人工智能数据中心供应燃料的关键天然气管道项目，已被推迟近六个月。",
+            source: "滚动播报",
+            date: "2026-08-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-15/doc-ininkrwp2189211.shtml"
+        },
+        {
+            title: "视频|美国旧金山企业推出人形机器人保洁服务 每小时30美元",
+            summary: "据该公司首席执行官透露，旧金山一家机器人初创企业已经开始提供由人形机器人完成的家庭保洁服务。 Tau Robotics首席执行官、联合创始人亚历克斯·科赫表示：“没错...",
+            source: "环球市场播报",
+            date: "2026-08-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininkrwk3457356.shtml"
+        },
+        {
+            title: "霍尔木兹海峡发生海事事故 一艘散货船被不明飞行物击中",
+            summary: "当地时间8月15日，据英国海事贸易行动处（UKMTO）发布的消息，霍尔木兹海峡发生一起海事事故。该机构表示已收到一份经核实的报告，称一艘散货船被不明飞行物击中船体。",
+            source: "央视",
+            date: "2026-08-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkrwq1852423.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                            investmentSummary: {
         date: "2026-08-15",
         marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
         hotSectors: [

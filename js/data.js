@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-14 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-14 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-14 实时" },
-        { name: "沪深300", code: "SH000300", value: "4665.88", change: "+0.04%", market: "A股", updateTime: "2026-08-14 实时" },
-        { name: "科创50", code: "SH000688", value: "1717.68", change: "+-0.00%", market: "A股", updateTime: "2026-08-14 实时" },
-        { name: "标普500", code: "SPX", value: "7,781.78", change: "+0.31%", market: "美股", updateTime: "2026-08-14 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,671.59", change: "-0.07%", market: "美股", updateTime: "2026-08-14 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,741.89", change: "-0.55%", market: "美股", updateTime: "2026-08-14 收盘" },
+                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-15 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-15 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-15 实时" },
+        { name: "沪深300", code: "SH000300", value: "4665.88", change: "+0.04%", market: "A股", updateTime: "2026-08-15 实时" },
+        { name: "科创50", code: "SH000688", value: "1717.68", change: "+-0.00%", market: "A股", updateTime: "2026-08-15 实时" },
+        { name: "标普500", code: "SPX", value: "7,785.76", change: "+0.36%", market: "美股", updateTime: "2026-08-15 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,729.16", change: "+0.14%", market: "美股", updateTime: "2026-08-15 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,732.41", change: "-0.56%", market: "美股", updateTime: "2026-08-15 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                marketNews: [
+                                                                                                                                                                    marketNews: [
         {
-            title: "法国宪法委员会否决青少年社交媒体禁令 马克龙改革议程受挫",
-            summary: "法国最高宪法权力机构否决了议会上月通过的禁止15岁以下儿童使用社交媒体的法律，令力推该法案的总统马克龙遭遇挫折。 法国宪法委员会周五裁定，该禁令违宪...",
+            title: "2026年暑期档电影票房破95亿 《功夫女足》《八仙！》《蜘蛛侠：崭新之日》分列暑期档票房榜前三位",
+            summary: " 据猫眼专业版数据，2026年暑期档总票房（含预售）破95亿，《功夫女足》《八仙！》《蜘蛛侠：崭新之日》分列暑期档票房榜前三位。",
+            source: "界面新闻",
+            date: "2026-08-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkfhv8803732.shtml"
+        },
+        {
+            title: "国产品牌涌入，手术机器人厂商如何摆脱单纯卷价格",
+            summary: "随着更多厂商涌入，价格竞争在升温。 2009年，陈必良在中国香港一家医院培训时首次接触到机器人，当时只能观摩、拍照留念，怀抱新奇与向往。",
+            source: "一财网",
+            date: "2026-08-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkfht2333709.shtml"
+        },
+        {
+            title: "尹力在市属媒体和市委网信办调研，要求以正确政绩观引领党员干部鼓足干事创业精气神",
+            summary: "据北京日报消息，连日来，市委书记尹力到北京日报社、北京广播电视台、新京报社和市委网信办调研。他强调，要深入学习贯彻习近平总书记关于树立和践行正确政绩观的重要论述...",
+            source: "新京报",
+            date: "2026-08-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininiyyv2389049.shtml"
+        },
+        {
+            title: "软银集团减持台积电72%股份 交易所申报文件披露",
+            summary: " 周五提交至美国证券交易委员会的申报文件显示，软银集团将其持有的台湾积体电路制造股份有限公司（台积电）股份减持了72%。",
             source: "环球市场播报",
-            date: "2026-08-14",
+            date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininicvf2731370.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininiyyw2117645.shtml"
         },
         {
-            title: "沃伦致函 要求贝森特说明干预日元的依据",
-            summary: " 美国参议员伊丽莎白·沃伦要求财政部长斯科特·贝森特解释特朗普政府干预日元的依据，延续了这位资深民主党人对特朗普政府外汇政策进行审查的一贯做法。",
-            source: "环球市场播报",
-            date: "2026-08-14",
+            title: "尹力在市属媒体和市委网信办调研，要求以正确政绩观引领党员干部鼓足干事创业精气神",
+            summary: "连日来，市委书记尹力到北京日报社、北京广播电视台、新京报社和市委网信办调研。他强调，要深入学习贯彻习近平总书记关于树立和践行正确政绩观的重要论述...",
+            source: "北京发布",
+            date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-14/doc-ininicva4003641.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkfhq3577914.shtml"
         },
         {
-            title: "美国8月密歇根大学消费者信心指数初值为51.0，预估为55",
-            summary: "密歇根大学8月消费者信心指数初值为51.0，前月为55.2。 预估中值为55，41位经济学家的预测区间为51.0至57.2； 当前经济状况指数为51.8；前月为54.8； 预期指数为50.6...",
-            source: "环球市场播报",
-            date: "2026-08-14",
+            title: "飞天精品茅台双双回调 五粮液1618高位休整",
+            summary: "新浪财经“酒价内参”过去24小时收集的数据显示，8月15日中国白酒业11大单品四涨六跌一平，输家占据上风。上涨方面，五粮液普五八代上涨3元至808元...",
+            source: "酒业内参",
+            date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-14/doc-ininicva4003260.shtml"
+            url: "https://finance.sina.com.cn/chanjing/jync/2026-08-15/doc-ininiyyw2110618.shtml"
         },
         {
-            title: "丸红乐见日元走强，以便充分落实120亿美元投资计划",
-            summary: "这家获得伯克希尔・哈撒韦投资的日本综合商社认为，日元升值将为海外并购提供更强购买力 作者：成冈耕作丸红株式会社社长大本真幸在亚太经合组织工商领导人峰会上发言。",
-            source: "环球市场播报",
-            date: "2026-08-14",
+            title: "视频|印尼突发7.7级强震，一建筑物剧烈摇晃碎片不停脱落，现场一片混乱尖叫不断",
+            summary: "▲新京报我们视频出品（ID：wevideo） 8月15日，印尼弗洛勒斯岛附近海域于4时58分发生7.7级地震，震源深度20公里。该地震引发的海啸已经在多个地点被监测到，最高0.36米。",
+            source: "新京报",
+            date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininicvf2722611.shtml"
+            url: "https://finance.sina.com.cn/world/gjcj/2026-08-15/doc-ininiyyv2413176.shtml"
         },
         {
-            title: "企业重金布局量子计算",
-            summary: "大量企业投入数百万资金搭建量子计算项目，谋求竞争优势，并为未来加密技术面临的威胁提前备战 作者：伊莎贝尔・布斯凯特纽约约克敦海茨 IBM 托马斯・J・沃森研究中心内的...",
-            source: "环球市场播报",
-            date: "2026-08-14",
+            title: "宁夏水预算管理实现全覆盖：精打细算，像管钱一样管水（经济新方位）",
+            summary: "宁夏水预算管理实现全覆盖 精打细算，像管钱一样管水（经济新方位） 本报记者 张 文《人民日报》（2026年08月15日第02版） 宁夏回族自治区吴忠市青铜峡市大坝镇沙庙村...",
+            source: "人民日报",
+            date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininicva3993822.shtml"
-        },
-        {
-            title: "AI重塑营销搜索格局之际，Reddit竭力维持自身本色",
-            summary: "此外，Flock 公司出台新规，试图平息车牌扫描设备引发的舆论抗议 作者：纳特・艾夫斯 领导力研究院记者凯蒂・迪顿报道：各大品牌争相入驻 Reddit...",
-            source: "环球市场播报",
-            date: "2026-08-14",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininicva3991282.shtml"
-        },
-        {
-            title: "筹划8个月，002235控制权变更正式落地",
-            summary: "筹划近八个月后，安妮股份控制权变更终于落地。 8月14日晚，安妮股份（002235）公告称，公司原控股股东、实际控制人林旭曦、张杰向北京晟世天安科技有限公司（以下简称“晟...",
-            source: "上海证券报",
-            date: "2026-08-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-14/doc-ininicvh2430595.shtml"
-        },
-        {
-            title: "新材料龙头，上半年亏损1.67亿元，推逾806万股激励计划",
-            summary: "8月14日晚，上纬新材（688585.SH）披露2026年半年度报告。上半年，公司实现营业收入8.03亿元，同比增长2.42%；归属于上市公司股东的净利润亏损1.67亿元...",
-            source: "上海证券报",
-            date: "2026-08-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-14/doc-ininicvf2712459.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininiyyv2403903.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                investmentSummary: {
-        date: "2026-08-14",
-        marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,781.78（+0.31%），纳斯达克报26,671.59（-0.07%）。",
+                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-15",
+        marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
         hotSectors: [
 
         ],

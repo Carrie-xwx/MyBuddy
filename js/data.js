@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-15 实时" },
         { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-15 实时" },
         { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-15 实时" },
@@ -669,7 +669,39 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                marketNews: [
+        {
+            title: "美国海军据悉考虑应特朗普要求重新设计航空母舰",
+            summary: " 据多位现任和前任美国官员透露，美国海军正在考虑对其新型航空母舰进行重大重新设计，以更好地符合美国总统特朗普对军舰外观的偏好。",
+            source: "环球市场播报",
+            date: "2026-08-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininmhuh1644889.shtml"
+        },
+        {
+            title: "伊朗称已与阿曼就霍尔木兹海峡航运路线图达成一致，谈判仍在进行中",
+            summary: " 伊朗外交部发言人巴加埃周六表示，伊朗和阿曼已就“航运路线图”达成一致，这是管理霍尔木兹海峡交通的更广泛协议的一部分。",
+            source: "环球市场播报",
+            date: "2026-08-15",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininmank1731018.shtml"
+        },
+        {
+            title: "韩国表示与美国就战略投资项目进行的磋商仍在进行中",
+            summary: "韩国表示与美国就战略投资项目进行的磋商仍在继续，此前有媒体报道称华盛顿正敦促首尔加快推进相关计划。 韩国总统办公室一名官员周六回应关于该报道的询问时表示...",
+            source: "环球市场播报",
+            date: "2026-08-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininmani2062137.shtml"
+        },
+        {
+            title: "伊朗正就向塔吉克斯坦供应石油和过剩燃料进行谈判",
+            summary: " 伊朗石油部长帕克内贾德周六在德黑兰会见塔吉克斯坦能源部长后表示，伊朗正就向塔吉克斯坦供应石油和过剩燃料进行谈判。",
+            source: "环球市场播报",
+            date: "2026-08-15",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininkwep8600993.shtml"
+        },
         {
             title: "郭德纲被立案调查，湖北文旅厅回应，此前西安站演出已取消",
             summary: "近日，郭德纲被举报于7月24日在武汉演出时，篡改红歌《弹起我心爱的土琵琶》。澎湃新闻从武汉市文旅局获悉，该改编内容没有出现在报备材料中。",
@@ -702,38 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkrwp2195742.shtml"
         },
-        {
-            title: "澳大利亚出现万事达卡支付遭拒情况",
-            summary: "澳大利亚联邦银行称，受万事达卡全球性故障影响，澳大利亚用户的万事达卡支付出现交易被拒情况。 用户可上报服务故障的网站Downdetector在周六下午3点收到超过1700条关于万...",
-            source: "环球市场播报",
-            date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininkrwq1854272.shtml"
-        },
-        {
-            title: "甲骨文(ORCL.US)“星际之门”数据中心遇“能源劫”：核心天然气管道延期至2027年",
-            summary: "来源：智通财经网 一条为新墨西哥州拟建的甲骨文（ORCL.US）人工智能数据中心供应燃料的关键天然气管道项目，已被推迟近六个月。",
-            source: "滚动播报",
-            date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-15/doc-ininkrwp2189211.shtml"
-        },
-        {
-            title: "视频|美国旧金山企业推出人形机器人保洁服务 每小时30美元",
-            summary: "据该公司首席执行官透露，旧金山一家机器人初创企业已经开始提供由人形机器人完成的家庭保洁服务。 Tau Robotics首席执行官、联合创始人亚历克斯·科赫表示：“没错...",
-            source: "环球市场播报",
-            date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininkrwk3457356.shtml"
-        },
-        {
-            title: "霍尔木兹海峡发生海事事故 一艘散货船被不明飞行物击中",
-            summary: "当地时间8月15日，据英国海事贸易行动处（UKMTO）发布的消息，霍尔木兹海峡发生一起海事事故。该机构表示已收到一份经核实的报告，称一艘散货船被不明飞行物击中船体。",
-            source: "央视",
-            date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkrwq1852423.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,17 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                investmentSummary: {
         date: "2026-08-15",
         marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
         hotSectors: [
-
+            { name: "稀土", reason: "板块涨幅+5.82%", strength: "强" },
+            { name: "通信线缆及配套", reason: "板块涨幅+5.33%", strength: "强" },
+            { name: "激光设备", reason: "板块涨幅+4.44%", strength: "强" },
+            { name: "电子化学品Ⅲ", reason: "板块涨幅+3.75%", strength: "强" },
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注稀土、通信线缆及配套、激光设备等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

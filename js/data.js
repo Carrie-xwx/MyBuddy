@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-15 实时" },
         { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-15 实时" },
         { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-15 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                    marketNews: [
+                                                                                                                                                                        marketNews: [
         {
-            title: "2026年暑期档电影票房破95亿 《功夫女足》《八仙！》《蜘蛛侠：崭新之日》分列暑期档票房榜前三位",
-            summary: " 据猫眼专业版数据，2026年暑期档总票房（含预售）破95亿，《功夫女足》《八仙！》《蜘蛛侠：崭新之日》分列暑期档票房榜前三位。",
-            source: "界面新闻",
+            title: "英伟达CPO交换机全面量产：能效提升5倍，供应商包括天孚通信",
+            summary: "8月14日，英伟达NVIDIA AI Infrastructure官方X账号宣布，Spectrum-X以太网硅光交换机（Ethernet Photonics）现已全面量产，为AI工厂提供下一代Scale-Out（横向扩展）网络...",
+            source: "澎湃新闻",
             date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkfhv8803732.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkmqs1962999.shtml"
         },
         {
-            title: "国产品牌涌入，手术机器人厂商如何摆脱单纯卷价格",
-            summary: "随着更多厂商涌入，价格竞争在升温。 2009年，陈必良在中国香港一家医院培训时首次接触到机器人，当时只能观摩、拍照留念，怀抱新奇与向往。",
-            source: "一财网",
+            title: "中际旭创等AH股价格倒挂 国际资本重新定价硬科技核心资产",
+            summary: "伴随着国际资本持续“买买买”，越来越多硬科技次新股 出现AH价格倒挂。 截至8月13日，共有7家公司H股较A股出现溢价，分别为宁德时代 、澜起科技 、招商银行 、兆易创新 ...",
+            source: "21世纪经济报道",
             date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkfht2333709.shtml"
+            url: "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkmqs1961968.shtml"
         },
         {
-            title: "尹力在市属媒体和市委网信办调研，要求以正确政绩观引领党员干部鼓足干事创业精气神",
-            summary: "据北京日报消息，连日来，市委书记尹力到北京日报社、北京广播电视台、新京报社和市委网信办调研。他强调，要深入学习贯彻习近平总书记关于树立和践行正确政绩观的重要论述...",
-            source: "新京报",
-            date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininiyyv2389049.shtml"
-        },
-        {
-            title: "软银集团减持台积电72%股份 交易所申报文件披露",
-            summary: " 周五提交至美国证券交易委员会的申报文件显示，软银集团将其持有的台湾积体电路制造股份有限公司（台积电）股份减持了72%。",
+            title: "资管机构角逐德国规模达5000亿欧元养老金历史性转型",
+            summary: " 自19世纪末俾斯麦首相创立以来，德国养老金体系规模最大的改革之一即将落地，将为现代基金管理人带来规模庞大的新增可配置资金。",
             source: "环球市场播报",
             date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininiyyw2117645.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-15/doc-ininkmqt8729053.shtml"
         },
         {
-            title: "尹力在市属媒体和市委网信办调研，要求以正确政绩观引领党员干部鼓足干事创业精气神",
-            summary: "连日来，市委书记尹力到北京日报社、北京广播电视台、新京报社和市委网信办调研。他强调，要深入学习贯彻习近平总书记关于树立和践行正确政绩观的重要论述...",
-            source: "北京发布",
+            title: "印度下调8月下半年运输燃料出口税",
+            summary: "印度政府一份公告显示，印度下调8月中旬至月底的柴油、汽油以及航空煤油出口关税。 柴油全部消费税由每升25.5卢比下调至24卢比。",
+            source: "环球市场播报",
             date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkfhq3577914.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-15/doc-ininkmqn3552915.shtml"
         },
         {
-            title: "飞天精品茅台双双回调 五粮液1618高位休整",
-            summary: "新浪财经“酒价内参”过去24小时收集的数据显示，8月15日中国白酒业11大单品四涨六跌一平，输家占据上风。上涨方面，五粮液普五八代上涨3元至808元...",
-            source: "酒业内参",
+            title: "刚刚！持续拉升，空头遭“重锤”！美国经济，生变！又有油轮，遭伊朗袭击！",
+            summary: "本文源自：期货日报 一起来看下重要资讯！ 加密货币主要币种持续上涨截至发稿，比特币美元指数上涨0.2%，以太坊上涨0.18%，瑞波币上涨0.74%。",
+            source: "滚动播报",
             date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/chanjing/jync/2026-08-15/doc-ininiyyw2110618.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-08-15/doc-ininkmqs1951926.shtml"
         },
         {
-            title: "视频|印尼突发7.7级强震，一建筑物剧烈摇晃碎片不停脱落，现场一片混乱尖叫不断",
-            summary: "▲新京报我们视频出品（ID：wevideo） 8月15日，印尼弗洛勒斯岛附近海域于4时58分发生7.7级地震，震源深度20公里。该地震引发的海啸已经在多个地点被监测到，最高0.36米。",
+            title: "于东来凌晨发文回应“胖东来再招20名刑释人员”：第一批刑释人员上岗后没有一个离开",
+            summary: "8月15日凌晨，胖东来创始人于东来在社交平台发文称：好的环境、好的制度、好的文化。胖东来第一批刑释人员进入岗位以后，没有一个离开...",
             source: "新京报",
             date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/gjcj/2026-08-15/doc-ininiyyv2413176.shtml"
+            url: "https://finance.sina.com.cn/wm/2026-08-15/doc-ininkmqt8720843.shtml"
         },
         {
-            title: "宁夏水预算管理实现全覆盖：精打细算，像管钱一样管水（经济新方位）",
-            summary: "宁夏水预算管理实现全覆盖 精打细算，像管钱一样管水（经济新方位） 本报记者 张 文《人民日报》（2026年08月15日第02版） 宁夏回族自治区吴忠市青铜峡市大坝镇沙庙村...",
-            source: "人民日报",
+            title: "「微特稿」疑似受沙门氏菌污染 美国千万枚鸡蛋被召回",
+            summary: "【新华社微特稿】法新社14日报道说，美国一家企业上月自愿召回疑似受沙门氏菌污染的上千万枚鸡蛋。美国食品和药物管理局本周将此定为“一级召回”...",
+            source: "新华社",
             date: "2026-08-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininiyyv2403903.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-15/doc-ininkmqn3552498.shtml"
+        },
+        {
+            title: "美团：已有20多个城市正评估“红灯停表”相关试点条件",
+            summary: "新京报讯（记者秦胜南）美团“红灯停表”功能日前在北京试点路测。随后美团在北京举行骑手恳谈会听取骑手以及专业意见。另据美团介绍...",
+            source: "新京报",
+            date: "2026-08-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkmqt8711389.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                        investmentSummary: {
         date: "2026-08-15",
         marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
         hotSectors: [

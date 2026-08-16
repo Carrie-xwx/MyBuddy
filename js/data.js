@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-16 实时" },
         { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-16 实时" },
         { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-16 实时" },
@@ -669,7 +669,63 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                marketNews: [
+        {
+            title: "闪迪股价连涨暴涨！华尔街力挺其AI闪存长期增长雄心",
+            summary: "股价强势表现周五，闪迪（Sandisk，股票代码：SNDK）股价大涨约6%，延续前一交易日13%的涨幅，收盘报1641.11美元，盘后继续小幅上扬。",
+            source: "环球市场播报",
+            date: "2026-08-16",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininpmth0839179.shtml"
+        },
+        {
+            title: "高盛助攻英伟达：5000亿美元计划，破解AI基建最大资金瓶颈",
+            summary: "英伟达（Nvidia）正着手解决AI热潮中日益凸显的核心制约——融资难题。高盛（Goldman Sachs）已开始与保险公司、银行及资产管理公司接洽...",
+            source: "环球市场播报",
+            date: "2026-08-16",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininpmtk9602522.shtml"
+        },
+        {
+            title: "四连板熄火！“龙餐馆”概念炒作落幕，北京文化上半年再度亏损",
+            summary: "这个暑期档，电影业热闹非凡。热门电影《欢迎来龙餐馆》出品方之一北京文化上半年业绩曝光。 近日，北京文化披露2026年半年度报告，上半年净利润亏损3920.48万元。",
+            source: "券商中国",
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininpmtk9599490.shtml"
+        },
+        {
+            title: "000036，突遭利空",
+            summary: "来源：中国基金报 【导读】华联控股产业转型突然遇阻，拟投资阿根廷锂盐湖项目触发审查 中国基金报记者 闻言 8月16日晚间，华联控股发布公告称...",
+            source: "市场资讯",
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininpmth0832854.shtml"
+        },
+        {
+            title: "601996，需缴回约2700万元退税款，已连续2年亏损",
+            summary: "来源：中国基金报 【导读】丰林集团被要求缴回约2700万元退税款 中国基金报记者 夏天 8月16日晚间，丰林集团（证券代码：601996）发布公告称...",
+            source: "市场资讯",
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininpmti7587496.shtml"
+        },
+        {
+            title: "股价年内跌超四成，子公司股权流拍欠薪传闻缠身，凯撒旅业账面减亏仍靠非经常性损益“粉饰”",
+            summary: "来源：华夏时报 华夏时报记者 王敬 北京报道 近日，老牌出境游旅企凯撒旅业（000796.SZ）陷入了子公司股权流拍与欠薪传闻交织的舆论漩涡。",
+            source: "市场资讯",
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininpmtf1196090.shtml"
+        },
+        {
+            title: "“芯片”借壳幻象破灭：宝莱特易主夭折，三年亏超两亿元拿什么熬过寒冬？",
+            summary: "来源：华夏时报 华夏时报记者 于娜 北京报道 没有基本面支撑的“易主”预期，或许只是一场易碎的泡沫，真正的考验才刚刚开始。 国产血液净化设备头部企业广东宝莱特医用科技...",
+            source: "市场资讯",
+            date: "2026-08-16",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininpmtk9577146.shtml"
+        },
         {
             title: "转型多年业绩未见起色，重资产“包袱”沉重，湖北广电中报续亏超2.52亿",
             summary: "来源：证券之星 近日，湖北广电（000665.SZ）发布2026年半年度业绩预告。预计今年上半年公司业绩延续亏损态势，其中扣非后净利润亏损超2.52亿元，与上年同期基本持平。",
@@ -677,62 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-08-16",
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininnzcn1000543.shtml"
-        },
-        {
-            title: "冠豪高新：5.48亿资产处置“扮靓”利润，现金流仍未回正",
-            summary: "来源：证券之星 8月8日，冠豪高新（600433.SH）披露2026年半年度报告，账面数据呈现大幅反转。报告期内，公司实现营业收入36.39亿元，同比小幅上涨6.94%；归属净利润2...",
-            source: "市场资讯",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininnzcn1000329.shtml"
-        },
-        {
-            title: "江波龙：百亿存货压顶、现金流持续“失血”，高价定增套牢投资机构",
-            summary: "来源：证券之星 近日，江波龙（301308.SZ）披露了2026年半年度报告，公司营收和净利润双双实现增长。证券之星注意到，业绩增长背后尚存隐忧，为锁定上游晶圆供应...",
-            source: "市场资讯",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininnzcp7772625.shtml"
-        },
-        {
-            title: "Waymo获批大幅扩张加州运营范围，机器人出租车服务将覆盖18个县",
-            summary: " Alphabet旗下自动驾驶公司Waymo已获得加州公共事业委员会（CPUC）批准，可在18个县运营机器人出租车，服务范围将大幅扩展。",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnuvp1470667.shtml"
-        },
-        {
-            title: "英伟达洽谈向SB Energy投资30亿美元，为OpenAI俄亥俄数据中心提供百亿美元信贷支持",
-            summary: " 英伟达正与软银支持的SB Energy就最高30亿美元投资展开谈判。这笔投资与英伟达向OpenAI提供约1000亿美元信贷支持的讨论直接相关，旨在推动俄亥俄州大型数据中心项目落地。",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnuvq1091191.shtml"
-        },
-        {
-            title: "PayPal洽谈出售：Stripe与私募巨头Advent联手出价，谈判报价已超530亿美元",
-            summary: " PayPal Holdings正与包括Stripe和私募股权公司Advent International在内的买家集团就出售事宜展开谈判。知情人士透露，双方已就收购展开实质性讨论。",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnuvq1087940.shtml"
-        },
-        {
-            title: "女子指控继父用Grok将11岁童年照生成数千张露骨图像，加入起诉xAI诉讼",
-            summary: "一名化名Jane Doe 4的女子已加入三名田纳西州青少年对埃隆·马斯克旗下xAI公司提起的诉讼。该诉讼指控xAI的聊天机器人Grok被用于生成儿童性虐待相关材料。",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnuvq1086935.shtml"
-        },
-        {
-            title: "特朗普家族旗舰加密企业获信托银行初步牌照，可自主发行与托管40亿美元稳定币",
-            summary: "特朗普家族旗舰加密企业World Liberty Financial周五宣布，其信托公司已获得美国货币监理署（OCC）有条件初步批准，成为银行。最终获批后...",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnuvq1085110.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                investmentSummary: {
         date: "2026-08-16",
         marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
         hotSectors: [
-
+            { name: "稀土", reason: "板块涨幅+5.82%", strength: "强" },
+            { name: "通信线缆及配套", reason: "板块涨幅+5.33%", strength: "强" },
+            { name: "激光设备", reason: "板块涨幅+4.44%", strength: "强" },
+            { name: "电子化学品Ⅲ", reason: "板块涨幅+3.75%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "其他数字媒体", reason: "板块跌幅-3.78%", strength: "弱" },
+            { name: "院线", reason: "板块跌幅-3.64%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注稀土、通信线缆及配套、激光设备等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-16 实时" },
         { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-16 实时" },
         { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-16 实时" },
@@ -669,7 +669,31 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                        marketNews: [
+        {
+            title: "大麦娱乐入局潮玩赛道，HEY PENNY、ECHOA等原创IP亮相“好运连得”线下店",
+            summary: "8月16日，大麦娱乐现实娱乐战略版图再添新动作，旗下潮玩品牌“好运连得”（LUCKY LOOP）启动六城八店布局计划。当日，首批线下门店于上海、深圳...",
+            source: "新浪证券",
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/observe/2026-08-16/doc-ininnuvq1046937.shtml"
+        },
+        {
+            title: "民调：超半数美国选民称生活境况恶化，民主党在经济就业议题获得更多选民信任",
+            summary: " 一项民调显示，多数美国选民表示自身生活境况在特朗普执政期间出现恶化，民众对总统处理经济、生活成本问题的不满情绪持续攀升。",
+            source: "环球市场播报",
+            date: "2026-08-16",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnqps1158228.shtml"
+        },
+        {
+            title: "大众等头部车企采用新型机油与润滑油配方以缓解供应短缺",
+            summary: "大众、斯特兰蒂斯、丰田等车企开始采用新型调配机油与润滑油配方，以此缓解中东冲突引发的严重供应短缺危机。 冲突爆发初期几个月车企尚能依靠库存维持生产...",
+            source: "环球市场播报",
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnqpt7930118.shtml"
+        },
         {
             title: "韩国首尔首次购房人数创四年多来新高",
             summary: "一份报告显示，韩国首尔首次购房人群数量创下四年八个月新高。 韩国法院不动产登记信息广场16日数据，上月首尔共有7552名购房者办理首套住宅（集合住宅）所有权转移登记。...",
@@ -710,30 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnkfw9985828.shtml"
         },
-        {
-            title: "LG电子巴西新冰箱工厂正式投产",
-            summary: "韩国大型家电厂商LG电子周日表示，为进一步深耕南美市场，其位于巴西的全新家电工厂已正式投产。 这座新建工厂坐落于巴西南部巴拉那州，是LG电子在当地的第二座工厂...",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnkfw9981787.shtml"
-        },
-        {
-            title: "韩国家庭信贷料首次突破2000万亿韩元关口",
-            summary: " 行业消息人士周日透露，受住房抵押贷款与股票质押贷款增长推动，韩国二季度家庭信贷规模料将首次突破2000万亿韩元（折合1.41万亿美元）大关。",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnkfw9979630.shtml"
-        },
-        {
-            title: "韩国股市回暖卖空规模却不降反升 投资者疑虑芯片行业是否见顶",
-            summary: " 周日公布的数据显示，尽管韩国股市从芯片及人工智能相关个股暴跌引发的行情崩盘中大幅反弹，但股票卖空规模仍在持续走高。",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnkfu1216181.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-16",
         marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
         hotSectors: [
@@ -775,8 +775,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "电子化学品Ⅲ", reason: "板块涨幅+3.75%", strength: "强" },
         ],
         weakSectors: [
-            { name: "其他数字媒体", reason: "板块跌幅-3.78%", strength: "弱" },
-            { name: "院线", reason: "板块跌幅-3.64%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
         shortTermStrategy: "超短线关注稀土、通信线缆及配套、激光设备等板块的延续性，顺势操作，严格止损。",

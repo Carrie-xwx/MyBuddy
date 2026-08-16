@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-15 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-15 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-15 实时" },
-        { name: "沪深300", code: "SH000300", value: "4665.88", change: "+0.04%", market: "A股", updateTime: "2026-08-15 实时" },
-        { name: "科创50", code: "SH000688", value: "1717.68", change: "+-0.00%", market: "A股", updateTime: "2026-08-15 实时" },
-        { name: "标普500", code: "SPX", value: "7,785.76", change: "+0.36%", market: "美股", updateTime: "2026-08-15 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,729.16", change: "+0.14%", market: "美股", updateTime: "2026-08-15 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,732.41", change: "-0.56%", market: "美股", updateTime: "2026-08-15 收盘" },
+                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-16 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-16 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-16 实时" },
+        { name: "沪深300", code: "SH000300", value: "4665.88", change: "+0.04%", market: "A股", updateTime: "2026-08-16 实时" },
+        { name: "科创50", code: "SH000688", value: "1717.68", change: "+-0.00%", market: "A股", updateTime: "2026-08-16 实时" },
+        { name: "标普500", code: "SPX", value: "7,785.76", change: "+0.36%", market: "美股", updateTime: "2026-08-16 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,729.16", change: "+0.14%", market: "美股", updateTime: "2026-08-16 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,732.41", change: "-0.56%", market: "美股", updateTime: "2026-08-16 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                    marketNews: [
         {
-            title: "美国海军据悉考虑应特朗普要求重新设计航空母舰",
-            summary: " 据多位现任和前任美国官员透露，美国海军正在考虑对其新型航空母舰进行重大重新设计，以更好地符合美国总统特朗普对军舰外观的偏好。",
+            title: "韩国首尔首次购房人数创四年多来新高",
+            summary: "一份报告显示，韩国首尔首次购房人群数量创下四年八个月新高。 韩国法院不动产登记信息广场16日数据，上月首尔共有7552名购房者办理首套住宅（集合住宅）所有权转移登记。...",
             source: "环球市场播报",
-            date: "2026-08-15",
+            date: "2026-08-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininmhuh1644889.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnqpt7905703.shtml"
         },
         {
-            title: "伊朗称已与阿曼就霍尔木兹海峡航运路线图达成一致，谈判仍在进行中",
-            summary: " 伊朗外交部发言人巴加埃周六表示，伊朗和阿曼已就“航运路线图”达成一致，这是管理霍尔木兹海峡交通的更广泛协议的一部分。",
+            title: "美国史无前例 特朗普家族加密企业World Liberty获银行牌照",
+            summary: " 由特朗普任命的国家银行监管机构，向特朗普家族加密业务旗下一家子公司授予银行牌照的有条件批准。这将助力该企业对接大型客户，还有望进一步提升利润。",
             source: "环球市场播报",
-            date: "2026-08-15",
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnqpu9880058.shtml"
+        },
+        {
+            title: "英国7月通胀料回升至2.9% 英国央行警惕AI芯片与能源双重冲击",
+            summary: " 未来一周，英国消费者物价数据将成为市场焦点。受人工智能引发的存储芯片短缺、能源成本走高影响，英国央行将保持警惕。",
+            source: "环球市场播报",
+            date: "2026-08-16",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininmank1731018.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnkfv8014779.shtml"
         },
         {
-            title: "韩国表示与美国就战略投资项目进行的磋商仍在进行中",
-            summary: "韩国表示与美国就战略投资项目进行的磋商仍在继续，此前有媒体报道称华盛顿正敦促首尔加快推进相关计划。 韩国总统办公室一名官员周六回应关于该报道的询问时表示...",
+            title: "苹果想让长鑫当“鲶鱼”",
+            summary: "来源：三里河 以长鑫存储为代表的中国企业正在用技术和市场说话。 苹果最近正在主动接触长鑫存储。 据韩国媒体《Digital Daily》报道，苹果近期找到长鑫存储...",
+            source: "市场资讯",
+            date: "2026-08-16",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/world/2026-08-16/doc-ininnkfu1241211.shtml"
+        },
+        {
+            title: "韩国每五名成年人中就有一人持有三星电子股票",
+            summary: " 今年上半年，三星电子个人小股东数量逼近800万。这一数字大幅攀升，源于股市空前火热，叠加市场对半导体企业价值预期抬升，大量个人投资者涌入这只蓝筹股。",
             source: "环球市场播报",
-            date: "2026-08-15",
+            date: "2026-08-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininmani2062137.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnkfw9985828.shtml"
         },
         {
-            title: "伊朗正就向塔吉克斯坦供应石油和过剩燃料进行谈判",
-            summary: " 伊朗石油部长帕克内贾德周六在德黑兰会见塔吉克斯坦能源部长后表示，伊朗正就向塔吉克斯坦供应石油和过剩燃料进行谈判。",
+            title: "LG电子巴西新冰箱工厂正式投产",
+            summary: "韩国大型家电厂商LG电子周日表示，为进一步深耕南美市场，其位于巴西的全新家电工厂已正式投产。 这座新建工厂坐落于巴西南部巴拉那州，是LG电子在当地的第二座工厂...",
             source: "环球市场播报",
-            date: "2026-08-15",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininkwep8600993.shtml"
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnkfw9981787.shtml"
         },
         {
-            title: "郭德纲被立案调查，湖北文旅厅回应，此前西安站演出已取消",
-            summary: "近日，郭德纲被举报于7月24日在武汉演出时，篡改红歌《弹起我心爱的土琵琶》。澎湃新闻从武汉市文旅局获悉，该改编内容没有出现在报备材料中。",
-            source: "中国新闻网",
-            date: "2026-08-15",
+            title: "韩国家庭信贷料首次突破2000万亿韩元关口",
+            summary: " 行业消息人士周日透露，受住房抵押贷款与股票质押贷款增长推动，韩国二季度家庭信贷规模料将首次突破2000万亿韩元（折合1.41万亿美元）大关。",
+            source: "环球市场播报",
+            date: "2026-08-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkrwr8660094.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnkfw9979630.shtml"
         },
         {
-            title: "视频|多花1.4亿元打广告辣条却少卖1.3亿元 卫龙中报增速放缓 九成派息引争议",
-            summary: "视频|多花1.4亿元打广告辣条却少卖1.3亿元 卫龙中报增速放缓 九成派息引争议",
-            source: "滚动播报",
-            date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkrwq1870335.shtml"
-        },
-        {
-            title: "被群嘲后，影片票房突飞猛进",
-            summary: "来源：中国新闻周刊 近日，动画电影《牛来》因制作粗糙、上映9天票房仅7169元被群嘲，却意外引爆全民猎奇围观，排片从个位数猛增至600场，票房一路突破10万元。",
-            source: "滚动播报",
-            date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkrwr8644271.shtml"
-        },
-        {
-            title: "江苏吴中连续四年财务造假 两任会计所无觉察合计罚没1962万元",
-            summary: "来源：中国经营报 中经记者 孙汝祥 夏欣 北京报道 中国证监会日前公布对中汇会计师事务所（以下简称“中汇所”）、中兴财光华会计师事务所（以下简称“中兴财光华”）行政处罚...",
-            source: "滚动播报",
-            date: "2026-08-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininkrwp2195742.shtml"
+            title: "韩国股市回暖卖空规模却不降反升 投资者疑虑芯片行业是否见顶",
+            summary: " 周日公布的数据显示，尽管韩国股市从芯片及人工智能相关个股暴跌引发的行情崩盘中大幅反弹，但股票卖空规模仍在持续走高。",
+            source: "环球市场播报",
+            date: "2026-08-16",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnkfu1216181.shtml"
         },
     ],
 
@@ -765,8 +765,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-15",
+                                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-16",
         marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
         hotSectors: [
             { name: "稀土", reason: "板块涨幅+5.82%", strength: "强" },
@@ -775,7 +775,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "电子化学品Ⅲ", reason: "板块涨幅+3.75%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "其他数字媒体", reason: "板块跌幅-3.78%", strength: "弱" },
+            { name: "院线", reason: "板块跌幅-3.64%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
         shortTermStrategy: "超短线关注稀土、通信线缆及配套、激光设备等板块的延续性，顺势操作，严格止损。",

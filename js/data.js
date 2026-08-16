@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-16 实时" },
         { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-16 实时" },
         { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-16 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                            marketNews: [
         {
-            title: "大麦娱乐入局潮玩赛道，HEY PENNY、ECHOA等原创IP亮相“好运连得”线下店",
-            summary: "8月16日，大麦娱乐现实娱乐战略版图再添新动作，旗下潮玩品牌“好运连得”（LUCKY LOOP）启动六城八店布局计划。当日，首批线下门店于上海、深圳...",
-            source: "新浪证券",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/observe/2026-08-16/doc-ininnuvq1046937.shtml"
-        },
-        {
-            title: "民调：超半数美国选民称生活境况恶化，民主党在经济就业议题获得更多选民信任",
-            summary: " 一项民调显示，多数美国选民表示自身生活境况在特朗普执政期间出现恶化，民众对总统处理经济、生活成本问题的不满情绪持续攀升。",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnqps1158228.shtml"
-        },
-        {
-            title: "大众等头部车企采用新型机油与润滑油配方以缓解供应短缺",
-            summary: "大众、斯特兰蒂斯、丰田等车企开始采用新型调配机油与润滑油配方，以此缓解中东冲突引发的严重供应短缺危机。 冲突爆发初期几个月车企尚能依靠库存维持生产...",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnqpt7930118.shtml"
-        },
-        {
-            title: "韩国首尔首次购房人数创四年多来新高",
-            summary: "一份报告显示，韩国首尔首次购房人群数量创下四年八个月新高。 韩国法院不动产登记信息广场16日数据，上月首尔共有7552名购房者办理首套住宅（集合住宅）所有权转移登记。...",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnqpt7905703.shtml"
-        },
-        {
-            title: "美国史无前例 特朗普家族加密企业World Liberty获银行牌照",
-            summary: " 由特朗普任命的国家银行监管机构，向特朗普家族加密业务旗下一家子公司授予银行牌照的有条件批准。这将助力该企业对接大型客户，还有望进一步提升利润。",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnqpu9880058.shtml"
-        },
-        {
-            title: "英国7月通胀料回升至2.9% 英国央行警惕AI芯片与能源双重冲击",
-            summary: " 未来一周，英国消费者物价数据将成为市场焦点。受人工智能引发的存储芯片短缺、能源成本走高影响，英国央行将保持警惕。",
-            source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnkfv8014779.shtml"
-        },
-        {
-            title: "苹果想让长鑫当“鲶鱼”",
-            summary: "来源：三里河 以长鑫存储为代表的中国企业正在用技术和市场说话。 苹果最近正在主动接触长鑫存储。 据韩国媒体《Digital Daily》报道，苹果近期找到长鑫存储...",
+            title: "转型多年业绩未见起色，重资产“包袱”沉重，湖北广电中报续亏超2.52亿",
+            summary: "来源：证券之星 近日，湖北广电（000665.SZ）发布2026年半年度业绩预告。预计今年上半年公司业绩延续亏损态势，其中扣非后净利润亏损超2.52亿元，与上年同期基本持平。",
             source: "市场资讯",
             date: "2026-08-16",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/world/2026-08-16/doc-ininnkfu1241211.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininnzcn1000543.shtml"
         },
         {
-            title: "韩国每五名成年人中就有一人持有三星电子股票",
-            summary: " 今年上半年，三星电子个人小股东数量逼近800万。这一数字大幅攀升，源于股市空前火热，叠加市场对半导体企业价值预期抬升，大量个人投资者涌入这只蓝筹股。",
+            title: "冠豪高新：5.48亿资产处置“扮靓”利润，现金流仍未回正",
+            summary: "来源：证券之星 8月8日，冠豪高新（600433.SH）披露2026年半年度报告，账面数据呈现大幅反转。报告期内，公司实现营业收入36.39亿元，同比小幅上涨6.94%；归属净利润2...",
+            source: "市场资讯",
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininnzcn1000329.shtml"
+        },
+        {
+            title: "江波龙：百亿存货压顶、现金流持续“失血”，高价定增套牢投资机构",
+            summary: "来源：证券之星 近日，江波龙（301308.SZ）披露了2026年半年度报告，公司营收和净利润双双实现增长。证券之星注意到，业绩增长背后尚存隐忧，为锁定上游晶圆供应...",
+            source: "市场资讯",
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininnzcp7772625.shtml"
+        },
+        {
+            title: "Waymo获批大幅扩张加州运营范围，机器人出租车服务将覆盖18个县",
+            summary: " Alphabet旗下自动驾驶公司Waymo已获得加州公共事业委员会（CPUC）批准，可在18个县运营机器人出租车，服务范围将大幅扩展。",
             source: "环球市场播报",
             date: "2026-08-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnkfw9985828.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnuvp1470667.shtml"
+        },
+        {
+            title: "英伟达洽谈向SB Energy投资30亿美元，为OpenAI俄亥俄数据中心提供百亿美元信贷支持",
+            summary: " 英伟达正与软银支持的SB Energy就最高30亿美元投资展开谈判。这笔投资与英伟达向OpenAI提供约1000亿美元信贷支持的讨论直接相关，旨在推动俄亥俄州大型数据中心项目落地。",
+            source: "环球市场播报",
+            date: "2026-08-16",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnuvq1091191.shtml"
+        },
+        {
+            title: "PayPal洽谈出售：Stripe与私募巨头Advent联手出价，谈判报价已超530亿美元",
+            summary: " PayPal Holdings正与包括Stripe和私募股权公司Advent International在内的买家集团就出售事宜展开谈判。知情人士透露，双方已就收购展开实质性讨论。",
+            source: "环球市场播报",
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnuvq1087940.shtml"
+        },
+        {
+            title: "女子指控继父用Grok将11岁童年照生成数千张露骨图像，加入起诉xAI诉讼",
+            summary: "一名化名Jane Doe 4的女子已加入三名田纳西州青少年对埃隆·马斯克旗下xAI公司提起的诉讼。该诉讼指控xAI的聊天机器人Grok被用于生成儿童性虐待相关材料。",
+            source: "环球市场播报",
+            date: "2026-08-16",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnuvq1086935.shtml"
+        },
+        {
+            title: "特朗普家族旗舰加密企业获信托银行初步牌照，可自主发行与托管40亿美元稳定币",
+            summary: "特朗普家族旗舰加密企业World Liberty Financial周五宣布，其信托公司已获得美国货币监理署（OCC）有条件初步批准，成为银行。最终获批后...",
+            source: "环球市场播报",
+            date: "2026-08-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininnuvq1085110.shtml"
         },
     ],
 
@@ -765,20 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                            investmentSummary: {
         date: "2026-08-16",
         marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
         hotSectors: [
-            { name: "稀土", reason: "板块涨幅+5.82%", strength: "强" },
-            { name: "通信线缆及配套", reason: "板块涨幅+5.33%", strength: "强" },
-            { name: "激光设备", reason: "板块涨幅+4.44%", strength: "强" },
-            { name: "电子化学品Ⅲ", reason: "板块涨幅+3.75%", strength: "强" },
+
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注稀土、通信线缆及配套、激光设备等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

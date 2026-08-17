@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3982.65", change: "+1.41%", market: "A股", updateTime: "2026-08-17 实时" },
         { name: "深证成指", code: "SZ399001", value: "14704.27", change: "+2.44%", market: "A股", updateTime: "2026-08-17 实时" },
         { name: "创业板指", code: "SZ399006", value: "3740.16", change: "+3.14%", market: "A股", updateTime: "2026-08-17 实时" },
         { name: "沪深300", code: "SH000300", value: "4741.10", change: "+1.61%", market: "A股", updateTime: "2026-08-17 实时" },
         { name: "科创50", code: "SH000688", value: "1788.85", change: "+4.14%", market: "A股", updateTime: "2026-08-17 实时" },
-        { name: "标普500", code: "SPX", value: "7,785.76", change: "+0.36%", market: "美股", updateTime: "2026-08-17 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,729.16", change: "+0.14%", market: "美股", updateTime: "2026-08-17 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,732.41", change: "-0.56%", market: "美股", updateTime: "2026-08-17 收盘" },
+        { name: "标普500", code: "SPX", value: "7,774.42", change: "+0.27%", market: "美股", updateTime: "2026-08-17 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,733.29", change: "+0.48%", market: "美股", updateTime: "2026-08-17 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,600.78", change: "-0.70%", market: "美股", updateTime: "2026-08-17 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                marketNews: [
         {
-            title: "德塔智能与舞肌科技达成战略合作，联合规范全身协同灵巧操作数据采集",
-            summary: "新浪科技讯 8月17日下午消息，近日，原生人形机器人基础模型公司德塔智能（Delta Intelligence）宣布与灵巧手硬件企业舞肌科技正式签署战略合作协议。",
-            source: "新浪科技",
-            date: "2026-08-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tech/it/2026-08-17/doc-ininrkkm6946010.shtml"
-        },
-        {
-            title: "Nebius与CoreWeave主推短期云订单，AWS深耕长期合约",
-            summary: "上周，Nebius 与 CoreWeave 均向投资者推介一项全新商业机会 —— 短期算力合约。这两家新兴云厂商表示，依托 GPU 紧缺、AI 算力价格暴涨的行情...",
+            title: "高盛：市场对美联储加息定价仍过于鹰派，9月加息“非常不可能”",
+            summary: "高盛首席经济学家Jan Hatzius在8月16日（周日）发给客户的研究报告中明确指出，当前市场对美联储进一步加息的定价仍过于鹰派。结合近期软于预期的零售销售...",
             source: "环球市场播报",
             date: "2026-08-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininrkkr7834908.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruye0038635.shtml"
         },
         {
-            title: "“买咖啡像在随份子” 瑞幸七夕联名“翻车”：半数网友拒绝为素人情侣买单，店员透露“都没卖出去几杯”",
-            summary: "文 | 《BUG》栏目 陈思竹 “明明动漫、漫画中受人喜欢、知名度高的CP（情侣）有很多。但瑞幸为什么要联动个真人情侣？” 七夕节来临之际，擅长IP联名的瑞幸却“翻了车”。",
-            source: "BUG",
-            date: "2026-08-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/chanjing/gsnews/2026-08-17/doc-ininrkkr7833359.shtml"
-        },
-        {
-            title: "支付宝：“阿宝”已完成万余项服务AI化接入，服务跨端已支持5大手机品牌、16家主流车企",
-            summary: "新浪科技讯 8月17日下午消息，支付宝生态合作伙伴大会在杭州召开。 蚂蚁集团首席执行官韩歆毅表示，智能体商业将在未来6-12个月迎来爆发...",
-            source: "新浪科技",
-            date: "2026-08-17",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/tech/it/2026-08-17/doc-ininrkkm6941575.shtml"
-        },
-        {
-            title: "Workday潜在收购传闻燃起希望：SaaS抛售潮或将落幕",
-            summary: "软件板块行情瞬息万变，每隔 24 小时市场情绪就会出现一轮切换，想要捕捉持续稳定的风向转变愈发困难。 周四有消息传出，银湖资本正在洽谈收购人力资源软件厂商 Workday...",
+            title: "油价上涨：伊朗拒绝延长临时协议，威胁升级冲突",
+            summary: "核心要点美伊双方 6 月 17 日签署的谅解备忘录于周一到期。伊朗塔斯尼姆通讯社报道，伊朗外交部拒绝就延长该谅解备忘录展开谈判。",
             source: "环球市场播报",
             date: "2026-08-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininrkkr7822487.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruyf6808989.shtml"
         },
         {
-            title: "大批交易落地，电池初创企业低迷局面有望终结",
-            summary: "2022 年，新一代电池企业 SES AI 登陆纽交所，并对外公布重大进展：其锂金属电池正在接受三家主流车企的验证测试 —— 通用汽车、本田以及现代汽车。",
-            source: "环球市场播报",
-            date: "2026-08-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininrkkm6933084.shtml"
-        },
-        {
-            title: "中天期货:商品指数继续走高 焦煤短线休整",
-            summary: "热点品种分析 一、商品指数 二、股指 中国上证综指 8 月 17 日（周一）收盘上涨 55.47 点，涨幅 1.41%，报 3982.65 点； 中国深证成指 8 月 17 日（周一）收盘上涨 349...",
+            title: "上纬新材“易主”后首份半年报：“增收不增利”问题显现，机器人业务仍无营收",
+            summary: "来源：国际金融报 智元机器人入主近一年后，上纬新材交出了跨界具身智能后的首份半年报。 8月17日，财报发布后的首个交易日，上纬新材早盘一度跌超4%，随后快速拉升。",
             source: "市场资讯",
             date: "2026-08-17",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-17/doc-ininrkkm6933014.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-08-17/doc-ininruym7736277.shtml"
         },
         {
-            title: "Stripe敲定超70亿美元收购OpenRouter交易",
-            summary: "此次收购凸显市场对 AI 工具成本问题日益重视 Stripe 已完成交易，斥资逾 70 亿美元收购初创企业 OpenRouter。OpenRouter 面向开发者提供多 AI 模型切换调度服务。",
+            title: "巴克莱改组投行业务高层",
+            summary: "媒体援引巴克莱首席执行官CS Venkatakrishnan周一发出的内部备忘录报道称，巴克莱正在改组投资银行业务高层。 巴克莱已聘请美国银行的Mike...",
             source: "环球市场播报",
             date: "2026-08-17",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininrkkm6931291.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruyh8993448.shtml"
+        },
+        {
+            title: "开盘：三大股指涨跌不一 投资者权衡AI乐观情绪与美伊紧张局势",
+            summary: " 三大股指开盘涨跌不一，道指跌0.24%，标普500指数涨0.04%，纳指涨0.19%。投资者一边看好人工智能板块，一边又要权衡中东地缘紧张带来的风险。",
+            source: "环球市场播报",
+            date: "2026-08-17",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruye0024347.shtml"
+        },
+        {
+            title: "加拿大通胀率升至3% 中东冲突继续推升汽油价格",
+            summary: "随着中东冲突继续推升汽油价格，加拿大通胀率小幅升至3%，但核心价格指标涨幅仍较温和。 加拿大统计局周一公布，7月汽油价格同比上涨25.7%，高于6月的20.5%。",
+            source: "环球市场播报",
+            date: "2026-08-17",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-08-17/doc-ininruyf6795386.shtml"
+        },
+        {
+            title: "Arm CFO最新访谈：内存是首要瓶颈 大型并购具备可行性",
+            summary: "受旗下CPU设计需求高涨，外加全新AI芯片产品销售向好推动，英国芯片企业Arm股价今年已翻倍以上。这家由软银控股的公司当前市值达3000亿美元...",
+            source: "环球市场播报",
+            date: "2026-08-17",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruye0020763.shtml"
+        },
+        {
+            title: "阿里发布可在笔记本运行的全新大模型，正面迎战Meta的AI攻势",
+            summary: "核心要点阿里巴巴推出通义全新 AI 模型，专门适配笔记本电脑等消费级硬件运行。同时开放旗下最强模型 Qwen3.8 Max 的模型权重。此举进一步加剧阿里与 Meta 在开源权重 AI...",
+            source: "环球市场播报",
+            date: "2026-08-17",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruye0019913.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                investmentSummary: {
         date: "2026-08-17",
-        marketAssessment: "A股方面：上证指数报3982.65点（+1.41%），深证成指报14704.27点（+2.44%），创业板指报3740.16点（+3.14%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
+        marketAssessment: "A股方面：上证指数报3982.65点（+1.41%），深证成指报14704.27点（+2.44%），创业板指报3740.16点（+3.14%）。美股方面：标普500报7,774.42（+0.27%），纳斯达克报26,733.29（+0.48%）。",
         hotSectors: [
-
+            { name: "其他养殖", reason: "板块涨幅+10.69%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+6.62%", strength: "强" },
+            { name: "集成电路封测", reason: "板块涨幅+5.76%", strength: "强" },
+            { name: "集成电路制造", reason: "板块涨幅+5.49%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "院线", reason: "板块跌幅-2.55%", strength: "弱" },
+            { name: "白酒Ⅱ", reason: "板块跌幅-2.13%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注其他养殖、种子、集成电路封测等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

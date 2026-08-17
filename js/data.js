@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3960.19", change: "+0.84%", market: "A股", updateTime: "2026-08-17 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14534.46", change: "+1.26%", market: "A股", updateTime: "2026-08-17 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3674.68", change: "+1.33%", market: "A股", updateTime: "2026-08-17 实时" },
-        { name: "沪深300", code: "SH000300", value: "4701.19", change: "+0.76%", market: "A股", updateTime: "2026-08-17 实时" },
-        { name: "科创50", code: "SH000688", value: "1769.93", change: "+3.04%", market: "A股", updateTime: "2026-08-17 实时" },
+                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3973.23", change: "+1.17%", market: "A股", updateTime: "2026-08-17 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14654.43", change: "+2.09%", market: "A股", updateTime: "2026-08-17 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3723.24", change: "+2.67%", market: "A股", updateTime: "2026-08-17 实时" },
+        { name: "沪深300", code: "SH000300", value: "4731.29", change: "+1.40%", market: "A股", updateTime: "2026-08-17 实时" },
+        { name: "科创50", code: "SH000688", value: "1775.63", change: "+3.37%", market: "A股", updateTime: "2026-08-17 实时" },
         { name: "标普500", code: "SPX", value: "7,785.76", change: "+0.36%", market: "美股", updateTime: "2026-08-17 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,729.16", change: "+0.14%", market: "美股", updateTime: "2026-08-17 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,732.41", change: "-0.56%", market: "美股", updateTime: "2026-08-17 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                        marketNews: [
         {
-            title: "瑞银据悉延揽高盛前老将 将负责亚洲医疗保健投行业务",
-            summary: "据知情人士透露，瑞银集团正在延揽亚洲医疗保健投资银行业务老将Samuel Thong，将出任亚洲区该业务的主席。 一位知情人士透露，这位前高盛银行家拥有30年经验...",
+            title: "新兴市场货币指数升至纪录新高 围绕美联储的加息预期降温",
+            summary: "随着市场对美联储加息的预期降温，刺激风险资产需求，新兴市场货币升至纪录新高。 一项追踪新兴市场货币的指数周一一度上涨0.2%至1906.98，触及纪录新高...",
             source: "环球市场播报",
             date: "2026-08-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininqtnu9196900.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininreap6935391.shtml"
         },
         {
-            title: "百万MPV的溢价逻辑，正在被尊界推倒重写",
-            summary: "在中国市场上，传统高端MPV定义了一代人对百万级MPV的认知。在过去十余年里，这类车靠的不是豪华、不是操控，而是一种旧时代的共识：进口配额、加价提车...",
-            source: "新浪财经",
-            date: "2026-08-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-08-17/doc-ininqtns0352416.shtml"
-        },
-        {
-            title: "光大期货0817黄金点评：通胀数据温和，加息降温支撑黄金",
-            summary: "美国多项通胀数据降温、消费走弱，市场下调 9 月加息预期，上周金价整体呈现冲高后遇阻回落。短期黄金上方阻力明显，但滞胀、地缘风险与央行购金形成支撑...",
+            title: "【油脂油料】ProFarmer美国中西部农作物巡查即将开展，NOPA预估7月份大豆压榨量维持增长——每日观察",
+            summary: "中粮期货研究中心 榨利日期：根据DCE2025-8-17开盘价计算 8月14日，巴西大豆2026年10-12月CNF船期报价为290、300、304。巴西大豆2027年2-8月CNF船期报价为158、123、115...",
             source: "市场资讯",
             date: "2026-08-17",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/money/future/2026-08-17/doc-ininqtns0349104.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-08-17/doc-ininreaq9032538.shtml"
         },
         {
-            title: "亚博科技控股盘中涨超23% 本月内股价累计涨幅已超120%",
-            summary: " 亚博科技控股（08279）早盘一度涨超23%，本月内股价累计涨幅已超120%，年内更是累涨超700%。截至发稿，股价上涨13.33%，现报1.53港元，成交额1.42亿港元。",
-            source: "新浪港股",
-            date: "2026-08-17",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-17/doc-ininqtnx7909619.shtml"
-        },
-        {
-            title: "思摩尔国际早盘涨逾9%恒生科技指数编制方法革新 机构指公司有望进入指数",
-            summary: "思摩尔国际（06969）早盘涨逾9%，截至发稿，股价上涨8.69%，现报9.32港元，成交额1.76亿港元。 恒生指数公司就恒生科技指数编算方法修订方案征询市场意见。",
-            source: "新浪港股",
-            date: "2026-08-17",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-17/doc-ininqtns0339832.shtml"
-        },
-        {
-            title: "金斯瑞生物科技盘中涨超6% 上半年AIDD相关业务同比翻倍增长",
-            summary: "金斯瑞生物科技（01548）盘中涨超6%，截至发稿，股价上涨4.26%，现报25.94港元，成交额8.66亿港元。 金斯瑞生物科技公布截至2026年6月30日止六个月的中期业绩。",
-            source: "新浪港股",
-            date: "2026-08-17",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-17/doc-ininqtnt7111660.shtml"
-        },
-        {
-            title: "瑞银：映恩生物-B首次覆盖给予“买入”评级 目标价320港元",
-            summary: "瑞银发布研报称，首次覆盖映恩生物-B（09606），给予“买入”评级，基于风险调整后现金流折现（DCF）估值，目标价320港元，对应1.2倍风险调整后峰值销售比率。",
-            source: "新浪港股",
-            date: "2026-08-17",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-17/doc-ininqtns0338953.shtml"
-        },
-        {
-            title: "人工智能盛宴正酣 华尔街紧盯利率风险搅局",
-            summary: "投资者对大型科技公司及其在人工智能领域的巨额投资热情高涨，再次推动股市创下历史新高。在经济韧性十足、需求旺盛的大背景下，这波上涨行情似乎只有一个拦路虎：利率上行...",
+            title: "英伟达高管、黄仁勋之女将于周二到访LG电子机器人中心",
+            summary: " 行业消息人士周一透露，英伟达公司高级总监、首席执行官黄仁勋之女黄敏珊（Madison Huang）计划于本周晚些时候到访LG电子公司在韩国的机器人中心。",
             source: "环球市场播报",
             date: "2026-08-17",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininqtnx7904439.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininqxur7053146.shtml"
+        },
+        {
+            title: "中金：燕之屋维持“跑赢行业”评级 目标价6.95港币",
+            summary: "中金发布研报称，由于燕之屋（01497）线上渠道的拓展表现超预期，加之公司可通过毛利率提升对冲费用投放，因此该行上调2026/27年盈利预测18%/19%至2.27/2.33亿元...",
+            source: "新浪港股",
+            date: "2026-08-17",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-17/doc-ininqxuv7871160.shtml"
+        },
+        {
+            title: "中金：中石化炼化工程维持跑赢行业评级 目标价6.60港元",
+            summary: "中金发布研报称，维持中石化炼化工程（02386）盈利预测2026/27年22/24亿元不变。当前股价对应2026/27年9x/8x P/E。维持跑赢行业评级和6.6港元目标价，对应2026/27年11...",
+            source: "新浪港股",
+            date: "2026-08-17",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-17/doc-ininqxus9142328.shtml"
+        },
+        {
+            title: "里昂：中芯国际维持“跑赢大市”评级 目标价升至97.5港元",
+            summary: "里昂发布研报称，上调对中芯国际（00981）2026至28年盈利预估分别69%、44%及38%，并将H股/A股目标价由94.1港元/153.4元人民币，上调至97.5港元/180.2元人民币...",
+            source: "新浪港股",
+            date: "2026-08-17",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-17/doc-ininqxus9141852.shtml"
+        },
+        {
+            title: "花旗对印度市场持积极看法 将Axis银行纳入印度首选标的",
+            summary: " 花旗表示，在印度一季度财报 “好于预期”，且基准指数 Nifty 50 处于长期平均估值水平的背景下，该行对印度股市前景维持积极态度。",
+            source: "环球市场播报",
+            date: "2026-08-17",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininqxuq0276771.shtml"
+        },
+        {
+            title: "暴涨！中东局势升级，引爆行情！最新消息",
+            summary: "期货日报 8月17日早盘，集运指数（欧线）期货全线走强，其中，主力2610合约快速冲高，盘中一度大涨超10%，最高触及1756点。 市场人士认为...",
+            source: "市场资讯",
+            date: "2026-08-17",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-17/doc-ininqxuq0275929.shtml"
         },
     ],
 
@@ -765,20 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-17",
-        marketAssessment: "A股方面：上证指数报3960.19点（+0.84%），深证成指报14534.46点（+1.26%），创业板指报3674.68点（+1.33%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
+        marketAssessment: "A股方面：上证指数报3973.23点（+1.17%），深证成指报14654.43点（+2.09%），创业板指报3723.24点（+2.67%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
         hotSectors: [
-            { name: "其他养殖", reason: "板块涨幅+10.86%", strength: "强" },
-            { name: "种子", reason: "板块涨幅+7.88%", strength: "强" },
-            { name: "种植业", reason: "板块涨幅+5.30%", strength: "强" },
-            { name: "半导体材料", reason: "板块涨幅+5.04%", strength: "强" },
+            { name: "其他养殖", reason: "板块涨幅+10.69%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+7.15%", strength: "强" },
+            { name: "集成电路封测", reason: "板块涨幅+5.32%", strength: "强" },
+            { name: "硅料硅片", reason: "板块涨幅+5.27%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "院线", reason: "板块跌幅-2.64%", strength: "弱" },
+            { name: "白酒Ⅱ", reason: "板块跌幅-2.29%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注其他养殖、种子、种植业等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注其他养殖、种子、集成电路封测等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

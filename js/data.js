@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3927.18", change: "+0.01%", market: "A股", updateTime: "2026-08-16 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14354.31", change: "+0.45%", market: "A股", updateTime: "2026-08-16 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3626.30", change: "+1.12%", market: "A股", updateTime: "2026-08-16 实时" },
-        { name: "沪深300", code: "SH000300", value: "4665.88", change: "+0.04%", market: "A股", updateTime: "2026-08-16 实时" },
-        { name: "科创50", code: "SH000688", value: "1717.68", change: "+-0.00%", market: "A股", updateTime: "2026-08-16 实时" },
-        { name: "标普500", code: "SPX", value: "7,785.76", change: "+0.36%", market: "美股", updateTime: "2026-08-16 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,729.16", change: "+0.14%", market: "美股", updateTime: "2026-08-16 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,732.41", change: "-0.56%", market: "美股", updateTime: "2026-08-16 收盘" },
+                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3960.19", change: "+0.84%", market: "A股", updateTime: "2026-08-17 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14534.46", change: "+1.26%", market: "A股", updateTime: "2026-08-17 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3674.68", change: "+1.33%", market: "A股", updateTime: "2026-08-17 实时" },
+        { name: "沪深300", code: "SH000300", value: "4701.19", change: "+0.76%", market: "A股", updateTime: "2026-08-17 实时" },
+        { name: "科创50", code: "SH000688", value: "1769.93", change: "+3.04%", market: "A股", updateTime: "2026-08-17 实时" },
+        { name: "标普500", code: "SPX", value: "7,785.76", change: "+0.36%", market: "美股", updateTime: "2026-08-17 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,729.16", change: "+0.14%", market: "美股", updateTime: "2026-08-17 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,732.41", change: "-0.56%", market: "美股", updateTime: "2026-08-17 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                    marketNews: [
         {
-            title: "闪迪股价连涨暴涨！华尔街力挺其AI闪存长期增长雄心",
-            summary: "股价强势表现周五，闪迪（Sandisk，股票代码：SNDK）股价大涨约6%，延续前一交易日13%的涨幅，收盘报1641.11美元，盘后继续小幅上扬。",
+            title: "瑞银据悉延揽高盛前老将 将负责亚洲医疗保健投行业务",
+            summary: "据知情人士透露，瑞银集团正在延揽亚洲医疗保健投资银行业务老将Samuel Thong，将出任亚洲区该业务的主席。 一位知情人士透露，这位前高盛银行家拥有30年经验...",
             source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininpmth0839179.shtml"
+            date: "2026-08-17",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininqtnu9196900.shtml"
         },
         {
-            title: "高盛助攻英伟达：5000亿美元计划，破解AI基建最大资金瓶颈",
-            summary: "英伟达（Nvidia）正着手解决AI热潮中日益凸显的核心制约——融资难题。高盛（Goldman Sachs）已开始与保险公司、银行及资产管理公司接洽...",
+            title: "百万MPV的溢价逻辑，正在被尊界推倒重写",
+            summary: "在中国市场上，传统高端MPV定义了一代人对百万级MPV的认知。在过去十余年里，这类车靠的不是豪华、不是操控，而是一种旧时代的共识：进口配额、加价提车...",
+            source: "新浪财经",
+            date: "2026-08-17",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-08-17/doc-ininqtns0352416.shtml"
+        },
+        {
+            title: "光大期货0817黄金点评：通胀数据温和，加息降温支撑黄金",
+            summary: "美国多项通胀数据降温、消费走弱，市场下调 9 月加息预期，上周金价整体呈现冲高后遇阻回落。短期黄金上方阻力明显，但滞胀、地缘风险与央行购金形成支撑...",
+            source: "市场资讯",
+            date: "2026-08-17",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/money/future/2026-08-17/doc-ininqtns0349104.shtml"
+        },
+        {
+            title: "亚博科技控股盘中涨超23% 本月内股价累计涨幅已超120%",
+            summary: " 亚博科技控股（08279）早盘一度涨超23%，本月内股价累计涨幅已超120%，年内更是累涨超700%。截至发稿，股价上涨13.33%，现报1.53港元，成交额1.42亿港元。",
+            source: "新浪港股",
+            date: "2026-08-17",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-17/doc-ininqtnx7909619.shtml"
+        },
+        {
+            title: "思摩尔国际早盘涨逾9%恒生科技指数编制方法革新 机构指公司有望进入指数",
+            summary: "思摩尔国际（06969）早盘涨逾9%，截至发稿，股价上涨8.69%，现报9.32港元，成交额1.76亿港元。 恒生指数公司就恒生科技指数编算方法修订方案征询市场意见。",
+            source: "新浪港股",
+            date: "2026-08-17",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-17/doc-ininqtns0339832.shtml"
+        },
+        {
+            title: "金斯瑞生物科技盘中涨超6% 上半年AIDD相关业务同比翻倍增长",
+            summary: "金斯瑞生物科技（01548）盘中涨超6%，截至发稿，股价上涨4.26%，现报25.94港元，成交额8.66亿港元。 金斯瑞生物科技公布截至2026年6月30日止六个月的中期业绩。",
+            source: "新浪港股",
+            date: "2026-08-17",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-17/doc-ininqtnt7111660.shtml"
+        },
+        {
+            title: "瑞银：映恩生物-B首次覆盖给予“买入”评级 目标价320港元",
+            summary: "瑞银发布研报称，首次覆盖映恩生物-B（09606），给予“买入”评级，基于风险调整后现金流折现（DCF）估值，目标价320港元，对应1.2倍风险调整后峰值销售比率。",
+            source: "新浪港股",
+            date: "2026-08-17",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-17/doc-ininqtns0338953.shtml"
+        },
+        {
+            title: "人工智能盛宴正酣 华尔街紧盯利率风险搅局",
+            summary: "投资者对大型科技公司及其在人工智能领域的巨额投资热情高涨，再次推动股市创下历史新高。在经济韧性十足、需求旺盛的大背景下，这波上涨行情似乎只有一个拦路虎：利率上行...",
             source: "环球市场播报",
-            date: "2026-08-16",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-16/doc-ininpmtk9602522.shtml"
-        },
-        {
-            title: "四连板熄火！“龙餐馆”概念炒作落幕，北京文化上半年再度亏损",
-            summary: "这个暑期档，电影业热闹非凡。热门电影《欢迎来龙餐馆》出品方之一北京文化上半年业绩曝光。 近日，北京文化披露2026年半年度报告，上半年净利润亏损3920.48万元。",
-            source: "券商中国",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininpmtk9599490.shtml"
-        },
-        {
-            title: "000036，突遭利空",
-            summary: "来源：中国基金报 【导读】华联控股产业转型突然遇阻，拟投资阿根廷锂盐湖项目触发审查 中国基金报记者 闻言 8月16日晚间，华联控股发布公告称...",
-            source: "市场资讯",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininpmth0832854.shtml"
-        },
-        {
-            title: "601996，需缴回约2700万元退税款，已连续2年亏损",
-            summary: "来源：中国基金报 【导读】丰林集团被要求缴回约2700万元退税款 中国基金报记者 夏天 8月16日晚间，丰林集团（证券代码：601996）发布公告称...",
-            source: "市场资讯",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininpmti7587496.shtml"
-        },
-        {
-            title: "股价年内跌超四成，子公司股权流拍欠薪传闻缠身，凯撒旅业账面减亏仍靠非经常性损益“粉饰”",
-            summary: "来源：华夏时报 华夏时报记者 王敬 北京报道 近日，老牌出境游旅企凯撒旅业（000796.SZ）陷入了子公司股权流拍与欠薪传闻交织的舆论漩涡。",
-            source: "市场资讯",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininpmtf1196090.shtml"
-        },
-        {
-            title: "“芯片”借壳幻象破灭：宝莱特易主夭折，三年亏超两亿元拿什么熬过寒冬？",
-            summary: "来源：华夏时报 华夏时报记者 于娜 北京报道 没有基本面支撑的“易主”预期，或许只是一场易碎的泡沫，真正的考验才刚刚开始。 国产血液净化设备头部企业广东宝莱特医用科技...",
-            source: "市场资讯",
-            date: "2026-08-16",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininpmtk9577146.shtml"
-        },
-        {
-            title: "转型多年业绩未见起色，重资产“包袱”沉重，湖北广电中报续亏超2.52亿",
-            summary: "来源：证券之星 近日，湖北广电（000665.SZ）发布2026年半年度业绩预告。预计今年上半年公司业绩延续亏损态势，其中扣非后净利润亏损超2.52亿元，与上年同期基本持平。",
-            source: "市场资讯",
-            date: "2026-08-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-16/doc-ininnzcn1000543.shtml"
+            date: "2026-08-17",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininqtnx7904439.shtml"
         },
     ],
 
@@ -765,21 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-16",
-        marketAssessment: "A股方面：上证指数报3927.18点（+0.01%），深证成指报14354.31点（+0.45%），创业板指报3626.30点（+1.12%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
+                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-17",
+        marketAssessment: "A股方面：上证指数报3960.19点（+0.84%），深证成指报14534.46点（+1.26%），创业板指报3674.68点（+1.33%）。美股方面：标普500报7,785.76（+0.36%），纳斯达克报26,729.16（+0.14%）。",
         hotSectors: [
-            { name: "稀土", reason: "板块涨幅+5.82%", strength: "强" },
-            { name: "通信线缆及配套", reason: "板块涨幅+5.33%", strength: "强" },
-            { name: "激光设备", reason: "板块涨幅+4.44%", strength: "强" },
-            { name: "电子化学品Ⅲ", reason: "板块涨幅+3.75%", strength: "强" },
+            { name: "其他养殖", reason: "板块涨幅+10.86%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+7.88%", strength: "强" },
+            { name: "种植业", reason: "板块涨幅+5.30%", strength: "强" },
+            { name: "半导体材料", reason: "板块涨幅+5.04%", strength: "强" },
         ],
         weakSectors: [
-            { name: "其他数字媒体", reason: "板块跌幅-3.78%", strength: "弱" },
-            { name: "院线", reason: "板块跌幅-3.64%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注稀土、通信线缆及配套、激光设备等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注其他养殖、种子、种植业等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

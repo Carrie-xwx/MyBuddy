@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3982.65", change: "+1.41%", market: "A股", updateTime: "2026-08-17 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14704.27", change: "+2.44%", market: "A股", updateTime: "2026-08-17 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3740.16", change: "+3.14%", market: "A股", updateTime: "2026-08-17 实时" },
-        { name: "沪深300", code: "SH000300", value: "4741.10", change: "+1.61%", market: "A股", updateTime: "2026-08-17 实时" },
-        { name: "科创50", code: "SH000688", value: "1788.85", change: "+4.14%", market: "A股", updateTime: "2026-08-17 实时" },
-        { name: "标普500", code: "SPX", value: "7,774.42", change: "+0.27%", market: "美股", updateTime: "2026-08-17 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,733.29", change: "+0.48%", market: "美股", updateTime: "2026-08-17 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,600.78", change: "-0.70%", market: "美股", updateTime: "2026-08-17 收盘" },
+                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3967.10", change: "-0.39%", market: "A股", updateTime: "2026-08-18 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14537.51", change: "-1.13%", market: "A股", updateTime: "2026-08-18 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3687.42", change: "-1.41%", market: "A股", updateTime: "2026-08-18 实时" },
+        { name: "沪深300", code: "SH000300", value: "4702.84", change: "-0.81%", market: "A股", updateTime: "2026-08-18 实时" },
+        { name: "科创50", code: "SH000688", value: "1773.16", change: "-0.88%", market: "A股", updateTime: "2026-08-18 实时" },
+        { name: "标普500", code: "SPX", value: "7,745.06", change: "-0.10%", market: "美股", updateTime: "2026-08-18 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,644.91", change: "+0.15%", market: "美股", updateTime: "2026-08-18 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,459.80", change: "-0.96%", market: "美股", updateTime: "2026-08-18 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                    marketNews: [
         {
-            title: "高盛：市场对美联储加息定价仍过于鹰派，9月加息“非常不可能”",
-            summary: "高盛首席经济学家Jan Hatzius在8月16日（周日）发给客户的研究报告中明确指出，当前市场对美联储进一步加息的定价仍过于鹰派。结合近期软于预期的零售销售...",
+            title: "韩国总统呼吁加快与美国磋商核潜艇计划",
+            summary: " 韩国总统李在明呼吁加快与美国就韩国获取首艘核动力潜艇计划的磋商。此前，美国总统唐纳德·特朗普以韩国未支持美国对伊朗军事行动为由，下令缩减美韩联合军演。",
             source: "环球市场播报",
-            date: "2026-08-17",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruye0038635.shtml"
+            date: "2026-08-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-inintats8676924.shtml"
         },
         {
-            title: "油价上涨：伊朗拒绝延长临时协议，威胁升级冲突",
-            summary: "核心要点美伊双方 6 月 17 日签署的谅解备忘录于周一到期。伊朗塔斯尼姆通讯社报道，伊朗外交部拒绝就延长该谅解备忘录展开谈判。",
+            title: "隔日价差飙升 铜市再添供应紧张信号",
+            summary: "随着伦敦金属交易所（LME）一项反映短期供应紧张程度的关键指标飙升，铜又将迎来一个动荡的交易日。 LME次日到期的铜合约价格较再晚一天到期的合约高出75美元/吨...",
             source: "环球市场播报",
-            date: "2026-08-17",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruyf6808989.shtml"
+            date: "2026-08-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-inintaty3428571.shtml"
         },
         {
-            title: "上纬新材“易主”后首份半年报：“增收不增利”问题显现，机器人业务仍无营收",
-            summary: "来源：国际金融报 智元机器人入主近一年后，上纬新材交出了跨界具身智能后的首份半年报。 8月17日，财报发布后的首个交易日，上纬新材早盘一度跌超4%，随后快速拉升。",
+            title: "韩美半导体将投资1300亿韩元建设其最大工厂",
+            summary: " 韩美半导体在一份声明中表示，计划投资 1300 亿韩元在仁川建造其有史以来最大的工厂，以扩大人工智能半导体设备的生产。",
+            source: "环球市场播报",
+            date: "2026-08-18",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-inintaty3427421.shtml"
+        },
+        {
+            title: "Mysteel解读：枧下窝审批推进，去库现实与复产预期博弈下价格区间震荡（碳酸锂周度复盘20260818）",
+            summary: "Mysteel新能源 一、核心判断 当前碳酸锂市场主线已由单一的“期现回归+库存去化”，切换为“强现实去库”与“枧下窝复产节奏重估”之间的预期差交易。",
             source: "市场资讯",
-            date: "2026-08-17",
+            date: "2026-08-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-17/doc-ininruym7736277.shtml"
+            url: "https://finance.sina.com.cn/money/future/2026-08-18/doc-inintaty3429118.shtml"
         },
         {
-            title: "巴克莱改组投行业务高层",
-            summary: "媒体援引巴克莱首席执行官CS Venkatakrishnan周一发出的内部备忘录报道称，巴克莱正在改组投资银行业务高层。 巴克莱已聘请美国银行的Mike...",
-            source: "环球市场播报",
-            date: "2026-08-17",
+            title: "同源康医药-B早盘涨近6%上半年亏损显著收窄 TY-9591商业化加速",
+            summary: "同源康医药-B（02410）早盘涨近6%，截至发稿，股价上涨5.78%，现报7.14港元，成交额1804.78万港元。 同源康医药公布中期业绩，研发成本为9494.3万元...",
+            source: "新浪港股",
+            date: "2026-08-18",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-18/doc-inintaua0199331.shtml"
+        },
+        {
+            title: "肥标差走阔但出栏压力不大，猪价或短时企稳后小幅上涨",
+            summary: "卓创资讯生猪市场分析师李晶 【导语】生猪出栏体重保持上涨走势，均重增幅较大区域与大猪消费区重合。且收购均重下滑，体重差（收购均重-出栏均重）负值走阔。",
+            source: "市场资讯",
+            date: "2026-08-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruyh8993448.shtml"
+            url: "https://finance.sina.com.cn/money/future/2026-08-18/doc-inintaua0199088.shtml"
         },
         {
-            title: "开盘：三大股指涨跌不一 投资者权衡AI乐观情绪与美伊紧张局势",
-            summary: " 三大股指开盘涨跌不一，道指跌0.24%，标普500指数涨0.04%，纳指涨0.19%。投资者一边看好人工智能板块，一边又要权衡中东地缘紧张带来的风险。",
-            source: "环球市场播报",
-            date: "2026-08-17",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruye0024347.shtml"
-        },
-        {
-            title: "加拿大通胀率升至3% 中东冲突继续推升汽油价格",
-            summary: "随着中东冲突继续推升汽油价格，加拿大通胀率小幅升至3%，但核心价格指标涨幅仍较温和。 加拿大统计局周一公布，7月汽油价格同比上涨25.7%，高于6月的20.5%。",
-            source: "环球市场播报",
-            date: "2026-08-17",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-08-17/doc-ininruyf6795386.shtml"
-        },
-        {
-            title: "Arm CFO最新访谈：内存是首要瓶颈 大型并购具备可行性",
-            summary: "受旗下CPU设计需求高涨，外加全新AI芯片产品销售向好推动，英国芯片企业Arm股价今年已翻倍以上。这家由软银控股的公司当前市值达3000亿美元...",
-            source: "环球市场播报",
-            date: "2026-08-17",
+            title: "“纸”南针：瓦楞纸市场进入博弈拉锯期 成本推涨与需求释放博弈",
+            summary: "卓创资讯瓦楞及箱板纸资深分析师李莉 【导语】8月以来，瓦楞纸市场呈现“涨跌互现、多空交织”的博弈格局，价格在分歧中小幅上探。",
+            source: "市场资讯",
+            date: "2026-08-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruye0020763.shtml"
+            url: "https://finance.sina.com.cn/money/future/2026-08-18/doc-inintaty3426082.shtml"
         },
         {
-            title: "阿里发布可在笔记本运行的全新大模型，正面迎战Meta的AI攻势",
-            summary: "核心要点阿里巴巴推出通义全新 AI 模型，专门适配笔记本电脑等消费级硬件运行。同时开放旗下最强模型 Qwen3.8 Max 的模型权重。此举进一步加剧阿里与 Meta 在开源权重 AI...",
-            source: "环球市场播报",
-            date: "2026-08-17",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruye0019913.shtml"
+            title: "厄尔尼诺快速发展 有望冲击历史最强 夏季气候响应逐步凸显",
+            summary: "来源：国家气候中心 当前赤道中东太平洋海表温度持续升高，预计将于11—12月前后达到峰值，形成一次超强厄尔尼诺事件，大概率成为历史最强事件。",
+            source: "市场资讯",
+            date: "2026-08-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-18/doc-inintaua0199825.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-17",
-        marketAssessment: "A股方面：上证指数报3982.65点（+1.41%），深证成指报14704.27点（+2.44%），创业板指报3740.16点（+3.14%）。美股方面：标普500报7,774.42（+0.27%），纳斯达克报26,733.29（+0.48%）。",
+                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-18",
+        marketAssessment: "A股方面：上证指数报3967.10点（-0.39%），深证成指报14537.51点（-1.13%），创业板指报3687.42点（-1.41%）。美股方面：标普500报7,745.06（-0.10%），纳斯达克报26,644.91（+0.15%）。",
         hotSectors: [
-            { name: "其他养殖", reason: "板块涨幅+10.69%", strength: "强" },
-            { name: "种子", reason: "板块涨幅+6.62%", strength: "强" },
-            { name: "集成电路封测", reason: "板块涨幅+5.76%", strength: "强" },
-            { name: "集成电路制造", reason: "板块涨幅+5.49%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+11.54%", strength: "强" },
+            { name: "食用菌", reason: "板块涨幅+9.80%", strength: "强" },
+            { name: "其他养殖", reason: "板块涨幅+9.12%", strength: "强" },
+            { name: "种植业", reason: "板块涨幅+9.10%", strength: "强" },
         ],
         weakSectors: [
-            { name: "院线", reason: "板块跌幅-2.55%", strength: "弱" },
-            { name: "白酒Ⅱ", reason: "板块跌幅-2.13%", strength: "弱" },
+            { name: "会展服务", reason: "板块跌幅-3.87%", strength: "弱" },
+            { name: "氨纶", reason: "板块跌幅-3.27%", strength: "弱" },
         ],
-        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注其他养殖、种子、集成电路封测等板块的延续性，顺势操作，严格止损。",
+        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
+        shortTermStrategy: "超短线关注种子、食用菌、其他养殖等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

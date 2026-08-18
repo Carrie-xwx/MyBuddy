@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                        marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3979.43", change: "-0.08%", market: "A股", updateTime: "2026-08-18 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14575.04", change: "-0.88%", market: "A股", updateTime: "2026-08-18 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3697.34", change: "-1.14%", market: "A股", updateTime: "2026-08-18 实时" },
-        { name: "沪深300", code: "SH000300", value: "4714.72", change: "-0.56%", market: "A股", updateTime: "2026-08-18 实时" },
-        { name: "科创50", code: "SH000688", value: "1781.35", change: "-0.42%", market: "A股", updateTime: "2026-08-18 实时" },
+                                                                                                                                                                                                                            marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3990.30", change: "+0.19%", market: "A股", updateTime: "2026-08-18 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14622.50", change: "-0.56%", market: "A股", updateTime: "2026-08-18 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3705.56", change: "-0.93%", market: "A股", updateTime: "2026-08-18 实时" },
+        { name: "沪深300", code: "SH000300", value: "4725.81", change: "-0.32%", market: "A股", updateTime: "2026-08-18 实时" },
+        { name: "科创50", code: "SH000688", value: "1790.87", change: "+0.11%", market: "A股", updateTime: "2026-08-18 实时" },
         { name: "标普500", code: "SPX", value: "7,745.06", change: "-0.10%", market: "美股", updateTime: "2026-08-18 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,644.91", change: "+0.15%", market: "美股", updateTime: "2026-08-18 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,459.78", change: "-0.96%", market: "美股", updateTime: "2026-08-18 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                            marketNews: [
         {
-            title: "光大期货：8月18日软商品日报",
-            summary: "白糖：（张笑金，从业资格号：F0306200；交易咨询资格号：Z0000082）消息方面，欧盟委员会作物监测机构 MARS 最近将欧盟甜菜单产预估下调至 76 吨 / 公顷...",
-            source: "市场资讯",
+            title: "英前内阁秘书遭解职获赔50万英镑 创文官赔偿纪录",
+            summary: "英国前内阁秘书克里斯·沃莫尔德爵士今年2月遭首相基尔·斯塔默解职后，获得约50万英镑的赔偿金，这一金额约为最初预估的两倍，创下英国文官系统赔偿纪录。",
+            source: "环球市场播报",
             date: "2026-08-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-18/doc-ininthzq8635607.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininttrp7340192.shtml"
         },
         {
-            title: "光大期货：8月18日有色金属日报",
-            summary: "铜： （展大鹏，从业资格号：F3013795；交易咨询资格号：Z0013582） 隔夜内外铜价震荡走弱，国内现货精炼铜进口维持较大亏损结构，Comex-LME铜价差在410美元/吨附近。",
-            source: "市场资讯",
-            date: "2026-08-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-18/doc-ininthzt7363207.shtml"
-        },
-        {
-            title: "光大期货：8月18日金融日报",
-            summary: "股指： （王东灜，从业资格号：F03087149；交易咨询资格号：Z0019537） 昨日，股指强势上涨，Wind全A上涨2.07%，成交量2.4万亿元。",
-            source: "市场资讯",
-            date: "2026-08-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-18/doc-ininthzw3359114.shtml"
-        },
-        {
-            title: "光大期货：8月18日矿钢煤焦日报",
-            summary: "螺纹钢： （邱跃成，从业资格号：F3046854；交易咨询资格号：Z0016941） 昨日螺纹盘面窄幅波动，截止日盘螺纹2610合约收盘价格为3016元/吨...",
-            source: "市场资讯",
-            date: "2026-08-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-18/doc-ininthzy0131357.shtml"
-        },
-        {
-            title: "光大期货：8月18日能源化工日报",
-            summary: "原油： （钟美燕，从业资格号：F3045334；交易咨询资格号：Z0002410） 周一油价重心再度上移，其中WTI 9月合约收盘上涨2.1美元至84.5美元/桶，涨幅2.55%。",
-            source: "市场资讯",
-            date: "2026-08-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-18/doc-ininthzy0131213.shtml"
-        },
-        {
-            title: "SK电信等三家企业晋级韩国“全民AI”项目下一阶段招标",
-            summary: " 韩国科技信息通信部周二表示，三家公司已进入一项政府扶持项目的下一阶段招标，该项目旨在研发一项面向公众免费开放的人工智能（AI）服务。",
+            title: "阿帕卢萨基金亿万富翁泰珀减持美光，连续6个季度大举买入一只优质AI芯片股",
+            summary: "作者：肖恩・威廉姆斯|愚人网（The Motley Fool） 或许很多人没有留意，8 月 14 日（周五）发布了本季度最重要的一批市场数据。8 月 14 日是13F 持仓报告的提交截止日...",
             source: "环球市场播报",
             date: "2026-08-18",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininthzy0131020.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininttrk8612211.shtml"
         },
         {
-            title: "光大期货：8月18日农产品日报",
-            summary: "蛋白粕： （侯雪玲，从业资格号：F3048706；交易咨询资格号：Z0013637） 周一，CBOT大豆收高，因大豆压榨步伐加快以及原油价格上涨。",
+            title: "全球长期国债收益率飙至多年高位 通胀及AI融资担忧持续发酵",
+            summary: " 受通胀忧虑、财政赤字扩增及人工智能相关企业债券发行激增等多重因素影响，全球主要经济体长期政府借贷成本于本周二触及多年乃至历史高位，债券市场抛售势头不减。",
+            source: "环球市场播报",
+            date: "2026-08-18",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininttrp7337957.shtml"
+        },
+        {
+            title: "自研芯片带来全新挑战，Arm首席财务官积极寻求并购机会",
+            summary: "受益于自家设计处理器的旺盛需求以及新推出的 AI 芯片，这家英国企业今年股价已经翻倍。股价大涨，让这家由软银控股、当前市值 3000...",
+            source: "环球市场播报",
+            date: "2026-08-18",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininttrk8602357.shtml"
+        },
+        {
+            title: "字节旗下红烛故事App正式停运",
+            summary: "新浪科技讯 8月18日下午消息，8月17日，字节跳动旗下付费小说平台红烛故事App正式停运，服务器关闭。 此前，红烛故事App曾发布《站内停服通知》。",
+            source: "新浪科技",
+            date: "2026-08-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/it/2026-08-18/doc-ininttrs3250769.shtml"
+        },
+        {
+            title: "远洋旧债，浮出水面",
+            summary: "來源：地产K线 文丨乐居财经 曾树佳 远洋集团（03377.HK）的化债历程，还在继续推进。 近日，它披露了旗下境内的核心运营主体——北京远洋控股集团有限公司（简称“远洋控股”...",
             source: "市场资讯",
             date: "2026-08-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-18/doc-ininthzy0130915.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-08-18/doc-ininttrs3250045.shtml"
         },
         {
-            title: "中金：和黄医药维持跑赢行业评级 目标价上调至26港币",
-            summary: "中金发布研报称，基本维持和黄医药（00013）2026年/2027年归母净利润预测5，555万美元/8，865万美元不变。该行维持跑赢行业评级，考虑到SAFFRON成功...",
-            source: "新浪港股",
+            title: "610亿估值，宇树到底贵不贵？",
+            summary: "610亿估值，宇树到底贵不贵？|《财经》特别报道 來源：财经读数 从长期看，具身智能赛道有望诞生万亿级体量的龙头企业，但核心难点是预判谁能成为最终龙头...",
+            source: "市场资讯",
             date: "2026-08-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-18/doc-ininthzy0129043.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-18/doc-ininttrk8599535.shtml"
+        },
+        {
+            title: "Fundstrat：比特币低波动或接近尾声 未来60天波幅或达30%",
+            summary: "文章来源：财联社 全球央行 美银：美联储年内仍料加息75基点 零售巨头财报与FOMC纪要成焦点 美银证券（BofA）在最新研报中指出，强劲财报季继续支撑美股...",
+            source: "市场资讯",
+            date: "2026-08-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-18/doc-ininttrk8588798.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-08-18",
-        marketAssessment: "A股方面：上证指数报3979.43点（-0.08%），深证成指报14575.04点（-0.88%），创业板指报3697.34点（-1.14%）。美股方面：标普500报7,745.06（-0.10%），纳斯达克报26,644.91（+0.15%）。",
+        marketAssessment: "A股方面：上证指数报3990.30点（+0.19%），深证成指报14622.50点（-0.56%），创业板指报3705.56点（-0.93%）。美股方面：标普500报7,745.06（-0.10%），纳斯达克报26,644.91（+0.15%）。",
         hotSectors: [
-            { name: "种子", reason: "板块涨幅+13.00%", strength: "强" },
-            { name: "种植业", reason: "板块涨幅+10.30%", strength: "强" },
-            { name: "食用菌", reason: "板块涨幅+10.22%", strength: "强" },
-            { name: "其他养殖", reason: "板块涨幅+10.17%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "会展服务", reason: "板块跌幅-4.08%", strength: "弱" },
-            { name: "氨纶", reason: "板块跌幅-3.70%", strength: "弱" },
+
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注种子、种植业、食用菌等板块的延续性，顺势操作，严格止损。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3990.30", change: "+0.19%", market: "A股", updateTime: "2026-08-18 实时" },
         { name: "深证成指", code: "SZ399001", value: "14622.50", change: "-0.56%", market: "A股", updateTime: "2026-08-18 实时" },
         { name: "创业板指", code: "SZ399006", value: "3705.56", change: "-0.93%", market: "A股", updateTime: "2026-08-18 实时" },
         { name: "沪深300", code: "SH000300", value: "4725.81", change: "-0.32%", market: "A股", updateTime: "2026-08-18 实时" },
         { name: "科创50", code: "SH000688", value: "1790.87", change: "+0.11%", market: "A股", updateTime: "2026-08-18 实时" },
-        { name: "标普500", code: "SPX", value: "7,745.06", change: "-0.10%", market: "美股", updateTime: "2026-08-18 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,644.91", change: "+0.15%", market: "美股", updateTime: "2026-08-18 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,459.78", change: "-0.96%", market: "美股", updateTime: "2026-08-18 收盘" },
+        { name: "标普500", code: "SPX", value: "7,705.36", change: "-0.30%", market: "美股", updateTime: "2026-08-18 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,314.38", change: "-0.50%", market: "美股", updateTime: "2026-08-18 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,434.24", change: "-0.66%", market: "美股", updateTime: "2026-08-18 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                marketNews: [
         {
-            title: "英前内阁秘书遭解职获赔50万英镑 创文官赔偿纪录",
-            summary: "英国前内阁秘书克里斯·沃莫尔德爵士今年2月遭首相基尔·斯塔默解职后，获得约50万英镑的赔偿金，这一金额约为最初预估的两倍，创下英国文官系统赔偿纪录。",
+            title: "美国7月二手房签约量环比下降2.3% 逊于所有经济学家预估",
+            summary: "美国全国房地产经纪人协会（NAR）公布的二手房签约量指数7月环比下降2.3%，预估中值为持平。 接受调查的26位经济学家预测区间介于下降1%至增长3.3%之间。",
             source: "环球市场播报",
             date: "2026-08-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininttrp7340192.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefn3134845.shtml"
         },
         {
-            title: "阿帕卢萨基金亿万富翁泰珀减持美光，连续6个季度大举买入一只优质AI芯片股",
-            summary: "作者：肖恩・威廉姆斯|愚人网（The Motley Fool） 或许很多人没有留意，8 月 14 日（周五）发布了本季度最重要的一批市场数据。8 月 14 日是13F 持仓报告的提交截止日...",
+            title: "“简直疯狂”：韩国股民正在美股市场做些什么",
+            summary: "核心要点韩国本土股市出现回调，7 月韩国散户投资者净买入 45 亿美元美股。很多投资者只是转换交易市场，并未改变押注方向，通过美股标的继续布局人工智能主题与杠杆类产品...",
             source: "环球市场播报",
             date: "2026-08-18",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininttrk8612211.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefn3132748.shtml"
         },
         {
-            title: "全球长期国债收益率飙至多年高位 通胀及AI融资担忧持续发酵",
-            summary: " 受通胀忧虑、财政赤字扩增及人工智能相关企业债券发行激增等多重因素影响，全球主要经济体长期政府借贷成本于本周二触及多年乃至历史高位，债券市场抛售势头不减。",
+            title: "30年期美债收益率创2007年来新高 是什么引发全球债券抛售潮？",
+            summary: "全球国债遭遇抛售，股市集体收跌，投资者对大规模财政支出与通胀风险感到忧虑。 与此同时，资本需求庞大的人工智能行业大举发债，与主权国家形成融资竞争...",
             source: "环球市场播报",
             date: "2026-08-18",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininttrp7337957.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-18/doc-ininuefp9898651.shtml"
         },
         {
-            title: "自研芯片带来全新挑战，Arm首席财务官积极寻求并购机会",
-            summary: "受益于自家设计处理器的旺盛需求以及新推出的 AI 芯片，这家英国企业今年股价已经翻倍。股价大涨，让这家由软银控股、当前市值 3000...",
+            title: "高盛拟收购一家房地产投资公司，交易金额最高可达 4.1 亿美元",
+            summary: "高盛表示，已达成协议收购私募房地产投资公司 LCN Capital Partners，交易总对价最高可达 4.1 亿美元。 LCN 是一家商业房地产投资机构，管理资产规模约 30 亿美元...",
             source: "环球市场播报",
             date: "2026-08-18",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininttrk8602357.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefp9897005.shtml"
         },
         {
-            title: "字节旗下红烛故事App正式停运",
-            summary: "新浪科技讯 8月18日下午消息，8月17日，字节跳动旗下付费小说平台红烛故事App正式停运，服务器关闭。 此前，红烛故事App曾发布《站内停服通知》。",
+            title: "全文|百度Q2业绩会实录：文心将重回第一梯队 年底前完成香港主要上市",
+            summary: "百度发布2026年第二季度财报，季度总营收313亿元；百度一般性业务收入252亿元，其中AI业务收入占比50%，已连续两季占比过半。本季度，AI云基础设施中GPU云同比增长283%...",
             source: "新浪科技",
             date: "2026-08-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/tech/it/2026-08-18/doc-ininttrs3250769.shtml"
+            url: "https://finance.sina.com.cn/tech/2026-08-18/doc-ininuefi7261347.shtml"
         },
         {
-            title: "远洋旧债，浮出水面",
-            summary: "來源：地产K线 文丨乐居财经 曾树佳 远洋集团（03377.HK）的化债历程，还在继续推进。 近日，它披露了旗下境内的核心运营主体——北京远洋控股集团有限公司（简称“远洋控股”...",
-            source: "市场资讯",
+            title: "迪士尼旗下美国广播公司就第一修正案相关事宜起诉联邦通信委员会",
+            summary: "迪士尼旗下的美国广播公司（ABC）依据美国宪法第一修正案，对美国联邦通信委员会（FCC）提起诉讼，称这家政府机构近期针对该公司展开的调查属于一场 “报复性行动”...",
+            source: "环球市场播报",
             date: "2026-08-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-18/doc-ininttrs3250045.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefn3121947.shtml"
         },
         {
-            title: "610亿估值，宇树到底贵不贵？",
-            summary: "610亿估值，宇树到底贵不贵？|《财经》特别报道 來源：财经读数 从长期看，具身智能赛道有望诞生万亿级体量的龙头企业，但核心难点是预判谁能成为最终龙头...",
-            source: "市场资讯",
+            title: "报道：阿联酋总统与特朗普讨论中东局势",
+            summary: "阿联酋国家通讯社报道，阿联酋总统穆罕默德·本·扎耶德与美国总统唐纳德·特朗普通电话，讨论了中东地区局势的发展。 双方还讨论了两国之间的双边合作。",
+            source: "环球市场播报",
             date: "2026-08-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-18/doc-ininttrk8599535.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefe8532252.shtml"
         },
         {
-            title: "Fundstrat：比特币低波动或接近尾声 未来60天波幅或达30%",
-            summary: "文章来源：财联社 全球央行 美银：美联储年内仍料加息75基点 零售巨头财报与FOMC纪要成焦点 美银证券（BofA）在最新研报中指出，强劲财报季继续支撑美股...",
-            source: "市场资讯",
+            title: "特朗普：目前没有与伊朗举行任何会谈 也没有会谈安排",
+            summary: "美国总统特朗普在Truth Social发帖称，目前没有与伊朗伊斯兰共和国进行任何会谈或对话，也没有安排任何会谈或对话。 他补充说，霍尔木兹海峡已经开放...",
+            source: "环球市场播报",
             date: "2026-08-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-18/doc-ininttrk8588798.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefn3121078.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-08-18",
-        marketAssessment: "A股方面：上证指数报3990.30点（+0.19%），深证成指报14622.50点（-0.56%），创业板指报3705.56点（-0.93%）。美股方面：标普500报7,745.06（-0.10%），纳斯达克报26,644.91（+0.15%）。",
+        marketAssessment: "A股方面：上证指数报3990.30点（+0.19%），深证成指报14622.50点（-0.56%），创业板指报3705.56点（-0.93%）。美股方面：标普500报7,705.36（-0.30%），纳斯达克报26,314.38（-0.50%）。",
         hotSectors: [
 
         ],

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3912.66", change: "-1.95%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14042.92", change: "-3.96%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3521.12", change: "-4.98%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "沪深300", code: "SH000300", value: "4610.81", change: "-2.43%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "科创50", code: "SH000688", value: "1683.43", change: "-6.00%", market: "A股", updateTime: "2026-08-19 实时" },
+                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3898.17", change: "-2.31%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13973.84", change: "-4.44%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3503.21", change: "-5.46%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "沪深300", code: "SH000300", value: "4595.62", change: "-2.75%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "科创50", code: "SH000688", value: "1676.84", change: "-6.37%", market: "A股", updateTime: "2026-08-19 实时" },
         { name: "标普500", code: "SPX", value: "7,691.76", change: "-0.47%", market: "美股", updateTime: "2026-08-19 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,289.71", change: "-0.59%", market: "美股", updateTime: "2026-08-19 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,343.40", change: "-0.83%", market: "美股", updateTime: "2026-08-19 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "韩国智库上调今明两年经济增长预期",
-            summary: "韩国一家国有智库上调了对今年和明年的经济增长预测，理由是半导体出口和人工智能投资表现强劲。 韩国开发研究院（KDI）在周三发布的经济展望报告中表示...",
+            title: "Pimco总裁称财富管理机构正撤出私募信贷市场",
+            summary: " 财富管理机构正在撤出私募信贷市场，加紧寻找替代投资标的，今年早些时候几家大型直接贷款基金突然实施赎回限制令它们至今仍受到冲击。",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvmyq8306022.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvshu2630096.shtml"
         },
         {
-            title: "韩国二季度家庭贷款增速跃升至近五年来的最高水平",
-            summary: "由于购房和无抵押贷款活动增加，韩国第二季度家庭贷款增速创近五年来最大，凸显了金融稳定持续存在的风险。 根据韩国央行周三公布的初步数据，今年4月至6月...",
+            title: "日元波动加剧后套利交易降温 瑞郎成主要替代融资货币",
+            summary: "随着干预风险和利率上升削弱了借入日元的吸引力，套利交易者短期内正越来越多地将瑞士法郎作为融资来源。 根据美国商品期货交易委员会（CFTC）最新数据，截至8月11日当周...",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvmyt7028313.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvshr7008653.shtml"
         },
         {
-            title: "韩元兑美元劲扬 10月以来首次升破1400大关",
-            summary: "韩元兑美元汇率自去年10月以来首次升破1，400，表现优于其他亚洲货币。 美元兑韩元一度下跌0.9%至1398.80，连续第四个交易日走低。",
+            title: "汇丰上调韩国股票评级至“增持”",
+            summary: "汇丰将韩国股票评级从“中性”上调至“增持”，认为过度杠杆已被消除，企业盈利增长前景依然强劲。 尽管市场波动性依然较高，但已从高位回落，流入个股杠杆ETF的资金也已放缓...",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvmyx9449315.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvshr7005873.shtml"
         },
         {
-            title: "韩国智库上调今年经济增长预期至3.2%，因AI需求强劲",
-            summary: " 韩国一个国营智库上调了今年的经济增长预期，超过了政府的预期。预计人工智能推动的全球半导体行业繁荣将强于预期，从而带动出口和投资。",
-            source: "环球市场播报",
-            date: "2026-08-19",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvfss8421302.shtml"
-        },
-        {
-            title: "中国秦发盘中涨近8% 预计上半年录得除税后溢利不多于2.9亿元",
-            summary: "中国秦发（00866）盘中涨近8%，截至发稿，股价上涨5.60%，现报2.075港元，成交额1002.04万港元。 中国秦发近日发布公告，预计上半年录得除税后溢利不多于2...",
+            title: "海丰国际发布中期业绩 股东应占利润6.77亿美元同比增长7.39%",
+            summary: "海丰国际（01308）发布截至2026年6月30日止6个月的中期业绩，收入约为18.42亿美元，同比增加约10.7%；股东应占利润6.77亿美元，同比增长7.39%；每股基本盈利0.25美元。",
             source: "新浪港股",
             date: "2026-08-19",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-19/doc-ininvfsz9574844.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-19/doc-ininvmyt7132877.shtml"
         },
         {
-            title: "小米集团-W早盘涨超6% 二季度经调整净利润62亿元环比增长2.4%",
-            summary: "小米集团-W（01810）早盘涨超6%，截至发稿，股价上涨6.04%，现报27.76港元，成交额49.53亿港元。 小米集团公布2026年第二季度业绩，期内实现总收入1089亿元，环比增长9...",
+            title: "华润啤酒发布中期业绩 股东应占溢利51.69亿元同比下降10.71%",
+            summary: "华润啤酒（00291）发布截至2026年6月30日止6个月中期业绩，营业额为242.4亿元（人民币，下同），同比增长1.24%；股东应占溢利为51.69亿元，同比下降10.71%；每股基本盈利1...",
             source: "新浪港股",
             date: "2026-08-19",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-19/doc-ininvfsy2800399.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-19/doc-ininvmyx9520367.shtml"
         },
         {
-            title: "福耀玻璃绩后涨超5% 上半年剔除汇率利润实际增长4.78%",
-            summary: "福耀玻璃（03606）绩后涨超5%，截至发稿，股价上涨2.12%，现报57.95港元，成交额2.02亿港元。 福耀玻璃发布业绩，上半年营业收入219.71亿元，同比增长2...",
+            title: "恒安国际将于10月9日派发中期股息每股0.8087港元",
+            summary: "恒安国际（01044）发布公告，将于2026年10月9日派发截至2026年6月30日止6个月的中期股息每股0.8087港元。",
             source: "新浪港股",
             date: "2026-08-19",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-19/doc-ininvfsv7142839.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-19/doc-ininvmyt7131799.shtml"
         },
         {
-            title: "光大期货0819黄金点评：重回利率定价，短线黄金走弱",
-            summary: "隔夜伦敦现货贵金属震荡走弱。欧美长债收益率高企，抬升黄金持有成本。美元指数结束三连跌迎来反弹，压制金价表现。原油再度走高，加剧通胀粘性预期...",
-            source: "市场资讯",
+            title: "恒安国际发布中期业绩 股东应占利润12.54亿元同比下降8.7%",
+            summary: "恒安国际（01044）发布2026年6月30日止6个月中期业绩，收入110.91亿元（人民币，下同），同比下降6.1%；权益持有人应占利润12.54亿元，同比下降8.7%；每股基本收益1...",
+            source: "新浪港股",
             date: "2026-08-19",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-19/doc-ininvfsv7130928.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-19/doc-ininvmyx9519629.shtml"
+        },
+        {
+            title: "国海证券：腾讯控股维持“买入”评级 目标价627港元",
+            summary: "国海证券发布研报称，预计腾讯控股（00700）2026-2028年营收分别为8233/9015/9822亿元，Non-IFRS口径归母净利润为2663/2743/2881亿元，对应Non-IFRS口径EPS为29/30/32元...",
+            source: "新浪港股",
+            date: "2026-08-19",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-19/doc-ininvmyw2745480.shtml"
         },
     ],
 
@@ -765,21 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-19",
-        marketAssessment: "A股方面：上证指数报3912.66点（-1.95%），深证成指报14042.92点（-3.96%），创业板指报3521.12点（-4.98%）。美股方面：标普500报7,691.76（-0.47%），纳斯达克报26,289.71（-0.59%）。",
+        marketAssessment: "A股方面：上证指数报3898.17点（-2.31%），深证成指报13973.84点（-4.44%），创业板指报3503.21点（-5.46%）。美股方面：标普500报7,691.76（-0.47%），纳斯达克报26,289.71（-0.59%）。",
         hotSectors: [
-            { name: "焦炭Ⅲ", reason: "板块涨幅+6.89%", strength: "强" },
-            { name: "焦炭Ⅱ", reason: "板块涨幅+6.89%", strength: "强" },
-            { name: "卫浴电器", reason: "板块涨幅+6.27%", strength: "强" },
-            { name: "厨卫电器", reason: "板块涨幅+4.46%", strength: "强" },
+            { name: "卫浴电器", reason: "板块涨幅+7.23%", strength: "强" },
+            { name: "焦炭Ⅱ", reason: "板块涨幅+5.67%", strength: "强" },
+            { name: "焦炭Ⅲ", reason: "板块涨幅+5.65%", strength: "强" },
+            { name: "厨卫电器", reason: "板块涨幅+4.77%", strength: "强" },
         ],
         weakSectors: [
-            { name: "机器人", reason: "板块跌幅-8.10%", strength: "弱" },
-            { name: "半导体设备", reason: "板块跌幅-7.99%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注焦炭Ⅲ、焦炭Ⅱ、卫浴电器等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注卫浴电器、焦炭Ⅱ、焦炭Ⅲ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

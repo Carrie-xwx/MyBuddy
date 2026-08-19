@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                        marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3898.17", change: "-2.31%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13973.84", change: "-4.44%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3503.21", change: "-5.46%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "沪深300", code: "SH000300", value: "4595.62", change: "-2.75%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "科创50", code: "SH000688", value: "1676.84", change: "-6.37%", market: "A股", updateTime: "2026-08-19 实时" },
+                                                                                                                                                                                                                                            marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3894.42", change: "-2.40%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13890.15", change: "-5.01%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3473.49", change: "-6.26%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "沪深300", code: "SH000300", value: "4588.70", change: "-2.90%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "科创50", code: "SH000688", value: "1667.52", change: "-6.89%", market: "A股", updateTime: "2026-08-19 实时" },
         { name: "标普500", code: "SPX", value: "7,691.76", change: "-0.47%", market: "美股", updateTime: "2026-08-19 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,289.71", change: "-0.59%", market: "美股", updateTime: "2026-08-19 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,343.40", change: "-0.83%", market: "美股", updateTime: "2026-08-19 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "Pimco总裁称财富管理机构正撤出私募信贷市场",
-            summary: " 财富管理机构正在撤出私募信贷市场，加紧寻找替代投资标的，今年早些时候几家大型直接贷款基金突然实施赎回限制令它们至今仍受到冲击。",
+            title: "美银调查显示 印度已取代印尼成为亚洲最不受青睐的股市",
+            summary: " 美国银行对基金经理进行的一项调查显示，印度已取代印尼，成为亚洲最不受青睐的股市，表明投资者对这一今年表现垫底全球的股市正持日益谨慎的态度。",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvshu2630096.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqs2644180.shtml"
         },
         {
-            title: "日元波动加剧后套利交易降温 瑞郎成主要替代融资货币",
-            summary: "随着干预风险和利率上升削弱了借入日元的吸引力，套利交易者短期内正越来越多地将瑞士法郎作为融资来源。 根据美国商品期货交易委员会（CFTC）最新数据，截至8月11日当周...",
+            title: "Waymo冲击造成优步股价暴跌，市场反应已然过度",
+            summary: "作者：安妮塔・拉马斯瓦米 今年优步股价下跌 8%，市场担忧这家网约车企业正面临自动驾驶出租运营商（以 Waymo 为首）的激烈竞争。但卖方投资者反应过度。",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvshr7008653.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqs2642384.shtml"
         },
         {
-            title: "汇丰上调韩国股票评级至“增持”",
-            summary: "汇丰将韩国股票评级从“中性”上调至“增持”，认为过度杠杆已被消除，企业盈利增长前景依然强劲。 尽管市场波动性依然较高，但已从高位回落，流入个股杠杆ETF的资金也已放缓...",
+            title: "筹备巨型IPO，Anthropic拟为创始人设置超级投票权",
+            summary: "这家 AI 公司正在加固其独特治理架构，该架构还设有一家长期信托，掌握董事会成员的任免权Anthropic 首席执行官、联合创始人达里奥・阿莫代伊。",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvshr7005873.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqs2640936.shtml"
         },
         {
-            title: "海丰国际发布中期业绩 股东应占利润6.77亿美元同比增长7.39%",
-            summary: "海丰国际（01308）发布截至2026年6月30日止6个月的中期业绩，收入约为18.42亿美元，同比增加约10.7%；股东应占利润6.77亿美元，同比增长7.39%；每股基本盈利0.25美元。",
-            source: "新浪港股",
+            title: "宾夕法尼亚州州长提高数据中心项目许可审批要求",
+            summary: "针对 AI 数据中心的政治抵制浪潮愈演愈烈，这是最新举措 作者：阿米尔・埃弗拉蒂 宾夕法尼亚州州长乔什・夏皮罗于周二签署一项行政命令...",
+            source: "环球市场播报",
             date: "2026-08-19",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-19/doc-ininvmyt7132877.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqt9411578.shtml"
         },
         {
-            title: "华润啤酒发布中期业绩 股东应占溢利51.69亿元同比下降10.71%",
-            summary: "华润啤酒（00291）发布截至2026年6月30日止6个月中期业绩，营业额为242.4亿元（人民币，下同），同比增长1.24%；股东应占溢利为51.69亿元，同比下降10.71%；每股基本盈利1...",
-            source: "新浪港股",
+            title: "美国证券交易委员会首次提出加密货币监管新规",
+            summary: "副标题：国会加密立法陷入停滞，监管机构启动规则制定工作 在美国标志性加密法案《清晰法案》（CLARITY Act）于国会遭遇推进受阻之后...",
+            source: "环球市场播报",
             date: "2026-08-19",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-19/doc-ininvmyx9520367.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqs2637608.shtml"
         },
         {
-            title: "恒安国际将于10月9日派发中期股息每股0.8087港元",
-            summary: "恒安国际（01044）发布公告，将于2026年10月9日派发截至2026年6月30日止6个月的中期股息每股0.8087港元。",
-            source: "新浪港股",
+            title: "谷歌称其人工智能可承担前线部署工程师的工作",
+            summary: "作者：凯文・麦克劳克林 继帕兰提尔（Palantir）开创该模式之后，OpenAI、Anthropic、微软与亚马逊均投入数十亿美元，招聘所谓前线部署工程师（FDE）...",
+            source: "环球市场播报",
             date: "2026-08-19",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-19/doc-ininvmyt7131799.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqp7064428.shtml"
         },
         {
-            title: "恒安国际发布中期业绩 股东应占利润12.54亿元同比下降8.7%",
-            summary: "恒安国际（01044）发布2026年6月30日止6个月中期业绩，收入110.91亿元（人民币，下同），同比下降6.1%；权益持有人应占利润12.54亿元，同比下降8.7%；每股基本收益1...",
-            source: "新浪港股",
+            title: "棕榈油价格升至八个月高位 因厄尔尼诺加剧东南亚干旱",
+            summary: "棕榈油价格周二收于2024年12月以来最高水平后延续涨势。主要产区持续干旱引发市场对供应前景的担忧，支撑油价上行。 周三，吉隆坡棕榈油期货一度上涨0.9%...",
+            source: "环球市场播报",
             date: "2026-08-19",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-19/doc-ininvmyx9519629.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-19/doc-ininvwqk8332090.shtml"
         },
         {
-            title: "国海证券：腾讯控股维持“买入”评级 目标价627港元",
-            summary: "国海证券发布研报称，预计腾讯控股（00700）2026-2028年营收分别为8233/9015/9822亿元，Non-IFRS口径归母净利润为2663/2743/2881亿元，对应Non-IFRS口径EPS为29/30/32元...",
-            source: "新浪港股",
+            title: "英国首相伯纳姆承诺将经济增长职能从财政部转交“北方10号”",
+            summary: " 英国首相安迪·伯纳姆表示，他将把推动经济增长的职责从英国财政部转移至其位于英格兰北部的新办公机构，进一步强化首相府对经济事务的直接主导权。",
+            source: "环球市场播报",
             date: "2026-08-19",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-19/doc-ininvmyw2745480.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-19/doc-ininvwqs2631663.shtml"
         },
     ],
 
@@ -765,20 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-08-19",
-        marketAssessment: "A股方面：上证指数报3898.17点（-2.31%），深证成指报13973.84点（-4.44%），创业板指报3503.21点（-5.46%）。美股方面：标普500报7,691.76（-0.47%），纳斯达克报26,289.71（-0.59%）。",
+        marketAssessment: "A股方面：上证指数报3894.42点（-2.40%），深证成指报13890.15点（-5.01%），创业板指报3473.49点（-6.26%）。美股方面：标普500报7,691.76（-0.47%），纳斯达克报26,289.71（-0.59%）。",
         hotSectors: [
-            { name: "卫浴电器", reason: "板块涨幅+7.23%", strength: "强" },
-            { name: "焦炭Ⅱ", reason: "板块涨幅+5.67%", strength: "强" },
-            { name: "焦炭Ⅲ", reason: "板块涨幅+5.65%", strength: "强" },
-            { name: "厨卫电器", reason: "板块涨幅+4.77%", strength: "强" },
+            { name: "卫浴电器", reason: "板块涨幅+7.19%", strength: "强" },
+            { name: "焦炭Ⅲ", reason: "板块涨幅+6.53%", strength: "强" },
+            { name: "焦炭Ⅱ", reason: "板块涨幅+6.53%", strength: "强" },
+            { name: "厨卫电器", reason: "板块涨幅+4.57%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "机器人", reason: "板块跌幅-9.58%", strength: "弱" },
+            { name: "半导体设备", reason: "板块跌幅-9.27%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注卫浴电器、焦炭Ⅱ、焦炭Ⅲ等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注卫浴电器、焦炭Ⅲ、焦炭Ⅱ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

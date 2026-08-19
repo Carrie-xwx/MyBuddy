@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3894.42", change: "-2.40%", market: "A股", updateTime: "2026-08-19 实时" },
         { name: "深证成指", code: "SZ399001", value: "13890.15", change: "-5.01%", market: "A股", updateTime: "2026-08-19 实时" },
         { name: "创业板指", code: "SZ399006", value: "3473.49", change: "-6.26%", market: "A股", updateTime: "2026-08-19 实时" },
         { name: "沪深300", code: "SH000300", value: "4588.70", change: "-2.90%", market: "A股", updateTime: "2026-08-19 实时" },
         { name: "科创50", code: "SH000688", value: "1667.52", change: "-6.89%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "标普500", code: "SPX", value: "7,691.76", change: "-0.47%", market: "美股", updateTime: "2026-08-19 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,289.71", change: "-0.59%", market: "美股", updateTime: "2026-08-19 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,343.40", change: "-0.83%", market: "美股", updateTime: "2026-08-19 收盘" },
+        { name: "标普500", code: "SPX", value: "7,715.00", change: "-0.43%", market: "美股", updateTime: "2026-08-19 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,242.12", change: "-1.30%", market: "美股", updateTime: "2026-08-19 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,596.61", change: "-0.32%", market: "美股", updateTime: "2026-08-19 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "美银调查显示 印度已取代印尼成为亚洲最不受青睐的股市",
-            summary: " 美国银行对基金经理进行的一项调查显示，印度已取代印尼，成为亚洲最不受青睐的股市，表明投资者对这一今年表现垫底全球的股市正持日益谨慎的态度。",
+            title: "对冲基金即将大举入局预测市场",
+            summary: "核心要点康托・菲茨杰拉德将担任经纪商，为客户在 Kalshi 平台的事件合约上组织大宗交易。苏世基纳国际集团（SIG）将作为做市商，为康托的客户提供报价与流动性。",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqs2644180.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiee8285176.shtml"
         },
         {
-            title: "Waymo冲击造成优步股价暴跌，市场反应已然过度",
-            summary: "作者：安妮塔・拉马斯瓦米 今年优步股价下跌 8%，市场担忧这家网约车企业正面临自动驾驶出租运营商（以 Waymo 为首）的激烈竞争。但卖方投资者反应过度。",
+            title: "美财政部扩大国债回购规模，贝森特出手稳定债市",
+            summary: "核心要点美国财政部周三表示，未来数月将把国债回购规模至少扩大一倍，重点瞄准市场脆弱的长久期国债板块。消息公布之后，美债收益率大幅回落，股指期货大幅走高。",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqs2642384.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwien2531966.shtml"
         },
         {
-            title: "筹备巨型IPO，Anthropic拟为创始人设置超级投票权",
-            summary: "这家 AI 公司正在加固其独特治理架构，该架构还设有一家长期信托，掌握董事会成员的任免权Anthropic 首席执行官、联合创始人达里奥・阿莫代伊。",
+            title: "美国财政部将长期国债回购规模扩大一倍",
+            summary: "美国财政部表示，在债券遭遇大幅抛售、借贷成本飙升至多年高位之后，将把美国长期国债的回购规模扩大一倍。 财政部公告称，将至少翻倍扩大针对 10‑20 年期...",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqs2640936.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiep9293346.shtml"
         },
         {
-            title: "宾夕法尼亚州州长提高数据中心项目许可审批要求",
-            summary: "针对 AI 数据中心的政治抵制浪潮愈演愈烈，这是最新举措 作者：阿米尔・埃弗拉蒂 宾夕法尼亚州州长乔什・夏皮罗于周二签署一项行政命令...",
+            title: "莫德纳黑色素瘤疫苗临床试验取得成功，股价暴涨 90%",
+            summary: "美国疫苗厂商莫德纳公布一款在研皮肤癌疫苗临床试验取得成功后，公司股价涨幅超过 90%。 莫德纳于周三表示，这款个性化 mRNA 癌症疫苗在一项后期临床试验中取得首个阳性结...",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqt9411578.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwien2520179.shtml"
         },
         {
-            title: "美国证券交易委员会首次提出加密货币监管新规",
-            summary: "副标题：国会加密立法陷入停滞，监管机构启动规则制定工作 在美国标志性加密法案《清晰法案》（CLARITY Act）于国会遭遇推进受阻之后...",
+            title: "开盘：主要股指高开 美财政部救市了",
+            summary: "周三，在美国财政部宣布扩大国债回购操作之后，美债收益率回落，主要股指大幅走高。 道指涨0.42%，标普500指数涨0.42%，纳指涨0.40%。",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqs2637608.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiei6984186.shtml"
         },
         {
-            title: "谷歌称其人工智能可承担前线部署工程师的工作",
-            summary: "作者：凯文・麦克劳克林 继帕兰提尔（Palantir）开创该模式之后，OpenAI、Anthropic、微软与亚马逊均投入数十亿美元，招聘所谓前线部署工程师（FDE）...",
+            title: "美国全球秩序角色后退正在“侵蚀”欧洲竞争力，欧央行行长发出警告",
+            summary: "核心要点欧洲央行行长克里斯蒂娜・拉加德呼吁欧洲加强区域一体化，方能在人工智能时代参与全球竞争。她表示，“依托美国安全保护伞所构建的基于规则的全球秩序”...",
             source: "环球市场播报",
             date: "2026-08-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvwqp7064428.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiei6977231.shtml"
         },
         {
-            title: "棕榈油价格升至八个月高位 因厄尔尼诺加剧东南亚干旱",
-            summary: "棕榈油价格周二收于2024年12月以来最高水平后延续涨势。主要产区持续干旱引发市场对供应前景的担忧，支撑油价上行。 周三，吉隆坡棕榈油期货一度上涨0.9%...",
+            title: "散户并未彻底放弃AI板块，但态度趋于谨慎",
+            summary: "散户投资者并未放弃人工智能相关交易。但随着市场步入秋季，选股变得更加挑剔，同时开始配置下行风险保护工具。 万达研究（Vanda Research）与嘉信理财的数据显示...",
             source: "环球市场播报",
             date: "2026-08-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-19/doc-ininvwqk8332090.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiei6974497.shtml"
         },
         {
-            title: "英国首相伯纳姆承诺将经济增长职能从财政部转交“北方10号”",
-            summary: " 英国首相安迪·伯纳姆表示，他将把推动经济增长的职责从英国财政部转移至其位于英格兰北部的新办公机构，进一步强化首相府对经济事务的直接主导权。",
+            title: "美国汽车经销商愈发依靠配件与维修服务获取利润",
+            summary: "核心要点美国汽车经销商的配件维修部门、金融保险业务正成为愈发重要的利润来源。经销商属于风险对冲属性较强的商业模式：既可以靠卖车赚钱，也可以靠车辆维修保养盈利。",
             source: "环球市场播报",
             date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-19/doc-ininvwqs2631663.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiee8243149.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-08-19",
-        marketAssessment: "A股方面：上证指数报3894.42点（-2.40%），深证成指报13890.15点（-5.01%），创业板指报3473.49点（-6.26%）。美股方面：标普500报7,691.76（-0.47%），纳斯达克报26,289.71（-0.59%）。",
+        marketAssessment: "A股方面：上证指数报3894.42点（-2.40%），深证成指报13890.15点（-5.01%），创业板指报3473.49点（-6.26%）。美股方面：标普500报7,715.00（-0.43%），纳斯达克报26,242.12（-1.30%）。",
         hotSectors: [
             { name: "卫浴电器", reason: "板块涨幅+7.19%", strength: "强" },
             { name: "焦炭Ⅲ", reason: "板块涨幅+6.53%", strength: "强" },

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3990.30", change: "+0.19%", market: "A股", updateTime: "2026-08-18 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14622.50", change: "-0.56%", market: "A股", updateTime: "2026-08-18 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3705.56", change: "-0.93%", market: "A股", updateTime: "2026-08-18 实时" },
-        { name: "沪深300", code: "SH000300", value: "4725.81", change: "-0.32%", market: "A股", updateTime: "2026-08-18 实时" },
-        { name: "科创50", code: "SH000688", value: "1790.87", change: "+0.11%", market: "A股", updateTime: "2026-08-18 实时" },
-        { name: "标普500", code: "SPX", value: "7,705.36", change: "-0.30%", market: "美股", updateTime: "2026-08-18 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,314.38", change: "-0.50%", market: "美股", updateTime: "2026-08-18 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,434.24", change: "-0.66%", market: "美股", updateTime: "2026-08-18 收盘" },
+                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3912.66", change: "-1.95%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14042.92", change: "-3.96%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3521.12", change: "-4.98%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "沪深300", code: "SH000300", value: "4610.81", change: "-2.43%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "科创50", code: "SH000688", value: "1683.43", change: "-6.00%", market: "A股", updateTime: "2026-08-19 实时" },
+        { name: "标普500", code: "SPX", value: "7,691.76", change: "-0.47%", market: "美股", updateTime: "2026-08-19 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,289.71", change: "-0.59%", market: "美股", updateTime: "2026-08-19 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,343.40", change: "-0.83%", market: "美股", updateTime: "2026-08-19 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "美国7月二手房签约量环比下降2.3% 逊于所有经济学家预估",
-            summary: "美国全国房地产经纪人协会（NAR）公布的二手房签约量指数7月环比下降2.3%，预估中值为持平。 接受调查的26位经济学家预测区间介于下降1%至增长3.3%之间。",
+            title: "韩国智库上调今明两年经济增长预期",
+            summary: "韩国一家国有智库上调了对今年和明年的经济增长预测，理由是半导体出口和人工智能投资表现强劲。 韩国开发研究院（KDI）在周三发布的经济展望报告中表示...",
             source: "环球市场播报",
-            date: "2026-08-18",
+            date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefn3134845.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvmyq8306022.shtml"
         },
         {
-            title: "“简直疯狂”：韩国股民正在美股市场做些什么",
-            summary: "核心要点韩国本土股市出现回调，7 月韩国散户投资者净买入 45 亿美元美股。很多投资者只是转换交易市场，并未改变押注方向，通过美股标的继续布局人工智能主题与杠杆类产品...",
+            title: "韩国二季度家庭贷款增速跃升至近五年来的最高水平",
+            summary: "由于购房和无抵押贷款活动增加，韩国第二季度家庭贷款增速创近五年来最大，凸显了金融稳定持续存在的风险。 根据韩国央行周三公布的初步数据，今年4月至6月...",
             source: "环球市场播报",
-            date: "2026-08-18",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefn3132748.shtml"
-        },
-        {
-            title: "30年期美债收益率创2007年来新高 是什么引发全球债券抛售潮？",
-            summary: "全球国债遭遇抛售，股市集体收跌，投资者对大规模财政支出与通胀风险感到忧虑。 与此同时，资本需求庞大的人工智能行业大举发债，与主权国家形成融资竞争...",
-            source: "环球市场播报",
-            date: "2026-08-18",
+            date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-18/doc-ininuefp9898651.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvmyt7028313.shtml"
         },
         {
-            title: "高盛拟收购一家房地产投资公司，交易金额最高可达 4.1 亿美元",
-            summary: "高盛表示，已达成协议收购私募房地产投资公司 LCN Capital Partners，交易总对价最高可达 4.1 亿美元。 LCN 是一家商业房地产投资机构，管理资产规模约 30 亿美元...",
+            title: "韩元兑美元劲扬 10月以来首次升破1400大关",
+            summary: "韩元兑美元汇率自去年10月以来首次升破1，400，表现优于其他亚洲货币。 美元兑韩元一度下跌0.9%至1398.80，连续第四个交易日走低。",
             source: "环球市场播报",
-            date: "2026-08-18",
+            date: "2026-08-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefp9897005.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvmyx9449315.shtml"
         },
         {
-            title: "全文|百度Q2业绩会实录：文心将重回第一梯队 年底前完成香港主要上市",
-            summary: "百度发布2026年第二季度财报，季度总营收313亿元；百度一般性业务收入252亿元，其中AI业务收入占比50%，已连续两季占比过半。本季度，AI云基础设施中GPU云同比增长283%...",
-            source: "新浪科技",
-            date: "2026-08-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tech/2026-08-18/doc-ininuefi7261347.shtml"
-        },
-        {
-            title: "迪士尼旗下美国广播公司就第一修正案相关事宜起诉联邦通信委员会",
-            summary: "迪士尼旗下的美国广播公司（ABC）依据美国宪法第一修正案，对美国联邦通信委员会（FCC）提起诉讼，称这家政府机构近期针对该公司展开的调查属于一场 “报复性行动”...",
+            title: "韩国智库上调今年经济增长预期至3.2%，因AI需求强劲",
+            summary: " 韩国一个国营智库上调了今年的经济增长预期，超过了政府的预期。预计人工智能推动的全球半导体行业繁荣将强于预期，从而带动出口和投资。",
             source: "环球市场播报",
-            date: "2026-08-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefn3121947.shtml"
+            date: "2026-08-19",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininvfss8421302.shtml"
         },
         {
-            title: "报道：阿联酋总统与特朗普讨论中东局势",
-            summary: "阿联酋国家通讯社报道，阿联酋总统穆罕默德·本·扎耶德与美国总统唐纳德·特朗普通电话，讨论了中东地区局势的发展。 双方还讨论了两国之间的双边合作。",
-            source: "环球市场播报",
-            date: "2026-08-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefe8532252.shtml"
+            title: "中国秦发盘中涨近8% 预计上半年录得除税后溢利不多于2.9亿元",
+            summary: "中国秦发（00866）盘中涨近8%，截至发稿，股价上涨5.60%，现报2.075港元，成交额1002.04万港元。 中国秦发近日发布公告，预计上半年录得除税后溢利不多于2...",
+            source: "新浪港股",
+            date: "2026-08-19",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-19/doc-ininvfsz9574844.shtml"
         },
         {
-            title: "特朗普：目前没有与伊朗举行任何会谈 也没有会谈安排",
-            summary: "美国总统特朗普在Truth Social发帖称，目前没有与伊朗伊斯兰共和国进行任何会谈或对话，也没有安排任何会谈或对话。 他补充说，霍尔木兹海峡已经开放...",
-            source: "环球市场播报",
-            date: "2026-08-18",
+            title: "小米集团-W早盘涨超6% 二季度经调整净利润62亿元环比增长2.4%",
+            summary: "小米集团-W（01810）早盘涨超6%，截至发稿，股价上涨6.04%，现报27.76港元，成交额49.53亿港元。 小米集团公布2026年第二季度业绩，期内实现总收入1089亿元，环比增长9...",
+            source: "新浪港股",
+            date: "2026-08-19",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-19/doc-ininvfsy2800399.shtml"
+        },
+        {
+            title: "福耀玻璃绩后涨超5% 上半年剔除汇率利润实际增长4.78%",
+            summary: "福耀玻璃（03606）绩后涨超5%，截至发稿，股价上涨2.12%，现报57.95港元，成交额2.02亿港元。 福耀玻璃发布业绩，上半年营业收入219.71亿元，同比增长2...",
+            source: "新浪港股",
+            date: "2026-08-19",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-19/doc-ininvfsv7142839.shtml"
+        },
+        {
+            title: "光大期货0819黄金点评：重回利率定价，短线黄金走弱",
+            summary: "隔夜伦敦现货贵金属震荡走弱。欧美长债收益率高企，抬升黄金持有成本。美元指数结束三连跌迎来反弹，压制金价表现。原油再度走高，加剧通胀粘性预期...",
+            source: "市场资讯",
+            date: "2026-08-19",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-18/doc-ininuefn3121078.shtml"
+            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-19/doc-ininvfsv7130928.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-18",
-        marketAssessment: "A股方面：上证指数报3990.30点（+0.19%），深证成指报14622.50点（-0.56%），创业板指报3705.56点（-0.93%）。美股方面：标普500报7,705.36（-0.30%），纳斯达克报26,314.38（-0.50%）。",
+                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-19",
+        marketAssessment: "A股方面：上证指数报3912.66点（-1.95%），深证成指报14042.92点（-3.96%），创业板指报3521.12点（-4.98%）。美股方面：标普500报7,691.76（-0.47%），纳斯达克报26,289.71（-0.59%）。",
         hotSectors: [
-
+            { name: "焦炭Ⅲ", reason: "板块涨幅+6.89%", strength: "强" },
+            { name: "焦炭Ⅱ", reason: "板块涨幅+6.89%", strength: "强" },
+            { name: "卫浴电器", reason: "板块涨幅+6.27%", strength: "强" },
+            { name: "厨卫电器", reason: "板块涨幅+4.46%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "机器人", reason: "板块跌幅-8.10%", strength: "弱" },
+            { name: "半导体设备", reason: "板块跌幅-7.99%", strength: "弱" },
         ],
-        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
+        shortTermStrategy: "超短线关注焦炭Ⅲ、焦炭Ⅱ、卫浴电器等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

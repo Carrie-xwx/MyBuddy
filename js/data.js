@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3901.80", change: "+0.19%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13995.65", change: "+0.76%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3500.23", change: "+0.77%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "沪深300", code: "SH000300", value: "4592.79", change: "+0.09%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "科创50", code: "SH000688", value: "1663.78", change: "-0.22%", market: "A股", updateTime: "2026-08-20 实时" },
+                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3895.19", change: "+0.02%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13910.41", change: "+0.15%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3472.79", change: "-0.02%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "沪深300", code: "SH000300", value: "4578.31", change: "-0.23%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "科创50", code: "SH000688", value: "1647.73", change: "-1.19%", market: "A股", updateTime: "2026-08-20 实时" },
         { name: "标普500", code: "SPX", value: "7,707.98", change: "-0.52%", market: "美股", updateTime: "2026-08-20 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,331.09", change: "-0.97%", market: "美股", updateTime: "2026-08-20 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,463.10", change: "-0.57%", market: "美股", updateTime: "2026-08-20 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,463.05", change: "-0.57%", market: "美股", updateTime: "2026-08-20 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "美联邦贸易委员会警告零售商：不得利用消费者私密数据抬价",
-            summary: "商家愈发擅长利用消费者个人数据（包括网购习惯、智能手机使用行为），测算单个消费者对高价的承受能力。如今，美国联邦贸易委员会（FTC）向企业发出警示...",
+            title: "韩17%国土为城市用地 承载92%人口",
+            summary: " 韩国国土交通部和国土信息公社（LX）20日发布的一项统计数据显示，韩国仅占国土16.7%的城市地区居住着全国92.1%的人口。",
             source: "环球市场播报",
             date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininxqxq8031734.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-20/doc-ininxvfr6755347.shtml"
         },
         {
-            title: "摩根大通称SK海力士明年或向股东返还至少1300亿美元",
-            summary: "据摩根大通称，SK海力士在完成新的巨额股票回购计划后，明年可能会向股东返还至少1300亿美元。 摩根大通分析师认为，周三宣布的40万亿韩元（290亿美元）股票回购计划的关键...",
+            title: "日本40年期国债收益率下跌10个基点至4.05%",
+            summary: "在美国财长贝森特再次尝试压低位于多年高点的长期借贷成本后，日本长期债券收益率下跌。 截至北京时间周四13点45分左右，日本40年期国债收益率下降10个基点至4.05%...",
             source: "环球市场播报",
             date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininxqxq8025385.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininxvfv8844154.shtml"
         },
         {
-            title: "中金：惠理集团维持“跑赢行业”评级 目标价降至2.60港元",
-            summary: "中金发布研报称，维持惠理集团（00806）“跑赢行业”评级，考虑AUM增长及表现费提高，上调2026e/2027e收入预测20%/4%至9.4/8.4亿港元，考虑分销费用增长及投资收益下滑...",
-            source: "新浪港股",
-            date: "2026-08-20",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-20/doc-ininxqxw2106034.shtml"
-        },
-        {
-            title: "中金：港交所维持“跑赢行业”评级 目标价520港元",
-            summary: "中金发布研报称，基本维持香港交易所（00388）当前26e/27e盈利预测不变，公司当前交易于26.6x/25.2x 26e/27e P/E，维持“跑赢行业”评级及目标价520港元（对应33.3x/31...",
-            source: "新浪港股",
-            date: "2026-08-20",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-20/doc-ininxqxw2103993.shtml"
-        },
-        {
-            title: "小摩：香港交易所维持“增持”评级 目标价520港元",
-            summary: "摩根大通发布研报称，香港交易所（00388）次季纯利54亿元，按季升4%，同比增21%，较该行预期高出4%，主要因为收入受交易费上升所支持推动。",
-            source: "新浪港股",
-            date: "2026-08-20",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-20/doc-ininxqxt6748056.shtml"
-        },
-        {
-            title: "医渡科技盘中涨近8% 公司积极构建医疗AI闭环能力",
-            summary: "医渡科技（02158）盘中涨近8%，截至发稿，股价上涨6.45%，现报4.455港元，成交额2034.59万港元。 8月，经国家卫生健康委批准，临床大数据标准化及集成应用重点实验室正式落...",
-            source: "新浪港股",
-            date: "2026-08-20",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-20/doc-ininxqxq8018526.shtml"
-        },
-        {
-            title: "蛋价高位承压，短期回调后或迎开学季二次反弹",
-            summary: "卓创资讯鸡蛋市场分析师赵星 【导语】8月以来，鸡蛋市场正式步入中秋备货旺季，终端需求集中释放，蛋价持续攀升至年内高位。本轮上涨的核心驱动力来自供需两端的共振——中秋...",
+            title: "ST卓然（688121）投资者索赔分析",
+            summary: " 2026年8月19日晚，ST卓然（688121）发布立案调查进展暨退市风险提示公告，透露公司面临重大违法强制退市风险。部分股民或许存在索赔机会。",
             source: "市场资讯",
             date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-08-20/doc-ininxqxx8873094.shtml"
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-20/doc-ininxvfv8831883.shtml"
         },
         {
-            title: "PTA：社会库存降至44个月内低点 9月即将累库存？",
-            summary: "卓创资讯分析师 安光 【导语】4月开始PTA装置集中检修，4-8月PTA持续去库存，8月PTA社会库存预估值降至44个月内的低点。但9月PTA产能运行率将逐渐上升...",
+            title: "天创时尚（603608）投资者索赔提交法院立案，前期已有胜诉",
+            summary: " 2026年8月18日，上海久诚律师事务所股票索赔律师许峰代理的一批天创时尚（603608）投资者索赔案已提交法院立案。（许峰律师专栏）",
             source: "市场资讯",
             date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-08-20/doc-ininxqxx8872812.shtml"
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-20/doc-ininxvfu2058455.shtml"
+        },
+        {
+            title: "江苏吴中（600200）投资者索赔案已启动债权申报工作",
+            summary: "2026年8月18日、19日，上海久诚律师事务所股票索赔律师许峰代理的江苏吴中（600200）投资者索赔案已启动破产重整相关的债权申报工作，此前已多次提交法院立案...",
+            source: "市场资讯",
+            date: "2026-08-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-20/doc-ininxvfr6733914.shtml"
+        },
+        {
+            title: "SK海力士与工会就薪酬和奖金达成初步协议",
+            summary: " 据报道，SK海力士与工会达成了一项初步的工资和奖金集体谈判协议，其中包括6.3%的加薪以及对其利润分享奖金制度的调整。",
+            source: "环球市场播报",
+            date: "2026-08-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininxvfu2056983.shtml"
+        },
+        {
+            title: "中青宝（300052）投资者索赔再提交法院立案，已有两审胜诉",
+            summary: "2026年8月17日，上海久诚律师事务所股票索赔律师许峰代理的中青宝（300052）虚假陈述投资者索赔案再向法院提交一次立案。目前该案前期已有两审投资者胜诉先例...",
+            source: "市场资讯",
+            date: "2026-08-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-20/doc-ininxvfv8830094.shtml"
+        },
+        {
+            title: "文峰股份（601010）、华闻集团（000793）投资者索赔均再向法院提交立案",
+            summary: "2026年8月14日，上海久诚律师事务所股票索赔律师许峰代理的文峰股份（601010）投资者索赔案再向法院提交立案，目前律师团队还在继续推进后续投资者索赔案的代理工作...",
+            source: "市场资讯",
+            date: "2026-08-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-20/doc-ininxvfn8003370.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-20",
-        marketAssessment: "A股方面：上证指数报3901.80点（+0.19%），深证成指报13995.65点（+0.76%），创业板指报3500.23点（+0.77%）。美股方面：标普500报7,707.98（-0.52%），纳斯达克报26,331.09（-0.97%）。",
+        marketAssessment: "A股方面：上证指数报3895.19点（+0.02%），深证成指报13910.41点（+0.15%），创业板指报3472.79点（-0.02%）。美股方面：标普500报7,707.98（-0.52%），纳斯达克报26,331.09（-0.97%）。",
         hotSectors: [
 
         ],

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3894.42", change: "-2.40%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13890.15", change: "-5.01%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3473.49", change: "-6.26%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "沪深300", code: "SH000300", value: "4588.70", change: "-2.90%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "科创50", code: "SH000688", value: "1667.52", change: "-6.89%", market: "A股", updateTime: "2026-08-19 实时" },
-        { name: "标普500", code: "SPX", value: "7,715.00", change: "-0.43%", market: "美股", updateTime: "2026-08-19 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,242.12", change: "-1.30%", market: "美股", updateTime: "2026-08-19 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,596.61", change: "-0.32%", market: "美股", updateTime: "2026-08-19 收盘" },
+                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3901.80", change: "+0.19%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13995.65", change: "+0.76%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3500.23", change: "+0.77%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "沪深300", code: "SH000300", value: "4592.79", change: "+0.09%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "科创50", code: "SH000688", value: "1663.78", change: "-0.22%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "标普500", code: "SPX", value: "7,707.98", change: "-0.52%", market: "美股", updateTime: "2026-08-20 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,331.09", change: "-0.97%", market: "美股", updateTime: "2026-08-20 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,463.10", change: "-0.57%", market: "美股", updateTime: "2026-08-20 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "对冲基金即将大举入局预测市场",
-            summary: "核心要点康托・菲茨杰拉德将担任经纪商，为客户在 Kalshi 平台的事件合约上组织大宗交易。苏世基纳国际集团（SIG）将作为做市商，为康托的客户提供报价与流动性。",
+            title: "美联邦贸易委员会警告零售商：不得利用消费者私密数据抬价",
+            summary: "商家愈发擅长利用消费者个人数据（包括网购习惯、智能手机使用行为），测算单个消费者对高价的承受能力。如今，美国联邦贸易委员会（FTC）向企业发出警示...",
             source: "环球市场播报",
-            date: "2026-08-19",
+            date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiee8285176.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininxqxq8031734.shtml"
         },
         {
-            title: "美财政部扩大国债回购规模，贝森特出手稳定债市",
-            summary: "核心要点美国财政部周三表示，未来数月将把国债回购规模至少扩大一倍，重点瞄准市场脆弱的长久期国债板块。消息公布之后，美债收益率大幅回落，股指期货大幅走高。",
+            title: "摩根大通称SK海力士明年或向股东返还至少1300亿美元",
+            summary: "据摩根大通称，SK海力士在完成新的巨额股票回购计划后，明年可能会向股东返还至少1300亿美元。 摩根大通分析师认为，周三宣布的40万亿韩元（290亿美元）股票回购计划的关键...",
             source: "环球市场播报",
-            date: "2026-08-19",
+            date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwien2531966.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininxqxq8025385.shtml"
         },
         {
-            title: "美国财政部将长期国债回购规模扩大一倍",
-            summary: "美国财政部表示，在债券遭遇大幅抛售、借贷成本飙升至多年高位之后，将把美国长期国债的回购规模扩大一倍。 财政部公告称，将至少翻倍扩大针对 10‑20 年期...",
-            source: "环球市场播报",
-            date: "2026-08-19",
+            title: "中金：惠理集团维持“跑赢行业”评级 目标价降至2.60港元",
+            summary: "中金发布研报称，维持惠理集团（00806）“跑赢行业”评级，考虑AUM增长及表现费提高，上调2026e/2027e收入预测20%/4%至9.4/8.4亿港元，考虑分销费用增长及投资收益下滑...",
+            source: "新浪港股",
+            date: "2026-08-20",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-20/doc-ininxqxw2106034.shtml"
+        },
+        {
+            title: "中金：港交所维持“跑赢行业”评级 目标价520港元",
+            summary: "中金发布研报称，基本维持香港交易所（00388）当前26e/27e盈利预测不变，公司当前交易于26.6x/25.2x 26e/27e P/E，维持“跑赢行业”评级及目标价520港元（对应33.3x/31...",
+            source: "新浪港股",
+            date: "2026-08-20",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-20/doc-ininxqxw2103993.shtml"
+        },
+        {
+            title: "小摩：香港交易所维持“增持”评级 目标价520港元",
+            summary: "摩根大通发布研报称，香港交易所（00388）次季纯利54亿元，按季升4%，同比增21%，较该行预期高出4%，主要因为收入受交易费上升所支持推动。",
+            source: "新浪港股",
+            date: "2026-08-20",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-20/doc-ininxqxt6748056.shtml"
+        },
+        {
+            title: "医渡科技盘中涨近8% 公司积极构建医疗AI闭环能力",
+            summary: "医渡科技（02158）盘中涨近8%，截至发稿，股价上涨6.45%，现报4.455港元，成交额2034.59万港元。 8月，经国家卫生健康委批准，临床大数据标准化及集成应用重点实验室正式落...",
+            source: "新浪港股",
+            date: "2026-08-20",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-20/doc-ininxqxq8018526.shtml"
+        },
+        {
+            title: "蛋价高位承压，短期回调后或迎开学季二次反弹",
+            summary: "卓创资讯鸡蛋市场分析师赵星 【导语】8月以来，鸡蛋市场正式步入中秋备货旺季，终端需求集中释放，蛋价持续攀升至年内高位。本轮上涨的核心驱动力来自供需两端的共振——中秋...",
+            source: "市场资讯",
+            date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiep9293346.shtml"
+            url: "https://finance.sina.com.cn/money/future/2026-08-20/doc-ininxqxx8873094.shtml"
         },
         {
-            title: "莫德纳黑色素瘤疫苗临床试验取得成功，股价暴涨 90%",
-            summary: "美国疫苗厂商莫德纳公布一款在研皮肤癌疫苗临床试验取得成功后，公司股价涨幅超过 90%。 莫德纳于周三表示，这款个性化 mRNA 癌症疫苗在一项后期临床试验中取得首个阳性结...",
-            source: "环球市场播报",
-            date: "2026-08-19",
+            title: "PTA：社会库存降至44个月内低点 9月即将累库存？",
+            summary: "卓创资讯分析师 安光 【导语】4月开始PTA装置集中检修，4-8月PTA持续去库存，8月PTA社会库存预估值降至44个月内的低点。但9月PTA产能运行率将逐渐上升...",
+            source: "市场资讯",
+            date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwien2520179.shtml"
-        },
-        {
-            title: "开盘：主要股指高开 美财政部救市了",
-            summary: "周三，在美国财政部宣布扩大国债回购操作之后，美债收益率回落，主要股指大幅走高。 道指涨0.42%，标普500指数涨0.42%，纳指涨0.40%。",
-            source: "环球市场播报",
-            date: "2026-08-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiei6984186.shtml"
-        },
-        {
-            title: "美国全球秩序角色后退正在“侵蚀”欧洲竞争力，欧央行行长发出警告",
-            summary: "核心要点欧洲央行行长克里斯蒂娜・拉加德呼吁欧洲加强区域一体化，方能在人工智能时代参与全球竞争。她表示，“依托美国安全保护伞所构建的基于规则的全球秩序”...",
-            source: "环球市场播报",
-            date: "2026-08-19",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiei6977231.shtml"
-        },
-        {
-            title: "散户并未彻底放弃AI板块，但态度趋于谨慎",
-            summary: "散户投资者并未放弃人工智能相关交易。但随着市场步入秋季，选股变得更加挑剔，同时开始配置下行风险保护工具。 万达研究（Vanda Research）与嘉信理财的数据显示...",
-            source: "环球市场播报",
-            date: "2026-08-19",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiei6974497.shtml"
-        },
-        {
-            title: "美国汽车经销商愈发依靠配件与维修服务获取利润",
-            summary: "核心要点美国汽车经销商的配件维修部门、金融保险业务正成为愈发重要的利润来源。经销商属于风险对冲属性较强的商业模式：既可以靠卖车赚钱，也可以靠车辆维修保养盈利。",
-            source: "环球市场播报",
-            date: "2026-08-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-19/doc-ininwiee8243149.shtml"
+            url: "https://finance.sina.com.cn/money/future/2026-08-20/doc-ininxqxx8872812.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-19",
-        marketAssessment: "A股方面：上证指数报3894.42点（-2.40%），深证成指报13890.15点（-5.01%），创业板指报3473.49点（-6.26%）。美股方面：标普500报7,715.00（-0.43%），纳斯达克报26,242.12（-1.30%）。",
+                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-20",
+        marketAssessment: "A股方面：上证指数报3901.80点（+0.19%），深证成指报13995.65点（+0.76%），创业板指报3500.23点（+0.77%）。美股方面：标普500报7,707.98（-0.52%），纳斯达克报26,331.09（-0.97%）。",
         hotSectors: [
-            { name: "卫浴电器", reason: "板块涨幅+7.19%", strength: "强" },
-            { name: "焦炭Ⅲ", reason: "板块涨幅+6.53%", strength: "强" },
-            { name: "焦炭Ⅱ", reason: "板块涨幅+6.53%", strength: "强" },
-            { name: "厨卫电器", reason: "板块涨幅+4.57%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "机器人", reason: "板块跌幅-9.58%", strength: "弱" },
-            { name: "半导体设备", reason: "板块跌幅-9.27%", strength: "弱" },
+
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注卫浴电器、焦炭Ⅲ、焦炭Ⅱ等板块的延续性，顺势操作，严格止损。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

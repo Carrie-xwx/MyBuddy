@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                        marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3895.19", change: "+0.02%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13910.41", change: "+0.15%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3472.79", change: "-0.02%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "沪深300", code: "SH000300", value: "4578.31", change: "-0.23%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "科创50", code: "SH000688", value: "1647.73", change: "-1.19%", market: "A股", updateTime: "2026-08-20 实时" },
+                                                                                                                                                                                                                                                            marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3903.72", change: "+0.24%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13972.78", change: "+0.59%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3495.59", change: "+0.64%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "沪深300", code: "SH000300", value: "4592.75", change: "+0.09%", market: "A股", updateTime: "2026-08-20 实时" },
+        { name: "科创50", code: "SH000688", value: "1652.97", change: "-0.87%", market: "A股", updateTime: "2026-08-20 实时" },
         { name: "标普500", code: "SPX", value: "7,707.98", change: "-0.52%", market: "美股", updateTime: "2026-08-20 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,331.09", change: "-0.97%", market: "美股", updateTime: "2026-08-20 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,463.05", change: "-0.57%", market: "美股", updateTime: "2026-08-20 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "韩17%国土为城市用地 承载92%人口",
-            summary: " 韩国国土交通部和国土信息公社（LX）20日发布的一项统计数据显示，韩国仅占国土16.7%的城市地区居住着全国92.1%的人口。",
+            title: "君正股份港股IPO：利基存储站上景气高点 招股前产业基金、实控人关联方、高管合计减持规模或超75亿元",
+            summary: "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 君正股份正式启动H股全球招股，拟于8月25日登陆港交所主板，最高发售价102.8港元，绿鞋前募资总额最高约32...",
+            source: "新浪证券",
+            date: "2026-08-20",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/observe/2026-08-20/doc-ininyfvm6710465.shtml"
+        },
+        {
+            title: "迈威尔科技在芯片合作协议中授予谷歌最高122亿美元的股票购买权",
+            summary: "双方扩大合作，将联合研发定制半导体，该消息推动迈威尔科技股价周三大涨近 10%。 迈威尔科技科技（Marvell Technology）与谷歌扩大合作关系...",
+            source: "环球市场播报",
+            date: "2026-08-20",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvm6704799.shtml"
+        },
+        {
+            title: "中天期货:商品指数商品震荡上行 碳酸锂延续调整",
+            summary: "热点品种分析 一、商品指数 二、股指 中国上证综指 8 月 20 日（周四）收盘上涨 9.30 点，涨幅 0.24%，报 3903.72 点； 中国深证成指 8 月 20 日（周四）收盘上涨 82...",
+            source: "市场资讯",
+            date: "2026-08-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-20/doc-ininyfvr8734860.shtml"
+        },
+        {
+            title: "巴克莱资深半导体投行家蒂姆・卢克加盟摩根士丹利",
+            summary: "这位资深芯片行业银行家曾担任安谋（Arm）2023 年 IPO 项目顾问。 据知情人士透露，巴克莱全球科技投行集团副主席蒂姆・卢克（Tim Luke）将加入摩根士丹利...",
+            source: "环球市场播报",
+            date: "2026-08-20",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvr8734302.shtml"
+        },
+        {
+            title: "Enovix新一代电池性能出众，但是否已然落伍？",
+            summary: "2022 年 8 月，Loop Capital 科技分析师阿南达・巴鲁阿将新一代电池开发商 Enovix 的目标股价上调一倍，至每股 100 美元，彼时该股交易价格约 20 美元。",
             source: "环球市场播报",
             date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-20/doc-ininxvfr6755347.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvr8732901.shtml"
         },
         {
-            title: "日本40年期国债收益率下跌10个基点至4.05%",
-            summary: "在美国财长贝森特再次尝试压低位于多年高点的长期借贷成本后，日本长期债券收益率下跌。 截至北京时间周四13点45分左右，日本40年期国债收益率下降10个基点至4.05%...",
+            title: "英伟达洽谈投资其AI数据供应商Mercor，投后估值200亿美元",
+            summary: "据知情人士透露，英伟达正洽谈投资 Mercor。这家数据标注服务商为英伟达研发开源 AI 大模型提供数据支持。本轮融资完成后，Mercor 估值将达到 200 亿美元。",
+            source: "环球市场播报",
+            date: "2026-08-20",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvh7967608.shtml"
+        },
+        {
+            title: "券商8月首次下调三星、SK海力士明年盈利预期",
+            summary: "半导体高景气预期迎来回调8月，三星电子与SK海力士的下一年度盈利预期迎来首次下调。两家企业股价已大幅下挫，市场正关注半导体板块近期暴跌是否已经反映出未来盈利增速放...",
             source: "环球市场播报",
             date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininxvfv8844154.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvh7957334.shtml"
         },
         {
-            title: "ST卓然（688121）投资者索赔分析",
-            summary: " 2026年8月19日晚，ST卓然（688121）发布立案调查进展暨退市风险提示公告，透露公司面临重大违法强制退市风险。部分股民或许存在索赔机会。",
-            source: "市场资讯",
-            date: "2026-08-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-20/doc-ininxvfv8831883.shtml"
-        },
-        {
-            title: "天创时尚（603608）投资者索赔提交法院立案，前期已有胜诉",
-            summary: " 2026年8月18日，上海久诚律师事务所股票索赔律师许峰代理的一批天创时尚（603608）投资者索赔案已提交法院立案。（许峰律师专栏）",
-            source: "市场资讯",
-            date: "2026-08-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-20/doc-ininxvfu2058455.shtml"
-        },
-        {
-            title: "江苏吴中（600200）投资者索赔案已启动债权申报工作",
-            summary: "2026年8月18日、19日，上海久诚律师事务所股票索赔律师许峰代理的江苏吴中（600200）投资者索赔案已启动破产重整相关的债权申报工作，此前已多次提交法院立案...",
-            source: "市场资讯",
-            date: "2026-08-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-20/doc-ininxvfr6733914.shtml"
-        },
-        {
-            title: "SK海力士与工会就薪酬和奖金达成初步协议",
-            summary: " 据报道，SK海力士与工会达成了一项初步的工资和奖金集体谈判协议，其中包括6.3%的加薪以及对其利润分享奖金制度的调整。",
+            title: "伊拉克称新建石油出口管道建设周期或需2‑3年",
+            summary: "伊拉克石油部发言人萨利姆·里卡比表示，在签署协议后，修建一条从伊拉克巴士拉油田通往哈迪塞，再分别延伸至叙利亚巴尼亚斯以及土耳其杰伊汉的全新输油管道...",
             source: "环球市场播报",
             date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininxvfu2056983.shtml"
-        },
-        {
-            title: "中青宝（300052）投资者索赔再提交法院立案，已有两审胜诉",
-            summary: "2026年8月17日，上海久诚律师事务所股票索赔律师许峰代理的中青宝（300052）虚假陈述投资者索赔案再向法院提交一次立案。目前该案前期已有两审投资者胜诉先例...",
-            source: "市场资讯",
-            date: "2026-08-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-20/doc-ininxvfv8830094.shtml"
-        },
-        {
-            title: "文峰股份（601010）、华闻集团（000793）投资者索赔均再向法院提交立案",
-            summary: "2026年8月14日，上海久诚律师事务所股票索赔律师许峰代理的文峰股份（601010）投资者索赔案再向法院提交立案，目前律师团队还在继续推进后续投资者索赔案的代理工作...",
-            source: "市场资讯",
-            date: "2026-08-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-20/doc-ininxvfn8003370.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvq1948482.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-08-20",
-        marketAssessment: "A股方面：上证指数报3895.19点（+0.02%），深证成指报13910.41点（+0.15%），创业板指报3472.79点（-0.02%）。美股方面：标普500报7,707.98（-0.52%），纳斯达克报26,331.09（-0.97%）。",
+        marketAssessment: "A股方面：上证指数报3903.72点（+0.24%），深证成指报13972.78点（+0.59%），创业板指报3495.59点（+0.64%）。美股方面：标普500报7,707.98（-0.52%），纳斯达克报26,331.09（-0.97%）。",
         hotSectors: [
 
         ],

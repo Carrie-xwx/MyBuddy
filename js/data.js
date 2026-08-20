@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3903.72", change: "+0.24%", market: "A股", updateTime: "2026-08-20 实时" },
         { name: "深证成指", code: "SZ399001", value: "13972.78", change: "+0.59%", market: "A股", updateTime: "2026-08-20 实时" },
         { name: "创业板指", code: "SZ399006", value: "3495.59", change: "+0.64%", market: "A股", updateTime: "2026-08-20 实时" },
         { name: "沪深300", code: "SH000300", value: "4592.75", change: "+0.09%", market: "A股", updateTime: "2026-08-20 实时" },
         { name: "科创50", code: "SH000688", value: "1652.97", change: "-0.87%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "标普500", code: "SPX", value: "7,707.98", change: "-0.52%", market: "美股", updateTime: "2026-08-20 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,331.09", change: "-0.97%", market: "美股", updateTime: "2026-08-20 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,463.05", change: "-0.57%", market: "美股", updateTime: "2026-08-20 收盘" },
+        { name: "标普500", code: "SPX", value: "7,677.90", change: "-1.55%", market: "美股", updateTime: "2026-08-20 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,141.22", change: "-2.47%", market: "美股", updateTime: "2026-08-20 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,030.31", change: "-1.50%", market: "美股", updateTime: "2026-08-20 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "君正股份港股IPO：利基存储站上景气高点 招股前产业基金、实控人关联方、高管合计减持规模或超75亿元",
-            summary: "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 君正股份正式启动H股全球招股，拟于8月25日登陆港交所主板，最高发售价102.8港元，绿鞋前募资总额最高约32...",
-            source: "新浪证券",
-            date: "2026-08-20",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/observe/2026-08-20/doc-ininyfvm6710465.shtml"
-        },
-        {
-            title: "迈威尔科技在芯片合作协议中授予谷歌最高122亿美元的股票购买权",
-            summary: "双方扩大合作，将联合研发定制半导体，该消息推动迈威尔科技股价周三大涨近 10%。 迈威尔科技科技（Marvell Technology）与谷歌扩大合作关系...",
-            source: "环球市场播报",
-            date: "2026-08-20",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvm6704799.shtml"
-        },
-        {
-            title: "中天期货:商品指数商品震荡上行 碳酸锂延续调整",
-            summary: "热点品种分析 一、商品指数 二、股指 中国上证综指 8 月 20 日（周四）收盘上涨 9.30 点，涨幅 0.24%，报 3903.72 点； 中国深证成指 8 月 20 日（周四）收盘上涨 82...",
-            source: "市场资讯",
-            date: "2026-08-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-20/doc-ininyfvr8734860.shtml"
-        },
-        {
-            title: "巴克莱资深半导体投行家蒂姆・卢克加盟摩根士丹利",
-            summary: "这位资深芯片行业银行家曾担任安谋（Arm）2023 年 IPO 项目顾问。 据知情人士透露，巴克莱全球科技投行集团副主席蒂姆・卢克（Tim Luke）将加入摩根士丹利...",
-            source: "环球市场播报",
-            date: "2026-08-20",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvr8734302.shtml"
-        },
-        {
-            title: "Enovix新一代电池性能出众，但是否已然落伍？",
-            summary: "2022 年 8 月，Loop Capital 科技分析师阿南达・巴鲁阿将新一代电池开发商 Enovix 的目标股价上调一倍，至每股 100 美元，彼时该股交易价格约 20 美元。",
+            title: "迪尔公司营收攀升，利润实现增长",
+            summary: "公司 2026 财年第三季度净销售额及营收增长 6.2%，达到 110 亿美元 作者：康纳・哈特迪尔公司财季利润与销售额双双走高。 内容摘要 迪尔公布 2026 财年第三季度净利润 13...",
             source: "环球市场播报",
             date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvr8732901.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysmk1855711.shtml"
         },
         {
-            title: "英伟达洽谈投资其AI数据供应商Mercor，投后估值200亿美元",
-            summary: "据知情人士透露，英伟达正洽谈投资 Mercor。这家数据标注服务商为英伟达研发开源 AI 大模型提供数据支持。本轮融资完成后，Mercor 估值将达到 200 亿美元。",
+            title: "受汽油和柴油拉动，加拿大7月生产者价格上涨",
+            summary: "加拿大统计局工业产品价格指数 7 月环比上涨 0.6% 作者：罗布・M・斯图尔特加拿大 7 月制成品价格再度走高。 受中东冲突再起推高燃料成本影响...",
+            source: "环球市场播报",
+            date: "2026-08-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysma7919346.shtml"
+        },
+        {
+            title: "债券市场与六旗乐园的相通之处",
+            summary: "此外，美联储会议纪要显示更多官员支持加息 作者：克里斯汀・布劳顿 本周债券市场如同坐过山车，对于正考虑发债的首席财务官们而言，市场环境变得更为严峻。",
+            source: "环球市场播报",
+            date: "2026-08-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysma7916993.shtml"
+        },
+        {
+            title: "纳斯达克100指数恐五连跌 油价、收益率攀升令美股承压",
+            summary: " 美国股市早盘小幅下跌，美债涨势消退，投资者押注美国财政部压低借贷成本的计划可能只是短期的补救措施，而油价再度攀升则进一步加剧了市场对通胀的担忧。",
             source: "环球市场播报",
             date: "2026-08-20",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvh7967608.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysmk1852047.shtml"
         },
         {
-            title: "券商8月首次下调三星、SK海力士明年盈利预期",
-            summary: "半导体高景气预期迎来回调8月，三星电子与SK海力士的下一年度盈利预期迎来首次下调。两家企业股价已大幅下挫，市场正关注半导体板块近期暴跌是否已经反映出未来盈利增速放...",
+            title: "超微电脑：高级管理层不知晓所指称的转运计划",
+            summary: "超微电脑完成了针对其出口合规计划的独立调查，公司表示调查团队未发现证据表明公司高级管理层知晓所指称的转运计划。 独立调查未发现公司直接向受限制方销售产品的证据。",
             source: "环球市场播报",
             date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvh7957334.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysmm8608412.shtml"
         },
         {
-            title: "伊拉克称新建石油出口管道建设周期或需2‑3年",
-            summary: "伊拉克石油部发言人萨利姆·里卡比表示，在签署协议后，修建一条从伊拉克巴士拉油田通往哈迪塞，再分别延伸至叙利亚巴尼亚斯以及土耳其杰伊汉的全新输油管道...",
+            title: "开盘：主要股指低开 美债收益率再度回升",
+            summary: "债券市场的短暂喘息似乎正在消退，周四长期美债重拾跌势，继续给股市带来压力，投资者开始质疑美国财政部支持措施的实际效果。与此同时...",
             source: "环球市场播报",
             date: "2026-08-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvq1948482.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysmf6615367.shtml"
+        },
+        {
+            title: "比特币暴涨12%：7万关口能否守住？ETF资金揭示真相",
+            summary: "来源：智通财经网 据 Woofun AI 消息，比特币价格强势反弹并重新确立 70，250 美元这一核心支撑位，标志着市场在经历剧烈波动后试图稳定局势。",
+            source: "市场资讯",
+            date: "2026-08-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-20/doc-ininyncn1957191.shtml"
+        },
+        {
+            title: "比特币两日暴涨11%，特朗普与加密行业高管为推动《清晰法案》展开最后冲刺",
+            summary: " 受白宫与加密行业领袖的最后一轮推动，市场期待《清晰法案》能在未来几周走完立法流程，比特币价格创下 6 月以来新高证券时报。",
+            source: "环球市场播报",
+            date: "2026-08-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyncn1953565.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-08-20",
-        marketAssessment: "A股方面：上证指数报3903.72点（+0.24%），深证成指报13972.78点（+0.59%），创业板指报3495.59点（+0.64%）。美股方面：标普500报7,707.98（-0.52%），纳斯达克报26,331.09（-0.97%）。",
+        marketAssessment: "A股方面：上证指数报3903.72点（+0.24%），深证成指报13972.78点（+0.59%），创业板指报3495.59点（+0.64%）。美股方面：标普500报7,677.90（-1.55%），纳斯达克报26,141.22（-2.47%）。",
         hotSectors: [
 
         ],

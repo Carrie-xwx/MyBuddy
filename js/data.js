@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3903.72", change: "+0.24%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13972.78", change: "+0.59%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3495.59", change: "+0.64%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "沪深300", code: "SH000300", value: "4592.75", change: "+0.09%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "科创50", code: "SH000688", value: "1652.97", change: "-0.87%", market: "A股", updateTime: "2026-08-20 实时" },
-        { name: "标普500", code: "SPX", value: "7,677.90", change: "-1.55%", market: "美股", updateTime: "2026-08-20 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,141.22", change: "-2.47%", market: "美股", updateTime: "2026-08-20 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,030.31", change: "-1.50%", market: "美股", updateTime: "2026-08-20 收盘" },
+                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3903.81", change: "+0.00%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14061.45", change: "+0.63%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3537.98", change: "+1.21%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "沪深300", code: "SH000300", value: "4616.83", change: "+0.52%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "科创50", code: "SH000688", value: "1654.19", change: "+0.07%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "标普500", code: "SPX", value: "7,641.16", change: "-2.02%", market: "美股", updateTime: "2026-08-21 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,067.17", change: "-2.75%", market: "美股", updateTime: "2026-08-21 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,759.21", change: "-2.01%", market: "美股", updateTime: "2026-08-21 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "迪尔公司营收攀升，利润实现增长",
-            summary: "公司 2026 财年第三季度净销售额及营收增长 6.2%，达到 110 亿美元 作者：康纳・哈特迪尔公司财季利润与销售额双双走高。 内容摘要 迪尔公布 2026 财年第三季度净利润 13...",
-            source: "环球市场播报",
-            date: "2026-08-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysmk1855711.shtml"
+            title: "三生制药午前涨超11% 上半年经调整的经营性归母净利润同比增长26.5%",
+            summary: "三生制药（01530）早盘涨超11%，截至发稿，股价上涨11.33%，现报18.37港元，成交额8.59亿港元。 三生制药发布2026年中期业绩。上半年公司实现营业收入45.3亿元，同比增长3...",
+            source: "新浪港股",
+            date: "2026-08-21",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-ininzyev8204718.shtml"
         },
         {
-            title: "受汽油和柴油拉动，加拿大7月生产者价格上涨",
-            summary: "加拿大统计局工业产品价格指数 7 月环比上涨 0.6% 作者：罗布・M・斯图尔特加拿大 7 月制成品价格再度走高。 受中东冲突再起推高燃料成本影响...",
-            source: "环球市场播报",
-            date: "2026-08-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysma7919346.shtml"
+            title: "5100藏冰川午前涨逾4% 向马来西亚公司授予东南亚及中东市场经销权",
+            summary: "5100藏冰川（01115）盘中涨超5%，截至发稿，股价上涨3.85%，现报0.405港元，成交额1715.16万港元。 5100藏冰川发布公告，继本集团若干水产品取得马来西亚清真认证后...",
+            source: "新浪港股",
+            date: "2026-08-21",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-ininzyev8203574.shtml"
         },
         {
-            title: "债券市场与六旗乐园的相通之处",
-            summary: "此外，美联储会议纪要显示更多官员支持加息 作者：克里斯汀・布劳顿 本周债券市场如同坐过山车，对于正考虑发债的首席财务官们而言，市场环境变得更为严峻。",
+            title: "AI生成劣质文稿泛滥 美国众议院法案起草办公室不堪重负",
+            summary: "美国国会律师正疲于应对海量由人工智能工具生成的立法草案，其中大量文稿错误百出、行文粗劣。 八名现任及曾供职于众议院立法顾问办公室的官员接受采访时表示...",
             source: "环球市场播报",
-            date: "2026-08-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysma7916993.shtml"
+            date: "2026-08-21",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-ininzyev8201988.shtml"
         },
         {
-            title: "纳斯达克100指数恐五连跌 油价、收益率攀升令美股承压",
-            summary: " 美国股市早盘小幅下跌，美债涨势消退，投资者押注美国财政部压低借贷成本的计划可能只是短期的补救措施，而油价再度攀升则进一步加剧了市场对通胀的担忧。",
-            source: "环球市场播报",
-            date: "2026-08-20",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysmk1852047.shtml"
+            title: "中国心连心化肥早盘涨近8% 预计上半年净利润同比增幅52%至62%",
+            summary: "中国心连心化肥（01866）盘中涨近8%，截至发稿，股价上涨7.55%，现报10.11港元，成交额1775.53万港元。 近期，中国心连心化肥业绩盈喜预告...",
+            source: "新浪港股",
+            date: "2026-08-21",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-ininztwt6518235.shtml"
         },
         {
-            title: "超微电脑：高级管理层不知晓所指称的转运计划",
-            summary: "超微电脑完成了针对其出口合规计划的独立调查，公司表示调查团队未发现证据表明公司高级管理层知晓所指称的转运计划。 独立调查未发现公司直接向受限制方销售产品的证据。",
-            source: "环球市场播报",
-            date: "2026-08-20",
+            title: "财政部：中长期将通过持续提升社会保障能力等夯实居民消费基础",
+            summary: "8月21日，国新办举行“开局起步‘十五五’”系列主题新闻发布会，在谈到财政如何促消费时，财政部副部长廖岷表示，下一步，财政部将聚焦《扩大消费“十五五”规划》就业...",
+            source: "澎湃新闻",
+            date: "2026-08-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysmm8608412.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-21/doc-ininztwx8312559.shtml"
         },
         {
-            title: "开盘：主要股指低开 美债收益率再度回升",
-            summary: "债券市场的短暂喘息似乎正在消退，周四长期美债重拾跌势，继续给股市带来压力，投资者开始质疑美国财政部支持措施的实际效果。与此同时...",
+            title: "比特币升破75000美元 亚洲时段乐观情绪依然高涨",
+            summary: "比特币周五亚洲早盘上涨逾4%，延续自周三开始的强劲涨势。美国财政部此前公布遏制长期国债收益率的计划。 截至新加坡时间上午10点，比特币一度升至75740美元。",
             source: "环球市场播报",
-            date: "2026-08-20",
+            date: "2026-08-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininysmf6615367.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-ininztwt6515908.shtml"
         },
         {
-            title: "比特币暴涨12%：7万关口能否守住？ETF资金揭示真相",
-            summary: "来源：智通财经网 据 Woofun AI 消息，比特币价格强势反弹并重新确立 70，250 美元这一核心支撑位，标志着市场在经历剧烈波动后试图稳定局势。",
-            source: "市场资讯",
-            date: "2026-08-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-20/doc-ininyncn1957191.shtml"
+            title: "芯片行业景气高涨 韩国拟利用“意外超额财政收入”设立“未来基金”",
+            summary: " 韩国企划财政部周五表示，韩国将设立“未来基金”，依托本轮人工智能产业繁荣带来的税收增量——政府称之为意外超额财政收入，推动本国经济长期增长。",
+            source: "环球市场播报",
+            date: "2026-08-21",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/world/2026-08-21/doc-ininztww1538896.shtml"
         },
         {
-            title: "比特币两日暴涨11%，特朗普与加密行业高管为推动《清晰法案》展开最后冲刺",
-            summary: " 受白宫与加密行业领袖的最后一轮推动，市场期待《清晰法案》能在未来几周走完立法流程，比特币价格创下 6 月以来新高证券时报。",
-            source: "环球市场播报",
-            date: "2026-08-20",
+            title: "财政部：“十五五”时期将加快构建完善现代财政宏观调控机制",
+            summary: "人民财讯8月21日电，财政部副部长廖岷在国新办新闻发布会上表示，“十五五”时期，财政部将按照党中央、国务院的相关部署，加大财政逆周期调节力度...",
+            source: "证券时报网",
+            date: "2026-08-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyncn1953565.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-21/doc-ininztwt6512621.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-20",
-        marketAssessment: "A股方面：上证指数报3903.72点（+0.24%），深证成指报13972.78点（+0.59%），创业板指报3495.59点（+0.64%）。美股方面：标普500报7,677.90（-1.55%），纳斯达克报26,141.22（-2.47%）。",
+                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-21",
+        marketAssessment: "A股方面：上证指数报3903.81点（+0.00%），深证成指报14061.45点（+0.63%），创业板指报3537.98点（+1.21%）。美股方面：标普500报7,641.16（-2.02%），纳斯达克报26,067.17（-2.75%）。",
         hotSectors: [
 
         ],

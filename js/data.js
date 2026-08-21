@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3903.81", change: "+0.00%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14061.45", change: "+0.63%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3537.98", change: "+1.21%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "沪深300", code: "SH000300", value: "4616.83", change: "+0.52%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "科创50", code: "SH000688", value: "1654.19", change: "+0.07%", market: "A股", updateTime: "2026-08-21 实时" },
+                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3896.41", change: "-0.19%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14029.90", change: "+0.41%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3527.40", change: "+0.91%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "沪深300", code: "SH000300", value: "4607.57", change: "+0.32%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "科创50", code: "SH000688", value: "1642.57", change: "-0.63%", market: "A股", updateTime: "2026-08-21 实时" },
         { name: "标普500", code: "SPX", value: "7,641.16", change: "-2.02%", market: "美股", updateTime: "2026-08-21 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,067.17", change: "-2.75%", market: "美股", updateTime: "2026-08-21 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,759.21", change: "-2.01%", market: "美股", updateTime: "2026-08-21 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "三生制药午前涨超11% 上半年经调整的经营性归母净利润同比增长26.5%",
-            summary: "三生制药（01530）早盘涨超11%，截至发稿，股价上涨11.33%，现报18.37港元，成交额8.59亿港元。 三生制药发布2026年中期业绩。上半年公司实现营业收入45.3亿元，同比增长3...",
+            title: "中国平安午后涨超3% 上半年归母净利润同比大增36.10%",
+            summary: "中国平安（02318）盘中涨近4%，截至发稿，股价上涨3.24%，现报55.85港元，成交额18.21亿港元。 中国平安发布2026年中期业绩。上半年实现营业收入5751.38亿元，同比增长15...",
             source: "新浪港股",
             date: "2026-08-21",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-ininzyev8204718.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-inipaens1390202.shtml"
         },
         {
-            title: "5100藏冰川午前涨逾4% 向马来西亚公司授予东南亚及中东市场经销权",
-            summary: "5100藏冰川（01115）盘中涨超5%，截至发稿，股价上涨3.85%，现报0.405港元，成交额1715.16万港元。 5100藏冰川发布公告，继本集团若干水产品取得马来西亚清真认证后...",
+            title: "金力永磁午后涨逾3% 中期归母净利润同比增加51.58%",
+            summary: "金力永磁（06680）盘中涨超3%，截至发稿，股价上涨2.65%，现报17.04港元，成交额3983.03万港元。 8月20日，金力永磁发布2026年中期业绩，该集团取得营业收入46.49亿元...",
             source: "新浪港股",
             date: "2026-08-21",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-ininzyev8203574.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-inipaenv1572144.shtml"
         },
         {
-            title: "AI生成劣质文稿泛滥 美国众议院法案起草办公室不堪重负",
-            summary: "美国国会律师正疲于应对海量由人工智能工具生成的立法草案，其中大量文稿错误百出、行文粗劣。 八名现任及曾供职于众议院立法顾问办公室的官员接受采访时表示...",
-            source: "环球市场播报",
-            date: "2026-08-21",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-ininzyev8201988.shtml"
-        },
-        {
-            title: "中国心连心化肥早盘涨近8% 预计上半年净利润同比增幅52%至62%",
-            summary: "中国心连心化肥（01866）盘中涨近8%，截至发稿，股价上涨7.55%，现报10.11港元，成交额1775.53万港元。 近期，中国心连心化肥业绩盈喜预告...",
+            title: "集运股延续近期涨势 中远海控及东方海外国际均涨逾4%",
+            summary: " 集运股午后延续近期涨势，截至发稿，中远海控（01919）上涨4.23%，报17.75港元；东方海外国际（00316）上涨3.55%，报175港元；海丰国际（01308）上涨3.44%，报48.14港元。",
             source: "新浪港股",
             date: "2026-08-21",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-ininztwt6518235.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-inipaens1387990.shtml"
         },
         {
-            title: "财政部：中长期将通过持续提升社会保障能力等夯实居民消费基础",
-            summary: "8月21日，国新办举行“开局起步‘十五五’”系列主题新闻发布会，在谈到财政如何促消费时，财政部副部长廖岷表示，下一步，财政部将聚焦《扩大消费“十五五”规划》就业...",
-            source: "澎湃新闻",
+            title: "20号胶期货首次跨境交割顺利完成",
+            summary: "8月21日，上海期货交易所子公司上海国际能源交易中心（以下简称上期能源）20号胶期货首次跨境交割业务顺利完成。首批20号胶600吨境外标准仓单由境外交割库泰华树胶（大众）...",
+            source: "市场资讯",
             date: "2026-08-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-21/doc-ininztwx8312559.shtml"
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-21/doc-inipaenp6392018.shtml"
         },
         {
-            title: "比特币升破75000美元 亚洲时段乐观情绪依然高涨",
-            summary: "比特币周五亚洲早盘上涨逾4%，延续自周三开始的强劲涨势。美国财政部此前公布遏制长期国债收益率的计划。 截至新加坡时间上午10点，比特币一度升至75740美元。",
+            title: "锂矿股午后走高 天齐锂业涨逾9%赣锋锂业涨逾8%",
+            summary: "锂矿股午后走高，截至发稿，天齐锂业（09696）上涨9.19%，报36.84港元；赣锋锂业（01772）上涨7.60%，报40.22港元。",
+            source: "新浪港股",
+            date: "2026-08-21",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-inipaenp6386813.shtml"
+        },
+        {
+            title: "高盛：市场仍更倾向于认为美债收益率将上行",
+            summary: "高盛称，尽管近期长期美国国债遭遇抛售，但相对于宏观基本面或同类资产，其估值并不存在明显偏差。 该行策略师Friedrich Schaper在一份报告中写道...",
             source: "环球市场播报",
             date: "2026-08-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-ininztwt6515908.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipaenv1543705.shtml"
         },
         {
-            title: "芯片行业景气高涨 韩国拟利用“意外超额财政收入”设立“未来基金”",
-            summary: " 韩国企划财政部周五表示，韩国将设立“未来基金”，依托本轮人工智能产业繁荣带来的税收增量——政府称之为意外超额财政收入，推动本国经济长期增长。",
-            source: "环球市场播报",
+            title: "德适-B午后涨近20%创新高 有望于8月下旬纳入恒生综合指数",
+            summary: " 德适-B（02526）盘中涨超20%，高见507港元，再创上市新高。截至发稿，股价上涨19.61%，现报504.50港元，成交额3442.45万港元。",
+            source: "新浪港股",
             date: "2026-08-21",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/world/2026-08-21/doc-ininztww1538896.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-inipaens1367151.shtml"
         },
         {
-            title: "财政部：“十五五”时期将加快构建完善现代财政宏观调控机制",
-            summary: "人民财讯8月21日电，财政部副部长廖岷在国新办新闻发布会上表示，“十五五”时期，财政部将按照党中央、国务院的相关部署，加大财政逆周期调节力度...",
-            source: "证券时报网",
+            title: "中金：阿里巴巴-W维持跑赢行业评级 目标价172港币",
+            summary: "中金发布研报称，目前阿里巴巴-W（09988，BABA.US）港股和美股交易于20/20倍FY27和13/13倍FY28非通用准则市盈率。该行上调FY27和FY28收入预测1%和3%至11，501亿元和13...",
+            source: "新浪港股",
             date: "2026-08-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-21/doc-ininztwt6512621.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-21/doc-ininzyex1667718.shtml"
         },
     ],
 
@@ -765,17 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-21",
-        marketAssessment: "A股方面：上证指数报3903.81点（+0.00%），深证成指报14061.45点（+0.63%），创业板指报3537.98点（+1.21%）。美股方面：标普500报7,641.16（-2.02%），纳斯达克报26,067.17（-2.75%）。",
+        marketAssessment: "A股方面：上证指数报3896.41点（-0.19%），深证成指报14029.90点（+0.41%），创业板指报3527.40点（+0.91%）。美股方面：标普500报7,641.16（-2.02%），纳斯达克报26,067.17（-2.75%）。",
         hotSectors: [
 
         ],
         weakSectors: [
 
         ],
-        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

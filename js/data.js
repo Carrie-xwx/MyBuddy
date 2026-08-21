@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-21 实时" },
         { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-21 实时" },
         { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-21 实时" },
         { name: "沪深300", code: "SH000300", value: "4618.90", change: "+0.57%", market: "A股", updateTime: "2026-08-21 实时" },
         { name: "科创50", code: "SH000688", value: "1653.56", change: "+0.04%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "标普500", code: "SPX", value: "7,641.16", change: "-2.02%", market: "美股", updateTime: "2026-08-21 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,067.17", change: "-2.75%", market: "美股", updateTime: "2026-08-21 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,759.21", change: "-2.01%", market: "美股", updateTime: "2026-08-21 收盘" },
+        { name: "标普500", code: "SPX", value: "7,665.52", change: "-1.54%", market: "美股", updateTime: "2026-08-21 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,070.83", change: "-2.46%", market: "美股", updateTime: "2026-08-21 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,166.61", change: "-1.05%", market: "美股", updateTime: "2026-08-21 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "本末动力港股IPO“临门一脚”悬而未决：直驱龙头垒订单遇阻 还是市场窗口在变？",
-            summary: "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 本末动力于2026年6月29日递交聆讯后招股书，按常规流程1-2周内即可启动分析师路演、随后正式招股...",
-            source: "新浪证券",
+            title: "汤姆李：标普 500 指数有望在本月底重返历史高位",
+            summary: " 标普 500 指数距离 8 月 13 日创下的收盘历史高位仅下跌近 2%。但 Fundstrat 全球顾问公司创始人汤姆・李表示，他预计这一宽基指数仍将在本月底创出新高。",
+            source: "环球市场播报",
             date: "2026-08-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/observe/2026-08-21/doc-iniparap8073201.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkm8101101.shtml"
         },
         {
-            title: "贝森特国债回购带来的行情落幕，长久期美债收益率再度上行",
-            summary: "周五，美国长久期国债收益率维持震荡；市场对财政部扩大国债回购计划、以及美国国债规模飙升的担忧持续压制债市。 本次回购计划的核心标的 ——30 年期美债收益率上行 1...",
+            title: "美国企业活动扩张步伐创2022年以来最快",
+            summary: "美国企业活动扩张步伐创逾四年来最快，因需求增强、企业对前景更加乐观，推动招聘加速。 周五公布的数据显示，标普全球美国综合采购经理指数8月初值升至56...",
             source: "环球市场播报",
             date: "2026-08-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-iniparap8072529.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkk1328436.shtml"
         },
         {
-            title: "美国誓言加大对伊朗经济施压，油价有望录得连续第二周上涨",
-            summary: "核心要点 周五早盘原油价格小幅回落，但在美国扬言要对伊朗实施 “史上最严厉制裁” 的背景下，油价有望实现连续第二周周度上涨。 美国财政部长斯科特・贝森特接受...",
+            title: "特斯拉、优步、Waymo获准在拉斯维加斯最多投放8000台无人出租车",
+            summary: "美国内华达州交通管理局于当地时间周四全票通过三项许可，允许特斯拉、优步以及Waymo在拉斯维加斯所在的克拉克县开展商业化机器人出租车服务。",
+            source: "环球市场播报",
+            date: "2026-08-21",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkm8099533.shtml"
+        },
+        {
+            title: "报告：受美国签证政策收紧影响，国际学生入学人数下滑",
+            summary: "核心要点多份报告显示，移民政策与国际学生签证相关的持续争议，将造成今年秋季海外新生入学人数大幅下滑。专家表示，如果选择赴美留学的国际学生减少...",
+            source: "环球市场播报",
+            date: "2026-08-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkk1326374.shtml"
+        },
+        {
+            title: "特朗普政府聘任摩根大通前高管马特・扎姆斯为社会保障局顾问",
+            summary: "核心要点获悉，摩根大通前高管马特・扎姆斯将以无薪顾问身份加入美国社会保障管理局。知情人士透露，扎姆斯将于周一赴马里兰州巴尔的摩的社会保障管理局总部履职...",
+            source: "环球市场播报",
+            date: "2026-08-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkk1324458.shtml"
+        },
+        {
+            title: "特朗普将允许30万吨碎牛肉免配额外关税进口",
+            summary: "核心要点美国总统唐纳德・特朗普表示，美国未来三个月将允许最多 30 万吨用于制作碎牛肉的原料进口，免征配额外关税。特朗普称进口商已承诺...",
             source: "环球市场播报",
             date: "2026-08-21",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipakum6518355.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkk1322016.shtml"
         },
         {
-            title: "韩国现代汽车工人因薪资纠纷举行全面罢工 约3.9万人参与",
-            summary: "韩国现代汽车工会与管理层薪资谈判破裂，于周五开启全天罢工。 在汽车销售低迷的大背景下，此次罢工引发市场对生产进一步受阻的担忧。",
+            title: "纳指有望结束五连跌 比特币大涨之际Strategy股价上扬",
+            summary: "美国股市周五早盘上涨，纳斯达克100指数有望结束五连跌，债券收益率企稳，比特币飙升。 纽约时间9：34，标普500指数上涨0.4%，纳斯达克100指数上涨0.3%，道指走高0.6%。",
+            source: "环球市场播报",
+            date: "2026-08-21",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkp1625472.shtml"
+        },
+        {
+            title: "美军称5月以来已协助6.6亿桶石油通过霍尔木兹海峡",
+            summary: "核心要点美国中央司令部表示，自 5 月初以来，美军已协助超过6.6 亿桶原油经由霍尔木兹海峡外运。根据军方过往公开数据推算，过去三周至少有 1.6 亿桶原油通过该海峡...",
             source: "环球市场播报",
             date: "2026-08-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipakuq1427975.shtml"
-        },
-        {
-            title: "韩国任命新贸易部长 承接对美关税谈判重任",
-            summary: "韩国总统李在明于21日任命产业资源部贸易副部长Park Jung‑sung出任贸易部长。 8月14日，被称作“首席贸易谈判官”的前贸易部长吕翰九在美国特朗普政府带来的投资压力下遭突然...",
-            source: "环球市场播报",
-            date: "2026-08-21",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipakur8199853.shtml"
-        },
-        {
-            title: "韩国芯片板块上涨 股东回报计划提振股市收高",
-            summary: " 受市场对韩国两大头部芯片企业——三星电子与SK海力士大规模股东回报计划的良好预期推动，首尔股市周五收盘走高；韩元兑美元同步升值。",
-            source: "环球市场播报",
-            date: "2026-08-21",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipakum6516203.shtml"
-        },
-        {
-            title: "避开胡塞武装袭击 沙特原油借北部管线转运至地中海出口",
-            summary: " 由于伊朗支持的武装分子在南部曼德海峡咽喉要道袭击沙特出口船舶，包括Sinokor Group在内的船东正协助沙特原油经由安全性更高的北部航线离开红海。",
-            source: "环球市场播报",
-            date: "2026-08-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipakur8199234.shtml"
-        },
-        {
-            title: "上游产能调减，猪价进入震荡回升新周期",
-            summary: "Mysteel农产品网 【导语】2026年二季度末，官方全国能繁母猪存栏已降至3780万头，距3750万头的正常保有量目标仅一步之遥。经历长达12个月的产能周期调整...",
-            source: "市场资讯",
-            date: "2026-08-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-08-21/doc-inipakuq1424882.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkf6466640.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-08-21",
-        marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,641.16（-2.02%），纳斯达克报26,067.17（-2.75%）。",
+        marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,665.52（-1.54%），纳斯达克报26,070.83（-2.46%）。",
         hotSectors: [
 
         ],

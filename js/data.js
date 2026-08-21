@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                        marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3896.41", change: "-0.19%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14029.90", change: "+0.41%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3527.40", change: "+0.91%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "沪深300", code: "SH000300", value: "4607.57", change: "+0.32%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "科创50", code: "SH000688", value: "1642.57", change: "-0.63%", market: "A股", updateTime: "2026-08-21 实时" },
+                                                                                                                                                                                                                                                                            marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "沪深300", code: "SH000300", value: "4618.90", change: "+0.57%", market: "A股", updateTime: "2026-08-21 实时" },
+        { name: "科创50", code: "SH000688", value: "1653.56", change: "+0.04%", market: "A股", updateTime: "2026-08-21 实时" },
         { name: "标普500", code: "SPX", value: "7,641.16", change: "-2.02%", market: "美股", updateTime: "2026-08-21 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,067.17", change: "-2.75%", market: "美股", updateTime: "2026-08-21 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,759.21", change: "-2.01%", market: "美股", updateTime: "2026-08-21 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "中国平安午后涨超3% 上半年归母净利润同比大增36.10%",
-            summary: "中国平安（02318）盘中涨近4%，截至发稿，股价上涨3.24%，现报55.85港元，成交额18.21亿港元。 中国平安发布2026年中期业绩。上半年实现营业收入5751.38亿元，同比增长15...",
-            source: "新浪港股",
+            title: "本末动力港股IPO“临门一脚”悬而未决：直驱龙头垒订单遇阻 还是市场窗口在变？",
+            summary: "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 本末动力于2026年6月29日递交聆讯后招股书，按常规流程1-2周内即可启动分析师路演、随后正式招股...",
+            source: "新浪证券",
             date: "2026-08-21",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-inipaens1390202.shtml"
+            url: "https://finance.sina.com.cn/stock/observe/2026-08-21/doc-iniparap8073201.shtml"
         },
         {
-            title: "金力永磁午后涨逾3% 中期归母净利润同比增加51.58%",
-            summary: "金力永磁（06680）盘中涨超3%，截至发稿，股价上涨2.65%，现报17.04港元，成交额3983.03万港元。 8月20日，金力永磁发布2026年中期业绩，该集团取得营业收入46.49亿元...",
-            source: "新浪港股",
-            date: "2026-08-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-inipaenv1572144.shtml"
-        },
-        {
-            title: "集运股延续近期涨势 中远海控及东方海外国际均涨逾4%",
-            summary: " 集运股午后延续近期涨势，截至发稿，中远海控（01919）上涨4.23%，报17.75港元；东方海外国际（00316）上涨3.55%，报175港元；海丰国际（01308）上涨3.44%，报48.14港元。",
-            source: "新浪港股",
-            date: "2026-08-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-inipaens1387990.shtml"
-        },
-        {
-            title: "20号胶期货首次跨境交割顺利完成",
-            summary: "8月21日，上海期货交易所子公司上海国际能源交易中心（以下简称上期能源）20号胶期货首次跨境交割业务顺利完成。首批20号胶600吨境外标准仓单由境外交割库泰华树胶（大众）...",
-            source: "市场资讯",
-            date: "2026-08-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-21/doc-inipaenp6392018.shtml"
-        },
-        {
-            title: "锂矿股午后走高 天齐锂业涨逾9%赣锋锂业涨逾8%",
-            summary: "锂矿股午后走高，截至发稿，天齐锂业（09696）上涨9.19%，报36.84港元；赣锋锂业（01772）上涨7.60%，报40.22港元。",
-            source: "新浪港股",
-            date: "2026-08-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-inipaenp6386813.shtml"
-        },
-        {
-            title: "高盛：市场仍更倾向于认为美债收益率将上行",
-            summary: "高盛称，尽管近期长期美国国债遭遇抛售，但相对于宏观基本面或同类资产，其估值并不存在明显偏差。 该行策略师Friedrich Schaper在一份报告中写道...",
+            title: "贝森特国债回购带来的行情落幕，长久期美债收益率再度上行",
+            summary: "周五，美国长久期国债收益率维持震荡；市场对财政部扩大国债回购计划、以及美国国债规模飙升的担忧持续压制债市。 本次回购计划的核心标的 ——30 年期美债收益率上行 1...",
             source: "环球市场播报",
             date: "2026-08-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipaenv1543705.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-iniparap8072529.shtml"
         },
         {
-            title: "德适-B午后涨近20%创新高 有望于8月下旬纳入恒生综合指数",
-            summary: " 德适-B（02526）盘中涨超20%，高见507港元，再创上市新高。截至发稿，股价上涨19.61%，现报504.50港元，成交额3442.45万港元。",
-            source: "新浪港股",
+            title: "美国誓言加大对伊朗经济施压，油价有望录得连续第二周上涨",
+            summary: "核心要点 周五早盘原油价格小幅回落，但在美国扬言要对伊朗实施 “史上最严厉制裁” 的背景下，油价有望实现连续第二周周度上涨。 美国财政部长斯科特・贝森特接受...",
+            source: "环球市场播报",
             date: "2026-08-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-inipaens1367151.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipakum6518355.shtml"
         },
         {
-            title: "中金：阿里巴巴-W维持跑赢行业评级 目标价172港币",
-            summary: "中金发布研报称，目前阿里巴巴-W（09988，BABA.US）港股和美股交易于20/20倍FY27和13/13倍FY28非通用准则市盈率。该行上调FY27和FY28收入预测1%和3%至11，501亿元和13...",
-            source: "新浪港股",
+            title: "韩国现代汽车工人因薪资纠纷举行全面罢工 约3.9万人参与",
+            summary: "韩国现代汽车工会与管理层薪资谈判破裂，于周五开启全天罢工。 在汽车销售低迷的大背景下，此次罢工引发市场对生产进一步受阻的担忧。",
+            source: "环球市场播报",
             date: "2026-08-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-21/doc-ininzyex1667718.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipakuq1427975.shtml"
+        },
+        {
+            title: "韩国任命新贸易部长 承接对美关税谈判重任",
+            summary: "韩国总统李在明于21日任命产业资源部贸易副部长Park Jung‑sung出任贸易部长。 8月14日，被称作“首席贸易谈判官”的前贸易部长吕翰九在美国特朗普政府带来的投资压力下遭突然...",
+            source: "环球市场播报",
+            date: "2026-08-21",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipakur8199853.shtml"
+        },
+        {
+            title: "韩国芯片板块上涨 股东回报计划提振股市收高",
+            summary: " 受市场对韩国两大头部芯片企业——三星电子与SK海力士大规模股东回报计划的良好预期推动，首尔股市周五收盘走高；韩元兑美元同步升值。",
+            source: "环球市场播报",
+            date: "2026-08-21",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipakum6516203.shtml"
+        },
+        {
+            title: "避开胡塞武装袭击 沙特原油借北部管线转运至地中海出口",
+            summary: " 由于伊朗支持的武装分子在南部曼德海峡咽喉要道袭击沙特出口船舶，包括Sinokor Group在内的船东正协助沙特原油经由安全性更高的北部航线离开红海。",
+            source: "环球市场播报",
+            date: "2026-08-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipakur8199234.shtml"
+        },
+        {
+            title: "上游产能调减，猪价进入震荡回升新周期",
+            summary: "Mysteel农产品网 【导语】2026年二季度末，官方全国能繁母猪存栏已降至3780万头，距3750万头的正常保有量目标仅一步之遥。经历长达12个月的产能周期调整...",
+            source: "市场资讯",
+            date: "2026-08-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-08-21/doc-inipakuq1424882.shtml"
         },
     ],
 
@@ -765,17 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-08-21",
-        marketAssessment: "A股方面：上证指数报3896.41点（-0.19%），深证成指报14029.90点（+0.41%），创业板指报3527.40点（+0.91%）。美股方面：标普500报7,641.16（-2.02%），纳斯达克报26,067.17（-2.75%）。",
+        marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,641.16（-2.02%），纳斯达克报26,067.17（-2.75%）。",
         hotSectors: [
 
         ],
         weakSectors: [
 
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

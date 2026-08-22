@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "沪深300", code: "SH000300", value: "4618.90", change: "+0.57%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "科创50", code: "SH000688", value: "1653.56", change: "+0.04%", market: "A股", updateTime: "2026-08-21 实时" },
-        { name: "标普500", code: "SPX", value: "7,665.52", change: "-1.54%", market: "美股", updateTime: "2026-08-21 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,070.83", change: "-2.46%", market: "美股", updateTime: "2026-08-21 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,166.61", change: "-1.05%", market: "美股", updateTime: "2026-08-21 收盘" },
+                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-22 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-22 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-22 实时" },
+        { name: "沪深300", code: "SH000300", value: "4618.90", change: "+0.57%", market: "A股", updateTime: "2026-08-22 实时" },
+        { name: "科创50", code: "SH000688", value: "1653.56", change: "+0.04%", market: "A股", updateTime: "2026-08-22 实时" },
+        { name: "标普500", code: "SPX", value: "7,674.37", change: "-1.43%", market: "美股", updateTime: "2026-08-22 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,180.46", change: "-2.05%", market: "美股", updateTime: "2026-08-22 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,277.00", change: "-0.85%", market: "美股", updateTime: "2026-08-22 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "汤姆李：标普 500 指数有望在本月底重返历史高位",
-            summary: " 标普 500 指数距离 8 月 13 日创下的收盘历史高位仅下跌近 2%。但 Fundstrat 全球顾问公司创始人汤姆・李表示，他预计这一宽基指数仍将在本月底创出新高。",
+            title: "Anthropic计划开展超大规模IPO 拟募资1000亿美元",
+            summary: " 风头正劲的人工智能企业Anthropic过去一年在技术赛道上接连超越一众对手。如今，它即将登陆华尔街，这场声势浩大的上市发行，规模或许同样会甩开竞争对手。",
             source: "环球市场播报",
-            date: "2026-08-21",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkm8101101.shtml"
-        },
-        {
-            title: "美国企业活动扩张步伐创2022年以来最快",
-            summary: "美国企业活动扩张步伐创逾四年来最快，因需求增强、企业对前景更加乐观，推动招聘加速。 周五公布的数据显示，标普全球美国综合采购经理指数8月初值升至56...",
-            source: "环球市场播报",
-            date: "2026-08-21",
+            date: "2026-08-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkk1328436.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-22/doc-inipcwvx7663069.shtml"
         },
         {
-            title: "特斯拉、优步、Waymo获准在拉斯维加斯最多投放8000台无人出租车",
-            summary: "美国内华达州交通管理局于当地时间周四全票通过三项许可，允许特斯拉、优步以及Waymo在拉斯维加斯所在的克拉克县开展商业化机器人出租车服务。",
+            title: "派拉蒙将与州总检察长周一会晤 磋商反垄断案和解方案",
+            summary: "据两名知情人士透露，派拉蒙‑天空之舞的代表将于周一与加州总检察长办公室会面，商讨各州反垄断诉讼的潜在和解方案。 派拉蒙一直在极力推动达成和解...",
             source: "环球市场播报",
-            date: "2026-08-21",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkm8099533.shtml"
-        },
-        {
-            title: "报告：受美国签证政策收紧影响，国际学生入学人数下滑",
-            summary: "核心要点多份报告显示，移民政策与国际学生签证相关的持续争议，将造成今年秋季海外新生入学人数大幅下滑。专家表示，如果选择赴美留学的国际学生减少...",
-            source: "环球市场播报",
-            date: "2026-08-21",
+            date: "2026-08-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkk1326374.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-22/doc-inipcwvt6172997.shtml"
         },
         {
-            title: "特朗普政府聘任摩根大通前高管马特・扎姆斯为社会保障局顾问",
-            summary: "核心要点获悉，摩根大通前高管马特・扎姆斯将以无薪顾问身份加入美国社会保障管理局。知情人士透露，扎姆斯将于周一赴马里兰州巴尔的摩的社会保障管理局总部履职...",
+            title: "伊朗外交部回应美对伊经济制裁：远非延续针对单一国家非法“经济战”",
+            summary: " 伊朗外交部发言人巴加埃在社交媒体发文，美国对伊朗实施新一轮经济制裁，远非只是针对单一国家持续开展非法“经济战”，而是在向联合国全体独立成员国主张域外管辖权。",
             source: "环球市场播报",
-            date: "2026-08-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkk1324458.shtml"
-        },
-        {
-            title: "特朗普将允许30万吨碎牛肉免配额外关税进口",
-            summary: "核心要点美国总统唐纳德・特朗普表示，美国未来三个月将允许最多 30 万吨用于制作碎牛肉的原料进口，免征配额外关税。特朗普称进口商已承诺...",
-            source: "环球市场播报",
-            date: "2026-08-21",
+            date: "2026-08-22",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkk1322016.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipcwvz1327789.shtml"
         },
         {
-            title: "纳指有望结束五连跌 比特币大涨之际Strategy股价上扬",
-            summary: "美国股市周五早盘上涨，纳斯达克100指数有望结束五连跌，债券收益率企稳，比特币飙升。 纽约时间9：34，标普500指数上涨0.4%，纳斯达克100指数上涨0.3%，道指走高0.6%。",
+            title: "秘鲁因液化石油气短缺对五地区宣布紧急状态",
+            summary: " 据一份政府决议文件显示，受强降雨影响，液化石油气（LPG）供应短缺，秘鲁对库斯科、普诺、阿雷基帕、莫克瓜以及塔克纳五个地区宣布为期30天的紧急状态。",
             source: "环球市场播报",
-            date: "2026-08-21",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkp1625472.shtml"
-        },
-        {
-            title: "美军称5月以来已协助6.6亿桶石油通过霍尔木兹海峡",
-            summary: "核心要点美国中央司令部表示，自 5 月初以来，美军已协助超过6.6 亿桶原油经由霍尔木兹海峡外运。根据军方过往公开数据推算，过去三周至少有 1.6 亿桶原油通过该海峡...",
-            source: "环球市场播报",
-            date: "2026-08-21",
+            date: "2026-08-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-21/doc-inipavkf6466640.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipcwvx7649943.shtml"
+        },
+        {
+            title: "日本下财年预算申请据悉将超130万亿日元",
+            summary: "据报道，日本下一财年的预算申请规模将首次突破130万亿日元，连续第四年创下历史新高。 注：日本各政府部门需于本月底前提交预算申请，随后开启年度预算磋商...",
+            source: "环球市场播报",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipcwvx7640016.shtml"
+        },
+        {
+            title: "8月22日隔夜要闻：道指涨约1% 油价录得周涨幅 锌价走高 金价大涨 特朗普称并未指示贝森特干预债券市场",
+            summary: "市场 8月22日收盘：道指飙升500点 长端美债收益率持续走高 三大指数周线均录得下跌 8月22日热门中概股多数上涨，网易涨6.98%，阿里巴巴跌8...",
+            source: "环球市场播报",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipcsqc1411867.shtml"
+        },
+        {
+            title: "8月22日美股成交额前20：Moderna收高8.86% mRNA抗癌药疫苗突破提振医疗板块",
+            summary: "周五美股成交额第3名英伟达收跌0.98%，成交212.71亿美元。 知情人士称，英伟达已同意支付60亿美元，以获得Poolside人工智能（AI）模型的使用许可...",
+            source: "环球市场播报",
+            date: "2026-08-22",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipcspv6248872.shtml"
+        },
+        {
+            title: "国家发展改革委拟设置对外投资信息年度报告制度",
+            summary: "本报记者杜雨萌 8月21日，国家发展改革委就《对外投资管理办法（修订征求意见稿）》（以下简称“修订征求意见稿”）公开征求意见。",
+            source: "证券日报",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipcsqc1401145.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-21",
-        marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,665.52（-1.54%），纳斯达克报26,070.83（-2.46%）。",
+                                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-22",
+        marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,674.37（-1.43%），纳斯达克报26,180.46（-2.05%）。",
         hotSectors: [
 
         ],

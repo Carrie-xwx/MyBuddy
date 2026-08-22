@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-22 实时" },
         { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-22 实时" },
         { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-22 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "官方回应“白菜收购蘸取甲醛溶液问题”",
-            summary: "央视网消息：据“康保发布”微信公众号消息，8月22日，河北张家口市康保县人民政府发布情况通报： 针对网上反映的“白菜收购环节蘸取甲醛溶液”相关问题...",
-            source: "央视",
+            title: "千家“兰州拉面”，齐换门头！年创收超200亿元，为啥突然改名？",
+            summary: "转自：央视财经 近日，多地“兰州拉面”馆撤换原有招牌，统一更新为“青海拉面”门头，引发广泛关注。记者从青海省拉面产业行业协会获悉：截至目前...",
+            source: "市场资讯",
             date: "2026-08-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptu3198204.shtml"
+            url: "https://finance.sina.com.cn/wm/2026-08-22/doc-inipeyim7325534.shtml"
         },
         {
-            title: "美联储，加息大消息！高盛，最新警告",
-            summary: "美联储政策前景存在较大变数。 据最新消息，高盛警告称，在美联储主席凯文·沃什改革沟通方式的背景下，投资者愈发担忧，围绕美联储未来利率决策的市场波动将变得更加剧烈。...",
-            source: "券商中国",
-            date: "2026-08-22",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/money/forex/2026-08-22/doc-inipeptq0706299.shtml"
-        },
-        {
-            title: "广西升级发布洪水黄色预警 部分河段将出现超警洪水",
-            summary: "8月22日13时，广西明江及支流派连河、思州河、凭祥河等4条河流5个站超警0.31~2.71米，其中派连河宁明县寨安乡河段出现2014年建站以来实测第二大洪水。",
-            source: "央视",
+            title: "旗下奶粉被控致病！美国雅培：将赔偿6.7亿美元",
+            summary: "美国雅培公司20日说，已就旗下早产婴儿专用配方奶粉被控致病的诉讼达成一项6.7亿美元的和解协议。 这起诉讼由3家律师事务所发起，代表约2000名原告向雅培提出索赔...",
+            source: "",
             date: "2026-08-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptq0699788.shtml"
+            url: "https://finance.sina.com.cn/wm/2026-08-22/doc-inipeyik0550508.shtml"
         },
         {
-            title: "视频丨别再让“转人工”喊破喉咙 新国标出手整治AI客服车轱辘话",
-            summary: "很多人都有过这样的体验 买东西出了问题想找客服 翻遍App找不到人工客服入口 对着AI客服发送“转人工” 它却只会循环回复“我理解您的心情” △记者在某电商平台尝试接通人工客...",
-            source: "央视",
+            title: "美加关税谈判破裂之后，北美贸易走向何方？",
+            summary: "美加谈判在最后一刻出现裂痕。 美加贸易谈判在最后一刻出现裂痕，特朗普政府针对部分加拿大商品加征50%关税的措施，将于美东时间8月22日凌晨00：01正式生效。",
+            source: "一财网",
             date: "2026-08-22",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptr7474335.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/roll/2026-08-22/doc-inipeyim7306464.shtml"
         },
         {
-            title: "多家银行发布公告 单人在同家银行贴息上限提升到5000元",
-            summary: "记者今天（22日）从工商银行、农业银行、中国银行、建设银行、交通银行、邮储银行等六大银行了解到，各家银行已经根据财政部、中国人民银行...",
-            source: "央视",
-            date: "2026-08-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptu3166297.shtml"
-        },
-        {
-            title: "朱炳仁·铜饰品掉色怪“汗液”？创始人致歉",
-            summary: "近日，有多位消费者反映，朱炳仁·铜饰品存在掉色问题。其中，一则视频称：“几百块的铜饰佩戴一个月竟掉色了，朱炳仁·铜创始人回应说‘你的汗液异于常人’”，引发大量关注。",
-            source: "界面",
-            date: "2026-08-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptu3160006.shtml"
-        },
-        {
-            title: "欧洲多条河流水位下降 法国航运企业宣布征收“内陆紧急运输费”",
-            summary: "受持续高温和干旱影响，欧洲多条重要河流水位下降。法国航运企业达飞海运集团宣布，由于莱茵河及欧洲其他河流水位持续处于异常低位，内河运输受到严重影响...",
-            source: "央视",
-            date: "2026-08-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptt1202029.shtml"
-        },
-        {
-            title: "Vingroup等越南股票将纳入富时新兴市场指数",
-            summary: " Vingroup等100余家越南公司被纳入富时罗素全球股票指数，标志着越南期盼已久的从前沿市场升级为次级新兴市场迈出关键一步。",
+            title: "贝森特债市操作效果有限 反令“贬值交易”升温",
+            summary: "美国财长贝森特力求遏制美国借贷成本，但仅让长期美债收益率回落了不到一天。而更为持久的市场信号却是：美元走弱，黄金和比特币上涨，进一步强化了“贬值交易”叙事。",
             source: "环球市场播报",
             date: "2026-08-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipeptt1196633.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-22/doc-inipeyik0523002.shtml"
+        },
+        {
+            title: "多个高职专业起薪超过部分本科专业",
+            summary: "大批分数超过本科线的考生主动放弃了本科，选择填报高职院校。 在湖南省2026年普通高校招生高职专科批（普通类）第一次投档中，历史类...",
+            source: "一财网",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeyip1084217.shtml"
+        },
+        {
+            title: "多预警齐发 注意防范！广西局地发生山洪灾害可能性很大",
+            summary: "今天，中央气象台等部门多预警齐发，这些地区注意防范。 红色山洪灾害气象预警 预计，8月22日20时至23日20时，广西西南部部分地区发生山洪灾害可能性大（橙色预警）...",
+            source: "央视",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipetzs3145283.shtml"
+        },
+        {
+            title: "中央气象台：渍涝风险气象预报（2026年08月22日）",
+            summary: "来源：中央气象台网站 中央气象台8月22日18时发布渍涝风险气象预报： 受强降雨的影响，预计8月22日20时至23日20时，广西南部等地部分地区发生渍涝的气象风险较高...",
+            source: "",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/hyxh/2026-08-22/doc-inipetzr1190623.shtml"
+        },
+        {
+            title: "视频丨第20号台风“简拉维”生成！三台风并存",
+            summary: "今天下午，影响我国的东海热带低压已经正式加强为今年第20号台风“简拉维”，而就在昨天第19号台风“紫檀”也已生成，加上距离我国较远但强度持续增强的今年第18号台风“沙德尔”...",
+            source: "央视",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipetzs3146556.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-08-22",
         marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,674.37（-1.43%），纳斯达克报26,180.46（-2.05%）。",
         hotSectors: [

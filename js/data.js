@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-22 实时" },
         { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-22 实时" },
         { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-22 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "美加贸易谈判破裂 特朗普政府将对部分加拿大商品征收50%关税",
-            summary: " 美加贸易谈判在最后一刻破裂，对部分加拿大商品加征50%的关税正式生效。加拿大总理卡尼表示将“以牙还牙”采取报复措施。",
-            source: "环球市场播报",
-            date: "2026-08-22",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipeccx1348388.shtml"
-        },
-        {
-            title: "Anthropic计划开展超大规模IPO 拟募资1000亿美元",
-            summary: " 风头正劲的人工智能企业Anthropic过去一年在技术赛道上接连超越一众对手。如今，它即将登陆华尔街，这场声势浩大的上市发行，规模或许同样会甩开竞争对手。",
-            source: "环球市场播报",
+            title: "官方回应“白菜收购蘸取甲醛溶液问题”",
+            summary: "央视网消息：据“康保发布”微信公众号消息，8月22日，河北张家口市康保县人民政府发布情况通报： 针对网上反映的“白菜收购环节蘸取甲醛溶液”相关问题...",
+            source: "央视",
             date: "2026-08-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-22/doc-inipcwvx7663069.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptu3198204.shtml"
         },
         {
-            title: "派拉蒙将与州总检察长周一会晤 磋商反垄断案和解方案",
-            summary: "据两名知情人士透露，派拉蒙‑天空之舞的代表将于周一与加州总检察长办公室会面，商讨各州反垄断诉讼的潜在和解方案。 派拉蒙一直在极力推动达成和解...",
-            source: "环球市场播报",
-            date: "2026-08-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-22/doc-inipcwvt6172997.shtml"
-        },
-        {
-            title: "伊朗外交部回应美对伊经济制裁：远非延续针对单一国家非法“经济战”",
-            summary: " 伊朗外交部发言人巴加埃在社交媒体发文，美国对伊朗实施新一轮经济制裁，远非只是针对单一国家持续开展非法“经济战”，而是在向联合国全体独立成员国主张域外管辖权。",
-            source: "环球市场播报",
-            date: "2026-08-22",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipcwvz1327789.shtml"
-        },
-        {
-            title: "秘鲁因液化石油气短缺对五地区宣布紧急状态",
-            summary: " 据一份政府决议文件显示，受强降雨影响，液化石油气（LPG）供应短缺，秘鲁对库斯科、普诺、阿雷基帕、莫克瓜以及塔克纳五个地区宣布为期30天的紧急状态。",
-            source: "环球市场播报",
-            date: "2026-08-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipcwvx7649943.shtml"
-        },
-        {
-            title: "日本下财年预算申请据悉将超130万亿日元",
-            summary: "据报道，日本下一财年的预算申请规模将首次突破130万亿日元，连续第四年创下历史新高。 注：日本各政府部门需于本月底前提交预算申请，随后开启年度预算磋商...",
-            source: "环球市场播报",
-            date: "2026-08-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipcwvx7640016.shtml"
-        },
-        {
-            title: "8月22日隔夜要闻：道指涨约1% 油价录得周涨幅 锌价走高 金价大涨 特朗普称并未指示贝森特干预债券市场",
-            summary: "市场 8月22日收盘：道指飙升500点 长端美债收益率持续走高 三大指数周线均录得下跌 8月22日热门中概股多数上涨，网易涨6.98%，阿里巴巴跌8...",
-            source: "环球市场播报",
-            date: "2026-08-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipcsqc1411867.shtml"
-        },
-        {
-            title: "8月22日美股成交额前20：Moderna收高8.86% mRNA抗癌药疫苗突破提振医疗板块",
-            summary: "周五美股成交额第3名英伟达收跌0.98%，成交212.71亿美元。 知情人士称，英伟达已同意支付60亿美元，以获得Poolside人工智能（AI）模型的使用许可...",
-            source: "环球市场播报",
+            title: "美联储，加息大消息！高盛，最新警告",
+            summary: "美联储政策前景存在较大变数。 据最新消息，高盛警告称，在美联储主席凯文·沃什改革沟通方式的背景下，投资者愈发担忧，围绕美联储未来利率决策的市场波动将变得更加剧烈。...",
+            source: "券商中国",
             date: "2026-08-22",
             tag: "美股",
-            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipcspv6248872.shtml"
+            url: "https://finance.sina.com.cn/money/forex/2026-08-22/doc-inipeptq0706299.shtml"
+        },
+        {
+            title: "广西升级发布洪水黄色预警 部分河段将出现超警洪水",
+            summary: "8月22日13时，广西明江及支流派连河、思州河、凭祥河等4条河流5个站超警0.31~2.71米，其中派连河宁明县寨安乡河段出现2014年建站以来实测第二大洪水。",
+            source: "央视",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptq0699788.shtml"
+        },
+        {
+            title: "视频丨别再让“转人工”喊破喉咙 新国标出手整治AI客服车轱辘话",
+            summary: "很多人都有过这样的体验 买东西出了问题想找客服 翻遍App找不到人工客服入口 对着AI客服发送“转人工” 它却只会循环回复“我理解您的心情” △记者在某电商平台尝试接通人工客...",
+            source: "央视",
+            date: "2026-08-22",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptr7474335.shtml"
+        },
+        {
+            title: "多家银行发布公告 单人在同家银行贴息上限提升到5000元",
+            summary: "记者今天（22日）从工商银行、农业银行、中国银行、建设银行、交通银行、邮储银行等六大银行了解到，各家银行已经根据财政部、中国人民银行...",
+            source: "央视",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptu3166297.shtml"
+        },
+        {
+            title: "朱炳仁·铜饰品掉色怪“汗液”？创始人致歉",
+            summary: "近日，有多位消费者反映，朱炳仁·铜饰品存在掉色问题。其中，一则视频称：“几百块的铜饰佩戴一个月竟掉色了，朱炳仁·铜创始人回应说‘你的汗液异于常人’”，引发大量关注。",
+            source: "界面",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptu3160006.shtml"
+        },
+        {
+            title: "欧洲多条河流水位下降 法国航运企业宣布征收“内陆紧急运输费”",
+            summary: "受持续高温和干旱影响，欧洲多条重要河流水位下降。法国航运企业达飞海运集团宣布，由于莱茵河及欧洲其他河流水位持续处于异常低位，内河运输受到严重影响...",
+            source: "央视",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeptt1202029.shtml"
+        },
+        {
+            title: "Vingroup等越南股票将纳入富时新兴市场指数",
+            summary: " Vingroup等100余家越南公司被纳入富时罗素全球股票指数，标志着越南期盼已久的从前沿市场升级为次级新兴市场迈出关键一步。",
+            source: "环球市场播报",
+            date: "2026-08-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipeptt1196633.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-08-22",
         marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,674.37（-1.43%），纳斯达克报26,180.46（-2.05%）。",
         hotSectors: [
-            { name: "白银", reason: "板块涨幅+8.68%", strength: "强" },
-            { name: "贵金属", reason: "板块涨幅+5.99%", strength: "强" },
-            { name: "锂", reason: "板块涨幅+5.91%", strength: "强" },
-            { name: "黄金", reason: "板块涨幅+5.09%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "种子", reason: "板块跌幅-8.06%", strength: "弱" },
-            { name: "种植业", reason: "板块跌幅-5.71%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注白银、贵金属、锂等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

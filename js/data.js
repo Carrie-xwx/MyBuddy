@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-22 实时" },
         { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-22 实时" },
         { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-22 实时" },
@@ -665,11 +665,19 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
         { name: "科创50", code: "SH000688", value: "1653.56", change: "+0.04%", market: "A股", updateTime: "2026-08-22 实时" },
         { name: "标普500", code: "SPX", value: "7,674.37", change: "-1.43%", market: "美股", updateTime: "2026-08-22 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,180.46", change: "-2.05%", market: "美股", updateTime: "2026-08-22 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,277.00", change: "-0.85%", market: "美股", updateTime: "2026-08-22 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,277.01", change: "-0.85%", market: "美股", updateTime: "2026-08-22 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                        marketNews: [
+        {
+            title: "美加贸易谈判破裂 特朗普政府将对部分加拿大商品征收50%关税",
+            summary: " 美加贸易谈判在最后一刻破裂，对部分加拿大商品加征50%的关税正式生效。加拿大总理卡尼表示将“以牙还牙”采取报复措施。",
+            source: "环球市场播报",
+            date: "2026-08-22",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipeccx1348388.shtml"
+        },
         {
             title: "Anthropic计划开展超大规模IPO 拟募资1000亿美元",
             summary: " 风头正劲的人工智能企业Anthropic过去一年在技术赛道上接连超越一众对手。如今，它即将登陆华尔街，这场声势浩大的上市发行，规模或许同样会甩开竞争对手。",
@@ -726,14 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "美股",
             url: "https://finance.sina.com.cn/world/2026-08-22/doc-inipcspv6248872.shtml"
         },
-        {
-            title: "国家发展改革委拟设置对外投资信息年度报告制度",
-            summary: "本报记者杜雨萌 8月21日，国家发展改革委就《对外投资管理办法（修订征求意见稿）》（以下简称“修订征求意见稿”）公开征求意见。",
-            source: "证券日报",
-            date: "2026-08-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipcsqc1401145.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-22",
         marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,674.37（-1.43%），纳斯达克报26,180.46（-2.05%）。",
         hotSectors: [
-
+            { name: "白银", reason: "板块涨幅+8.68%", strength: "强" },
+            { name: "贵金属", reason: "板块涨幅+5.99%", strength: "强" },
+            { name: "锂", reason: "板块涨幅+5.91%", strength: "强" },
+            { name: "黄金", reason: "板块涨幅+5.09%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "种子", reason: "板块跌幅-8.06%", strength: "弱" },
+            { name: "种植业", reason: "板块跌幅-5.71%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注白银、贵金属、锂等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

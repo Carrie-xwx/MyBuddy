@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-22 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-22 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-22 实时" },
-        { name: "沪深300", code: "SH000300", value: "4618.90", change: "+0.57%", market: "A股", updateTime: "2026-08-22 实时" },
-        { name: "科创50", code: "SH000688", value: "1653.56", change: "+0.04%", market: "A股", updateTime: "2026-08-22 实时" },
-        { name: "标普500", code: "SPX", value: "7,674.37", change: "-1.43%", market: "美股", updateTime: "2026-08-22 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,180.46", change: "-2.05%", market: "美股", updateTime: "2026-08-22 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,277.01", change: "-0.85%", market: "美股", updateTime: "2026-08-22 收盘" },
+                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-23 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-23 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-23 实时" },
+        { name: "沪深300", code: "SH000300", value: "4618.90", change: "+0.57%", market: "A股", updateTime: "2026-08-23 实时" },
+        { name: "科创50", code: "SH000688", value: "1653.56", change: "+0.04%", market: "A股", updateTime: "2026-08-23 实时" },
+        { name: "标普500", code: "SPX", value: "7,674.37", change: "-1.43%", market: "美股", updateTime: "2026-08-23 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,180.46", change: "-2.05%", market: "美股", updateTime: "2026-08-23 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,277.01", change: "-0.85%", market: "美股", updateTime: "2026-08-23 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "千家“兰州拉面”，齐换门头！年创收超200亿元，为啥突然改名？",
-            summary: "转自：央视财经 近日，多地“兰州拉面”馆撤换原有招牌，统一更新为“青海拉面”门头，引发广泛关注。记者从青海省拉面产业行业协会获悉：截至目前...",
+            title: "人民日报钟才文：中国是世界经济增长的积极贡献者和强大稳定锚",
+            summary: "相关阅读：中国经济的韧性与活力 今年以来，面对变乱交织、严峻复杂的外部环境，中国经济顶压前行，持续向新向优发展，展现出蓬勃活力和强大韧性...",
+            source: "人民日报",
+            date: "2026-08-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-23/doc-iniphnkv0609753.shtml"
+        },
+        {
+            title: "网传“属蛇一律开掉”？民生人寿回应董事长因“生肖不合”裁员",
+            summary: "来源：21金融圈 作者 | 林汉垚 孙诗卉 编辑 |周炎炎 曾芳 民生人寿客服回应记者表示，网传相关内容为虚假信息，公司已对网络上的造谣内容进行证据保全。",
             source: "市场资讯",
-            date: "2026-08-22",
+            date: "2026-08-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/wm/2026-08-22/doc-inipeyim7325534.shtml"
+            url: "https://finance.sina.com.cn/china/2026-08-23/doc-iniphhax0734170.shtml"
         },
         {
-            title: "旗下奶粉被控致病！美国雅培：将赔偿6.7亿美元",
-            summary: "美国雅培公司20日说，已就旗下早产婴儿专用配方奶粉被控致病的诉讼达成一项6.7亿美元的和解协议。 这起诉讼由3家律师事务所发起，代表约2000名原告向雅培提出索赔...",
-            source: "",
-            date: "2026-08-22",
+            title: "成本7元，卖到598元！被罚3.8亿元！企业只在夜间生产，被查时员工反锁房门狂删数据！",
+            summary: "家住杭州的小周患痛风已经7年了，花1196元购买了两盒宣称“天然萃取、无身体负担”“对痛风有奇效”的“美力森海洋鱼低聚肽姜黄压片糖果”。",
+            source: "每日经济新闻",
+            date: "2026-08-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/wm/2026-08-22/doc-inipeyik0550508.shtml"
+            url: "https://finance.sina.com.cn/china/2026-08-23/doc-iniphhay2679425.shtml"
         },
         {
-            title: "美加关税谈判破裂之后，北美贸易走向何方？",
-            summary: "美加谈判在最后一刻出现裂痕。 美加贸易谈判在最后一刻出现裂痕，特朗普政府针对部分加拿大商品加征50%关税的措施，将于美东时间8月22日凌晨00：01正式生效。",
-            source: "一财网",
-            date: "2026-08-22",
+            title: "特朗普的“大麻烦”：40万亿美元债务，6.5%按揭利率与5美元柴油价格",
+            summary: "来源 华尔街见闻 距离特朗普以“压低物价、整顿财政”为核心竞选承诺赢得大选，尚不足两年，伊朗战争与减税政策已将美国经济推向另一个方向：国债创历史新高，能源成本飙升...",
+            source: "市场资讯",
+            date: "2026-08-23",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/roll/2026-08-22/doc-inipeyim7306464.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-23/doc-iniphhax0698983.shtml"
         },
         {
-            title: "贝森特债市操作效果有限 反令“贬值交易”升温",
-            summary: "美国财长贝森特力求遏制美国借贷成本，但仅让长期美债收益率回落了不到一天。而更为持久的市场信号却是：美元走弱，黄金和比特币上涨，进一步强化了“贬值交易”叙事。",
+            title: "特朗普股票披露文件显示其6月交易超1000笔",
+            summary: " 根据周六公布的一份财务披露文件，唐纳德・特朗普总统在6月完成逾1000笔证券交易，其中大手笔买入伯克希尔・哈撒韦、维萨、万事达以及信达思的股票。",
             source: "环球市场播报",
-            date: "2026-08-22",
+            date: "2026-08-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-22/doc-inipeyik0523002.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-23/doc-iniphhca7077612.shtml"
         },
         {
-            title: "多个高职专业起薪超过部分本科专业",
-            summary: "大批分数超过本科线的考生主动放弃了本科，选择填报高职院校。 在湖南省2026年普通高校招生高职专科批（普通类）第一次投档中，历史类...",
-            source: "一财网",
-            date: "2026-08-22",
+            title: "谈崩了！21日午夜召回谈判团队，卡尼最新宣布：对美反制！“我们遭到袭击，绝不会拿主权做交易”",
+            summary: "据央视新闻8月23日消息，加拿大总理卡尼发表全国电视讲话，就加美贸易谈判破裂全面阐明加方立场。卡尼宣布，鉴于美国对价值200亿美元的加拿大商品征收50%的关税...",
+            source: "每日经济新闻",
+            date: "2026-08-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipeyip1084217.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-23/doc-iniphhca7068087.shtml"
         },
         {
-            title: "多预警齐发 注意防范！广西局地发生山洪灾害可能性很大",
-            summary: "今天，中央气象台等部门多预警齐发，这些地区注意防范。 红色山洪灾害气象预警 预计，8月22日20时至23日20时，广西西南部部分地区发生山洪灾害可能性大（橙色预警）...",
-            source: "央视",
-            date: "2026-08-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipetzs3145283.shtml"
+            title: "周末大利好！1361亿项目，集中签约！万亿算力赛道，迎来重磅驱动",
+            summary: "来源：券商中国 周末，万亿级规模的算力产业链迎来利好消息！ 8月22日，2026绿色算力（人工智能）大会在内蒙古自治区呼和浩特市举行。",
+            source: "券商中国",
+            date: "2026-08-23",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/roll/2026-08-23/doc-iniphhax0663220.shtml"
         },
         {
-            title: "中央气象台：渍涝风险气象预报（2026年08月22日）",
-            summary: "来源：中央气象台网站 中央气象台8月22日18时发布渍涝风险气象预报： 受强降雨的影响，预计8月22日20时至23日20时，广西南部等地部分地区发生渍涝的气象风险较高...",
-            source: "",
-            date: "2026-08-22",
+            title: "韩国交易商追逐40%息票产品，市场暴跌之下风险偏好依旧尚存",
+            summary: "一场历史性的股市抛售，促使韩国散户投资者转向复杂的结构性产品，这群偏好风险的投资者仍在想方设法提高收益。 年化票息可达40%‑50%的股票挂钩证券再度受到普通散户的追捧...",
+            source: "环球市场播报",
+            date: "2026-08-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/hyxh/2026-08-22/doc-inipetzr1190623.shtml"
-        },
-        {
-            title: "视频丨第20号台风“简拉维”生成！三台风并存",
-            summary: "今天下午，影响我国的东海热带低压已经正式加强为今年第20号台风“简拉维”，而就在昨天第19号台风“紫檀”也已生成，加上距离我国较远但强度持续增强的今年第18号台风“沙德尔”...",
-            source: "央视",
-            date: "2026-08-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-22/doc-inipetzs3146556.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-23/doc-inipfzve7193588.shtml"
         },
     ],
 
@@ -765,8 +765,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-22",
+                                                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-23",
         marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,674.37（-1.43%），纳斯达克报26,180.46（-2.05%）。",
         hotSectors: [
 

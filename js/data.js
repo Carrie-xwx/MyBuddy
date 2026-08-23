@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-23 实时" },
         { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-23 实时" },
         { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-23 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "人民日报钟才文：中国是世界经济增长的积极贡献者和强大稳定锚",
-            summary: "相关阅读：中国经济的韧性与活力 今年以来，面对变乱交织、严峻复杂的外部环境，中国经济顶压前行，持续向新向优发展，展现出蓬勃活力和强大韧性...",
-            source: "人民日报",
+            title: "双良睿能公布中期业绩 股东应占利润为约1.1亿元同比减少1.8%",
+            summary: "双良睿能（02481）公布2026年中期业绩，收入约8.93亿元，同比增加约 17.5%。 毛利约2.65亿元，同比增加约 10.7%。 公司拥有人应占利润为约1.1亿元，同比减少1.8%。",
+            source: "新浪港股",
             date: "2026-08-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-23/doc-iniphnkv0609753.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssu2504141.shtml"
         },
         {
-            title: "网传“属蛇一律开掉”？民生人寿回应董事长因“生肖不合”裁员",
-            summary: "来源：21金融圈 作者 | 林汉垚 孙诗卉 编辑 |周炎炎 曾芳 民生人寿客服回应记者表示，网传相关内容为虚假信息，公司已对网络上的造谣内容进行证据保全。",
-            source: "市场资讯",
+            title: "大金重工将派发中期股息每10股0.88元",
+            summary: "大金重工（01081）发布公告，将派发截至2026年6月30日止六个月期间的中期股息每10股0.88元。",
+            source: "新浪港股",
             date: "2026-08-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-08-23/doc-iniphhax0734170.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssw6909043.shtml"
         },
         {
-            title: "成本7元，卖到598元！被罚3.8亿元！企业只在夜间生产，被查时员工反锁房门狂删数据！",
-            summary: "家住杭州的小周患痛风已经7年了，花1196元购买了两盒宣称“天然萃取、无身体负担”“对痛风有奇效”的“美力森海洋鱼低聚肽姜黄压片糖果”。",
-            source: "每日经济新闻",
+            title: "大金重工公布中期业绩 归母净利润约6.01亿元同比增长9.89%",
+            summary: "大金重工（01081）公布2026年中期业绩，营业收入约32.53亿元，同比增长14.48%；归属于上市公司股东的净利润约6.01亿元，同比增长9.89%；基本每股收益0.94元。",
+            source: "新浪港股",
             date: "2026-08-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-08-23/doc-iniphhay2679425.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssw6908813.shtml"
         },
         {
-            title: "特朗普的“大麻烦”：40万亿美元债务，6.5%按揭利率与5美元柴油价格",
-            summary: "来源 华尔街见闻 距离特朗普以“压低物价、整顿财政”为核心竞选承诺赢得大选，尚不足两年，伊朗战争与减税政策已将美国经济推向另一个方向：国债创历史新高，能源成本飙升...",
-            source: "市场资讯",
+            title: "长飞光纤光缆拟采纳2026年H股奖励计划",
+            summary: "长飞光纤光缆（06869）发布公告，董事会已于2026年8月21日举行的董事会会议上决议，建议采纳2026年H股奖励计划，董事会或获授权人士须管理及运作2026年计划...",
+            source: "新浪港股",
             date: "2026-08-23",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-08-23/doc-iniphhax0698983.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphsst0552162.shtml"
         },
         {
-            title: "特朗普股票披露文件显示其6月交易超1000笔",
-            summary: " 根据周六公布的一份财务披露文件，唐纳德・特朗普总统在6月完成逾1000笔证券交易，其中大手笔买入伯克希尔・哈撒韦、维萨、万事达以及信达思的股票。",
-            source: "环球市场播报",
+            title: "博泰车联拟斥资8亿元收购海鸥住工20%股权",
+            summary: "博泰车联（02889）公布，于2026年8月21日，该公司拟向中馀投资收购广州海鸥住宅工业股份有限公司（002084.SZ）20%股权，代价8亿元，折合每股A股约人民币6.19元。",
+            source: "新浪港股",
             date: "2026-08-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-23/doc-iniphhca7077612.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssu2502432.shtml"
         },
         {
-            title: "谈崩了！21日午夜召回谈判团队，卡尼最新宣布：对美反制！“我们遭到袭击，绝不会拿主权做交易”",
-            summary: "据央视新闻8月23日消息，加拿大总理卡尼发表全国电视讲话，就加美贸易谈判破裂全面阐明加方立场。卡尼宣布，鉴于美国对价值200亿美元的加拿大商品征收50%的关税...",
-            source: "每日经济新闻",
+            title: "中国新城镇将于9月23日派发中期股息每股0.0019港元",
+            summary: "中国新城镇（01278）发布公告，将于2026年9月23日派发截至2026年6月30日止6个月的中期股息每股0.0019港元。",
+            source: "新浪港股",
             date: "2026-08-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-23/doc-iniphhca7068087.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssw6907576.shtml"
         },
         {
-            title: "周末大利好！1361亿项目，集中签约！万亿算力赛道，迎来重磅驱动",
-            summary: "来源：券商中国 周末，万亿级规模的算力产业链迎来利好消息！ 8月22日，2026绿色算力（人工智能）大会在内蒙古自治区呼和浩特市举行。",
-            source: "券商中国",
+            title: "中国新城镇发布中期业绩 股东应占溢利5239.3万元同比增长7.63%",
+            summary: "中国新城镇（01278）发布截至2026年6月30日止六个月的中期业绩，该集团取得经营收入2.27亿元，同比增长18.18%；母公司权益持有人应占溢利5239.3万元，同比增长7...",
+            source: "新浪港股",
             date: "2026-08-23",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/roll/2026-08-23/doc-iniphhax0663220.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssw6907345.shtml"
         },
         {
-            title: "韩国交易商追逐40%息票产品，市场暴跌之下风险偏好依旧尚存",
-            summary: "一场历史性的股市抛售，促使韩国散户投资者转向复杂的结构性产品，这群偏好风险的投资者仍在想方设法提高收益。 年化票息可达40%‑50%的股票挂钩证券再度受到普通散户的追捧...",
-            source: "环球市场播报",
+            title: "深演智能获纳入恒生指数系列的成份股",
+            summary: "深演智能（02723）发布公告，本公司已获恒生指数有限公司选择及将被纳入恒生综合指数、恒生港股通指数、恒生综合大中型股指数、恒生大中型股规模全选指数...",
+            source: "新浪港股",
             date: "2026-08-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-23/doc-inipfzve7193588.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphsst0550162.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-23",
         marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,674.37（-1.43%），纳斯达克报26,180.46（-2.05%）。",
         hotSectors: [

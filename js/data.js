@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-23 实时" },
         { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-23 实时" },
         { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-23 实时" },
@@ -669,7 +669,47 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                marketNews: [
+        {
+            title: "明天停牌，后天“ST”！佳缘科技财务造假，拟被罚600万元，董事长、副总经理、财务总监等人都将被罚款",
+            summary: "明天停牌，后天“ST”！这家上市公司财务造假，拟被罚600万元，董事长、副总经理、财务总监等人都将被罚款 8月23日，佳缘科技（301117）公告称...",
+            source: "",
+            date: "2026-08-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-23/doc-inipiiqq6692677.shtml"
+        },
+        {
+            title: "重大资产重组方案调整！公司明日复牌！",
+            summary: "来源：证券日报之声 本报记者 张敏 见习记者 李亚男 停牌5个交易日后，中南红文化集团股份有限公司（以下简称“中南文化”，证券代码：002445）披露了变更后的重大资产重组方...",
+            source: "市场资讯",
+            date: "2026-08-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-23/doc-inipiiqn2340743.shtml"
+        },
+        {
+            title: "301117 ，将被ST！招股书、年报虚假记载",
+            summary: "8月23日晚间，佳缘科技（301117）发布公告，公司收到证监会下发的《行政处罚事先告知书》，因招股说明书及年报存在虚假记载，公司股票交易将被实施其他风险警示。",
+            source: "证券时报",
+            date: "2026-08-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-23/doc-inipichs6803689.shtml"
+        },
+        {
+            title: "谁是户储电池老大？瑞浦兰钧、鹏辉能源各称第一，数据打架背后标准混乱",
+            summary: "来源：华夏时报 华夏时报记者 胡雅文 北京报道 短短半个月，全球户用储能电池的“头把交椅”多次易主，至少从各企业和第三方机构发布的公告来看是这样。",
+            source: "市场资讯",
+            date: "2026-08-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-23/doc-inipichs6790747.shtml"
+        },
+        {
+            title: "刚刚，两股宣布！重组终止！",
+            summary: "来源：资本秘闻 8月23日晚间，智光电气、顶固集创分别披露公告称，公司终止重组事项。 具体来看，智光电气当日晚间披露公告称，公司终止收购广州智光储能科技有限公司（以...",
+            source: "市场资讯",
+            date: "2026-08-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-23/doc-inipichq2404773.shtml"
+        },
         {
             title: "昔日彩电巨头：筹划重大事项，明起停牌",
             summary: "8月21日晚间，昔日彩电巨头*ST康佳A（000016）公告，公司正在筹划重大事项，该事项尚存在不确定性，为保证公平信息披露，维护投资者利益，公司证券自8月24日开市起停牌...",
@@ -693,46 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-08-23",
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/s/2026-08-23/doc-iniphwyw3617641.shtml"
-        },
-        {
-            title: "益生股份中报：盈利规模远逊历史高点，毛利率七年间“断崖式”下降",
-            summary: "来源：证券之星 受益于白羽肉鸡行业景气度上行，白羽鸡行业龙头益生股份（002458.SZ）近日交出了一份“亮眼”的成绩单。今年上半年，公司“营利双增”...",
-            source: "市场资讯",
-            date: "2026-08-23",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/s/2026-08-23/doc-iniphwyu6844534.shtml"
-        },
-        {
-            title: "双良睿能公布中期业绩 股东应占利润为约1.1亿元同比减少1.8%",
-            summary: "双良睿能（02481）公布2026年中期业绩，收入约8.93亿元，同比增加约 17.5%。 毛利约2.65亿元，同比增加约 10.7%。 公司拥有人应占利润为约1.1亿元，同比减少1.8%。",
-            source: "新浪港股",
-            date: "2026-08-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssu2504141.shtml"
-        },
-        {
-            title: "大金重工将派发中期股息每10股0.88元",
-            summary: "大金重工（01081）发布公告，将派发截至2026年6月30日止六个月期间的中期股息每10股0.88元。",
-            source: "新浪港股",
-            date: "2026-08-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssw6909043.shtml"
-        },
-        {
-            title: "大金重工公布中期业绩 归母净利润约6.01亿元同比增长9.89%",
-            summary: "大金重工（01081）公布2026年中期业绩，营业收入约32.53亿元，同比增长14.48%；归属于上市公司股东的净利润约6.01亿元，同比增长9.89%；基本每股收益0.94元。",
-            source: "新浪港股",
-            date: "2026-08-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssw6908813.shtml"
-        },
-        {
-            title: "长飞光纤光缆拟采纳2026年H股奖励计划",
-            summary: "长飞光纤光缆（06869）发布公告，董事会已于2026年8月21日举行的董事会会议上决议，建议采纳2026年H股奖励计划，董事会或获授权人士须管理及运作2026年计划...",
-            source: "新浪港股",
-            date: "2026-08-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphsst0552162.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-08-23",
         marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,674.37（-1.43%），纳斯达克报26,180.46（-2.05%）。",
         hotSectors: [

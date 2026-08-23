@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3905.20", change: "+0.04%", market: "A股", updateTime: "2026-08-23 实时" },
         { name: "深证成指", code: "SZ399001", value: "14094.17", change: "+0.87%", market: "A股", updateTime: "2026-08-23 实时" },
         { name: "创业板指", code: "SZ399006", value: "3545.58", change: "+1.43%", market: "A股", updateTime: "2026-08-23 实时" },
@@ -669,7 +669,39 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                            marketNews: [
+        {
+            title: "昔日彩电巨头：筹划重大事项，明起停牌",
+            summary: "8月21日晚间，昔日彩电巨头*ST康佳A（000016）公告，公司正在筹划重大事项，该事项尚存在不确定性，为保证公平信息披露，维护投资者利益，公司证券自8月24日开市起停牌...",
+            source: "21世纪经济报道",
+            date: "2026-08-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-23/doc-iniphwys2503799.shtml"
+        },
+        {
+            title: "拟融资800亿，股价下跌8%：阿里的烧钱困局，藏着最大的战略矛盾",
+            summary: "来源：大江南证券 阿里又要融资了，这次是800亿港元，周五美股应声大跌超过8%。盘面剧烈下挫的背后，不是简单的情绪恐慌，而是二级市场投资者积攒多年的质疑集中爆发：几次...",
+            source: "市场资讯",
+            date: "2026-08-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-23/doc-iniphwyu6846640.shtml"
+        },
+        {
+            title: "业绩刚回暖，洁雅股份二股东趁势减持“套现”，股价仍处深度破发",
+            summary: "来源：证券之星 8月18日，洁雅股份（301108.SZ）再度披露二股东减持计划，明源基金及其一致行动人拟在未来三个月内减持不超过561.66万股，占总股本4.99%...",
+            source: "市场资讯",
+            date: "2026-08-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-23/doc-iniphwyw3617641.shtml"
+        },
+        {
+            title: "益生股份中报：盈利规模远逊历史高点，毛利率七年间“断崖式”下降",
+            summary: "来源：证券之星 受益于白羽肉鸡行业景气度上行，白羽鸡行业龙头益生股份（002458.SZ）近日交出了一份“亮眼”的成绩单。今年上半年，公司“营利双增”...",
+            source: "市场资讯",
+            date: "2026-08-23",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-23/doc-iniphwyu6844534.shtml"
+        },
         {
             title: "双良睿能公布中期业绩 股东应占利润为约1.1亿元同比减少1.8%",
             summary: "双良睿能（02481）公布2026年中期业绩，收入约8.93亿元，同比增加约 17.5%。 毛利约2.65亿元，同比增加约 10.7%。 公司拥有人应占利润为约1.1亿元，同比减少1.8%。",
@@ -702,38 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "港股",
             url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphsst0552162.shtml"
         },
-        {
-            title: "博泰车联拟斥资8亿元收购海鸥住工20%股权",
-            summary: "博泰车联（02889）公布，于2026年8月21日，该公司拟向中馀投资收购广州海鸥住宅工业股份有限公司（002084.SZ）20%股权，代价8亿元，折合每股A股约人民币6.19元。",
-            source: "新浪港股",
-            date: "2026-08-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssu2502432.shtml"
-        },
-        {
-            title: "中国新城镇将于9月23日派发中期股息每股0.0019港元",
-            summary: "中国新城镇（01278）发布公告，将于2026年9月23日派发截至2026年6月30日止6个月的中期股息每股0.0019港元。",
-            source: "新浪港股",
-            date: "2026-08-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssw6907576.shtml"
-        },
-        {
-            title: "中国新城镇发布中期业绩 股东应占溢利5239.3万元同比增长7.63%",
-            summary: "中国新城镇（01278）发布截至2026年6月30日止六个月的中期业绩，该集团取得经营收入2.27亿元，同比增长18.18%；母公司权益持有人应占溢利5239.3万元，同比增长7...",
-            source: "新浪港股",
-            date: "2026-08-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphssw6907345.shtml"
-        },
-        {
-            title: "深演智能获纳入恒生指数系列的成份股",
-            summary: "深演智能（02723）发布公告，本公司已获恒生指数有限公司选择及将被纳入恒生综合指数、恒生港股通指数、恒生综合大中型股指数、恒生大中型股规模全选指数...",
-            source: "新浪港股",
-            date: "2026-08-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-23/doc-iniphsst0550162.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-08-23",
         marketAssessment: "A股方面：上证指数报3905.20点（+0.04%），深证成指报14094.17点（+0.87%），创业板指报3545.58点（+1.43%）。美股方面：标普500报7,674.37（-1.43%），纳斯达克报26,180.46（-2.05%）。",
         hotSectors: [

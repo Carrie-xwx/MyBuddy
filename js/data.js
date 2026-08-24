@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3882.01", change: "-0.59%", market: "A股", updateTime: "2026-08-24 实时" },
         { name: "深证成指", code: "SZ399001", value: "13794.29", change: "-2.13%", market: "A股", updateTime: "2026-08-24 实时" },
         { name: "创业板指", code: "SZ399006", value: "3431.89", change: "-3.21%", market: "A股", updateTime: "2026-08-24 实时" },
         { name: "沪深300", code: "SH000300", value: "4563.13", change: "-1.21%", market: "A股", updateTime: "2026-08-24 实时" },
         { name: "科创50", code: "SH000688", value: "1602.34", change: "-3.10%", market: "A股", updateTime: "2026-08-24 实时" },
-        { name: "标普500", code: "SPX", value: "7,674.37", change: "-1.43%", market: "美股", updateTime: "2026-08-24 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,180.46", change: "-2.05%", market: "美股", updateTime: "2026-08-24 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,277.01", change: "-0.85%", market: "美股", updateTime: "2026-08-24 收盘" },
+        { name: "标普500", code: "SPX", value: "7,646.40", change: "-1.27%", market: "美股", updateTime: "2026-08-24 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "25,948.78", change: "-2.61%", market: "美股", updateTime: "2026-08-24 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,411.94", change: "-0.09%", market: "美股", updateTime: "2026-08-24 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "贝森特无法控制的因素驱动之下 美债收益率的控制可没那么简单",
-            summary: " 斯科特·贝森特上任美国财政部长的时候，对其前任试图重塑全球最大债券市场的做法颇有意见。然而在上周，他自己却也尝试了一把。",
+            title: "全文|小鹏Q2业绩会实录：人形机器人Iron年底量产 G9L下月上市",
+            summary: " 小鹏集团发布的财报显示，2026年上半年，该公司总收入为327.8亿元，同比减少3.8%；汽车销售收入280.5亿元，同比减少10.3%；普通股股东应占净亏损为31.2亿元。 ",
+            source: "新浪科技",
+            date: "2026-08-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-24/doc-inipmsvh9992705.shtml"
+        },
+        {
+            title: "加州总检察长以“缺乏诚意”为由取消与派拉蒙的和解会谈",
+            summary: "核心要点加州总检察长罗布・邦塔取消了原定周一与派拉蒙的会面，此次会面本意在商讨派拉蒙对华纳兄弟探索公司的收购交易。邦塔牵头多个州，以反垄断为由提起诉讼...",
             source: "环球市场播报",
             date: "2026-08-24",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-24/doc-inipmhfq2011329.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-24/doc-inipmsvk1930092.shtml"
         },
         {
-            title: "菲律宾证券交易委员会拟提高券商资本金要求",
-            summary: "菲律宾证券交易委员会主席弗朗西斯·林表示，该机构正在研究提高股票经纪商最低资本金要求。 他在一场简报会上称，证交会考虑将资本金门槛上调至1亿比索以上...",
-            source: "环球市场播报",
+            title: "拼多多高管解读Q2财报：对品牌自营的长期前景有信心",
+            summary: "拼多多发布最新财报，二季度营收1124亿元。二季度利润272亿元，同比下降12%；Non-GAAP研发投入43亿元，同比增长40%。 详见：拼多多二季度利润272亿元...",
+            source: "新浪科技",
             date: "2026-08-24",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-24/doc-inipmhfq2009889.shtml"
+            url: "https://finance.sina.com.cn/tech/2026-08-24/doc-inipmsvq2771364.shtml"
         },
         {
-            title: "英伟达第二季度财报，将检验AI行情能否再度走强",
-            summary: "关键时刻即将到来。自 AI 投资热潮兴起之后，每个季度华尔街都在等待这一刻：英伟达（NVDA）的第二季度财报。 各大科技巨头差不多一个月前就已经披露完业绩...",
+            title: "特朗普：明年全部加拿大乘用车、卡车、汽车零部件以及钢铁的关税将上调至50%",
+            summary: "美国总统特朗普在社交媒体发文称：多年来加拿大一直在占美国的便宜。加拿大对我国农民及农产品征收高得离谱的关税，让这些优秀的美国爱国从业者举步维艰...",
+            source: "环球市场播报",
+            date: "2026-08-24",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-08-24/doc-inipmsvn5998208.shtml"
+        },
+        {
+            title: "一周展望：聚焦杰克逊霍尔与英伟达财报，黄金强势突破剑指何方？",
+            summary: "撰文：嘉盛集团资深分析师Jerry Chen 美国财长宣布增加美债回购的消息上周在市场中掀起了一阵波澜。 债市干预一度令美债收益率回落，美元跌至三个月新低...",
+            source: "市场资讯",
+            date: "2026-08-24",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/money/forex/forexroll/2026-08-24/doc-inipmsvn5995734.shtml"
+        },
+        {
+            title: "开盘： 纳指跌0.53% 芯片股下跌盖过美债收益率回落影响",
+            summary: "道指涨0.09%，标普500指数跌0.21%，纳指跌0.53%。 美股周一小幅下行，科技龙头股票的下跌抵消了美债收益率回落带来的利好。 芯片板块的下跌拖累了股指期货周一表现。",
             source: "环球市场播报",
             date: "2026-08-24",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-24/doc-inipmhfq2006528.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-24/doc-inipmsvn5991603.shtml"
         },
         {
-            title: "印度4‑6月航空客运服务价格同比大涨31.9%",
-            summary: "印度商务部初步数据显示，该国4‑6月航空客运服务价格指数同比上涨31.9%。 据测算，航空客运服务价格指数环比上涨18.2%。 4‑6月养老金基金管理服务价格同比上涨5.2%...",
+            title: "美加贸易谈判破裂威胁加元近期涨势",
+            summary: "美国与加拿大贸易谈判于上周五深夜破裂后，加拿大元（加元，俗称“loonie”）周一大幅走弱。美元兑加元一度升至1.3844，加元跌幅达0.6%，为两个多月来最大单日跌幅...",
             source: "环球市场播报",
             date: "2026-08-24",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-24/doc-inipmhfp0055725.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-24/doc-inipmsvq2756997.shtml"
         },
         {
-            title: "巴克莱：欧洲房地产股估值应围绕现金流展开",
-            summary: "巴克莱分析师重新调整欧洲地产股估值方法，转为以自由现金流为核心的估值框架，必要时辅以股息贴现模型。此次摒弃此前会计总回报估值方法，带来多项评级调整：Safestore...",
-            source: "环球市场播报",
+            title: "急募800亿港元，阿里也“顶不住”了？",
+            summary: "来源：环球老虎财经app 在AI“烧钱”能否持续的争议声中，阿里宣布通过配售募资800亿元港币，这一资本举动令自身市值遭遇重挫。值得注意的是，目前阿里账上有超4700亿现金...",
+            source: "市场资讯",
             date: "2026-08-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-24/doc-inipmhfq2005736.shtml"
-        },
-        {
-            title: "大摩策略师：标普500优于国际股票",
-            summary: "摩根士丹利策略师表示，优质股表现占优，令标普500相比海外股市更具吸引力。 由迈克尔・威尔逊牵头的团队称，后新冠通胀时代使得经济周期缩短，政策调整反应性增强。",
-            source: "环球市场播报",
-            date: "2026-08-24",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-24/doc-inipmhfp0054242.shtml"
-        },
-        {
-            title: "东京二手公寓价格连续三月下跌 释放市场调整信号",
-            summary: " 7月东京核心区域二手公寓价格连续第三个月下滑。部分专家表示，在经历一轮创纪录的上涨行情后，房地产市场步入调整阶段。",
-            source: "环球市场播报",
-            date: "2026-08-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-24/doc-inipmhfq2003879.shtml"
-        },
-        {
-            title: "美加谈判破裂，暴露特朗普激进贸易策略存在局限",
-            summary: " 美加贸易谈判出人意料地宣告破裂，这一事件最新印证：特朗普大刀阔斧重塑美国贸易关系的强硬路线，或许已经触碰到边界。",
-            source: "环球市场播报",
-            date: "2026-08-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-24/doc-inipmhfu2882341.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-24/doc-inipmsvq2761764.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-08-24",
-        marketAssessment: "A股方面：上证指数报3882.01点（-0.59%），深证成指报13794.29点（-2.13%），创业板指报3431.89点（-3.21%）。美股方面：标普500报7,674.37（-1.43%），纳斯达克报26,180.46（-2.05%）。",
+        marketAssessment: "A股方面：上证指数报3882.01点（-0.59%），深证成指报13794.29点（-2.13%），创业板指报3431.89点（-3.21%）。美股方面：标普500报7,646.40（-1.27%），纳斯达克报25,948.78（-2.61%）。",
         hotSectors: [
-
+            { name: "白银", reason: "板块涨幅+7.44%", strength: "强" },
+            { name: "其他养殖", reason: "板块涨幅+6.38%", strength: "强" },
+            { name: "贵金属", reason: "板块涨幅+4.41%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+4.04%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "视频媒体", reason: "板块跌幅-6.99%", strength: "弱" },
+            { name: "医疗研发外包", reason: "板块跌幅-4.69%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注白银、其他养殖、贵金属等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

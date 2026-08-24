@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3877.30", change: "-0.71%", market: "A股", updateTime: "2026-08-24 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13750.12", change: "-2.44%", market: "A股", updateTime: "2026-08-24 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3421.50", change: "-3.50%", market: "A股", updateTime: "2026-08-24 实时" },
-        { name: "沪深300", code: "SH000300", value: "4560.85", change: "-1.26%", market: "A股", updateTime: "2026-08-24 实时" },
-        { name: "科创50", code: "SH000688", value: "1599.65", change: "-3.26%", market: "A股", updateTime: "2026-08-24 实时" },
+                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3864.41", change: "-1.04%", market: "A股", updateTime: "2026-08-24 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13663.65", change: "-3.05%", market: "A股", updateTime: "2026-08-24 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3389.65", change: "-4.40%", market: "A股", updateTime: "2026-08-24 实时" },
+        { name: "沪深300", code: "SH000300", value: "4539.15", change: "-1.73%", market: "A股", updateTime: "2026-08-24 实时" },
+        { name: "科创50", code: "SH000688", value: "1584.89", change: "-4.15%", market: "A股", updateTime: "2026-08-24 实时" },
         { name: "标普500", code: "SPX", value: "7,674.37", change: "-1.43%", market: "美股", updateTime: "2026-08-24 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,180.46", change: "-2.05%", market: "美股", updateTime: "2026-08-24 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,277.01", change: "-0.85%", market: "美股", updateTime: "2026-08-24 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "海清智元盘中涨超21% 公司获纳入恒生综合指数后续有望成为港股通标的",
-            summary: "海清智元（01392）早盘一度涨超21%，截至发稿，股价上涨14.57%，现报23.90港元，成交额1902.81万港元。 8月21日，恒生指数公司公布季度检讨结果...",
+            title: "花旗：贝壳-W目标价上调至75.4港元 维持“买入”评级",
+            summary: "花旗发布研报称，贝壳-W（02423）二季度利润率胜预期，突显正面的经营杠杆效应及其平台模型的盈利能力，将目标价由73.6港元上调至75.4港元，维持“买入”评级。",
             source: "新浪港股",
             date: "2026-08-24",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-24/doc-inipkriw2080517.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-24/doc-inipkvrt0113104.shtml"
         },
         {
-            title: "玉米价格触及三年高位 受美国产量预期下调及黑海局势影响",
-            summary: "玉米价格涨至三年高点，美国玉米产量预期下调，叠加黑海地区紧张局势持续，引发市场对全球供应的担忧。 芝加哥交投最活跃的玉米期货价格一度上涨2.7%，至每蒲式耳5...",
+            title: "美银证券：时代电气目标价微降至43港元 重申“中性”评级",
+            summary: "美银证券发布研报称，重申时代电气（03898）“中性”评级，认为其新兴装备业务短期盈利能力存在压力，惟部分被铁路后市场的长期机遇及新兴装备市占率提升所抵销。",
+            source: "新浪港股",
+            date: "2026-08-24",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-24/doc-inipkvru2056888.shtml"
+        },
+        {
+            title: "中银证券：中国中免维持“买入”评级 盈利能力持续优化",
+            summary: "中银证券研报指出，中国中免收入增速放缓，盈利能力持续优化。26Q2公司实现营收107.49亿元，同比-5.75%；归母净利润7.58亿元，同比+14.54%。",
+            source: "新浪港股",
+            date: "2026-08-24",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-24/doc-inipkvrt0103651.shtml"
+        },
+        {
+            title: "光大证券：长飞光纤光缆上半年盈利显著提升 光互连业务有望维持高景气度",
+            summary: "光大证券发布研报称，长飞光纤光缆（06869）发布2026H1业绩，期内光纤涨价显著增厚利润，集团营业收入高速增长，盈利能力显著提升。",
+            source: "新浪港股",
+            date: "2026-08-24",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-24/doc-inipkvrt0079015.shtml"
+        },
+        {
+            title: "比特币ETF上周流入资金规模创10个月以来最大",
+            summary: "随着比特币价格飙升，现货比特币交易所交易基金（ETF）上周录得10个月以来最强劲的单周资金流入。 数据显示，13只在美国上市的基金净吸引资金19.2亿美元...",
             source: "环球市场播报",
             date: "2026-08-24",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-24/doc-inipkriw2079253.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-24/doc-inipkvru2026371.shtml"
         },
         {
-            title: "新疆新鑫矿业盘中涨超9% 上半年归母净利润同比大增248.13%",
-            summary: "新疆新鑫矿业（03833）盘中涨超9%，截至发稿，股价上涨5.01%，现报2.095港元，成交额1199.48万港元。 新疆新鑫矿业发布2026年中期业绩，集团取得营业收入约为12.66亿元...",
-            source: "新浪港股",
-            date: "2026-08-24",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-24/doc-inipkriy6262680.shtml"
-        },
-        {
-            title: "特朗普成首位任内其子女创办银行的美国总统 华府监管为近20年最宽松",
-            summary: "唐纳德·特朗普家族即将拥有自己的银行。 总统的家族成员及商业伙伴已获得初步批准，可以成立一家银行。他们正搭上一波难得一见的浪潮：在特朗普政府推动放松监管之下...",
+            title: "伊朗称阿曼外交部长将于周二访问德黑兰",
+            summary: " 伊朗外交部发言人Esmail Baghaei发表声明指出，阿曼外长Badr bin Hamad Al Busaidi将访问德黑兰，继续就这两个霍尔木兹海峡邻国之间展开政治磋商。",
             source: "环球市场播报",
             date: "2026-08-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-24/doc-inipkrka3034235.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-24/doc-inipkvrw6180572.shtml"
         },
         {
-            title: "德适-B早盘涨超29%创新高 同时获纳入恒生综合指数及恒生生物科技指数",
-            summary: " 德适-B（02516）早盘涨超29%，高见682.50港元，再创上市新高。截至发稿，股价上涨29.09%，现报679港元，成交额4139.94万港元。",
-            source: "新浪港股",
-            date: "2026-08-24",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-24/doc-inipkriw2077609.shtml"
-        },
-        {
-            title: "佳缘科技涉嫌重大违法违规面临证监会的处罚，适格股民可索赔损失！",
-            summary: "2026年8月24日，佳缘科技股份有限公司发布《关于收到&lt;行政处罚事先告知书&gt;的公告》。因佳缘科技涉嫌发行造假和年报财务数据虚假记载...",
-            source: "市场资讯",
+            title: "中信证券半年报：总资产、净资本、国内收入皆低于国泰海通 多项细分指标丢掉“一哥”宝座",
+            summary: "出品：新浪财经上市公司研究院 作者：图灵 近日，中信证券、国泰海通等券商发布了2026年半年报。 尽管中信证券营收、净利润还高于国泰海通，但总资产、净资产...",
+            source: "新浪证券",
             date: "2026-08-24",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-24/doc-inipkriv0126327.shtml"
+            url: "https://finance.sina.com.cn/stock/observe/2026-08-24/doc-inipkvrt0059885.shtml"
         },
         {
-            title: "兑吧盘中涨超12% AI短剧业务快速扩展预期上半年总收入显著增长",
-            summary: "兑吧（01753）盘中涨超12%，截至发稿，股价上涨5.04%，现报0.146港元，成交额16.375万港元。 兑吧公布，受益于AI短剧业务的快速扩展...",
-            source: "新浪港股",
+            title: "江波龙通过港交所聆讯，上半年净利暴增715倍",
+            summary: "8月23日，A股存储模组龙头深圳市江波龙电子股份有限公司（简称“江波龙”）披露聆讯后资料集，已通过港交所上市聆讯，联席保荐人为中信证券和花旗。",
+            source: "界面",
             date: "2026-08-24",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-24/doc-inipkrka3032782.shtml"
-        },
-        {
-            title: "博奇环保2026年中期实现营收9.55亿元 纯利1.06亿元",
-            summary: " 2026年8月21日，中国博奇环保（控股）有限公司公布公司及其附属公司截至2026年6月30日止六个月未经审核简明综合中期业绩。",
-            source: "新浪港股",
-            date: "2026-08-24",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-24/doc-inipkrka3031548.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-08-24/doc-inipkvru2012840.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-24",
-        marketAssessment: "A股方面：上证指数报3877.30点（-0.71%），深证成指报13750.12点（-2.44%），创业板指报3421.50点（-3.50%）。美股方面：标普500报7,674.37（-1.43%），纳斯达克报26,180.46（-2.05%）。",
+        marketAssessment: "A股方面：上证指数报3864.41点（-1.04%），深证成指报13663.65点（-3.05%），创业板指报3389.65点（-4.40%）。美股方面：标普500报7,674.37（-1.43%），纳斯达克报26,180.46（-2.05%）。",
         hotSectors: [
-            { name: "其他养殖", reason: "板块涨幅+5.85%", strength: "强" },
-            { name: "白银", reason: "板块涨幅+5.48%", strength: "强" },
-            { name: "种子", reason: "板块涨幅+5.48%", strength: "强" },
-            { name: "钼", reason: "板块涨幅+4.30%", strength: "强" },
+            { name: "白银", reason: "板块涨幅+6.43%", strength: "强" },
+            { name: "其他养殖", reason: "板块涨幅+5.98%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+4.83%", strength: "强" },
+            { name: "钼", reason: "板块涨幅+4.11%", strength: "强" },
         ],
         weakSectors: [
-            { name: "视频媒体", reason: "板块跌幅-7.19%", strength: "弱" },
-            { name: "玻纤制造", reason: "板块跌幅-5.89%", strength: "弱" },
+            { name: "视频媒体", reason: "板块跌幅-7.39%", strength: "弱" },
+            { name: "玻纤制造", reason: "板块跌幅-6.41%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注其他养殖、白银、种子等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注白银、其他养殖、种子等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

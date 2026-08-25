@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3875.09", change: "-0.18%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13677.34", change: "-0.85%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3379.01", change: "-1.54%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "沪深300", code: "SH000300", value: "4540.18", change: "-0.50%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "科创50", code: "SH000688", value: "1590.07", change: "-0.77%", market: "A股", updateTime: "2026-08-25 实时" },
+                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3887.90", change: "+0.15%", market: "A股", updateTime: "2026-08-25 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13743.50", change: "-0.37%", market: "A股", updateTime: "2026-08-25 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3400.10", change: "-0.93%", market: "A股", updateTime: "2026-08-25 实时" },
+        { name: "沪深300", code: "SH000300", value: "4550.02", change: "-0.29%", market: "A股", updateTime: "2026-08-25 实时" },
+        { name: "科创50", code: "SH000688", value: "1603.29", change: "+0.06%", market: "A股", updateTime: "2026-08-25 实时" },
         { name: "标普500", code: "SPX", value: "7,652.86", change: "-1.19%", market: "美股", updateTime: "2026-08-25 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "25,980.19", change: "-2.49%", market: "美股", updateTime: "2026-08-25 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,417.20", change: "-0.08%", market: "美股", updateTime: "2026-08-25 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,417.16", change: "-0.08%", market: "美股", updateTime: "2026-08-25 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "建滔集团盘中涨超9% 中期股东应占纯利同比增加5%",
-            summary: "建滔集团（00148）盘中涨超9%，截至发稿，股价上涨7.59%，现报49.04港元，成交额10.04亿港元。 8月24日，建滔集团发布截至2026年6月30日止6个月业绩...",
+            title: "云顶新耀午后大涨超17% 核心产品耐赋康放量带动业绩高增",
+            summary: "云顶新耀（01952）午后涨幅持续扩大，截至发稿，股价上涨17.24%，现报36.46港元，成交额8.318亿港元。 云顶新耀披露中期业绩，上半年收入人民币11.48亿元...",
             source: "新浪港股",
             date: "2026-08-25",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inipnyqu1626820.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inippewu5522966.shtml"
         },
         {
-            title: "越秀服务绩后涨近10% 中期物管收入占比已近六成",
-            summary: "越秀服务（06626）绩后涨近10%，截至发稿，股价上涨9.83%，现报1.955港元，成交额467.53万港元。 8月24日，越秀服务发布2026年中期业绩公告，在行业整体增速放缓...",
+            title: "融创中国午后涨近6% 官宣转型“资产管理+资产运营” 为战略转型升级方向",
+            summary: "融创中国（01918）盘中涨超9%，截至发稿，股价上涨5.51%，现报0.575港元，成交额1.45亿港元。 融创中国发布公告称，确立“资产管理+资产运营”为战略转型升级方向...",
             source: "新浪港股",
             date: "2026-08-25",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inipnyqy2325508.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inippews1627238.shtml"
         },
         {
-            title: "内房股早盘普遍上涨 中国海外宏洋集团涨超11%融创中国涨超7%",
-            summary: "内房股早盘普遍上涨 ，截至发稿，中国海外宏洋集团（00081）上涨11.13%，报2.85港元；融创中国（01918）上涨7.34%，报0.585港元；碧桂园（02007）上涨5.95%，报0...",
+            title: "西部水泥午后涨超4% 上半年归母净利润3.79亿元同比下降49.4%",
+            summary: "西部水泥（02233）盘中涨超5%，截至发稿，股价上涨4.13%，现报1.89港元，成交额3864.04万港元。 西部水泥发布中期业绩、上半年收入45.27亿元，同比减少16.5%；归母净利润3...",
             source: "新浪港股",
             date: "2026-08-25",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inipnyqw5550792.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inippewu5522188.shtml"
         },
         {
-            title: "康耐特光学早盘涨逾6% 本月内股价累计涨幅已近40%",
-            summary: " 康耐特光学（02276）盘中涨超6%，本月内股价累计涨幅已近40%。截至发稿，股价上涨5.85%，现报43.40港元，成交额3330.98万港元。",
+            title: "英矽智能午后涨超12% 国泰海通证券给予“增持”评级",
+            summary: "英矽智能（03696）午后涨超12%，截至发稿，股价上涨12.03%，现报45.26港元，成交额7.25亿港元。 近期Moderna联合默沙东的AI+mRNA个性化癌症疫苗III期临床圆满成功...",
             source: "新浪港股",
             date: "2026-08-25",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inipnyqu1618413.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inippews1626206.shtml"
         },
         {
-            title: "曾指点贝森特的德鲁肯米勒直言 政府违背基本面压低收益率终将落败",
-            summary: "美国亿万富豪投资者斯坦利·德鲁肯米勒（Stanley·Druckenmiller）表示，美国财政部长斯科特·贝森特花费数十亿美元回购美债的计划是一个错误；贝森特早年担任对冲基金交易员...",
-            source: "环球市场播报",
-            date: "2026-08-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipnyqw5548659.shtml"
-        },
-        {
-            title: "花旗把黄金短期目标价上调至4800，摩根大通押注大波动！",
-            summary: "文章来源：金十数据 周一，花旗集团上调未来0至3个月黄金目标价至4800美元/盎司，同时维持未来6至12个月5000美元/盎司的目标价不变。",
+            title: "长安期货侯荃宇：低库存主导 乙二醇价格强势上行",
+            summary: "2026年8月，乙二醇期货市场呈现强劲上行走势。自8月6日2610合约止跌以来，盘面持续走强，录得13连阳，成本支撑与供给收缩形成共振。",
             source: "市场资讯",
             date: "2026-08-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-25/doc-inipnyqs9664340.shtml"
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-25/doc-inippeww2293092.shtml"
         },
         {
-            title: "澳央行上次会议认为还有时间观望 随时准备必要时采取行动",
-            summary: "澳大利亚央行本月早些时候选择维持关键利率不变，因为有迹象表明高企的通胀正在逐步缓解，劳动力市场也开始缓和，这使其有空间评估即将公布的数据...",
-            source: "环球市场播报",
+            title: "国泰君安期货：这一波黄金反弹能持续多久？",
+            summary: "国泰君安期货市场分析师 张驰宁 Z0020302 最近黄金冲得非常疯狂，很多人都在纠结，这波行情到底能走多远。今天，我就带着大家一起，从我理解的底层逻辑出发...",
+            source: "市场资讯",
             date: "2026-08-25",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipnyqu1612292.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-08-25/doc-inippewq9640244.shtml"
         },
         {
-            title: "特朗普于SpaceX重磅IPO两周后买入",
-            summary: " 一份财务申报文件显示，美国总统特朗普在6月23日购入了价值最高达5万美元的SpaceX股票，此时距离埃隆・马斯克旗下这家企业创下纪录的首次公开募股已经过去两周。",
+            title: "曾指点贝森特的Druckenmiller直言 政府违背基本面压低收益率终将落败",
+            summary: " 亿万富豪投资人Stanley Druckenmiller表示，斯科特·贝森特涉足债券市场是一个错误。贝森特早年担任对冲基金交易员时，曾经受过Druckenmiller的指点。",
             source: "环球市场播报",
             date: "2026-08-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipnyqy2314510.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inippeww2263262.shtml"
+        },
+        {
+            title: "涉案金额近2万亿韩元，韩国税务机构调查企业豪宅私用逃税问题",
+            summary: " 韩国税务部门周二表示，已对 50 家企业开展税务稽查，怀疑企业主及其家属将公司名下的豪宅挪作私人使用，以此实施逃税。",
+            source: "环球市场播报",
+            date: "2026-08-25",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inippewq9631442.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-25",
-        marketAssessment: "A股方面：上证指数报3875.09点（-0.18%），深证成指报13677.34点（-0.85%），创业板指报3379.01点（-1.54%）。美股方面：标普500报7,652.86（-1.19%），纳斯达克报25,980.19（-2.49%）。",
+        marketAssessment: "A股方面：上证指数报3887.90点（+0.15%），深证成指报13743.50点（-0.37%），创业板指报3400.10点（-0.93%）。美股方面：标普500报7,652.86（-1.19%），纳斯达克报25,980.19（-2.49%）。",
         hotSectors: [
-            { name: "种子", reason: "板块涨幅+6.26%", strength: "强" },
-            { name: "房产租赁经纪", reason: "板块涨幅+5.64%", strength: "强" },
-            { name: "化妆品制造及其他", reason: "板块涨幅+4.99%", strength: "强" },
-            { name: "清洁小家电", reason: "板块涨幅+4.48%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+6.23%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+6.11%", strength: "强" },
+            { name: "其他养殖", reason: "板块涨幅+5.36%", strength: "强" },
+            { name: "清洁小家电", reason: "板块涨幅+4.79%", strength: "强" },
         ],
         weakSectors: [
-            { name: "白银", reason: "板块跌幅-7.91%", strength: "弱" },
-            { name: "钼", reason: "板块跌幅-6.31%", strength: "弱" },
+            { name: "白银", reason: "板块跌幅-7.21%", strength: "弱" },
+            { name: "贵金属", reason: "板块跌幅-5.21%", strength: "弱" },
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注种子、房产租赁经纪、化妆品制造及其他等板块的延续性，顺势操作，严格止损。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注房产租赁经纪、种子、其他养殖等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

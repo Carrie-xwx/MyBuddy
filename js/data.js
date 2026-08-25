@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                        marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3887.90", change: "+0.15%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13743.50", change: "-0.37%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3400.10", change: "-0.93%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "沪深300", code: "SH000300", value: "4550.02", change: "-0.29%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "科创50", code: "SH000688", value: "1603.29", change: "+0.06%", market: "A股", updateTime: "2026-08-25 实时" },
+                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3889.44", change: "+0.19%", market: "A股", updateTime: "2026-08-25 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13745.87", change: "-0.35%", market: "A股", updateTime: "2026-08-25 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3397.52", change: "-1.00%", market: "A股", updateTime: "2026-08-25 实时" },
+        { name: "沪深300", code: "SH000300", value: "4552.03", change: "-0.24%", market: "A股", updateTime: "2026-08-25 实时" },
+        { name: "科创50", code: "SH000688", value: "1604.59", change: "+0.14%", market: "A股", updateTime: "2026-08-25 实时" },
         { name: "标普500", code: "SPX", value: "7,652.86", change: "-1.19%", market: "美股", updateTime: "2026-08-25 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "25,980.19", change: "-2.49%", market: "美股", updateTime: "2026-08-25 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,417.16", change: "-0.08%", market: "美股", updateTime: "2026-08-25 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "云顶新耀午后大涨超17% 核心产品耐赋康放量带动业绩高增",
-            summary: "云顶新耀（01952）午后涨幅持续扩大，截至发稿，股价上涨17.24%，现报36.46港元，成交额8.318亿港元。 云顶新耀披露中期业绩，上半年收入人民币11.48亿元...",
-            source: "新浪港股",
+            title: "解读英伟达5000亿美元融资计划的细节缺口",
+            summary: " 本月早些时候，英伟达震动市场。黑石、阿波罗、高盛等六大金融巨头入局，将为价值5000 亿美元的人工智能基础设施采购项目提供融资。",
+            source: "环球市场播报",
             date: "2026-08-25",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inippewu5522966.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipprnn1590217.shtml"
         },
         {
-            title: "融创中国午后涨近6% 官宣转型“资产管理+资产运营” 为战略转型升级方向",
-            summary: "融创中国（01918）盘中涨超9%，截至发稿，股价上涨5.51%，现报0.575港元，成交额1.45亿港元。 融创中国发布公告称，确立“资产管理+资产运营”为战略转型升级方向...",
-            source: "新浪港股",
-            date: "2026-08-25",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inippews1627238.shtml"
-        },
-        {
-            title: "西部水泥午后涨超4% 上半年归母净利润3.79亿元同比下降49.4%",
-            summary: "西部水泥（02233）盘中涨超5%，截至发稿，股价上涨4.13%，现报1.89港元，成交额3864.04万港元。 西部水泥发布中期业绩、上半年收入45.27亿元，同比减少16.5%；归母净利润3...",
-            source: "新浪港股",
-            date: "2026-08-25",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inippewu5522188.shtml"
-        },
-        {
-            title: "英矽智能午后涨超12% 国泰海通证券给予“增持”评级",
-            summary: "英矽智能（03696）午后涨超12%，截至发稿，股价上涨12.03%，现报45.26港元，成交额7.25亿港元。 近期Moderna联合默沙东的AI+mRNA个性化癌症疫苗III期临床圆满成功...",
-            source: "新浪港股",
-            date: "2026-08-25",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-25/doc-inippews1626206.shtml"
-        },
-        {
-            title: "长安期货侯荃宇：低库存主导 乙二醇价格强势上行",
-            summary: "2026年8月，乙二醇期货市场呈现强劲上行走势。自8月6日2610合约止跌以来，盘面持续走强，录得13连阳，成本支撑与供给收缩形成共振。",
-            source: "市场资讯",
-            date: "2026-08-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-25/doc-inippeww2293092.shtml"
-        },
-        {
-            title: "国泰君安期货：这一波黄金反弹能持续多久？",
-            summary: "国泰君安期货市场分析师 张驰宁 Z0020302 最近黄金冲得非常疯狂，很多人都在纠结，这波行情到底能走多远。今天，我就带着大家一起，从我理解的底层逻辑出发...",
-            source: "市场资讯",
-            date: "2026-08-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-08-25/doc-inippewq9640244.shtml"
-        },
-        {
-            title: "曾指点贝森特的Druckenmiller直言 政府违背基本面压低收益率终将落败",
-            summary: " 亿万富豪投资人Stanley Druckenmiller表示，斯科特·贝森特涉足债券市场是一个错误。贝森特早年担任对冲基金交易员时，曾经受过Druckenmiller的指点。",
+            title: "Hugging Face年化营收大涨50%，达到1.5亿美元",
+            summary: "这家成立已有十年的初创企业即将达成出售交易。 据知情人士透露，以开源模型代码库闻名的 AI 初创公司 Hugging Face，年化营收已经突破 1.5 亿美元，同比增幅达 50%。",
             source: "环球市场播报",
             date: "2026-08-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inippeww2263262.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipprnq5453109.shtml"
         },
         {
-            title: "涉案金额近2万亿韩元，韩国税务机构调查企业豪宅私用逃税问题",
-            summary: " 韩国税务部门周二表示，已对 50 家企业开展税务稽查，怀疑企业主及其家属将公司名下的豪宅挪作私人使用，以此实施逃税。",
+            title: "阿拉巴马州就Hugging Face遭黑客入侵事件对OpenAI展开调查",
+            summary: "本次调查源于 15 个州总检察长就该事件向这家公司发出的联合信函 阿拉巴马州总检察长史蒂夫・马歇尔，针对 OpenAI 旗下 AI 模型近期对 Hugging Face 发起网络攻击一事...",
+            source: "环球市场播报",
+            date: "2026-08-25",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipprnq5451262.shtml"
+        },
+        {
+            title: "中天期货:焦煤短线调整 白糖震荡下行",
+            summary: "热点品种分析 一、商品指数 二、股指 中国上证综指 8 月 25 日（周二）收盘上涨 7.43 点，涨幅 0.19%，报 3889.44 点； 中国深证成指 8 月 25 日（周二）收盘下跌 48...",
+            source: "市场资讯",
+            date: "2026-08-25",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-25/doc-inipprnq5448760.shtml"
+        },
+        {
+            title: "国泰君安期货：乙二醇高位激烈博弈，短期需关注哪些风险点？",
+            summary: "国泰君安期货市场分析师陈骏昊 投资咨询证号：Z0021546 乙二醇期货主力合约在“13连阳”之后，走出高位调整行情，日内收长上影线，主力合约收报5364元/吨。",
+            source: "市场资讯",
+            date: "2026-08-25",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-08-25/doc-inipprns2215325.shtml"
+        },
+        {
+            title: "据悉美国将向中东各大使馆重新派驻外交人员",
+            summary: " 美国国务院正准备将外交人员派回中东各大使馆。这些使馆在美伊开战前夕及战争期间完成人员撤离，此举表明特朗普政府预判不会再度爆发全面军事冲突。",
             source: "环球市场播报",
             date: "2026-08-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inippewq9631442.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-25/doc-inipprns2213252.shtml"
+        },
+        {
+            title: "卓然股份（688121）遭上海证监局责令改正：募资违规使用+关联方非经营性资金占用，受损股民可索赔！",
+            summary: "公司深耕工业无线遥控行业二十余载，同时积极布局新能源储能业务，形成双主业发展格局。工业无线控制业务是公司基石。作为全球工业无线遥控设备龙头企业德国HBC在中国的唯...",
+            source: "市场资讯",
+            date: "2026-08-25",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-25/doc-inipprnk9620971.shtml"
+        },
+        {
+            title: "7.85亿违规担保\"黑洞\"压顶！ST荣科被“戴帽” ！",
+            summary: "荣科蓄力响应“健康中国”战略，擘画以“智慧大健康”为主线的发展蓝图，形成集智慧医疗服务、智慧健康运营、智慧养老等于一体的全域生态体系，将智慧之花洒满华夏大地。",
+            source: "市场资讯",
+            date: "2026-08-25",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-08-25/doc-inipprnk9619943.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-08-25",
-        marketAssessment: "A股方面：上证指数报3887.90点（+0.15%），深证成指报13743.50点（-0.37%），创业板指报3400.10点（-0.93%）。美股方面：标普500报7,652.86（-1.19%），纳斯达克报25,980.19（-2.49%）。",
+        marketAssessment: "A股方面：上证指数报3889.44点（+0.19%），深证成指报13745.87点（-0.35%），创业板指报3397.52点（-1.00%）。美股方面：标普500报7,652.86（-1.19%），纳斯达克报25,980.19（-2.49%）。",
         hotSectors: [
-            { name: "房产租赁经纪", reason: "板块涨幅+6.23%", strength: "强" },
-            { name: "种子", reason: "板块涨幅+6.11%", strength: "强" },
-            { name: "其他养殖", reason: "板块涨幅+5.36%", strength: "强" },
-            { name: "清洁小家电", reason: "板块涨幅+4.79%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+6.00%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+5.87%", strength: "强" },
+            { name: "教育运营及其他", reason: "板块涨幅+5.03%", strength: "强" },
+            { name: "清洁小家电", reason: "板块涨幅+4.87%", strength: "强" },
         ],
         weakSectors: [
             { name: "白银", reason: "板块跌幅-7.21%", strength: "弱" },
-            { name: "贵金属", reason: "板块跌幅-5.21%", strength: "弱" },
+            { name: "贵金属", reason: "板块跌幅-5.25%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注房产租赁经纪、种子、其他养殖等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注房产租赁经纪、种子、教育运营及其他等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

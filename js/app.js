@@ -312,6 +312,14 @@ const StockModule = {
         this.loadMarketData();
         // 页面加载后自动获取实时数据
         setTimeout(() => this.fetchRealTimeData(), 500);
+
+        // 页面常开时每 3 分钟自动刷新实时数据（仅在标签页可见时执行，省流量）
+        if (StockModule._refreshTimer) clearInterval(StockModule._refreshTimer);
+        StockModule._refreshTimer = setInterval(() => {
+            if (document.visibilityState === 'visible') {
+                this.fetchRealTimeData();
+            }
+        }, 3 * 60 * 1000);
     },
 
     // 首次加载预填充真实数据

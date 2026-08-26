@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3889.44", change: "+0.19%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13745.87", change: "-0.35%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3397.52", change: "-1.00%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "沪深300", code: "SH000300", value: "4552.03", change: "-0.24%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "科创50", code: "SH000688", value: "1604.59", change: "+0.14%", market: "A股", updateTime: "2026-08-25 实时" },
-        { name: "标普500", code: "SPX", value: "7,662.87", change: "-0.38%", market: "美股", updateTime: "2026-08-25 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,073.37", change: "-0.82%", market: "美股", updateTime: "2026-08-25 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,466.20", change: "+0.23%", market: "美股", updateTime: "2026-08-25 收盘" },
+                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3916.83", change: "+0.70%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13911.29", change: "+1.20%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3444.05", change: "+1.37%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "沪深300", code: "SH000300", value: "4600.77", change: "+1.07%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "科创50", code: "SH000688", value: "1639.58", change: "+2.18%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "标普500", code: "SPX", value: "7,677.28", change: "-0.19%", market: "美股", updateTime: "2026-08-26 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,151.30", change: "-0.53%", market: "美股", updateTime: "2026-08-26 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,577.40", change: "+0.44%", market: "美股", updateTime: "2026-08-26 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "乐高上半年营收419亿丹麦克朗创新高，营业利润升22%",
-            summary: "丹麦乐高集团周二公布2026年上半年业绩。营收419亿丹麦克朗，约合65.4亿美元，同比增加21%，公司称为半年度纪录。按固定汇率计算，营收增长26%。",
+            title: "剑桥科技午前涨近11% 中期归母净利润同比增长171.08%",
+            summary: "剑桥科技（06166）午前拉升近11%，截至发稿，股价上涨10.99%，报101港元，成交额11.76亿港元。 近日，剑桥科技公布2026年中期业绩，营业收入约27.05亿元，同比增长32...",
+            source: "新浪港股",
+            date: "2026-08-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprcpz6292823.shtml"
+        },
+        {
+            title: "昆仑能源早盘涨超7% 中期股东应占溢利33.06亿元同比增长4.59%",
+            summary: "昆仑能源（00135）早盘涨超7%，截至发稿，股价上涨7.57%，现报7.535港元，成交额6723.01万港元。 8月25日，昆仑能源发布截至2026年6月30日止六个月业绩...",
+            source: "新浪港股",
+            date: "2026-08-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprcpw5531601.shtml"
+        },
+        {
+            title: "中资券商股早盘飙升 中金公司涨逾7%中信证券涨逾6%",
+            summary: "中资券商股早盘飙升，截至发稿，中金公司（03908）上涨7.57%，报22.16港元；中信证券（06030）上涨5.93%，报27.52港元；招商证券（06099）上涨5.23%，报15...",
+            source: "新浪港股",
+            date: "2026-08-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprcpu1128190.shtml"
+        },
+        {
+            title: "中广核电力早盘涨超6% 第二季度归母净利润同比上升15.06%",
+            summary: "中广核电力（01816）早盘涨超6%，截至发稿，股价上涨6.17%，现报3.01港元，成交额1.31亿港元。 中广核电力公布2026年中期业绩，营业收入约为314.83亿元，同比下降2.8%。",
+            source: "新浪港股",
+            date: "2026-08-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprcpu1128175.shtml"
+        },
+        {
+            title: "融创中国早盘涨超5% 公司拟以1.23亿元收购而今管理100%股权",
+            summary: "融创中国（01918）盘中涨超6%，截至发稿，股价上涨5.26%，现报0.60港元，成交额1.42亿港元。 融创中国公告，拟以1.23亿元收购而今管理100%股权。",
+            source: "新浪港股",
+            date: "2026-08-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprcpy2295085.shtml"
+        },
+        {
+            title: "中东局势促使巴拿马运河通行需求激增 亚洲货主“天价”竞拍通航名额",
+            summary: "据知情人士称，一家需要通过巴拿马运河运输货物的公司为确保获得通航名额，出价创纪录的530万美元。 知情人士表示，韩国SK Gas Ltd．同意支付这笔费用...",
             source: "环球市场播报",
-            date: "2026-08-25",
+            date: "2026-08-26",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipqaan2286248.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprcpw5510033.shtml"
         },
         {
-            title: "软件板块相对芯片板块走出创纪录强势行情",
-            summary: "软件股逼近历史高位。芯片板块仍处在熊市之中 —— 不过英伟达算是个例外，它并未真正陷入熊市。 板块行情切换几乎就在同一天发生。",
+            title: "印度高频交易公司的实习生月薪飙升至3.1万美元",
+            summary: " 印度的高频交易公司正以创纪录的薪酬吸引实习生，力图在这个对衍生品交易规定更为严格、且缺乏与人工智能AI相关股票的市场中获得优势。",
             source: "环球市场播报",
-            date: "2026-08-25",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipqaan2268591.shtml"
-        },
-        {
-            title: "美联航宣布史上最大国际扩张：2027年新开10城，纽瓦克担主场",
-            summary: "美国联合航空周二在纽瓦克自由国际机场宣布，将于2027年新增10个国际城市，并加开多条已有目的地航线，自称公司历史上最大一次国际网络扩张。机票即日起在官网和App开售。...",
-            source: "环球市场播报",
-            date: "2026-08-25",
+            date: "2026-08-26",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipqaak5494399.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprcpy2278510.shtml"
         },
         {
-            title: "美国7月新屋销售降至六个月低点 抵押贷款利率高企抑制需求",
-            summary: "美国7月新屋销售降至六个月低点，表明尽管开发商降价并提供优惠，但抵押贷款利率高企仍在抑制购房需求。 美国政府周二公布的数据显示，7月新建单户型住宅销售下降10.5%...",
-            source: "环球市场播报",
-            date: "2026-08-25",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipqaah1465524.shtml"
-        },
-        {
-            title: "加拿大如何反击，重创美国经济与特朗普？",
-            summary: "作者：杰西卡・墨菲“特朗普低估了我们”：道格・福特就关税问题向美国发难 加拿大约 70% 出口商品流向美国。在这场不断恶化的贸易争端中...",
-            source: "环球市场播报",
-            date: "2026-08-25",
+            title: "光大期货0826黄金点评：宏观情绪转暖，隔夜黄金窄幅震荡",
+            summary: "隔夜伦敦现货贵金属窄幅震荡，盘中触及4696.83美元，创5月中旬以来新高，收涨0.21%。 美伊停火谈判传出重大进展，油价大跌。短线黄金偏强震荡...",
+            source: "市场资讯",
+            date: "2026-08-26",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipqaak5487359.shtml"
-        },
-        {
-            title: "迪克体育二季度业绩低于预期，下调全年指引，盘前大跌",
-            summary: "迪克体育用品公司（Dick’s Sporting Goods，纽交所代码 DKS）周二公布截至2026年8月1日的第二财季业绩。调整后每股收益3.53美元，营收55.9亿美元，均低于华尔街预期。",
-            source: "环球市场播报",
-            date: "2026-08-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipqaae9510738.shtml"
-        },
-        {
-            title: "美加口水战升级 特朗普考虑将安大略湖更名为“美利坚湖”",
-            summary: " 美国总统特朗普周二威胁将安大略湖改名为“美利坚湖”，在美加贸易争端升温之际，特朗普与加拿大官员之间的口水战也在不断持续升温。",
-            source: "环球市场播报",
-            date: "2026-08-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipqaae9510454.shtml"
-        },
-        {
-            title: "美国8月消费者信心下降 对商业和就业前景看法恶化",
-            summary: "美国消费者信心8月下降，原因是对商业环境和劳动力市场前景的看法恶化。 世界大型企业联合会周二公布的数据显示，消费者信心指数下降0.8点至89.4，前月数据被下修。",
-            source: "环球市场播报",
-            date: "2026-08-25",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-25/doc-inipqaah1458210.shtml"
+            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-26/doc-iniprcpz6276539.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-25",
-        marketAssessment: "A股方面：上证指数报3889.44点（+0.19%），深证成指报13745.87点（-0.35%），创业板指报3397.52点（-1.00%）。美股方面：标普500报7,662.87（-0.38%），纳斯达克报26,073.37（-0.82%）。",
+                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-26",
+        marketAssessment: "A股方面：上证指数报3916.83点（+0.70%），深证成指报13911.29点（+1.20%），创业板指报3444.05点（+1.37%）。美股方面：标普500报7,677.28（-0.19%），纳斯达克报26,151.30（-0.53%）。",
         hotSectors: [
-
+            { name: "铜", reason: "板块涨幅+5.89%", strength: "强" },
+            { name: "白银", reason: "板块涨幅+4.61%", strength: "强" },
+            { name: "粘胶", reason: "板块涨幅+4.58%", strength: "强" },
+            { name: "期货", reason: "板块涨幅+4.57%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "图片媒体", reason: "板块跌幅-2.97%", strength: "弱" },
+            { name: "其他养殖", reason: "板块跌幅-2.62%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注铜、白银、粘胶等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

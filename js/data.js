@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3912.52", change: "+0.59%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13841.33", change: "+0.69%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3414.88", change: "+0.51%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "沪深300", code: "SH000300", value: "4590.79", change: "+0.85%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "科创50", code: "SH000688", value: "1632.02", change: "+1.71%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "标普500", code: "SPX", value: "7,677.28", change: "-0.19%", market: "美股", updateTime: "2026-08-26 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,151.30", change: "-0.53%", market: "美股", updateTime: "2026-08-26 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,577.40", change: "+0.44%", market: "美股", updateTime: "2026-08-26 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3912.52", change: "+0.59%", market: "A股", updateTime: "2026-08-27 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13841.33", change: "+0.69%", market: "A股", updateTime: "2026-08-27 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3414.88", change: "+0.51%", market: "A股", updateTime: "2026-08-27 实时" },
+        { name: "沪深300", code: "SH000300", value: "4590.79", change: "+0.85%", market: "A股", updateTime: "2026-08-27 实时" },
+        { name: "科创50", code: "SH000688", value: "1632.02", change: "+1.71%", market: "A股", updateTime: "2026-08-27 实时" },
+        { name: "标普500", code: "SPX", value: "7,666.11", change: "-0.54%", market: "美股", updateTime: "2026-08-27 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,055.52", change: "-1.05%", market: "美股", updateTime: "2026-08-27 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,430.72", change: "-0.06%", market: "美股", updateTime: "2026-08-27 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "关键通胀数据公布前夕，美债收益率基本持平",
-            summary: "美国国债收益率整体波动不大，投资者静待美联储偏好的通胀指标公布。 美国东部时间凌晨 4 点，作为抵押贷款、汽车贷款、信用卡债务关键基准的10 年期美债收益率几乎持平...",
+            title: "耐克股价创12年新低",
+            summary: "服装品牌耐克（股票代码：NKE）周三午间交易价格跌至 12 年来的低位。 受特鲁伊斯特证券下调评级的影响，耐克股价下跌超 2%。该股当前价位上一次出现还要追溯至 2014 年 8...",
+            source: "环球市场播报",
+            date: "2026-08-27",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-27/doc-inipsmim9143974.shtml"
+        },
+        {
+            title: "欧洲债市：欧债追随美债下跌 交易员加大对欧洲央行加息的押注",
+            summary: "欧洲债券追随美国国债下跌，此前美国公布的PCE价格指数升幅符合预期，油价也收窄早些时候跌幅。 德国国债收益率上涨3个基点至3.23%。",
+            source: "环球市场播报",
+            date: "2026-08-27",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-27/doc-inipsmim5868707.shtml"
+        },
+        {
+            title: "进退两难：派拉蒙并购案延期，华纳兄弟‑探索身陷僵局",
+            summary: "核心要点一年多以来，华纳兄弟‑探索（WBD）的命运一直悬而未决：从最初计划分拆公司、再到一波三折的出售进程，直至如今被派拉蒙‑天舞并购的交割时间遭到推迟。",
+            source: "环球市场播报",
+            date: "2026-08-26",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim9126626.shtml"
+        },
+        {
+            title: "杰克逊霍尔年会前夕：美元、债市高度紧绷，贝森特市场干预给沃什施加巨大压力",
+            summary: "核心要点全球经济决策者与专家本周齐聚怀俄明州杰克逊霍尔，参加堪萨斯城联邦储备银行举办的年度经济政策研讨会。美国银行将本次会议定义为金融市场的 “重大风险事件”。",
+            source: "环球市场播报",
+            date: "2026-08-26",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim9124102.shtml"
+        },
+        {
+            title: "伊朗称美伊阿曼谈判霍尔木兹海峡协议，美国从中作梗",
+            summary: "核心要点伊朗革命卫队表示，伊朗与阿曼已经达成协议条款，保障霍尔木兹海峡安全通航。但这支强硬派武装称，美国在阻挠该协议落地；并表示，在美国接受伊朗条件之前...",
             source: "环球市场播报",
             date: "2026-08-26",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprums2402665.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim5861106.shtml"
         },
         {
-            title: "小米汽车海外官网正式上线，全球化进一步提速",
-            summary: "新浪科技讯 8月26日下午消息，小米汽车海外官网和社媒账号正式上线，全英文站点系统展示了小米汽车的品牌故事、核心成绩、全球研发布局和造车实力...",
-            source: "新浪科技",
+            title: "油价脱离低位反弹：伊朗称已与阿曼就霍尔木兹海峡收益分成达成协议",
+            summary: "核心要点伊朗革命卫队表示，德黑兰方面已与阿曼达成协议，将共享霍尔木兹海峡产生的相关收益。革命卫队并未提及海峡通行费，但这份收益分成协议表明伊朗计划设置某种通行收...",
+            source: "环球市场播报",
             date: "2026-08-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprums2397141.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim5860008.shtml"
         },
         {
-            title: "万物云宋澜涛谈城市更新：既要做好硬件改造 也要建立运营和维护机制",
-            summary: "8月26日下午消息，第四届“10+N”城市管理局长联席会议城市治理现代化与全域智能运营创新实践研讨会在新疆举行。研讨会上，万物云政府与企业客户服务中心总经理...",
-            source: "新浪科技",
+            title: "伊朗与俄气公司探讨天然气行业合作",
+            summary: "伊朗官员与俄气公司代表周三在俄罗斯举行会晤，探讨天然气行业合作。 伊朗国家天然气公司（NIGC）首席执行官Saeed Tavakoli、伊朗驻俄罗斯大使Kazem...",
+            source: "环球市场播报",
             date: "2026-08-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprumt6100029.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim9117777.shtml"
         },
         {
-            title: "知乎：上半年经调整净利润690.6万元",
-            summary: "新浪科技讯 8月26日下午消息，知乎发布2026年第二季度业绩报告。报告显示，第二季度，知乎实现营收6.9亿元，环比增长5.9%。继2025年首次实现全年非公认会计准则盈利后...",
-            source: "新浪科技",
-            date: "2026-08-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprums2390218.shtml"
-        },
-        {
-            title: "郑州公积金新政：存量房首付比例下调至20%",
-            summary: "郑州住房公积金管理中心网站消息，8月26日，《郑州住房公积金管理中心关于进一步优化住房公积金贷款政策的通知》发布，进一步优化住房公积金贷款政策。",
-            source: "中证网",
-            date: "2026-08-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-08-26/doc-iniprums2375551.shtml"
-        },
-        {
-            title: "光大期货 0826点追踪：乙二醇封跌停！美伊谈判迎转机，低库存故事要反转？",
-            summary: "光大期货 0826点追踪：乙二醇封跌停！美伊谈判迎转机，低库存故事要反转？",
-            source: "市场资讯",
-            date: "2026-08-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-26/doc-iniprumt6087671.shtml"
-        },
-        {
-            title: "一图读懂焦炭期权",
-            summary: "来源：大连商品交易所",
-            source: "市场资讯",
-            date: "2026-08-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-08-26/doc-iniprumt6091501.shtml"
-        },
-        {
-            title: "谷歌推出面向法律行业的人工智能解决方案",
-            summary: "美国谷歌云（Google Cloud）8月25日正式发布名为“Gemini法律企业版”（Gemini Enterprise for Legal）的专业人工智能解决方案，标志着这家科技企业全面进军法律垂直应用领域...",
+            title: "医疗器械厂商波士顿科学遭遇网络攻击，股价下挫",
+            summary: "核心要点 波士顿科学在周三向美国证券交易委员会（SEC）提交的文件中披露，公司遭到网络攻击，业务运营受到影响。 此次攻击持续干扰公司产品发货能力...",
             source: "环球市场播报",
             date: "2026-08-26",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprumn0922179.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim5858980.shtml"
         },
     ],
 
@@ -765,20 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-08-26",
-        marketAssessment: "A股方面：上证指数报3912.52点（+0.59%），深证成指报13841.33点（+0.69%），创业板指报3414.88点（+0.51%）。美股方面：标普500报7,677.28（-0.19%），纳斯达克报26,151.30（-0.53%）。",
+                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-08-27",
+        marketAssessment: "A股方面：上证指数报3912.52点（+0.59%），深证成指报13841.33点（+0.69%），创业板指报3414.88点（+0.51%）。美股方面：标普500报7,666.11（-0.54%），纳斯达克报26,055.52（-1.05%）。",
         hotSectors: [
-            { name: "教育运营及其他", reason: "板块涨幅+6.59%", strength: "强" },
-            { name: "铜", reason: "板块涨幅+5.16%", strength: "强" },
-            { name: "疫苗", reason: "板块涨幅+4.12%", strength: "强" },
-            { name: "粘胶", reason: "板块涨幅+3.93%", strength: "强" },
+
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注教育运营及其他、铜、疫苗等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

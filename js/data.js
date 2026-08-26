@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3913.36", change: "+0.61%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13840.61", change: "+0.69%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3420.75", change: "+0.68%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "沪深300", code: "SH000300", value: "4593.57", change: "+0.91%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "科创50", code: "SH000688", value: "1630.18", change: "+1.59%", market: "A股", updateTime: "2026-08-26 实时" },
+                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3912.52", change: "+0.59%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13841.33", change: "+0.69%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3414.88", change: "+0.51%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "沪深300", code: "SH000300", value: "4590.79", change: "+0.85%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "科创50", code: "SH000688", value: "1632.02", change: "+1.71%", market: "A股", updateTime: "2026-08-26 实时" },
         { name: "标普500", code: "SPX", value: "7,677.28", change: "-0.19%", market: "美股", updateTime: "2026-08-26 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,151.30", change: "-0.53%", market: "美股", updateTime: "2026-08-26 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,577.40", change: "+0.44%", market: "美股", updateTime: "2026-08-26 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "里昂：绿城服务维持“跑赢大市”评级 目标价5.50港元",
-            summary: "里昂发布研报称，维持绿城服务（02869）“跑赢大市”评级及目标价5.5港元。里昂指绿城服务上半年业绩符合该行的预期。尽管行业充满挑战，其物业服务业务仍保持韧性...",
-            source: "新浪港股",
-            date: "2026-08-26",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-26/doc-iniprqcv6107180.shtml"
-        },
-        {
-            title: "中金：绿城服务目标价6港元 维持“跑赢行业”评级",
-            summary: "中金发布研报称，维持绿城服务（02869）“跑赢行业”评级及目标价6港元。中金称，绿城服务三年目标进展顺利，盈利增长领先同业，其上半年业绩大致符合预期...",
-            source: "新浪港股",
-            date: "2026-08-26",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-26/doc-iniprqcq0949049.shtml"
-        },
-        {
-            title: "晨星：下调华润建材科技每股合理估值至1.10港元 2026年上半年收入下滑15%",
-            summary: "晨星发布研报称，调低华润建材科技（01313）每股合理估值24%，由每股1.45港元下调至1.10港元，指该股缺乏竞争护城河，目标价反映该行更为保守长期盈利假设。",
-            source: "新浪港股",
-            date: "2026-08-26",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-26/doc-iniprqcv6106866.shtml"
-        },
-        {
-            title: "康臣药业午后涨超7% 中期股东应占溢利同比增加19.50%",
-            summary: "康臣药业（01681）盘中涨超11%，截至发稿，股价上涨7.31%，现报14.38港元，成交额8941.65万港元。 8月26日午间，康臣药业发布截至2026年6月30日止6个月业绩...",
-            source: "新浪港股",
-            date: "2026-08-26",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprqcu2226015.shtml"
-        },
-        {
-            title: "软银据悉考虑发行至多200亿美元债券 为投资OpenAI的贷款再融资",
-            summary: " 软银集团据悉正与投资银行讨论规模100亿至200亿美元的潜在债券发行计划，以帮助为其投资美国科技巨头OpenAI的贷款进行再融资。",
-            source: "环球市场播报",
-            date: "2026-08-26",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprqcu2225823.shtml"
-        },
-        {
-            title: "石四药集团午后一度涨超5% 上半年纯利同比增近13%",
-            summary: "石四药集团（02005）午后一度涨超5%，截至发稿，股价上涨3.78%，现报2.61港元，成交额2429.45万港元。 石四药集团午间发布2026年中期业绩，上半年取得收益23.61亿港元...",
-            source: "新浪港股",
-            date: "2026-08-26",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprqcu2224068.shtml"
-        },
-        {
-            title: "贝壳-W午后涨超5% 花旗将其目标价由73.6港元上调至75.4港元",
-            summary: "贝壳-W（02423）午后涨超5%，截至发稿，股价上涨5.03%，现报48.02港元，成交额3.70亿港元。 贝壳近日发布业绩，二季度实现净收入245亿元，经调整经营利润为35.9亿元...",
-            source: "新浪港股",
-            date: "2026-08-26",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprqcu2222654.shtml"
-        },
-        {
-            title: "欧洲央行执委称须进一步加息 通胀恐长时间高于2%",
-            summary: " 欧洲央行执行委员会成员施纳贝尔表示，随着中东冲突久拖不决，加上欧元区经济表现出乎意料地强劲，通胀面临上行风险，利率必须进一步上升。",
+            title: "关键通胀数据公布前夕，美债收益率基本持平",
+            summary: "美国国债收益率整体波动不大，投资者静待美联储偏好的通胀指标公布。 美国东部时间凌晨 4 点，作为抵押贷款、汽车贷款、信用卡债务关键基准的10 年期美债收益率几乎持平...",
             source: "环球市场播报",
             date: "2026-08-26",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprivu5554788.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprums2402665.shtml"
+        },
+        {
+            title: "小米汽车海外官网正式上线，全球化进一步提速",
+            summary: "新浪科技讯 8月26日下午消息，小米汽车海外官网和社媒账号正式上线，全英文站点系统展示了小米汽车的品牌故事、核心成绩、全球研发布局和造车实力...",
+            source: "新浪科技",
+            date: "2026-08-26",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprums2397141.shtml"
+        },
+        {
+            title: "万物云宋澜涛谈城市更新：既要做好硬件改造 也要建立运营和维护机制",
+            summary: "8月26日下午消息，第四届“10+N”城市管理局长联席会议城市治理现代化与全域智能运营创新实践研讨会在新疆举行。研讨会上，万物云政府与企业客户服务中心总经理...",
+            source: "新浪科技",
+            date: "2026-08-26",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprumt6100029.shtml"
+        },
+        {
+            title: "知乎：上半年经调整净利润690.6万元",
+            summary: "新浪科技讯 8月26日下午消息，知乎发布2026年第二季度业绩报告。报告显示，第二季度，知乎实现营收6.9亿元，环比增长5.9%。继2025年首次实现全年非公认会计准则盈利后...",
+            source: "新浪科技",
+            date: "2026-08-26",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprums2390218.shtml"
+        },
+        {
+            title: "郑州公积金新政：存量房首付比例下调至20%",
+            summary: "郑州住房公积金管理中心网站消息，8月26日，《郑州住房公积金管理中心关于进一步优化住房公积金贷款政策的通知》发布，进一步优化住房公积金贷款政策。",
+            source: "中证网",
+            date: "2026-08-26",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-08-26/doc-iniprums2375551.shtml"
+        },
+        {
+            title: "光大期货 0826点追踪：乙二醇封跌停！美伊谈判迎转机，低库存故事要反转？",
+            summary: "光大期货 0826点追踪：乙二醇封跌停！美伊谈判迎转机，低库存故事要反转？",
+            source: "市场资讯",
+            date: "2026-08-26",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-08-26/doc-iniprumt6087671.shtml"
+        },
+        {
+            title: "一图读懂焦炭期权",
+            summary: "来源：大连商品交易所",
+            source: "市场资讯",
+            date: "2026-08-26",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-08-26/doc-iniprumt6091501.shtml"
+        },
+        {
+            title: "谷歌推出面向法律行业的人工智能解决方案",
+            summary: "美国谷歌云（Google Cloud）8月25日正式发布名为“Gemini法律企业版”（Gemini Enterprise for Legal）的专业人工智能解决方案，标志着这家科技企业全面进军法律垂直应用领域...",
+            source: "环球市场播报",
+            date: "2026-08-26",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprumn0922179.shtml"
         },
     ],
 
@@ -765,21 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-08-26",
-        marketAssessment: "A股方面：上证指数报3913.36点（+0.61%），深证成指报13840.61点（+0.69%），创业板指报3420.75点（+0.68%）。美股方面：标普500报7,677.28（-0.19%），纳斯达克报26,151.30（-0.53%）。",
+        marketAssessment: "A股方面：上证指数报3912.52点（+0.59%），深证成指报13841.33点（+0.69%），创业板指报3414.88点（+0.51%）。美股方面：标普500报7,677.28（-0.19%），纳斯达克报26,151.30（-0.53%）。",
         hotSectors: [
-            { name: "教育运营及其他", reason: "板块涨幅+7.00%", strength: "强" },
+            { name: "教育运营及其他", reason: "板块涨幅+6.59%", strength: "强" },
             { name: "铜", reason: "板块涨幅+5.16%", strength: "强" },
-            { name: "粘胶", reason: "板块涨幅+4.07%", strength: "强" },
-            { name: "疫苗", reason: "板块涨幅+3.85%", strength: "强" },
+            { name: "疫苗", reason: "板块涨幅+4.12%", strength: "强" },
+            { name: "粘胶", reason: "板块涨幅+3.93%", strength: "强" },
         ],
         weakSectors: [
-            { name: "图片媒体", reason: "板块跌幅-3.80%", strength: "弱" },
-            { name: "其他数字媒体", reason: "板块跌幅-3.11%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注教育运营及其他、铜、粘胶等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注教育运营及其他、铜、疫苗等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

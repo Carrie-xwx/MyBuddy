@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3916.83", change: "+0.70%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13911.29", change: "+1.20%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3444.05", change: "+1.37%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "沪深300", code: "SH000300", value: "4600.77", change: "+1.07%", market: "A股", updateTime: "2026-08-26 实时" },
-        { name: "科创50", code: "SH000688", value: "1639.58", change: "+2.18%", market: "A股", updateTime: "2026-08-26 实时" },
+                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3913.36", change: "+0.61%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13840.61", change: "+0.69%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3420.75", change: "+0.68%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "沪深300", code: "SH000300", value: "4593.57", change: "+0.91%", market: "A股", updateTime: "2026-08-26 实时" },
+        { name: "科创50", code: "SH000688", value: "1630.18", change: "+1.59%", market: "A股", updateTime: "2026-08-26 实时" },
         { name: "标普500", code: "SPX", value: "7,677.28", change: "-0.19%", market: "美股", updateTime: "2026-08-26 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,151.30", change: "-0.53%", market: "美股", updateTime: "2026-08-26 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,577.40", change: "+0.44%", market: "美股", updateTime: "2026-08-26 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "剑桥科技午前涨近11% 中期归母净利润同比增长171.08%",
-            summary: "剑桥科技（06166）午前拉升近11%，截至发稿，股价上涨10.99%，报101港元，成交额11.76亿港元。 近日，剑桥科技公布2026年中期业绩，营业收入约27.05亿元，同比增长32...",
+            title: "里昂：绿城服务维持“跑赢大市”评级 目标价5.50港元",
+            summary: "里昂发布研报称，维持绿城服务（02869）“跑赢大市”评级及目标价5.5港元。里昂指绿城服务上半年业绩符合该行的预期。尽管行业充满挑战，其物业服务业务仍保持韧性...",
             source: "新浪港股",
             date: "2026-08-26",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprcpz6292823.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-26/doc-iniprqcv6107180.shtml"
         },
         {
-            title: "昆仑能源早盘涨超7% 中期股东应占溢利33.06亿元同比增长4.59%",
-            summary: "昆仑能源（00135）早盘涨超7%，截至发稿，股价上涨7.57%，现报7.535港元，成交额6723.01万港元。 8月25日，昆仑能源发布截至2026年6月30日止六个月业绩...",
+            title: "中金：绿城服务目标价6港元 维持“跑赢行业”评级",
+            summary: "中金发布研报称，维持绿城服务（02869）“跑赢行业”评级及目标价6港元。中金称，绿城服务三年目标进展顺利，盈利增长领先同业，其上半年业绩大致符合预期...",
             source: "新浪港股",
             date: "2026-08-26",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprcpw5531601.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-26/doc-iniprqcq0949049.shtml"
         },
         {
-            title: "中资券商股早盘飙升 中金公司涨逾7%中信证券涨逾6%",
-            summary: "中资券商股早盘飙升，截至发稿，中金公司（03908）上涨7.57%，报22.16港元；中信证券（06030）上涨5.93%，报27.52港元；招商证券（06099）上涨5.23%，报15...",
+            title: "晨星：下调华润建材科技每股合理估值至1.10港元 2026年上半年收入下滑15%",
+            summary: "晨星发布研报称，调低华润建材科技（01313）每股合理估值24%，由每股1.45港元下调至1.10港元，指该股缺乏竞争护城河，目标价反映该行更为保守长期盈利假设。",
             source: "新浪港股",
             date: "2026-08-26",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprcpu1128190.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-08-26/doc-iniprqcv6106866.shtml"
         },
         {
-            title: "中广核电力早盘涨超6% 第二季度归母净利润同比上升15.06%",
-            summary: "中广核电力（01816）早盘涨超6%，截至发稿，股价上涨6.17%，现报3.01港元，成交额1.31亿港元。 中广核电力公布2026年中期业绩，营业收入约为314.83亿元，同比下降2.8%。",
+            title: "康臣药业午后涨超7% 中期股东应占溢利同比增加19.50%",
+            summary: "康臣药业（01681）盘中涨超11%，截至发稿，股价上涨7.31%，现报14.38港元，成交额8941.65万港元。 8月26日午间，康臣药业发布截至2026年6月30日止6个月业绩...",
             source: "新浪港股",
             date: "2026-08-26",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprcpu1128175.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprqcu2226015.shtml"
         },
         {
-            title: "融创中国早盘涨超5% 公司拟以1.23亿元收购而今管理100%股权",
-            summary: "融创中国（01918）盘中涨超6%，截至发稿，股价上涨5.26%，现报0.60港元，成交额1.42亿港元。 融创中国公告，拟以1.23亿元收购而今管理100%股权。",
-            source: "新浪港股",
-            date: "2026-08-26",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprcpy2295085.shtml"
-        },
-        {
-            title: "中东局势促使巴拿马运河通行需求激增 亚洲货主“天价”竞拍通航名额",
-            summary: "据知情人士称，一家需要通过巴拿马运河运输货物的公司为确保获得通航名额，出价创纪录的530万美元。 知情人士表示，韩国SK Gas Ltd．同意支付这笔费用...",
+            title: "软银据悉考虑发行至多200亿美元债券 为投资OpenAI的贷款再融资",
+            summary: " 软银集团据悉正与投资银行讨论规模100亿至200亿美元的潜在债券发行计划，以帮助为其投资美国科技巨头OpenAI的贷款进行再融资。",
             source: "环球市场播报",
             date: "2026-08-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprcpw5510033.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprqcu2225823.shtml"
         },
         {
-            title: "印度高频交易公司的实习生月薪飙升至3.1万美元",
-            summary: " 印度的高频交易公司正以创纪录的薪酬吸引实习生，力图在这个对衍生品交易规定更为严格、且缺乏与人工智能AI相关股票的市场中获得优势。",
+            title: "石四药集团午后一度涨超5% 上半年纯利同比增近13%",
+            summary: "石四药集团（02005）午后一度涨超5%，截至发稿，股价上涨3.78%，现报2.61港元，成交额2429.45万港元。 石四药集团午间发布2026年中期业绩，上半年取得收益23.61亿港元...",
+            source: "新浪港股",
+            date: "2026-08-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprqcu2224068.shtml"
+        },
+        {
+            title: "贝壳-W午后涨超5% 花旗将其目标价由73.6港元上调至75.4港元",
+            summary: "贝壳-W（02423）午后涨超5%，截至发稿，股价上涨5.03%，现报48.02港元，成交额3.70亿港元。 贝壳近日发布业绩，二季度实现净收入245亿元，经调整经营利润为35.9亿元...",
+            source: "新浪港股",
+            date: "2026-08-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-26/doc-iniprqcu2222654.shtml"
+        },
+        {
+            title: "欧洲央行执委称须进一步加息 通胀恐长时间高于2%",
+            summary: " 欧洲央行执行委员会成员施纳贝尔表示，随着中东冲突久拖不决，加上欧元区经济表现出乎意料地强劲，通胀面临上行风险，利率必须进一步上升。",
             source: "环球市场播报",
             date: "2026-08-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprcpy2278510.shtml"
-        },
-        {
-            title: "光大期货0826黄金点评：宏观情绪转暖，隔夜黄金窄幅震荡",
-            summary: "隔夜伦敦现货贵金属窄幅震荡，盘中触及4696.83美元，创5月中旬以来新高，收涨0.21%。 美伊停火谈判传出重大进展，油价大跌。短线黄金偏强震荡...",
-            source: "市场资讯",
-            date: "2026-08-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-26/doc-iniprcpz6276539.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprivu5554788.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-26",
-        marketAssessment: "A股方面：上证指数报3916.83点（+0.70%），深证成指报13911.29点（+1.20%），创业板指报3444.05点（+1.37%）。美股方面：标普500报7,677.28（-0.19%），纳斯达克报26,151.30（-0.53%）。",
+        marketAssessment: "A股方面：上证指数报3913.36点（+0.61%），深证成指报13840.61点（+0.69%），创业板指报3420.75点（+0.68%）。美股方面：标普500报7,677.28（-0.19%），纳斯达克报26,151.30（-0.53%）。",
         hotSectors: [
-            { name: "铜", reason: "板块涨幅+5.89%", strength: "强" },
-            { name: "白银", reason: "板块涨幅+4.61%", strength: "强" },
-            { name: "粘胶", reason: "板块涨幅+4.58%", strength: "强" },
-            { name: "期货", reason: "板块涨幅+4.57%", strength: "强" },
+            { name: "教育运营及其他", reason: "板块涨幅+7.00%", strength: "强" },
+            { name: "铜", reason: "板块涨幅+5.16%", strength: "强" },
+            { name: "粘胶", reason: "板块涨幅+4.07%", strength: "强" },
+            { name: "疫苗", reason: "板块涨幅+3.85%", strength: "强" },
         ],
         weakSectors: [
-            { name: "图片媒体", reason: "板块跌幅-2.97%", strength: "弱" },
-            { name: "其他养殖", reason: "板块跌幅-2.62%", strength: "弱" },
+            { name: "图片媒体", reason: "板块跌幅-3.80%", strength: "弱" },
+            { name: "其他数字媒体", reason: "板块跌幅-3.11%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注铜、白银、粘胶等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注教育运营及其他、铜、粘胶等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

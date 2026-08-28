@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3952.18", change: "-0.11%", market: "A股", updateTime: "2026-08-29 实时" },
         { name: "深证成指", code: "SZ399001", value: "13953.07", change: "-0.68%", market: "A股", updateTime: "2026-08-29 实时" },
         { name: "创业板指", code: "SZ399006", value: "3424.40", change: "-1.41%", market: "A股", updateTime: "2026-08-29 实时" },
@@ -669,7 +669,55 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+        {
+            title: "五角大楼与委内瑞拉大亨洽谈巨额石油交易 或引发法律争议",
+            summary: "知情人士称，美国政府寻求通过国防部与能源投资人Alejandro Betancourt潜在合作，取得委内瑞拉石油储量的重要权益。Betancourt的背景颇具争议...",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcc4135529.shtml"
+        },
+        {
+            title: "8月29日外盘头条：特朗普签署行政令设立“太空学院” 美联储沃什讲话后加息概率上升 贝森特为日元干预辩护",
+            summary: "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、特朗普签署行政令设立“太空学院” 旨在培养航天人才 2、美联储主席沃什讲话后加息概率上升...",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5687976.shtml"
+        },
+        {
+            title: "智利、阿根廷、玻利维亚、秘鲁签署关键矿产合作协议",
+            summary: " 智利、阿根廷、玻利维亚与秘鲁签署联合宣言，深化战略矿产领域合作。这几个资源富集国家希望将本地区打造为能源转型与人工智能领域可靠的矿产供应方。",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5686458.shtml"
+        },
+        {
+            title: "中期选举前夕 美议长计划于得州会见共和党大金主马斯克",
+            summary: " 据四名知情人士透露，众议院议长迈克・约翰逊计划周五在得克萨斯州会见共和党大额捐赠人埃隆・马斯克。正值中期选举前夕，约翰逊正在得克萨斯州为共和党候选人助选。",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5686093.shtml"
+        },
+        {
+            title: "微软高管安抚内部员工：数据中心具备正向社会价值",
+            summary: "微软正试图安抚内部员工，向其说明公司数据中心对社会具备积极作用。 一份微软开发部门主管诺埃尔・沃尔什本周发给全体员工的内部邮件显示，不少员工持续就能耗...",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5685682.shtml"
+        },
+        {
+            title: "大宗商品综述：油价录得周跌幅 铜价九周连涨 金价重挫",
+            summary: "油价录得周跌幅，尽管伊朗战争走向仍不明朗，但数百万桶原油持续通过霍尔木兹海峡运输抑制了价格涨势。在市场持续关注供应紧张之际，铜价连续第九周上涨。",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkci9639126.shtml"
+        },
         {
             title: "欧洲央行管委施纳贝尔：应将央行货币搬上区块链",
             summary: " 欧洲央行执委会成员伊莎贝尔·施纳贝尔表示，监管机构必须把央行货币部署至区块链，部分目的是改革货币政策的执行方式。",
@@ -685,54 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-08-29",
             tag: "宏观",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5684203.shtml"
-        },
-        {
-            title: "英伟达参投AI云厂商Lambda拟融资10亿美元私募短债，采购GPU供微软租赁",
-            summary: " 英伟达投资的AI云计算服务商Lambda公司，已筹集约10亿美元私募短期债务，资金用于采购算力芯片，服务其与微软的合作项目。",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5683984.shtml"
-        },
-        {
-            title: "美国防长拟再度召集美军高级军官集中训话",
-            summary: " 据美国官员透露，美国国防部长皮特・赫格塞斯正考虑今年再度邀请数百名高级军事官员前往匡蒂科海军陆战队基地发表讲话。",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcc8911042.shtml"
-        },
-        {
-            title: "美国谈判拟掌控委内瑞拉900亿桶原油 取得17块油田",
-            summary: "据三位了解谈判情况的人士透露，特朗普政府正在谈判，计划取得委内瑞拉大片油田的长期权益。该方案成本高昂，法律层面充满不确定性...",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5682692.shtml"
-        },
-        {
-            title: "特朗普签署行政令设立“太空学院” 旨在培养航天人才",
-            summary: " 美国计划筹建一所“太空学院”，为政府航天岗位培养专业人才，办学对标美国空军学院、海岸警卫队学院这类历史悠久的军事院校。",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcc4128033.shtml"
-        },
-        {
-            title: "伊朗总统：内部已就霍尔木兹海峡航线达成一致",
-            summary: "伊朗总统佩泽希齐扬在接受官方媒体ISNA录制采访时表示，德黑兰已经拟定一条穿越霍尔木兹海峡的建议航线，并获得了内部批准，但是否重新开放这条水道取决于美国履行四项承诺...",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcc8900056.shtml"
-        },
-        {
-            title: "8月29日美股收盘：三大股指齐跌但本周录得上涨 市场预期美联储9月加息概率上升",
-            summary: "北京时间8月29日凌晨，美股三大股指收盘下跌，受英伟达、英特尔等半导体个股拖累，纳斯达克综合指数下挫。美联储主席凯文·沃什对当前通胀走势表达了部分担忧，受此影响...",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcc4119262.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-08-29",
         marketAssessment: "A股方面：上证指数报3952.18点（-0.11%），深证成指报13953.07点（-0.68%），创业板指报3424.40点（-1.41%）。美股方面：标普500报7,711.76（+0.49%），纳斯达克报26,402.42（+0.85%）。",
         hotSectors: [
@@ -775,7 +775,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "种子", reason: "板块涨幅+4.53%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "疫苗", reason: "板块跌幅-3.94%", strength: "弱" },
+            { name: "医疗研发外包", reason: "板块跌幅-3.64%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
         shortTermStrategy: "超短线关注氮肥、房产租赁经纪、运动服装等板块的延续性，顺势操作，严格止损。",

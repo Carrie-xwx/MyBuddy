@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3912.52", change: "+0.59%", market: "A股", updateTime: "2026-08-27 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13841.33", change: "+0.69%", market: "A股", updateTime: "2026-08-27 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3414.88", change: "+0.51%", market: "A股", updateTime: "2026-08-27 实时" },
-        { name: "沪深300", code: "SH000300", value: "4590.79", change: "+0.85%", market: "A股", updateTime: "2026-08-27 实时" },
-        { name: "科创50", code: "SH000688", value: "1632.02", change: "+1.71%", market: "A股", updateTime: "2026-08-27 实时" },
-        { name: "标普500", code: "SPX", value: "7,666.11", change: "-0.54%", market: "美股", updateTime: "2026-08-27 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,055.52", change: "-1.05%", market: "美股", updateTime: "2026-08-27 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,430.72", change: "-0.06%", market: "美股", updateTime: "2026-08-27 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3959.47", change: "+0.07%", market: "A股", updateTime: "2026-08-28 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13997.40", change: "-0.37%", market: "A股", updateTime: "2026-08-28 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3439.48", change: "-0.98%", market: "A股", updateTime: "2026-08-28 实时" },
+        { name: "沪深300", code: "SH000300", value: "4618.66", change: "-0.25%", market: "A股", updateTime: "2026-08-28 实时" },
+        { name: "科创50", code: "SH000688", value: "1669.87", change: "-1.39%", market: "A股", updateTime: "2026-08-28 实时" },
+        { name: "标普500", code: "SPX", value: "7,730.99", change: "+1.18%", market: "美股", updateTime: "2026-08-28 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,541.35", change: "+1.82%", market: "美股", updateTime: "2026-08-28 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,569.44", change: "+1.54%", market: "美股", updateTime: "2026-08-28 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "耐克股价创12年新低",
-            summary: "服装品牌耐克（股票代码：NKE）周三午间交易价格跌至 12 年来的低位。 受特鲁伊斯特证券下调评级的影响，耐克股价下跌超 2%。该股当前价位上一次出现还要追溯至 2014 年 8...",
+            title: "马斯克称SpaceX营收到2033年有望达到3.5万亿美元",
+            summary: "SpaceX首席执行官埃隆·马斯克表示，这家商业航天公司到2033年营收可能超过3万亿美元。 一位用户在X平台上分享了摩根士丹利的一份投资者报告...",
             source: "环球市场播报",
-            date: "2026-08-27",
+            date: "2026-08-28",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-27/doc-inipsmim9143974.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwait4572902.shtml"
         },
         {
-            title: "欧洲债市：欧债追随美债下跌 交易员加大对欧洲央行加息的押注",
-            summary: "欧洲债券追随美国国债下跌，此前美国公布的PCE价格指数升幅符合预期，油价也收窄早些时候跌幅。 德国国债收益率上涨3个基点至3.23%。",
-            source: "环球市场播报",
-            date: "2026-08-27",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-27/doc-inipsmim5868707.shtml"
-        },
-        {
-            title: "进退两难：派拉蒙并购案延期，华纳兄弟‑探索身陷僵局",
-            summary: "核心要点一年多以来，华纳兄弟‑探索（WBD）的命运一直悬而未决：从最初计划分拆公司、再到一波三折的出售进程，直至如今被派拉蒙‑天舞并购的交割时间遭到推迟。",
-            source: "环球市场播报",
-            date: "2026-08-26",
+            title: "印尼工商会要求政府公开RKAB配额制定参数，2027年RKAB申请将于10月开放",
+            summary: "来源：Mysteel新能源 印尼工商会（Kadin）要求能源和矿产资源部（ESDM）公开2027年工作计划和预算（RKAB）中生产配额的制定公式。",
+            source: "市场资讯",
+            date: "2026-08-28",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim9126626.shtml"
+            url: "https://finance.sina.com.cn/money/future/2026-08-28/doc-inipwait4571976.shtml"
         },
         {
-            title: "杰克逊霍尔年会前夕：美元、债市高度紧绷，贝森特市场干预给沃什施加巨大压力",
-            summary: "核心要点全球经济决策者与专家本周齐聚怀俄明州杰克逊霍尔，参加堪萨斯城联邦储备银行举办的年度经济政策研讨会。美国银行将本次会议定义为金融市场的 “重大风险事件”。",
+            title: "黄金上涨空间仍在，央行购金需求成结构性支撑",
+            summary: " 2026年8月28日，亚洲时段午后，COMEX纽约黄金价格维持窄幅震荡，报4625.9美元/盎司。持仓股深中华A、莱绅通灵涨停，曼卡龙上涨7.08%，鹏欣资源，湖南黄金等个股跟涨。",
+            source: "界面新闻",
+            date: "2026-08-28",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-28/doc-inipwaiy0074130.shtml"
+        },
+        {
+            title: "韩国国民年金公团上半年投资回报率达27%",
+            summary: "韩国规模达1866万亿韩元的国民年金公团（NPS）公布，今年上半年收益率达27.2%，创下自2022年以来同期最佳表现。 随着韩国综合股价指数（KOSPI）在上半年创下历史新高...",
             source: "环球市场播报",
-            date: "2026-08-26",
+            date: "2026-08-28",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim9124102.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwaiy0069616.shtml"
         },
         {
-            title: "伊朗称美伊阿曼谈判霍尔木兹海峡协议，美国从中作梗",
-            summary: "核心要点伊朗革命卫队表示，伊朗与阿曼已经达成协议条款，保障霍尔木兹海峡安全通航。但这支强硬派武装称，美国在阻挠该协议落地；并表示，在美国接受伊朗条件之前...",
-            source: "环球市场播报",
-            date: "2026-08-26",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim5861106.shtml"
-        },
-        {
-            title: "油价脱离低位反弹：伊朗称已与阿曼就霍尔木兹海峡收益分成达成协议",
-            summary: "核心要点伊朗革命卫队表示，德黑兰方面已与阿曼达成协议，将共享霍尔木兹海峡产生的相关收益。革命卫队并未提及海峡通行费，但这份收益分成协议表明伊朗计划设置某种通行收...",
-            source: "环球市场播报",
-            date: "2026-08-26",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim5860008.shtml"
-        },
-        {
-            title: "伊朗与俄气公司探讨天然气行业合作",
-            summary: "伊朗官员与俄气公司代表周三在俄罗斯举行会晤，探讨天然气行业合作。 伊朗国家天然气公司（NIGC）首席执行官Saeed Tavakoli、伊朗驻俄罗斯大使Kazem...",
-            source: "环球市场播报",
-            date: "2026-08-26",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim9117777.shtml"
-        },
-        {
-            title: "医疗器械厂商波士顿科学遭遇网络攻击，股价下挫",
-            summary: "核心要点 波士顿科学在周三向美国证券交易委员会（SEC）提交的文件中披露，公司遭到网络攻击，业务运营受到影响。 此次攻击持续干扰公司产品发货能力...",
-            source: "环球市场播报",
-            date: "2026-08-26",
+            title: "机构：去美元化东风再起，到明年夏天金价5400美元",
+            summary: "文章来源：汇通财经 瑞银集团（UBS）大宗商品与外汇分析师的最新判断：黄金正受益于重新活跃起来的去美元化交易，而美国面临的重大财政挑战...",
+            source: "市场资讯",
+            date: "2026-08-28",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-inipsmim5858980.shtml"
+            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-28/doc-inipwait8915197.shtml"
+        },
+        {
+            title: "2026年丁二烯产业链：透视行业成本、供需与利润传导逻辑",
+            summary: "卓创资讯 【导语】丁二烯作为乙烯裂解的副产物，其价格传导逻辑主要受制于裂解装置成本波动、自身供需关系及产业链利润分配限制。",
+            source: "",
+            date: "2026-08-28",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/wm/2026-08-28/doc-inipwaiy0074545.shtml"
+        },
+        {
+            title: "亚马逊与瑞典四座风力发电场达成电力供应协议",
+            summary: " 亚马逊公司宣布签署了长期协议，从瑞典的四个风力发电场购买电力，以帮助满足其在北欧国家数据中心扩容期间的电力需求。",
+            source: "环球市场播报",
+            date: "2026-08-28",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipvwaa0194465.shtml"
+        },
+        {
+            title: "高盛：海湾地区石油出口已恢复至战前三分之二水平",
+            summary: "转自：财联社 财联社8月28日讯（编辑 刘蕊）尽管中东地区的地缘政治冲突仍远未解决，但该地区的石油出口已经较低谷大幅恢复。 据高盛周四估算...",
+            source: "市场资讯",
+            date: "2026-08-28",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-08-28/doc-inipvvzx5805090.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-27",
-        marketAssessment: "A股方面：上证指数报3912.52点（+0.59%），深证成指报13841.33点（+0.69%），创业板指报3414.88点（+0.51%）。美股方面：标普500报7,666.11（-0.54%），纳斯达克报26,055.52（-1.05%）。",
+                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-28",
+        marketAssessment: "A股方面：上证指数报3959.47点（+0.07%），深证成指报13997.40点（-0.37%），创业板指报3439.48点（-0.98%）。美股方面：标普500报7,730.99（+1.18%），纳斯达克报26,541.35（+1.82%）。",
         hotSectors: [
-
+            { name: "氮肥", reason: "板块涨幅+6.88%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+5.65%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+5.63%", strength: "强" },
+            { name: "运动服装", reason: "板块涨幅+5.45%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "疫苗", reason: "板块跌幅-3.48%", strength: "弱" },
+            { name: "医疗研发外包", reason: "板块跌幅-3.45%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注氮肥、房产租赁经纪、种子等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

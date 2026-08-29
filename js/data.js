@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3952.18", change: "-0.11%", market: "A股", updateTime: "2026-08-29 实时" },
         { name: "深证成指", code: "SZ399001", value: "13953.07", change: "-0.68%", market: "A股", updateTime: "2026-08-29 实时" },
         { name: "创业板指", code: "SZ399006", value: "3424.40", change: "-1.41%", market: "A股", updateTime: "2026-08-29 实时" },
@@ -665,11 +665,19 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
         { name: "科创50", code: "SH000688", value: "1662.15", change: "-1.85%", market: "A股", updateTime: "2026-08-29 实时" },
         { name: "标普500", code: "SPX", value: "7,711.76", change: "+0.49%", market: "美股", updateTime: "2026-08-29 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,402.42", change: "+0.85%", market: "美股", updateTime: "2026-08-29 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,559.99", change: "+0.53%", market: "美股", updateTime: "2026-08-29 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,560.00", change: "+0.53%", market: "美股", updateTime: "2026-08-29 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+        {
+            title: "沃什对通胀展现强硬立场 美联储9月会议或迎关键一役",
+            summary: "美联储主席凯文·沃什就通胀问题发出强硬信号，使得9月政策会议成为该行控制价格压力使命面临的一个关键时刻。 沃什在杰克逊霍尔的首秀中警告...",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipyrwr5515369.shtml"
+        },
         {
             title: "土耳其市场监管机构出台对冲基金新规",
             summary: "土耳其资本市场委员会发布投资基金更新指引，其中包含针对对冲基金的一套全新监管规则。 对冲基金对单一发行人流通股的投资上限，将根据发行人流通股占比设定...",
@@ -726,14 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "行业",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxusz5609695.shtml"
         },
-        {
-            title: "美官员：美国将掌控美委合资石油企业55%的实际产量",
-            summary: " 美国将取得委内瑞拉巨量石油财富的多数控制权。官员称，这项史无前例的操作将诞生按储量计全球第二大私营石油公司，保障美国未来数十年的石油供应。",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-29/doc-inipxusz5581639.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,20 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-08-29",
         marketAssessment: "A股方面：上证指数报3952.18点（-0.11%），深证成指报13953.07点（-0.68%），创业板指报3424.40点（-1.41%）。美股方面：标普500报7,711.76（+0.49%），纳斯达克报26,402.42（+0.85%）。",
         hotSectors: [
-            { name: "氮肥", reason: "板块涨幅+7.33%", strength: "强" },
-            { name: "房产租赁经纪", reason: "板块涨幅+5.44%", strength: "强" },
-            { name: "运动服装", reason: "板块涨幅+5.12%", strength: "强" },
-            { name: "种子", reason: "板块涨幅+4.53%", strength: "强" },
+
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注氮肥、房产租赁经纪、运动服装等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3952.18", change: "-0.11%", market: "A股", updateTime: "2026-08-29 实时" },
         { name: "深证成指", code: "SZ399001", value: "13953.07", change: "-0.68%", market: "A股", updateTime: "2026-08-29 实时" },
         { name: "创业板指", code: "SZ399006", value: "3424.40", change: "-1.41%", market: "A股", updateTime: "2026-08-29 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "五角大楼与委内瑞拉大亨洽谈巨额石油交易 或引发法律争议",
-            summary: "知情人士称，美国政府寻求通过国防部与能源投资人Alejandro Betancourt潜在合作，取得委内瑞拉石油储量的重要权益。Betancourt的背景颇具争议...",
+            title: "“先买后付”巨头Affirm CEO：高油价正冲击美国消费者",
+            summary: " 先买后付服务商Affirm公布第四财季财报后，该股周五收盘几乎持平。公司首席执行官马克斯·列夫钦表示，高油价正在对消费者造成压力。",
             source: "环球市场播报",
             date: "2026-08-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcc4135529.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxusx3916202.shtml"
         },
         {
-            title: "8月29日外盘头条：特朗普签署行政令设立“太空学院” 美联储沃什讲话后加息概率上升 贝森特为日元干预辩护",
-            summary: "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、特朗普签署行政令设立“太空学院” 旨在培养航天人才 2、美联储主席沃什讲话后加息概率上升...",
+            title: "印度银行股出现数十年来最大跨交易所价差",
+            summary: "部分印度银行股周四在国内两大交易所收盘价格大幅分化，这是新收盘集合竞价制度引发市场错乱的又一信号。 20分钟集合竞价结束后，印都安银行在印度国家证券交易所收报1002...",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-29/doc-inipxusz5508482.shtml"
+        },
+        {
+            title: "谷歌隐私诉讼案产生高达1.47亿美元律师费",
+            summary: " 加州联邦法院周五裁定，去年在一桩重大隐私集体诉讼庭审中胜诉谷歌有限责任公司的三家律所，将获得1.467亿美元作为案件代理费。",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxusz5504705.shtml"
+        },
+        {
+            title: "特朗普：美国掌握了委内瑞拉650亿桶石油储量中的多数控制权",
+            summary: "美国总统唐纳德·特朗普周五表示，已和委内瑞拉达成协议，该国同意将石油储量中的多数控制权交给华盛顿。 “遵照我的指示，国务卿马尔科·鲁比奥及战争部长皮特·海格塞斯与备...",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-29/doc-inipxqmf9539711.shtml"
+        },
+        {
+            title: "全文赏析：美联储主席沃什周五在杰克逊霍尔年会上的的演讲",
+            summary: " 以下是经重新排版的美联储主席凯文·沃什周五在怀俄明州杰克逊霍尔演讲全文。讲话稿事先拟定，题为《金融创新：对支付与政策的影响》：",
             source: "环球市场播报",
             date: "2026-08-29",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5687976.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxqmc5608018.shtml"
         },
         {
-            title: "智利、阿根廷、玻利维亚、秘鲁签署关键矿产合作协议",
-            summary: " 智利、阿根廷、玻利维亚与秘鲁签署联合宣言，深化战略矿产领域合作。这几个资源富集国家希望将本地区打造为能源转型与人工智能领域可靠的矿产供应方。",
+            title: "聚焦杰克逊霍尔：沃什鹰气十足 市场反应剧烈 9月加息押注飙升",
+            summary: "堪萨斯城联邦储备银行8月27-29日在怀俄明州杰克逊霍尔举行第49届年度经济政策研讨会，今年的主题是“金融创新：对支付和政策的影响”。",
             source: "环球市场播报",
             date: "2026-08-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5686458.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxqmc5607000.shtml"
         },
         {
-            title: "中期选举前夕 美议长计划于得州会见共和党大金主马斯克",
-            summary: " 据四名知情人士透露，众议院议长迈克・约翰逊计划周五在得克萨斯州会见共和党大额捐赠人埃隆・马斯克。正值中期选举前夕，约翰逊正在得克萨斯州为共和党候选人助选。",
+            title: "8月29日热门中概股涨跌不一，阿里巴巴涨2.23%，台积电跌2.29%",
+            summary: "8月29日热门中概股涨跌不一，纳斯达克中国金龙指数（HXC）收涨0.44%。 上涨个股（按市值从高到低）：阿里巴巴涨2.23%，拼多多涨1.18%，网易涨0.06%，联电涨3.78%，京东涨0...",
             source: "环球市场播报",
             date: "2026-08-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5686093.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxqkz8829950.shtml"
         },
         {
-            title: "微软高管安抚内部员工：数据中心具备正向社会价值",
-            summary: "微软正试图安抚内部员工，向其说明公司数据中心对社会具备积极作用。 一份微软开发部门主管诺埃尔・沃尔什本周发给全体员工的内部邮件显示，不少员工持续就能耗...",
+            title: "特朗普：美国与委内瑞拉达成史上规模最大的石油协议",
+            summary: "特朗普发文称：“美利坚合众国刚刚与委内瑞拉达成协议，这是世界历史上规模最大的石油交易！ 在我的指示下，国务卿马可・鲁比奥、国防部长皮特・赫格塞思...",
             source: "环球市场播报",
             date: "2026-08-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5685682.shtml"
-        },
-        {
-            title: "大宗商品综述：油价录得周跌幅 铜价九周连涨 金价重挫",
-            summary: "油价录得周跌幅，尽管伊朗战争走向仍不明朗，但数百万桶原油持续通过霍尔木兹海峡运输抑制了价格涨势。在市场持续关注供应紧张之际，铜价连续第九周上涨。",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkci9639126.shtml"
-        },
-        {
-            title: "欧洲央行管委施纳贝尔：应将央行货币搬上区块链",
-            summary: " 欧洲央行执委会成员伊莎贝尔·施纳贝尔表示，监管机构必须把央行货币部署至区块链，部分目的是改革货币政策的执行方式。",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcc8911999.shtml"
-        },
-        {
-            title: "美参议院民主党领袖：特朗普对伊朗战争是彻头彻尾的失败",
-            summary: " 美国参议院民主党领袖查克·舒默周五表示，特朗普总统发动的伊朗战争历时六个月，除消耗美国武器库存、削弱本国军事地位外一无所获。",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxkcf5684203.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxqmf9530640.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-08-29",
         marketAssessment: "A股方面：上证指数报3952.18点（-0.11%），深证成指报13953.07点（-0.68%），创业板指报3424.40点（-1.41%）。美股方面：标普500报7,711.76（+0.49%），纳斯达克报26,402.42（+0.85%）。",
         hotSectors: [
-            { name: "氮肥", reason: "板块涨幅+7.33%", strength: "强" },
-            { name: "房产租赁经纪", reason: "板块涨幅+5.44%", strength: "强" },
-            { name: "运动服装", reason: "板块涨幅+5.12%", strength: "强" },
-            { name: "种子", reason: "板块涨幅+4.53%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "疫苗", reason: "板块跌幅-3.94%", strength: "弱" },
-            { name: "医疗研发外包", reason: "板块跌幅-3.64%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注氮肥、房产租赁经纪、运动服装等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

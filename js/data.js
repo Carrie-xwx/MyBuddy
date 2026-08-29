@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3952.18", change: "-0.11%", market: "A股", updateTime: "2026-08-29 实时" },
         { name: "深证成指", code: "SZ399001", value: "13953.07", change: "-0.68%", market: "A股", updateTime: "2026-08-29 实时" },
         { name: "创业板指", code: "SZ399006", value: "3424.40", change: "-1.41%", market: "A股", updateTime: "2026-08-29 实时" },
@@ -669,7 +669,63 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+        {
+            title: "Radiant World指控嘉能可造成其14亿美元损失",
+            summary: " 深陷困境的铁矿石贸易商Radiant World正威胁对嘉能可（Glencore）采取法律行动。在双方大范围纠纷中，Radiant World指控这家规模更大的竞争对手造成其超过14亿美元损失。",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxyyv8829410.shtml"
+        },
+        {
+            title: "空客拟出售美国航天业务 转向欧洲制造卫星",
+            summary: "空客正探索出售旗下美国航天业务，同时计划通过三方合并，打造一家泛欧洲卫星龙头企业。 知情人士透露，空客正在评估潜在收购方对其美国航天业务的收购意向。",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxyyv8821208.shtml"
+        },
+        {
+            title: "上半年全国新设外商投资企业3.5万户，同比增长7.0%",
+            summary: "市场监管总局今天（29日）公布数据显示，上半年，全国新设外商投资企业3.5万户，同比增长7.0%。 从投资区域看，出口大省、沿边省份外商投资企业增长“双轮驱动”。",
+            source: "澎湃新闻",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-29/doc-inipxyyv8817221.shtml"
+        },
+        {
+            title: "曾向特朗普豪掷政治献金的美企高管，如今担忧即将收到国会传票",
+            summary: " 据报道，部分与特朗普联系紧密的美国企业正采取行动博取民主党好感，它们担心一旦共和党丢掉众议院控制权，自身会成为打击对象。",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxyyv8751429.shtml"
+        },
+        {
+            title: "特朗普提词器操作员支付17万美元了结内幕交易调查",
+            summary: " 一名白宫提词器操作员将支付逾17.2万美元，了结联邦监管机构针对他的调查，其涉嫌精准择时，在预测市场押注特朗普总统的演讲内容。",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-29/doc-inipxusz5611130.shtml"
+        },
+        {
+            title: "OpenAI：因Cursor被SpaceX收购，将终止与其合作",
+            summary: " Open宣布，因Cursor被SpaceX收购，将终止与其的合作关系。根据我们的提议，Cursor对我们模型的直接访问将于11月12日结束。",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxusz5609695.shtml"
+        },
+        {
+            title: "美官员：美国将掌控美委合资石油企业55%的实际产量",
+            summary: " 美国将取得委内瑞拉巨量石油财富的多数控制权。官员称，这项史无前例的操作将诞生按储量计全球第二大私营石油公司，保障美国未来数十年的石油供应。",
+            source: "环球市场播报",
+            date: "2026-08-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-29/doc-inipxusz5581639.shtml"
+        },
         {
             title: "“先买后付”巨头Affirm CEO：高油价正冲击美国消费者",
             summary: " 先买后付服务商Affirm公布第四财季财报后，该股周五收盘几乎持平。公司首席执行官马克斯·列夫钦表示，高油价正在对消费者造成压力。",
@@ -677,62 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-08-29",
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxusx3916202.shtml"
-        },
-        {
-            title: "印度银行股出现数十年来最大跨交易所价差",
-            summary: "部分印度银行股周四在国内两大交易所收盘价格大幅分化，这是新收盘集合竞价制度引发市场错乱的又一信号。 20分钟集合竞价结束后，印都安银行在印度国家证券交易所收报1002...",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-29/doc-inipxusz5508482.shtml"
-        },
-        {
-            title: "谷歌隐私诉讼案产生高达1.47亿美元律师费",
-            summary: " 加州联邦法院周五裁定，去年在一桩重大隐私集体诉讼庭审中胜诉谷歌有限责任公司的三家律所，将获得1.467亿美元作为案件代理费。",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxusz5504705.shtml"
-        },
-        {
-            title: "特朗普：美国掌握了委内瑞拉650亿桶石油储量中的多数控制权",
-            summary: "美国总统唐纳德·特朗普周五表示，已和委内瑞拉达成协议，该国同意将石油储量中的多数控制权交给华盛顿。 “遵照我的指示，国务卿马尔科·鲁比奥及战争部长皮特·海格塞斯与备...",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-29/doc-inipxqmf9539711.shtml"
-        },
-        {
-            title: "全文赏析：美联储主席沃什周五在杰克逊霍尔年会上的的演讲",
-            summary: " 以下是经重新排版的美联储主席凯文·沃什周五在怀俄明州杰克逊霍尔演讲全文。讲话稿事先拟定，题为《金融创新：对支付与政策的影响》：",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxqmc5608018.shtml"
-        },
-        {
-            title: "聚焦杰克逊霍尔：沃什鹰气十足 市场反应剧烈 9月加息押注飙升",
-            summary: "堪萨斯城联邦储备银行8月27-29日在怀俄明州杰克逊霍尔举行第49届年度经济政策研讨会，今年的主题是“金融创新：对支付和政策的影响”。",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxqmc5607000.shtml"
-        },
-        {
-            title: "8月29日热门中概股涨跌不一，阿里巴巴涨2.23%，台积电跌2.29%",
-            summary: "8月29日热门中概股涨跌不一，纳斯达克中国金龙指数（HXC）收涨0.44%。 上涨个股（按市值从高到低）：阿里巴巴涨2.23%，拼多多涨1.18%，网易涨0.06%，联电涨3.78%，京东涨0...",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxqkz8829950.shtml"
-        },
-        {
-            title: "特朗普：美国与委内瑞拉达成史上规模最大的石油协议",
-            summary: "特朗普发文称：“美利坚合众国刚刚与委内瑞拉达成协议，这是世界历史上规模最大的石油交易！ 在我的指示下，国务卿马可・鲁比奥、国防部长皮特・赫格塞思...",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxqmf9530640.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-29",
         marketAssessment: "A股方面：上证指数报3952.18点（-0.11%），深证成指报13953.07点（-0.68%），创业板指报3424.40点（-1.41%）。美股方面：标普500报7,711.76（+0.49%），纳斯达克报26,402.42（+0.85%）。",
         hotSectors: [

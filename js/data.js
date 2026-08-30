@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3952.18", change: "-0.11%", market: "A股", updateTime: "2026-08-30 实时" },
         { name: "深证成指", code: "SZ399001", value: "13953.07", change: "-0.68%", market: "A股", updateTime: "2026-08-30 实时" },
         { name: "创业板指", code: "SZ399006", value: "3424.40", change: "-1.41%", market: "A股", updateTime: "2026-08-30 实时" },
@@ -669,7 +669,47 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+        {
+            title: "8天7跌停，A股一公司9月1日起停牌",
+            summary: "8月30日，*ST萃华（002731.SZ）公告称，公司原定于2026年8月22日披露2026年半年度报告，因公司2025年年度报告涉及的收入、存货等重要事项需要进一步核实补充及聘请审计机构...",
+            source: "21世纪经济报道",
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/wm/2026-08-30/doc-iniqcfmm4871622.shtml"
+        },
+        {
+            title: "化工蓄势待发！厄尔尼诺扰动粮食供给，农化需求有望爆发！AI投资进入半场休整，关注这两大主线！",
+            summary: " 周五（8月28日）市场盘整，A股主要指数悉数收绿，沪指震荡整理，创业板指走势较弱。沪深京三市成交额超过2.1万亿元，较昨日小幅缩量。",
+            source: "新浪基金",
+            date: "2026-08-30",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/money/fund/etf/2026-08-30/doc-iniqazcm2641404.shtml"
+        },
+        {
+            title: "晶升股份公告！终止重大资产重组",
+            summary: "来源：资本秘闻 A股又一例重大资产重组宣告终止。 8月30日晚间，晶升股份披露公告称，公司终止发行股份及支付现金购买资产并募集配套资金暨关联交易事项。",
+            source: "市场资讯",
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-08-30/doc-iniqazcm2634015.shtml"
+        },
+        {
+            title: "SpaceX筹建涡轮叶片工厂，意在破解数据中心“电荒”难题",
+            summary: "SpaceX首席执行官埃隆·马斯克（Elon Musk）正计划以一种外界曾认为“不可能”的方式，绕过AI数据中心的传统电力供应链——亲自下场制造高度复杂的核心零部件。",
+            source: "环球市场播报",
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-iniqauvp2741032.shtml"
+        },
+        {
+            title: "“终于有希望提速了！” 电动自行车限速拟提至20km/h，九号、雅迪、小牛等回应",
+            summary: "文|《BUG》栏目陈思竹 “终于有希望提速了。” 近日，道路交通安全法修订草案提请十四届全国人大常委会初次审议，其中拟将电动自行车在非机动车道内的最高时速...",
+            source: "BUG",
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tob/2026-08-30/doc-iniqauvr4982907.shtml"
+        },
         {
             title: "月薪1万到手仅5千？ 浪潮云强制推行“五五开”绩效，“利润差”凭什么让打工人买单？",
             summary: "文 丨 《BUG》栏目 周文猛 一部分浪潮云员工的薪资收入，正因公司最新推出的“月度考核新政”面临大幅缩水。 近日，多位浪潮云员工爆料...",
@@ -693,46 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-08-30",
             tag: "美股",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-iniqaqpr2811976.shtml"
-        },
-        {
-            title: "Iren获24亿美元债务融资采购英伟达芯片，用于加拿大数据中心园区扩建",
-            summary: "蓝猫头鹰资本管理旗下的基金于周五（8月28日）宣布，牵头为澳大利亚上市公司Iren安排24亿美元计算设备融资，资金将用于采购英伟达风冷加速计算设备（含Blackwell...",
-            source: "环球市场播报",
-            date: "2026-08-30",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-iniqaqpv8315649.shtml"
-        },
-        {
-            title: "Lambda获约10亿美元短期私募债购买英伟达芯片租给微软",
-            summary: "人工智能云基础设施提供商Lambda于周五（8月28日）前后获得约10亿美元短期私募债务，资金将用于采购英伟达图形处理器，并将算力租赁给微软。",
-            source: "环球市场播报",
-            date: "2026-08-30",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-iniqaqpt5036043.shtml"
-        },
-        {
-            title: "芝加哥联储主席古尔斯比：通胀是当前首要问题",
-            summary: "芝加哥联邦储备银行行长奥斯坦·古尔斯比周五（8月28日）在怀俄明州杰克逊霍尔年会现场接受采访时表示，他认同美联储主席凯文·沃什对当前经济细节的评估...",
-            source: "环球市场播报",
-            date: "2026-08-30",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-iniqaqpv8314043.shtml"
-        },
-        {
-            title: "沃什讲话施压金价回落，九月加息概率显著上修",
-            summary: "美联储主席凯文·沃什8月28日在杰克逊霍尔发表演讲后，黄金价格自讲话前高位明显回落。尽管不同报价源记录的盘中低点和收盘价略有差异...",
-            source: "环球市场播报",
-            date: "2026-08-30",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-iniqaqpr8253072.shtml"
-        },
-        {
-            title: "沃什杰克逊霍尔演讲：将人工智能列为货币政策新变量",
-            summary: "美联储主席凯文·沃什8月28日在杰克逊霍尔全球央行年会上发表任内首场主旨演讲，题为《In Our Time》。他将人工智能作为开篇议题，称当前正处于“历史铰链点”...",
-            source: "环球市场播报",
-            date: "2026-08-30",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-iniqaqpv8308156.shtml"
         },
     ],
 
@@ -765,17 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-08-30",
         marketAssessment: "A股方面：上证指数报3952.18点（-0.11%），深证成指报13953.07点（-0.68%），创业板指报3424.40点（-1.41%）。美股方面：标普500报7,711.76（+0.49%），纳斯达克报26,402.42（+0.85%）。",
         hotSectors: [
-
+            { name: "氮肥", reason: "板块涨幅+7.33%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+5.44%", strength: "强" },
+            { name: "运动服装", reason: "板块涨幅+5.12%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+4.53%", strength: "强" },
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注氮肥、房产租赁经纪、运动服装等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

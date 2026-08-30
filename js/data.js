@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3952.18", change: "-0.11%", market: "A股", updateTime: "2026-08-29 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13953.07", change: "-0.68%", market: "A股", updateTime: "2026-08-29 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3424.40", change: "-1.41%", market: "A股", updateTime: "2026-08-29 实时" },
-        { name: "沪深300", code: "SH000300", value: "4609.18", change: "-0.46%", market: "A股", updateTime: "2026-08-29 实时" },
-        { name: "科创50", code: "SH000688", value: "1662.15", change: "-1.85%", market: "A股", updateTime: "2026-08-29 实时" },
-        { name: "标普500", code: "SPX", value: "7,711.76", change: "+0.49%", market: "美股", updateTime: "2026-08-29 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,402.42", change: "+0.85%", market: "美股", updateTime: "2026-08-29 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,560.00", change: "+0.53%", market: "美股", updateTime: "2026-08-29 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3952.18", change: "-0.11%", market: "A股", updateTime: "2026-08-30 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13953.07", change: "-0.68%", market: "A股", updateTime: "2026-08-30 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3424.40", change: "-1.41%", market: "A股", updateTime: "2026-08-30 实时" },
+        { name: "沪深300", code: "SH000300", value: "4609.18", change: "-0.46%", market: "A股", updateTime: "2026-08-30 实时" },
+        { name: "科创50", code: "SH000688", value: "1662.15", change: "-1.85%", market: "A股", updateTime: "2026-08-30 实时" },
+        { name: "标普500", code: "SPX", value: "7,711.76", change: "+0.49%", market: "美股", updateTime: "2026-08-30 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,402.42", change: "+0.85%", market: "美股", updateTime: "2026-08-30 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,559.99", change: "+0.53%", market: "美股", updateTime: "2026-08-30 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "沃什对通胀展现强硬立场 美联储9月会议或迎关键一役",
-            summary: "美联储主席凯文·沃什就通胀问题发出强硬信号，使得9月政策会议成为该行控制价格压力使命面临的一个关键时刻。 沃什在杰克逊霍尔的首秀中警告...",
-            source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipyrwr5515369.shtml"
-        },
-        {
-            title: "土耳其市场监管机构出台对冲基金新规",
-            summary: "土耳其资本市场委员会发布投资基金更新指引，其中包含针对对冲基金的一套全新监管规则。 对冲基金对单一发行人流通股的投资上限，将根据发行人流通股占比设定...",
-            source: "环球市场播报",
-            date: "2026-08-29",
+            title: "这5家A股公司，上周获超200家机构调研！",
+            summary: "随着2026年半年报集中披露，机构扎堆调研现象明显。 上周（8月24日—28日）共有536家A股上市公司接受机构投资者调研，从赚钱效应来看，超六成机构调研公司上周实现正收益...",
+            source: "e公司",
+            date: "2026-08-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-29/doc-inipyfht3781275.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-08-30/doc-inipzxsc8568722.shtml"
         },
         {
-            title: "Radiant World指控嘉能可造成其14亿美元损失",
-            summary: " 深陷困境的铁矿石贸易商Radiant World正威胁对嘉能可（Glencore）采取法律行动。在双方大范围纠纷中，Radiant World指控这家规模更大的竞争对手造成其超过14亿美元损失。",
-            source: "环球市场播报",
-            date: "2026-08-29",
+            title: "霍尔木兹海峡，有新消息",
+            summary: " 伊朗外交部副部长加里巴巴迪29日表示，霍尔木兹海峡目前完全关闭。任何船只如通过该海峡，均需要经过伊朗的协调和许可。",
+            source: "央视",
+            date: "2026-08-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxyyv8829410.shtml"
+            url: "https://finance.sina.com.cn/world/2026-08-30/doc-inipzxrx8371543.shtml"
         },
         {
-            title: "空客拟出售美国航天业务 转向欧洲制造卫星",
-            summary: "空客正探索出售旗下美国航天业务，同时计划通过三方合并，打造一家泛欧洲卫星龙头企业。 知情人士透露，空客正在评估潜在收购方对其美国航天业务的收购意向。",
-            source: "环球市场播报",
-            date: "2026-08-29",
+            title: "上半年扎堆这些赛道！券商抱团背后的“阳谋”与“陷阱”？",
+            summary: "华夏时报记者 王兆寰 北京报道 二季度末券商自营重仓股数据 2026年上市公司半年报披露接近尾声，券商自营最新持仓图谱浮出水面。",
+            source: "市场资讯",
+            date: "2026-08-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxyyv8821208.shtml"
+            url: "https://finance.sina.com.cn/stock/2026-08-30/doc-inipzxrx3067780.shtml"
         },
         {
-            title: "上半年全国新设外商投资企业3.5万户，同比增长7.0%",
-            summary: "市场监管总局今天（29日）公布数据显示，上半年，全国新设外商投资企业3.5万户，同比增长7.0%。 从投资区域看，出口大省、沿边省份外商投资企业增长“双轮驱动”。",
-            source: "澎湃新闻",
-            date: "2026-08-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-29/doc-inipxyyv8817221.shtml"
-        },
-        {
-            title: "曾向特朗普豪掷政治献金的美企高管，如今担忧即将收到国会传票",
-            summary: " 据报道，部分与特朗普联系紧密的美国企业正采取行动博取民主党好感，它们担心一旦共和党丢掉众议院控制权，自身会成为打击对象。",
+            title: "据消息人士透露，美国中央情报局局长在访问莫斯科期间，试探性提议举行特朗普‑普京‑泽连斯基三方峰会",
+            summary: "据两名了解内情的消息人士透露，美国中央情报局局长约翰・拉特克利夫本周早些时候秘密出访莫斯科，为推动结束俄乌战争，提议举行特朗普总统...",
             source: "环球市场播报",
-            date: "2026-08-29",
+            date: "2026-08-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxyyv8751429.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-inipzxrx3054427.shtml"
         },
         {
-            title: "特朗普提词器操作员支付17万美元了结内幕交易调查",
-            summary: " 一名白宫提词器操作员将支付逾17.2万美元，了结联邦监管机构针对他的调查，其涉嫌精准择时，在预测市场押注特朗普总统的演讲内容。",
-            source: "环球市场播报",
-            date: "2026-08-29",
+            title: "集齐CPO、人形机器人、汽车电子等热门题材，002475，这只龙头股火了（附名单）",
+            summary: "近一周机构调研个股有540多只，立讯精密调研机构数最多。 立讯精密（002475）有268家机构调研，包括60家基金公司、46家证券公司、65家私募等。",
+            source: "证券时报",
+            date: "2026-08-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-29/doc-inipxusz5611130.shtml"
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-08-30/doc-inipzxrx8348347.shtml"
         },
         {
-            title: "OpenAI：因Cursor被SpaceX收购，将终止与其合作",
-            summary: " Open宣布，因Cursor被SpaceX收购，将终止与其的合作关系。根据我们的提议，Cursor对我们模型的直接访问将于11月12日结束。",
+            title: "特朗普的委内瑞拉石油交易依赖一位实力雄厚但颇具争议的合作方",
+            summary: " 特朗普政府这项用于开发委内瑞拉庞大石油资源的协议十分特殊，美国政府将与一位影响力巨大、同时极具争议的委内瑞拉商人展开合作。",
             source: "环球市场播报",
-            date: "2026-08-29",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-29/doc-inipxusz5609695.shtml"
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-inipzxrx8344358.shtml"
+        },
+        {
+            title: "交通运输部回应“建议取消ETC”",
+            summary: "转自：长安街知事‍ 据交通运输部网站8月24日消息，近日，有网友就高速公路电子收费系统（简称“ETC”）相关问题在交通运输部官网提问，交通运输部公路局进行了回答。",
+            source: "长安街知事",
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/wm/2026-08-30/doc-inipzxsc8551834.shtml"
+        },
+        {
+            title: "伊朗副外长：未经协调任何船只无法通过霍尔木兹海峡",
+            summary: " 伊朗外交部副部长加里巴巴迪29日表示，霍尔木兹海峡目前完全关闭。任何船只如通过该海峡，均需要经过伊朗的协调和许可。",
+            source: "央视",
+            date: "2026-08-30",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/jjxw/2026-08-30/doc-inipztiz8426675.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-29",
+                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-08-30",
         marketAssessment: "A股方面：上证指数报3952.18点（-0.11%），深证成指报13953.07点（-0.68%），创业板指报3424.40点（-1.41%）。美股方面：标普500报7,711.76（+0.49%），纳斯达克报26,402.42（+0.85%）。",
         hotSectors: [
-
+            { name: "氮肥", reason: "板块涨幅+7.33%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+5.44%", strength: "强" },
+            { name: "运动服装", reason: "板块涨幅+5.12%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+4.53%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "疫苗", reason: "板块跌幅-3.94%", strength: "弱" },
+            { name: "医疗研发外包", reason: "板块跌幅-3.64%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注氮肥、房产租赁经纪、运动服装等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

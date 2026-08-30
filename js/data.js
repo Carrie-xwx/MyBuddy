@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3952.18", change: "-0.11%", market: "A股", updateTime: "2026-08-30 实时" },
         { name: "深证成指", code: "SZ399001", value: "13953.07", change: "-0.68%", market: "A股", updateTime: "2026-08-30 实时" },
         { name: "创业板指", code: "SZ399006", value: "3424.40", change: "-1.41%", market: "A股", updateTime: "2026-08-30 实时" },
@@ -669,7 +669,63 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+        {
+            title: "*ST广糖，打响“保壳”第一枪",
+            summary: "在被实施退市风险警示四个月后，*ST广糖打响“保壳”的第一枪。 8月29日，*ST广糖发布公告称，公司正在筹划重大资产重组暨关联交易。",
+            source: "上海证券报",
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/2026-08-30/doc-iniqakft2893131.shtml"
+        },
+        {
+            title: "投资12亿元！又一家A股公司，加码智能机器人！",
+            summary: "中坚科技拟投资12亿元建设智能机器人产业化项目。 中坚科技（002779）日前公告，公司及控股子公司上海桦之坚科技有限公司（简称“上海桦之坚”）...",
+            source: "e公司",
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/2026-08-30/doc-iniqakfv5056766.shtml"
+        },
+        {
+            title: "两大超级赛道，爆单！",
+            summary: "AI算力需求自上而下传导至芯片产业链及上游铜材环节。 据央视财经报道，前7个月我国集成电路出口额超去年全年，同比大增99.5%，存储芯片成最大拉动力...",
+            source: "证券时报",
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/2026-08-30/doc-iniqakft2880120.shtml"
+        },
+        {
+            title: "2000亿巨头，半年暴赚超52亿",
+            summary: "（来源：21记者 21世纪经济报道） 记者丨张赛男 编辑丨郑世凤，江佩霞，张明艳 8月28日晚间，2000亿市值面板巨头京东方A（000725.SZ）发布2026年半年度报告...",
+            source: "21世纪经济报道",
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/wm/2026-08-30/doc-iniqacxz8498367.shtml"
+        },
+        {
+            title: "中选之后，“特朗普交易”要反噬了？",
+            summary: "来源：华尔街见闻 过去一年，跟随特朗普政府入股上市公司的投资者赚得盆满钵满。但随着中期选举临近、民主党有望夺回国会至少一院...",
+            source: "市场资讯",
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-08-30/doc-iniqacxv8309576.shtml"
+        },
+        {
+            title: "重大资产重组！半导体龙头，突发公告！下周一停牌",
+            summary: "来源：券商中国 A股并购重组市场再添新案例。 昨日晚间（8月28日），A股半导体硅材料龙头有研硅公告，拟收购山东有研艾斯、山东有研半导体股权，预计构成重大资产重组。",
+            source: "券商中国",
+            date: "2026-08-30",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/roll/2026-08-30/doc-iniqacxv2956905.shtml"
+        },
+        {
+            title: "阳光电源回应美国业务！",
+            summary: "阳光电源8月28日在机构电话交流时表示，FCC（美国联邦通信委员会）禁令目前来看是针对未来新产品新型号，美国市场的光伏、储能产品迭代相对较慢，只要政策不变...",
+            source: "",
+            date: "2026-08-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-08-30/doc-inipzxrx3064337.shtml"
+        },
         {
             title: "这5家A股公司，上周获超200家机构调研！",
             summary: "随着2026年半年报集中披露，机构扎堆调研现象明显。 上周（8月24日—28日）共有536家A股上市公司接受机构投资者调研，从赚钱效应来看，超六成机构调研公司上周实现正收益...",
@@ -677,62 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-08-30",
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/s/2026-08-30/doc-inipzxsc8568722.shtml"
-        },
-        {
-            title: "霍尔木兹海峡，有新消息",
-            summary: " 伊朗外交部副部长加里巴巴迪29日表示，霍尔木兹海峡目前完全关闭。任何船只如通过该海峡，均需要经过伊朗的协调和许可。",
-            source: "央视",
-            date: "2026-08-30",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-30/doc-inipzxrx8371543.shtml"
-        },
-        {
-            title: "上半年扎堆这些赛道！券商抱团背后的“阳谋”与“陷阱”？",
-            summary: "华夏时报记者 王兆寰 北京报道 二季度末券商自营重仓股数据 2026年上市公司半年报披露接近尾声，券商自营最新持仓图谱浮出水面。",
-            source: "市场资讯",
-            date: "2026-08-30",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/2026-08-30/doc-inipzxrx3067780.shtml"
-        },
-        {
-            title: "据消息人士透露，美国中央情报局局长在访问莫斯科期间，试探性提议举行特朗普‑普京‑泽连斯基三方峰会",
-            summary: "据两名了解内情的消息人士透露，美国中央情报局局长约翰・拉特克利夫本周早些时候秘密出访莫斯科，为推动结束俄乌战争，提议举行特朗普总统...",
-            source: "环球市场播报",
-            date: "2026-08-30",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-inipzxrx3054427.shtml"
-        },
-        {
-            title: "集齐CPO、人形机器人、汽车电子等热门题材，002475，这只龙头股火了（附名单）",
-            summary: "近一周机构调研个股有540多只，立讯精密调研机构数最多。 立讯精密（002475）有268家机构调研，包括60家基金公司、46家证券公司、65家私募等。",
-            source: "证券时报",
-            date: "2026-08-30",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/zqgd/2026-08-30/doc-inipzxrx8348347.shtml"
-        },
-        {
-            title: "特朗普的委内瑞拉石油交易依赖一位实力雄厚但颇具争议的合作方",
-            summary: " 特朗普政府这项用于开发委内瑞拉庞大石油资源的协议十分特殊，美国政府将与一位影响力巨大、同时极具争议的委内瑞拉商人展开合作。",
-            source: "环球市场播报",
-            date: "2026-08-30",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-inipzxrx8344358.shtml"
-        },
-        {
-            title: "交通运输部回应“建议取消ETC”",
-            summary: "转自：长安街知事‍ 据交通运输部网站8月24日消息，近日，有网友就高速公路电子收费系统（简称“ETC”）相关问题在交通运输部官网提问，交通运输部公路局进行了回答。",
-            source: "长安街知事",
-            date: "2026-08-30",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/wm/2026-08-30/doc-inipzxsc8551834.shtml"
-        },
-        {
-            title: "伊朗副外长：未经协调任何船只无法通过霍尔木兹海峡",
-            summary: " 伊朗外交部副部长加里巴巴迪29日表示，霍尔木兹海峡目前完全关闭。任何船只如通过该海峡，均需要经过伊朗的协调和许可。",
-            source: "央视",
-            date: "2026-08-30",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/jjxw/2026-08-30/doc-inipztiz8426675.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-30",
         marketAssessment: "A股方面：上证指数报3952.18点（-0.11%），深证成指报13953.07点（-0.68%），创业板指报3424.40点（-1.41%）。美股方面：标普500报7,711.76（+0.49%），纳斯达克报26,402.42（+0.85%）。",
         hotSectors: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3952.18", change: "-0.11%", market: "A股", updateTime: "2026-08-31 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13953.07", change: "-0.68%", market: "A股", updateTime: "2026-08-31 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3424.40", change: "-1.41%", market: "A股", updateTime: "2026-08-31 实时" },
-        { name: "沪深300", code: "SH000300", value: "4609.18", change: "-0.46%", market: "A股", updateTime: "2026-08-31 实时" },
-        { name: "科创50", code: "SH000688", value: "1662.15", change: "-1.85%", market: "A股", updateTime: "2026-08-31 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3944.46", change: "-0.20%", market: "A股", updateTime: "2026-08-31 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13812.99", change: "-1.00%", market: "A股", updateTime: "2026-08-31 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3380.15", change: "-1.29%", market: "A股", updateTime: "2026-08-31 实时" },
+        { name: "沪深300", code: "SH000300", value: "4572.06", change: "-0.81%", market: "A股", updateTime: "2026-08-31 实时" },
+        { name: "科创50", code: "SH000688", value: "1635.39", change: "-1.61%", market: "A股", updateTime: "2026-08-31 实时" },
         { name: "标普500", code: "SPX", value: "7,711.76", change: "+0.49%", market: "美股", updateTime: "2026-08-31 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,402.42", change: "+0.85%", market: "美股", updateTime: "2026-08-31 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,559.99", change: "+0.53%", market: "美股", updateTime: "2026-08-31 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "海隆控股发布中期业绩 股东应占溢利5989.6万元同比扭亏为盈",
-            summary: "海隆控股（01623）发布截至2026年6月30日止6个月的中期业绩，收入23.56亿元（人民币，下同），同比增长1.44%；股东应占溢利5989.6万元，去年同期亏损3...",
+            title: "中升控股发布中期业绩 毛利总额50.53亿元同比增长20%",
+            summary: " 中升控股（00881）发布截至2026年6月30日止6个月的中期业绩，集团收入总额630.22亿元；毛利总额50.53亿元，同比增长20.0%；股东应占溢利1.11亿元；每股基本盈利0.047元。",
             source: "新浪港股",
             date: "2026-08-31",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-31/doc-iniqehwz7598227.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-31/doc-iniqetnv7441396.shtml"
         },
         {
-            title: "绿叶制药发布中期业绩 股东应占溢利3.91亿元同比增加24.80%",
-            summary: "绿叶制药（02186）发布截至2026年6月30日止6个月中期业绩，收入同比减少5.6%至人民币30.02亿元；股东应占溢利同比增加24.8%至人民币3.91亿元；每股基本盈利为人民币9...",
+            title: "明略科技-W上半年收入同比增长18.02%至约7.6亿元",
+            summary: " 明略科技-W（02718）公布2026年中期业绩，收入约7.6亿元，同比增长18.02%；毛利约3.9亿元，同比增长8.31%；期内亏损6422.7万元，同比收窄68.5%。",
             source: "新浪港股",
             date: "2026-08-31",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-31/doc-iniqehxc9201724.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-31/doc-iniqetnv7440811.shtml"
         },
         {
-            title: "安克创新拟派发中期股息每10股8元",
-            summary: "安克创新（00668）发布公告，该公司拟派发中期股息每10股8元人民币。",
+            title: "联合能源集团发布中期业绩 股东应占溢利9.53亿港元同比增长28.7%",
+            summary: "联合能源集团（00467）发布截至2026年6月30日止6个月的中期业绩，集团营业额109.39亿港元，同比增长33.7%；股东应占溢利9.53亿港元，同比增长28.7%；每股基本盈利3...",
             source: "新浪港股",
             date: "2026-08-31",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-31/doc-iniqehwv7865080.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-31/doc-iniqetnt4633064.shtml"
         },
         {
-            title: "安克创新公布中期业绩 权益股东应占利润约17.02亿元同比增长45.86%",
-            summary: "安克创新（00668）公布2026年中期业绩，收入约166.05亿元，同比增长29.1%；期内利润约17.45亿元，同比增长49.6%；公司权益股东应占利润约17.02亿元，同比增长45...",
-            source: "新浪港股",
+            title: "软银数据中心企业为争取 OpenAI 抛出 55 亿美元优厚条件",
+            summary: "在软银旗下企业 SB Energy 筹备上市之前，为招揽 OpenAI 成为数据中心租户，向其提供了一项重大优厚权益。 媒体查阅的 IPO 申报文件草案显示...",
+            source: "环球市场播报",
             date: "2026-08-31",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-31/doc-iniqehwv7864835.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqetnr7852426.shtml"
         },
         {
-            title: "兴合控股发布中期业绩 股东应占溢利110万马币同比减少86.90%",
-            summary: " 兴合控股（01891）发布截至2026年6月30日止6个月的中期业绩，收益为6.59亿马币，同比减少9.1%；公司拥有人应占溢利为110万马币，同比减少86.9%；每股基本盈利0.11仙马币。",
-            source: "新浪港股",
+            title: "印度软件股下跌 花旗警告前景严峻",
+            summary: "周一，印度Nifty IT指数下跌最多达1.74%，部分回吐了上周五由Salesforce带动的3.5%涨幅。花旗集团表示，在人工智能带来冲击以及竞争加剧的背景下...",
+            source: "环球市场播报",
             date: "2026-08-31",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-31/doc-iniqehwx4637092.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepev4743684.shtml"
         },
         {
-            title: "中国宝力科技拟溢价约4.57%发行约1.33亿股认购股份 净筹约6030万港元",
-            summary: "中国宝力科技（00164）公布，于2026年8月28日，该公司拟向二十名认购人发行约1.33亿股认购股份，每股认购股份 0.481 港元，较2026年8月28日收市价每股 0.46 港元溢价约 4...",
-            source: "新浪港股",
+            title: "中国存储芯片厂商江波龙拟香港上市 融资不超过62.8亿港元",
+            summary: "中国存储芯片厂商江波龙拟香港上市，融资不超过62.8亿港元（8.01亿美元），加入人工智能硬件供应链企业赴港融资潮。 根据江波龙周一发布的上市文件...",
+            source: "环球市场播报",
             date: "2026-08-31",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-31/doc-iniqehwz7597586.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepet7966934.shtml"
         },
         {
-            title: "华检医疗发布中期业绩 收益13.54亿元同比增长6.60%",
-            summary: " 华检医疗（01931）发布截至2026年6月30日止6个月的中期业绩，集团收益人民币13.54亿元，同比增长6.6%；毛利2.97亿元，同比增长6.4%；母公司拥有人应占亏损7049.3万元。",
-            source: "新浪港股",
+            title: "高盛将柴油利润预期上调逾一倍 称中东及俄乌战争令全球炼油市场趋紧",
+            summary: "高盛集团警告称，受中东战争及俄乌战争影响，全球炼油市场料将趋紧，该行将柴油生产利润的预期提高一倍多。 “中东和俄罗斯炼油厂遭袭情况增加...",
+            source: "环球市场播报",
             date: "2026-08-31",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-31/doc-iniqehwx4636503.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepez9163955.shtml"
         },
         {
-            title: "曹操出行于8月28日斥资427.68万港元回购30万股",
-            summary: "曹操出行（02643）发布公告，于2026年8月28日，该公司斥资427.68万港元回购30万股。",
-            source: "新浪港股",
+            title: "印度储备银行在外汇市场抛售美元以支撑卢比",
+            summary: "知情交易员透露，印度储备银行在岸、离岸外汇市场抛售美元，以此托举卢比汇率。相关人士未获公开发言授权，因此要求匿名。美元兑印度卢比持稳于 95.4063。",
+            source: "环球市场播报",
             date: "2026-08-31",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-31/doc-iniqehwx4636070.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepez9163621.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-08-31",
-        marketAssessment: "A股方面：上证指数报3952.18点（-0.11%），深证成指报13953.07点（-0.68%），创业板指报3424.40点（-1.41%）。美股方面：标普500报7,711.76（+0.49%），纳斯达克报26,402.42（+0.85%）。",
+        marketAssessment: "A股方面：上证指数报3944.46点（-0.20%），深证成指报13812.99点（-1.00%），创业板指报3380.15点（-1.29%）。美股方面：标普500报7,711.76（+0.49%），纳斯达克报26,402.42（+0.85%）。",
         hotSectors: [
-
+            { name: "视频媒体", reason: "板块涨幅+20.00%", strength: "强" },
+            { name: "文字媒体", reason: "板块涨幅+11.90%", strength: "强" },
+            { name: "教育运营及其他", reason: "板块涨幅+7.75%", strength: "强" },
+            { name: "其他数字媒体", reason: "板块涨幅+5.83%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "白银", reason: "板块跌幅-8.28%", strength: "弱" },
+            { name: "贵金属", reason: "板块跌幅-6.54%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注视频媒体、文字媒体、教育运营及其他等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

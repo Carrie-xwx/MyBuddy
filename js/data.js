@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3986.30", change: "+0.86%", market: "A股", updateTime: "2026-08-31 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14015.00", change: "+0.44%", market: "A股", updateTime: "2026-08-31 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3438.68", change: "+0.42%", market: "A股", updateTime: "2026-08-31 实时" },
-        { name: "沪深300", code: "SH000300", value: "4625.09", change: "+0.35%", market: "A股", updateTime: "2026-08-31 实时" },
-        { name: "科创50", code: "SH000688", value: "1684.39", change: "+1.34%", market: "A股", updateTime: "2026-08-31 实时" },
-        { name: "标普500", code: "SPX", value: "7,711.76", change: "+0.49%", market: "美股", updateTime: "2026-08-31 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,402.42", change: "+0.85%", market: "美股", updateTime: "2026-08-31 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,559.99", change: "+0.53%", market: "美股", updateTime: "2026-08-31 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3986.30", change: "+0.86%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "深证成指", code: "SZ399001", value: "14015.00", change: "+0.44%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3438.68", change: "+0.42%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "沪深300", code: "SH000300", value: "4625.09", change: "+0.35%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "科创50", code: "SH000688", value: "1684.39", change: "+1.34%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "标普500", code: "SPX", value: "7,686.14", change: "+0.43%", market: "美股", updateTime: "2026-09-01 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,370.89", change: "+1.50%", market: "美股", updateTime: "2026-09-01 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,185.90", change: "-0.43%", market: "美股", updateTime: "2026-09-01 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "德国8月CPI同比上涨2.9%，能源价格连续两个月加速推高通胀",
-            summary: "德国联邦统计局周一公布8月消费者物价指数初步结果：同比上涨2.9%，高于7月的2.8%，与4月持平，为近四个月高点。环比上涨0.2%，低于7月的0.8%。",
-            source: "环球市场播报",
-            date: "2026-08-31",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqfkkr8842751.shtml"
-        },
-        {
-            title: "ONEOK斥资44.3亿美元收购Brazos Midstream二叠‑米德兰盆地油气资产",
-            summary: "阿波罗全球管理旗下基金及关联方将提供 90 亿美元无投票权少数股权投资，为本笔交易提供资金支持ONEOK 即将收购 Brazos Midstream...",
-            source: "环球市场播报",
-            date: "2026-08-31",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqfkkr8841186.shtml"
-        },
-        {
-            title: "未来健康港股IPO：收入加速冲高盈利却“溜坡” 出海尚未跑出第二曲线 转型赛道依旧深陷巨头竞争包围圈",
-            summary: "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 近日，未来穿戴健康科技股份有限公司（“未来健康”，SKG 品牌母公司）向港交所递交招股书，再度冲击港股主板 IPO。",
-            source: "新浪证券",
-            date: "2026-08-31",
+            title: "首程控股获主席赵天旸增持10万股 每股作价1.37港元",
+            summary: "香港联交所最新数据显示，8月31日，主席赵天旸增持首程控股（00697）10万股，每股作价1.37港元，总金额约为13.7万港元。增持后最新持股数目为120万股，最新持股比例为0...",
+            source: "新浪港股",
+            date: "2026-09-01",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/observe/2026-08-31/doc-iniqfkkm4655273.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmwc8427009.shtml"
         },
         {
-            title: "怡安集团约170亿美元收购保险经纪商USI",
-            summary: "私募巨头 KKR 自 2017 年起便是 USI 的控股股东KKR 上一季度创下公司史上最高的资产出售规模。 怡安集团（Aon）同意从私募股权公司 KKR 手中收购保险经纪机构 USI...",
+            title: "君百延集团获主席兼行政总裁黄碧君增持4万股 每股作价0.145港元",
+            summary: "香港联交所最新数据显示，8月28日，主席兼首席执行官黄碧君增持君百延集团控股（08372）4万股，每股作价0.145港元，总金额为5800港元。",
+            source: "新浪港股",
+            date: "2026-09-01",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmvz6823123.shtml"
+        },
+        {
+            title: "中兴通讯遭贝莱德减持12.8万股 每股作价23.465港元",
+            summary: "香港联交所最新数据显示，8月26日，贝莱德减持中兴通讯（00763）12.8万股，每股作价23.465港元，总金额约为300.35万港元。减持后最新持股数目约为4522.19万股...",
+            source: "新浪港股",
+            date: "2026-09-01",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmwc8425275.shtml"
+        },
+        {
+            title: "美国财长贝森特会见片山皋月 指出日本有必要加息",
+            summary: " 据媒体援引对一位美国官员的采访报道，美国财政部长斯科特·贝森特告诉日本财务大臣片山皋月及央行行长植田和男，日本的下一步行动应该是加息。",
             source: "环球市场播报",
-            date: "2026-08-31",
+            date: "2026-09-01",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqfkkp7236312.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmwh1579488.shtml"
         },
         {
-            title: "印度一季度实际GDP增长7.8%，高于央行7.0%预测",
-            summary: "印度统计与计划执行部周一（8月31日）公布，2026–27财年第一季度（4–6月）实际国内生产总值同比增长7.8%，显著高于印度储备银行对该季7.0%的预测，也高于上年同期的6...",
-            source: "环球市场播报",
-            date: "2026-08-31",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqfkkp7234407.shtml"
+            title: "金石控股集团遭Huayu Holdings Limited减持164万股 每股作价约1.30港元",
+            summary: "香港联交所最新数据显示，8月28日，Huayu Holdings Limited减持金石控股集团（01943）164万股，每股作价1.3005港元，总金额约为213.28万港元。",
+            source: "新浪港股",
+            date: "2026-09-01",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmwh1579117.shtml"
         },
         {
-            title: "沙特据悉寻求约80亿美元贷款 以缓解战争导致的财政紧张局面",
-            summary: "沙特阿拉伯正就筹集至少80亿美元新贷款进行初步谈判，以期在伊朗战争造成的经济影响下，加大力度实现融资来源多元化。 据知情人士透露...",
-            source: "环球市场播报",
-            date: "2026-08-31",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-08-31/doc-iniqfkkr8836873.shtml"
+            title: "玄武云获主席廉健增持10万股 每股作价0.9654港元",
+            summary: "香港联交所最新数据显示，8月27日，主席廉健增持玄武云（02392）10万股，每股作价0.9654港元，总金额为9.654万港元。增持后最新持股数目约为1.35亿股，最新持股比例为24...",
+            source: "新浪港股",
+            date: "2026-09-01",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmwe4804883.shtml"
         },
         {
-            title: "游戏驿站：营收下滑，利润预期走高",
-            summary: "这家游戏零售商预计第二季度净利润将达到 2.9 亿‑3.1 亿美元，高于去年同期的 1.686 亿美元游戏驿站发布第二季度初步财报，预计营收下滑，但净利润将实现增长。",
+            title: "Anthropic与英伟达支持的Lambda达成350亿美元的算力合作协议",
+            summary: "据一位知情人士透露，Anthropic PBC已与英伟达支持的云服务提供商Lambda达成一项350 亿美元的算力协议。 这位因讨论内容非公开而要求匿名的人士称...",
             source: "环球市场播报",
-            date: "2026-08-31",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqfkkr8836567.shtml"
+            date: "2026-09-01",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmvz6820116.shtml"
         },
         {
-            title: "沃尔玛、e.l.f.等公司将关税退税用于降价，单笔金额从数千万到近30亿美元",
-            summary: "多家零售商和消费品公司正将最高法院推翻特朗普政府全球关税后获得的退税，直接用于下调货架价格。e.l.f． Beauty、沃尔玛和拖拉机供应已公开这一安排。",
-            source: "环球市场播报",
-            date: "2026-08-31",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqfkkm4645105.shtml"
+            title: "海天国际获董事会主席张剑鸣增持18.5万股 每股作价17.67港元",
+            summary: "香港联交所最新资料显示，8月28日，董事会主席张剑鸣增持海天国际（01882）18.5万股，每股作价17.67港元，总金额约326.9万港元。",
+            source: "新浪港股",
+            date: "2026-09-01",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmwh1576081.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-08-31",
-        marketAssessment: "A股方面：上证指数报3986.30点（+0.86%），深证成指报14015.00点（+0.44%），创业板指报3438.68点（+0.42%）。美股方面：标普500报7,711.76（+0.49%），纳斯达克报26,402.42（+0.85%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-09-01",
+        marketAssessment: "A股方面：上证指数报3986.30点（+0.86%），深证成指报14015.00点（+0.44%），创业板指报3438.68点（+0.42%）。美股方面：标普500报7,686.14（+0.43%），纳斯达克报26,370.89（+1.50%）。",
         hotSectors: [
 
         ],

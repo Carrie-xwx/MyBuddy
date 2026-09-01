@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3987.56", change: "+0.03%", market: "A股", updateTime: "2026-09-01 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13933.11", change: "-0.58%", market: "A股", updateTime: "2026-09-01 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3407.04", change: "-0.92%", market: "A股", updateTime: "2026-09-01 实时" },
-        { name: "沪深300", code: "SH000300", value: "4622.31", change: "-0.06%", market: "A股", updateTime: "2026-09-01 实时" },
-        { name: "科创50", code: "SH000688", value: "1659.39", change: "-1.48%", market: "A股", updateTime: "2026-09-01 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3979.89", change: "-0.16%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13872.38", change: "-1.02%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3393.43", change: "-1.32%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "沪深300", code: "SH000300", value: "4611.44", change: "-0.30%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "科创50", code: "SH000688", value: "1647.53", change: "-2.19%", market: "A股", updateTime: "2026-09-01 实时" },
         { name: "标普500", code: "SPX", value: "7,686.14", change: "+0.43%", market: "美股", updateTime: "2026-09-01 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,370.89", change: "+1.50%", market: "美股", updateTime: "2026-09-01 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,185.90", change: "-0.43%", market: "美股", updateTime: "2026-09-01 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "里昂：康希诺生物目标价下调至49.6港元 维持“跑赢大市”评级",
-            summary: " 中信里昂发布研报称，康希诺生物（06185）第二季收入及净利均符合预期，但将目标价由53.2港元下调至49.6港元，反映其管线更高的研发费用，维持“跑赢大市”评级。",
-            source: "新浪港股",
+            title: "五角大楼在GenAI.mil上线ChatGPT Mil，获IL5认证覆盖受控非密信息，面向逾300万人员",
+            summary: "美国国防部8月31日宣布，在企业级生成式人工智能平台GenAI.mil上正式部署OpenAI的ChatGPTMil。新闻稿称，这标志着双方自2025年建立的企业合作已进入“采用阶段”。",
+            source: "环球市场播报",
             date: "2026-09-01",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-01/doc-iniqhwmx8271947.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqihzw1554577.shtml"
         },
         {
-            title: "交银国际：名创优品目标价下调至26.4港元 维持“买入”评级",
-            summary: "交银国际发布研报称，下调名创优品（09896）目标价，由45.5港元削至26.4港元，维持“买入”评级。该行下调2026-2028年盈利预测9-23%...",
-            source: "新浪港股",
+            title: "联发科达成35亿美元英伟达AI芯片交易，股价大涨10%",
+            summary: "联发科股价周二收盘大涨10%。这家芯片企业宣布与英伟达达成合作，助力自身拓展数据中心市场。 两家企业周一表示，作为交易的一部分...",
+            source: "环球市场播报",
             date: "2026-09-01",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-01/doc-iniqhwmx8271321.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqihzw1546463.shtml"
         },
         {
-            title: "高盛：保诚港股目标价下调至149港元 维持“买入”评级",
-            summary: "高盛发布研报称，下调保诚（02378）港股目标价2%，从152港元降至149港元，维持“买入”评级。 鉴于该公司2026年上半年业绩，高盛微调对其新业务价值（NBP）预测...",
-            source: "新浪港股",
-            date: "2026-09-01",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-01/doc-iniqhwna1584347.shtml"
-        },
-        {
-            title: "吉利汽车因认股权获行使而发行4.1万股",
-            summary: " 吉利汽车（00175）发布公告，于2026年9月1日因集团雇员根据认股权计划（于2023年4月28日获采纳）行使认股权而发行4.1万股普通股股份。",
-            source: "新浪港股",
-            date: "2026-09-01",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhwmy4809789.shtml"
-        },
-        {
-            title: "飞尚无烟煤于9月1日起停牌 待刊发2026年中期业绩",
-            summary: " 飞尚无烟煤（01738）发布公告，应公司要求，公司股份已自2026年9月1日上午九时正起于联交所暂停买卖，以待刊发2026年中期业绩。",
-            source: "新浪港股",
-            date: "2026-09-01",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhwmx8269080.shtml"
-        },
-        {
-            title: "诺华：出现死亡病例 暂停自身免疫细胞疗法相关研究",
-            summary: " 诺华制药（NOVN）在发生三例患者死亡事件后，于 8 月末暂停了一项针对自身免疫及神经系统疾病的在研疗法的八项临床试验。",
+            title: "纳斯达克综合指数8月上涨3.93%，结束连跌两月",
+            summary: "道琼斯市场数据按8月31日初步收盘核定：纳斯达克综合指数当月上涨997.04点，或3.93%，收于26370.89。这是2026年5月以来最大单月点数与百分比涨幅...",
             source: "环球市场播报",
             date: "2026-09-01",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhwmx8268866.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqihzt8109743.shtml"
         },
         {
-            title: "中通快递-W于8月31日斥资499.53万美元回购23.42万股",
-            summary: "中通快递-W（02057）发布公告，于2026年8月31日，该公司斥资499.53万美元回购23.42万股。",
+            title: "近亿投资浮亏拖累利润背后：兔宝宝核心业务走弱，毛利率跌至十年新低",
+            summary: "来源：证券之星 家居建材行业当前正经历弱复苏与激烈内卷并存的调整期。作为板材领域龙头企业，兔宝宝（002043.SZ）于2026年上半年交出了一份“增收不增利”的成绩单：营收规...",
+            source: "市场资讯",
+            date: "2026-09-01",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-01/doc-iniqihzy3619937.shtml"
+        },
+        {
+            title: "大禹生物中报亏损创历史新高：新旧业务“双线承压”，流动性风险加剧",
+            summary: "来源：证券之星 持续深陷亏损泥潭的大禹生物（920970.BJ）近日再交出一份亏损的成绩单。今年上半年，虽然公司收入同比增长超15%，扣非后净利润却同比大降逾一倍...",
+            source: "市场资讯",
+            date: "2026-09-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-01/doc-iniqihzy3619881.shtml"
+        },
+        {
+            title: "外籍个人从外商投资企业取得股息红利需缴个税",
+            summary: " 财政部、税务总局9月1日对外发布公告，明确自9月1日起，外籍个人从外商投资企业取得的股息红利所得，应按照20%税率缴纳个税。",
+            source: "澎湃新闻",
+            date: "2026-09-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-09-01/doc-iniqihzu4766474.shtml"
+        },
+        {
+            title: "法国８月份制造业采购经理指数报51.1 初步数据为51.5",
+            summary: "S&amp;P Global 发布8月份法国制造业采购经理指数。 指数从7月份的49.8上升至51.1； 上年同月50.4。",
+            source: "环球市场播报",
+            date: "2026-09-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqihzu4765255.shtml"
+        },
+        {
+            title: "港股收评：恒指跌0.93% 科指跌1.49% 科网股走弱 内银股逆势活跃",
+            summary: "9月1日消息，港股三大指数集体下跌。截至收盘，恒生指数跌0.93%，报25329.73，恒生科技指数跌1.49%，国企指数跌0.59%。盘面上，科网股跌多涨少，阿里、京东跌超3%...",
             source: "新浪港股",
             date: "2026-09-01",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhwmx8268499.shtml"
-        },
-        {
-            title: "理想汽车-W8月交付新车37679辆",
-            summary: " 理想汽车-W（02015）发布公告，2026年8月，理想汽车交付新车37，679辆。截至2026年8月31日，理想汽车历史累计交付量为1，801，834辆。",
-            source: "新浪港股",
-            date: "2026-09-01",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhwmy4806368.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-01/doc-iniqihzy3613517.shtml"
         },
     ],
 
@@ -765,20 +765,19 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-01",
-        marketAssessment: "A股方面：上证指数报3987.56点（+0.03%），深证成指报13933.11点（-0.58%），创业板指报3407.04点（-0.92%）。美股方面：标普500报7,686.14（+0.43%），纳斯达克报26,370.89（+1.50%）。",
+        marketAssessment: "A股方面：上证指数报3979.89点（-0.16%），深证成指报13872.38点（-1.02%），创业板指报3393.43点（-1.32%）。美股方面：标普500报7,686.14（+0.43%），纳斯达克报26,370.89（+1.50%）。",
         hotSectors: [
             { name: "视频媒体", reason: "板块涨幅+20.02%", strength: "强" },
-            { name: "种子", reason: "板块涨幅+11.67%", strength: "强" },
-            { name: "种植业", reason: "板块涨幅+8.30%", strength: "强" },
-            { name: "文字媒体", reason: "板块涨幅+7.04%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+12.87%", strength: "强" },
+            { name: "种植业", reason: "板块涨幅+8.88%", strength: "强" },
+            { name: "粮食种植", reason: "板块涨幅+7.42%", strength: "强" },
         ],
         weakSectors: [
-            { name: "钨", reason: "板块跌幅-3.73%", strength: "弱" },
-            { name: "电子化学品Ⅱ", reason: "板块跌幅-3.67%", strength: "弱" },
+
         ],
-        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
         shortTermStrategy: "超短线关注视频媒体、种子、种植业等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",

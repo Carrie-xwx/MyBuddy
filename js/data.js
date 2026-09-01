@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3986.30", change: "+0.86%", market: "A股", updateTime: "2026-09-01 实时" },
-        { name: "深证成指", code: "SZ399001", value: "14015.00", change: "+0.44%", market: "A股", updateTime: "2026-09-01 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3438.68", change: "+0.42%", market: "A股", updateTime: "2026-09-01 实时" },
-        { name: "沪深300", code: "SH000300", value: "4625.09", change: "+0.35%", market: "A股", updateTime: "2026-09-01 实时" },
-        { name: "科创50", code: "SH000688", value: "1684.39", change: "+1.34%", market: "A股", updateTime: "2026-09-01 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3987.56", change: "+0.03%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13933.11", change: "-0.58%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3407.04", change: "-0.92%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "沪深300", code: "SH000300", value: "4622.31", change: "-0.06%", market: "A股", updateTime: "2026-09-01 实时" },
+        { name: "科创50", code: "SH000688", value: "1659.39", change: "-1.48%", market: "A股", updateTime: "2026-09-01 实时" },
         { name: "标普500", code: "SPX", value: "7,686.14", change: "+0.43%", market: "美股", updateTime: "2026-09-01 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,370.89", change: "+1.50%", market: "美股", updateTime: "2026-09-01 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,185.90", change: "-0.43%", market: "美股", updateTime: "2026-09-01 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "首程控股获主席赵天旸增持10万股 每股作价1.37港元",
-            summary: "香港联交所最新数据显示，8月31日，主席赵天旸增持首程控股（00697）10万股，每股作价1.37港元，总金额约为13.7万港元。增持后最新持股数目为120万股，最新持股比例为0...",
+            title: "里昂：康希诺生物目标价下调至49.6港元 维持“跑赢大市”评级",
+            summary: " 中信里昂发布研报称，康希诺生物（06185）第二季收入及净利均符合预期，但将目标价由53.2港元下调至49.6港元，反映其管线更高的研发费用，维持“跑赢大市”评级。",
             source: "新浪港股",
             date: "2026-09-01",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmwc8427009.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-01/doc-iniqhwmx8271947.shtml"
         },
         {
-            title: "君百延集团获主席兼行政总裁黄碧君增持4万股 每股作价0.145港元",
-            summary: "香港联交所最新数据显示，8月28日，主席兼首席执行官黄碧君增持君百延集团控股（08372）4万股，每股作价0.145港元，总金额为5800港元。",
+            title: "交银国际：名创优品目标价下调至26.4港元 维持“买入”评级",
+            summary: "交银国际发布研报称，下调名创优品（09896）目标价，由45.5港元削至26.4港元，维持“买入”评级。该行下调2026-2028年盈利预测9-23%...",
             source: "新浪港股",
             date: "2026-09-01",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmvz6823123.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-01/doc-iniqhwmx8271321.shtml"
         },
         {
-            title: "中兴通讯遭贝莱德减持12.8万股 每股作价23.465港元",
-            summary: "香港联交所最新数据显示，8月26日，贝莱德减持中兴通讯（00763）12.8万股，每股作价23.465港元，总金额约为300.35万港元。减持后最新持股数目约为4522.19万股...",
+            title: "高盛：保诚港股目标价下调至149港元 维持“买入”评级",
+            summary: "高盛发布研报称，下调保诚（02378）港股目标价2%，从152港元降至149港元，维持“买入”评级。 鉴于该公司2026年上半年业绩，高盛微调对其新业务价值（NBP）预测...",
             source: "新浪港股",
             date: "2026-09-01",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmwc8425275.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-01/doc-iniqhwna1584347.shtml"
         },
         {
-            title: "美国财长贝森特会见片山皋月 指出日本有必要加息",
-            summary: " 据媒体援引对一位美国官员的采访报道，美国财政部长斯科特·贝森特告诉日本财务大臣片山皋月及央行行长植田和男，日本的下一步行动应该是加息。",
+            title: "吉利汽车因认股权获行使而发行4.1万股",
+            summary: " 吉利汽车（00175）发布公告，于2026年9月1日因集团雇员根据认股权计划（于2023年4月28日获采纳）行使认股权而发行4.1万股普通股股份。",
+            source: "新浪港股",
+            date: "2026-09-01",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhwmy4809789.shtml"
+        },
+        {
+            title: "飞尚无烟煤于9月1日起停牌 待刊发2026年中期业绩",
+            summary: " 飞尚无烟煤（01738）发布公告，应公司要求，公司股份已自2026年9月1日上午九时正起于联交所暂停买卖，以待刊发2026年中期业绩。",
+            source: "新浪港股",
+            date: "2026-09-01",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhwmx8269080.shtml"
+        },
+        {
+            title: "诺华：出现死亡病例 暂停自身免疫细胞疗法相关研究",
+            summary: " 诺华制药（NOVN）在发生三例患者死亡事件后，于 8 月末暂停了一项针对自身免疫及神经系统疾病的在研疗法的八项临床试验。",
             source: "环球市场播报",
             date: "2026-09-01",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmwh1579488.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhwmx8268866.shtml"
         },
         {
-            title: "金石控股集团遭Huayu Holdings Limited减持164万股 每股作价约1.30港元",
-            summary: "香港联交所最新数据显示，8月28日，Huayu Holdings Limited减持金石控股集团（01943）164万股，每股作价1.3005港元，总金额约为213.28万港元。",
+            title: "中通快递-W于8月31日斥资499.53万美元回购23.42万股",
+            summary: "中通快递-W（02057）发布公告，于2026年8月31日，该公司斥资499.53万美元回购23.42万股。",
             source: "新浪港股",
             date: "2026-09-01",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmwh1579117.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhwmx8268499.shtml"
         },
         {
-            title: "玄武云获主席廉健增持10万股 每股作价0.9654港元",
-            summary: "香港联交所最新数据显示，8月27日，主席廉健增持玄武云（02392）10万股，每股作价0.9654港元，总金额为9.654万港元。增持后最新持股数目约为1.35亿股，最新持股比例为24...",
+            title: "理想汽车-W8月交付新车37679辆",
+            summary: " 理想汽车-W（02015）发布公告，2026年8月，理想汽车交付新车37，679辆。截至2026年8月31日，理想汽车历史累计交付量为1，801，834辆。",
             source: "新浪港股",
             date: "2026-09-01",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmwe4804883.shtml"
-        },
-        {
-            title: "Anthropic与英伟达支持的Lambda达成350亿美元的算力合作协议",
-            summary: "据一位知情人士透露，Anthropic PBC已与英伟达支持的云服务提供商Lambda达成一项350 亿美元的算力协议。 这位因讨论内容非公开而要求匿名的人士称...",
-            source: "环球市场播报",
-            date: "2026-09-01",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmvz6820116.shtml"
-        },
-        {
-            title: "海天国际获董事会主席张剑鸣增持18.5万股 每股作价17.67港元",
-            summary: "香港联交所最新资料显示，8月28日，董事会主席张剑鸣增持海天国际（01882）18.5万股，每股作价17.67港元，总金额约326.9万港元。",
-            source: "新浪港股",
-            date: "2026-09-01",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhmwh1576081.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-01/doc-iniqhwmy4806368.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-01",
-        marketAssessment: "A股方面：上证指数报3986.30点（+0.86%），深证成指报14015.00点（+0.44%），创业板指报3438.68点（+0.42%）。美股方面：标普500报7,686.14（+0.43%），纳斯达克报26,370.89（+1.50%）。",
+        marketAssessment: "A股方面：上证指数报3987.56点（+0.03%），深证成指报13933.11点（-0.58%），创业板指报3407.04点（-0.92%）。美股方面：标普500报7,686.14（+0.43%），纳斯达克报26,370.89（+1.50%）。",
         hotSectors: [
-
+            { name: "视频媒体", reason: "板块涨幅+20.02%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+11.67%", strength: "强" },
+            { name: "种植业", reason: "板块涨幅+8.30%", strength: "强" },
+            { name: "文字媒体", reason: "板块涨幅+7.04%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "钨", reason: "板块跌幅-3.73%", strength: "弱" },
+            { name: "电子化学品Ⅱ", reason: "板块跌幅-3.67%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注视频媒体、种子、种植业等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3979.89", change: "-0.16%", market: "A股", updateTime: "2026-09-01 实时" },
         { name: "深证成指", code: "SZ399001", value: "13872.38", change: "-1.02%", market: "A股", updateTime: "2026-09-01 实时" },
         { name: "创业板指", code: "SZ399006", value: "3393.43", change: "-1.32%", market: "A股", updateTime: "2026-09-01 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "五角大楼在GenAI.mil上线ChatGPT Mil，获IL5认证覆盖受控非密信息，面向逾300万人员",
-            summary: "美国国防部8月31日宣布，在企业级生成式人工智能平台GenAI.mil上正式部署OpenAI的ChatGPTMil。新闻稿称，这标志着双方自2025年建立的企业合作已进入“采用阶段”。",
-            source: "环球市场播报",
-            date: "2026-09-01",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqihzw1554577.shtml"
-        },
-        {
-            title: "联发科达成35亿美元英伟达AI芯片交易，股价大涨10%",
-            summary: "联发科股价周二收盘大涨10%。这家芯片企业宣布与英伟达达成合作，助力自身拓展数据中心市场。 两家企业周一表示，作为交易的一部分...",
+            title: "美国股指期货温和走低 标普500指数面临季节性压力",
+            summary: "美国股指期货9月开局走弱，油价上涨推动全球债券收益率走高，并进一步强化了市场对多国央行本月加息的押注。 纽约时间8：00，标普500指数期货跌0.6%...",
             source: "环球市场播报",
             date: "2026-09-01",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqihzw1546463.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqitrs1526777.shtml"
         },
         {
-            title: "纳斯达克综合指数8月上涨3.93%，结束连跌两月",
-            summary: "道琼斯市场数据按8月31日初步收盘核定：纳斯达克综合指数当月上涨997.04点，或3.93%，收于26370.89。这是2026年5月以来最大单月点数与百分比涨幅...",
+            title: "8月翻倍大牛股，提示风险！",
+            summary: "来源：中国基金报 中国基金报记者 刘墨 在8月仅有的6只翻倍牛股里，海鸥股份是其中一只。 从7月末的11.15元到8月末的24.40元，仅一个月时间...",
+            source: "市场资讯",
+            date: "2026-09-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-01/doc-iniqitrp7975447.shtml"
+        },
+        {
+            title: "Kalshi对前众议员桑托斯开出平台首份终身禁令：罚款7.1万美元",
+            summary: "预测市场平台Kalshi于8月31日公布纪律处分：前纽约州共和党众议员乔治·桑托斯被永久禁止直接或间接使用该平台，并处以71，356美元罚金。",
             source: "环球市场播报",
             date: "2026-09-01",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqihzt8109743.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqitrq4743127.shtml"
         },
         {
-            title: "近亿投资浮亏拖累利润背后：兔宝宝核心业务走弱，毛利率跌至十年新低",
-            summary: "来源：证券之星 家居建材行业当前正经历弱复苏与激烈内卷并存的调整期。作为板材领域龙头企业，兔宝宝（002043.SZ）于2026年上半年交出了一份“增收不增利”的成绩单：营收规...",
-            source: "市场资讯",
+            title: "盘前：全球债市突然“失控” 纳指期货跌0.93%",
+            summary: "9月伊始，全球股市表现疲弱。油价上涨推动全球债券收益率进一步走高，同时强化了市场对主要央行本月加息的押注。债券抛售进一步加剧，交易员正担忧油价推动的通胀...",
+            source: "环球市场播报",
+            date: "2026-09-01",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqitrs1518860.shtml"
+        },
+        {
+            title: "伊朗称当前形势不允许讨论重返与美国的谅解备忘录",
+            summary: "伊朗外交部发言人Esmail Baghaei在德黑兰举行的记者会上表示，当前形势不允许讨论重返此前与美国签署的谅解备忘录。 他表示，华盛顿方面违反了该协议。",
+            source: "环球市场播报",
             date: "2026-09-01",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-01/doc-iniqihzy3619937.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqitru3475349.shtml"
         },
         {
-            title: "大禹生物中报亏损创历史新高：新旧业务“双线承压”，流动性风险加剧",
-            summary: "来源：证券之星 持续深陷亏损泥潭的大禹生物（920970.BJ）近日再交出一份亏损的成绩单。今年上半年，虽然公司收入同比增长超15%，扣非后净利润却同比大降逾一倍...",
-            source: "市场资讯",
-            date: "2026-09-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-01/doc-iniqihzy3619881.shtml"
-        },
-        {
-            title: "外籍个人从外商投资企业取得股息红利需缴个税",
-            summary: " 财政部、税务总局9月1日对外发布公告，明确自9月1日起，外籍个人从外商投资企业取得的股息红利所得，应按照20%税率缴纳个税。",
-            source: "澎湃新闻",
-            date: "2026-09-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-09-01/doc-iniqihzu4766474.shtml"
-        },
-        {
-            title: "法国８月份制造业采购经理指数报51.1 初步数据为51.5",
-            summary: "S&amp;P Global 发布8月份法国制造业采购经理指数。 指数从7月份的49.8上升至51.1； 上年同月50.4。",
+            title: "油轮在霍尔木兹出峡航道遭三枚不明弹体击中，事发阿曼哈萨布以东17海里",
+            summary: "英国海事贸易行动中心（UKMTO）于8月31日发布第124-26号警报称，一艘正在完成霍尔木兹海峡出峡航行的油轮，于世界时20时报告遭三枚不明弹体击中...",
             source: "环球市场播报",
             date: "2026-09-01",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqihzu4765255.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqitrs1511701.shtml"
         },
         {
-            title: "港股收评：恒指跌0.93% 科指跌1.49% 科网股走弱 内银股逆势活跃",
-            summary: "9月1日消息，港股三大指数集体下跌。截至收盘，恒生指数跌0.93%，报25329.73，恒生科技指数跌1.49%，国企指数跌0.59%。盘面上，科网股跌多涨少，阿里、京东跌超3%...",
-            source: "新浪港股",
+            title: "美众议院寻求对消费者金融保护局进行重大改革 由国会拨款取代美联储供资",
+            summary: "美国众议院金融服务委员会主席、阿肯色州共和党众议员弗伦奇·希尔（French Hill），以及领导该委员会金融机构小组委员会的肯塔基州共和党众议员安迪·巴尔（Andy Barr）...",
+            source: "环球市场播报",
             date: "2026-09-01",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-01/doc-iniqihzy3613517.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqitru3474338.shtml"
+        },
+        {
+            title: "日本财务大臣片山皋月：将继续与市场沟通",
+            summary: " 日本财务大臣片山皋月表示，她将继续与金融市场保持密切沟通。此前，日本10年期国债收益率升至3%，创1996年以来最高水平。",
+            source: "环球市场播报",
+            date: "2026-09-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqitru3472729.shtml"
         },
     ],
 
@@ -765,20 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-09-01",
         marketAssessment: "A股方面：上证指数报3979.89点（-0.16%），深证成指报13872.38点（-1.02%），创业板指报3393.43点（-1.32%）。美股方面：标普500报7,686.14（+0.43%），纳斯达克报26,370.89（+1.50%）。",
         hotSectors: [
-            { name: "视频媒体", reason: "板块涨幅+20.02%", strength: "强" },
-            { name: "种子", reason: "板块涨幅+12.87%", strength: "强" },
-            { name: "种植业", reason: "板块涨幅+8.88%", strength: "强" },
-            { name: "粮食种植", reason: "板块涨幅+7.42%", strength: "强" },
+
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注视频媒体、种子、种植业等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

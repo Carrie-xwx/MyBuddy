@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3979.89", change: "-0.16%", market: "A股", updateTime: "2026-09-02 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13872.38", change: "-1.02%", market: "A股", updateTime: "2026-09-02 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3393.43", change: "-1.32%", market: "A股", updateTime: "2026-09-02 实时" },
-        { name: "沪深300", code: "SH000300", value: "4611.44", change: "-0.30%", market: "A股", updateTime: "2026-09-02 实时" },
-        { name: "科创50", code: "SH000688", value: "1647.53", change: "-2.19%", market: "A股", updateTime: "2026-09-02 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3947.26", change: "-0.82%", market: "A股", updateTime: "2026-09-02 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13635.33", change: "-1.71%", market: "A股", updateTime: "2026-09-02 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3319.39", change: "-2.18%", market: "A股", updateTime: "2026-09-02 实时" },
+        { name: "沪深300", code: "SH000300", value: "4553.99", change: "-1.25%", market: "A股", updateTime: "2026-09-02 实时" },
+        { name: "科创50", code: "SH000688", value: "1625.81", change: "-1.32%", market: "A股", updateTime: "2026-09-02 实时" },
         { name: "标普500", code: "SPX", value: "7,631.47", change: "-0.60%", market: "美股", updateTime: "2026-09-02 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,099.77", change: "-0.20%", market: "美股", updateTime: "2026-09-02 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,766.88", change: "-1.51%", market: "美股", updateTime: "2026-09-02 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "英伟达据悉接近以140亿美元收购AI公司Hugging Face 协议最快本周达成",
-            summary: "据知情人士称，英伟达就收购人工智能初创公司Hugging Face进行深入谈判，交易总额可能约为140亿美元。 一位知情人士表示，英伟达以129亿美元收购Hugging...",
-            source: "环球市场播报",
-            date: "2026-09-02",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkvch3079194.shtml"
-        },
-        {
-            title: "摩根大通：韩国散户投资者短期内不太可能成为股票的主要买家",
-            summary: " 摩根大通表示，受市场情绪低迷，叠加杠杆型交易所交易基金（ETF）大概率持续资金流出的影响，短期韩国散户投资者不太可能大规模买入股票。",
-            source: "环球市场播报",
-            date: "2026-09-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkvce1319425.shtml"
-        },
-        {
-            title: "起亚8月美国销量创新高，现代汽车销量下降2%",
-            summary: "周三公布的数据显示，起亚汽车公司8月份在美国的月度销量创下历史新高，而现代汽车销量则出现下滑。 起亚美国上月售出83，793辆汽车，同比增长1%...",
-            source: "环球市场播报",
-            date: "2026-09-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkvca4546308.shtml"
-        },
-        {
-            title: "途虎-W于9月1日斥资约254.52万港元回购20.67万股",
-            summary: "途虎-W（09690）发布公告，于2026年9月1日该公司斥资约254.52万港元回购20.67万股，回购价格为每股12.05至12.4港元。",
+            title: "杰富瑞：中国宏桥公司估值具备吸引力 维持“买入”评级",
+            summary: "杰富瑞近日发布针对中国宏桥（01378）财报的研报，称公司2026年上半年业绩表现扎实，成本保持稳定，债务规模下降。管理层对铝市场依旧信心十足...",
             source: "新浪港股",
             date: "2026-09-02",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-02/doc-iniqkvch7902142.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-02/doc-iniqmfsy1334143.shtml"
         },
         {
-            title: "美国依据新 “以油轮对油轮” 政策打击伊朗油轮",
-            summary: "据报道，美国官员称，美军在周二的一轮打击行动中袭击了两艘伊朗政府所属油轮。这是美军首次针对伊朗油轮实施打击，以此报复伊朗在霍尔木兹海峡袭击商船...",
-            source: "环球市场播报",
-            date: "2026-09-02",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkvch7900947.shtml"
-        },
-        {
-            title: "日本央行植田和男：将在考量物价上行风险的前提下制定政策",
-            summary: " 日本央行行长植田和男表示，他将在充分考虑物价上行风险的基础上制定货币政策，此番言论或将进一步加剧市场对本月下旬政策会议可能加息的猜测。",
-            source: "环球市场播报",
-            date: "2026-09-02",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkvch7897884.shtml"
-        },
-        {
-            title: "美官员称雪佛龙将宣布新的委内瑞拉投资计划",
-            summary: "美国官员周二表示，石油巨头雪佛龙正计划扩大其在委内瑞拉的业务。就在几天前，美国总统唐纳德·特朗普宣布了一项雄心勃勃的协议，旨在开发该国的石油储量...",
+            title: "日本2年期和5年期国债收益率上涨5个基点",
+            summary: " 随着全球债券市场下行，日本2年期和5年期国债收益率上涨5个基点。2年期日本国债收益率升至1.85%；5年期日本国债收益率升至2.305%。",
             source: "环球市场播报",
             date: "2026-09-02",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkvce1297389.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmfsy1332227.shtml"
         },
         {
-            title: "荣晖控股拟斥资5.1万元收购深圳市中翱餐饮管理有限公司51%股权",
-            summary: "荣晖控股（08213）公布，于2026年9月1日（交易时段后），公司的间接全资附属永曜星科技（深圳）有限公司拟向深圳市芯路辉科技有限公司收购深圳市中翱餐饮管理有限公司51%股...",
+            title: "中金：华润置地维持跑赢行业评级 目标价46.70港元",
+            summary: "中金发布研报称，近期地产板块出现系统性回调，认为华润置地（01109）中长期第一曲线经营具备韧性，第二三曲线业务增速稳健，建议关注市场情绪稳定后的潜在配置机会。",
             source: "新浪港股",
             date: "2026-09-02",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-02/doc-iniqkvch7894676.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-02/doc-iniqmfta2951049.shtml"
+        },
+        {
+            title: "嘉艺控股于9月2日上午起短暂停牌 原因待公布",
+            summary: "嘉艺控股（01025）发布公告，该公司股份已于2026年9月2日上午9时14分起短暂停止买卖。",
+            source: "新浪港股",
+            date: "2026-09-02",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-02/doc-iniqmfta7777089.shtml"
+        },
+        {
+            title: "Line与PayPay的合作将因安全审查而推迟",
+            summary: " 媒体援引匿名消息人士报道，LY集团运营的Line与PayPay原计划于今年夏季完成的账户整合工作将推迟。Line将需要时间进行安全检查。",
+            source: "环球市场播报",
+            date: "2026-09-02",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmfta2950181.shtml"
+        },
+        {
+            title: "中通快递-W于9月1日斥资约499.52万美元回购23.71万股",
+            summary: " 中通快递-W（02057）发布公告，于2026年9月1日该公司斥资约499.52万美元回购23.71万股，回购价格为每股21至21.15美元。",
+            source: "新浪港股",
+            date: "2026-09-02",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-02/doc-iniqmfsw4556766.shtml"
+        },
+        {
+            title: "名创优品于9月1日斥资约24.71万美元回购10.34万股",
+            summary: " 名创优品（09896）发布公告，于2026年9月1日该公司斥资约24.71万美元回购10.34万股，回购价格为每股2.3625至2.415美元。",
+            source: "新浪港股",
+            date: "2026-09-02",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-02/doc-iniqmfsy1328490.shtml"
+        },
+        {
+            title: "BMI因霍尔木兹海峡封锁上调2026‑2027年亚洲液化天然气价格预期",
+            summary: "惠誉解决方案旗下BMI表示，受霍尔木兹海峡中断持续时间超出预期影响，已将2026年亚洲JKM液化天然气基准年度均价预测由12.5美元/百万英热单位上调至15...",
+            source: "环球市场播报",
+            date: "2026-09-02",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmfsw4553324.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-02",
-        marketAssessment: "A股方面：上证指数报3979.89点（-0.16%），深证成指报13872.38点（-1.02%），创业板指报3393.43点（-1.32%）。美股方面：标普500报7,631.47（-0.60%），纳斯达克报26,099.77（-0.20%）。",
+        marketAssessment: "A股方面：上证指数报3947.26点（-0.82%），深证成指报13635.33点（-1.71%），创业板指报3319.39点（-2.18%）。美股方面：标普500报7,631.47（-0.60%），纳斯达克报26,099.77（-0.20%）。",
         hotSectors: [
-
+            { name: "地面兵装Ⅲ", reason: "板块涨幅+6.82%", strength: "强" },
+            { name: "地面兵装Ⅱ", reason: "板块涨幅+6.82%", strength: "强" },
+            { name: "化妆品制造及其他", reason: "板块涨幅+5.99%", strength: "强" },
+            { name: "视频媒体", reason: "板块涨幅+4.51%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "粮食种植", reason: "板块跌幅-8.37%", strength: "弱" },
+            { name: "种子", reason: "板块跌幅-8.36%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注地面兵装Ⅲ、地面兵装Ⅱ、化妆品制造及其他等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

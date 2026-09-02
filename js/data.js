@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3941.39", change: "-0.97%", market: "A股", updateTime: "2026-09-02 实时" },
         { name: "深证成指", code: "SZ399001", value: "13611.55", change: "-1.88%", market: "A股", updateTime: "2026-09-02 实时" },
         { name: "创业板指", code: "SZ399006", value: "3312.24", change: "-2.39%", market: "A股", updateTime: "2026-09-02 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "黄金不再只是避险？知名机构转向看涨，同步看好美债与科技股",
-            summary: "来源：金十数据 施罗德投资近日上调黄金评级至看涨，认为央行强力购金已构成结构性支撑。尽管该机构警示AI估值过热及市场集中风险，但仍维持对科技股及美债的积极立场。",
+            title: "伯克希尔CEO阿贝尔承诺长期支持日本五大商社",
+            summary: " 伯克希尔哈撒韦公司首席执行官格雷格·阿贝尔承诺长期支持日本的五家商社。近年来，该公司已把对每家商社的持股比例提高至10%以上。",
+            source: "环球市场播报",
+            date: "2026-09-02",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqq4604062.shtml"
+        },
+        {
+            title: "000333，已回购超80亿元！多家A股公司，披露相应进展",
+            summary: "9月2日晚，又有多家上市公司披露回购股份进展。 据美的集团（000333）公告，截至8月31日，公司通过回购专用证券账户，以集中竞价交易方式累计回购公司A股股份数量为9979...",
+            source: "证券时报",
+            date: "2026-09-02",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-02/doc-iniqmwqs1374133.shtml"
+        },
+        {
+            title: "差1分钱涨停！600722 尾盘冲板落空，阶段累计涨幅超140%",
+            summary: "来源： 华夏时报 9月2日，此前走出2连板的热门牛股金牛化工尾盘异动，再度冲击涨停，盘中最高触及19.86元/股，距涨停价仅差1分钱。该股收盘报19.26元/股，涨幅收窄。",
             source: "市场资讯",
             date: "2026-09-02",
             tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-09-02/doc-iniqmmyw1410843.shtml"
+            url: "https://finance.sina.com.cn/china/2026-09-02/doc-iniqmwqu2785368.shtml"
         },
         {
-            title: "Anthropic发布Claude Fable 5.1与Mythos 5.1",
-            summary: "Anthropic于当地时间9月1日正式发布Claude Fable 5.1与Claude Mythos 5.1。官方表示，两款模型共享同一底层核心能力，区别在于安全护栏的松紧程度不同。",
+            title: "贝森特称美国核心通胀“得到很好控制”",
+            summary: "美国财政部长贝森特接受采访时表示，“总体而言，物价正在下降，核心通胀得到了很好的控制。” 贝森特表示，与加拿大的贸易局势对美国物价“几乎没有影响”。",
+            source: "环球市场播报",
+            date: "2026-09-02",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqs1365453.shtml"
+        },
+        {
+            title: "Uber将裁减约3300个岗位 寻求精简管理层级",
+            summary: " Uber将裁减约3300个岗位，相当于全球员工总数的10%。这项大规模重组旨在减少管理层级，并将支出重新分配至网约车、配送和Robotaxi业务。",
             source: "环球市场播报",
             date: "2026-09-02",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmmyy2927606.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqq4588242.shtml"
         },
         {
-            title: "今年第二季度外国人在韩银行卡消费创历史纪录 达48.6亿美元",
-            summary: "韩国央行周三公布数据显示，受入境游客增长带动，今年第二季度外国人在韩国的银行卡消费大幅攀升，创下历史纪录。 韩国央行数据显示，4‑6月，非本国居民在韩国境内信用卡...",
+            title: "贝森特的债券收益因30年期收益率再度跳升而消失殆尽",
+            summary: "美国最长期限国债的收益率回升至上个月财政部长斯科特·贝森特为遏制收益率上升而出人意料地扩大回购计划之前的水平。 这一策略曾短暂奏效...",
             source: "环球市场播报",
             date: "2026-09-02",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmmyw1403832.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqu2768114.shtml"
         },
         {
-            title: "美国二季度储能装机达20.2吉瓦时创历史新高",
-            summary: "美国太阳能产业协会与Benchmark Mineral Intelligence联合发布的《美国储能市场展望》第三季度报告显示，2026年第二季度美国新增储能装机20.2吉瓦时，对应持续出力约6...",
-            source: "环球市场播报",
+            title: "雀巢“瘦身”计划加速落地，10亿美元打包出售7个保健品品牌",
+            summary: "全球最大食品饮料公司雀巢集团的“瘦身”进程再添新动作。 9月2日，雀巢集团宣布以10亿美元的代价，出售旗下的主流维生素、矿物质和补充剂（VMS）业务，涉及7个品牌。",
+            source: "界面",
             date: "2026-09-02",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmmyy7752241.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-02/doc-iniqmwqu2767207.shtml"
         },
         {
-            title: "特斯拉拟于周四正式推出Cybercab",
-            summary: " 特斯拉将于当地时间周四在得克萨斯州奥斯汀举办活动，正式推出Cybercab。这是该公司首款无方向盘、无踏板的车型，将首次面向部分有限用户交付使用。",
-            source: "环球市场播报",
-            date: "2026-09-02",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmmyy2923563.shtml"
-        },
-        {
-            title: "路虎揽胜发布56年来首款纯电车型：美国起售价13.8万美元",
-            summary: "捷豹路虎于当地时间9月1日正式发布揽胜Electric，这是该车系自1969年问世以来推出的第一款纯电量产车型。新车采用MLA豪华模块化架构，与燃油...",
+            title: "美国柴油价格飙升至4月以来最高，战争致全球供应紧张",
+            summary: "美国柴油价格攀升至自4月份美伊战争初期峰值以来的最高水平，突显出随着冲突持续，通胀压力正威胁全球经济。 根据美国汽车协会的数据，周二全美平均零售价达到每加仑5...",
             source: "环球市场播报",
             date: "2026-09-02",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmmyy7750050.shtml"
-        },
-        {
-            title: "港股收评：恒指跌0.07% 科指跌0.74% 科网股走弱 中资券商股普跌",
-            summary: "9月2日消息，港股三大指数集体下跌。截至收盘，恒生指数跌0.07%，报25311.21，恒生科技指数跌0.74%，国企指数跌0.15%。盘面上，科网股跌多涨少，哔哩哔哩、快手跌超2%...",
-            source: "新浪港股",
-            date: "2026-09-02",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-02/doc-iniqmmyu4626119.shtml"
-        },
-        {
-            title: "光大期货0902热点追踪：涨停又开板，乙二醇多空博弈是否加剧？",
-            summary: "周三隔夜美伊袭击升级，中东地缘冲突再度激化，霍尔木兹海峡通航再次回归冰点，今早乙二醇2610合约开盘直接冲击涨停，随后快速开板，情绪驱动快速冲高之后多空博弈加剧...",
-            source: "市场资讯",
-            date: "2026-09-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-09-02/doc-iniqmmyw1394286.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqs1335435.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-09-02",
         marketAssessment: "A股方面：上证指数报3941.39点（-0.97%），深证成指报13611.55点（-1.88%），创业板指报3312.24点（-2.39%）。美股方面：标普500报7,631.47（-0.60%），纳斯达克报26,099.77（-0.20%）。",
         hotSectors: [

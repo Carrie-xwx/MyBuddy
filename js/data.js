@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3942.09", change: "+0.02%", market: "A股", updateTime: "2026-09-03 实时" },
         { name: "深证成指", code: "SZ399001", value: "13625.12", change: "+0.10%", market: "A股", updateTime: "2026-09-03 实时" },
         { name: "创业板指", code: "SZ399006", value: "3312.54", change: "+0.01%", market: "A股", updateTime: "2026-09-03 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "光大期货0903热点追踪：金九旺季背景下 焦煤行情变脸了吗？",
-            summary: "周四焦煤盘面继续回落，主力合约2701盘中下跌超3%。本周甘其毛都口岸通关相比八月底出现回升，但尚未大幅放量，口岸库存偏低。焦炭第四轮涨价落地，下游按需采购。",
-            source: "市场资讯",
-            date: "2026-09-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-09-03/doc-iniqpvfu1093077.shtml"
-        },
-        {
-            title: "中央气象台：全球天气公报（2026年09月03日）",
-            summary: "来源：中央气象台网站 尼泊尔印度等地仍多降雨天气 冷空气将影响新西兰南非等地 一、全球天气实况 1．南亚北欧等地有强降水 过去24小时（9月2日00时-9月3日00时，UTC）...",
-            source: "",
-            date: "2026-09-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/hyxh/2026-09-03/doc-iniqpvfs4315651.shtml"
-        },
-        {
-            title: "特朗普谈对加拿大关税威胁：朋友买飞机受阻了",
-            summary: " 美国总统唐纳德·特朗普于当地时间周三表示，他威胁要对加拿大出售给美国的所有飞机征收50%关税，起因是一位富有的朋友想购买一架私人飞机，却无法完成购买。",
+            title: "美联储理事沃勒放鸽：通胀出现持续放缓迹象，若趋势延续支持9月按兵不动",
+            summary: "美联储理事克里斯托弗·沃勒周四释放出偏鸽派的政策信号。他表示，尽管美国通胀仍明显高于美联储2%的目标，但近期数据显示去通胀进程正在重新显现...",
             source: "环球市场播报",
             date: "2026-09-03",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpvfw2074193.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/world/2026-09-03/doc-iniqqfvs1936613.shtml"
         },
         {
-            title: "港股收评：恒指跌0.39% 科指跌1.08% 科网股普跌 内房股逆势活跃",
-            summary: "9月3日消息，港股三大指数集体下跌。截至收盘，恒生指数跌0.39%，报25213.31，恒生科技指数跌1.08%，国企指数跌0.77%。盘面上，科网股普跌，小米、阿里、网易...",
-            source: "新浪港股",
-            date: "2026-09-03",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-03/doc-iniqpvfu1068493.shtml"
-        },
-        {
-            title: "央行：2026年2季度末金融业机构总资产562.2万亿元",
-            summary: "人民财讯9月3日电，央行数据显示，初步统计，2026年2季度末，我国金融业机构总资产为562.2万亿元，同比增长7.7%；其中，银行业机构总资产为497.98万亿元，同比增长6...",
-            source: "证券时报",
-            date: "2026-09-03",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-03/doc-iniqpvfw2072251.shtml"
-        },
-        {
-            title: "Jefferies将Snowflake的股价目标从385美元上调至430美元",
-            summary: "Jefferies分析师布伦特·蒂尔（Brent Thill）将Snowflake的目标股价从385美元上调至430美元，并维持“买入”评级，此前该公司公布了第二季度业绩超预期。",
+            title: "Uber联合传统出租车行业，共同对抗Waymo",
+            summary: " 面对Alphabet旗下Waymo等竞争对手在自动驾驶领域的猛烈冲击，Uber正与司机工会结成同盟，试图延缓自动驾驶出租车的落地推广，形成了一组出人意料的合作关系。",
             source: "环球市场播报",
             date: "2026-09-03",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpvfw2071145.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvs6761940.shtml"
         },
         {
-            title: "日元升至近一个月高位 市场关注日本央行加息动向",
-            summary: "9月3日，日元兑美元汇率升至近一个月高点，纽约交易时段日元大幅走强引发市场对日本当局可能再次干预汇市的猜测。日元升势在亚洲交易时段延续...",
+            title: "地方政府加快发债，前8个月7.8万亿元地方债投向哪",
+            summary: "8月份，全国发行地方政府债券约1.19万亿元。 中央要求加快债券资金使用进度后，8月份地方政府债券发行明显提速。 根据企业预警通数据，8月份全国发行地方政府债券约1...",
+            source: "一财网",
+            date: "2026-09-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-09-03/doc-iniqqfvs6761509.shtml"
+        },
+        {
+            title: "盘前：纳指期货跌0.15% 全球债市喘口气",
+            summary: "股市周四震荡交投，债券收益率则在多年高位附近趋于稳定。日元兑美元大涨，交易员一方面关注可能支撑日元进一步走强的因素，另一方面仍对日本当局再次干预汇市保持警惕。",
             source: "环球市场播报",
             date: "2026-09-03",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpvfw2068567.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvn4277304.shtml"
         },
         {
-            title: "GoPro与Starman Optical达成合并协议，股价连续大涨但交易尚未落地",
-            summary: "GoPro与私营光电子公司Starman Optical于9月1日签署最终合并协议。根据条款，现有股东合计获得2.85亿美元现金，合每股1.14美元，可按交割时净营运资本调整；同时保留存续公...",
+            title: "黄仁勋官宣：英伟达拟以129.3亿美元收购AI创企Hugging Face",
+            summary: " 英伟达CEO黄仁勋在X发文，官宣拟以129.3亿美元收购AI创企“抱抱脸”（Hugging Face），据悉，交易预计于2027年上半年完成交割，需获得监管部门批准。",
+            source: "环球市场播报",
+            date: "2026-09-03",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvs6751451.shtml"
+        },
+        {
+            title: "《富爸爸穷爸爸》作者爆出12亿美元债务，令粉丝大跌眼镜",
+            summary: " 多年以来，《富爸爸穷爸爸》的作者罗伯特・清崎一直呼吁投资者不要持有过多现金，应当去配置比特币、黄金、白银以及房地产这类资产。",
             source: "环球市场播报",
             date: "2026-09-03",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpvfw2067093.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvq1024247.shtml"
+        },
+        {
+            title: "纽约证券交易所与韩国交易所签署合作谅解备忘录",
+            summary: "纽约证券交易所与韩国交易所签署了一份谅解备忘录，双方将携手扩大投资者进入全球资本市场的渠道。 合作领域包括结算周期现代化、延长交易时段...",
+            source: "环球市场播报",
+            date: "2026-09-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvs6748249.shtml"
+        },
+        {
+            title: "黑石私募信贷基金将赎回上限设定为5%",
+            summary: " 根据提交给美国证券交易委员会的一份文件所附投资者信函，黑石私募信贷基金收到约占基金规模10%的赎回申请后，将赎回上限设定在5%。",
+            source: "环球市场播报",
+            date: "2026-09-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvn4247453.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-09-03",
         marketAssessment: "A股方面：上证指数报3942.09点（+0.02%），深证成指报13625.12点（+0.10%），创业板指报3312.54点（+0.01%）。美股方面：标普500报7,666.60（-0.12%），纳斯达克报26,217.83（+0.34%）。",
         hotSectors: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3941.39", change: "-0.97%", market: "A股", updateTime: "2026-09-02 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13611.55", change: "-1.88%", market: "A股", updateTime: "2026-09-02 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3312.24", change: "-2.39%", market: "A股", updateTime: "2026-09-02 实时" },
-        { name: "沪深300", code: "SH000300", value: "4547.96", change: "-1.38%", market: "A股", updateTime: "2026-09-02 实时" },
-        { name: "科创50", code: "SH000688", value: "1617.60", change: "-1.82%", market: "A股", updateTime: "2026-09-02 实时" },
-        { name: "标普500", code: "SPX", value: "7,631.47", change: "-0.60%", market: "美股", updateTime: "2026-09-02 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,099.77", change: "-0.20%", market: "美股", updateTime: "2026-09-02 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,766.88", change: "-1.51%", market: "美股", updateTime: "2026-09-02 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3941.39", change: "-0.97%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13611.55", change: "-1.88%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3312.24", change: "-2.39%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "沪深300", code: "SH000300", value: "4547.96", change: "-1.38%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "科创50", code: "SH000688", value: "1617.60", change: "-1.82%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "标普500", code: "SPX", value: "7,666.60", change: "-0.12%", market: "美股", updateTime: "2026-09-03 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,217.83", change: "+0.34%", market: "美股", updateTime: "2026-09-03 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,061.95", change: "-0.75%", market: "美股", updateTime: "2026-09-03 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "伯克希尔CEO阿贝尔承诺长期支持日本五大商社",
-            summary: " 伯克希尔哈撒韦公司首席执行官格雷格·阿贝尔承诺长期支持日本的五家商社。近年来，该公司已把对每家商社的持股比例提高至10%以上。",
+            title: "澳大利亚储备银行就代币化市场中结算服务的作用开展意见征询",
+            summary: " 澳大利亚储备银行发布声明表示，该行已启动意见征询，探讨储备银行信息与转账系统在代币化生态体系结算业务中可发挥的作用。",
             source: "环球市场播报",
-            date: "2026-09-02",
+            date: "2026-09-03",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqq4604062.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpeka1018154.shtml"
         },
         {
-            title: "000333，已回购超80亿元！多家A股公司，披露相应进展",
-            summary: "9月2日晚，又有多家上市公司披露回购股份进展。 据美的集团（000333）公告，截至8月31日，公司通过回购专用证券账户，以集中竞价交易方式累计回购公司A股股份数量为9979...",
-            source: "证券时报",
-            date: "2026-09-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-02/doc-iniqmwqs1374133.shtml"
-        },
-        {
-            title: "差1分钱涨停！600722 尾盘冲板落空，阶段累计涨幅超140%",
-            summary: "来源： 华夏时报 9月2日，此前走出2连板的热门牛股金牛化工尾盘异动，再度冲击涨停，盘中最高触及19.86元/股，距涨停价仅差1分钱。该股收盘报19.26元/股，涨幅收窄。",
-            source: "市场资讯",
-            date: "2026-09-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-09-02/doc-iniqmwqu2785368.shtml"
-        },
-        {
-            title: "贝森特称美国核心通胀“得到很好控制”",
-            summary: "美国财政部长贝森特接受采访时表示，“总体而言，物价正在下降，核心通胀得到了很好的控制。” 贝森特表示，与加拿大的贸易局势对美国物价“几乎没有影响”。",
+            title: "韩国选择由Naver牵头的联盟 开发专注于网络安全的人工智能基础模型",
+            summary: "据韩国科学技术信息通信部声明，韩国已选定由Naver Cloud牵头的联盟， 开发专攻网络安全领域的人工智能基础大模型。政府将从9月起向该联盟提供256块英伟达 B200 GPU...",
             source: "环球市场播报",
-            date: "2026-09-02",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqs1365453.shtml"
+            date: "2026-09-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpeiy4244053.shtml"
         },
         {
-            title: "Uber将裁减约3300个岗位 寻求精简管理层级",
-            summary: " Uber将裁减约3300个岗位，相当于全球员工总数的10%。这项大规模重组旨在减少管理层级，并将支出重新分配至网约车、配送和Robotaxi业务。",
-            source: "环球市场播报",
-            date: "2026-09-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqq4588242.shtml"
+            title: "立德教育：控股股东拟出售约29.9%公司股份",
+            summary: "立德教育（01449）发布公告，公司董事会获悉，于2026年9月2日，树人教育有限公司（树人），作为公司控股股东，与Scienjoy Innovation Labs...",
+            source: "新浪港股",
+            date: "2026-09-03",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeke2239343.shtml"
         },
         {
-            title: "贝森特的债券收益因30年期收益率再度跳升而消失殆尽",
-            summary: "美国最长期限国债的收益率回升至上个月财政部长斯科特·贝森特为遏制收益率上升而出人意料地扩大回购计划之前的水平。 这一策略曾短暂奏效...",
-            source: "环球市场播报",
-            date: "2026-09-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqu2768114.shtml"
+            title: "中国黄金国际入选恒生增幅指数和恒生港股通央企质量指数",
+            summary: " 中国黄金国际（02099）发布公告，公司入选恒生增幅指数和恒生港股通央企质量指数。该变动将于2026年9月4日收市后实施，并于9月7日起生效。",
+            source: "新浪港股",
+            date: "2026-09-03",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeiy4241804.shtml"
         },
         {
-            title: "雀巢“瘦身”计划加速落地，10亿美元打包出售7个保健品品牌",
-            summary: "全球最大食品饮料公司雀巢集团的“瘦身”进程再添新动作。 9月2日，雀巢集团宣布以10亿美元的代价，出售旗下的主流维生素、矿物质和补充剂（VMS）业务，涉及7个品牌。",
-            source: "界面",
-            date: "2026-09-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-02/doc-iniqmwqu2767207.shtml"
+            title: "英派药业-B获执行董事兼首席执行官蔡遂雄增持10万股",
+            summary: "英派药业-B（07630）发布公告，董事会获公司执行董事兼首席执行官蔡遂雄博士告知，其近期已于公开市场购买合共10万股公司普通股，每股股份平均价格为约14.6105港元...",
+            source: "新浪港股",
+            date: "2026-09-03",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeke2237535.shtml"
         },
         {
-            title: "美国柴油价格飙升至4月以来最高，战争致全球供应紧张",
-            summary: "美国柴油价格攀升至自4月份美伊战争初期峰值以来的最高水平，突显出随着冲突持续，通胀压力正威胁全球经济。 根据美国汽车协会的数据，周二全美平均零售价达到每加仑5...",
-            source: "环球市场播报",
-            date: "2026-09-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqs1335435.shtml"
+            title: "李宁获Viva Goods Company Limited增持778.1万股 每股作价约13.54港元",
+            summary: "香港联交所最新数据显示，8月31日，Viva Goods Company Limited增持李宁（02331）778.1万股，每股作价13.5354港元，总金额约为1.05亿港元。",
+            source: "新浪港股",
+            date: "2026-09-03",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeiy4238562.shtml"
+        },
+        {
+            title: "安东油田服务获Pro Development Holdings Corp.增持389.6万股 每股作价0.7676港元",
+            summary: "香港联交所最新数据显示，8月31日，Pro Development Holdings Corp．增持安东油田服务（03337）389.6万股，每股作价0.7676港元，总金额约为299.06万港元。",
+            source: "新浪港股",
+            date: "2026-09-03",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeka1009866.shtml"
+        },
+        {
+            title: "康龙化成获Morgan Stanley增持约276.52万股 每股作价约29.62港元",
+            summary: "香港联交所最新数据显示，8月27日，Morgan Stanley增持康龙化成（03759）276.5243万股，每股作价29.6166港元，总金额约为8189.71万港元。",
+            source: "新浪港股",
+            date: "2026-09-03",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeiy4236171.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-09-02",
-        marketAssessment: "A股方面：上证指数报3941.39点（-0.97%），深证成指报13611.55点（-1.88%），创业板指报3312.24点（-2.39%）。美股方面：标普500报7,631.47（-0.60%），纳斯达克报26,099.77（-0.20%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-09-03",
+        marketAssessment: "A股方面：上证指数报3941.39点（-0.97%），深证成指报13611.55点（-1.88%），创业板指报3312.24点（-2.39%）。美股方面：标普500报7,666.60（-0.12%），纳斯达克报26,217.83（+0.34%）。",
         hotSectors: [
-
+            { name: "地面兵装Ⅲ", reason: "板块涨幅+5.90%", strength: "强" },
+            { name: "地面兵装Ⅱ", reason: "板块涨幅+5.90%", strength: "强" },
+            { name: "化妆品制造及其他", reason: "板块涨幅+5.27%", strength: "强" },
+            { name: "化妆品", reason: "板块涨幅+2.96%", strength: "中强" },
         ],
         weakSectors: [
-
+            { name: "粮食种植", reason: "板块跌幅-8.85%", strength: "弱" },
+            { name: "种子", reason: "板块跌幅-7.70%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注地面兵装Ⅲ、地面兵装Ⅱ、化妆品制造及其他等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3941.39", change: "-0.97%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13611.55", change: "-1.88%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3312.24", change: "-2.39%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "沪深300", code: "SH000300", value: "4547.96", change: "-1.38%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "科创50", code: "SH000688", value: "1617.60", change: "-1.82%", market: "A股", updateTime: "2026-09-03 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3934.39", change: "-0.18%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13570.04", change: "-0.30%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3295.78", change: "-0.50%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "沪深300", code: "SH000300", value: "4543.63", change: "-0.10%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "科创50", code: "SH000688", value: "1604.09", change: "-0.84%", market: "A股", updateTime: "2026-09-03 实时" },
         { name: "标普500", code: "SPX", value: "7,666.60", change: "-0.12%", market: "美股", updateTime: "2026-09-03 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,217.83", change: "+0.34%", market: "美股", updateTime: "2026-09-03 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,061.95", change: "-0.75%", market: "美股", updateTime: "2026-09-03 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "澳大利亚储备银行就代币化市场中结算服务的作用开展意见征询",
-            summary: " 澳大利亚储备银行发布声明表示，该行已启动意见征询，探讨储备银行信息与转账系统在代币化生态体系结算业务中可发挥的作用。",
+            title: "神州控股午后涨近8% 开源证券给予“买入”评级",
+            summary: "神州控股（00861）午后涨近8%，截至发稿，股价上涨7.81%，现报1.725港元，成交额80.32万港元。 神州控股发布2026年中期业绩公告。",
+            source: "新浪港股",
+            date: "2026-09-03",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-03/doc-iniqpqxy2131299.shtml"
+        },
+        {
+            title: "欧洲天然气储备告急 或加剧全球天然气供应争夺战",
+            summary: "欧洲夏季即将结束，天然气储备告急，这可能会加剧全球天然气供应争夺战。据报道，该地区仍需超过 100 太瓦时的天然气才能达到 75% 的最低储存目标...",
             source: "环球市场播报",
             date: "2026-09-03",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpeka1018154.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpqxy2130854.shtml"
         },
         {
-            title: "韩国选择由Naver牵头的联盟 开发专注于网络安全的人工智能基础模型",
-            summary: "据韩国科学技术信息通信部声明，韩国已选定由Naver Cloud牵头的联盟， 开发专攻网络安全领域的人工智能基础大模型。政府将从9月起向该联盟提供256块英伟达 B200 GPU...",
+            title: "黄仁勋G20发言：不要对人工智能过度恐惧和监管",
+            summary: "当地时间周三，英伟达首席执行官黄仁勋敦促二十国集团领导人拥抱人工智能基础设施和应用，并警告称，对人工智能过度的恐惧或监管可能会使各国错失下一次重大技术革命的机遇...",
             source: "环球市场播报",
             date: "2026-09-03",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpeiy4244053.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpqxu4272784.shtml"
         },
         {
-            title: "立德教育：控股股东拟出售约29.9%公司股份",
-            summary: "立德教育（01449）发布公告，公司董事会获悉，于2026年9月2日，树人教育有限公司（树人），作为公司控股股东，与Scienjoy Innovation Labs...",
+            title: "三一国际午后涨超7% 瑞银维持“买入”评级",
+            summary: "三一国际（00631）盘中涨近9%。截至发稿，股价上涨7.14%，现报9.68港元，成交额1.013亿港元。 三一国际上半年业绩后举办的投资者会议要点显示...",
             source: "新浪港股",
             date: "2026-09-03",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeke2239343.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-03/doc-iniqpqxy6955100.shtml"
         },
         {
-            title: "中国黄金国际入选恒生增幅指数和恒生港股通央企质量指数",
-            summary: " 中国黄金国际（02099）发布公告，公司入选恒生增幅指数和恒生港股通央企质量指数。该变动将于2026年9月4日收市后实施，并于9月7日起生效。",
+            title: "轩竹生物-B午后涨逾6% 中期收入同比大增288.1%至6940万元",
+            summary: "轩竹生物-B（02575）盘中涨超8%，截至发稿，股价上涨5.95%，现报9.97港元，成交额293.42万港元。 轩竹生物-B发布截至2026年6月30日止6个月业绩...",
             source: "新浪港股",
             date: "2026-09-03",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeiy4241804.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-03/doc-iniqpqxw1041375.shtml"
         },
         {
-            title: "英派药业-B获执行董事兼首席执行官蔡遂雄增持10万股",
-            summary: "英派药业-B（07630）发布公告，董事会获公司执行董事兼首席执行官蔡遂雄博士告知，其近期已于公开市场购买合共10万股公司普通股，每股股份平均价格为约14.6105港元...",
+            title: "阿布扎比 AI 企业 G42 据悉考虑融资数十亿美元",
+            summary: " 知情人士透露，总部位于阿布扎比的人工智能企业 G42 已与潜在投资者开展试探性谈判，计划融资数十亿美元。该公司或将效仿阿联酋其他国有关联企业，开拓外部融资渠道。",
+            source: "环球市场播报",
+            date: "2026-09-03",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpqxu4268378.shtml"
+        },
+        {
+            title: "韩国又发生大规模数据泄露事件，Tving近4000万用户信息被盗",
+            summary: " 周四公布的联合调查结果显示，韩国流媒体平台Tving在6月报告的一起黑客事件引发的大规模数据泄露中，有近4000万个用户账号信息被窃取。",
+            source: "环球市场播报",
+            date: "2026-09-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpqxu4267588.shtml"
+        },
+        {
+            title: "仙工智能午后涨逾9% 公司获纳入恒生综合指数后续有望进入港股通",
+            summary: "仙工智能（06106）午后涨逾9%。截至发稿，股价上涨8.80%，现报70.50港元，成交额488.29万港元。 仙工智能获纳入恒生综合指数，指数变动将于9月4日（星期五）收市后实施...",
             source: "新浪港股",
             date: "2026-09-03",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeke2237535.shtml"
-        },
-        {
-            title: "李宁获Viva Goods Company Limited增持778.1万股 每股作价约13.54港元",
-            summary: "香港联交所最新数据显示，8月31日，Viva Goods Company Limited增持李宁（02331）778.1万股，每股作价13.5354港元，总金额约为1.05亿港元。",
-            source: "新浪港股",
-            date: "2026-09-03",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeiy4238562.shtml"
-        },
-        {
-            title: "安东油田服务获Pro Development Holdings Corp.增持389.6万股 每股作价0.7676港元",
-            summary: "香港联交所最新数据显示，8月31日，Pro Development Holdings Corp．增持安东油田服务（03337）389.6万股，每股作价0.7676港元，总金额约为299.06万港元。",
-            source: "新浪港股",
-            date: "2026-09-03",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeka1009866.shtml"
-        },
-        {
-            title: "康龙化成获Morgan Stanley增持约276.52万股 每股作价约29.62港元",
-            summary: "香港联交所最新数据显示，8月27日，Morgan Stanley增持康龙化成（03759）276.5243万股，每股作价29.6166港元，总金额约为8189.71万港元。",
-            source: "新浪港股",
-            date: "2026-09-03",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-03/doc-iniqpeiy4236171.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-03/doc-iniqpqxu4266273.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-03",
-        marketAssessment: "A股方面：上证指数报3941.39点（-0.97%），深证成指报13611.55点（-1.88%），创业板指报3312.24点（-2.39%）。美股方面：标普500报7,666.60（-0.12%），纳斯达克报26,217.83（+0.34%）。",
+        marketAssessment: "A股方面：上证指数报3934.39点（-0.18%），深证成指报13570.04点（-0.30%），创业板指报3295.78点（-0.50%）。美股方面：标普500报7,666.60（-0.12%），纳斯达克报26,217.83（+0.34%）。",
         hotSectors: [
-            { name: "地面兵装Ⅲ", reason: "板块涨幅+5.90%", strength: "强" },
-            { name: "地面兵装Ⅱ", reason: "板块涨幅+5.90%", strength: "强" },
-            { name: "化妆品制造及其他", reason: "板块涨幅+5.27%", strength: "强" },
-            { name: "化妆品", reason: "板块涨幅+2.96%", strength: "中强" },
+
         ],
         weakSectors: [
-            { name: "粮食种植", reason: "板块跌幅-8.85%", strength: "弱" },
-            { name: "种子", reason: "板块跌幅-7.70%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注地面兵装Ⅲ、地面兵装Ⅱ、化妆品制造及其他等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

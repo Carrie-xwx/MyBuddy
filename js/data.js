@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3934.39", change: "-0.18%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13570.04", change: "-0.30%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3295.78", change: "-0.50%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "沪深300", code: "SH000300", value: "4543.63", change: "-0.10%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "科创50", code: "SH000688", value: "1604.09", change: "-0.84%", market: "A股", updateTime: "2026-09-03 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3942.09", change: "+0.02%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13625.12", change: "+0.10%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3312.54", change: "+0.01%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "沪深300", code: "SH000300", value: "4552.58", change: "+0.10%", market: "A股", updateTime: "2026-09-03 实时" },
+        { name: "科创50", code: "SH000688", value: "1611.17", change: "-0.40%", market: "A股", updateTime: "2026-09-03 实时" },
         { name: "标普500", code: "SPX", value: "7,666.60", change: "-0.12%", market: "美股", updateTime: "2026-09-03 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,217.83", change: "+0.34%", market: "美股", updateTime: "2026-09-03 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,061.95", change: "-0.75%", market: "美股", updateTime: "2026-09-03 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "神州控股午后涨近8% 开源证券给予“买入”评级",
-            summary: "神州控股（00861）午后涨近8%，截至发稿，股价上涨7.81%，现报1.725港元，成交额80.32万港元。 神州控股发布2026年中期业绩公告。",
+            title: "光大期货0903热点追踪：金九旺季背景下 焦煤行情变脸了吗？",
+            summary: "周四焦煤盘面继续回落，主力合约2701盘中下跌超3%。本周甘其毛都口岸通关相比八月底出现回升，但尚未大幅放量，口岸库存偏低。焦炭第四轮涨价落地，下游按需采购。",
+            source: "市场资讯",
+            date: "2026-09-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-09-03/doc-iniqpvfu1093077.shtml"
+        },
+        {
+            title: "中央气象台：全球天气公报（2026年09月03日）",
+            summary: "来源：中央气象台网站 尼泊尔印度等地仍多降雨天气 冷空气将影响新西兰南非等地 一、全球天气实况 1．南亚北欧等地有强降水 过去24小时（9月2日00时-9月3日00时，UTC）...",
+            source: "",
+            date: "2026-09-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/hyxh/2026-09-03/doc-iniqpvfs4315651.shtml"
+        },
+        {
+            title: "特朗普谈对加拿大关税威胁：朋友买飞机受阻了",
+            summary: " 美国总统唐纳德·特朗普于当地时间周三表示，他威胁要对加拿大出售给美国的所有飞机征收50%关税，起因是一位富有的朋友想购买一架私人飞机，却无法完成购买。",
+            source: "环球市场播报",
+            date: "2026-09-03",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpvfw2074193.shtml"
+        },
+        {
+            title: "港股收评：恒指跌0.39% 科指跌1.08% 科网股普跌 内房股逆势活跃",
+            summary: "9月3日消息，港股三大指数集体下跌。截至收盘，恒生指数跌0.39%，报25213.31，恒生科技指数跌1.08%，国企指数跌0.77%。盘面上，科网股普跌，小米、阿里、网易...",
             source: "新浪港股",
             date: "2026-09-03",
             tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-03/doc-iniqpqxy2131299.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-03/doc-iniqpvfu1068493.shtml"
         },
         {
-            title: "欧洲天然气储备告急 或加剧全球天然气供应争夺战",
-            summary: "欧洲夏季即将结束，天然气储备告急，这可能会加剧全球天然气供应争夺战。据报道，该地区仍需超过 100 太瓦时的天然气才能达到 75% 的最低储存目标...",
+            title: "央行：2026年2季度末金融业机构总资产562.2万亿元",
+            summary: "人民财讯9月3日电，央行数据显示，初步统计，2026年2季度末，我国金融业机构总资产为562.2万亿元，同比增长7.7%；其中，银行业机构总资产为497.98万亿元，同比增长6...",
+            source: "证券时报",
+            date: "2026-09-03",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-03/doc-iniqpvfw2072251.shtml"
+        },
+        {
+            title: "Jefferies将Snowflake的股价目标从385美元上调至430美元",
+            summary: "Jefferies分析师布伦特·蒂尔（Brent Thill）将Snowflake的目标股价从385美元上调至430美元，并维持“买入”评级，此前该公司公布了第二季度业绩超预期。",
             source: "环球市场播报",
             date: "2026-09-03",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpqxy2130854.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpvfw2071145.shtml"
         },
         {
-            title: "黄仁勋G20发言：不要对人工智能过度恐惧和监管",
-            summary: "当地时间周三，英伟达首席执行官黄仁勋敦促二十国集团领导人拥抱人工智能基础设施和应用，并警告称，对人工智能过度的恐惧或监管可能会使各国错失下一次重大技术革命的机遇...",
+            title: "日元升至近一个月高位 市场关注日本央行加息动向",
+            summary: "9月3日，日元兑美元汇率升至近一个月高点，纽约交易时段日元大幅走强引发市场对日本当局可能再次干预汇市的猜测。日元升势在亚洲交易时段延续...",
+            source: "环球市场播报",
+            date: "2026-09-03",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpvfw2068567.shtml"
+        },
+        {
+            title: "GoPro与Starman Optical达成合并协议，股价连续大涨但交易尚未落地",
+            summary: "GoPro与私营光电子公司Starman Optical于9月1日签署最终合并协议。根据条款，现有股东合计获得2.85亿美元现金，合每股1.14美元，可按交割时净营运资本调整；同时保留存续公...",
             source: "环球市场播报",
             date: "2026-09-03",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpqxu4272784.shtml"
-        },
-        {
-            title: "三一国际午后涨超7% 瑞银维持“买入”评级",
-            summary: "三一国际（00631）盘中涨近9%。截至发稿，股价上涨7.14%，现报9.68港元，成交额1.013亿港元。 三一国际上半年业绩后举办的投资者会议要点显示...",
-            source: "新浪港股",
-            date: "2026-09-03",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-03/doc-iniqpqxy6955100.shtml"
-        },
-        {
-            title: "轩竹生物-B午后涨逾6% 中期收入同比大增288.1%至6940万元",
-            summary: "轩竹生物-B（02575）盘中涨超8%，截至发稿，股价上涨5.95%，现报9.97港元，成交额293.42万港元。 轩竹生物-B发布截至2026年6月30日止6个月业绩...",
-            source: "新浪港股",
-            date: "2026-09-03",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-03/doc-iniqpqxw1041375.shtml"
-        },
-        {
-            title: "阿布扎比 AI 企业 G42 据悉考虑融资数十亿美元",
-            summary: " 知情人士透露，总部位于阿布扎比的人工智能企业 G42 已与潜在投资者开展试探性谈判，计划融资数十亿美元。该公司或将效仿阿联酋其他国有关联企业，开拓外部融资渠道。",
-            source: "环球市场播报",
-            date: "2026-09-03",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpqxu4268378.shtml"
-        },
-        {
-            title: "韩国又发生大规模数据泄露事件，Tving近4000万用户信息被盗",
-            summary: " 周四公布的联合调查结果显示，韩国流媒体平台Tving在6月报告的一起黑客事件引发的大规模数据泄露中，有近4000万个用户账号信息被窃取。",
-            source: "环球市场播报",
-            date: "2026-09-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpqxu4267588.shtml"
-        },
-        {
-            title: "仙工智能午后涨逾9% 公司获纳入恒生综合指数后续有望进入港股通",
-            summary: "仙工智能（06106）午后涨逾9%。截至发稿，股价上涨8.80%，现报70.50港元，成交额488.29万港元。 仙工智能获纳入恒生综合指数，指数变动将于9月4日（星期五）收市后实施...",
-            source: "新浪港股",
-            date: "2026-09-03",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-03/doc-iniqpqxu4266273.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqpvfw2067093.shtml"
         },
     ],
 
@@ -765,17 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-03",
-        marketAssessment: "A股方面：上证指数报3934.39点（-0.18%），深证成指报13570.04点（-0.30%），创业板指报3295.78点（-0.50%）。美股方面：标普500报7,666.60（-0.12%），纳斯达克报26,217.83（+0.34%）。",
+        marketAssessment: "A股方面：上证指数报3942.09点（+0.02%），深证成指报13625.12点（+0.10%），创业板指报3312.54点（+0.01%）。美股方面：标普500报7,666.60（-0.12%），纳斯达克报26,217.83（+0.34%）。",
         hotSectors: [
 
         ],
         weakSectors: [
 
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

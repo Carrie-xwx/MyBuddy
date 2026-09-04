@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3942.09", change: "+0.02%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13625.12", change: "+0.10%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3312.54", change: "+0.01%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "沪深300", code: "SH000300", value: "4552.58", change: "+0.10%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "科创50", code: "SH000688", value: "1611.17", change: "-0.40%", market: "A股", updateTime: "2026-09-03 实时" },
-        { name: "标普500", code: "SPX", value: "7,666.60", change: "-0.12%", market: "美股", updateTime: "2026-09-03 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,217.83", change: "+0.34%", market: "美股", updateTime: "2026-09-03 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,061.95", change: "-0.75%", market: "美股", updateTime: "2026-09-03 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3942.09", change: "+0.02%", market: "A股", updateTime: "2026-09-04 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13625.12", change: "+0.10%", market: "A股", updateTime: "2026-09-04 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3312.54", change: "+0.01%", market: "A股", updateTime: "2026-09-04 实时" },
+        { name: "沪深300", code: "SH000300", value: "4552.58", change: "+0.10%", market: "A股", updateTime: "2026-09-04 实时" },
+        { name: "科创50", code: "SH000688", value: "1611.17", change: "-0.40%", market: "A股", updateTime: "2026-09-04 实时" },
+        { name: "标普500", code: "SPX", value: "7,747.71", change: "+0.22%", market: "美股", updateTime: "2026-09-04 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,584.06", change: "+0.16%", market: "美股", updateTime: "2026-09-04 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,686.11", change: "+0.22%", market: "美股", updateTime: "2026-09-04 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "美联储理事沃勒放鸽：通胀出现持续放缓迹象，若趋势延续支持9月按兵不动",
-            summary: "美联储理事克里斯托弗·沃勒周四释放出偏鸽派的政策信号。他表示，尽管美国通胀仍明显高于美联储2%的目标，但近期数据显示去通胀进程正在重新显现...",
+            title: "日本10年期国债收益率下跌5.5个基点至2.91%",
+            summary: "随着日元兑美元保持强势，日本10年期国债收益率下跌5.5个基点至2.91%。",
             source: "环球市场播报",
-            date: "2026-09-03",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/world/2026-09-03/doc-iniqqfvs1936613.shtml"
-        },
-        {
-            title: "Uber联合传统出租车行业，共同对抗Waymo",
-            summary: " 面对Alphabet旗下Waymo等竞争对手在自动驾驶领域的猛烈冲击，Uber正与司机工会结成同盟，试图延缓自动驾驶出租车的落地推广，形成了一组出人意料的合作关系。",
-            source: "环球市场播报",
-            date: "2026-09-03",
+            date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvs6761940.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqrihy4046663.shtml"
         },
         {
-            title: "地方政府加快发债，前8个月7.8万亿元地方债投向哪",
-            summary: "8月份，全国发行地方政府债券约1.19万亿元。 中央要求加快债券资金使用进度后，8月份地方政府债券发行明显提速。 根据企业预警通数据，8月份全国发行地方政府债券约1...",
-            source: "一财网",
-            date: "2026-09-03",
+            title: "韩国宣布获四家美国公司约20亿美元投资承诺",
+            summary: " 韩国产业通商资源部周五表示，四家美国企业已承诺在半导体、先进材料和能源领域向韩国投资合计2.8万亿韩元（约合20亿美元）。",
+            source: "环球市场播报",
+            date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-09-03/doc-iniqqfvs6761509.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqrihy4044235.shtml"
         },
         {
-            title: "盘前：纳指期货跌0.15% 全球债市喘口气",
-            summary: "股市周四震荡交投，债券收益率则在多年高位附近趋于稳定。日元兑美元大涨，交易员一方面关注可能支撑日元进一步走强的因素，另一方面仍对日本当局再次干预汇市保持警惕。",
+            title: "日本外汇事务负责人称在外汇问题上立场不变 持续与美国当局密切联系",
+            summary: " 尽管日元对美元走强，日本外汇事务负责人三村淳表示，他捍卫日元的立场始终如一。三村在东京告诉记者，自本周稍早的G20峰会以来，他一直与美国当局保持密切联系。",
             source: "环球市场播报",
-            date: "2026-09-03",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvn4277304.shtml"
-        },
-        {
-            title: "黄仁勋官宣：英伟达拟以129.3亿美元收购AI创企Hugging Face",
-            summary: " 英伟达CEO黄仁勋在X发文，官宣拟以129.3亿美元收购AI创企“抱抱脸”（Hugging Face），据悉，交易预计于2027年上半年完成交割，需获得监管部门批准。",
-            source: "环球市场播报",
-            date: "2026-09-03",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvs6751451.shtml"
-        },
-        {
-            title: "《富爸爸穷爸爸》作者爆出12亿美元债务，令粉丝大跌眼镜",
-            summary: " 多年以来，《富爸爸穷爸爸》的作者罗伯特・清崎一直呼吁投资者不要持有过多现金，应当去配置比特币、黄金、白银以及房地产这类资产。",
-            source: "环球市场播报",
-            date: "2026-09-03",
+            date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvq1024247.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqrihy4043609.shtml"
         },
         {
-            title: "纽约证券交易所与韩国交易所签署合作谅解备忘录",
-            summary: "纽约证券交易所与韩国交易所签署了一份谅解备忘录，双方将携手扩大投资者进入全球资本市场的渠道。 合作领域包括结算周期现代化、延长交易时段...",
-            source: "环球市场播报",
-            date: "2026-09-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvs6748249.shtml"
+            title: "中石化冠德获中国石油化工集团增持32.6万股 每股作价约3.72港元",
+            summary: "香港联交所最新数据显示，9月1日，中国石油化工集团有限公司 （China Petrochemical Corporation）增持中石化冠德（00934）32.6万股，每股作价3.7173港元，总金额约为121...",
+            source: "新浪港股",
+            date: "2026-09-04",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-04/doc-iniqrihy4039495.shtml"
         },
         {
-            title: "黑石私募信贷基金将赎回上限设定为5%",
-            summary: " 根据提交给美国证券交易委员会的一份文件所附投资者信函，黑石私募信贷基金收到约占基金规模10%的赎回申请后，将赎回上限设定在5%。",
+            title: "申洲国际获主席马建荣增持560万股 每股作价约36.14港元",
+            summary: "香港联交所最新数据显示，9月1日，主席马建荣增持申洲国际（02313）560万股，每股作价36.1436港元，总金额约为2.02亿港元。增持后最新持股数目约为6.46亿股，持股比例为42...",
+            source: "新浪港股",
+            date: "2026-09-04",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-04/doc-iniqrihy4037457.shtml"
+        },
+        {
+            title: "亿腾嘉和获倪昕增持15万股 每股作价约1.65港元",
+            summary: "香港联交所最新数据显示，9月1日，倪昕增持亿腾嘉和（06998）15万股，每股作价1.6489港元，总金额约为24.73万港元。增持后最新持股数目约为7.63亿股，最新持股比例为37...",
+            source: "新浪港股",
+            date: "2026-09-04",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-04/doc-iniqriia0808196.shtml"
+        },
+        {
+            title: "华润万象生活获王磊增持5万股 每股作价38.52港元",
+            summary: " 香港联交所最新数据显示，9月1日，王磊增持华润万象生活（01209）5万股，每股作价38.52港元，总金额为192.6万港元。增持后最新持股数目约为5万股。",
+            source: "新浪港股",
+            date: "2026-09-04",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-04/doc-iniqriie6360264.shtml"
+        },
+        {
+            title: "大众汽车计划到本十年末裁员10万人，为汽车业史上规模最大",
+            summary: " 德国汽车巨头大众汽车集团周四表示，管理层与工会已达成协议，到本十年末总计裁减 10 万个工作岗位，这是全球汽车行业史上规模最大的一次重组。",
             source: "环球市场播报",
-            date: "2026-09-03",
+            date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-03/doc-iniqqfvn4247453.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqriia0807006.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-09-03",
-        marketAssessment: "A股方面：上证指数报3942.09点（+0.02%），深证成指报13625.12点（+0.10%），创业板指报3312.54点（+0.01%）。美股方面：标普500报7,666.60（-0.12%），纳斯达克报26,217.83（+0.34%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-09-04",
+        marketAssessment: "A股方面：上证指数报3942.09点（+0.02%），深证成指报13625.12点（+0.10%），创业板指报3312.54点（+0.01%）。美股方面：标普500报7,747.71（+0.22%），纳斯达克报26,584.06（+0.16%）。",
         hotSectors: [
 
         ],

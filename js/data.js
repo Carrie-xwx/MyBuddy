@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-04 实时" },
         { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-04 实时" },
         { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-04 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "受伊朗战事风险影响 原油有望录得7月以来最大单周涨幅",
-            summary: "美伊冲突再度爆发，市场担忧霍尔木兹海峡能源运输将长期受阻，原油有望收获7月以来最大单周涨幅。 布伦特原油交易价格突破每桶95美元...",
+            title: "美国8月非农就业人数大增16.2万 超出所有预期",
+            summary: "美国8月就业人数增长超过预期，失业率保持稳定，显示劳动力市场的动能强于此前认为的水平。 美国劳工统计局周五公布的数据显示，8月非农就业人数增加16.2万...",
             source: "环球市场播报",
             date: "2026-09-04",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsenq4067413.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskus6034745.shtml"
         },
         {
-            title: "美银：货币市场与债券基金吸纳本周大部分资金流入",
-            summary: "美国银行表示，本周所有主要资产类别均出现资金流入，其中货币市场基金与债券基金吸纳了绝大部分资金。 美银援引EPFR全球数据显示，截至9月2日当周...",
+            title: "美国８月份非农就业人数增加16.2万人 失业率报4.1%",
+            summary: "非农就业人数预估为增加5.5万人， 接受调查的76位经济学家的预测范围为减少2.5万人至增加12.5万人。 劳动力参与率为61.6%，前一个月为61.4%。",
+            source: "环球市场播报",
+            date: "2026-09-04",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskus6034469.shtml"
+        },
+        {
+            title: "超级大超预期！美国8月非农新增16.2万 失业率维持4.1% 前两月就业累计上修5.5万",
+            summary: " 美国劳工统计局周五公布的数据显示，8月非农就业人口增加16.2万人，显著高于此前12个月平均每月仅3.1万人的增幅；失业率维持在4.1%不变，失业人数基本稳定在700万人。",
+            source: "环球市场播报",
+            date: "2026-09-04",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskus6030003.shtml"
+        },
+        {
+            title: "盘前：纳指期货涨0.45% 露露乐蒙暴跌20%",
+            summary: " 美国股市周五走势平稳，美国国债小幅上涨。交易员正在等待当天公布的非农就业报告，以判断这份数据是否足以给美联储更多理由，在9月会议上暂缓加息。",
+            source: "环球市场播报",
+            date: "2026-09-04",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskuq0880069.shtml"
+        },
+        {
+            title: "新报告显示：去年全球亿万富翁总财富达到15.1万亿美元",
+            summary: "核心要点财富研究机构 Altrata 最新报告显示，受 AI 投资热潮推动，2025 年全球亿万富翁数量接近 3800 人，合计总财富达 15.1 万亿美元。",
             source: "环球市场播报",
             date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsenq4066889.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskus6025593.shtml"
         },
         {
-            title: "阿根廷米莱升级马岛争端，特朗普质疑美国对英国的支持",
-            summary: "核心要点阿根廷总统哈维尔・米莱再度重申本国对福克兰群岛（马尔维纳斯群岛）的主权主张，并威胁对相关石油企业实施制裁。就在米莱采取上述行动之际...",
+            title: "5连板牛股突发！公司及董秘被监管警示",
+            summary: "龙版传媒及有关责任人被予以监管警示。 9月4日，龙版传媒（605577）连续收出第5个涨停板，最近5个交易日累计涨幅达到61.14%。 在股价连续上涨之后...",
+            source: "",
+            date: "2026-09-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-09-04/doc-iniqskun4097487.shtml"
+        },
+        {
+            title: "露露乐蒙再度下调业绩指引，又一个季度销售表现承压",
+            summary: "这家运动服饰零售商将全年销售额预期下调至 103.5‑105 亿美元，此前指引为 110‑111.5 亿美元露露乐蒙第二季度营收下滑 4%，至 24.2 亿美元。",
             source: "环球市场播报",
             date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqsenq4066258.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskun4079131.shtml"
         },
         {
-            title: "片山皋月将在日本内阁改组中续任财务大臣",
-            summary: " 据多家媒体报道，在即将到来的日本内阁改组中，财务大臣片山皋月将继续留任，这项决定或将支持她处理经济、外汇和预算流程的兴革。",
-            source: "环球市场播报",
+            title: "王华杰任上海市副市长",
+            summary: " 9月4日，上海市第十六届人大常委会第三十三次会议审议并表决通过有关人事任免事项，决定任命王华杰为上海市副市长，决定免去解冬的上海市副市长职务。",
+            source: "澎湃新闻",
             date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsens0838325.shtml"
-        },
-        {
-            title: "交易员押注MiniMax 因沙特方面采用其产品",
-            summary: " 因有消息称沙特一家企业采用MiniMax的M3模型搭建国家人工智能平台，该股股价逼近近一个月高点，MiniMax集团期权成交量大幅飙升。",
-            source: "环球市场播报",
-            date: "2026-09-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqsenq4062856.shtml"
-        },
-        {
-            title: "视频 | 大疆和影石亮相IFA同一展馆，多个品类正面竞争",
-            summary: "新浪科技讯 9月4日下午消息，IFA 2026期间，大疆和影石创新两个老对手均在20号展馆亮相。 新浪科技在两家企业展台看到，双方展示的运动相机、无人机等多个品类高度重合...",
-            source: "新浪科技",
-            date: "2026-09-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tech/it/2026-09-04/doc-iniqsenq4062228.shtml"
-        },
-        {
-            title: "WPS多维表格发布“灵感应用”：一句话，业务员便可搭建业务应用",
-            summary: "新浪科技讯 9月4日下午消息，近日，WPS多维表格新功能“灵感应用”发布：用户以自然语言描述业务需求，AI即可生成可直接使用、持续迭代的个性化业务应用...",
-            source: "新浪科技",
-            date: "2026-09-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tech/it/2026-09-04/doc-iniqsenq4060575.shtml"
-        },
-        {
-            title: "西太平洋银行：挪威主权财富基金减持债券预示市场将迎来重新定价",
-            summary: " 西太平洋银行表示，挪威主权财富基金拟减持政府债券，有报道称其中可能包含规模可观的美国国债，这一情况并不出人意料。",
-            source: "环球市场播报",
-            date: "2026-09-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tob/2026-09-04/doc-iniqsens0829771.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-09-04/doc-iniqryes4090623.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-04",
         marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,747.71（+0.22%），纳斯达克报26,584.06（+0.16%）。",
         hotSectors: [
-
+            { name: "畜禽饲料", reason: "板块涨幅+8.46%", strength: "强" },
+            { name: "生猪养殖", reason: "板块涨幅+6.23%", strength: "强" },
+            { name: "教育运营及其他", reason: "板块涨幅+6.08%", strength: "强" },
+            { name: "饲料", reason: "板块涨幅+5.98%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "玻纤制造", reason: "板块跌幅-4.82%", strength: "弱" },
+            { name: "半导体设备", reason: "板块跌幅-4.13%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注畜禽饲料、生猪养殖、教育运营及其他等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

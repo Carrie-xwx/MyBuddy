@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3942.09", change: "+0.02%", market: "A股", updateTime: "2026-09-04 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13625.12", change: "+0.10%", market: "A股", updateTime: "2026-09-04 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3312.54", change: "+0.01%", market: "A股", updateTime: "2026-09-04 实时" },
-        { name: "沪深300", code: "SH000300", value: "4552.58", change: "+0.10%", market: "A股", updateTime: "2026-09-04 实时" },
-        { name: "科创50", code: "SH000688", value: "1611.17", change: "-0.40%", market: "A股", updateTime: "2026-09-04 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-04 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-04 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-04 实时" },
+        { name: "沪深300", code: "SH000300", value: "4548.05", change: "-0.10%", market: "A股", updateTime: "2026-09-04 实时" },
+        { name: "科创50", code: "SH000688", value: "1577.36", change: "-2.10%", market: "A股", updateTime: "2026-09-04 实时" },
         { name: "标普500", code: "SPX", value: "7,747.71", change: "+0.22%", market: "美股", updateTime: "2026-09-04 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,584.06", change: "+0.16%", market: "美股", updateTime: "2026-09-04 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,686.11", change: "+0.22%", market: "美股", updateTime: "2026-09-04 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "日本10年期国债收益率下跌5.5个基点至2.91%",
-            summary: "随着日元兑美元保持强势，日本10年期国债收益率下跌5.5个基点至2.91%。",
+            title: "受伊朗战事风险影响 原油有望录得7月以来最大单周涨幅",
+            summary: "美伊冲突再度爆发，市场担忧霍尔木兹海峡能源运输将长期受阻，原油有望收获7月以来最大单周涨幅。 布伦特原油交易价格突破每桶95美元...",
+            source: "环球市场播报",
+            date: "2026-09-04",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsenq4067413.shtml"
+        },
+        {
+            title: "美银：货币市场与债券基金吸纳本周大部分资金流入",
+            summary: "美国银行表示，本周所有主要资产类别均出现资金流入，其中货币市场基金与债券基金吸纳了绝大部分资金。 美银援引EPFR全球数据显示，截至9月2日当周...",
             source: "环球市场播报",
             date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqrihy4046663.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsenq4066889.shtml"
         },
         {
-            title: "韩国宣布获四家美国公司约20亿美元投资承诺",
-            summary: " 韩国产业通商资源部周五表示，四家美国企业已承诺在半导体、先进材料和能源领域向韩国投资合计2.8万亿韩元（约合20亿美元）。",
+            title: "阿根廷米莱升级马岛争端，特朗普质疑美国对英国的支持",
+            summary: "核心要点阿根廷总统哈维尔・米莱再度重申本国对福克兰群岛（马尔维纳斯群岛）的主权主张，并威胁对相关石油企业实施制裁。就在米莱采取上述行动之际...",
             source: "环球市场播报",
             date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqrihy4044235.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqsenq4066258.shtml"
         },
         {
-            title: "日本外汇事务负责人称在外汇问题上立场不变 持续与美国当局密切联系",
-            summary: " 尽管日元对美元走强，日本外汇事务负责人三村淳表示，他捍卫日元的立场始终如一。三村在东京告诉记者，自本周稍早的G20峰会以来，他一直与美国当局保持密切联系。",
+            title: "片山皋月将在日本内阁改组中续任财务大臣",
+            summary: " 据多家媒体报道，在即将到来的日本内阁改组中，财务大臣片山皋月将继续留任，这项决定或将支持她处理经济、外汇和预算流程的兴革。",
             source: "环球市场播报",
             date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqrihy4043609.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsens0838325.shtml"
         },
         {
-            title: "中石化冠德获中国石油化工集团增持32.6万股 每股作价约3.72港元",
-            summary: "香港联交所最新数据显示，9月1日，中国石油化工集团有限公司 （China Petrochemical Corporation）增持中石化冠德（00934）32.6万股，每股作价3.7173港元，总金额约为121...",
-            source: "新浪港股",
-            date: "2026-09-04",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-04/doc-iniqrihy4039495.shtml"
-        },
-        {
-            title: "申洲国际获主席马建荣增持560万股 每股作价约36.14港元",
-            summary: "香港联交所最新数据显示，9月1日，主席马建荣增持申洲国际（02313）560万股，每股作价36.1436港元，总金额约为2.02亿港元。增持后最新持股数目约为6.46亿股，持股比例为42...",
-            source: "新浪港股",
-            date: "2026-09-04",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-04/doc-iniqrihy4037457.shtml"
-        },
-        {
-            title: "亿腾嘉和获倪昕增持15万股 每股作价约1.65港元",
-            summary: "香港联交所最新数据显示，9月1日，倪昕增持亿腾嘉和（06998）15万股，每股作价1.6489港元，总金额约为24.73万港元。增持后最新持股数目约为7.63亿股，最新持股比例为37...",
-            source: "新浪港股",
-            date: "2026-09-04",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-04/doc-iniqriia0808196.shtml"
-        },
-        {
-            title: "华润万象生活获王磊增持5万股 每股作价38.52港元",
-            summary: " 香港联交所最新数据显示，9月1日，王磊增持华润万象生活（01209）5万股，每股作价38.52港元，总金额为192.6万港元。增持后最新持股数目约为5万股。",
-            source: "新浪港股",
-            date: "2026-09-04",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-04/doc-iniqriie6360264.shtml"
-        },
-        {
-            title: "大众汽车计划到本十年末裁员10万人，为汽车业史上规模最大",
-            summary: " 德国汽车巨头大众汽车集团周四表示，管理层与工会已达成协议，到本十年末总计裁减 10 万个工作岗位，这是全球汽车行业史上规模最大的一次重组。",
+            title: "交易员押注MiniMax 因沙特方面采用其产品",
+            summary: " 因有消息称沙特一家企业采用MiniMax的M3模型搭建国家人工智能平台，该股股价逼近近一个月高点，MiniMax集团期权成交量大幅飙升。",
             source: "环球市场播报",
             date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqriia0807006.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqsenq4062856.shtml"
+        },
+        {
+            title: "视频 | 大疆和影石亮相IFA同一展馆，多个品类正面竞争",
+            summary: "新浪科技讯 9月4日下午消息，IFA 2026期间，大疆和影石创新两个老对手均在20号展馆亮相。 新浪科技在两家企业展台看到，双方展示的运动相机、无人机等多个品类高度重合...",
+            source: "新浪科技",
+            date: "2026-09-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/it/2026-09-04/doc-iniqsenq4062228.shtml"
+        },
+        {
+            title: "WPS多维表格发布“灵感应用”：一句话，业务员便可搭建业务应用",
+            summary: "新浪科技讯 9月4日下午消息，近日，WPS多维表格新功能“灵感应用”发布：用户以自然语言描述业务需求，AI即可生成可直接使用、持续迭代的个性化业务应用...",
+            source: "新浪科技",
+            date: "2026-09-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/it/2026-09-04/doc-iniqsenq4060575.shtml"
+        },
+        {
+            title: "西太平洋银行：挪威主权财富基金减持债券预示市场将迎来重新定价",
+            summary: " 西太平洋银行表示，挪威主权财富基金拟减持政府债券，有报道称其中可能包含规模可观的美国国债，这一情况并不出人意料。",
+            source: "环球市场播报",
+            date: "2026-09-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tob/2026-09-04/doc-iniqsens0829771.shtml"
         },
     ],
 
@@ -765,17 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-04",
-        marketAssessment: "A股方面：上证指数报3942.09点（+0.02%），深证成指报13625.12点（+0.10%），创业板指报3312.54点（+0.01%）。美股方面：标普500报7,747.71（+0.22%），纳斯达克报26,584.06（+0.16%）。",
+        marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,747.71（+0.22%），纳斯达克报26,584.06（+0.16%）。",
         hotSectors: [
 
         ],
         weakSectors: [
 
         ],
-        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

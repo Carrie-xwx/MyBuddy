@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-04 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-04 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-04 实时" },
-        { name: "沪深300", code: "SH000300", value: "4548.05", change: "-0.10%", market: "A股", updateTime: "2026-09-04 实时" },
-        { name: "科创50", code: "SH000688", value: "1577.36", change: "-2.10%", market: "A股", updateTime: "2026-09-04 实时" },
-        { name: "标普500", code: "SPX", value: "7,747.71", change: "+0.22%", market: "美股", updateTime: "2026-09-04 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,584.06", change: "+0.16%", market: "美股", updateTime: "2026-09-04 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,686.11", change: "+0.22%", market: "美股", updateTime: "2026-09-04 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-05 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-05 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-05 实时" },
+        { name: "沪深300", code: "SH000300", value: "4548.05", change: "-0.10%", market: "A股", updateTime: "2026-09-05 实时" },
+        { name: "科创50", code: "SH000688", value: "1577.36", change: "-2.10%", market: "A股", updateTime: "2026-09-05 实时" },
+        { name: "标普500", code: "SPX", value: "7,724.17", change: "+0.16%", market: "美股", updateTime: "2026-09-05 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,509.53", change: "+0.41%", market: "美股", updateTime: "2026-09-05 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,435.27", change: "-0.23%", market: "美股", updateTime: "2026-09-05 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "美国8月非农就业人数大增16.2万 超出所有预期",
-            summary: "美国8月就业人数增长超过预期，失业率保持稳定，显示劳动力市场的动能强于此前认为的水平。 美国劳工统计局周五公布的数据显示，8月非农就业人数增加16.2万...",
+            title: "大型科技企业可建设民众不反感的数据中心",
+            summary: "争相兴建 AI 算力工厂的科技巨头正在重新规划方案，以此重获美国民众信任 作者：克里斯托弗・明斯弗吉尼亚州一处亚马逊云科技的数据中心。",
             source: "环球市场播报",
-            date: "2026-09-04",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskus6034745.shtml"
+            date: "2026-09-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqsvkk0765199.shtml"
         },
         {
-            title: "美国８月份非农就业人数增加16.2万人 失业率报4.1%",
-            summary: "非农就业人数预估为增加5.5万人， 接受调查的76位经济学家的预测范围为减少2.5万人至增加12.5万人。 劳动力参与率为61.6%，前一个月为61.4%。",
+            title: "特朗普突然向沃什发难 威胁美联储不降息就切断和对美顺差国的贸易",
+            summary: "美国总统唐纳德·特朗普加大了对美联储降息的施压，他甚至威胁说若央行按兵不动自己就要切断和逆差对象国的贸易。 强于预期的8月非农就业报告出炉后...",
             source: "环球市场播报",
-            date: "2026-09-04",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskus6034469.shtml"
+            date: "2026-09-05",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/world/2026-09-05/doc-iniqsvkh3988311.shtml"
         },
         {
-            title: "超级大超预期！美国8月非农新增16.2万 失业率维持4.1% 前两月就业累计上修5.5万",
-            summary: " 美国劳工统计局周五公布的数据显示，8月非农就业人口增加16.2万人，显著高于此前12个月平均每月仅3.1万人的增幅；失业率维持在4.1%不变，失业人数基本稳定在700万人。",
+            title: "美国商务部长卢特尼克去年收入超2.5亿美元",
+            summary: "这位亿万富豪出售了康托尔公司股权及其他股票，大举购入指数基金美国商务部长霍华德・卢特尼克  内容摘要 根据最新年度廉政申报文件...",
             source: "环球市场播报",
-            date: "2026-09-04",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskus6030003.shtml"
+            date: "2026-09-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqsvkh3988194.shtml"
         },
         {
-            title: "盘前：纳指期货涨0.45% 露露乐蒙暴跌20%",
-            summary: " 美国股市周五走势平稳，美国国债小幅上涨。交易员正在等待当天公布的非农就业报告，以判断这份数据是否足以给美联储更多理由，在9月会议上暂缓加息。",
+            title: "Blue Owl据悉计划创设数据中心REIT并将其上市",
+            summary: "知情人士称，Blue Owl Capital寻求设立一家数据中心房地产投资信托基金（REIT），并推动其上市。随着越来越多公司进入资本市场，为人工智能基础设施建设筹集资金...",
+            source: "环球市场播报",
+            date: "2026-09-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsvkn0998166.shtml"
+        },
+        {
+            title: "苹果开启John Ternus时代 史上最庞大产品阵容蓄势待发",
+            summary: "过去15年的大部分时间里，苹果公司一直致力于完善现有产品线，并推出各种服务，以创造更多经常性收入。期间也出现了Apple Watch和AirPods等少数全新设备类别...",
             source: "环球市场播报",
             date: "2026-09-04",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskuq0880069.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsvkh3965444.shtml"
         },
         {
-            title: "新报告显示：去年全球亿万富翁总财富达到15.1万亿美元",
-            summary: "核心要点财富研究机构 Altrata 最新报告显示，受 AI 投资热潮推动，2025 年全球亿万富翁数量接近 3800 人，合计总财富达 15.1 万亿美元。",
+            title: "CEO 表示：受就业数据影响，“市场并非处在正常运行环境”",
+            summary: " 马奥尼资产管理公司的肯・马奥尼称，投资者无法为这份就业报告感到欢欣鼓舞，因为强劲的数据或将为美联储加息提供理由。",
+            source: "环球市场播报",
+            date: "2026-09-04",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqsvkn5824144.shtml"
+        },
+        {
+            title: "贝莱德：非农大超预期后 下周的通胀数据更显关键",
+            summary: " 贝莱德的投资组合经理Jeff Rosenberg表示，美国8月就业增长大幅超出预期，在美联储决策者考虑是否需要加息之际，凸显下周消费者价格指数的重要性。",
+            source: "环球市场播报",
+            date: "2026-09-04",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsvkn5823718.shtml"
+        },
+        {
+            title: "劳动节开启“秋日度假潮”，富豪游客避开夏日人潮",
+            summary: "核心要点全球豪华旅游机构 Virtuoso 数据显示，秋季已经成为豪华旅行的新旺季，该趋势已持续多年并且还在不断升温。富豪群体纷纷把度假时间改到 9‑10 月...",
             source: "环球市场播报",
             date: "2026-09-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskus6025593.shtml"
-        },
-        {
-            title: "5连板牛股突发！公司及董秘被监管警示",
-            summary: "龙版传媒及有关责任人被予以监管警示。 9月4日，龙版传媒（605577）连续收出第5个涨停板，最近5个交易日累计涨幅达到61.14%。 在股价连续上涨之后...",
-            source: "",
-            date: "2026-09-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/zqgd/2026-09-04/doc-iniqskun4097487.shtml"
-        },
-        {
-            title: "露露乐蒙再度下调业绩指引，又一个季度销售表现承压",
-            summary: "这家运动服饰零售商将全年销售额预期下调至 103.5‑105 亿美元，此前指引为 110‑111.5 亿美元露露乐蒙第二季度营收下滑 4%，至 24.2 亿美元。",
-            source: "环球市场播报",
-            date: "2026-09-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskun4079131.shtml"
-        },
-        {
-            title: "王华杰任上海市副市长",
-            summary: " 9月4日，上海市第十六届人大常委会第三十三次会议审议并表决通过有关人事任免事项，决定任命王华杰为上海市副市长，决定免去解冬的上海市副市长职务。",
-            source: "澎湃新闻",
-            date: "2026-09-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-04/doc-iniqryes4090623.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqsvkn5823366.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-04",
-        marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,747.71（+0.22%），纳斯达克报26,584.06（+0.16%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-05",
+        marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,724.17（+0.16%），纳斯达克报26,509.53（+0.41%）。",
         hotSectors: [
-            { name: "畜禽饲料", reason: "板块涨幅+8.46%", strength: "强" },
-            { name: "生猪养殖", reason: "板块涨幅+6.23%", strength: "强" },
-            { name: "教育运营及其他", reason: "板块涨幅+6.08%", strength: "强" },
-            { name: "饲料", reason: "板块涨幅+5.98%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "玻纤制造", reason: "板块跌幅-4.82%", strength: "弱" },
-            { name: "半导体设备", reason: "板块跌幅-4.13%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注畜禽饲料、生猪养殖、教育运营及其他等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-05 实时" },
         { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-05 实时" },
         { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-05 实时" },
@@ -669,7 +669,47 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+        {
+            title: "OpenAI“Astra”模型所用技术引发安全隐患",
+            summary: "OpenAI表示，其即将推出的Astra模型在代码编写、电脑端应用操作等能力方面实现升级。但一名了解Astra研发情况的人士称，一项提升模型性能的创新技术...",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/7x24/2026-09-05/doc-iniquyir0544041.shtml"
+        },
+        {
+            title: "美军打击三艘伊朗油轮 报复伊朗革命卫队的袭击",
+            summary: "美国军方表示，在伊朗革命卫队用弹道导弹袭击两艘美国海军军舰后，美军打击了三艘伊朗原油油轮，以此作为报复。 美国中央司令部周六表示...",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquyin0071799.shtml"
+        },
+        {
+            title: "特朗普的国家资本主义延伸至石油行业：与委内瑞拉达成史无前例的交易",
+            summary: " 如果特朗普的委内瑞拉交易成功，五角大楼将获得一家不起眼的私营石油公司的大量所有权，而这家公司将控制比埃克森美孚全球投资组合更大的原油储量。",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquyin4896382.shtml"
+        },
+        {
+            title: "纽约市学校AI新政：低年级禁用，高中试点，全美学区静观其效",
+            summary: "美国最大的学区现在对低年级学生在校内使用人工智能工具制定了最严格的规定——至少是暂时的。一些教育专家表示，这是朝着学校有效利用人工智能造福儿童的正确方向迈出的一步...",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquyir0516955.shtml"
+        },
+        {
+            title: "OpenAI在立法阻力下扩充政策团队，聘用三人负责州级政策事务",
+            summary: "OpenAI一位发言人表示，该实验室的全球事务团队正在扩充，新增了三位专注于州级政策的关键人才。 随着全美两党加强对人工智能的监管...",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqutzq4993319.shtml"
+        },
         {
             title: "塔塔将在印度海得拉巴建设大型AI数据中心，预计投资7000亿卢比",
             summary: " 据交易所文件显示，塔塔咨询服务公司（TCS）旗下的HyperVault已获得264英亩土地，将在海得拉巴开发一个最高1吉瓦（GW）算力的大型人工智能数据中心园区。",
@@ -693,46 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-09-05",
             tag: "行业",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquimq3637697.shtml"
-        },
-        {
-            title: "韩国今年迄今出口额7094亿美元打破年度纪录，预计12月初将达1万亿美元",
-            summary: " 韩国总统李在明周六在社交媒体上分享了一份韩国海关负责人的报告，显示韩国今年迄今累计出口额已超过去年创下的年度纪录。",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquimu0349943.shtml"
-        },
-        {
-            title: "10天过去了 悬在吉隆口岸上方的堰塞湖怎么样了",
-            summary: "9月4日，距西藏吉隆“8·26”泥石流灾害发生已经过去10天，抢险救灾各项工作仍在进行中。那么，悬在吉隆口岸上方，曾一度对抢险和搜寻工作带来极大困扰的冰岩崩源区和堰塞湖如...",
-            source: "新华社",
-            date: "2026-09-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-05/doc-iniquimu0344977.shtml"
-        },
-        {
-            title: "OpenAI回应“维基事件”，称需要扩大对齐失范事件的披露范围",
-            summary: "OpenAI周末在X平台发帖，回应“维基事件”，并表示需要扩大AI模型对齐失范事件的披露范围。 所谓“维基事件”，是指OpenAI的人工智能代理今年5月集体脱离测试控制...",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquimu5173316.shtml"
-        },
-        {
-            title: "伊朗媒体：一艘伊朗油轮在哈尔克岛附近遭到美国导弹袭击",
-            summary: "据伊朗媒体，伊朗哈尔克岛附近的波斯湾海域传来爆炸声。报道表示，目前尚未发布有关爆炸起因与来源的官方信息。 据另一家伊朗媒体报道...",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-05/doc-iniquccw5290061.shtml"
-        },
-        {
-            title: "Jump Trading据悉在香港扩大办公空间 并拟增聘量化及AI方面人才",
-            summary: "据知情人士称，Jump Trading在中国香港增加办公空间，这是全球交易公司扩大在港布局的最新迹象。 知情人士表示，这家总部位于芝加哥的公司将在国际金融中心一期增加11...",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquccu0433457.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-09-05",
         marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [

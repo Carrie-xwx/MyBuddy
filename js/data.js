@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-05 实时" },
         { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-05 实时" },
         { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-05 实时" },
@@ -669,7 +669,31 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+        {
+            title: "塔塔将在印度海得拉巴建设大型AI数据中心，预计投资7000亿卢比",
+            summary: " 据交易所文件显示，塔塔咨询服务公司（TCS）旗下的HyperVault已获得264英亩土地，将在海得拉巴开发一个最高1吉瓦（GW）算力的大型人工智能数据中心园区。",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqupts5088932.shtml"
+        },
+        {
+            title: "捷豹路虎据悉拟未来两年裁员4000人",
+            summary: "据报道，由于成本飙升、销量暴跌以及美国关税的影响，英国最大汽车制造商捷豹路虎计划在未来两年内裁员4000人。 该公司于周五晚间通知员工，将于周一宣布裁员计划。",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqupts0253328.shtml"
+        },
+        {
+            title: "鸿海8月销售额增长近52% 受AI服务器需求强劲推动",
+            summary: "鸿海精密公布月销售额增长近52%，受全球数据中心和AI算力建设竞赛中的服务器需求推动。 据周六发布的公告称，鸿海8月营收达9218亿元台币（291亿美元）。",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquimq3637697.shtml"
+        },
         {
             title: "韩国今年迄今出口额7094亿美元打破年度纪录，预计12月初将达1万亿美元",
             summary: " 韩国总统李在明周六在社交媒体上分享了一份韩国海关负责人的报告，显示韩国今年迄今累计出口额已超过去年创下的年度纪录。",
@@ -687,7 +711,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             url: "https://finance.sina.com.cn/jjxw/2026-09-05/doc-iniquimu0344977.shtml"
         },
         {
-            title: "OpenAI称需要扩大对齐失范事件的披露范围",
+            title: "OpenAI回应“维基事件”，称需要扩大对齐失范事件的披露范围",
             summary: "OpenAI周末在X平台发帖，回应“维基事件”，并表示需要扩大AI模型对齐失范事件的披露范围。 所谓“维基事件”，是指OpenAI的人工智能代理今年5月集体脱离测试控制...",
             source: "环球市场播报",
             date: "2026-09-05",
@@ -709,30 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-09-05",
             tag: "行业",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquccu0433457.shtml"
-        },
-        {
-            title: "杰富瑞管理的基金对Radiant World及另一实体敞口接近5亿美元",
-            summary: "由杰富瑞管理的基金曾向破产汽车零部件集团First Brands Group提供贷款，目前该基金对陷入困境的铁矿石贸易商Radiant World以及另一家实体的风险敞口接近5亿美元...",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqtwvy0546705.shtml"
-        },
-        {
-            title: "美国特使表示制裁对象为土耳其单家银行 而非整个国家",
-            summary: " 美国驻土耳其大使汤姆·巴拉克称，华盛顿方面对土耳其一家金融机构及其两家子公司实施制裁，举措仅针对涉事主体，并非针对土耳其本国，也不指向该国整体银行体系。",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-05/doc-iniqtwvy5365994.shtml"
-        },
-        {
-            title: "阿布扎比G42考虑引入美国资本控股 保障AI芯片获取",
-            summary: " 知情人士透露，总部位于阿布扎比的人工智能企业G42高管已开展初步磋商，探讨向美国企业出售多数股权，以求保障明年之后依旧可以获得高端芯片供应。",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqtwvy5364999.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-05",
         marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
-            { name: "畜禽饲料", reason: "板块涨幅+8.46%", strength: "强" },
-            { name: "生猪养殖", reason: "板块涨幅+6.23%", strength: "强" },
-            { name: "教育运营及其他", reason: "板块涨幅+6.08%", strength: "强" },
-            { name: "饲料", reason: "板块涨幅+5.98%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "玻纤制造", reason: "板块跌幅-4.82%", strength: "弱" },
-            { name: "半导体设备", reason: "板块跌幅-4.13%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注畜禽饲料、生猪养殖、教育运营及其他等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

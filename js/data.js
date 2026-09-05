@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-05 实时" },
         { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-05 实时" },
         { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-05 实时" },
@@ -669,7 +669,47 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+        {
+            title: "韩国今年迄今出口额7094亿美元打破年度纪录，预计12月初将达1万亿美元",
+            summary: " 韩国总统李在明周六在社交媒体上分享了一份韩国海关负责人的报告，显示韩国今年迄今累计出口额已超过去年创下的年度纪录。",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquimu0349943.shtml"
+        },
+        {
+            title: "10天过去了 悬在吉隆口岸上方的堰塞湖怎么样了",
+            summary: "9月4日，距西藏吉隆“8·26”泥石流灾害发生已经过去10天，抢险救灾各项工作仍在进行中。那么，悬在吉隆口岸上方，曾一度对抢险和搜寻工作带来极大困扰的冰岩崩源区和堰塞湖如...",
+            source: "新华社",
+            date: "2026-09-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-05/doc-iniquimu0344977.shtml"
+        },
+        {
+            title: "OpenAI称需要扩大对齐失范事件的披露范围",
+            summary: "OpenAI周末在X平台发帖，回应“维基事件”，并表示需要扩大AI模型对齐失范事件的披露范围。 所谓“维基事件”，是指OpenAI的人工智能代理今年5月集体脱离测试控制...",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquimu5173316.shtml"
+        },
+        {
+            title: "伊朗媒体：一艘伊朗油轮在哈尔克岛附近遭到美国导弹袭击",
+            summary: "据伊朗媒体，伊朗哈尔克岛附近的波斯湾海域传来爆炸声。报道表示，目前尚未发布有关爆炸起因与来源的官方信息。 据另一家伊朗媒体报道...",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-05/doc-iniquccw5290061.shtml"
+        },
+        {
+            title: "Jump Trading据悉在香港扩大办公空间 并拟增聘量化及AI方面人才",
+            summary: "据知情人士称，Jump Trading在中国香港增加办公空间，这是全球交易公司扩大在港布局的最新迹象。 知情人士表示，这家总部位于芝加哥的公司将在国际金融中心一期增加11...",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquccu0433457.shtml"
+        },
         {
             title: "杰富瑞管理的基金对Radiant World及另一实体敞口接近5亿美元",
             summary: "由杰富瑞管理的基金曾向破产汽车零部件集团First Brands Group提供贷款，目前该基金对陷入困境的铁矿石贸易商Radiant World以及另一家实体的风险敞口接近5亿美元...",
@@ -693,46 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-09-05",
             tag: "行业",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqtwvy5364999.shtml"
-        },
-        {
-            title: "五角大楼将根据新协议按成本价获得委内瑞拉20%原油",
-            summary: " 据报道，美国五角大楼已确保获得优先购买委内瑞拉17个油田产出原油的权利，并且根据新协议可以开采成本价而非市场价购买20%的产量。",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-05/doc-iniqtspy0562105.shtml"
-        },
-        {
-            title: "现代钢铁于路易斯安那州58亿美元钢厂项目破土动工",
-            summary: " 韩国现代钢铁公司在美国路易斯安那州举行总投资58亿美元的电弧炉钢厂奠基仪式，该厂将生产热轧与冷轧钢板，主要供给汽车行业。",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqtsqa5452816.shtml"
-        },
-        {
-            title: "折叠屏苹果手机曝出新名字：iPhone Duo",
-            summary: " 外界传闻中，备受期待的折叠版iPhone常被称作iPhone Ultra或是iPhone Fold，不过现在又流传出另一个名字：iPhone Duo。",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqtspw3738995.shtml"
-        },
-        {
-            title: "囤积 8300 枚 BTC，美企剑指全球霸权",
-            summary: "据 Woofun AI 消息，American Bitcoin (ABTC.US) 作为纳斯达克 100 指数成分股，正通过积累巨额 BTC 储备重塑行业格局。联合创始人 艾瑞克·川普...",
-            source: "智通财经APP",
-            date: "2026-09-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-05/doc-iniqtsqa5440703.shtml"
-        },
-        {
-            title: "就业超预期引爆加息恐慌，比特币失守 8 万",
-            summary: "据 Woofun AI 消息，周五美国公布的就业数据大幅超越市场预期，直接触发市场对美联储维持紧缩政策的担忧，Bitcoin 价格随即跌破 80,000 美元关口。",
-            source: "智通财经APP",
-            date: "2026-09-05",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-05/doc-iniqtspw3735712.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-05",
         marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
-
+            { name: "畜禽饲料", reason: "板块涨幅+8.46%", strength: "强" },
+            { name: "生猪养殖", reason: "板块涨幅+6.23%", strength: "强" },
+            { name: "教育运营及其他", reason: "板块涨幅+6.08%", strength: "强" },
+            { name: "饲料", reason: "板块涨幅+5.98%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "玻纤制造", reason: "板块跌幅-4.82%", strength: "弱" },
+            { name: "半导体设备", reason: "板块跌幅-4.13%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注畜禽饲料、生猪养殖、教育运营及其他等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

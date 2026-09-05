@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-05 实时" },
         { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-05 实时" },
         { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-05 实时" },
         { name: "沪深300", code: "SH000300", value: "4548.05", change: "-0.10%", market: "A股", updateTime: "2026-09-05 实时" },
         { name: "科创50", code: "SH000688", value: "1577.36", change: "-2.10%", market: "A股", updateTime: "2026-09-05 实时" },
-        { name: "标普500", code: "SPX", value: "7,724.17", change: "+0.16%", market: "美股", updateTime: "2026-09-05 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,509.53", change: "+0.41%", market: "美股", updateTime: "2026-09-05 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,435.27", change: "-0.23%", market: "美股", updateTime: "2026-09-05 收盘" },
+        { name: "标普500", code: "SPX", value: "7,718.60", change: "+0.09%", market: "美股", updateTime: "2026-09-05 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,506.99", change: "+0.40%", market: "美股", updateTime: "2026-09-05 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,414.25", change: "-0.27%", market: "美股", updateTime: "2026-09-05 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "大型科技企业可建设民众不反感的数据中心",
-            summary: "争相兴建 AI 算力工厂的科技巨头正在重新规划方案，以此重获美国民众信任 作者：克里斯托弗・明斯弗吉尼亚州一处亚马逊云科技的数据中心。",
+            title: "杰富瑞管理的基金对Radiant World及另一实体敞口接近5亿美元",
+            summary: "由杰富瑞管理的基金曾向破产汽车零部件集团First Brands Group提供贷款，目前该基金对陷入困境的铁矿石贸易商Radiant World以及另一家实体的风险敞口接近5亿美元...",
             source: "环球市场播报",
             date: "2026-09-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqsvkk0765199.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqtwvy0546705.shtml"
         },
         {
-            title: "特朗普突然向沃什发难 威胁美联储不降息就切断和对美顺差国的贸易",
-            summary: "美国总统唐纳德·特朗普加大了对美联储降息的施压，他甚至威胁说若央行按兵不动自己就要切断和逆差对象国的贸易。 强于预期的8月非农就业报告出炉后...",
+            title: "美国特使表示制裁对象为土耳其单家银行 而非整个国家",
+            summary: " 美国驻土耳其大使汤姆·巴拉克称，华盛顿方面对土耳其一家金融机构及其两家子公司实施制裁，举措仅针对涉事主体，并非针对土耳其本国，也不指向该国整体银行体系。",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-05/doc-iniqtwvy5365994.shtml"
+        },
+        {
+            title: "阿布扎比G42考虑引入美国资本控股 保障AI芯片获取",
+            summary: " 知情人士透露，总部位于阿布扎比的人工智能企业G42高管已开展初步磋商，探讨向美国企业出售多数股权，以求保障明年之后依旧可以获得高端芯片供应。",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqtwvy5364999.shtml"
+        },
+        {
+            title: "五角大楼将根据新协议按成本价获得委内瑞拉20%原油",
+            summary: " 据报道，美国五角大楼已确保获得优先购买委内瑞拉17个油田产出原油的权利，并且根据新协议可以开采成本价而非市场价购买20%的产量。",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-05/doc-iniqtspy0562105.shtml"
+        },
+        {
+            title: "现代钢铁于路易斯安那州58亿美元钢厂项目破土动工",
+            summary: " 韩国现代钢铁公司在美国路易斯安那州举行总投资58亿美元的电弧炉钢厂奠基仪式，该厂将生产热轧与冷轧钢板，主要供给汽车行业。",
+            source: "环球市场播报",
+            date: "2026-09-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqtsqa5452816.shtml"
+        },
+        {
+            title: "折叠屏苹果手机曝出新名字：iPhone Duo",
+            summary: " 外界传闻中，备受期待的折叠版iPhone常被称作iPhone Ultra或是iPhone Fold，不过现在又流传出另一个名字：iPhone Duo。",
             source: "环球市场播报",
             date: "2026-09-05",
             tag: "美股",
-            url: "https://finance.sina.com.cn/world/2026-09-05/doc-iniqsvkh3988311.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqtspw3738995.shtml"
         },
         {
-            title: "美国商务部长卢特尼克去年收入超2.5亿美元",
-            summary: "这位亿万富豪出售了康托尔公司股权及其他股票，大举购入指数基金美国商务部长霍华德・卢特尼克  内容摘要 根据最新年度廉政申报文件...",
-            source: "环球市场播报",
+            title: "囤积 8300 枚 BTC，美企剑指全球霸权",
+            summary: "据 Woofun AI 消息，American Bitcoin (ABTC.US) 作为纳斯达克 100 指数成分股，正通过积累巨额 BTC 储备重塑行业格局。联合创始人 艾瑞克·川普...",
+            source: "智通财经APP",
             date: "2026-09-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqsvkh3988194.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-05/doc-iniqtsqa5440703.shtml"
         },
         {
-            title: "Blue Owl据悉计划创设数据中心REIT并将其上市",
-            summary: "知情人士称，Blue Owl Capital寻求设立一家数据中心房地产投资信托基金（REIT），并推动其上市。随着越来越多公司进入资本市场，为人工智能基础设施建设筹集资金...",
-            source: "环球市场播报",
-            date: "2026-09-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsvkn0998166.shtml"
-        },
-        {
-            title: "苹果开启John Ternus时代 史上最庞大产品阵容蓄势待发",
-            summary: "过去15年的大部分时间里，苹果公司一直致力于完善现有产品线，并推出各种服务，以创造更多经常性收入。期间也出现了Apple Watch和AirPods等少数全新设备类别...",
-            source: "环球市场播报",
-            date: "2026-09-04",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsvkh3965444.shtml"
-        },
-        {
-            title: "CEO 表示：受就业数据影响，“市场并非处在正常运行环境”",
-            summary: " 马奥尼资产管理公司的肯・马奥尼称，投资者无法为这份就业报告感到欢欣鼓舞，因为强劲的数据或将为美联储加息提供理由。",
-            source: "环球市场播报",
-            date: "2026-09-04",
+            title: "就业超预期引爆加息恐慌，比特币失守 8 万",
+            summary: "据 Woofun AI 消息，周五美国公布的就业数据大幅超越市场预期，直接触发市场对美联储维持紧缩政策的担忧，Bitcoin 价格随即跌破 80,000 美元关口。",
+            source: "智通财经APP",
+            date: "2026-09-05",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqsvkn5824144.shtml"
-        },
-        {
-            title: "贝莱德：非农大超预期后 下周的通胀数据更显关键",
-            summary: " 贝莱德的投资组合经理Jeff Rosenberg表示，美国8月就业增长大幅超出预期，在美联储决策者考虑是否需要加息之际，凸显下周消费者价格指数的重要性。",
-            source: "环球市场播报",
-            date: "2026-09-04",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-04/doc-iniqsvkn5823718.shtml"
-        },
-        {
-            title: "劳动节开启“秋日度假潮”，富豪游客避开夏日人潮",
-            summary: "核心要点全球豪华旅游机构 Virtuoso 数据显示，秋季已经成为豪华旅行的新旺季，该趋势已持续多年并且还在不断升温。富豪群体纷纷把度假时间改到 9‑10 月...",
-            source: "环球市场播报",
-            date: "2026-09-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqsvkn5823366.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-05/doc-iniqtspw3735712.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-09-05",
-        marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,724.17（+0.16%），纳斯达克报26,509.53（+0.41%）。",
+        marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
 
         ],

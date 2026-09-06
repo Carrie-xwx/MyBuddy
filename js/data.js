@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-06 实时" },
         { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-06 实时" },
         { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-06 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "美联储加息迫在眉睫 特朗普政府加大对沃什施压",
-            summary: "距离美联储即将审议加息的议息会议还有十天，特朗普政府正展开全方位施压，试图阻止本次加息落地。 过去一周，总统、副总统、财政部长以及总统高级经济顾问纷纷公开敦促美...",
+            title: "迪哲医药高管发布减持计划后，股价下跌超5%！公司回应：对长期发展充满信心",
+            summary: "每经记者|章光日每经编辑|吴永久 近日，迪哲医药4位高管发布减持计划。《每日经济新闻》记者（以下简称每经记者）注意到，迪哲医药此次拟减持的4位高管的年薪都不低于200万...",
+            source: "每日经济新闻",
+            date: "2026-09-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-09-06/doc-iniqwnma6518378.shtml"
+        },
+        {
+            title: "伊朗伊斯兰革命卫队称袭击油轮和美国资产 以报复美方行动",
+            summary: " 伊朗伊斯兰革命卫队海军表示，伊朗袭击了三艘使用未经授权路线穿越霍尔木兹海峡的油轮以及与美国有关的船只，以回应美国袭击三艘伊朗油轮。",
+            source: "环球市场播报",
+            date: "2026-09-06",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwnky6881892.shtml"
+        },
+        {
+            title: "多位储能业内人士：有关部门正全面摸底产能 企业新建产能项目审批暂缓",
+            summary: "财联社记者日前从多位产业链人士获悉，针对当前储能行业产能过剩风险加剧，有关部门近期正全面摸排现有及规划中的产能底数，储能电芯是重点领域之一，对尚处规划阶段...",
+            source: "滚动播报",
+            date: "2026-09-06",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/roll/2026-09-06/doc-iniqwnku4242959.shtml"
+        },
+        {
+            title: "苏泊尔上半年营净双降：外销大客户订单承压，内销“烧钱”换量增长成色待考",
+            summary: "来源：证券之星 8月27日，苏泊尔（002032.SZ）披露2026年半年度报告。营收与净利润双双下滑，昔日“外销+内销”双轮驱动的增长逻辑正遭遇考验。",
+            source: "市场资讯",
+            date: "2026-09-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqwssv0031163.shtml"
+        },
+        {
+            title: "油价上涨重创业绩，中国国航中报亏损同比扩大，高负债与资本开支重压难解",
+            summary: "来源：证券之星 中国国航（601111.SH）的业绩修复进程正式被打断。今年上半年，受中东地缘冲突导致的航油价格上涨冲击，公司扣非后净利润同比大跌近四成...",
+            source: "市场资讯",
+            date: "2026-09-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqwssw6803062.shtml"
+        },
+        {
+            title: "韩国央行研究：美元稳定币需求或推动本币贬值",
+            summary: " 韩国银行一项最新研究显示，当全球交易所允许投资者直接用法定货币购买美元稳定币时，稳定币需求可能对本国货币汇率产生影响，推动其走低。",
+            source: "环球市场播报",
+            date: "2026-09-06",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwnky6879162.shtml"
+        },
+        {
+            title: "民调显示 特朗普的支持率已降至历史最低点",
+            summary: " 根据一项最新民调，唐纳德·特朗普的支持率已降至历史最低点，该民调清晰显示选民对美国总统治理经济和生活成本的表现日益不满。",
+            source: "环球市场播报",
+            date: "2026-09-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwnky6877923.shtml"
+        },
+        {
+            title: "美联储理事日程表显示存在“静默期”内与银行家会面的情况",
+            summary: " 最近几个月，在美联储的静默期内，两名美联储理事会见了私营部门银行官员或参加了他们举办的活动，而静默期内此类会议受到限制。",
             source: "环球市场播报",
             date: "2026-09-06",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwhaz0170214.shtml"
-        },
-        {
-            title: "以色列国防军在实施打击前要求黎巴嫩南部一个村庄居民远离一栋建筑物",
-            summary: "以色列国防军告知黎巴嫩南部一个村庄的居民，在以军打击前撤离一栋建筑物及其周围地区。 以色列国防军称将打击的建筑物是真主党设施...",
-            source: "环球市场播报",
-            date: "2026-09-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwhca6923315.shtml"
-        },
-        {
-            title: "普京与美国特使会谈三个多小时 后者随后将访问基辅",
-            summary: "俄罗斯总统弗拉基米尔·普京在莫斯科接待了美国特使史蒂夫·威特科夫和贾里德·库什纳，进行了三个多小时的会谈，克里姆林宫一名助手称会谈“非常有益”...",
-            source: "环球市场播报",
-            date: "2026-09-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwhav9494071.shtml"
-        },
-        {
-            title: "马来西亚总理经济顾问：马来西亚有信心保障今年燃料供应充足",
-            summary: "马来西亚总理经济顾问表示，马来西亚政府有信心在年底前获得充足的燃料供应。 他周五向当地媒体表示，受地缘政治紧张局势以及关键航运通道受阻影响...",
-            source: "环球市场播报",
-            date: "2026-09-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwhca6900913.shtml"
-        },
-        {
-            title: "AI驱动全球造富潮 2025年全球亿万富豪人数创新高",
-            summary: " 财富调研机构Altrata近期发布报告显示，受人工智能热潮在全球加速造富，2025年全球亿万富豪人数创下新高，达到3795人。",
-            source: "环球市场播报",
-            date: "2026-09-06",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqvzvc0247696.shtml"
-        },
-        {
-            title: "特朗普的超级政治行动委员会砸千万美元介入得州选举",
-            summary: "特朗普的超级政治行动委员会（Super PAC）已介入得克萨斯州竞争激烈的联邦参议员竞选，砸出本届政治周期最大一笔开支：斥资1000万美元投放广告...",
-            source: "环球市场播报",
-            date: "2026-09-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqvzvc0238800.shtml"
-        },
-        {
-            title: "每天3万人涌入，又一打卡地火了！“场面堪比演唱会”",
-            summary: "排队1.5小时、每天3万人次涌入 这不是大型演唱会现场 而是湖南长沙的新晋打卡地“零食王国” 从场景化体验到健康化升级 这个年总营收突破1500亿元的湖南产业...",
-            source: "央视新闻客户端",
-            date: "2026-09-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/wm/2026-09-06/doc-iniqvzux9606263.shtml"
-        },
-        {
-            title: "九款智能体产品在溧阳亮相，首次披露“三位一体”开源架构",
-            summary: "新浪科技讯 9月6日上午消息，“智启溧阳——AI智能体赋能企业开源社区产品发布会”在溧阳成功举办。 智能无人装备产业创新中心（毛明院士工作站）携九款面向企业的开源智能体产...",
-            source: "新浪科技",
-            date: "2026-09-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tech/2026-09-06/doc-iniqvzuy4425961.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwnky6874696.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-06",
         marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
-            { name: "畜禽饲料", reason: "板块涨幅+8.46%", strength: "强" },
-            { name: "生猪养殖", reason: "板块涨幅+6.23%", strength: "强" },
-            { name: "教育运营及其他", reason: "板块涨幅+6.08%", strength: "强" },
-            { name: "饲料", reason: "板块涨幅+5.98%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "玻纤制造", reason: "板块跌幅-4.82%", strength: "弱" },
-            { name: "半导体设备", reason: "板块跌幅-4.13%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注畜禽饲料、生猪养殖、教育运营及其他等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

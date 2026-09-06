@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-06 实时" },
         { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-06 实时" },
         { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-06 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "以色列国防军称对真主党武装分子发动袭击 以回应无人机袭击",
-            summary: " 以色列国防军称，周日对黎巴嫩南部的真主党武装分子和基础设施发动袭击，以回应前一天真主党向安全区士兵发射两枚爆炸性无人机。",
+            title: "美能源部长：美国海军将守卫霍尔木兹海峡，直至伊朗让步",
+            summary: " 美国能源部长克里斯·赖特周日表示，美国海军为油轮提供护航，保障船只穿越霍尔木兹海峡，是维持这条水道原油运输的核心力量，同时暗示护航行动短期内不会结束。",
+            source: "环球市场播报",
+            date: "2026-09-06",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqxiqn9844323.shtml"
+        },
+        {
+            title: "美能源部长：霍尔木兹海峡石油日运量超900万桶，已恢复至冲突前三分之二水平",
+            summary: " 美国能源部长克里斯·赖特表示，霍尔木兹海峡的石油运输量日均超过900万桶，加上替代管道的运力，总输油量恢复至冲突前水平的三分之二及以上。",
             source: "环球市场播报",
             date: "2026-09-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwwyt0006993.shtml"
+            url: "https://finance.sina.com.cn/7x24/2026-09-06/doc-iniqxiqn9837782.shtml"
         },
         {
-            title: "OPEC+维持石油产量配额不变的计划",
-            summary: "OPEC+主要成员国坚持维持石油产量配额不变的计划，而伊朗战争继续导致中东大片地区的石油生产停滞。 OPEC在一份声明中表示，由沙特阿拉伯和俄罗斯牵头的七个成员国组成的小...",
+            title: "伊朗与美国针锋相对袭击油轮 美伊战争仍然看不到结束的曙光",
+            summary: " 伊朗表示，为报复美国在周末期间袭击伊朗油轮，伊朗袭击了三艘在霍尔木兹海峡使用未经其授权航线的油轮，以及多艘与美国有关联的船只。",
+            source: "环球市场播报",
+            date: "2026-09-06",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqxchs6720747.shtml"
+        },
+        {
+            title: "OPEC+维持10月石油产出政策不变",
+            summary: " OPEC+在周日的一次会议上表示，其10月份的石油产出政策维持不变，该组织在一份声明中称，因为产油国集团需要在决定下一步产出步骤之前，先就新的配额达成一致。",
             source: "环球市场播报",
             date: "2026-09-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwwyu6772443.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqxchs6716954.shtml"
         },
         {
-            title: "继续停牌！002731，触及规范类退市情形",
-            summary: "来源：中国基金报 【导读】*ST萃华未在9月6日前披露2025年年报，触及规范类退市情形 中国基金报记者 闻言 9月6日晚间，*ST萃华发布公告称...",
+            title: "特朗普对沃什施压，美联储加息在即",
+            summary: "距离美联储可能考虑加息的会议还有十天，特朗普政府似乎正在全力施压，试图阻止加息进程。 过去一周，总统、副总统、财政部长以及总统的一位高级经济顾问都敦促美联储不要...",
+            source: "环球市场播报",
+            date: "2026-09-06",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqxchv1072002.shtml"
+        },
+        {
+            title: "特朗普称加拿大对美国的美元“失衡”是不可接受的。",
+            summary: "“加元对美元的汇率失衡是不可接受的，”唐纳德·特朗普总统在Truth Social上表示。“ 这种情况已经持续很多年了——但以后不会了！”他说道。",
+            source: "环球市场播报",
+            date: "2026-09-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqxchv1058393.shtml"
+        },
+        {
+            title: "复牌！301266，低空经济“大佬”拟入主",
+            summary: "来源：中国基金报 【导读】宇邦新材9月7日复牌 中国基金报记者 夏天 停牌一周后，宇邦新材（证券代码：301266）潜在新主“揭面”。",
             source: "市场资讯",
             date: "2026-09-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqwwyw6333314.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqxchu6225460.shtml"
         },
         {
-            title: "连续涨停！002403，提示风险",
-            summary: "来源：中国基金报 【导读】爱仕达连续涨停后提示风险称，具身智能机器人项目处于起步阶段 中国基金报记者 邱德坤 9月6日晚间，爱仕达发布股票交易异常波动公告称...",
+            title: "任职仅1个月，中信海直独董因连续缺席会议遭解职",
+            summary: "来源：中国基金报 中国基金报记者 刘墨 9月6日晚间，中信海直公告称，公司拟提请股东大会解除独立董事董铁牛职务。公司同步提名新任独董候选人补位...",
             source: "市场资讯",
             date: "2026-09-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqwwys9999696.shtml"
-        },
-        {
-            title: "航司接连“资不抵债”，民航怎么了？",
-            summary: "来源：民航之翼 上半年，上市公司财报已公布。 在高油价冲击，民航业业绩无一例外的下滑。 大家发现没有，咱们民航圈里的地方航司，最近接二连三地亮起了红灯。",
-            source: "市场资讯",
-            date: "2026-09-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqwwys9999081.shtml"
-        },
-        {
-            title: "350亿火电巨头，豪掷10亿成立投资公司",
-            summary: "一则工商登记信息，把陕西能源推到了资本运作的叙事里。 近日，陕西陕能汇森资本投资有限公司成立（下称汇森投资），注册资本10亿元...",
-            source: "21世纪经济报道",
-            date: "2026-09-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqwwyq4043127.shtml"
-        },
-        {
-            title: "002731，将被退市！年报、半年报全部逾期未披露",
-            summary: "多重风险压顶的*ST萃华（002731），将面临规范类退市！ 9月6日晚间，*ST萃华发布公告，因未在被实施退市风险警示之日起两个月内（2026年9月6日前）披露过半数董事保证真实...",
-            source: "证券时报",
-            date: "2026-09-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqwwyu6736766.shtml"
-        },
-        {
-            title: "斩获两连板！爱仕达提示风险",
-            summary: "來源：资本秘闻 9月6日，爱仕达披露公告称，具身智能机器人的合作项目为公司新开拓业务，尚处于起步阶段，已形成的销售收入尚低，仅13.72万元，且技术迭代...",
-            source: "市场资讯",
-            date: "2026-09-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqwssy6436299.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqxchs6687116.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-09-06",
         marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
-            { name: "畜禽饲料", reason: "板块涨幅+8.46%", strength: "强" },
-            { name: "生猪养殖", reason: "板块涨幅+6.23%", strength: "强" },
-            { name: "教育运营及其他", reason: "板块涨幅+6.08%", strength: "强" },
-            { name: "饲料", reason: "板块涨幅+5.98%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "玻纤制造", reason: "板块跌幅-4.82%", strength: "弱" },
-            { name: "半导体设备", reason: "板块跌幅-4.13%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注畜禽饲料、生猪养殖、教育运营及其他等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

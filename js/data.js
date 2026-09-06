@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-05 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-05 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-05 实时" },
-        { name: "沪深300", code: "SH000300", value: "4548.05", change: "-0.10%", market: "A股", updateTime: "2026-09-05 实时" },
-        { name: "科创50", code: "SH000688", value: "1577.36", change: "-2.10%", market: "A股", updateTime: "2026-09-05 实时" },
-        { name: "标普500", code: "SPX", value: "7,718.60", change: "+0.09%", market: "美股", updateTime: "2026-09-05 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,506.99", change: "+0.40%", market: "美股", updateTime: "2026-09-05 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,414.25", change: "-0.27%", market: "美股", updateTime: "2026-09-05 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-06 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-06 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-06 实时" },
+        { name: "沪深300", code: "SH000300", value: "4548.05", change: "-0.10%", market: "A股", updateTime: "2026-09-06 实时" },
+        { name: "科创50", code: "SH000688", value: "1577.36", change: "-2.10%", market: "A股", updateTime: "2026-09-06 实时" },
+        { name: "标普500", code: "SPX", value: "7,718.60", change: "+0.09%", market: "美股", updateTime: "2026-09-06 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,506.99", change: "+0.40%", market: "美股", updateTime: "2026-09-06 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,414.25", change: "-0.27%", market: "美股", updateTime: "2026-09-06 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "OpenAI“Astra”模型所用技术引发安全隐患",
-            summary: "OpenAI表示，其即将推出的Astra模型在代码编写、电脑端应用操作等能力方面实现升级。但一名了解Astra研发情况的人士称，一项提升模型性能的创新技术...",
+            title: "美联储加息迫在眉睫 特朗普政府加大对沃什施压",
+            summary: "距离美联储即将审议加息的议息会议还有十天，特朗普政府正展开全方位施压，试图阻止本次加息落地。 过去一周，总统、副总统、财政部长以及总统高级经济顾问纷纷公开敦促美...",
             source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/7x24/2026-09-05/doc-iniquyir0544041.shtml"
+            date: "2026-09-06",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwhaz0170214.shtml"
         },
         {
-            title: "美军打击三艘伊朗油轮 报复伊朗革命卫队的袭击",
-            summary: "美国军方表示，在伊朗革命卫队用弹道导弹袭击两艘美国海军军舰后，美军打击了三艘伊朗原油油轮，以此作为报复。 美国中央司令部周六表示...",
+            title: "以色列国防军在实施打击前要求黎巴嫩南部一个村庄居民远离一栋建筑物",
+            summary: "以色列国防军告知黎巴嫩南部一个村庄的居民，在以军打击前撤离一栋建筑物及其周围地区。 以色列国防军称将打击的建筑物是真主党设施...",
             source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquyin0071799.shtml"
-        },
-        {
-            title: "特朗普的国家资本主义延伸至石油行业：与委内瑞拉达成史无前例的交易",
-            summary: " 如果特朗普的委内瑞拉交易成功，五角大楼将获得一家不起眼的私营石油公司的大量所有权，而这家公司将控制比埃克森美孚全球投资组合更大的原油储量。",
-            source: "环球市场播报",
-            date: "2026-09-05",
+            date: "2026-09-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquyin4896382.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwhca6923315.shtml"
         },
         {
-            title: "纽约市学校AI新政：低年级禁用，高中试点，全美学区静观其效",
-            summary: "美国最大的学区现在对低年级学生在校内使用人工智能工具制定了最严格的规定——至少是暂时的。一些教育专家表示，这是朝着学校有效利用人工智能造福儿童的正确方向迈出的一步...",
+            title: "普京与美国特使会谈三个多小时 后者随后将访问基辅",
+            summary: "俄罗斯总统弗拉基米尔·普京在莫斯科接待了美国特使史蒂夫·威特科夫和贾里德·库什纳，进行了三个多小时的会谈，克里姆林宫一名助手称会谈“非常有益”...",
             source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquyir0516955.shtml"
-        },
-        {
-            title: "OpenAI在立法阻力下扩充政策团队，聘用三人负责州级政策事务",
-            summary: "OpenAI一位发言人表示，该实验室的全球事务团队正在扩充，新增了三位专注于州级政策的关键人才。 随着全美两党加强对人工智能的监管...",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqutzq4993319.shtml"
-        },
-        {
-            title: "塔塔将在印度海得拉巴建设大型AI数据中心，预计投资7000亿卢比",
-            summary: " 据交易所文件显示，塔塔咨询服务公司（TCS）旗下的HyperVault已获得264英亩土地，将在海得拉巴开发一个最高1吉瓦（GW）算力的大型人工智能数据中心园区。",
-            source: "环球市场播报",
-            date: "2026-09-05",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqupts5088932.shtml"
-        },
-        {
-            title: "捷豹路虎据悉拟未来两年裁员4000人",
-            summary: "据报道，由于成本飙升、销量暴跌以及美国关税的影响，英国最大汽车制造商捷豹路虎计划在未来两年内裁员4000人。 该公司于周五晚间通知员工，将于周一宣布裁员计划。",
-            source: "环球市场播报",
-            date: "2026-09-05",
+            date: "2026-09-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniqupts0253328.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwhav9494071.shtml"
         },
         {
-            title: "鸿海8月销售额增长近52% 受AI服务器需求强劲推动",
-            summary: "鸿海精密公布月销售额增长近52%，受全球数据中心和AI算力建设竞赛中的服务器需求推动。 据周六发布的公告称，鸿海8月营收达9218亿元台币（291亿美元）。",
+            title: "马来西亚总理经济顾问：马来西亚有信心保障今年燃料供应充足",
+            summary: "马来西亚总理经济顾问表示，马来西亚政府有信心在年底前获得充足的燃料供应。 他周五向当地媒体表示，受地缘政治紧张局势以及关键航运通道受阻影响...",
             source: "环球市场播报",
-            date: "2026-09-05",
+            date: "2026-09-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwhca6900913.shtml"
+        },
+        {
+            title: "AI驱动全球造富潮 2025年全球亿万富豪人数创新高",
+            summary: " 财富调研机构Altrata近期发布报告显示，受人工智能热潮在全球加速造富，2025年全球亿万富豪人数创下新高，达到3795人。",
+            source: "环球市场播报",
+            date: "2026-09-06",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-05/doc-iniquimq3637697.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqvzvc0247696.shtml"
+        },
+        {
+            title: "特朗普的超级政治行动委员会砸千万美元介入得州选举",
+            summary: "特朗普的超级政治行动委员会（Super PAC）已介入得克萨斯州竞争激烈的联邦参议员竞选，砸出本届政治周期最大一笔开支：斥资1000万美元投放广告...",
+            source: "环球市场播报",
+            date: "2026-09-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqvzvc0238800.shtml"
+        },
+        {
+            title: "每天3万人涌入，又一打卡地火了！“场面堪比演唱会”",
+            summary: "排队1.5小时、每天3万人次涌入 这不是大型演唱会现场 而是湖南长沙的新晋打卡地“零食王国” 从场景化体验到健康化升级 这个年总营收突破1500亿元的湖南产业...",
+            source: "央视新闻客户端",
+            date: "2026-09-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/wm/2026-09-06/doc-iniqvzux9606263.shtml"
+        },
+        {
+            title: "九款智能体产品在溧阳亮相，首次披露“三位一体”开源架构",
+            summary: "新浪科技讯 9月6日上午消息，“智启溧阳——AI智能体赋能企业开源社区产品发布会”在溧阳成功举办。 智能无人装备产业创新中心（毛明院士工作站）携九款面向企业的开源智能体产...",
+            source: "新浪科技",
+            date: "2026-09-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/2026-09-06/doc-iniqvzuy4425961.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-09-05",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-09-06",
         marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
-
+            { name: "畜禽饲料", reason: "板块涨幅+8.46%", strength: "强" },
+            { name: "生猪养殖", reason: "板块涨幅+6.23%", strength: "强" },
+            { name: "教育运营及其他", reason: "板块涨幅+6.08%", strength: "强" },
+            { name: "饲料", reason: "板块涨幅+5.98%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "玻纤制造", reason: "板块跌幅-4.82%", strength: "弱" },
+            { name: "半导体设备", reason: "板块跌幅-4.13%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注畜禽饲料、生猪养殖、教育运营及其他等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

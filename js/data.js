@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3920.70", change: "-0.24%", market: "A股", updateTime: "2026-09-07 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13703.21", change: "+1.38%", market: "A股", updateTime: "2026-09-07 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3373.12", change: "+2.63%", market: "A股", updateTime: "2026-09-07 实时" },
-        { name: "沪深300", code: "SH000300", value: "4556.86", change: "+0.19%", market: "A股", updateTime: "2026-09-07 实时" },
-        { name: "科创50", code: "SH000688", value: "1602.03", change: "+1.56%", market: "A股", updateTime: "2026-09-07 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3932.70", change: "+0.07%", market: "A股", updateTime: "2026-09-07 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13774.91", change: "+1.91%", market: "A股", updateTime: "2026-09-07 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3398.68", change: "+3.41%", market: "A股", updateTime: "2026-09-07 实时" },
+        { name: "沪深300", code: "SH000300", value: "4575.02", change: "+0.59%", market: "A股", updateTime: "2026-09-07 实时" },
+        { name: "科创50", code: "SH000688", value: "1615.53", change: "+2.42%", market: "A股", updateTime: "2026-09-07 实时" },
         { name: "标普500", code: "SPX", value: "7,718.60", change: "+0.09%", market: "美股", updateTime: "2026-09-07 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,506.99", change: "+0.40%", market: "美股", updateTime: "2026-09-07 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,414.25", change: "-0.27%", market: "美股", updateTime: "2026-09-07 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "印度主权类财富基金聘任前 PAG 高管负责全球募资",
-            summary: " 印度准主权财富基金 —— 国家投资与基础设施基金（NIIF）任命高拉夫吉特・辛格（Gauravjit Singh）负责全球募资工作，该机构希望借此深化与海内外投资者的合作关系。",
+            title: "经济研究：伊朗战争推动全球油价冲破每桶120美元的三重条件",
+            summary: "伊朗战争已经改变了全球经济。冲突爆发前，众多预测机构曾预计油价将在每桶50美元左右徘徊。如今，油价逼近97美元——进一步飙升至120美元也并非没有可能。",
+            source: "环球市场播报",
+            date: "2026-09-07",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqyzxw5437164.shtml"
+        },
+        {
+            title: "报告：三星扩大全球DRAM市场领先优势，份额达39%",
+            summary: "市场研究机构集邦咨询（TrendForce）周一发布的一份行业报告显示，2026年第二季度，三星电子以营收口径计算占据全球动态随机存取存储器（DRAM）市场39.4%的份额...",
             source: "环球市场播报",
             date: "2026-09-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqyrka5588244.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqyzxx0268867.shtml"
         },
         {
-            title: "谁是奇瑞最强对手？尹同跃幽默回应：销量拼不过王传福，高价比不上项兴初和李斌，要超越的是自己",
-            summary: " 新浪科技讯 9月7日中午消息，近日在中国科学技术大学举行的一场活动上，比亚迪王传福、奇瑞尹同跃、蔚来李斌、江淮项兴初四位安徽本土车企掌舵人罕见同台。",
-            source: "新浪科技",
-            date: "2026-09-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/2026-09-07/doc-iniqyrkc0419569.shtml"
-        },
-        {
-            title: "新兴市场股票指数触及两个月高位 科技股上涨抵消其他板块疲弱走势",
-            summary: "新兴市场股市本周开局走升，围绕新AI模型的乐观情绪提振了科技巨头股票，帮助抵消了油价上涨对市场情绪的拖累。 MSCI新兴市场指数一度上涨1.4%...",
+            title: "土耳其将2026年增长预测下调至3.3%，年末通胀目标升至28.4%",
+            summary: " 土耳其政府下调2026年经济增长预期，同时大幅上调年末通胀预测，显示在继续推进去通胀政策的同时，经济增长和外部收支面临的压力正在加大。",
             source: "环球市场播报",
             date: "2026-09-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqyriw9555770.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-07/doc-iniqyzxw5435745.shtml"
         },
         {
-            title: "千问办公推出“多人工作台”，最多可支持百人同时协作",
-            summary: "新浪科技讯 9月7日午间消息，近日，阿里巴巴旗下Agent产品“千问办公”推出首个“多人工作台”。用户简单描述需求，即可生成并发布一个最多支持百人同时在线协作的网页...",
-            source: "新浪科技",
+            title: "赵一鸣、零食很忙致歉，承诺称错赔10倍，门店员工将每月接受收银规范考核",
+            summary: " 据界面新闻，9月7日，鸣鸣很忙就近期门店称重问题发布回应并致歉。公司表示，已主动联系市场监管部门汇报情况，并配合相关检查。",
+            source: "每日经济新闻",
             date: "2026-09-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/tech/internet/2026-09-07/doc-iniqyriw9554099.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-09-07/doc-iniqyzxw5437367.shtml"
         },
         {
-            title: "海清智元获纳入港股通标的证券名单",
-            summary: "海清智元（01392）发布公告，根据上海证券交易所及深圳证券交易所发佈的港股通标的证券名单调整的公告，公司发行并于香港联合交易所有限公司上市的股份已获纳入沪港通及深...",
-            source: "新浪港股",
+            title: "千亿芯片龙头首次20CM跌停，市值蒸发488亿，公司回应",
+            summary: "（来源：21记者 21世纪经济报道） 记者丨彭新 编辑丨李新江，曾静娇，骆一帆 9月7日，国产GPU企业摩尔线程（688795.SH）股价快速下挫，开盘约4分钟后即触及20%跌停。",
+            source: "",
             date: "2026-09-07",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-07/doc-iniqyrkc0415445.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/wm/2026-09-07/doc-iniqyzxs9534749.shtml"
         },
         {
-            title: "百度集团-W公司的A类普通股获纳入深港通",
-            summary: "百度集团-W（09888）发布公告，根据深圳证券交易所于2026年9月7日发布的《关于深港通下的港股通标的证券名单调整的公告》，公司的A类普通股已获纳入为深港通下标的证券...",
-            source: "新浪港股",
-            date: "2026-09-07",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-07/doc-iniqyrkc0414789.shtml"
-        },
-        {
-            title: "视频|思美传媒中标一汽大众公关媒介采购项目 中标金额3338.10万元 第二季度单季亏损224万元",
-            summary: "视频|思美传媒中标一汽大众公关媒介采购项目 中标金额3338.10万元 第二季度单季亏损224万元",
+            title: "兴业科技被立案 受损股民可索赔",
+            summary: "2026年9月4日晚，兴业皮革科技股份有限公司（代码：002674 简称：兴业科技）发布《关于收到中国证监会立案通知书的公告》 。因公司涉嫌信息披露违法违规...",
             source: "市场资讯",
             date: "2026-09-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/2026-09-07/doc-iniqyriw9550851.shtml"
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-09-07/doc-iniqyzxw5431534.shtml"
         },
         {
-            title: "海光芯正获纳入港股通股票名单",
-            summary: "海光芯正（01191）发布公告，根据上海证券交易所及深圳证券交易所分别于2026年9月4日及2026年9月7日发布的《关于沪港通下港股通标的调整的通知》...",
-            source: "新浪港股",
+            title: "关税暴涨15%+莫迪亲口呼吁停买也难挡！印度黄金需求依旧坚挺",
+            summary: "文章来源：金十数据 因石油价格冲击暴露了印度对海湾地区的能源依赖，导致该国货币和外汇储备面临巨大压力。为减少进口从而支撑不断下滑的卢比汇率...",
+            source: "市场资讯",
             date: "2026-09-07",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-07/doc-iniqymaf0545251.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-07/doc-iniqyzxu6302116.shtml"
+        },
+        {
+            title: "光大期货0907热点追踪：利多出尽遭遇预期转向，焦煤重挫近3%",
+            summary: "周一，焦煤期货领跌黑色系，盘中最大跌幅超3%，焦炭主力合约同步下跌超2%。锰硅、硅铁跌超4%，煤炭板块全线承压。此前一周，焦煤主力2701合约刚刚经历了30%以上的月度涨幅—...",
+            source: "市场资讯",
+            date: "2026-09-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-09-07/doc-iniqyzxs9527123.shtml"
         },
     ],
 
@@ -765,17 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-07",
-        marketAssessment: "A股方面：上证指数报3920.70点（-0.24%），深证成指报13703.21点（+1.38%），创业板指报3373.12点（+2.63%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
+        marketAssessment: "A股方面：上证指数报3932.70点（+0.07%），深证成指报13774.91点（+1.91%），创业板指报3398.68点（+3.41%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
 
         ],
         weakSectors: [
 
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3930.12", change: "-0.30%", market: "A股", updateTime: "2026-09-06 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13516.97", change: "-0.79%", market: "A股", updateTime: "2026-09-06 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3286.55", change: "-0.78%", market: "A股", updateTime: "2026-09-06 实时" },
-        { name: "沪深300", code: "SH000300", value: "4548.05", change: "-0.10%", market: "A股", updateTime: "2026-09-06 实时" },
-        { name: "科创50", code: "SH000688", value: "1577.36", change: "-2.10%", market: "A股", updateTime: "2026-09-06 实时" },
-        { name: "标普500", code: "SPX", value: "7,718.60", change: "+0.09%", market: "美股", updateTime: "2026-09-06 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,506.99", change: "+0.40%", market: "美股", updateTime: "2026-09-06 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,414.25", change: "-0.27%", market: "美股", updateTime: "2026-09-06 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3920.70", change: "-0.24%", market: "A股", updateTime: "2026-09-07 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13703.21", change: "+1.38%", market: "A股", updateTime: "2026-09-07 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3373.12", change: "+2.63%", market: "A股", updateTime: "2026-09-07 实时" },
+        { name: "沪深300", code: "SH000300", value: "4556.86", change: "+0.19%", market: "A股", updateTime: "2026-09-07 实时" },
+        { name: "科创50", code: "SH000688", value: "1602.03", change: "+1.56%", market: "A股", updateTime: "2026-09-07 实时" },
+        { name: "标普500", code: "SPX", value: "7,718.60", change: "+0.09%", market: "美股", updateTime: "2026-09-07 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,506.99", change: "+0.40%", market: "美股", updateTime: "2026-09-07 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,414.25", change: "-0.27%", market: "美股", updateTime: "2026-09-07 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "美能源部长：美国海军将守卫霍尔木兹海峡，直至伊朗让步",
-            summary: " 美国能源部长克里斯·赖特周日表示，美国海军为油轮提供护航，保障船只穿越霍尔木兹海峡，是维持这条水道原油运输的核心力量，同时暗示护航行动短期内不会结束。",
+            title: "印度主权类财富基金聘任前 PAG 高管负责全球募资",
+            summary: " 印度准主权财富基金 —— 国家投资与基础设施基金（NIIF）任命高拉夫吉特・辛格（Gauravjit Singh）负责全球募资工作，该机构希望借此深化与海内外投资者的合作关系。",
             source: "环球市场播报",
-            date: "2026-09-06",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqxiqn9844323.shtml"
-        },
-        {
-            title: "美能源部长：霍尔木兹海峡石油日运量超900万桶，已恢复至冲突前三分之二水平",
-            summary: " 美国能源部长克里斯·赖特表示，霍尔木兹海峡的石油运输量日均超过900万桶，加上替代管道的运力，总输油量恢复至冲突前水平的三分之二及以上。",
-            source: "环球市场播报",
-            date: "2026-09-06",
+            date: "2026-09-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/7x24/2026-09-06/doc-iniqxiqn9837782.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqyrka5588244.shtml"
         },
         {
-            title: "伊朗与美国针锋相对袭击油轮 美伊战争仍然看不到结束的曙光",
-            summary: " 伊朗表示，为报复美国在周末期间袭击伊朗油轮，伊朗袭击了三艘在霍尔木兹海峡使用未经其授权航线的油轮，以及多艘与美国有关联的船只。",
-            source: "环球市场播报",
-            date: "2026-09-06",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqxchs6720747.shtml"
-        },
-        {
-            title: "OPEC+维持10月石油产出政策不变",
-            summary: " OPEC+在周日的一次会议上表示，其10月份的石油产出政策维持不变，该组织在一份声明中称，因为产油国集团需要在决定下一步产出步骤之前，先就新的配额达成一致。",
-            source: "环球市场播报",
-            date: "2026-09-06",
+            title: "谁是奇瑞最强对手？尹同跃幽默回应：销量拼不过王传福，高价比不上项兴初和李斌，要超越的是自己",
+            summary: " 新浪科技讯 9月7日中午消息，近日在中国科学技术大学举行的一场活动上，比亚迪王传福、奇瑞尹同跃、蔚来李斌、江淮项兴初四位安徽本土车企掌舵人罕见同台。",
+            source: "新浪科技",
+            date: "2026-09-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqxchs6716954.shtml"
+            url: "https://finance.sina.com.cn/stock/2026-09-07/doc-iniqyrkc0419569.shtml"
         },
         {
-            title: "特朗普对沃什施压，美联储加息在即",
-            summary: "距离美联储可能考虑加息的会议还有十天，特朗普政府似乎正在全力施压，试图阻止加息进程。 过去一周，总统、副总统、财政部长以及总统的一位高级经济顾问都敦促美联储不要...",
+            title: "新兴市场股票指数触及两个月高位 科技股上涨抵消其他板块疲弱走势",
+            summary: "新兴市场股市本周开局走升，围绕新AI模型的乐观情绪提振了科技巨头股票，帮助抵消了油价上涨对市场情绪的拖累。 MSCI新兴市场指数一度上涨1.4%...",
             source: "环球市场播报",
-            date: "2026-09-06",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqxchv1072002.shtml"
-        },
-        {
-            title: "特朗普称加拿大对美国的美元“失衡”是不可接受的。",
-            summary: "“加元对美元的汇率失衡是不可接受的，”唐纳德·特朗普总统在Truth Social上表示。“ 这种情况已经持续很多年了——但以后不会了！”他说道。",
-            source: "环球市场播报",
-            date: "2026-09-06",
+            date: "2026-09-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqxchv1058393.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqyriw9555770.shtml"
         },
         {
-            title: "复牌！301266，低空经济“大佬”拟入主",
-            summary: "来源：中国基金报 【导读】宇邦新材9月7日复牌 中国基金报记者 夏天 停牌一周后，宇邦新材（证券代码：301266）潜在新主“揭面”。",
+            title: "千问办公推出“多人工作台”，最多可支持百人同时协作",
+            summary: "新浪科技讯 9月7日午间消息，近日，阿里巴巴旗下Agent产品“千问办公”推出首个“多人工作台”。用户简单描述需求，即可生成并发布一个最多支持百人同时在线协作的网页...",
+            source: "新浪科技",
+            date: "2026-09-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/internet/2026-09-07/doc-iniqyriw9554099.shtml"
+        },
+        {
+            title: "海清智元获纳入港股通标的证券名单",
+            summary: "海清智元（01392）发布公告，根据上海证券交易所及深圳证券交易所发佈的港股通标的证券名单调整的公告，公司发行并于香港联合交易所有限公司上市的股份已获纳入沪港通及深...",
+            source: "新浪港股",
+            date: "2026-09-07",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-07/doc-iniqyrkc0415445.shtml"
+        },
+        {
+            title: "百度集团-W公司的A类普通股获纳入深港通",
+            summary: "百度集团-W（09888）发布公告，根据深圳证券交易所于2026年9月7日发布的《关于深港通下的港股通标的证券名单调整的公告》，公司的A类普通股已获纳入为深港通下标的证券...",
+            source: "新浪港股",
+            date: "2026-09-07",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-07/doc-iniqyrkc0414789.shtml"
+        },
+        {
+            title: "视频|思美传媒中标一汽大众公关媒介采购项目 中标金额3338.10万元 第二季度单季亏损224万元",
+            summary: "视频|思美传媒中标一汽大众公关媒介采购项目 中标金额3338.10万元 第二季度单季亏损224万元",
             source: "市场资讯",
-            date: "2026-09-06",
+            date: "2026-09-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqxchu6225460.shtml"
+            url: "https://finance.sina.com.cn/stock/2026-09-07/doc-iniqyriw9550851.shtml"
         },
         {
-            title: "任职仅1个月，中信海直独董因连续缺席会议遭解职",
-            summary: "来源：中国基金报 中国基金报记者 刘墨 9月6日晚间，中信海直公告称，公司拟提请股东大会解除独立董事董铁牛职务。公司同步提名新任独董候选人补位...",
-            source: "市场资讯",
-            date: "2026-09-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-06/doc-iniqxchs6687116.shtml"
+            title: "海光芯正获纳入港股通股票名单",
+            summary: "海光芯正（01191）发布公告，根据上海证券交易所及深圳证券交易所分别于2026年9月4日及2026年9月7日发布的《关于沪港通下港股通标的调整的通知》...",
+            source: "新浪港股",
+            date: "2026-09-07",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-07/doc-iniqymaf0545251.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-09-06",
-        marketAssessment: "A股方面：上证指数报3930.12点（-0.30%），深证成指报13516.97点（-0.79%），创业板指报3286.55点（-0.78%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-09-07",
+        marketAssessment: "A股方面：上证指数报3920.70点（-0.24%），深证成指报13703.21点（+1.38%），创业板指报3373.12点（+2.63%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
 
         ],

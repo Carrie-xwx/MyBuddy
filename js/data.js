@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3932.70", change: "+0.07%", market: "A股", updateTime: "2026-09-07 实时" },
         { name: "深证成指", code: "SZ399001", value: "13774.91", change: "+1.91%", market: "A股", updateTime: "2026-09-07 实时" },
         { name: "创业板指", code: "SZ399006", value: "3398.68", change: "+3.41%", market: "A股", updateTime: "2026-09-07 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "经济研究：伊朗战争推动全球油价冲破每桶120美元的三重条件",
-            summary: "伊朗战争已经改变了全球经济。冲突爆发前，众多预测机构曾预计油价将在每桶50美元左右徘徊。如今，油价逼近97美元——进一步飙升至120美元也并非没有可能。",
-            source: "环球市场播报",
-            date: "2026-09-07",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqyzxw5437164.shtml"
-        },
-        {
-            title: "报告：三星扩大全球DRAM市场领先优势，份额达39%",
-            summary: "市场研究机构集邦咨询（TrendForce）周一发布的一份行业报告显示，2026年第二季度，三星电子以营收口径计算占据全球动态随机存取存储器（DRAM）市场39.4%的份额...",
+            title: "大众汽车达成协议：工厂将由造车转为生产防空装备",
+            summary: " 大众汽车已与一家以色列投资集团签署协议，这家处境艰难的德国车企将把奥斯纳布吕克工厂的生产业务，从整车制造转向为以色列“铁穹”防空系统制造商生产零部件。",
             source: "环球市场播报",
             date: "2026-09-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqyzxx0268867.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9500750.shtml"
         },
         {
-            title: "土耳其将2026年增长预测下调至3.3%，年末通胀目标升至28.4%",
-            summary: " 土耳其政府下调2026年经济增长预期，同时大幅上调年末通胀预测，显示在继续推进去通胀政策的同时，经济增长和外部收支面临的压力正在加大。",
+            title: "奥迪发布纯电掀背A2 e-tron，宣称品牌史上最省电",
+            summary: "奥迪9月7日在巴黎正式发布纯电紧凑型掀背车A2 e-tron，时隔二十多年重新启用A2这一车名。新车主打高效率、长续航和紧凑尺寸，其中140千瓦版本在选装效率套件后...",
+            source: "环球市场播报",
+            date: "2026-09-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpq6271708.shtml"
+        },
+        {
+            title: "大众汽车就奥斯纳布吕克工厂转作防务枢纽达成框架协议",
+            summary: "大众汽车集团9月7日宣布，已与下萨克森州以及以色列投资机构奥勒留资本就可能出售大众奥斯纳布吕克有限公司达成关键框架条款。这座拥有125年工业历史...",
+            source: "环球市场播报",
+            date: "2026-09-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpq6268334.shtml"
+        },
+        {
+            title: "日元兑美元升至2月以来最高",
+            summary: " 日元9月7日大幅走强，升至今年2月以来最高水平。伦敦交易时段，美元兑日元一度下跌约1.4%至154.06，随后在154.38附近交投，当日美元对日元跌幅约1.2%。",
+            source: "环球市场播报",
+            date: "2026-09-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-07/doc-iniqznpn9491671.shtml"
+        },
+        {
+            title: "默茨对州选举惨淡表现深感震惊 称极右翼地方大胜“改变整个德国”",
+            summary: " 德国总理弗里德里希·默茨表示，极右翼政党在一场州选举中取得压倒性胜利，德国政府必须从中吸取教训，并称这一结果将改变德国的政治。",
+            source: "环球市场播报",
+            date: "2026-09-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9490173.shtml"
+        },
+        {
+            title: "欧元区二季度GDP三估上修至环比0.6%",
+            summary: "欧盟统计局9月7日公布2026年第二季度国内生产总值和就业三次估值。经季节调整后，欧元区GDP环比增长0.6%，高于8月14日二次估值的0.4%，也高于市场此前约0...",
             source: "环球市场播报",
             date: "2026-09-07",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-07/doc-iniqyzxw5435745.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpq6260597.shtml"
         },
         {
-            title: "赵一鸣、零食很忙致歉，承诺称错赔10倍，门店员工将每月接受收银规范考核",
-            summary: " 据界面新闻，9月7日，鸣鸣很忙就近期门店称重问题发布回应并致歉。公司表示，已主动联系市场监管部门汇报情况，并配合相关检查。",
-            source: "每日经济新闻",
+            title: "解禁日20%跌停，谁在卖出摩尔线程?",
+            summary: "摩尔线程此次解禁，令公司流通股本一天内扩容85%。其解禁数量与网下打新的A1类投资者解禁的股份相吻合，这部分投资者以公募基金、社保基金、养老金等为主...",
+            source: "《财经》杂志",
             date: "2026-09-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-07/doc-iniqyzxw5437367.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-09-07/doc-iniqznpq6265641.shtml"
         },
         {
-            title: "千亿芯片龙头首次20CM跌停，市值蒸发488亿，公司回应",
-            summary: "（来源：21记者 21世纪经济报道） 记者丨彭新 编辑丨李新江，曾静娇，骆一帆 9月7日，国产GPU企业摩尔线程（688795.SH）股价快速下挫，开盘约4分钟后即触及20%跌停。",
-            source: "",
-            date: "2026-09-07",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/wm/2026-09-07/doc-iniqyzxs9534749.shtml"
-        },
-        {
-            title: "兴业科技被立案 受损股民可索赔",
-            summary: "2026年9月4日晚，兴业皮革科技股份有限公司（代码：002674 简称：兴业科技）发布《关于收到中国证监会立案通知书的公告》 。因公司涉嫌信息披露违法违规...",
-            source: "市场资讯",
+            title: "继续停牌！600825，筹划重大资产重组",
+            summary: "9月7日晚间，新华传媒（600825）公告称，公司拟以发行股份方式购买上海界面财联社科技股份有限公司（以下简称“标的公司”）控股权，预计构成重大资产重组...",
+            source: "上海证券报",
             date: "2026-09-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-09-07/doc-iniqyzxw5431534.shtml"
-        },
-        {
-            title: "关税暴涨15%+莫迪亲口呼吁停买也难挡！印度黄金需求依旧坚挺",
-            summary: "文章来源：金十数据 因石油价格冲击暴露了印度对海湾地区的能源依赖，导致该国货币和外汇储备面临巨大压力。为减少进口从而支撑不断下滑的卢比汇率...",
-            source: "市场资讯",
-            date: "2026-09-07",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-09-07/doc-iniqyzxu6302116.shtml"
-        },
-        {
-            title: "光大期货0907热点追踪：利多出尽遭遇预期转向，焦煤重挫近3%",
-            summary: "周一，焦煤期货领跌黑色系，盘中最大跌幅超3%，焦炭主力合约同步下跌超2%。锰硅、硅铁跌超4%，煤炭板块全线承压。此前一周，焦煤主力2701合约刚刚经历了30%以上的月度涨幅—...",
-            source: "市场资讯",
-            date: "2026-09-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-09-07/doc-iniqyzxs9527123.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-09-07/doc-iniqzhfq9600191.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-07",
         marketAssessment: "A股方面：上证指数报3932.70点（+0.07%），深证成指报13774.91点（+1.91%），创业板指报3398.68点（+3.41%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
-
+            { name: "印制电路板", reason: "板块涨幅+7.62%", strength: "强" },
+            { name: "元件", reason: "板块涨幅+6.72%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+6.35%", strength: "强" },
+            { name: "其他种植业", reason: "板块涨幅+6.13%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "氨纶", reason: "板块跌幅-3.83%", strength: "弱" },
+            { name: "涂料", reason: "板块跌幅-3.23%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注印制电路板、元件、种子等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

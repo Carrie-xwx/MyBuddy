@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3932.70", change: "+0.07%", market: "A股", updateTime: "2026-09-07 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13774.91", change: "+1.91%", market: "A股", updateTime: "2026-09-07 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3398.68", change: "+3.41%", market: "A股", updateTime: "2026-09-07 实时" },
-        { name: "沪深300", code: "SH000300", value: "4575.02", change: "+0.59%", market: "A股", updateTime: "2026-09-07 实时" },
-        { name: "科创50", code: "SH000688", value: "1615.53", change: "+2.42%", market: "A股", updateTime: "2026-09-07 实时" },
-        { name: "标普500", code: "SPX", value: "7,718.60", change: "+0.09%", market: "美股", updateTime: "2026-09-07 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,506.99", change: "+0.40%", market: "美股", updateTime: "2026-09-07 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,414.25", change: "-0.27%", market: "美股", updateTime: "2026-09-07 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3932.70", change: "+0.07%", market: "A股", updateTime: "2026-09-08 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13774.91", change: "+1.91%", market: "A股", updateTime: "2026-09-08 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3398.68", change: "+3.41%", market: "A股", updateTime: "2026-09-08 实时" },
+        { name: "沪深300", code: "SH000300", value: "4575.02", change: "+0.59%", market: "A股", updateTime: "2026-09-08 实时" },
+        { name: "科创50", code: "SH000688", value: "1615.53", change: "+2.42%", market: "A股", updateTime: "2026-09-08 实时" },
+        { name: "标普500", code: "SPX", value: "7,718.60", change: "+0.09%", market: "美股", updateTime: "2026-09-08 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,506.99", change: "+0.40%", market: "美股", updateTime: "2026-09-08 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,414.25", change: "-0.27%", market: "美股", updateTime: "2026-09-08 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "大众汽车达成协议：工厂将由造车转为生产防空装备",
-            summary: " 大众汽车已与一家以色列投资集团签署协议，这家处境艰难的德国车企将把奥斯纳布吕克工厂的生产业务，从整车制造转向为以色列“铁穹”防空系统制造商生产零部件。",
+            title: "面对特朗普觊觎格陵兰 欧盟拟投资2亿欧元加强联系",
+            summary: " 欧盟将向格陵兰投资2亿欧元（2.32亿美元），作为加强与这一地区联系的一部分。此前，美国总统特朗普声称格陵兰应归美国所有。",
+            source: "环球市场播报",
+            date: "2026-09-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvr0019620.shtml"
+        },
+        {
+            title: "欧洲股市表现平淡 油价上涨与诺华下跌形成拖累",
+            summary: "欧洲股市周一受到油价上涨以及诺华股价下跌的拖累。此前，诺华一款心脏病药物在临床试验中失利。 斯托克欧洲600指数伦敦收盘时基本持平。",
+            source: "环球市场播报",
+            date: "2026-09-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvk9429552.shtml"
+        },
+        {
+            title: "欧洲债市：德债五连跌 各期限英债收益率走高约4个基点",
+            summary: "德国国债连续第五天下跌，国际油价逼近每桶100美元，令投资者继续警惕通胀压力。英债同样走弱。 德国10年期国债收益率一度上涨4个基点至3.38%...",
+            source: "环球市场播报",
+            date: "2026-09-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvk9428773.shtml"
+        },
+        {
+            title: "卡塔尔LNG运输船罕见尝试驶出霍尔木兹海峡 出口恢复信号增强",
+            summary: " 一艘上月初在卡塔尔装载液化天然气的运输船正驶向霍尔木兹海峡，可能成为自7月以来首次可见的尝试驶出这一关键水道的行动。",
+            source: "环球市场播报",
+            date: "2026-09-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvq5178631.shtml"
+        },
+        {
+            title: "知情人士称沙特阿美位于吉赞的石油设施再次遭到袭击",
+            summary: " 据知情人士透露，沙特阿美位于吉赞的石油设施周一再次遭到袭击。这是当地一系列袭击事件中的最新一起，此前相关袭击已迫使当地一座大型炼油厂停运。",
             source: "环球市场播报",
             date: "2026-09-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9500750.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9545467.shtml"
         },
         {
-            title: "奥迪发布纯电掀背A2 e-tron，宣称品牌史上最省电",
-            summary: "奥迪9月7日在巴黎正式发布纯电紧凑型掀背车A2 e-tron，时隔二十多年重新启用A2这一车名。新车主打高效率、长续航和紧凑尺寸，其中140千瓦版本在选装效率套件后...",
-            source: "环球市场播报",
-            date: "2026-09-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpq6271708.shtml"
-        },
-        {
-            title: "大众汽车就奥斯纳布吕克工厂转作防务枢纽达成框架协议",
-            summary: "大众汽车集团9月7日宣布，已与下萨克森州以及以色列投资机构奥勒留资本就可能出售大众奥斯纳布吕克有限公司达成关键框架条款。这座拥有125年工业历史...",
-            source: "环球市场播报",
-            date: "2026-09-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpq6268334.shtml"
-        },
-        {
-            title: "日元兑美元升至2月以来最高",
-            summary: " 日元9月7日大幅走强，升至今年2月以来最高水平。伦敦交易时段，美元兑日元一度下跌约1.4%至154.06，随后在154.38附近交投，当日美元对日元跌幅约1.2%。",
-            source: "环球市场播报",
-            date: "2026-09-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-07/doc-iniqznpn9491671.shtml"
-        },
-        {
-            title: "默茨对州选举惨淡表现深感震惊 称极右翼地方大胜“改变整个德国”",
-            summary: " 德国总理弗里德里希·默茨表示，极右翼政党在一场州选举中取得压倒性胜利，德国政府必须从中吸取教训，并称这一结果将改变德国的政治。",
-            source: "环球市场播报",
-            date: "2026-09-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9490173.shtml"
-        },
-        {
-            title: "欧元区二季度GDP三估上修至环比0.6%",
-            summary: "欧盟统计局9月7日公布2026年第二季度国内生产总值和就业三次估值。经季节调整后，欧元区GDP环比增长0.6%，高于8月14日二次估值的0.4%，也高于市场此前约0...",
+            title: "关税揣测搅动市场 伦敦期铜创出新高",
+            summary: "有关美国总统特朗普拟将关税扩大至精铜的揣测推动铜价上涨数周后，这一基本金属在伦敦触及纪录高位。 伦敦金属交易所 （LME） 三个月基准期铜合约一度上涨0.8%...",
             source: "环球市场播报",
             date: "2026-09-07",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpq6260597.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpt0131213.shtml"
         },
         {
-            title: "解禁日20%跌停，谁在卖出摩尔线程?",
-            summary: "摩尔线程此次解禁，令公司流通股本一天内扩容85%。其解禁数量与网下打新的A1类投资者解禁的股份相吻合，这部分投资者以公募基金、社保基金、养老金等为主...",
-            source: "《财经》杂志",
+            title: "伊朗称经霍尔木兹海峡美国通道安全通行实际上已不可能",
+            summary: " 伊斯兰革命卫队的Ali Mohammadi表示，通过霍尔木兹海峡的船只“一旦抵达阿曼Khasab一带，将不再能够免于遭到袭击的风险”。",
+            source: "环球市场播报",
             date: "2026-09-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-07/doc-iniqznpq6265641.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9537865.shtml"
         },
         {
-            title: "继续停牌！600825，筹划重大资产重组",
-            summary: "9月7日晚间，新华传媒（600825）公告称，公司拟以发行股份方式购买上海界面财联社科技股份有限公司（以下简称“标的公司”）控股权，预计构成重大资产重组...",
-            source: "上海证券报",
+            title: "加拿大势将对数百种美国商品加征关税 卡尼拟借强硬立场增加谈判筹码",
+            summary: " 加拿大准备于周二对数百种美国商品实施15%至50%的关税措施，总理马克·卡尼押注，对美国总统特朗普采取强硬立场，最终将有助于渥太华改善与其最大贸易伙伴谈判时的筹码。",
+            source: "环球市场播报",
             date: "2026-09-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-07/doc-iniqzhfq9600191.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9528993.shtml"
         },
     ],
 
@@ -765,8 +765,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-07",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-08",
         marketAssessment: "A股方面：上证指数报3932.70点（+0.07%），深证成指报13774.91点（+1.91%），创业板指报3398.68点（+3.41%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
             { name: "印制电路板", reason: "板块涨幅+7.62%", strength: "强" },

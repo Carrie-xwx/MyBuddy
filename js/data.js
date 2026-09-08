@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3932.70", change: "+0.07%", market: "A股", updateTime: "2026-09-08 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13774.91", change: "+1.91%", market: "A股", updateTime: "2026-09-08 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3398.68", change: "+3.41%", market: "A股", updateTime: "2026-09-08 实时" },
-        { name: "沪深300", code: "SH000300", value: "4575.02", change: "+0.59%", market: "A股", updateTime: "2026-09-08 实时" },
-        { name: "科创50", code: "SH000688", value: "1615.53", change: "+2.42%", market: "A股", updateTime: "2026-09-08 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3946.99", change: "+0.36%", market: "A股", updateTime: "2026-09-08 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13782.05", change: "+0.05%", market: "A股", updateTime: "2026-09-08 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3393.50", change: "-0.15%", market: "A股", updateTime: "2026-09-08 实时" },
+        { name: "沪深300", code: "SH000300", value: "4577.90", change: "+0.06%", market: "A股", updateTime: "2026-09-08 实时" },
+        { name: "科创50", code: "SH000688", value: "1608.73", change: "-0.42%", market: "A股", updateTime: "2026-09-08 实时" },
         { name: "标普500", code: "SPX", value: "7,718.60", change: "+0.09%", market: "美股", updateTime: "2026-09-08 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,506.99", change: "+0.40%", market: "美股", updateTime: "2026-09-08 收盘" },
         { name: "道琼斯", code: "DJI", value: "53,414.25", change: "-0.27%", market: "美股", updateTime: "2026-09-08 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "面对特朗普觊觎格陵兰 欧盟拟投资2亿欧元加强联系",
-            summary: " 欧盟将向格陵兰投资2亿欧元（2.32亿美元），作为加强与这一地区联系的一部分。此前，美国总统特朗普声称格陵兰应归美国所有。",
+            title: "日本5年期国债标售的需求温和 市场在央行政策会议前保持谨慎",
+            summary: "由于投资者在本月日本央行会议召开前保持谨慎，日本5年期国债拍卖需求略显疲软。 周二投标倍数为3.42，上次标售为4.15，12个月平均值为3.44。",
             source: "环球市场播报",
             date: "2026-09-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvr0019620.shtml"
-        },
-        {
-            title: "欧洲股市表现平淡 油价上涨与诺华下跌形成拖累",
-            summary: "欧洲股市周一受到油价上涨以及诺华股价下跌的拖累。此前，诺华一款心脏病药物在临床试验中失利。 斯托克欧洲600指数伦敦收盘时基本持平。",
-            source: "环球市场播报",
-            date: "2026-09-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvk9429552.shtml"
-        },
-        {
-            title: "欧洲债市：德债五连跌 各期限英债收益率走高约4个基点",
-            summary: "德国国债连续第五天下跌，国际油价逼近每桶100美元，令投资者继续警惕通胀压力。英债同样走弱。 德国10年期国债收益率一度上涨4个基点至3.38%...",
-            source: "环球市场播报",
-            date: "2026-09-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvk9428773.shtml"
-        },
-        {
-            title: "卡塔尔LNG运输船罕见尝试驶出霍尔木兹海峡 出口恢复信号增强",
-            summary: " 一艘上月初在卡塔尔装载液化天然气的运输船正驶向霍尔木兹海峡，可能成为自7月以来首次可见的尝试驶出这一关键水道的行动。",
-            source: "环球市场播报",
-            date: "2026-09-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvq5178631.shtml"
-        },
-        {
-            title: "知情人士称沙特阿美位于吉赞的石油设施再次遭到袭击",
-            summary: " 据知情人士透露，沙特阿美位于吉赞的石油设施周一再次遭到袭击。这是当地一系列袭击事件中的最新一起，此前相关袭击已迫使当地一座大型炼油厂停运。",
-            source: "环球市场播报",
-            date: "2026-09-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9545467.shtml"
-        },
-        {
-            title: "关税揣测搅动市场 伦敦期铜创出新高",
-            summary: "有关美国总统特朗普拟将关税扩大至精铜的揣测推动铜价上涨数周后，这一基本金属在伦敦触及纪录高位。 伦敦金属交易所 （LME） 三个月基准期铜合约一度上涨0.8%...",
-            source: "环球市场播报",
-            date: "2026-09-07",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpt0131213.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirauhw9288122.shtml"
         },
         {
-            title: "伊朗称经霍尔木兹海峡美国通道安全通行实际上已不可能",
-            summary: " 伊斯兰革命卫队的Ali Mohammadi表示，通过霍尔木兹海峡的船只“一旦抵达阿曼Khasab一带，将不再能够免于遭到袭击的风险”。",
+            title: "新加坡部长将获得最高9%的一次性薪资调整",
+            summary: "新加坡总理黄循财在国会表示，自10月15日起，现任政治任命官员将获得最高9%的一次性薪资调整。 调整幅度视个人情况而定，其中包括履职表现。",
             source: "环球市场播报",
-            date: "2026-09-07",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9537865.shtml"
+            date: "2026-09-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirauhw9282465.shtml"
         },
         {
-            title: "加拿大势将对数百种美国商品加征关税 卡尼拟借强硬立场增加谈判筹码",
-            summary: " 加拿大准备于周二对数百种美国商品实施15%至50%的关税措施，总理马克·卡尼押注，对美国总统特朗普采取强硬立场，最终将有助于渥太华改善与其最大贸易伙伴谈判时的筹码。",
+            title: "美元兑日元交易员开始警惕大幅抛售风险",
+            summary: "美元兑日元成为本周焦点，汇价跌破155关口后，美元跌势进一步加剧。这促使外汇交易员回顾历史抛售行情，以此判断本轮下跌的潜在空间。",
             source: "环球市场播报",
-            date: "2026-09-07",
+            date: "2026-09-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirauia9599536.shtml"
+        },
+        {
+            title: "澳大利亚储备银行亨特：通胀为首要任务，或需进一步加息",
+            summary: " 澳大利亚储备银行副行长萨拉・亨特表示，尽管本国房地产市场正走弱，央行理事会仍将高通胀视作首要任务，或需要进一步加息以应对通胀。",
+            source: "环球市场播报",
+            date: "2026-09-08",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9528993.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirauhw9268359.shtml"
+        },
+        {
+            title: "伊议长：若打击伊朗油气 美在海湾能源资产将遭报复",
+            summary: " 伊朗议会议长卡利巴夫7日警告说，如果美国打击伊朗石油和天然气资产，美国在海湾地区的能源资产将会遭到伊朗报复性打击。",
+            source: "央视",
+            date: "2026-09-08",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-08/doc-inirauhy6046330.shtml"
+        },
+        {
+            title: "伊朗和韩国杠上了，怒怼“你敢出兵试试”！这俩国家还有70亿美元的“旧恨”",
+            summary: "来源：国是直通车 刚在美军军舰头顶“过顶试射”完神秘反舰导弹，伊朗扭头就和东亚的韩国杠上了。 9月7日，伊朗外交部发言人巴加埃在社交媒体上用韩语直接公开发文...",
+            source: "滚动播报",
+            date: "2026-09-08",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/gjcj/2026-09-08/doc-inirauhy6035751.shtml"
+        },
+        {
+            title: "DeepSeek扩招画风突变，150个岗位全部非AI研究方向",
+            summary: "9月8日，国产大模型厂商DeepSeek发布最新一轮招聘计划，开放约150个招聘名额，重点面向拥有2至10年工作经验的资深工程师。与6月份全部门扩招的综合招聘不同...",
+            source: "界面",
+            date: "2026-09-08",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-08/doc-inirauia9588868.shtml"
+        },
+        {
+            title: "国泰海通：MINIMAX-W维持“增持”评级 目标价449港元",
+            summary: "国泰海通发布研报称，预计MINIMAX-W（00100）2026至2028年营业收入为5亿、14.6亿及35.7亿美元，考虑到公司为港股稀缺的全球化多模态大模型标的，该行给予2026年40倍PS...",
+            source: "新浪港股",
+            date: "2026-09-08",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-08/doc-inirauhy6027560.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-09-08",
-        marketAssessment: "A股方面：上证指数报3932.70点（+0.07%），深证成指报13774.91点（+1.91%），创业板指报3398.68点（+3.41%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
+        marketAssessment: "A股方面：上证指数报3946.99点（+0.36%），深证成指报13782.05点（+0.05%），创业板指报3393.50点（-0.15%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
-            { name: "印制电路板", reason: "板块涨幅+7.62%", strength: "强" },
-            { name: "元件", reason: "板块涨幅+6.72%", strength: "强" },
-            { name: "种子", reason: "板块涨幅+6.35%", strength: "强" },
-            { name: "其他种植业", reason: "板块涨幅+6.13%", strength: "强" },
+            { name: "教育运营及其他", reason: "板块涨幅+9.22%", strength: "强" },
+            { name: "粮食种植", reason: "板块涨幅+7.61%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+7.40%", strength: "强" },
+            { name: "其他农产品加工", reason: "板块涨幅+7.14%", strength: "强" },
         ],
         weakSectors: [
-            { name: "氨纶", reason: "板块跌幅-3.83%", strength: "弱" },
-            { name: "涂料", reason: "板块跌幅-3.23%", strength: "弱" },
+            { name: "视频媒体", reason: "板块跌幅-5.38%", strength: "弱" },
+            { name: "逆变器", reason: "板块跌幅-1.14%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注印制电路板、元件、种子等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注教育运营及其他、粮食种植、房产租赁经纪等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

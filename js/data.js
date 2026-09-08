@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3940.55", change: "+0.20%", market: "A股", updateTime: "2026-09-08 实时" },
         { name: "深证成指", code: "SZ399001", value: "13703.21", change: "-0.52%", market: "A股", updateTime: "2026-09-08 实时" },
         { name: "创业板指", code: "SZ399006", value: "3359.72", change: "-1.15%", market: "A股", updateTime: "2026-09-08 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "胡塞武装袭击沙特能源设施，部分运营暂停、73人受伤",
-            summary: " 沙特当局9月8日表示，也门胡塞武装袭击该国南部多处民用和经济设施，造成73人受伤。沙特能源部确认，部分能源设施及公用设施起火，相关运营暂时中止。",
+            title: "苹果十年磨一剑 折叠屏iPhone项目提速缘起库克亚洲之行",
+            summary: " 大约在2020年，苹果公司时任首席执行官蒂姆·库克结束一次亚洲之行后，对一个新的产品类别表现出异乎寻常的热情：折叠屏手机。",
+            source: "环球市场播报",
+            date: "2026-09-08",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircrns9276723.shtml"
+        },
+        {
+            title: "阿斯麦在荷兰建设第二座产业园 相当于50个欧洲足球场并可容纳2万员工",
+            summary: " 阿斯麦控股开始在荷兰建设第二座产业园区，这对荷兰政府而言是一项利好。此前，荷兰政府承诺数十亿资金，以说服这家科技公司继续在本土扩张。",
             source: "环球市场播报",
             date: "2026-09-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4610213.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircrns4442348.shtml"
         },
         {
-            title: "Saxo警告称日元走强或引发全球股市拥挤交易平仓",
-            summary: "Saxo Markets认为，日元兑美元升值，可能引发全球股市部分拥挤且高杠杆头寸的平仓。 Saxo驻新加坡首席投资策略师Charu Chanana指出，从估值高企的软件股...",
+            title: "瑞穗：存储芯片挤压手机市场 但三星表现将优于大多厂商",
+            summary: "瑞穗证券一份报告指出，存储芯片价格上涨挤压全球手机市场，在此大环境下，三星电子的表现有望优于绝大多数手机厂商；与此同时，三星半导体业务则从相同的供应短缺局面中持...",
+            source: "环球市场播报",
+            date: "2026-09-08",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircrns9272697.shtml"
+        },
+        {
+            title: "百年珠宝老字号，退市",
+            summary: "9月8日晚，*ST萃华（002731.SZ）公告称，公司收到深交所下发的《终止上市事先告知书》。因公司未在法定期限内披露2025年年度报告，股票于2026年5月6日起停牌...",
+            source: "21世纪经济报道",
+            date: "2026-09-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/wm/2026-09-08/doc-inircrns9275439.shtml"
+        },
+        {
+            title: "美国股指期货盘前略微走低 油价高企推升通胀忧虑",
+            summary: "美国股指期货略微走低，布伦特原油逼近每桶100美元，进一步强化了市场对各国央行需要加息以遏制通胀的预期。 纽约时间8：11，标普500指数期货跌0.3%...",
+            source: "环球市场播报",
+            date: "2026-09-08",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircrnq5947284.shtml"
+        },
+        {
+            title: "盘前：纳指期货涨0.07% 中东火药桶又炸了",
+            summary: " 周二全球股市下跌，布伦特原油价格逼近每桶100美元，进一步强化了市场对各国央行可能需要加息以遏制通胀的预期。日元则升至2月以来最高水平。",
+            source: "环球市场播报",
+            date: "2026-09-08",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircrnq5953851.shtml"
+        },
+        {
+            title: "厄尔尼诺引爆全球粮价，A股农业板块“强预期弱现实”博弈",
+            summary: "机构警示，高全球粮食供应“急冻”，国内主粮自给率高，部分个股估值脱离基本面 A股农业板块再掀涨停潮。 9月8日，截至收盘，亚盛集团（600108.SH）四连板...",
+            source: "一财网",
+            date: "2026-09-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-09-08/doc-inircrnq5944516.shtml"
+        },
+        {
+            title: "消息称Anthropic放弃60亿美元收购Decart的交易",
+            summary: "消息人士透露，Anthropic PBC 已决定放弃收购人工智能初创企业 Decart AI。 据不愿具名的知情人士称，Anthropic 此前一直在推进这笔交易...",
             source: "环球市场播报",
             date: "2026-09-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircewu6022294.shtml"
-        },
-        {
-            title: "制药巨头诺华股价大跌近10%，遭遇三项药物临床试验受挫",
-            summary: "核心要点诺华于周二公布，其用于治疗肌肉萎缩疾病的药物德尔‑德西兰（del‑desiran）在晚期临床试验中宣告失败。该股或将迎来其历史上表现最差的一个交易日。",
-            source: "环球市场播报",
-            date: "2026-09-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4608579.shtml"
-        },
-        {
-            title: "欧盟向格陵兰岛提供2亿欧元资金，重点支持能源与关键原材料",
-            summary: "欧盟委员会主席冯德莱恩9月7日在格陵兰岛首府努克宣布，欧盟将提供2亿欧元合作资金，计划于2026年和2027年投入使用，重点支持互联互通、清洁能源和关键原材料。",
-            source: "环球市场播报",
-            date: "2026-09-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircews9243060.shtml"
-        },
-        {
-            title: "日元走强叠加债券收益率上行 比特币及风险资产承压下挫",
-            summary: "9月8日，美国劳动节假期后的首个交易日，市场避险情绪明显回升。日元兑美元汇率延续涨势，突破154关口后进一步走强至152.99，创2月以来新高...",
-            source: "环球市场播报",
-            date: "2026-09-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4604942.shtml"
-        },
-        {
-            title: "瑞典批准约70亿克朗采购“海马斯”，首批2027年交付",
-            summary: "瑞典政府9月7日宣布，授权武装部队采购美国洛克希德·马丁公司生产的“海马斯”（HIMARS）高机动火箭炮系统，采购成本约70亿瑞典克朗，首批计划于2027年交付。",
-            source: "环球市场播报",
-            date: "2026-09-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircews9236222.shtml"
-        },
-        {
-            title: "香港金融服务界赴沪杭考察：善用香港国际金融与专业服务平台 共拓金融强国新里程",
-            summary: "文/新浪财经香港站 赵岚 由香港立法会李惟宏议员率领的“香港金融服务界沪杭金融发展考察团”，于8月23日至27日到访上海及杭州，考察团聚焦国家“十五五”规划...",
-            source: "港股一线",
-            date: "2026-09-08",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-09-08/doc-inirceww4604530.shtml"
-        },
-        {
-            title: "能源价格上涨 德国10年期国债收益率升至15年高点",
-            summary: " 德国国债小幅走低，推动10年期德债收益率升至2011年以来最高水平。沙特部分能源设施在遭到袭击后暂停运营，推动石油和天然气价格上涨。",
-            source: "环球市场播报",
-            date: "2026-09-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4603033.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircmeu4564456.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-08",
         marketAssessment: "A股方面：上证指数报3940.55点（+0.20%），深证成指报13703.21点（-0.52%），创业板指报3359.72点（-1.15%）。美股方面：标普500报7,718.60（+0.09%），纳斯达克报26,506.99（+0.40%）。",
         hotSectors: [
-
+            { name: "粮食种植", reason: "板块涨幅+7.80%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+7.53%", strength: "强" },
+            { name: "磷肥及磷化工", reason: "板块涨幅+7.01%", strength: "强" },
+            { name: "其他农产品加工", reason: "板块涨幅+6.95%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "视频媒体", reason: "板块跌幅-6.70%", strength: "弱" },
+            { name: "涂料", reason: "板块跌幅-2.55%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注粮食种植、房产租赁经纪、磷肥及磷化工等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

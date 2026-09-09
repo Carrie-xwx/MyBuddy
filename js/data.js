@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3940.55", change: "+0.20%", market: "A股", updateTime: "2026-09-09 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13703.21", change: "-0.52%", market: "A股", updateTime: "2026-09-09 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3359.72", change: "-1.15%", market: "A股", updateTime: "2026-09-09 实时" },
-        { name: "沪深300", code: "SH000300", value: "4558.74", change: "-0.36%", market: "A股", updateTime: "2026-09-09 实时" },
-        { name: "科创50", code: "SH000688", value: "1591.00", change: "-1.52%", market: "A股", updateTime: "2026-09-09 实时" },
-        { name: "标普500", code: "SPX", value: "7,687.73", change: "+0.02%", market: "美股", updateTime: "2026-09-09 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,466.15", change: "+0.36%", market: "美股", updateTime: "2026-09-09 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,832.33", change: "-0.66%", market: "美股", updateTime: "2026-09-09 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3949.89", change: "+0.24%", market: "A股", updateTime: "2026-09-09 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13694.33", change: "-0.06%", market: "A股", updateTime: "2026-09-09 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3348.29", change: "-0.34%", market: "A股", updateTime: "2026-09-09 实时" },
+        { name: "沪深300", code: "SH000300", value: "4564.42", change: "+0.12%", market: "A股", updateTime: "2026-09-09 实时" },
+        { name: "科创50", code: "SH000688", value: "1581.49", change: "-0.60%", market: "A股", updateTime: "2026-09-09 实时" },
+        { name: "标普500", code: "SPX", value: "7,673.52", change: "-0.16%", market: "美股", updateTime: "2026-09-09 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,421.41", change: "+0.19%", market: "美股", updateTime: "2026-09-09 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,786.07", change: "-0.75%", market: "美股", updateTime: "2026-09-09 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "加拿大总理卡尼称对美关税意在保护加拿大 而非升级冲突",
-            summary: " 加拿大总理马克·卡尼表示，他不赞成升级与美国的贸易战，但他认为反制关税是缓解冲击、保护加拿大企业和工人所必需的手段。",
-            source: "环球市场播报",
-            date: "2026-09-09",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-09/doc-inircvun5963169.shtml"
-        },
-        {
-            title: "调查显示OPEC上月产量大幅下滑 因沙特石油供应受限",
-            summary: " 调查显示，OPEC原油产量8月大幅下降，结束了连续两个月的回升势头，主要因为该组织最大产油国沙特阿拉伯的两条出口通道均面临威胁，导致产量受到压制。",
+            title: "巴基斯坦获得液化天然气补给 滞留货轮穿越霍尔木兹海峡",
+            summary: "巴基斯坦即将收到急需的液化天然气，一艘装载卡塔尔天然气的船舶已通过霍尔木兹海峡，另有一艘货船将紧随其后。 船舶追踪数据显示...",
             source: "环球市场播报",
             date: "2026-09-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-09/doc-inircvuq9214758.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfcpy8662654.shtml"
         },
         {
-            title: "欧美官员已接受俄乌冲突可能持续到明年 普京恐在今冬加大袭击力度",
-            summary: " 欧洲和美国官员已接受俄乌冲突可能持续到明年的现实，并承认美国最新的和平倡议未能在俄罗斯总统弗拉基米尔·普京那里取得进展。",
+            title: "玉米期货连续第五个交易日走低 基金纪录级多头押注遭遇考验",
+            summary: "玉米期货正迈向6月以来最长连跌走势。此前，对冲基金大举押注玉米价格上涨，但市场目前缺乏新的利多因素支撑。 根据美国商品期货交易委员会（CFTC）过去20年的数据...",
             source: "环球市场播报",
             date: "2026-09-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-09/doc-inircvuq4382348.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfcpw5670015.shtml"
         },
         {
-            title: "股市持续走强，预示后市行情有望继续向好",
-            summary: "作者：布莱恩・索齐 尽管华尔街越来越多人担忧市场即将迎来回调，但股市手中仍握有一项强大利好。 市场依旧处于强劲的长期上行趋势，从历史规律来看...",
+            title: "越南推迟670亿美元高铁项目开工时间",
+            summary: " 据报道，越南将 670 亿美元的南北高速铁路工程开工时间推迟至 2027 年底，较原定计划延后一年。该项目是越南标志性基建工程之一，本次延期幅度较大。",
             source: "环球市场播报",
             date: "2026-09-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inircvuk9183828.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfcpu8896682.shtml"
         },
         {
-            title: "露露乐蒙新任CEO面临一大堆亟待解决的难题",
-            summary: "露露乐蒙（LULU）新任首席执行官海蒂・奥尼尔于周二正式上任，摆在她面前的是一大堆艰巨工作。 这家运动休闲服饰品牌处境堪忧，上周又交出一份惨淡财报：北美地区销售额下...",
+            title: "苹果首款折叠屏iPhone Duo即将亮相 新掌门人Ternus迎首次大考",
+            summary: " 苹果公司将于周三在加州库比蒂诺当地时间上午10点举行的大型产品发布会上，推出一款售价约2，000美元的折叠屏手机iPhone Duo。",
+            source: "环球市场播报",
+            date: "2026-09-09",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfcpu8890047.shtml"
+        },
+        {
+            title: "巴基斯坦承诺：若沙特遭袭，将履行安全条约",
+            summary: " 巴基斯坦国防部长哈瓦贾・阿西夫（Khawaja Asif）表示，一旦沙特阿拉伯遭受袭击，麦加防御联盟条约将会启动。他警告称，对任一成员国的侵略将被视作对所有签约国的攻击。",
             source: "环球市场播报",
             date: "2026-09-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inircvuq9210307.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfcpw5659792.shtml"
         },
         {
-            title: "加拿大对价值200亿美元美国商品征收最高50%报复性关税",
-            summary: " 美加关系再度恶化，加拿大于周二正式对约 700 种美国商品实施最高 50% 的报复性关祱，征税品类涵盖钢铁、服装、奶酪等。",
+            title: "Anthropic拒绝向英国AI安全研究所提交其最新AI模型进行测试",
+            summary: "据多位知情人士消息，Anthropic在发布前拒绝将其最新模型提交给英国AI安全研究所进行测试。 Claude Mythos 5.1仅向经过审核的美国机构开放，未向英国AI安全研究所提供。",
             source: "环球市场播报",
             date: "2026-09-09",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inircvuq9208610.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirexfw9008777.shtml"
         },
         {
-            title: "贝森特：回购消息公布前 债券市场的“发热”程度正在加剧",
-            summary: " 在被问及债务管理策略时，美国财政部长斯科特·贝森特表示，他正努力“让市场回归均衡”，并重新校准市场预期，因为在宣布回购计划之前，债券市场的“发热”程度正在加剧。",
-            source: "环球市场播报",
-            date: "2026-09-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-09/doc-inircvuq4376061.shtml"
-        },
-        {
-            title: "Northland资本市场将英特尔评级上调至跑赢大盘",
-            summary: " Northland 资本市场分析师古斯・理查德周二将英特尔（INTC）的股票评级由与大盘同步（market perform）上调为跑赢大盘（outperform）。",
+            title: "玉米连续第5日下跌，创纪录基金持仓考验市场",
+            summary: "玉米期货正迎来6月以来持续时间最长的一轮下跌。对冲基金大举做多之后，市场缺少新的利多支撑。 根据美国商品期货交易委员会过去20年的数据，截至9月1日...",
             source: "环球市场播报",
             date: "2026-09-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inircvun5948293.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirexfy5779527.shtml"
+        },
+        {
+            title: "泰国拟拨款500亿泰铢补贴居民屋顶光伏项目",
+            summary: "泰国财政部长埃克尼提・尼提坦帕帕斯（Ekniti Nitithanprapas）表示，泰国财政部正考虑推出一项规模500亿泰铢（合15.2亿美元）的计划...",
+            source: "环球市场播报",
+            date: "2026-09-09",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirexha3945457.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-09-09",
-        marketAssessment: "A股方面：上证指数报3940.55点（+0.20%），深证成指报13703.21点（-0.52%），创业板指报3359.72点（-1.15%）。美股方面：标普500报7,687.73（+0.02%），纳斯达克报26,466.15（+0.36%）。",
+        marketAssessment: "A股方面：上证指数报3949.89点（+0.24%），深证成指报13694.33点（-0.06%），创业板指报3348.29点（-0.34%）。美股方面：标普500报7,673.52（-0.16%），纳斯达克报26,421.41（+0.19%）。",
         hotSectors: [
-            { name: "粮食种植", reason: "板块涨幅+7.80%", strength: "强" },
-            { name: "房产租赁经纪", reason: "板块涨幅+7.53%", strength: "强" },
-            { name: "磷肥及磷化工", reason: "板块涨幅+7.01%", strength: "强" },
-            { name: "其他农产品加工", reason: "板块涨幅+6.95%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "视频媒体", reason: "板块跌幅-6.70%", strength: "弱" },
-            { name: "涂料", reason: "板块跌幅-2.55%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注粮食种植、房产租赁经纪、磷肥及磷化工等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

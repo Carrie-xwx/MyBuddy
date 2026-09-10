@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3934.40", change: "-0.43%", market: "A股", updateTime: "2026-09-10 实时" },
         { name: "深证成指", code: "SZ399001", value: "13617.67", change: "-0.77%", market: "A股", updateTime: "2026-09-10 实时" },
         { name: "创业板指", code: "SZ399006", value: "3338.42", change: "-0.49%", market: "A股", updateTime: "2026-09-10 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "Coinbase首席执行官：无论《清晰法案》结果如何，美国加密货币监管都将取得进展",
-            summary: "核心要点Coinbase 首席执行官布莱恩・阿姆斯特朗称，《清晰法案》“有望获得赞成票”，与其沟通的参议员均对该法案表示支持。阿姆斯特朗表示，即便法案未能通过...",
+            title: "布伦特原油突破每桶105美元 中东局势加剧供应担忧",
+            summary: "随着中东地区紧张局势升级，加剧全球供应担忧，布伦特原油期货升破每桶105美元。 该基准原油价格延续涨势，上一交易日自7月以来首次升破每桶100美元。",
             source: "环球市场播报",
             date: "2026-09-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniritaq8593534.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsq7543562.shtml"
         },
         {
-            title: "欧洲央行加息几乎已成定局，但投资者对后续走势观点分化",
-            summary: "核心要点市场普遍预计欧洲央行将于周四上调关键利率。欧元区 8 月通胀率达到 3.3%，能源通胀飙升至 14.3%。欧洲央行正应对物价上涨、美伊冲突带来的各类后果...",
+            title: "美伊战争让美国承担千亿美元能源成本",
+            summary: "美伊战争让美国人背上了巨额能源账单，且随着冲突持续，相关成本还在不断增加。 布朗大学沃森国际与公共事务学院发布的一项成本追踪数据显示，自2月底战争爆发以来...",
             source: "环球市场播报",
-            date: "2026-09-10",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniritas5360755.shtml"
-        },
-        {
-            title: "地缘政治与经济风险加剧，瑞银首席执行官警示投资者存在自满情绪",
-            summary: "核心要点瑞银首席执行官塞尔吉奥・埃尔莫蒂表示，尽管地缘政治与经济风险不断攀升，但金融市场已然滋生自满心态。高净值投资者正在对投资组合进行多元化配置...",
-            source: "环球市场播报",
-            date: "2026-09-10",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniritau2850124.shtml"
-        },
-        {
-            title: "美国8月CPI预计环比上涨0.2% 或决定美联储下周是否加息",
-            summary: "周五即将公布的一份消费者物价数据或将决定美联储下周是否加息。 整个夏季，美联储官员对于当前利率水平是否足以将通胀降至2%的目标值一直存在分歧。",
-            source: "环球市场播报",
-            date: "2026-09-10",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniritau2846817.shtml"
-        },
-        {
-            title: "美债收益率持稳，投资者静待核心批发通胀数据",
-            summary: "周四美债收益率大体持稳，交易员等待日内晚些时候即将公布的美国批发通胀数据。 作为房贷、汽车贷款与信用卡债务核心基准的10年期美债收益率持平于4.8407%。",
-            source: "环球市场播报",
-            date: "2026-09-10",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniritau7676932.shtml"
-        },
-        {
-            title: "证监会：前8个月共罚没98.4亿元",
-            summary: " 在今天（9月10日）国新办举行的新闻发布会上，证监会相关负责人介绍，今年前8个月查办证券期货违法案件644件，罚没98.4亿元，通过各类方式为投资者挽回损失51.5亿元。",
-            source: "央视",
             date: "2026-09-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritau2847622.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsn5311426.shtml"
         },
         {
-            title: "长安期货闫隽永：双节将至 苹果价格或下存支撑",
-            summary: "当前双节将至，晚熟果临近定产、下树，市场上西部早熟果的行情在结构性分化后趋于稳定，而东部消费情绪受到旧作及质量拖累的影响依旧较弱。",
+            title: "小米回应“澎程首撞”，增程能成销量“解药”吗？",
+            summary: "来源：雷达Finance 雷达财经出品 文|丁禹 编|孟帅 9月8日晚，一辆小米澎程汽车在路口转弯时冲上绿化带，相关视频在社交平台传播，迅速引发热议。",
             source: "市场资讯",
             date: "2026-09-10",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/money/future/2026-09-10/doc-iniritau2837922.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-10/doc-inirkcsq7540504.shtml"
         },
         {
-            title: "中央气象台：全球天气公报（2026年09月10日）",
-            summary: "来源：中央气象台网站 1．中南半岛日本等地有强降水 过去24小时（9月9日00时-9月10日00时，UTC），尼泊尔、孟加拉国、印度东北部、中南半岛、菲律宾、马来西亚、日本...",
+            title: "美国8月PPI环比增幅符合预期 同比略超预期",
+            summary: "美国劳工统计局数据显示，8月最终需求生产者价格指数环比上涨0.4%，前一个月上涨0.1%。 媒体调查的50名经济学家预估中值为上涨0.4%，预测区间为上涨0.2%至0.6%。",
+            source: "环球市场播报",
+            date: "2026-09-10",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsq2705360.shtml"
+        },
+        {
+            title: "欧洲央行自伊朗战争以来第二次加息 预计通胀将在较长时间内高于目标",
+            summary: "欧洲央行周四宣布加息，这是2月伊朗战争爆发以来第二次上调利率，以应对通胀可能持续明显高于2%的迹象。 欧洲央行将存款利率上调25个基点至2.5%...",
+            source: "环球市场播报",
+            date: "2026-09-10",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsk8524948.shtml"
+        },
+        {
+            title: "300808，筹划重大资产重组！不停牌！",
+            summary: "久量股份公告重大资产重组！ 9月10日，久量股份（300808）公告称，拟以支付现金方式收购山东海帝新能源不低于51%股权，交易价格不高于2.75亿元，预计构成重大资产重组。",
             source: "",
             date: "2026-09-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/hyxh/2026-09-10/doc-iniritau2835971.shtml"
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-09-10/doc-inirkcsq2704078.shtml"
+        },
+        {
+            title: "盘前：纳指期货跌1.06% 布伦特原油升破每桶105美元",
+            summary: "周四美国股指期货下滑，欧洲央行加息至2.5%，美国国债收益率则继续走高。在重要科技公司财报公布前，市场风险偏好依然受到明显压制。",
+            source: "环球市场播报",
+            date: "2026-09-10",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsq2708413.shtml"
+        },
+        {
+            title: "欧洲央行加息至2.5%，但投资者对后续政策走向意见分化",
+            summary: "核心要点欧洲央行于周四上调关键利率。欧元区 8 月通胀率达 3.3%，能源通胀飙升至 14.3%。欧洲央行正同时应对物价上涨、美伊战争带来的各类后果...",
+            source: "环球市场播报",
+            date: "2026-09-10",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsq7533724.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-10",
         marketAssessment: "A股方面：上证指数报3934.40点（-0.43%），深证成指报13617.67点（-0.77%），创业板指报3338.42点（-0.49%）。美股方面：标普500报7,636.36（+0.06%），纳斯达克报26,253.34（+0.59%）。",
         hotSectors: [
-
+            { name: "教育运营及其他", reason: "板块涨幅+6.02%", strength: "强" },
+            { name: "卫浴电器", reason: "板块涨幅+4.87%", strength: "强" },
+            { name: "其他饰品", reason: "板块涨幅+4.72%", strength: "强" },
+            { name: "玻纤制造", reason: "板块涨幅+3.77%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "其他养殖", reason: "板块跌幅-5.53%", strength: "弱" },
+            { name: "氮肥", reason: "板块跌幅-5.13%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注教育运营及其他、卫浴电器、其他饰品等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3937.78", change: "-0.35%", market: "A股", updateTime: "2026-09-10 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13647.49", change: "-0.55%", market: "A股", updateTime: "2026-09-10 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3350.08", change: "-0.15%", market: "A股", updateTime: "2026-09-10 实时" },
-        { name: "沪深300", code: "SH000300", value: "4553.52", change: "-0.42%", market: "A股", updateTime: "2026-09-10 实时" },
-        { name: "科创50", code: "SH000688", value: "1573.29", change: "-0.43%", market: "A股", updateTime: "2026-09-10 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3934.40", change: "-0.43%", market: "A股", updateTime: "2026-09-10 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13617.67", change: "-0.77%", market: "A股", updateTime: "2026-09-10 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3338.42", change: "-0.49%", market: "A股", updateTime: "2026-09-10 实时" },
+        { name: "沪深300", code: "SH000300", value: "4548.39", change: "-0.53%", market: "A股", updateTime: "2026-09-10 实时" },
+        { name: "科创50", code: "SH000688", value: "1569.22", change: "-0.69%", market: "A股", updateTime: "2026-09-10 实时" },
         { name: "标普500", code: "SPX", value: "7,636.36", change: "+0.06%", market: "美股", updateTime: "2026-09-10 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,253.34", change: "+0.59%", market: "美股", updateTime: "2026-09-10 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,380.66", change: "-0.73%", market: "美股", updateTime: "2026-09-10 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "韩国将对大规模数据泄露事件加大处罚力度，最高处以销售额10%罚款",
-            summary: " 韩国个人信息保护监管机构周四表示，韩国将于本周出台更严厉处罚措施，针对发生个人信息泄露、受影响人数超 1000 万的企业。",
+            title: "Coinbase首席执行官：无论《清晰法案》结果如何，美国加密货币监管都将取得进展",
+            summary: "核心要点Coinbase 首席执行官布莱恩・阿姆斯特朗称，《清晰法案》“有望获得赞成票”，与其沟通的参议员均对该法案表示支持。阿姆斯特朗表示，即便法案未能通过...",
             source: "环球市场播报",
             date: "2026-09-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirihny7843691.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniritaq8593534.shtml"
         },
         {
-            title: "中通快递-W于9月9日斥资933.75万美元回购45.04万股",
-            summary: " 中通快递-W（02057）发布公告，于2026年9月9日，该公司斥资933.75万美元回购45.04万股股份，每股回购价20.66-20.85美元。",
-            source: "新浪港股",
+            title: "欧洲央行加息几乎已成定局，但投资者对后续走势观点分化",
+            summary: "核心要点市场普遍预计欧洲央行将于周四上调关键利率。欧元区 8 月通胀率达到 3.3%，能源通胀飙升至 14.3%。欧洲央行正应对物价上涨、美伊冲突带来的各类后果...",
+            source: "环球市场播报",
             date: "2026-09-10",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-10/doc-inirihnw5391326.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniritas5360755.shtml"
         },
         {
-            title: "名创优品于9月9日斥资24.58万美元回购10.64万股",
-            summary: "名创优品（09896）发布公告，于2026年9月9日，该公司斥资24.58万美元回购10.64万股股份，每股回购价2.29-2.3175美元。",
-            source: "新浪港股",
+            title: "地缘政治与经济风险加剧，瑞银首席执行官警示投资者存在自满情绪",
+            summary: "核心要点瑞银首席执行官塞尔吉奥・埃尔莫蒂表示，尽管地缘政治与经济风险不断攀升，但金融市场已然滋生自满心态。高净值投资者正在对投资组合进行多元化配置...",
+            source: "环球市场播报",
             date: "2026-09-10",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-10/doc-inirihnu8618323.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniritau2850124.shtml"
         },
         {
-            title: "大和：优必选人形机器人商业化势头增强 重申“买入”评级",
-            summary: "大和发布研报称，优必选（09880）管理层在9月8日业绩后非交易路演中指出，今年上半年收入超过10亿元人民币，同比增长逾100%，并重申全年收入指引35亿元。",
-            source: "新浪港股",
+            title: "美国8月CPI预计环比上涨0.2% 或决定美联储下周是否加息",
+            summary: "周五即将公布的一份消费者物价数据或将决定美联储下周是否加息。 整个夏季，美联储官员对于当前利率水平是否足以将通胀降至2%的目标值一直存在分歧。",
+            source: "环球市场播报",
             date: "2026-09-10",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-10/doc-inirihnu8616765.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniritau2846817.shtml"
         },
         {
-            title: "里昂：8月饮料需求未见改善 啤酒行业短期内缺乏催化剂",
-            summary: "里昂发布研报称，中国8月份饮料需求环比大致持平。期内农夫山泉（09633）表现继续跑赢同业，瓶装水销售同比增长约2%，增速有所放缓...",
-            source: "新浪港股",
+            title: "美债收益率持稳，投资者静待核心批发通胀数据",
+            summary: "周四美债收益率大体持稳，交易员等待日内晚些时候即将公布的美国批发通胀数据。 作为房贷、汽车贷款与信用卡债务核心基准的10年期美债收益率持平于4.8407%。",
+            source: "环球市场播报",
             date: "2026-09-10",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-10/doc-inirihnu8616718.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-iniritau7676932.shtml"
         },
         {
-            title: "小摩：中国宏桥给予“增持”评级 目标价为30港元",
-            summary: " 摩根大通发布研报，给予中国宏桥（01378）“增持”评级，目标价为30港元。2026年上半年，中国宏桥股东应占净利润约为172.1亿元，同比增长约39%，符合预期。",
-            source: "新浪港股",
+            title: "证监会：前8个月共罚没98.4亿元",
+            summary: " 在今天（9月10日）国新办举行的新闻发布会上，证监会相关负责人介绍，今年前8个月查办证券期货违法案件644件，罚没98.4亿元，通过各类方式为投资者挽回损失51.5亿元。",
+            source: "央视",
             date: "2026-09-10",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-10/doc-inirihnu8616614.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritau2847622.shtml"
         },
         {
-            title: "里昂：李宁维持“跑赢大市”评级 目标价20港元",
-            summary: "里昂发布研报称，今年第二季度宏观及地缘政治逆风加剧、零售环境转弱，中国运动服饰品牌销售放缓，反映需求偏淡及国际品牌去库存令竞争风险上升，但在严谨执行下...",
-            source: "新浪港股",
+            title: "长安期货闫隽永：双节将至 苹果价格或下存支撑",
+            summary: "当前双节将至，晚熟果临近定产、下树，市场上西部早熟果的行情在结构性分化后趋于稳定，而东部消费情绪受到旧作及质量拖累的影响依旧较弱。",
+            source: "市场资讯",
             date: "2026-09-10",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-10/doc-inirihnw5389059.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/money/future/2026-09-10/doc-iniritau2837922.shtml"
         },
         {
-            title: "里昂：安踏体育给予“跑赢大市”评级 目标价110港元",
-            summary: "里昂发布研报称，今年第二季度宏观及地缘政治逆风加剧、零售环境转弱，中国运动服饰品牌销售放缓，反映需求偏淡及国际品牌去库存令竞争风险上升，但在严谨执行下...",
-            source: "新浪港股",
+            title: "中央气象台：全球天气公报（2026年09月10日）",
+            summary: "来源：中央气象台网站 1．中南半岛日本等地有强降水 过去24小时（9月9日00时-9月10日00时，UTC），尼泊尔、孟加拉国、印度东北部、中南半岛、菲律宾、马来西亚、日本...",
+            source: "",
             date: "2026-09-10",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-10/doc-inirihnw5388994.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/hyxh/2026-09-10/doc-iniritau2835971.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-10",
-        marketAssessment: "A股方面：上证指数报3937.78点（-0.35%），深证成指报13647.49点（-0.55%），创业板指报3350.08点（-0.15%）。美股方面：标普500报7,636.36（+0.06%），纳斯达克报26,253.34（+0.59%）。",
+        marketAssessment: "A股方面：上证指数报3934.40点（-0.43%），深证成指报13617.67点（-0.77%），创业板指报3338.42点（-0.49%）。美股方面：标普500报7,636.36（+0.06%），纳斯达克报26,253.34（+0.59%）。",
         hotSectors: [
 
         ],

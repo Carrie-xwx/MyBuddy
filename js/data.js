@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3934.40", change: "-0.43%", market: "A股", updateTime: "2026-09-10 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13617.67", change: "-0.77%", market: "A股", updateTime: "2026-09-10 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3338.42", change: "-0.49%", market: "A股", updateTime: "2026-09-10 实时" },
-        { name: "沪深300", code: "SH000300", value: "4548.39", change: "-0.53%", market: "A股", updateTime: "2026-09-10 实时" },
-        { name: "科创50", code: "SH000688", value: "1569.22", change: "-0.69%", market: "A股", updateTime: "2026-09-10 实时" },
-        { name: "标普500", code: "SPX", value: "7,636.36", change: "+0.06%", market: "美股", updateTime: "2026-09-10 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,253.34", change: "+0.59%", market: "美股", updateTime: "2026-09-10 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,380.66", change: "-0.73%", market: "美股", updateTime: "2026-09-10 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3934.40", change: "-0.43%", market: "A股", updateTime: "2026-09-11 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13617.67", change: "-0.77%", market: "A股", updateTime: "2026-09-11 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3338.42", change: "-0.49%", market: "A股", updateTime: "2026-09-11 实时" },
+        { name: "沪深300", code: "SH000300", value: "4548.39", change: "-0.53%", market: "A股", updateTime: "2026-09-11 实时" },
+        { name: "科创50", code: "SH000688", value: "1569.22", change: "-0.69%", market: "A股", updateTime: "2026-09-11 实时" },
+        { name: "标普500", code: "SPX", value: "7,593.94", change: "-0.95%", market: "美股", updateTime: "2026-09-11 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,104.87", change: "-0.43%", market: "美股", updateTime: "2026-09-11 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,065.58", change: "-1.88%", market: "美股", updateTime: "2026-09-11 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "布伦特原油突破每桶105美元 中东局势加剧供应担忧",
-            summary: "随着中东地区紧张局势升级，加剧全球供应担忧，布伦特原油期货升破每桶105美元。 该基准原油价格延续涨势，上一交易日自7月以来首次升破每桶100美元。",
+            title: "拥有49年历史的人气披萨餐饮连锁悄然关闭多家门店",
+            summary: "过去两年，披萨餐饮行业有数百家门店陆续关停，各大连锁品牌都在通过关闭低效门店推进业务重组。 必胜客母公司百胜集团表示，作为 “Hut Forward” 改革计划的一部分...",
             source: "环球市场播报",
-            date: "2026-09-10",
+            date: "2026-09-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsq7543562.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirkiyn2641137.shtml"
         },
         {
-            title: "美伊战争让美国承担千亿美元能源成本",
-            summary: "美伊战争让美国人背上了巨额能源账单，且随着冲突持续，相关成本还在不断增加。 布朗大学沃森国际与公共事务学院发布的一项成本追踪数据显示，自2月底战争爆发以来...",
+            title: "富国银行：SpaceX无线业务将冲击传统运营商，而铁塔房地产投资信托基金将“悄然”获利",
+            summary: "速览要点 卡哈尔将 SpaceX 视作行业颠覆者，而皇冠城堡（CCI）是隐形赢家，该公司铁塔租金收益率达 5.5%；其中 T‑Mobile 面临的竞争威胁最大。",
             source: "环球市场播报",
-            date: "2026-09-10",
+            date: "2026-09-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsn5311426.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirkiyn7472560.shtml"
         },
         {
-            title: "小米回应“澎程首撞”，增程能成销量“解药”吗？",
-            summary: "来源：雷达Finance 雷达财经出品 文|丁禹 编|孟帅 9月8日晚，一辆小米澎程汽车在路口转弯时冲上绿化带，相关视频在社交平台传播，迅速引发热议。",
-            source: "市场资讯",
-            date: "2026-09-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-10/doc-inirkcsq7540504.shtml"
-        },
-        {
-            title: "美国8月PPI环比增幅符合预期 同比略超预期",
-            summary: "美国劳工统计局数据显示，8月最终需求生产者价格指数环比上涨0.4%，前一个月上涨0.1%。 媒体调查的50名经济学家预估中值为上涨0.4%，预测区间为上涨0.2%至0.6%。",
+            title: "欧洲债市：德国国债收益率升至17年高点 欧洲央行加息押注加码",
+            summary: "欧洲短期政府债券下跌，而德国10年期国债收益率升至17年高点，此前欧洲央行上调通胀预测后，交易员加大了对欧洲央行进一步加息的押注。",
             source: "环球市场播报",
-            date: "2026-09-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsq2705360.shtml"
+            date: "2026-09-11",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-11/doc-inirkiyr5635994.shtml"
         },
         {
-            title: "欧洲央行自伊朗战争以来第二次加息 预计通胀将在较长时间内高于目标",
-            summary: "欧洲央行周四宣布加息，这是2月伊朗战争爆发以来第二次上调利率，以应对通胀可能持续明显高于2%的迹象。 欧洲央行将存款利率上调25个基点至2.5%...",
+            title: "法国极左翼提议注销央行所持债务 欧洲央行行长称金融层面很危险",
+            summary: " 欧洲央行行长克里斯蒂娜·拉加德表示，极左翼有关通过注销央行所持债务来削减法国巨额政府债务的方案并不合理，而且在金融层面很危险。",
             source: "环球市场播报",
             date: "2026-09-10",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsk8524948.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-10/doc-inirkiyr5622885.shtml"
         },
         {
-            title: "300808，筹划重大资产重组！不停牌！",
-            summary: "久量股份公告重大资产重组！ 9月10日，久量股份（300808）公告称，拟以支付现金方式收购山东海帝新能源不低于51%股权，交易价格不高于2.75亿元，预计构成重大资产重组。",
-            source: "",
-            date: "2026-09-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/zqgd/2026-09-10/doc-inirkcsq2704078.shtml"
-        },
-        {
-            title: "盘前：纳指期货跌1.06% 布伦特原油升破每桶105美元",
-            summary: "周四美国股指期货下滑，欧洲央行加息至2.5%，美国国债收益率则继续走高。在重要科技公司财报公布前，市场风险偏好依然受到明显压制。",
+            title: "如果回到二十多岁，我会买入这只巴菲特推荐的先锋ETF并永久持有",
+            summary: "作者：安东尼・迪・皮齐奥|愚人网 沃伦・巴菲特是全球最具标志性的投资大师。1965‑2025 年，他担任伯克希尔‑哈撒韦集团首席执行官，将其打造为市值万亿级别综合企业集团...",
             source: "环球市场播报",
             date: "2026-09-10",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsq2708413.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkiyn2630842.shtml"
         },
         {
-            title: "欧洲央行加息至2.5%，但投资者对后续政策走向意见分化",
-            summary: "核心要点欧洲央行于周四上调关键利率。欧元区 8 月通胀率达 3.3%，能源通胀飙升至 14.3%。欧洲央行正同时应对物价上涨、美伊战争带来的各类后果...",
+            title: "德国央行行长对右翼崛起感到不安 忧心会导致外国投资者望而却步",
+            summary: " 德国央行行长Joachim Nagel表示，他担心极右翼德国选择党最近在一场州选举中获胜，可能会令外国投资者对欧洲最大经济体望而却步。",
             source: "环球市场播报",
             date: "2026-09-10",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkcsq7533724.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-10/doc-inirkiyn7462795.shtml"
+        },
+        {
+            title: "拉加德称欧洲央行此次加息“顺理成章” 市场预计还有更多紧缩行动",
+            summary: "欧洲央行周四宣布加息，这是2月伊朗战争爆发以来第二次上调利率，油价的回升促使投资者提高对进一步加息的押注。 欧洲央行将存款利率上调25个基点至2.5%...",
+            source: "环球市场播报",
+            date: "2026-09-10",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-10/doc-inirkiyn7460906.shtml"
+        },
+        {
+            title: "抵押贷款利率升至一年多以来高点，美国上月房屋销量下滑",
+            summary: "8 月抵押贷款利率攀升至一年多以来最高水平，打击潜在购房者意愿，房屋销量随之走低。 美国全国房地产经纪人协会（NAR）周四公布数据：8 月成屋销售环比 7 月下降 2%...",
+            source: "环球市场播报",
+            date: "2026-09-10",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkiyn7460271.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-10",
-        marketAssessment: "A股方面：上证指数报3934.40点（-0.43%），深证成指报13617.67点（-0.77%），创业板指报3338.42点（-0.49%）。美股方面：标普500报7,636.36（+0.06%），纳斯达克报26,253.34（+0.59%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-11",
+        marketAssessment: "A股方面：上证指数报3934.40点（-0.43%），深证成指报13617.67点（-0.77%），创业板指报3338.42点（-0.49%）。美股方面：标普500报7,593.94（-0.95%），纳斯达克报26,104.87（-0.43%）。",
         hotSectors: [
             { name: "教育运营及其他", reason: "板块涨幅+6.02%", strength: "强" },
             { name: "卫浴电器", reason: "板块涨幅+4.87%", strength: "强" },

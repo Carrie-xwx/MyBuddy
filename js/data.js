@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.11", change: "-1.18%", market: "A股", updateTime: "2026-09-11 实时" },
         { name: "深证成指", code: "SZ399001", value: "13471.26", change: "-1.08%", market: "A股", updateTime: "2026-09-11 实时" },
         { name: "创业板指", code: "SZ399006", value: "3322.04", change: "-0.49%", market: "A股", updateTime: "2026-09-11 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "摩根资产管理称人工智能繁荣也驱动债券收益率中枢上移",
-            summary: " 摩根资产管理表示，近期全球债券收益率飙升并非单纯源于对美联储和美国财政政策的担忧。人工智能带来的增长乐观预期，正促使投资者重新评估长期利率应处于什么水平。",
+            title: "美国核心CPI高于预期 美股期指震荡",
+            summary: " 美国8月一项关键消费者物价指标升幅超过预期，引发市场对美联储今年可能被迫加息的担忧。美股期指一度下跌，随后回升至此前水平。",
+            source: "环球市场播报",
+            date: "2026-09-11",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirnhrw8972387.shtml"
+        },
+        {
+            title: "美国8月通胀维持3.4%不变，燃油价格持续高企",
+            summary: "燃油高企持续对经济产生连锁影响，美国8月通胀率维持在3.4%不变，交易员因此加大押注，预期美联储将于下周加息。 美国劳工统计局周五公布的消费者物价指数（CPI）数据与7月...",
+            source: "环球市场播报",
+            date: "2026-09-11",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirnhsa7389106.shtml"
+        },
+        {
+            title: "美国8月通胀率3.4% 汽油价格依旧高企",
+            summary: "美国上月同比通胀率维持高位，汽油仍是美国人的一笔高额开支。 美国劳工部周五公布数据，8月通胀率持平于3.4%。 该结果符合分析师预期，与7月3.4%的读数持平。",
+            source: "环球市场播报",
+            date: "2026-09-11",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirnhry5736956.shtml"
+        },
+        {
+            title: "美国8月CPI环比上涨0.4%，核心通胀高于预期",
+            summary: "美国8月消费者价格指数（CPI）环比上涨0.4%，创三个月来最大涨幅，同比上涨3.4%，两项数据均与市场普遍预期一致。剔除食品和能源的核心CPI环比上涨0.3%，高于预期的0...",
+            source: "环球市场播报",
+            date: "2026-09-11",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirnhry5736653.shtml"
+        },
+        {
+            title: "Kalshi拟持续扩张快速增长的高风险交易品类",
+            summary: " 据知情人士透露，预测市场平台 Kalshi 计划申请监管批准，推出美国首批受监管的个股永续期货，挂钩标的包括特斯拉、苹果与英伟达。",
             source: "环球市场播报",
             date: "2026-09-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-11/doc-inirnaix2261197.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirnhrv2224287.shtml"
         },
         {
-            title: "现货汇率回落 但长期看涨日元期权需求旺盛",
-            summary: "期权交易员依旧看好日元长期前景，不受现货市场短期波动影响。 日元周四回吐本周部分涨幅，创下近三周最大跌幅；伦敦早盘时段，美元兑日元再度走低，下跌0.2%至154.05。",
+            title: "天龙三号首飞失利，原因公布",
+            summary: "澎湃新闻记者 秦盛 天兵科技公布天龙三号首飞失利原因。 9月11日，天兵科技发布关于天龙三号遥一运载火箭飞行试验任务的归零情况说明。",
+            source: "澎湃新闻",
+            date: "2026-09-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/chanjing/gsnews/2026-09-11/doc-inirnhrv2223429.shtml"
+        },
+        {
+            title: "受伊朗供给冲击影响 美国柴油价格创纪录触及每加仑6美元",
+            summary: " 受特朗普对伊朗开战、以及乌克兰袭击俄罗斯炼油厂冲击全球燃料供应的影响，美国柴油价格创下新高，再度引发市场对通胀的担忧。",
             source: "环球市场播报",
             date: "2026-09-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-11/doc-inirnais6760144.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirnhry5727118.shtml"
         },
         {
-            title: "霍尔木兹海峡燃料出口恢复缓慢 价格维持在历史高位附近",
-            summary: "经过霍尔木兹海峡的石油产品出口正在缓慢恢复，但恢复速度不足以阻止燃油价格飙升，这给世界各地的消费者增加了负担。 根据维多集团首席执行官Russell Hardy...",
+            title: "Anthropic发现Claude遭中俄伊朗等地用户滥用 包括用于武器研发等",
+            summary: " Anthropic PBC表示，其人工智能模型Claude遭到滥用，被用于尝试开发多种潜在军事用途，包括自杀式无人机群、导弹导航系统和生物武器。",
             source: "环球市场播报",
             date: "2026-09-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-11/doc-inirnaiv5330817.shtml"
-        },
-        {
-            title: "IEA下调石油需求预期 但认为恢复供应过剩局面的时间推迟至2027年",
-            summary: " 国际能源署（IEA）下调石油需求预测，并表示随着伊朗战争时间拖长，消费国被迫适应供应减少，未来几个月石油消费量可能不得不进一步下降。",
-            source: "环球市场播报",
-            date: "2026-09-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirnaix2100124.shtml"
-        },
-        {
-            title: "法国将今年经济增长预期从0.7%下调至0.5%",
-            summary: "法国财政部长罗兰·莱斯屈尔周五下调了今年的经济增长预期，进一步加剧了控制不断膨胀预算赤字的难度。 莱斯屈尔周五在记者会上表示，2026年国内生产总值（GDP）将仅增长0...",
-            source: "环球市场播报",
-            date: "2026-09-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirnaiv5327186.shtml"
-        },
-        {
-            title: "韩国请求英国制裁方案豁免俄天然气业务",
-            summary: " 韩国产业部周五表示，韩国产业部长援引能源安全考量，已向英国贸易大臣提出请求，希望英国在即将出台的制裁方案中，豁免韩国自俄罗斯进口液化天然气（LNG）的相关业务。",
-            source: "环球市场播报",
-            date: "2026-09-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirnaix2255843.shtml"
-        },
-        {
-            title: "跌破3100？黑色系全绿！钢坯跌30！双焦重挫！下周钢价咋走？",
-            summary: "（来源：淘钢网） 9月11日，钢材现货市场价格小幅下跌，期货市场主要品种主力全线下跌，其中螺纹跌1.24%，热卷跌1.16%，铁矿跌1.78%，焦炭跌3.10%，焦煤跌3.44%。",
-            source: "",
-            date: "2026-09-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-09-11/doc-inirmvzu6880003.shtml"
-        },
-        {
-            title: "【国投期货|能源专题】原油：冲突升级引爆油价，内外盘价差持续走扩",
-            summary: "国投期货研究院 9月以来原油开启强势上行行情，随着美伊局势不断升级及冲突范围扩大，Brent最高接近110美元/桶，WTI突破100美元/桶，而SC表现更为强势...",
-            source: "市场资讯",
-            date: "2026-09-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-09-11/doc-inirmvzx5442570.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirnhrq6720057.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-11",
         marketAssessment: "A股方面：上证指数报3888.11点（-1.18%），深证成指报13471.26点（-1.08%），创业板指报3322.04点（-0.49%）。美股方面：标普500报7,591.70（-0.98%），纳斯达克报26,081.72（-0.52%）。",
         hotSectors: [

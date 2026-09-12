@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.11", change: "-1.18%", market: "A股", updateTime: "2026-09-12 实时" },
         { name: "深证成指", code: "SZ399001", value: "13471.26", change: "-1.08%", market: "A股", updateTime: "2026-09-12 实时" },
         { name: "创业板指", code: "SZ399006", value: "3322.04", change: "-0.49%", market: "A股", updateTime: "2026-09-12 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "欧洲央行官员科赫尔：高油价可能迫使欧央行进一步加息",
-            summary: "欧洲央行一名高级政策官员警告称，如果油价在年底前持续维持在每桶100美元附近，欧洲央行将不得不进一步加息。 欧洲央行于周四完成本年度第二次加息后...",
+            title: "通胀时代怎么办？痴迷AI的华尔街坚定不移",
+            summary: "华尔街本周遭遇了多重挑战。油价站稳100美元。通胀拒绝消失。“桀骜不驯”的债券市场无惧斯科特·贝森特的政策火力。 但华尔街并未退缩...",
             source: "环球市场播报",
             date: "2026-09-12",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-12/doc-inirpute8522963.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirqfie6536614.shtml"
         },
         {
-            title: "美国限制油轮通过霍尔木兹海峡的防空时段",
-            summary: "在美国加大对夜间航行船只袭击力度后，美国要求穿越霍尔木兹海峡的油轮仅可在特定时段航行，以获得军事保护。 自5月起，华盛顿方面为选择沿海峡南侧阿曼海岸航线航行的船只...",
+            title: "中金：通胀粘性支持加息 预计美联储加息25个基点",
+            summary: "中金发布研报称，美国CPI报告已经触及美联储的加息门槛，因此预计联储将在9月16日会议上加息25个基点。此外，美联储或下调失业率、上调通胀预测，点阵图或上调2027...",
+            source: "滚动播报",
+            date: "2026-09-12",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-12/doc-inirqfie6531574.shtml"
+        },
+        {
+            title: "iPhone 17 Pro迎来史上最低价，你会买吗？",
+            summary: "来源：羊城派 iPhone 17 Pro迎来史上最低价！9月10日发布会后，iPhone17Pro官网全面下架且不再上架，而北京四十多家授权店却逆势降价促销。",
+            source: "滚动播报",
+            date: "2026-09-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-09-12/doc-inirqfie6531712.shtml"
+        },
+        {
+            title: "【深度】百万粉丝博主涉黑被抓，打假还是假打？",
+            summary: "界面新闻记者 | 张钰馨界面新闻编辑 | 刘海川 职业打假人，曾主要瞄准假冒伪劣产品，通过投诉、诉讼等维权手段追究商家责任，一度被视作消费市场中的“啄木鸟”。",
+            source: "界面",
+            date: "2026-09-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-12/doc-inirqfhy8410031.shtml"
+        },
+        {
+            title: "603258，上半年净利润亏损5877万元！4920万元收购标的盈利不足50万元",
+            summary: "来源：中国经营报 中经记者 李哲 北京报道 近日，电魂网络（603258.SH）披露上半年“成绩单”。财报显示，电魂网络的营收和净利润双双下滑。",
+            source: "滚动播报",
+            date: "2026-09-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-09-12/doc-inirqfhy8410437.shtml"
+        },
+        {
+            title: "概率飙升至90%！美联储加息最新预测",
+            summary: " 美国消费者新闻与商业频道11日报道称，目前交易员预计美联储下周加息概率已从数据发布前的70%跃升至90%。报道还指出，市场预计如果美联储决定加息，本次将加息25个基点。",
+            source: "央视",
+            date: "2026-09-12",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/wm/2026-09-12/doc-inirqfie6529303.shtml"
+        },
+        {
+            title: "全球能源格局重构、竞争规则换剧本，中企出海该怎么接招？",
+            summary: "界面新闻记者 | 席菁华 “（对于大公司而言），能源已经不再只是一项成本科目，它变成了必须进入董事会议程的经营变量。” 9月11日，在2026年服贸会举办期间...",
+            source: "界面",
+            date: "2026-09-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-12/doc-inirqfia5168439.shtml"
+        },
+        {
+            title: "福特因燃油箱问题在美国召回约22.35万辆汽车",
+            summary: " 美国国家公路交通安全管理局（NHTSA）周六表示，福特汽车公司因燃油箱存在泄漏且固定不当，可能在行驶中脱落，正在美国召回223472辆汽车。",
             source: "环球市场播报",
             date: "2026-09-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-12/doc-inirputk6716997.shtml"
-        },
-        {
-            title: "特朗普提名的“美国首席医生”，持仓烟草、快餐及碳酸饮料股",
-            summary: "周四公布的财务披露文件显示，美国总统唐纳德·特朗普提名的医务总监（Surgeon General）候选人妮可·萨菲尔持有烟草企业菲利普莫里斯国际，以及怪物饮料、可口可乐...",
-            source: "环球市场播报",
-            date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirpqmk5352497.shtml"
-        },
-        {
-            title: "VinFast创始人交棒其子 推进业务扩张",
-            summary: "在大举开拓海外市场、亏损持续扩大的背景下，VinFast汽车有限公司董事长范日全安（Pham Nhat Quan Anh）将出任这家越南电动汽车厂商的全球首席执行官...",
-            source: "环球市场播报",
-            date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirpqmk5330886.shtml"
-        },
-        {
-            title: "波音向工程师工会提交最终提案 包含10%加薪",
-            summary: " 波音官网发布的最新信息显示，波音已向工程师工会SPEEA提交最终合同提案。提案一旦获批，将落实10%的保底加薪，并将于2027年3月再实施4%加薪。",
-            source: "环球市场播报",
-            date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirpqmn6795677.shtml"
-        },
-        {
-            title: "玻利维亚央行回笼74亿玻利维亚诺 货币投放规模激增",
-            summary: " 玻利维亚央行公告称，8月该行从金融体系回笼74.3亿玻利维亚诺（折合6.44亿美元），资金来源于黄金采购以及通过买入美元积累国际储备所产生的流动性。",
-            source: "环球市场播报",
-            date: "2026-09-12",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-12/doc-inirpkck8634282.shtml"
-        },
-        {
-            title: "视频|星宇股份又出错，近期已道歉4次 股价下跌！上交所发函！网友:真是一个神奇的草台班子",
-            summary: "视频|星宇股份又出错，近期已道歉4次 股价下跌！上交所发函！网友:真是一个神奇的草台班子",
-            source: "市场资讯",
-            date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-12/doc-inirpkcn5403726.shtml"
-        },
-        {
-            title: "视频|IPO前夕受试者死亡、高管爆粗口，易慕峰港股18A再递表，8月招股书悄悄删掉“安全性良好”",
-            summary: "视频|IPO前夕受试者死亡、高管爆粗口，易慕峰港股18A再递表，8月招股书悄悄删掉“安全性良好”",
-            source: "市场资讯",
-            date: "2026-09-12",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-12/doc-inirpkci1738985.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirqfhy8388013.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-12",
         marketAssessment: "A股方面：上证指数报3888.11点（-1.18%），深证成指报13471.26点（-1.08%），创业板指报3322.04点（-0.49%）。美股方面：标普500报7,656.98（-1.17%），纳斯达克报26,333.03（-0.94%）。",
         hotSectors: [
-
+            { name: "通信线缆及配套", reason: "板块涨幅+5.84%", strength: "强" },
+            { name: "玻纤制造", reason: "板块涨幅+4.67%", strength: "强" },
+            { name: "地面兵装Ⅲ", reason: "板块涨幅+4.48%", strength: "强" },
+            { name: "地面兵装Ⅱ", reason: "板块涨幅+4.48%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "期货", reason: "板块跌幅-5.85%", strength: "弱" },
+            { name: "氨纶", reason: "板块跌幅-5.66%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注通信线缆及配套、玻纤制造、地面兵装Ⅲ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

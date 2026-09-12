@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.11", change: "-1.18%", market: "A股", updateTime: "2026-09-12 实时" },
         { name: "深证成指", code: "SZ399001", value: "13471.26", change: "-1.08%", market: "A股", updateTime: "2026-09-12 实时" },
         { name: "创业板指", code: "SZ399006", value: "3322.04", change: "-0.49%", market: "A股", updateTime: "2026-09-12 实时" },
         { name: "沪深300", code: "SH000300", value: "4510.16", change: "-0.84%", market: "A股", updateTime: "2026-09-12 实时" },
         { name: "科创50", code: "SH000688", value: "1553.39", change: "-1.01%", market: "A股", updateTime: "2026-09-12 实时" },
-        { name: "标普500", code: "SPX", value: "7,665.18", change: "-1.07%", market: "美股", updateTime: "2026-09-12 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,362.66", change: "-0.83%", market: "美股", updateTime: "2026-09-12 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,621.78", change: "-1.98%", market: "美股", updateTime: "2026-09-12 收盘" },
+        { name: "标普500", code: "SPX", value: "7,656.98", change: "-1.17%", market: "美股", updateTime: "2026-09-12 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,333.03", change: "-0.94%", market: "美股", updateTime: "2026-09-12 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,573.29", change: "-2.07%", market: "美股", updateTime: "2026-09-12 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "美股反弹推动美国上季度家庭净资产大增",
-            summary: "随着股市反弹改善美国居民的资产负债表，美国第二季度家庭财富升至纪录新高。 美联储周五公布的报告显示，美国第二季度家庭净资产较前一季度激增12.8万亿美元，达到195...",
+            title: "欧洲央行官员科赫尔：高油价可能迫使欧央行进一步加息",
+            summary: "欧洲央行一名高级政策官员警告称，如果油价在年底前持续维持在每桶100美元附近，欧洲央行将不得不进一步加息。 欧洲央行于周四完成本年度第二次加息后...",
             source: "环球市场播报",
             date: "2026-09-12",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirntfu5607310.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-12/doc-inirpute8522963.shtml"
         },
         {
-            title: "美国第二季度家庭净资产创纪录环比增加12.803万亿美元",
-            summary: "美联储数据显示，美国第二季度家庭净资产环比增加12.803万亿美元，第一季度增幅修正为7，929亿美元。 第二季度家庭净资产的名义增量创1950年代有数据记录以来最大。",
-            source: "环球市场播报",
-            date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirntfu5604336.shtml"
-        },
-        {
-            title: "欧洲股市周五反弹 仍创下7月份以来最差单周表现",
-            summary: "随着油价和债券收益率回落，欧洲股市周五反弹，给市场带来一丝喘息之机，尽管基准股指仍创下7月份以来最差单周表现。 斯托克欧洲600指数收盘上涨0.5%，全周仍下跌1.7%。",
+            title: "美国限制油轮通过霍尔木兹海峡的防空时段",
+            summary: "在美国加大对夜间航行船只袭击力度后，美国要求穿越霍尔木兹海峡的油轮仅可在特定时段航行，以获得军事保护。 自5月起，华盛顿方面为选择沿海峡南侧阿曼海岸航线航行的船只...",
             source: "环球市场播报",
             date: "2026-09-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirntfu5603515.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-12/doc-inirputk6716997.shtml"
         },
         {
-            title: "美联储下周加息几成定局 手机资费大涨或是关键推手",
-            summary: "美国手机服务价格涨幅创纪录，推动一项关键通胀指标高于预期，可能进而锁定了美联储下周加息的决定。 美国劳工统计局周五公布的数据显示...",
+            title: "特朗普提名的“美国首席医生”，持仓烟草、快餐及碳酸饮料股",
+            summary: "周四公布的财务披露文件显示，美国总统唐纳德·特朗普提名的医务总监（Surgeon General）候选人妮可·萨菲尔持有烟草企业菲利普莫里斯国际，以及怪物饮料、可口可乐...",
             source: "环球市场播报",
             date: "2026-09-12",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirntfu5602935.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirpqmk5352497.shtml"
         },
         {
-            title: "上海再出重磅规划！30年的城市大扩张，要彻底转向了",
-            summary: "来源：城读上海城读上海 城市规划系列文章《上海市城市更新和住房发展“十五五”规划》于2026年8月正式发布。这份规划全文约1.5万字，涵盖城市建设与运营提升各个方面...",
+            title: "VinFast创始人交棒其子 推进业务扩张",
+            summary: "在大举开拓海外市场、亏损持续扩大的背景下，VinFast汽车有限公司董事长范日全安（Pham Nhat Quan Anh）将出任这家越南电动汽车厂商的全球首席执行官...",
+            source: "环球市场播报",
+            date: "2026-09-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirpqmk5330886.shtml"
+        },
+        {
+            title: "波音向工程师工会提交最终提案 包含10%加薪",
+            summary: " 波音官网发布的最新信息显示，波音已向工程师工会SPEEA提交最终合同提案。提案一旦获批，将落实10%的保底加薪，并将于2027年3月再实施4%加薪。",
+            source: "环球市场播报",
+            date: "2026-09-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirpqmn6795677.shtml"
+        },
+        {
+            title: "玻利维亚央行回笼74亿玻利维亚诺 货币投放规模激增",
+            summary: " 玻利维亚央行公告称，8月该行从金融体系回笼74.3亿玻利维亚诺（折合6.44亿美元），资金来源于黄金采购以及通过买入美元积累国际储备所产生的流动性。",
+            source: "环球市场播报",
+            date: "2026-09-12",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-12/doc-inirpkck8634282.shtml"
+        },
+        {
+            title: "视频|星宇股份又出错，近期已道歉4次 股价下跌！上交所发函！网友:真是一个神奇的草台班子",
+            summary: "视频|星宇股份又出错，近期已道歉4次 股价下跌！上交所发函！网友:真是一个神奇的草台班子",
             source: "市场资讯",
             date: "2026-09-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-09-12/doc-inirntfs8827667.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-09-12/doc-inirpkcn5403726.shtml"
         },
         {
-            title: "欧洲债市：欧洲地区加息押注降温 短期政府债券上涨",
-            summary: "随着交易员削减对欧洲地区大幅度加息的押注，欧洲短期政府债券上涨，从前一日的大幅下跌中反弹。 德国两年期国债收益率下跌4个基点至3.20%。",
-            source: "环球市场播报",
+            title: "视频|IPO前夕受试者死亡、高管爆粗口，易慕峰港股18A再递表，8月招股书悄悄删掉“安全性良好”",
+            summary: "视频|IPO前夕受试者死亡、高管爆粗口，易慕峰港股18A再递表，8月招股书悄悄删掉“安全性良好”",
+            source: "市场资讯",
             date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirntfu5594710.shtml"
-        },
-        {
-            title: "知名策略师认为美国中期选举前汽油价格达到5美元的风险“极高”",
-            summary: " 资深大宗商品策略师Jeff Currie表示，美国汽油平均价格在中期选举前几乎肯定会达到每加仑5美元，原因是供应稀缺与货币贬值形成了危险的叠加效应。",
-            source: "环球市场播报",
-            date: "2026-09-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirntfs8814359.shtml"
-        },
-        {
-            title: "哈塞特：特朗普可以用财政上负责任的方式来兑现5000美元发钱承诺",
-            summary: "白宫国家经济委员会主任凯文·哈塞特淡化了有关特朗普5，000美元发钱承诺可能加剧政府负债的担忧。 哈塞特周四接受采访时表示：“我们可以用一种对财政负责的方式来做。",
-            source: "环球市场播报",
-            date: "2026-09-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirntfu5578115.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-12/doc-inirpkci1738985.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-09-12",
-        marketAssessment: "A股方面：上证指数报3888.11点（-1.18%），深证成指报13471.26点（-1.08%），创业板指报3322.04点（-0.49%）。美股方面：标普500报7,665.18（-1.07%），纳斯达克报26,362.66（-0.83%）。",
+        marketAssessment: "A股方面：上证指数报3888.11点（-1.18%），深证成指报13471.26点（-1.08%），创业板指报3322.04点（-0.49%）。美股方面：标普500报7,656.98（-1.17%），纳斯达克报26,333.03（-0.94%）。",
         hotSectors: [
 
         ],

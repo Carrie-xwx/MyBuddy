@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.11", change: "-1.18%", market: "A股", updateTime: "2026-09-12 实时" },
         { name: "深证成指", code: "SZ399001", value: "13471.26", change: "-1.08%", market: "A股", updateTime: "2026-09-12 实时" },
         { name: "创业板指", code: "SZ399006", value: "3322.04", change: "-0.49%", market: "A股", updateTime: "2026-09-12 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "特朗普称伊朗支持的胡塞武装请求美国不要下场",
-            summary: " 在伊朗支持的胡塞武装与沙特的冲突恶化，加剧中东紧张局势之际，美国总统唐纳德·特朗普表示，胡塞武装已请求美国不要袭击该军事组织。",
+            title: "加州柴油价格创历史新高",
+            summary: "美国加州柴油价格飙升至历史纪录水平，全州平均油价突破每加仑8美元，圣地亚哥一处加油站标价达9.99美元。燃油供应不足、炼油产能下降...",
             source: "环球市场播报",
             date: "2026-09-12",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirqmqw8386696.shtml"
-        },
-        {
-            title: "滴滴企业版已累计服务超100万家企业，发布跨企业AI工具",
-            summary: " 新浪科技讯 9月12日下午消息，滴滴企业版在2026商旅服务大会上，发布商旅全程保障“超级省”、AI跨企业协同方案及《2026企业商旅趋势报告》，重新定义商旅服务的价值。",
-            source: "市场资讯",
-            date: "2026-09-12",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqmqv1266601.shtml"
-        },
-        {
-            title: "连续四天 央行隔夜逆回购如何精准“疏堵”？",
-            summary: "央行近日公告，9月14日至17日，连续四个工作日开展隔夜逆回购操作，单日操作规模上限6000亿元。这款今年6月全新亮相的短期货币政策工具再度连续出手，背后意味着什么...",
-            source: "央视",
-            date: "2026-09-12",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqmqv1265375.shtml"
-        },
-        {
-            title: "中国将于2027年接任金砖主席国",
-            summary: " 当地时间9月12日下午，在金砖国家领导人第十八次会晤第一阶段会议上，国家主席习近平宣布，中国将于2027年接任金砖主席国，主办金砖国家领导人第十九次会晤。",
-            source: "央视",
-            date: "2026-09-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqfie6556107.shtml"
+            url: "https://finance.sina.com.cn/7x24/2026-09-12/doc-inirqweu5017032.shtml"
         },
         {
-            title: "个人消费贷贴息政策提额扩围",
-            summary: "来源：中国经济网 近日，建设银行、工商银行等国有大型银行，多家城市商业银行等中小金融机构密集发布公告，解读个人消费贷款（含信用卡分期）财政贴息政策客户关注问题。",
+            title: "伊朗总统：目前无法做出与美国直接谈判的决定 美国必须停止封锁",
+            summary: "在周六发布的一段视频采访中，伊朗总统佩泽希齐扬表示，伊朗“目前无法做出”与美国进行直接谈判的决定。他说，首先必须营造互信氛围，美国人必须停止封锁和制裁。",
             source: "滚动播报",
             date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-09-12/doc-inirqfia5235562.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/7x24/2026-09-12/doc-inirqwes8236372.shtml"
         },
         {
-            title: "独家专访野村苏博文：若AI热潮降温 全球资产会迈向何方？",
-            summary: "来源：21财经 当人工智能热潮与中东冲突的炮火声交织时，全球经济正在经历一场罕见的多线程压力测试。近日，野村全球宏观研究主管及全球市场研究部联席主管苏博文（Rob...",
-            source: "滚动播报",
+            title: "Anthropic首席执行官发表公开信 呼吁放慢AI模型的发展速度",
+            summary: " Anthropic首席执行官Dario Amodei表示，人工智能行业必须放慢新模型的开发速度，并提到对人工智能给人类造成风险的担忧越来越严重。",
+            source: "环球市场播报",
             date: "2026-09-12",
             tag: "行业",
-            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqfie6551887.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirqwer1080254.shtml"
         },
         {
-            title: "12.5亿长三角联合基金来了，官方详解怎么投、投向哪",
-            summary: "随着长三角一体化建设纵深推进，区域基础研究的组织模式与出资机制也迎来实质性变革。 12日上午举行的2026浦江创新论坛开幕式上，国家自然科学基金长三角基础研究联合基金...",
-            source: "一财网",
+            title: "重庆渝富控股集团有限公司原党委书记、董事长谢文辉被查",
+            summary: " 中新网9月12日电 据重庆市纪委监委消息：重庆渝富控股集团有限公司原党委书记、董事长谢文辉涉嫌严重违纪违法，目前正接受重庆市纪委监委纪律审查和监察调查。",
+            source: "中国新闻网",
             date: "2026-09-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-12/doc-inirqfie6549413.shtml"
+            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqrwt1193609.shtml"
         },
         {
-            title: "银河通用发布声明：关于公司及管理团队的谣言均属不实，已报案",
-            summary: "9月12日消息，银河通用下午发布声明，声明称，近期公司关注到网络上流传关于银河通用及管理团队的恶意谣言，相关内容均属不实信息。",
+            title: "麦当劳中国亮相服贸会 发布5项线下消费成果案例",
+            summary: "9月12日晚间消息，2026年中国国际服务贸易交易会（以下简称“服贸会”）于9月9日至13日在北京举行。9月12日，麦当劳中国在服贸会现场发布5项线下消费成果案例...",
             source: "市场资讯",
             date: "2026-09-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqfia5217345.shtml"
+            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqrww5080917.shtml"
+        },
+        {
+            title: "招ESG人才有多难？97%受访企业面临人才能力缺口",
+            summary: "21世纪经济报道记者卢陶然 实习生马宁紫 北京报道 绿色金融与ESG投资已从概念迈入实践阶段，人才供给却未能同步跟上。 近日，CFA协会发布《2026中国绿色金融与ESG投资调研...",
+            source: "21世纪经济报道",
+            date: "2026-09-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-09-12/doc-inirqrwt1186792.shtml"
+        },
+        {
+            title: "中深装集团突发讣告：常务副总裁王武烈病逝，终年45岁",
+            summary: " 9月12日，深圳市中深装建设集团有限公司发布讣告，公司党委副书记、常务副总裁、法定代表人王武烈，于2026年9月7日因病逝世，终年45岁。",
+            source: "市场资讯",
+            date: "2026-09-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqrww5063728.shtml"
+        },
+        {
+            title: "高德扫街榜发布“飞行街景2.0”：ABot-Earth 0.7世界模型驱动，提前自由探索目的地",
+            summary: "新浪科技讯 9月12日晚间消息，阿里巴巴集团旗下高德近日正式发布高德扫街榜2026。在空间智能驱动下，高德扫街榜2026以榜单为起点，进一步把理解真实世界的能力，带入决策...",
+            source: "市场资讯",
+            date: "2026-09-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqrwy6339005.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-09-12",
         marketAssessment: "A股方面：上证指数报3888.11点（-1.18%），深证成指报13471.26点（-1.08%），创业板指报3322.04点（-0.49%）。美股方面：标普500报7,656.98（-1.17%），纳斯达克报26,333.03（-0.94%）。",
         hotSectors: [

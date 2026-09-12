@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.11", change: "-1.18%", market: "A股", updateTime: "2026-09-12 实时" },
         { name: "深证成指", code: "SZ399001", value: "13471.26", change: "-1.08%", market: "A股", updateTime: "2026-09-12 实时" },
         { name: "创业板指", code: "SZ399006", value: "3322.04", change: "-0.49%", market: "A股", updateTime: "2026-09-12 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "通胀时代怎么办？痴迷AI的华尔街坚定不移",
-            summary: "华尔街本周遭遇了多重挑战。油价站稳100美元。通胀拒绝消失。“桀骜不驯”的债券市场无惧斯科特·贝森特的政策火力。 但华尔街并未退缩...",
+            title: "特朗普称伊朗支持的胡塞武装请求美国不要下场",
+            summary: " 在伊朗支持的胡塞武装与沙特的冲突恶化，加剧中东紧张局势之际，美国总统唐纳德·特朗普表示，胡塞武装已请求美国不要袭击该军事组织。",
             source: "环球市场播报",
             date: "2026-09-12",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirqfie6536614.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirqmqw8386696.shtml"
         },
         {
-            title: "中金：通胀粘性支持加息 预计美联储加息25个基点",
-            summary: "中金发布研报称，美国CPI报告已经触及美联储的加息门槛，因此预计联储将在9月16日会议上加息25个基点。此外，美联储或下调失业率、上调通胀预测，点阵图或上调2027...",
-            source: "滚动播报",
+            title: "滴滴企业版已累计服务超100万家企业，发布跨企业AI工具",
+            summary: " 新浪科技讯 9月12日下午消息，滴滴企业版在2026商旅服务大会上，发布商旅全程保障“超级省”、AI跨企业协同方案及《2026企业商旅趋势报告》，重新定义商旅服务的价值。",
+            source: "市场资讯",
             date: "2026-09-12",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-12/doc-inirqfie6531574.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqmqv1266601.shtml"
         },
         {
-            title: "iPhone 17 Pro迎来史上最低价，你会买吗？",
-            summary: "来源：羊城派 iPhone 17 Pro迎来史上最低价！9月10日发布会后，iPhone17Pro官网全面下架且不再上架，而北京四十多家授权店却逆势降价促销。",
-            source: "滚动播报",
-            date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-09-12/doc-inirqfie6531712.shtml"
-        },
-        {
-            title: "【深度】百万粉丝博主涉黑被抓，打假还是假打？",
-            summary: "界面新闻记者 | 张钰馨界面新闻编辑 | 刘海川 职业打假人，曾主要瞄准假冒伪劣产品，通过投诉、诉讼等维权手段追究商家责任，一度被视作消费市场中的“啄木鸟”。",
-            source: "界面",
-            date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-12/doc-inirqfhy8410031.shtml"
-        },
-        {
-            title: "603258，上半年净利润亏损5877万元！4920万元收购标的盈利不足50万元",
-            summary: "来源：中国经营报 中经记者 李哲 北京报道 近日，电魂网络（603258.SH）披露上半年“成绩单”。财报显示，电魂网络的营收和净利润双双下滑。",
-            source: "滚动播报",
-            date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-09-12/doc-inirqfhy8410437.shtml"
-        },
-        {
-            title: "概率飙升至90%！美联储加息最新预测",
-            summary: " 美国消费者新闻与商业频道11日报道称，目前交易员预计美联储下周加息概率已从数据发布前的70%跃升至90%。报道还指出，市场预计如果美联储决定加息，本次将加息25个基点。",
+            title: "连续四天 央行隔夜逆回购如何精准“疏堵”？",
+            summary: "央行近日公告，9月14日至17日，连续四个工作日开展隔夜逆回购操作，单日操作规模上限6000亿元。这款今年6月全新亮相的短期货币政策工具再度连续出手，背后意味着什么...",
             source: "央视",
             date: "2026-09-12",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/wm/2026-09-12/doc-inirqfie6529303.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqmqv1265375.shtml"
         },
         {
-            title: "全球能源格局重构、竞争规则换剧本，中企出海该怎么接招？",
-            summary: "界面新闻记者 | 席菁华 “（对于大公司而言），能源已经不再只是一项成本科目，它变成了必须进入董事会议程的经营变量。” 9月11日，在2026年服贸会举办期间...",
-            source: "界面",
+            title: "中国将于2027年接任金砖主席国",
+            summary: " 当地时间9月12日下午，在金砖国家领导人第十八次会晤第一阶段会议上，国家主席习近平宣布，中国将于2027年接任金砖主席国，主办金砖国家领导人第十九次会晤。",
+            source: "央视",
             date: "2026-09-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-12/doc-inirqfia5168439.shtml"
+            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqfie6556107.shtml"
         },
         {
-            title: "福特因燃油箱问题在美国召回约22.35万辆汽车",
-            summary: " 美国国家公路交通安全管理局（NHTSA）周六表示，福特汽车公司因燃油箱存在泄漏且固定不当，可能在行驶中脱落，正在美国召回223472辆汽车。",
-            source: "环球市场播报",
+            title: "个人消费贷贴息政策提额扩围",
+            summary: "来源：中国经济网 近日，建设银行、工商银行等国有大型银行，多家城市商业银行等中小金融机构密集发布公告，解读个人消费贷款（含信用卡分期）财政贴息政策客户关注问题。",
+            source: "滚动播报",
             date: "2026-09-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirqfhy8388013.shtml"
+            url: "https://finance.sina.com.cn/roll/2026-09-12/doc-inirqfia5235562.shtml"
+        },
+        {
+            title: "独家专访野村苏博文：若AI热潮降温 全球资产会迈向何方？",
+            summary: "来源：21财经 当人工智能热潮与中东冲突的炮火声交织时，全球经济正在经历一场罕见的多线程压力测试。近日，野村全球宏观研究主管及全球市场研究部联席主管苏博文（Rob...",
+            source: "滚动播报",
+            date: "2026-09-12",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqfie6551887.shtml"
+        },
+        {
+            title: "12.5亿长三角联合基金来了，官方详解怎么投、投向哪",
+            summary: "随着长三角一体化建设纵深推进，区域基础研究的组织模式与出资机制也迎来实质性变革。 12日上午举行的2026浦江创新论坛开幕式上，国家自然科学基金长三角基础研究联合基金...",
+            source: "一财网",
+            date: "2026-09-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-12/doc-inirqfie6549413.shtml"
+        },
+        {
+            title: "银河通用发布声明：关于公司及管理团队的谣言均属不实，已报案",
+            summary: "9月12日消息，银河通用下午发布声明，声明称，近期公司关注到网络上流传关于银河通用及管理团队的恶意谣言，相关内容均属不实信息。",
+            source: "市场资讯",
+            date: "2026-09-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqfia5217345.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-12",
         marketAssessment: "A股方面：上证指数报3888.11点（-1.18%），深证成指报13471.26点（-1.08%），创业板指报3322.04点（-0.49%）。美股方面：标普500报7,656.98（-1.17%），纳斯达克报26,333.03（-0.94%）。",
         hotSectors: [
-            { name: "通信线缆及配套", reason: "板块涨幅+5.84%", strength: "强" },
-            { name: "玻纤制造", reason: "板块涨幅+4.67%", strength: "强" },
-            { name: "地面兵装Ⅲ", reason: "板块涨幅+4.48%", strength: "强" },
-            { name: "地面兵装Ⅱ", reason: "板块涨幅+4.48%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "期货", reason: "板块跌幅-5.85%", strength: "弱" },
-            { name: "氨纶", reason: "板块跌幅-5.66%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注通信线缆及配套、玻纤制造、地面兵装Ⅲ等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

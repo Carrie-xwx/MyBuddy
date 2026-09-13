@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.11", change: "-1.18%", market: "A股", updateTime: "2026-09-13 实时" },
         { name: "深证成指", code: "SZ399001", value: "13471.26", change: "-1.08%", market: "A股", updateTime: "2026-09-13 实时" },
         { name: "创业板指", code: "SZ399006", value: "3322.04", change: "-0.49%", market: "A股", updateTime: "2026-09-13 实时" },
@@ -669,7 +669,55 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+        {
+            title: "“未给英伟达供货！”“5天3板”PCB牛股紧急澄清，还有一只4倍牛股也公告否认",
+            summary: "记者|黄胜张益铭 编辑|程鹏黄胜张益铭杜恒峰校对|张锦河 9月13日晚，金安国纪（SZ002636，股价82.46元，市值600.31亿元）和超声电子（SZ000823，股价20.57元，市值122...",
+            source: "每日经济新闻",
+            date: "2026-09-13",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-13/doc-inirsuvt0254428.shtml"
+        },
+        {
+            title: "今夜，突发公告！两只大牛股，紧急发声：不属实！",
+            summary: "A股两大牛股同时澄清！ 今日（9月13日）晚间，金安国纪公告，网传相关信息均不属实，公司未与英伟达、华为有过接触，也未与其开展任何形式的业务合作。",
+            source: "券商中国",
+            date: "2026-09-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-09-13/doc-inirsuvt0254906.shtml"
+        },
+        {
+            title: "资本大佬陈发树要减持雷电微力，对应市值超2亿元",
+            summary: "记者|黄胜 编辑|程鹏张益铭杜恒峰校对|张锦河 雷电微力（SZ301050，股价28.57元，总市值约70.73亿元）9月13日发布《关于持股5%以上股东减持股份预披露的公告》。",
+            source: "每日经济新闻",
+            date: "2026-09-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-13/doc-inirsuvt0239313.shtml"
+        },
+        {
+            title: "智谱募资50亿美元：多家长线基金加持 用于下一代GLM研发",
+            summary: "来源：雷递 雷递网雷建平9月13日 智谱（股票代码：02513.HK）今日宣布获50亿美元融资，本轮融资包括约20亿美元股份配售及约30亿美元可转债发行。",
+            source: "市场资讯",
+            date: "2026-09-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-13/doc-inirszcr0132100.shtml"
+        },
+        {
+            title: "PCB牛股，刚刚提示风险！澄清涉及英伟达等不实信息",
+            summary: "来源：资本秘闻 9月13日晚间，金安国纪发布股票交易异常波动公告显示，截至目前公司未与英伟达、华为有过接触，也未与其开展任何形式的业务合作。",
+            source: "市场资讯",
+            date: "2026-09-13",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-13/doc-inirsqqa5516323.shtml"
+        },
+        {
+            title: "异动拉升，“5天3板”！000823最新澄清：目前无产品供货给英伟达",
+            summary: "来源：中国基金报 【导读】超声电子再次澄清英伟达供货传闻 中国基金报记者 夏天 9月13日晚间，“5天3板”超声电子（证券代码：000823）发布股票交易异常波动公告...",
+            source: "市场资讯",
+            date: "2026-09-13",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-13/doc-inirsqqa5494828.shtml"
+        },
         {
             title: "上海银行中报：利润增长缓慢，规模扩张赚的钱都去哪了？",
             summary: "来源：尺度商业 文 | 刘振涛 A股上市银行2026年中报已披露完毕，头部城商行上海银行中报引来市场关注。作为资产规模突破3万亿元的城商行，上半年该行资产规模稳步扩张...",
@@ -685,54 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-09-13",
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/s/2026-09-13/doc-inirsqpy4500969.shtml"
-        },
-        {
-            title: "比亚迪利润奖停发传闻发酵，员工称多项福利此前已收紧",
-            summary: "界面新闻记者 | 王臻界面新闻编辑 | 周姝祺 对不少比亚迪员工而言，9月下旬是一年中最期待的时段之一。按照往年惯例，一笔与上一年度经营业绩和个人考核挂钩的利润奖将在此...",
-            source: "界面",
-            date: "2026-09-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-13/doc-inirskfx0444573.shtml"
-        },
-        {
-            title: "汉港控股获主席及主要股东汪林冰增持768.4万股",
-            summary: "汉港控股（01663）发布公告，本公司董事会（董事会）获汪林冰（汪先生）通知，彼于2026年9月11日于公开市场购入合共768.4万股本公司的普通股，每股平均作价约为0.062港元...",
-            source: "新浪港股",
-            date: "2026-09-13",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-13/doc-inirskfx0422644.shtml"
-        },
-        {
-            title: "北森控股于9月11日斥资149.95万港元回购50万股",
-            summary: "北森控股（09669）发布公告，于2026年9月11日斥资149.95万港元回购50万股。",
-            source: "新浪港股",
-            date: "2026-09-13",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-13/doc-inirskfx0422452.shtml"
-        },
-        {
-            title: "凌雄科技于9月11日斥资约226.29万港元回购12万股",
-            summary: "凌雄科技（02436）发布公告，于2026年9月11日该公司斥资约226.29万港元回购12万股，回购价格为每股18.56至19.27港元。",
-            source: "新浪港股",
-            date: "2026-09-13",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-13/doc-inirskhe5585378.shtml"
-        },
-        {
-            title: "国联民生于9月11日斥资2785.85万元回购320万股A股",
-            summary: "国联民生（01456）发布公告，于2026年9月11日斥资人民币2785.85万元回购320万股A股。",
-            source: "新浪港股",
-            date: "2026-09-13",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-13/doc-inirskha4567271.shtml"
-        },
-        {
-            title: "碧桂园服务于9月11日斥资160.3万港元回购30万股",
-            summary: "碧桂园服务（06098）发布公告，于2026年9月11日斥资160.3万港元回购30万股。",
-            source: "新浪港股",
-            date: "2026-09-13",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-13/doc-inirskfy7794334.shtml"
         },
     ],
 
@@ -765,20 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-13",
         marketAssessment: "A股方面：上证指数报3888.11点（-1.18%），深证成指报13471.26点（-1.08%），创业板指报3322.04点（-0.49%）。美股方面：标普500报7,656.98（-1.17%），纳斯达克报26,333.03（-0.94%）。",
         hotSectors: [
-            { name: "通信线缆及配套", reason: "板块涨幅+5.84%", strength: "强" },
-            { name: "玻纤制造", reason: "板块涨幅+4.67%", strength: "强" },
-            { name: "地面兵装Ⅲ", reason: "板块涨幅+4.48%", strength: "强" },
-            { name: "地面兵装Ⅱ", reason: "板块涨幅+4.48%", strength: "强" },
+
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注通信线缆及配套、玻纤制造、地面兵装Ⅲ等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

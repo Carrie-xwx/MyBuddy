@@ -657,19 +657,51 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3888.11", change: "-1.18%", market: "A股", updateTime: "2026-09-13 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13471.26", change: "-1.08%", market: "A股", updateTime: "2026-09-13 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3322.04", change: "-0.49%", market: "A股", updateTime: "2026-09-13 实时" },
-        { name: "沪深300", code: "SH000300", value: "4510.16", change: "-0.84%", market: "A股", updateTime: "2026-09-13 实时" },
-        { name: "科创50", code: "SH000688", value: "1553.39", change: "-1.01%", market: "A股", updateTime: "2026-09-13 实时" },
-        { name: "标普500", code: "SPX", value: "7,656.98", change: "-1.17%", market: "美股", updateTime: "2026-09-13 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,333.03", change: "-0.94%", market: "美股", updateTime: "2026-09-13 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,573.29", change: "-2.07%", market: "美股", updateTime: "2026-09-13 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3888.11", change: "-1.18%", market: "A股", updateTime: "2026-09-14 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13471.26", change: "-1.08%", market: "A股", updateTime: "2026-09-14 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3322.04", change: "-0.49%", market: "A股", updateTime: "2026-09-14 实时" },
+        { name: "沪深300", code: "SH000300", value: "4510.16", change: "-0.84%", market: "A股", updateTime: "2026-09-14 实时" },
+        { name: "科创50", code: "SH000688", value: "1553.39", change: "-1.01%", market: "A股", updateTime: "2026-09-14 实时" },
+        { name: "标普500", code: "SPX", value: "7,656.98", change: "-1.17%", market: "美股", updateTime: "2026-09-14 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,333.03", change: "-0.94%", market: "美股", updateTime: "2026-09-14 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,573.29", change: "-2.07%", market: "美股", updateTime: "2026-09-14 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+        {
+            title: "伊朗据称周一公布霍尔木兹海峡临时航道协议 特朗普表示不在乎",
+            summary: " 经过一连串密集的外交活动，包括德黑兰与阿布扎比高级官员之间的罕见会晤之后，伊朗计划于周一正式公布有关一条霍尔木兹海峡临时航道的协议。",
+            source: "环球市场播报",
+            date: "2026-09-13",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirtfmq7529373.shtml"
+        },
+        {
+            title: "特朗普敦促美联储降息 表示美国利率应该全球最低",
+            summary: " 美国总统特朗普再次表示，美国应该拥有全球最低的利率。但与此同时，他亲自挑选的美联储主席凯文·沃什正面临越来越大的加息压力。",
+            source: "环球市场播报",
+            date: "2026-09-13",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirszcw5322364.shtml"
+        },
+        {
+            title: "Anthropic对人工智能的警告或使芯片股承压 但长期影响料有限",
+            summary: " 市场观察人士指出，人工智能高管们呼吁放缓技术发展的言论，短期内可能会对芯片制造商及供应链股票造成压力，但鉴于算力基础设施支出依然强劲，长期影响可能有限。",
+            source: "环球市场播报",
+            date: "2026-09-13",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirszcs7631330.shtml"
+        },
+        {
+            title: "哈塞特：白宫认为没有理由加息 但将百分之百支持美联储的决定",
+            summary: " 美联储主席凯文·沃什及其委员会“不管作出什么决定，我们都会百分之百支持他们”，美国总统唐纳德·特朗普的经济顾问凯文·哈塞特在接受CNN采访时表示。",
+            source: "环球市场播报",
+            date: "2026-09-13",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirszcs7631078.shtml"
+        },
         {
             title: "“未给英伟达供货！”“5天3板”PCB牛股紧急澄清，还有一只4倍牛股也公告否认",
             summary: "记者|黄胜张益铭 编辑|程鹏黄胜张益铭杜恒峰校对|张锦河 9月13日晚，金安国纪（SZ002636，股价82.46元，市值600.31亿元）和超声电子（SZ000823，股价20.57元，市值122...",
@@ -702,38 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/s/2026-09-13/doc-inirszcr0132100.shtml"
         },
-        {
-            title: "PCB牛股，刚刚提示风险！澄清涉及英伟达等不实信息",
-            summary: "来源：资本秘闻 9月13日晚间，金安国纪发布股票交易异常波动公告显示，截至目前公司未与英伟达、华为有过接触，也未与其开展任何形式的业务合作。",
-            source: "市场资讯",
-            date: "2026-09-13",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-13/doc-inirsqqa5516323.shtml"
-        },
-        {
-            title: "异动拉升，“5天3板”！000823最新澄清：目前无产品供货给英伟达",
-            summary: "来源：中国基金报 【导读】超声电子再次澄清英伟达供货传闻 中国基金报记者 夏天 9月13日晚间，“5天3板”超声电子（证券代码：000823）发布股票交易异常波动公告...",
-            source: "市场资讯",
-            date: "2026-09-13",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-13/doc-inirsqqa5494828.shtml"
-        },
-        {
-            title: "上海银行中报：利润增长缓慢，规模扩张赚的钱都去哪了？",
-            summary: "来源：尺度商业 文 | 刘振涛 A股上市银行2026年中报已披露完毕，头部城商行上海银行中报引来市场关注。作为资产规模突破3万亿元的城商行，上半年该行资产规模稳步扩张...",
-            source: "市场资讯",
-            date: "2026-09-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-13/doc-inirsqpw7743005.shtml"
-        },
-        {
-            title: "1900亿GPU龙头下周解禁，股价较高点已跌超50%",
-            summary: "国产GPU“四小龙”之一沐曦股份（688802.SH）即将迎来上市后的首次较大比例限售股解禁。公司9月9日公告称，1396.60万股首发机构配售股份将于9月17日上市流通...",
-            source: "21世纪经济报道",
-            date: "2026-09-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-13/doc-inirsqpy4500969.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,8 +765,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-13",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-14",
         marketAssessment: "A股方面：上证指数报3888.11点（-1.18%），深证成指报13471.26点（-1.08%），创业板指报3322.04点（-0.49%）。美股方面：标普500报7,656.98（-1.17%），纳斯达克报26,333.03（-0.94%）。",
         hotSectors: [
 

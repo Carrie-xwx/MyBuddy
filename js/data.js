@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3888.11", change: "-1.18%", market: "A股", updateTime: "2026-09-12 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13471.26", change: "-1.08%", market: "A股", updateTime: "2026-09-12 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3322.04", change: "-0.49%", market: "A股", updateTime: "2026-09-12 实时" },
-        { name: "沪深300", code: "SH000300", value: "4510.16", change: "-0.84%", market: "A股", updateTime: "2026-09-12 实时" },
-        { name: "科创50", code: "SH000688", value: "1553.39", change: "-1.01%", market: "A股", updateTime: "2026-09-12 实时" },
-        { name: "标普500", code: "SPX", value: "7,656.98", change: "-1.17%", market: "美股", updateTime: "2026-09-12 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,333.03", change: "-0.94%", market: "美股", updateTime: "2026-09-12 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,573.29", change: "-2.07%", market: "美股", updateTime: "2026-09-12 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3888.11", change: "-1.18%", market: "A股", updateTime: "2026-09-13 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13471.26", change: "-1.08%", market: "A股", updateTime: "2026-09-13 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3322.04", change: "-0.49%", market: "A股", updateTime: "2026-09-13 实时" },
+        { name: "沪深300", code: "SH000300", value: "4510.16", change: "-0.84%", market: "A股", updateTime: "2026-09-13 实时" },
+        { name: "科创50", code: "SH000688", value: "1553.39", change: "-1.01%", market: "A股", updateTime: "2026-09-13 实时" },
+        { name: "标普500", code: "SPX", value: "7,656.98", change: "-1.17%", market: "美股", updateTime: "2026-09-13 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,333.03", change: "-0.94%", market: "美股", updateTime: "2026-09-13 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,573.29", change: "-2.07%", market: "美股", updateTime: "2026-09-13 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "加州柴油价格创历史新高",
-            summary: "美国加州柴油价格飙升至历史纪录水平，全州平均油价突破每加仑8美元，圣地亚哥一处加油站标价达9.99美元。燃油供应不足、炼油产能下降...",
-            source: "环球市场播报",
-            date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/7x24/2026-09-12/doc-inirqweu5017032.shtml"
-        },
-        {
-            title: "伊朗总统：目前无法做出与美国直接谈判的决定 美国必须停止封锁",
-            summary: "在周六发布的一段视频采访中，伊朗总统佩泽希齐扬表示，伊朗“目前无法做出”与美国进行直接谈判的决定。他说，首先必须营造互信氛围，美国人必须停止封锁和制裁。",
-            source: "滚动播报",
-            date: "2026-09-12",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/7x24/2026-09-12/doc-inirqwes8236372.shtml"
-        },
-        {
-            title: "Anthropic首席执行官发表公开信 呼吁放慢AI模型的发展速度",
-            summary: " Anthropic首席执行官Dario Amodei表示，人工智能行业必须放慢新模型的开发速度，并提到对人工智能给人类造成风险的担忧越来越严重。",
-            source: "环球市场播报",
-            date: "2026-09-12",
+            title: "AI三大死敌罕见联手！“AI股票”周一遭暴击？",
+            summary: "来源：华尔街见闻 AI领域三大死敌，史上头一次站在了同一边——在一系列失控事件与末日预警接连冲击行业后，Anthropic、OpenAI与SpaceX的掌门人罕见联手...",
+            source: "市场资讯",
+            date: "2026-09-13",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirqwer1080254.shtml"
+            url: "https://finance.sina.com.cn/roll/2026-09-13/doc-inirscxz0513726.shtml"
         },
         {
-            title: "重庆渝富控股集团有限公司原党委书记、董事长谢文辉被查",
-            summary: " 中新网9月12日电 据重庆市纪委监委消息：重庆渝富控股集团有限公司原党委书记、董事长谢文辉涉嫌严重违纪违法，目前正接受重庆市纪委监委纪律审查和监察调查。",
-            source: "中国新闻网",
-            date: "2026-09-12",
+            title: "CPO龙头，环比暴增超45%！本周15股获南向资金大幅加仓",
+            summary: "本周15股获得南向资金持股量环比增长超10%，中际旭创居首。 本周（9月7日至11日），港股市场主要股指集体下跌，恒生指数累计跌3.3%，恒生科技指数跌5.45%...",
+            source: "数据宝",
+            date: "2026-09-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqrwt1193609.shtml"
+            url: "https://finance.sina.com.cn/stock/relnews/cn/2026-09-13/doc-inirscyh5668994.shtml"
         },
         {
-            title: "麦当劳中国亮相服贸会 发布5项线下消费成果案例",
-            summary: "9月12日晚间消息，2026年中国国际服务贸易交易会（以下简称“服贸会”）于9月9日至13日在北京举行。9月12日，麦当劳中国在服贸会现场发布5项线下消费成果案例...",
+            title: "四年虚增利润近3亿元！688121，或遭强制退市",
+            summary: "来源：大众证券报 中国证监会9月11日晚间发布通告，对*ST卓然（688121）涉嫌定期报告等财务数据存在虚假记载作出行政处罚事先告知。",
             source: "市场资讯",
-            date: "2026-09-12",
+            date: "2026-09-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqrww5080917.shtml"
+            url: "https://finance.sina.com.cn/stock/relnews/cn/2026-09-13/doc-inirscxz0508031.shtml"
         },
         {
-            title: "招ESG人才有多难？97%受访企业面临人才能力缺口",
-            summary: "21世纪经济报道记者卢陶然 实习生马宁紫 北京报道 绿色金融与ESG投资已从概念迈入实践阶段，人才供给却未能同步跟上。 近日，CFA协会发布《2026中国绿色金融与ESG投资调研...",
-            source: "21世纪经济报道",
-            date: "2026-09-12",
+            title: "年内最便宜新股，来了！",
+            summary: "根据目前的发行安排，下周有3只新股申购，北交所、创业板、深市主板各1只。 日程安排上，周一（9月14日）可申购北交所新股凯达重工...",
+            source: "中国证券报",
+            date: "2026-09-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-09-12/doc-inirqrwt1186792.shtml"
+            url: "https://finance.sina.com.cn/stock/relnews/2026-09-13/doc-inirrxsh4703008.shtml"
         },
         {
-            title: "中深装集团突发讣告：常务副总裁王武烈病逝，终年45岁",
-            summary: " 9月12日，深圳市中深装建设集团有限公司发布讣告，公司党委副书记、常务副总裁、法定代表人王武烈，于2026年9月7日因病逝世，终年45岁。",
+            title: "美股资金出逃创年内新高！美联储加息箭在弦上，市场怎么走？",
+            summary: "美股基金本周净流出超300亿美元。 本周美股走势先抑后扬，国际油价突破100美元叠加美债收益率飙升打压市场偏好，资金大举出逃。此后随着美联储加息前景明朗...",
+            source: "一财网",
+            date: "2026-09-13",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/roll/2026-09-13/doc-inirrxsc0593263.shtml"
+        },
+        {
+            title: "加拿大总理卡尼提议，推动加拿大成为欧盟 “联系成员国”",
+            summary: "据知情人士透露，卡尼已指派驻欧洲特使，研究除欧盟正式成员国身份、或加入共同市场之外，各类最具雄心的合作方案。技术工作组仍在拟定相关细节。",
+            source: "环球市场播报",
+            date: "2026-09-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirrtkk4758571.shtml"
+        },
+        {
+            title: "英国海上贸易行动办公室：一艘船只在霍尔木兹海峡遇袭",
+            summary: "当地时间9月13日，英国海上贸易行动办公室（UKMTO）发布通报称，该机构收到一起发生在霍尔木兹海峡的事件报告。 通报称，一艘船只在通过霍尔木兹海峡期间遭一枚不明飞行物...",
+            source: "央视新闻客户端",
+            date: "2026-09-13",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-13/doc-inirrtkf0711380.shtml"
+        },
+        {
+            title: "美以伊局势：特朗普指认伊朗或主导空袭沙特油管 伊朗南部传出爆炸声，伊曾试图用弹道导弹袭击美军军舰",
+            summary: "来源：央视新闻客户端、@CCTV国际时讯、国是直通车 美以伊最新局势： 特朗普：对伊战争会很快结束，结束之后油价要暴跌 当地时间9月12日，美国总统特朗普在爱尔兰...",
             source: "市场资讯",
-            date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqrww5063728.shtml"
-        },
-        {
-            title: "高德扫街榜发布“飞行街景2.0”：ABot-Earth 0.7世界模型驱动，提前自由探索目的地",
-            summary: "新浪科技讯 9月12日晚间消息，阿里巴巴集团旗下高德近日正式发布高德扫街榜2026。在空间智能驱动下，高德扫街榜2026以榜单为起点，进一步把理解真实世界的能力，带入决策...",
-            source: "市场资讯",
-            date: "2026-09-12",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/gncj/2026-09-12/doc-inirqrwy6339005.shtml"
+            date: "2026-09-13",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-13/doc-inirrtkk4746804.shtml"
         },
     ],
 
@@ -765,8 +765,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
-        date: "2026-09-12",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+        date: "2026-09-13",
         marketAssessment: "A股方面：上证指数报3888.11点（-1.18%），深证成指报13471.26点（-1.08%），创业板指报3322.04点（-0.49%）。美股方面：标普500报7,656.98（-1.17%），纳斯达克报26,333.03（-0.94%）。",
         hotSectors: [
 

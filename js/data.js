@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.11", change: "-1.18%", market: "A股", updateTime: "2026-09-13 实时" },
         { name: "深证成指", code: "SZ399001", value: "13471.26", change: "-1.08%", market: "A股", updateTime: "2026-09-13 实时" },
         { name: "创业板指", code: "SZ399006", value: "3322.04", change: "-0.49%", market: "A股", updateTime: "2026-09-13 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "AI三大死敌罕见联手！“AI股票”周一遭暴击？",
-            summary: "来源：华尔街见闻 AI领域三大死敌，史上头一次站在了同一边——在一系列失控事件与末日预警接连冲击行业后，Anthropic、OpenAI与SpaceX的掌门人罕见联手...",
-            source: "市场资讯",
-            date: "2026-09-13",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/roll/2026-09-13/doc-inirscxz0513726.shtml"
-        },
-        {
-            title: "CPO龙头，环比暴增超45%！本周15股获南向资金大幅加仓",
-            summary: "本周15股获得南向资金持股量环比增长超10%，中际旭创居首。 本周（9月7日至11日），港股市场主要股指集体下跌，恒生指数累计跌3.3%，恒生科技指数跌5.45%...",
-            source: "数据宝",
-            date: "2026-09-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/relnews/cn/2026-09-13/doc-inirscyh5668994.shtml"
-        },
-        {
-            title: "四年虚增利润近3亿元！688121，或遭强制退市",
-            summary: "来源：大众证券报 中国证监会9月11日晚间发布通告，对*ST卓然（688121）涉嫌定期报告等财务数据存在虚假记载作出行政处罚事先告知。",
+            title: "上海银行中报：利润增长缓慢，规模扩张赚的钱都去哪了？",
+            summary: "来源：尺度商业 文 | 刘振涛 A股上市银行2026年中报已披露完毕，头部城商行上海银行中报引来市场关注。作为资产规模突破3万亿元的城商行，上半年该行资产规模稳步扩张...",
             source: "市场资讯",
             date: "2026-09-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/relnews/cn/2026-09-13/doc-inirscxz0508031.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-09-13/doc-inirsqpw7743005.shtml"
         },
         {
-            title: "年内最便宜新股，来了！",
-            summary: "根据目前的发行安排，下周有3只新股申购，北交所、创业板、深市主板各1只。 日程安排上，周一（9月14日）可申购北交所新股凯达重工...",
-            source: "中国证券报",
+            title: "1900亿GPU龙头下周解禁，股价较高点已跌超50%",
+            summary: "国产GPU“四小龙”之一沐曦股份（688802.SH）即将迎来上市后的首次较大比例限售股解禁。公司9月9日公告称，1396.60万股首发机构配售股份将于9月17日上市流通...",
+            source: "21世纪经济报道",
             date: "2026-09-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/relnews/2026-09-13/doc-inirrxsh4703008.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-09-13/doc-inirsqpy4500969.shtml"
         },
         {
-            title: "美股资金出逃创年内新高！美联储加息箭在弦上，市场怎么走？",
-            summary: "美股基金本周净流出超300亿美元。 本周美股走势先抑后扬，国际油价突破100美元叠加美债收益率飙升打压市场偏好，资金大举出逃。此后随着美联储加息前景明朗...",
-            source: "一财网",
-            date: "2026-09-13",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/roll/2026-09-13/doc-inirrxsc0593263.shtml"
-        },
-        {
-            title: "加拿大总理卡尼提议，推动加拿大成为欧盟 “联系成员国”",
-            summary: "据知情人士透露，卡尼已指派驻欧洲特使，研究除欧盟正式成员国身份、或加入共同市场之外，各类最具雄心的合作方案。技术工作组仍在拟定相关细节。",
-            source: "环球市场播报",
+            title: "比亚迪利润奖停发传闻发酵，员工称多项福利此前已收紧",
+            summary: "界面新闻记者 | 王臻界面新闻编辑 | 周姝祺 对不少比亚迪员工而言，9月下旬是一年中最期待的时段之一。按照往年惯例，一笔与上一年度经营业绩和个人考核挂钩的利润奖将在此...",
+            source: "界面",
             date: "2026-09-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirrtkk4758571.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-09-13/doc-inirskfx0444573.shtml"
         },
         {
-            title: "英国海上贸易行动办公室：一艘船只在霍尔木兹海峡遇袭",
-            summary: "当地时间9月13日，英国海上贸易行动办公室（UKMTO）发布通报称，该机构收到一起发生在霍尔木兹海峡的事件报告。 通报称，一艘船只在通过霍尔木兹海峡期间遭一枚不明飞行物...",
-            source: "央视新闻客户端",
+            title: "汉港控股获主席及主要股东汪林冰增持768.4万股",
+            summary: "汉港控股（01663）发布公告，本公司董事会（董事会）获汪林冰（汪先生）通知，彼于2026年9月11日于公开市场购入合共768.4万股本公司的普通股，每股平均作价约为0.062港元...",
+            source: "新浪港股",
             date: "2026-09-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-13/doc-inirrtkf0711380.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-13/doc-inirskfx0422644.shtml"
         },
         {
-            title: "美以伊局势：特朗普指认伊朗或主导空袭沙特油管 伊朗南部传出爆炸声，伊曾试图用弹道导弹袭击美军军舰",
-            summary: "来源：央视新闻客户端、@CCTV国际时讯、国是直通车 美以伊最新局势： 特朗普：对伊战争会很快结束，结束之后油价要暴跌 当地时间9月12日，美国总统特朗普在爱尔兰...",
-            source: "市场资讯",
+            title: "北森控股于9月11日斥资149.95万港元回购50万股",
+            summary: "北森控股（09669）发布公告，于2026年9月11日斥资149.95万港元回购50万股。",
+            source: "新浪港股",
             date: "2026-09-13",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-13/doc-inirrtkk4746804.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-13/doc-inirskfx0422452.shtml"
+        },
+        {
+            title: "凌雄科技于9月11日斥资约226.29万港元回购12万股",
+            summary: "凌雄科技（02436）发布公告，于2026年9月11日该公司斥资约226.29万港元回购12万股，回购价格为每股18.56至19.27港元。",
+            source: "新浪港股",
+            date: "2026-09-13",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-13/doc-inirskhe5585378.shtml"
+        },
+        {
+            title: "国联民生于9月11日斥资2785.85万元回购320万股A股",
+            summary: "国联民生（01456）发布公告，于2026年9月11日斥资人民币2785.85万元回购320万股A股。",
+            source: "新浪港股",
+            date: "2026-09-13",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-13/doc-inirskha4567271.shtml"
+        },
+        {
+            title: "碧桂园服务于9月11日斥资160.3万港元回购30万股",
+            summary: "碧桂园服务（06098）发布公告，于2026年9月11日斥资160.3万港元回购30万股。",
+            source: "新浪港股",
+            date: "2026-09-13",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-13/doc-inirskfy7794334.shtml"
         },
     ],
 
@@ -765,17 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-13",
         marketAssessment: "A股方面：上证指数报3888.11点（-1.18%），深证成指报13471.26点（-1.08%），创业板指报3322.04点（-0.49%）。美股方面：标普500报7,656.98（-1.17%），纳斯达克报26,333.03（-0.94%）。",
         hotSectors: [
-
+            { name: "通信线缆及配套", reason: "板块涨幅+5.84%", strength: "强" },
+            { name: "玻纤制造", reason: "板块涨幅+4.67%", strength: "强" },
+            { name: "地面兵装Ⅲ", reason: "板块涨幅+4.48%", strength: "强" },
+            { name: "地面兵装Ⅱ", reason: "板块涨幅+4.48%", strength: "强" },
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注通信线缆及配套、玻纤制造、地面兵装Ⅲ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

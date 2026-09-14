@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3886.69", change: "-0.04%", market: "A股", updateTime: "2026-09-14 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13393.44", change: "-0.58%", market: "A股", updateTime: "2026-09-14 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3294.54", change: "-0.83%", market: "A股", updateTime: "2026-09-14 实时" },
-        { name: "沪深300", code: "SH000300", value: "4486.70", change: "-0.52%", market: "A股", updateTime: "2026-09-14 实时" },
-        { name: "科创50", code: "SH000688", value: "1530.59", change: "-1.47%", market: "A股", updateTime: "2026-09-14 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3885.33", change: "-0.07%", market: "A股", updateTime: "2026-09-14 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13384.57", change: "-0.64%", market: "A股", updateTime: "2026-09-14 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3285.58", change: "-1.10%", market: "A股", updateTime: "2026-09-14 实时" },
+        { name: "沪深300", code: "SH000300", value: "4480.08", change: "-0.67%", market: "A股", updateTime: "2026-09-14 实时" },
+        { name: "科创50", code: "SH000688", value: "1528.27", change: "-1.62%", market: "A股", updateTime: "2026-09-14 实时" },
         { name: "标普500", code: "SPX", value: "7,656.98", change: "-1.17%", market: "美股", updateTime: "2026-09-14 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,333.03", change: "-0.94%", market: "美股", updateTime: "2026-09-14 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,573.29", change: "-2.07%", market: "美股", updateTime: "2026-09-14 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "诺和诺德计划更名 将去掉 “诺德” 字样",
-            summary: "据报道，丹麦制药巨头诺和诺德（Novo Nordisk）将进行品牌重塑，已正式确认将公司名称更改为“Novo”，即去掉“Nordisk（诺德）”字样...",
+            title: "亚马逊暂停与21航空合作，起因迈阿密坠机事故",
+            summary: "此次坠机事件让这家航空公司及其所有人 —— 物流大亨、休斯顿太空人队老板吉姆・克兰，被推至公众视野内容简述： 一架亚马逊货运飞机在迈阿密国际机场冲出跑道...",
             source: "环球市场播报",
             date: "2026-09-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirupew9492515.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruxus9355366.shtml"
         },
         {
-            title: "高盛：京东集团-SW维持“买入”评级 目标价169港元",
-            summary: "高盛发布研报称，京东集团-SW（09618）管理层预期，京东零售第三季度受以旧换新补贴高基数消退带动，收入增长转正，第四季度比较基数进一步宽松...",
-            source: "新浪港股",
+            title: "Anthropic与特朗普关联企业Rum Group签署137亿美元算力协议",
+            summary: " 据知情人士透露，Anthropic 与 Rum Group 签署一份为期六年、总金额 137 亿美元的算力采购协议。Rum Group 脱胎于社交媒体业务，与特朗普政府有着长期渊源。",
+            source: "环球市场播报",
             date: "2026-09-14",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-14/doc-inirupew9492512.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruxuu7224478.shtml"
         },
         {
-            title: "高盛：名创优品给予“买入”评级 目标价29.30港元",
-            summary: "高盛发布研报称，其覆盖的中国IP零售商及玩具公司2026年上半年及第二季度业绩好坏参半，名创优品（09896）盈利偏软，布鲁可（00325）销售则强于预期。",
-            source: "新浪港股",
+            title: "十年坚守终“转身”：“中国巴菲特”陈发树低位减持雷电微力，为何选择此时离场？",
+            summary: "来源：金融投资报 9月13日晚间，雷电微力（301050）发布公告称，持股8.85%的股东陈发树计划在公告之日起15个交易日后的3个月内减持不超过2.9956%的公司股份。",
+            source: "市场资讯",
             date: "2026-09-14",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-14/doc-iniruhxh4786072.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-14/doc-iniruxus9353006.shtml"
         },
         {
-            title: "高盛：布鲁可给予“中性”评级 目标价72.40港元",
-            summary: "高盛发布研报称，其覆盖的中国IP零售商及玩具公司2026年上半年及第二季度业绩好坏参半，名创优品（09896）盈利偏软，布鲁可（00325）销售则强于预期。",
-            source: "新浪港股",
+            title: "理想汽车告别舒适区",
+            summary: "来源：财熵 资料图。 理想汽车告别舒适区 田文 从“最会赚钱的新势力”到半年亏掉近40亿元，理想汽车只用了不到一年。从近期发布的今年上半年财报数字来看，其毛利率...",
+            source: "市场资讯",
             date: "2026-09-14",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-14/doc-iniruhwy9622245.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-14/doc-iniruxus9353127.shtml"
         },
         {
-            title: "中信里昂：裕元集团目标价15港元 维持“跑赢大市”评级",
-            summary: "中信里昂发布研报称，维持裕元集团（00551）目标价15港元及“跑赢大市”评级。裕元集团公布8月经营业绩，集团、制造业务及零售业务销售额同比分别下降2.1%、1.6%和9%...",
-            source: "新浪港股",
+            title: "Anthropic、OpenAI、谷歌秘密磋商筹建AI安全标准机构",
+            summary: "据知情人士透露，早在 Anthropic 首席执行官达里奥・阿莫代伊上周六呼吁 AI 企业协同开展技术测试与审计之前，Anthropic、OpenAI 与谷歌就已经展开磋商...",
+            source: "环球市场播报",
             date: "2026-09-14",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-14/doc-iniruhxh4784716.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruxuu7218002.shtml"
         },
         {
-            title: "乌克兰称靠近波兰边境的铁路线遭俄罗斯袭击",
-            summary: " 乌克兰外交部长表示，周日上午，一列从基辅开往华沙的客运列车机车在距离波兰边境仅数公里处遭俄罗斯无人机袭击，显示莫斯科的空袭行动正进一步逼近北约领土。",
+            title: "光大期货20260914热点追踪：焦煤下跌趋势开启了吗？",
+            summary: "光大期货20260914热点追踪：焦煤下跌趋势开启了吗？",
+            source: "市场资讯",
+            date: "2026-09-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-09-14/doc-iniruxus9348204.shtml"
+        },
+        {
+            title: "英伟达对少数大客户的依赖日益加深",
+            summary: "英伟达首席执行官黄仁勋有充分理由通过投资各类新型云服务商与 AI 企业，积极开拓新客户。尽管公司取得巨大成功，但英伟达的销售收入正越来越集中于少数几家客户...",
+            source: "环球市场播报",
+            date: "2026-09-14",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruxuw3987979.shtml"
+        },
+        {
+            title: "澳新银行：沙特输油管道关停属暂时性事件 但风险上升",
+            summary: " 澳新银行分析师在研报中表示，沙特东西输油管道预计只是临时关停，但此次针对管道的袭击事件，抬升了中东地区整体供应中断风险。",
             source: "环球市场播报",
             date: "2026-09-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruhxe4139221.shtml"
-        },
-        {
-            title: "交银国际：建议投资者围绕AI主线进行跨区域分散投资",
-            summary: "交银国际发布研报称，近一个月全球科技股总体复苏反弹。尽管市场对大规模AI资本开支带来的现金流压力与潜在信用风险仍存担忧，但第二季度财报季美股AI算力龙头业绩与订单持...",
-            source: "新浪港股",
-            date: "2026-09-14",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-14/doc-iniruhxh4784322.shtml"
-        },
-        {
-            title: "阿曼呼吁开辟可绕开霍尔木兹海峡的液化天然气替代运输通道",
-            summary: " 波斯湾地区持续数月的冲突不断干扰航运，阿曼能源部长在一场天然气生产商与贸易商大型会议上表示，需要开辟替代线路，使液化天然气运输能够绕开霍尔木兹海峡。",
-            source: "环球市场播报",
-            date: "2026-09-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruhxe4135637.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-14/doc-iniruxus9345020.shtml"
         },
     ],
 
@@ -765,21 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-14",
-        marketAssessment: "A股方面：上证指数报3886.69点（-0.04%），深证成指报13393.44点（-0.58%），创业板指报3294.54点（-0.83%）。美股方面：标普500报7,656.98（-1.17%），纳斯达克报26,333.03（-0.94%）。",
+        marketAssessment: "A股方面：上证指数报3885.33点（-0.07%），深证成指报13384.57点（-0.64%），创业板指报3285.58点（-1.10%）。美股方面：标普500报7,656.98（-1.17%），纳斯达克报26,333.03（-0.94%）。",
         hotSectors: [
-            { name: "医疗研发外包", reason: "板块涨幅+5.08%", strength: "强" },
-            { name: "胶黏剂及胶带", reason: "板块涨幅+4.58%", strength: "强" },
-            { name: "横向通用软件", reason: "板块涨幅+3.97%", strength: "强" },
-            { name: "商用载客车", reason: "板块涨幅+3.81%", strength: "强" },
+            { name: "医疗研发外包", reason: "板块涨幅+5.75%", strength: "强" },
+            { name: "胶黏剂及胶带", reason: "板块涨幅+4.44%", strength: "强" },
+            { name: "医疗服务", reason: "板块涨幅+4.09%", strength: "强" },
+            { name: "诊断服务", reason: "板块涨幅+4.03%", strength: "强" },
         ],
         weakSectors: [
-            { name: "粮食种植", reason: "板块跌幅-5.70%", strength: "弱" },
-            { name: "其他种植业", reason: "板块跌幅-5.47%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注医疗研发外包、胶黏剂及胶带、横向通用软件等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注医疗研发外包、胶黏剂及胶带、医疗服务等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

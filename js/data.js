@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3885.33", change: "-0.07%", market: "A股", updateTime: "2026-09-14 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13384.57", change: "-0.64%", market: "A股", updateTime: "2026-09-14 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3285.58", change: "-1.10%", market: "A股", updateTime: "2026-09-14 实时" },
-        { name: "沪深300", code: "SH000300", value: "4480.08", change: "-0.67%", market: "A股", updateTime: "2026-09-14 实时" },
-        { name: "科创50", code: "SH000688", value: "1528.27", change: "-1.62%", market: "A股", updateTime: "2026-09-14 实时" },
-        { name: "标普500", code: "SPX", value: "7,605.71", change: "-1.46%", market: "美股", updateTime: "2026-09-14 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,104.42", change: "-1.52%", market: "美股", updateTime: "2026-09-14 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,367.50", change: "-1.96%", market: "美股", updateTime: "2026-09-14 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3885.33", change: "-0.07%", market: "A股", updateTime: "2026-09-15 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13384.57", change: "-0.64%", market: "A股", updateTime: "2026-09-15 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3285.58", change: "-1.10%", market: "A股", updateTime: "2026-09-15 实时" },
+        { name: "沪深300", code: "SH000300", value: "4480.08", change: "-0.67%", market: "A股", updateTime: "2026-09-15 实时" },
+        { name: "科创50", code: "SH000688", value: "1528.27", change: "-1.62%", market: "A股", updateTime: "2026-09-15 实时" },
+        { name: "标普500", code: "SPX", value: "7,638.40", change: "-1.04%", market: "美股", updateTime: "2026-09-15 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,313.82", change: "-0.73%", market: "美股", updateTime: "2026-09-15 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,455.05", change: "-1.80%", market: "美股", updateTime: "2026-09-15 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "欧洲航天初创企业掀起融资热潮，力图挑战美国主导地位",
-            summary: "核心要点欧洲多家航天初创企业接连完成大额融资。卫星制造商 Open Cosmos 完成 3 亿欧元超额认购融资，本轮优先引入欧洲本土投资方。",
+            title: "花旗、高盛和摩根大通等上调年末美债收益率预测",
+            summary: " 上周五美国公布的消费者价格指数推动市场隐含的美联储加息概率升至约90%后，花旗、高盛和摩根大通利率策略师均转而预计，美联储本周可能加息。",
             source: "环球市场播报",
-            date: "2026-09-14",
+            date: "2026-09-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4367299.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-15/doc-inirvqss4284491.shtml"
         },
         {
-            title: "美银的Subramanian将标普500指数年底目标上调至7400点",
-            summary: " 美国银行的美国股票及量化策略主管Savita Subramanian周一在报告中表示，该行将标普500指数年底目标位从7100点上调至7400点，称长期看涨逻辑依然成立。",
+            title: "美国众议院议长约翰逊：本周末或下周初将与AI企业高管会谈",
+            summary: " 美国众议院议长迈克·约翰逊表示，他将在本周末或下周初与人工智能（AI）企业高管会谈，讨论AI风险，并称围绕AI制定相关立法“需要一些时间”。",
             source: "环球市场播报",
-            date: "2026-09-14",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkkn9199784.shtml"
+            date: "2026-09-15",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/world/2026-09-15/doc-inirvqsq3907586.shtml"
         },
         {
-            title: "老股东还没解套，智谱新一轮50亿美元融资落地！股价还在跌",
-            summary: "来源：上市之家 50亿美元到账了。股价又跌了。 9月13日晚间，智谱（02513.HK）公告完成约50亿美元融资。20亿美元股份配售，30亿美元可转债。钱到账了。但市场不买账。",
-            source: "市场资讯",
-            date: "2026-09-14",
+            title: "AI放缓担忧席卷市场 全球芯片股重挫",
+            summary: "新一轮波动席卷股市，多家人工智能巨头的高管提议放慢AI技术发展步伐后，芯片股重挫，而油价高企也令市场情绪承压。 从美国到欧洲和亚洲，半导体股普遍承压。",
+            source: "环球市场播报",
+            date: "2026-09-15",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/world/2026-09-15/doc-inirvqsn7134591.shtml"
+        },
+        {
+            title: "美银CEO预计第三季交易收入“相对持平” 华尔街大行股价应声重挫",
+            summary: " 美国银行首席执行官Brian Moynihan说第三季交易收入同比将“相对持平”，这一与华尔街上半年的激增形成鲜明对比的预测导致几大银行股价重挫。",
+            source: "环球市场播报",
+            date: "2026-09-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-14/doc-inirvkku4363870.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-15/doc-inirvqsq3900992.shtml"
         },
         {
-            title: "交易员完全计入到2027年底欧洲央行加息四次、英国央行五次的预期",
-            summary: "随着能源价格上涨加剧通胀担忧，货币市场加大了对央行加息的押注。 掉期市场显示，到明年底欧洲央行将累计加息四次、每次25个基点，届时存款利率将升至3.5%。",
+            title: "沙特阿拉伯据悉寻求进一步增加经霍尔木兹海峡的原油出口",
+            summary: " 据一位知情人士透露，在一条替代霍尔木兹海峡的关键输油管道遭袭停运后，沙特阿拉伯正寻求进一步增加经海峡运输的石油供应。",
             source: "环球市场播报",
-            date: "2026-09-14",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-14/doc-inirvkkq7172095.shtml"
-        },
-        {
-            title: "美国10年期国债收益率2023年以来首次升破5%",
-            summary: "美国10年期国债收益率涨破5%，为2023年10月以来首次。油价飙升加剧通胀之忧，美国基准国债收益率一度上涨4个基点至5.006%，2023年10年债收益率只在5%上方维持了一天。",
-            source: "环球市场播报",
-            date: "2026-09-14",
+            date: "2026-09-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4360288.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-15/doc-inirvqsn7127528.shtml"
         },
         {
-            title: "微软为未来AI模型划定约束，整个行业开始收敛前沿AI研发节奏",
-            summary: "核心要点微软发布一份临时性行为准则，对自家未来人工智能模型作出诸多限制。该正式版本更新落地之前，微软将广泛吸纳外部意见。",
+            title: "欧洲股市下跌 AI概念股遭抛售、能源成本攀升",
+            summary: " 欧洲股市周一下跌，油价上涨以及人工智能相关股票遭到抛售拖累市场，此前大型AI公司的领袖呼吁行业放慢最先进模型的开发步伐。",
             source: "环球市场播报",
-            date: "2026-09-14",
+            date: "2026-09-15",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4355830.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-15/doc-inirvqsn7121154.shtml"
         },
         {
-            title: "Cohere CEO：AI模型正成为有史以来“最强大的网络武器”",
-            summary: "AI公司Cohere CEO戈麦斯表示，AI 模型正成为有史以来“最强大的网络武器”，将网络安全的“前沿”推向新领域。 艾丹·戈麦斯发出这一警告之际...",
+            title: "特朗普：美国目前生产的精尖武器比以往任何时候都多",
+            summary: "美国总统特朗普在Truth Social发帖称，美国目前生产的“精良且顶尖”的武器数量超过历史上任何时期。 特朗普表示，美国国防制造业正重点生产爱国者导弹、萨德反导系统...",
             source: "环球市场播报",
-            date: "2026-09-14",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkkq7161712.shtml"
+            date: "2026-09-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-15/doc-inirvqsq3892939.shtml"
         },
         {
-            title: "阿莫代伊呼吁放缓AI发展，对Anthropic即将到来的IPO意味着什么",
-            summary: "核心要点Anthropic 正在与潜在投资者会面，筹备这场有望载入史册的上市，但其首席执行官达里奥・阿莫代伊却在大力呼吁放缓 AI 发展。",
+            title: "微软加入AI企业行列，呼吁审慎对待前沿尖端模型",
+            summary: "微软的人工智能研究团队发布一套全新指导原则，其核心可以概括为一句话：人的优先级高于人工智能。 微软于周一发布一份长达 15000 字的宣言...",
             source: "环球市场播报",
-            date: "2026-09-14",
+            date: "2026-09-15",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4353554.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirvqsk9103150.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-14",
-        marketAssessment: "A股方面：上证指数报3885.33点（-0.07%），深证成指报13384.57点（-0.64%），创业板指报3285.58点（-1.10%）。美股方面：标普500报7,605.71（-1.46%），纳斯达克报26,104.42（-1.52%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-15",
+        marketAssessment: "A股方面：上证指数报3885.33点（-0.07%），深证成指报13384.57点（-0.64%），创业板指报3285.58点（-1.10%）。美股方面：标普500报7,638.40（-1.04%），纳斯达克报26,313.82（-0.73%）。",
         hotSectors: [
             { name: "医疗研发外包", reason: "板块涨幅+5.75%", strength: "强" },
             { name: "胶黏剂及胶带", reason: "板块涨幅+4.44%", strength: "强" },

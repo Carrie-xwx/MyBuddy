@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3885.33", change: "-0.07%", market: "A股", updateTime: "2026-09-14 实时" },
         { name: "深证成指", code: "SZ399001", value: "13384.57", change: "-0.64%", market: "A股", updateTime: "2026-09-14 实时" },
         { name: "创业板指", code: "SZ399006", value: "3285.58", change: "-1.10%", market: "A股", updateTime: "2026-09-14 实时" },
         { name: "沪深300", code: "SH000300", value: "4480.08", change: "-0.67%", market: "A股", updateTime: "2026-09-14 实时" },
         { name: "科创50", code: "SH000688", value: "1528.27", change: "-1.62%", market: "A股", updateTime: "2026-09-14 实时" },
-        { name: "标普500", code: "SPX", value: "7,656.98", change: "-1.17%", market: "美股", updateTime: "2026-09-14 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,333.03", change: "-0.94%", market: "美股", updateTime: "2026-09-14 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,573.29", change: "-2.07%", market: "美股", updateTime: "2026-09-14 收盘" },
+        { name: "标普500", code: "SPX", value: "7,605.71", change: "-1.46%", market: "美股", updateTime: "2026-09-14 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,104.42", change: "-1.52%", market: "美股", updateTime: "2026-09-14 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,367.50", change: "-1.96%", market: "美股", updateTime: "2026-09-14 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "亚马逊暂停与21航空合作，起因迈阿密坠机事故",
-            summary: "此次坠机事件让这家航空公司及其所有人 —— 物流大亨、休斯顿太空人队老板吉姆・克兰，被推至公众视野内容简述： 一架亚马逊货运飞机在迈阿密国际机场冲出跑道...",
+            title: "欧洲航天初创企业掀起融资热潮，力图挑战美国主导地位",
+            summary: "核心要点欧洲多家航天初创企业接连完成大额融资。卫星制造商 Open Cosmos 完成 3 亿欧元超额认购融资，本轮优先引入欧洲本土投资方。",
             source: "环球市场播报",
             date: "2026-09-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruxus9355366.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4367299.shtml"
         },
         {
-            title: "Anthropic与特朗普关联企业Rum Group签署137亿美元算力协议",
-            summary: " 据知情人士透露，Anthropic 与 Rum Group 签署一份为期六年、总金额 137 亿美元的算力采购协议。Rum Group 脱胎于社交媒体业务，与特朗普政府有着长期渊源。",
-            source: "环球市场播报",
-            date: "2026-09-14",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruxuu7224478.shtml"
-        },
-        {
-            title: "十年坚守终“转身”：“中国巴菲特”陈发树低位减持雷电微力，为何选择此时离场？",
-            summary: "来源：金融投资报 9月13日晚间，雷电微力（301050）发布公告称，持股8.85%的股东陈发树计划在公告之日起15个交易日后的3个月内减持不超过2.9956%的公司股份。",
-            source: "市场资讯",
-            date: "2026-09-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-14/doc-iniruxus9353006.shtml"
-        },
-        {
-            title: "理想汽车告别舒适区",
-            summary: "来源：财熵 资料图。 理想汽车告别舒适区 田文 从“最会赚钱的新势力”到半年亏掉近40亿元，理想汽车只用了不到一年。从近期发布的今年上半年财报数字来看，其毛利率...",
-            source: "市场资讯",
-            date: "2026-09-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-14/doc-iniruxus9353127.shtml"
-        },
-        {
-            title: "Anthropic、OpenAI、谷歌秘密磋商筹建AI安全标准机构",
-            summary: "据知情人士透露，早在 Anthropic 首席执行官达里奥・阿莫代伊上周六呼吁 AI 企业协同开展技术测试与审计之前，Anthropic、OpenAI 与谷歌就已经展开磋商...",
-            source: "环球市场播报",
-            date: "2026-09-14",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruxuu7218002.shtml"
-        },
-        {
-            title: "光大期货20260914热点追踪：焦煤下跌趋势开启了吗？",
-            summary: "光大期货20260914热点追踪：焦煤下跌趋势开启了吗？",
-            source: "市场资讯",
-            date: "2026-09-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-09-14/doc-iniruxus9348204.shtml"
-        },
-        {
-            title: "英伟达对少数大客户的依赖日益加深",
-            summary: "英伟达首席执行官黄仁勋有充分理由通过投资各类新型云服务商与 AI 企业，积极开拓新客户。尽管公司取得巨大成功，但英伟达的销售收入正越来越集中于少数几家客户...",
+            title: "美银的Subramanian将标普500指数年底目标上调至7400点",
+            summary: " 美国银行的美国股票及量化策略主管Savita Subramanian周一在报告中表示，该行将标普500指数年底目标位从7100点上调至7400点，称长期看涨逻辑依然成立。",
             source: "环球市场播报",
             date: "2026-09-14",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruxuw3987979.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkkn9199784.shtml"
         },
         {
-            title: "澳新银行：沙特输油管道关停属暂时性事件 但风险上升",
-            summary: " 澳新银行分析师在研报中表示，沙特东西输油管道预计只是临时关停，但此次针对管道的袭击事件，抬升了中东地区整体供应中断风险。",
+            title: "老股东还没解套，智谱新一轮50亿美元融资落地！股价还在跌",
+            summary: "来源：上市之家 50亿美元到账了。股价又跌了。 9月13日晚间，智谱（02513.HK）公告完成约50亿美元融资。20亿美元股份配售，30亿美元可转债。钱到账了。但市场不买账。",
+            source: "市场资讯",
+            date: "2026-09-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-14/doc-inirvkku4363870.shtml"
+        },
+        {
+            title: "交易员完全计入到2027年底欧洲央行加息四次、英国央行五次的预期",
+            summary: "随着能源价格上涨加剧通胀担忧，货币市场加大了对央行加息的押注。 掉期市场显示，到明年底欧洲央行将累计加息四次、每次25个基点，届时存款利率将升至3.5%。",
+            source: "环球市场播报",
+            date: "2026-09-14",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-14/doc-inirvkkq7172095.shtml"
+        },
+        {
+            title: "美国10年期国债收益率2023年以来首次升破5%",
+            summary: "美国10年期国债收益率涨破5%，为2023年10月以来首次。油价飙升加剧通胀之忧，美国基准国债收益率一度上涨4个基点至5.006%，2023年10年债收益率只在5%上方维持了一天。",
             source: "环球市场播报",
             date: "2026-09-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-14/doc-iniruxus9345020.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4360288.shtml"
+        },
+        {
+            title: "微软为未来AI模型划定约束，整个行业开始收敛前沿AI研发节奏",
+            summary: "核心要点微软发布一份临时性行为准则，对自家未来人工智能模型作出诸多限制。该正式版本更新落地之前，微软将广泛吸纳外部意见。",
+            source: "环球市场播报",
+            date: "2026-09-14",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4355830.shtml"
+        },
+        {
+            title: "Cohere CEO：AI模型正成为有史以来“最强大的网络武器”",
+            summary: "AI公司Cohere CEO戈麦斯表示，AI 模型正成为有史以来“最强大的网络武器”，将网络安全的“前沿”推向新领域。 艾丹·戈麦斯发出这一警告之际...",
+            source: "环球市场播报",
+            date: "2026-09-14",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkkq7161712.shtml"
+        },
+        {
+            title: "阿莫代伊呼吁放缓AI发展，对Anthropic即将到来的IPO意味着什么",
+            summary: "核心要点Anthropic 正在与潜在投资者会面，筹备这场有望载入史册的上市，但其首席执行官达里奥・阿莫代伊却在大力呼吁放缓 AI 发展。",
+            source: "环球市场播报",
+            date: "2026-09-14",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4353554.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-14",
-        marketAssessment: "A股方面：上证指数报3885.33点（-0.07%），深证成指报13384.57点（-0.64%），创业板指报3285.58点（-1.10%）。美股方面：标普500报7,656.98（-1.17%），纳斯达克报26,333.03（-0.94%）。",
+        marketAssessment: "A股方面：上证指数报3885.33点（-0.07%），深证成指报13384.57点（-0.64%），创业板指报3285.58点（-1.10%）。美股方面：标普500报7,605.71（-1.46%），纳斯达克报26,104.42（-1.52%）。",
         hotSectors: [
             { name: "医疗研发外包", reason: "板块涨幅+5.75%", strength: "强" },
             { name: "胶黏剂及胶带", reason: "板块涨幅+4.44%", strength: "强" },
@@ -775,7 +775,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "诊断服务", reason: "板块涨幅+4.03%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "教育运营及其他", reason: "板块跌幅-7.90%", strength: "弱" },
+            { name: "其他种植业", reason: "板块跌幅-6.04%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
         shortTermStrategy: "超短线关注医疗研发外包、胶黏剂及胶带、医疗服务等板块的延续性，顺势操作，严格止损。",

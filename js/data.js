@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3881.08", change: "-0.11%", market: "A股", updateTime: "2026-09-15 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13378.82", change: "-0.04%", market: "A股", updateTime: "2026-09-15 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3275.33", change: "-0.31%", market: "A股", updateTime: "2026-09-15 实时" },
-        { name: "沪深300", code: "SH000300", value: "4476.40", change: "-0.08%", market: "A股", updateTime: "2026-09-15 实时" },
-        { name: "科创50", code: "SH000688", value: "1559.17", change: "+2.02%", market: "A股", updateTime: "2026-09-15 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3864.28", change: "-0.54%", market: "A股", updateTime: "2026-09-15 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13287.97", change: "-0.72%", market: "A股", updateTime: "2026-09-15 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3247.92", change: "-1.15%", market: "A股", updateTime: "2026-09-15 实时" },
+        { name: "沪深300", code: "SH000300", value: "4450.04", change: "-0.67%", market: "A股", updateTime: "2026-09-15 实时" },
+        { name: "科创50", code: "SH000688", value: "1551.96", change: "+1.55%", market: "A股", updateTime: "2026-09-15 实时" },
         { name: "标普500", code: "SPX", value: "7,619.98", change: "-1.28%", market: "美股", updateTime: "2026-09-15 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,186.41", change: "-1.21%", market: "美股", updateTime: "2026-09-15 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,421.20", change: "-1.86%", market: "美股", updateTime: "2026-09-15 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "沙特在欧拉发布警报 警示潜在危险",
-            summary: "沙特民防部门于周二上午在欧拉（AlUla）发布警报，提醒存在潜在威胁，随后表示危险已解除。警报涉及欧拉、吉达（Jeddah）、延布（Yanbu，红海主要输油港）...",
+            title: "着眼于为银行家“减负” 一家AI公司寻求融资1亿美元",
+            summary: " 据知情人士透露，向投资银行和其他金融机构销售AI软件的初创公司Model ML，正在磋商按逾10亿美元的估值融资逾1亿美元的事宜。",
+            source: "环球市场播报",
+            date: "2026-09-15",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxats8567477.shtml"
+        },
+        {
+            title: "国泰君安期货：高度警惕油价快速回调风险",
+            summary: "文：国泰君安期货能化首席研究员黄天圆 本轮原油上涨具有坚实的现货基本面支撑，SC涨幅高于外盘具有合理性。当前中国能源化工全产业链库存持续偏低...",
+            source: "市场资讯",
+            date: "2026-09-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-09-15/doc-inirxatw3720690.shtml"
+        },
+        {
+            title: "新湖期货：海运费大幅推高原油到岸成本",
+            summary: "文：新湖能源分析师（原油 沥青）严丽丽 受地缘冲突加剧影响，沙特东西输油管道（运输能力高达700万桶/日，其中200万桶/日输送至延布港炼厂）遭袭击，目前处于关停状态。",
+            source: "市场资讯",
+            date: "2026-09-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-09-15/doc-inirxaty3730562.shtml"
+        },
+        {
+            title: "捷诚能源：终端需求偏弱 并不支撑油价持续单边上行",
+            summary: "文：捷诚能源首席经济学家闫建涛 近期油价上涨主要是受到极强厄尔尼诺现象、中东油气设施受袭和市场情绪影响。 目前市场存在四个明显背离。 一是现货与期货的背离。",
+            source: "市场资讯",
+            date: "2026-09-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/2026-09-15/doc-inirxatu6947730.shtml"
+        },
+        {
+            title: "美联储是否加息成焦点：加息概率90% 通胀居高不下 特朗普施压能否影响沃什？",
+            summary: " 市场普遍预期美联储将于当地时间周三上调短期基准利率，这是三年来首次加息，以此对抗居高不下的顽固通胀。这一举动将令这家央行与特朗普总统希望降息的立场产生分歧。",
+            source: "环球市场播报",
+            date: "2026-09-15",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxatu6945797.shtml"
+        },
+        {
+            title: "蜜雪集团破发：规模神话走到十字路口",
+            summary: "来源：尺度商业 文 | 杨万里 编辑 | 刘振涛 “雪王” 蜜雪集团，正在遭遇资本市场与业绩端的双重压力。 9月9日，蜜雪集团（02097.HK）的股价报收200港元...",
+            source: "市场资讯",
+            date: "2026-09-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-15/doc-inirxats8567826.shtml"
+        },
+        {
+            title: "《时代》2026全球最佳公司榜：英伟达蝉联榜首 联想首次上榜",
+            summary: "人工智能热潮持续重塑全球商业格局，英伟达在《时代》与Statista联合编制的2026年度全球最佳企业榜单中再度登顶。这份年度榜单从员工满意度、营收增长...",
+            source: "环球市场播报",
+            date: "2026-09-15",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxatw3711424.shtml"
+        },
+        {
+            title: "安盛集团公布全新业绩目标，谋求进一步增长",
+            summary: "内容摘要 法国保险巨头安盛集团公布 2027‑2029 年度全新增长规划。经过多年业务重组之后，集团希望借此抢夺更多市场份额。 安盛集团于周二表示...",
             source: "环球市场播报",
             date: "2026-09-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwsee3865537.shtml"
-        },
-        {
-            title: "欧洲央行副行长警告AI热推高股市估值 回档风险升温",
-            summary: "欧洲央行副行长Boris Vujcic说，主要由AI热推动的市场估值飙升，股市更容易面临回档风险。 这位克罗埃西亚官员在周二发布的欧洲央行播客节目Euro Matters中表示...",
-            source: "环球市场播报",
-            date: "2026-09-15",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwsea3740047.shtml"
-        },
-        {
-            title: "受央行债券出售计划和全球抛售潮影响 印度债券价格下跌",
-            summary: " 印度央行表示将出售国债以收回银行体系流动性，在政府举债规模创纪录、市场本就承压的一年，债券供给进一步增加，印度债券价格随之下跌。",
-            source: "环球市场播报",
-            date: "2026-09-15",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwscw8690990.shtml"
-        },
-        {
-            title: "中元节影响买家入市 新加坡住宅销量下滑",
-            summary: "受被视作置业不吉时段的影响，开发商推迟楼盘推出，新加坡8月新房销量出现下滑。 新加坡市区重建局周二公布的数据显示，开发商上月售出153套私人新房...",
-            source: "环球市场播报",
-            date: "2026-09-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwsea3720908.shtml"
-        },
-        {
-            title: "印尼盾创7月以来最长连跌行情",
-            summary: " 受油价上涨与美元整体走强拖累，印尼盾连续第四天下跌。周一晚间，普拉博沃・苏比安托总统任命苏哈西尔・纳扎拉接替普尔巴亚・尤迪・萨德瓦担任财政部长。",
-            source: "环球市场播报",
-            date: "2026-09-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwscy6946234.shtml"
-        },
-        {
-            title: "欧洲央行员工委员会寻求央行澄清拉加德是否会提前离任",
-            summary: "据英国金融时报援引一封致欧洲央行执行委员会的信报道，欧洲央行员工委员会已要求领导层澄清行长克里斯蒂娜·拉加德是否将在任期结束前卸任。",
-            source: "环球市场播报",
-            date: "2026-09-15",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwsea3717548.shtml"
-        },
-        {
-            title: "富瑞：康方生物维持“买入”评级 目标价226港元",
-            summary: "富瑞发布研报称，康方生物（09926）依沃西单抗（Ivonescimab）H-2研究取得正面结果，数据显示，其中期总生存期（OS）具有统计学显著性...",
-            source: "新浪港股",
-            date: "2026-09-15",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-15/doc-inirwsea3713731.shtml"
-        },
-        {
-            title: "高盛：中际旭创维持“买入”评级 目标价3267港元",
-            summary: "高盛发布研报称，对ASMPT（00522）维持“中性”评级，目标价177港元；对中际旭创（03308）评级为“买入”，目标价3267港元。早前高盛在香港、台湾及苏州走访多家光学企业...",
-            source: "新浪港股",
-            date: "2026-09-15",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-15/doc-inirwscy6941130.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxatu6938110.shtml"
         },
     ],
 
@@ -765,20 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-15",
-        marketAssessment: "A股方面：上证指数报3881.08点（-0.11%），深证成指报13378.82点（-0.04%），创业板指报3275.33点（-0.31%）。美股方面：标普500报7,619.98（-1.28%），纳斯达克报26,186.41（-1.21%）。",
+        marketAssessment: "A股方面：上证指数报3864.28点（-0.54%），深证成指报13287.97点（-0.72%），创业板指报3247.92点（-1.15%）。美股方面：标普500报7,619.98（-1.28%），纳斯达克报26,186.41（-1.21%）。",
         hotSectors: [
-            { name: "风电零部件", reason: "板块涨幅+5.23%", strength: "强" },
-            { name: "钨", reason: "板块涨幅+5.01%", strength: "强" },
-            { name: "风电设备", reason: "板块涨幅+4.88%", strength: "强" },
-            { name: "锂电专用设备", reason: "板块涨幅+3.82%", strength: "强" },
+            { name: "钨", reason: "板块涨幅+5.88%", strength: "强" },
+            { name: "风电零部件", reason: "板块涨幅+4.78%", strength: "强" },
+            { name: "风电设备", reason: "板块涨幅+4.20%", strength: "强" },
+            { name: "教育运营及其他", reason: "板块涨幅+2.88%", strength: "中强" },
         ],
         weakSectors: [
-
+            { name: "种子", reason: "板块跌幅-6.93%", strength: "弱" },
+            { name: "其他种植业", reason: "板块跌幅-6.64%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注风电零部件、钨、风电设备等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注钨、风电零部件、风电设备等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

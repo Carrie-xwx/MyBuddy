@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3864.28", change: "-0.54%", market: "A股", updateTime: "2026-09-15 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13287.97", change: "-0.72%", market: "A股", updateTime: "2026-09-15 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3247.92", change: "-1.15%", market: "A股", updateTime: "2026-09-15 实时" },
-        { name: "沪深300", code: "SH000300", value: "4450.04", change: "-0.67%", market: "A股", updateTime: "2026-09-15 实时" },
-        { name: "科创50", code: "SH000688", value: "1551.96", change: "+1.55%", market: "A股", updateTime: "2026-09-15 实时" },
-        { name: "标普500", code: "SPX", value: "7,609.49", change: "-0.83%", market: "美股", updateTime: "2026-09-15 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,152.80", change: "-1.02%", market: "美股", updateTime: "2026-09-15 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,119.00", change: "-1.26%", market: "美股", updateTime: "2026-09-15 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3864.28", change: "-0.54%", market: "A股", updateTime: "2026-09-16 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13287.97", change: "-0.72%", market: "A股", updateTime: "2026-09-16 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3247.92", change: "-1.15%", market: "A股", updateTime: "2026-09-16 实时" },
+        { name: "沪深300", code: "SH000300", value: "4450.04", change: "-0.67%", market: "A股", updateTime: "2026-09-16 实时" },
+        { name: "科创50", code: "SH000688", value: "1551.96", change: "+1.55%", market: "A股", updateTime: "2026-09-16 实时" },
+        { name: "标普500", code: "SPX", value: "7,584.11", change: "-1.17%", market: "美股", updateTime: "2026-09-16 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "25,988.64", change: "-1.64%", market: "美股", updateTime: "2026-09-16 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,995.01", change: "-1.50%", market: "美股", updateTime: "2026-09-16 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "白宫哈西特称：解决AI威胁，私营部门才是 “合适主体”",
-            summary: "核心要点 白宫国家经济委员会主任凯文・哈西特在接受采访时表示，私营部门完全有能力应对人工智能飞速发展带来的各类风险。 特朗普总统公开抨击 AI...",
+            title: "比特币大跌3%至76000美元，市场对《CLARITY 法案》今年获得通过的预期降温",
+            summary: "行情事件：比特币周二下跌 3%。 下跌背后原因：这一全球最大加密货币价格走弱，叠加参议院定于周二下午就《CLARITY 法案》举行关键程序性投票。",
             source: "环球市场播报",
-            date: "2026-09-15",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxpiq6878158.shtml"
+            date: "2026-09-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrq3607099.shtml"
         },
         {
-            title: "凯雷CEO料美联储不会开启新一轮激进加息周期",
-            summary: "凯雷集团首席执行官Harvey Schwartz表示，尽管市场似乎已计入加息预期，但他认为美联储不太可能反复加息。 Schwartz周二在华盛顿接受采访时表示...",
+            title: "科技巨头对于放缓AI发展的立场汇总",
+            summary: "周一，部分头部 AI 企业高管呼吁管控前沿大模型的研发速度，这在科技行业掀起巨大争议。 事件起因是 Anthropic 首席执行官达里奥・阿莫迪于周六发布文章。",
             source: "环球市场播报",
-            date: "2026-09-15",
+            date: "2026-09-16",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrk8328648.shtml"
+        },
+        {
+            title: "亿万投资人鲁宾斯坦：美国债务规模不断膨胀，犹如一颗定时炸弹",
+            summary: " 凯雷集团联合创始人、亿万投资人戴维・鲁宾斯坦警示：美国不断膨胀的债务就如同国内的一颗定时炸弹，债务问题还会削弱国家安全实力。",
+            source: "环球市场播报",
+            date: "2026-09-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrn6831578.shtml"
+        },
+        {
+            title: "“要么行动 要么闭嘴” DoubleLine称美联储需加息以稳定债市",
+            summary: " DoubleLine Capital的Jeffrey Sherman表示，美联储需要加息，以让交易员相信其致力于压低通胀，并缓解本周推动10年期美国国债收益率突破5%的市场担忧。",
+            source: "环球市场播报",
+            date: "2026-09-16",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxpiq6875962.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrk8325724.shtml"
         },
         {
-            title: "开盘：三大股指齐跌，10年期美债收益率创19年新高，AI 芯片股反弹",
-            summary: " 三大股指齐跌，昨日大跌的芯片板块有所反弹。交易员静待本周美联储利率决议 —— 该决议或将对经济产生连锁影响；与此同时，美债收益率攀升至多年高位。",
+            title: "欧洲债市：德国国债下跌 英国30年期国债收益率逼近6%",
+            summary: "德国国债连续第五天下跌，此前沙特东西输油管道受损导致供应受限，推动油价大涨。 德国国债及其他欧元区国债收益率曲线趋陡，投资者消化欧盟债券发行...",
             source: "环球市场播报",
-            date: "2026-09-15",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxpiu3573151.shtml"
-        },
-        {
-            title: "美官员：伊朗企图抢夺美军在霍尔木兹海峡巡逻的一艘海军无人机",
-            summary: " 美国官员透露，周一，伊朗伊斯兰革命卫队试图抢夺美军在霍尔木兹海峡巡逻的一艘海军无人机，随后美军击毁了两艘伊朗小型船只。",
-            source: "环球市场播报",
-            date: "2026-09-15",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxpiq6870798.shtml"
-        },
-        {
-            title: "对话紫江企业副总经理兼董秘高军 当包装产业进入价值重估期 一家老牌制造企业如何平衡增长回报与长期主义",
-            summary: "文/新浪财经上海站 陈秀颖 一只PET瓶从生产线上下来时，几乎没有名字。它最终会被贴上饮料品牌的标签，装进茶饮、电解质饮料或中式养生饮品，消费者记住的是口味和品牌...",
-            source: "长三角资本局",
-            date: "2026-09-15",
+            date: "2026-09-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/chanjing/gsnews/2026-09-15/doc-inirxpiu3571017.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrs3487298.shtml"
         },
         {
-            title: "AI的青春时代已经落幕，这对投资者意味着什么",
-            summary: "核心要点 市场叙事已经转向，开始聚焦 AI 技术的风险、公众对 AI 的抵触情绪，市场对未来数个季度之后的订单储备预期也遭到质疑。",
+            title: "贝森特支持向美国人发放5000美元支票的提议 称可以不影响财政赤字",
+            summary: " 美国财政部长贝森特表示，他支持总统特朗普提出的如果共和党中期选举后在国会继续保持多数席位，就向美国成年人发放5000美元支票的计划。",
             source: "环球市场播报",
-            date: "2026-09-15",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxpiq6869947.shtml"
-        },
-        {
-            title: "数据中心地产商Digital Realty CEO：AI发展即便放缓，也绝非行业末日",
-            summary: "核心要点 全球两大头部数据中心不动产投资信托基金 Digital Realty 与 Equinix，在市场担忧 AI 发展节奏放缓后股价遭遇重挫。 但 Digital Realty...",
-            source: "环球市场播报",
-            date: "2026-09-15",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxpin8405251.shtml"
-        },
-        {
-            title: "谁在重新买入海天味业？",
-            summary: "对于估值与资本市场定价，海天味业表示核心竞争力较五年前、十年前其实变得更强，从长远看，调味品仍有持续增长空间 文|《财经》记者 黄慧玲 编辑|郭楠...",
-            source: "《财经》杂志",
-            date: "2026-09-15",
+            date: "2026-09-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-15/doc-inirxpiu3568301.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrq3597936.shtml"
+        },
+        {
+            title: "加拿大皇家银行资本市场上调医疗设备与数字健康企业ResMed评级",
+            summary: "医疗设备与数字健康企业ResMed（RMD）周二股价上涨近 5%，此前加拿大皇家银行资本市场将该股评级由 “行业表现” 上调至 “跑赢大盘”。",
+            source: "环球市场播报",
+            date: "2026-09-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrn6814847.shtml"
+        },
+        {
+            title: "输油管道遇袭后 沙特阿美据悉推迟向部分欧洲客户供应石油",
+            summary: " 据知情人士透露，沙特阿美本月正推迟向部分欧洲客户供应石油。就在几天前，沙特一条关键的石油出口管道在遭到无人机袭击后关闭。",
+            source: "环球市场播报",
+            date: "2026-09-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrk8314791.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-15",
-        marketAssessment: "A股方面：上证指数报3864.28点（-0.54%），深证成指报13287.97点（-0.72%），创业板指报3247.92点（-1.15%）。美股方面：标普500报7,609.49（-0.83%），纳斯达克报26,152.80（-1.02%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-16",
+        marketAssessment: "A股方面：上证指数报3864.28点（-0.54%），深证成指报13287.97点（-0.72%），创业板指报3247.92点（-1.15%）。美股方面：标普500报7,584.11（-1.17%），纳斯达克报25,988.64（-1.64%）。",
         hotSectors: [
             { name: "钨", reason: "板块涨幅+5.88%", strength: "强" },
             { name: "风电零部件", reason: "板块涨幅+4.78%", strength: "强" },

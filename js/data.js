@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3891.60", change: "+0.71%", market: "A股", updateTime: "2026-09-16 实时" },
         { name: "深证成指", code: "SZ399001", value: "13454.74", change: "+1.26%", market: "A股", updateTime: "2026-09-16 实时" },
         { name: "创业板指", code: "SZ399006", value: "3311.47", change: "+1.96%", market: "A股", updateTime: "2026-09-16 实时" },
         { name: "沪深300", code: "SH000300", value: "4480.27", change: "+0.68%", market: "A股", updateTime: "2026-09-16 实时" },
         { name: "科创50", code: "SH000688", value: "1616.19", change: "+4.14%", market: "A股", updateTime: "2026-09-16 实时" },
-        { name: "标普500", code: "SPX", value: "7,585.73", change: "-1.14%", market: "美股", updateTime: "2026-09-16 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "25,981.57", change: "-1.66%", market: "美股", updateTime: "2026-09-16 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,093.11", change: "-1.31%", market: "美股", updateTime: "2026-09-16 收盘" },
+        { name: "标普500", code: "SPX", value: "7,604.50", change: "-0.42%", market: "美股", updateTime: "2026-09-16 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,104.50", change: "-0.57%", market: "美股", updateTime: "2026-09-16 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,050.47", change: "-0.63%", market: "美股", updateTime: "2026-09-16 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "韩国推迟向国会汇报对美投资事宜",
-            summary: "政界消息人士报道，韩国原定9月17日向国会汇报其3500亿美元对美投资计划下首个项目的相关会议已推迟。 韩国产业部已向两个国会委员会申请...",
+            title: "开盘：美联储即将公布利率决议 三大股指齐涨",
+            summary: " 美联储即将公布至关重要的利率决议，美股主要股指止住了本周以来的跌势。市场正在评估高利率环境下经济的走势，以及放缓人工智能开发的新呼声是否会阻碍基础设施支出。",
             source: "环球市场播报",
             date: "2026-09-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-16/doc-inirzmys6592139.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirzshz0542360.shtml"
         },
         {
-            title: "美天然气公司：美国液化天然气买家寻求亨利港定价替代方案",
-            summary: " 天然气勘探和生产公司卡图鲁斯Caturus首席法务与合规官戴维・朗表示，美国液化天然气（LNG）买家正在寻找传统亨利港挂钩定价机制的替代方案。",
+            title: "苹果开发采用自研芯片的企业级服务器",
+            summary: "据知情人士，苹果一直在制定开发一款采用自研芯片的企业级服务器计划，该服务器可能会采用英伟达的网络设备。 苹果一直在推进这款服务器的开发，计划将其出售给AI开发者...",
             source: "环球市场播报",
             date: "2026-09-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-16/doc-inirzfsw3493713.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirzshv4729220.shtml"
         },
         {
-            title: "印度证券交易委员会拟放宽套利基金规则，助力收盘集合竞价",
-            summary: " 知情人士称，印度市场监管机构放宽了套利共同基金的头寸管理限制，希望为交易冷清的股票收盘集合竞价引入重要流动性来源。",
-            source: "环球市场播报",
-            date: "2026-09-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-16/doc-inirzfsz4889581.shtml"
-        },
-        {
-            title: "美银调查：软件与平台股成为亚洲AI首选标的",
-            summary: " 美国银行的一项调查显示，亚洲软件及平台类股票迅速获得投资者青睐，就在一个月前该板块排名还接近垫底，如今一跃成为亚洲最具吸引力的AI投资方向。",
-            source: "环球市场播报",
+            title: "外资加速抛售三星、海力士，韩股AI板块面临重估",
+            summary: "南方财经 21世纪经济报道记者胡慧茵 报道 外资正加速撤出韩国半导体股，而且这一轮抛售似乎更加迅猛。 韩国交易所数据显示，9月4日至11日...",
+            source: "21世纪经济报道",
             date: "2026-09-16",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirzfsz4889362.shtml"
+            url: "https://finance.sina.com.cn/chanjing/gsnews/2026-09-16/doc-inirzshz0536360.shtml"
         },
         {
-            title: "亚马逊在美布局当日达配送业务 投资数十亿美元将网点扩充超十倍",
-            summary: " 亚马逊正筹划一项前所未有的当日达配送业务扩张计划，或将重塑美国零售格局，正面挑战沃尔玛在日常消费品领域最大的竞争优势。",
+            title: "江苏省委书记信长星到江苏银行和华泰证券调研",
+            summary: "人民财讯9月16日电，据新华日报·交汇点新闻，9月16日，江苏省委书记信长星到江苏银行、华泰证券调研。他强调，要坚持把服务实体经济作为根本宗旨...",
+            source: "证券时报网",
+            date: "2026-09-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirzsia9889301.shtml"
+        },
+        {
+            title: "全球表现最佳主权财富基金警示：美国股市或将迎来回调",
+            summary: "核心要点新西兰主权财富基金的管理机构首席执行官警示，美国股市行情即将走弱。最新数据显示，这支规模 540 亿美元的养老基金截至 6 月的年度回报率达 14.2%。",
             source: "环球市场播报",
             date: "2026-09-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirzfsy2942743.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirzsia9888022.shtml"
         },
         {
-            title: "特朗普贸易战不断升级，加拿大获邀成为欧盟首位“准联系成员国”",
-            summary: "核心要点欧盟委员会主席乌尔苏拉・冯德莱恩表示，欧盟拟向加拿大敞开大门，使其成为欧盟首个准联系成员国，标志双方关系将大幅深化。",
+            title: "苹果考虑重返服务器市场，已与英伟达洽谈采用其网络技术",
+            summary: " 知情人士称，苹果一直在推进自研芯片企业服务器的相关规划，这款服务器或将搭载英伟达的网络设备。这家 Mac 制造商希望借此抓住市场对其 AI 电脑需求激增的机遇。",
+            source: "环球市场播报",
+            date: "2026-09-16",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirzsia9887986.shtml"
+        },
+        {
+            title: "海南省委书记冯飞会见高通公司全球副总裁夏权一行",
+            summary: " 人民财讯9月16日电，据海南日报客户端，9月15日，海南省委书记冯飞在海口会见前来参加博鳌亚洲论坛亚太区域合作圆桌的高通公司全球副总裁夏权一行。",
+            source: "证券时报网",
+            date: "2026-09-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirzsia9887258.shtml"
+        },
+        {
+            title: "计划新增3000家门店，热带冰沙咖啡馆开启品牌升级",
+            summary: "核心要点在私募股权巨头黑石集团控股后，热带冰沙咖啡馆（Tropical Smoothie Cafe）公布全新品牌形象，业务高速扩张。公司首席执行官马克斯・韦策尔接受...",
             source: "环球市场播报",
             date: "2026-09-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirzfsu6717759.shtml"
-        },
-        {
-            title: "光大期货20260916热点追踪：豆粕止跌企稳！这波反弹能走多远？",
-            summary: "光大期货20260916热点追踪：豆粕止跌企稳！这波反弹能走多远？",
-            source: "市场资讯",
-            date: "2026-09-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-09-16/doc-inirzfsz4885907.shtml"
-        },
-        {
-            title: "所币安进军传统金融，拉拢高净值投资者入驻扩容后的财富管理平台",
-            summary: "核心要点币安将此前仅对机构投资者开放的 Capital Connect 平台，向符合条件的个人投资者开放。自 5 月以来，Capital Connect 的投资组合数量与专业交易团队规模大致实现翻...",
-            source: "环球市场播报",
-            date: "2026-09-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirzfsw3485898.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirzshv4723253.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-16",
-        marketAssessment: "A股方面：上证指数报3891.60点（+0.71%），深证成指报13454.74点（+1.26%），创业板指报3311.47点（+1.96%）。美股方面：标普500报7,585.73（-1.14%），纳斯达克报25,981.57（-1.66%）。",
+        marketAssessment: "A股方面：上证指数报3891.60点（+0.71%），深证成指报13454.74点（+1.26%），创业板指报3311.47点（+1.96%）。美股方面：标普500报7,604.50（-0.42%），纳斯达克报26,104.50（-0.57%）。",
         hotSectors: [
             { name: "运动服装", reason: "板块涨幅+7.34%", strength: "强" },
             { name: "炭黑", reason: "板块涨幅+6.75%", strength: "强" },

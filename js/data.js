@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3875.60", change: "-0.41%", market: "A股", updateTime: "2026-09-17 实时" },
         { name: "深证成指", code: "SZ399001", value: "13409.91", change: "-0.33%", market: "A股", updateTime: "2026-09-17 实时" },
         { name: "创业板指", code: "SZ399006", value: "3298.31", change: "-0.40%", market: "A股", updateTime: "2026-09-17 实时" },
         { name: "沪深300", code: "SH000300", value: "4460.16", change: "-0.45%", market: "A股", updateTime: "2026-09-17 实时" },
         { name: "科创50", code: "SH000688", value: "1606.29", change: "-0.61%", market: "A股", updateTime: "2026-09-17 实时" },
-        { name: "标普500", code: "SPX", value: "7,551.81", change: "-1.11%", market: "美股", updateTime: "2026-09-17 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "25,978.42", change: "-1.05%", market: "美股", updateTime: "2026-09-17 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,461.90", change: "-1.75%", market: "美股", updateTime: "2026-09-17 收盘" },
+        { name: "标普500", code: "SPX", value: "7,624.52", change: "+0.43%", market: "美股", updateTime: "2026-09-17 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,308.12", change: "+0.87%", market: "美股", updateTime: "2026-09-17 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,768.50", change: "-0.57%", market: "美股", updateTime: "2026-09-17 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "美联储开启加息周期，美债收益率走低",
-            summary: "美联储时隔三年首次加息之后，周四美债收益率小幅回落。 截至美国东部时间凌晨 2 点 12 分，10 年期美债基准收益率下行近 2 个基点，报 4...",
+            title: "查尔斯国王将在峰会上向英伟达、OpenAI、Anthropic高管施压，探讨人工智能安全",
+            summary: "核心要点查尔斯国王将于周四主持人工智能峰会，召集英伟达、OpenAI、Anthropic 等企业的高层技术负责人参会。本次会议将探讨能否制定一套通用准则...",
             source: "环球市场播报",
             date: "2026-09-17",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscqxz3610364.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpx0369452.shtml"
         },
         {
-            title: "亚马逊上调美国核心运营全职员工最低时薪至20美元",
-            summary: "亚马逊将美国全职核心运营岗位员工的最低起薪上调至每小时20美元，该举措出台正值其大规模假日季招聘前夕。 本次时薪上调1美元，适用于这家电商企业的一线员工...",
+            title: "开盘：油价与收益率回落 三大股指齐涨",
+            summary: " 受科技股带动，美国三大股指周四走高。美联储三年来首次加息，导致前一交易日股市下挫，交易员正试图收复部分失地。科技板块带动大盘上行。",
             source: "环球市场播报",
             date: "2026-09-17",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscqye9192949.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpy9061330.shtml"
         },
         {
-            title: "赎回危机冲击股市 土耳其监管方将清算多家资管公司旗下部分基金",
-            summary: " 土耳其市场监管机构表示，将清算包括Tera Portfoy和Pusula Portfoy在内的资产管理公司旗下部分基金。与此同时，当局正采取行动，遏制这场冲击该国投资行业的动荡。",
+            title: "英国央行调整缩表方案 取消长期国债出售计划",
+            summary: "英国央行取消出售长期国债的计划，这是其量化紧缩计划重大调整的一部分。 按照新方案，规模4880亿英镑的资产组合将于2034年9月前完成缩减。",
+            source: "环球市场播报",
+            date: "2026-09-17",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpy9057410.shtml"
+        },
+        {
+            title: "中东供应扰动有望缓解 国际油价延续下跌",
+            summary: "有迹象显示中东供应中断情况或将缓解，沙特正寻求恢复一条重要管道的部分运力，油价因此继续走低。布伦特原油周三下跌2.7%，现交投于每桶102美元附近...",
             source: "环球市场播报",
             date: "2026-09-17",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscqyc0375774.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpx0357327.shtml"
         },
         {
-            title: "种树公司要“造芯”，吞下一家亏损的IPO折戟企业",
-            summary: "来源：尺度商业 文 | 张佳儒 编辑 | 刘振涛 你敢信吗？一家连亏4年的园林公司，要买一家连亏的存储芯片公司谋转型。 9月14日，老牌园林企业园林股份停牌...",
-            source: "市场资讯",
-            date: "2026-09-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-17/doc-iniscqxz3606161.shtml"
-        },
-        {
-            title: "埃克森美孚即将达成初步协议，拟投资委内瑞拉油田",
-            summary: " 埃克森美孚即将签署一份初步协议，拟考虑投资委内瑞拉多个油田。距离该公司撤出委内瑞拉市场近20年后，它正谈判重返该国。",
+            title: "黑石拟为旗下大型地产基金安排二级市场出售，帮助部分投资者赎回退出",
+            summary: "消息人士称，受高利率拖累回报表现、引发投资者赎回需求，黑石集团正尝试为其一只主要房地产基金安排二级市场出售。 黑石已就该二级市场交易接触潜在买家...",
             source: "环球市场播报",
             date: "2026-09-17",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscqye9190448.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpy9055592.shtml"
         },
         {
-            title: "【宏观】美联储加息落地，但不是结束",
-            summary: "紫金天风期货研究所 【20260917】【宏观】美联储加息落地，但不是结束 事件：美联储9月FOMC会议宣布加息25个基点，将联邦基金利率目标区间上调至3.75%-4.00%...",
-            source: "市场资讯",
-            date: "2026-09-17",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-09-17/doc-iniscqxx4028066.shtml"
-        },
-        {
-            title: "纳斯达克100指数期货升至盘中高点 因美联储政策展望安抚了投资者",
-            summary: " 以科技股为主的纳斯达克100指数的期货合约涨幅扩大至1.1%；之前，美联储政策展望让投资者松了一口气并相信其将持续努力抑制通胀，债券收益率随之回落。",
-            source: "环球市场播报",
-            date: "2026-09-17",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscqye9189284.shtml"
-        },
-        {
-            title: "卖雷电买伊利！“福建首富”陈发树大调仓",
-            summary: "来源 | 野马财经 “超级牛散”嗅觉灵敏。 作者 | 贾紫聪 “中国巴菲特”第一次在雷电微力（301050.SZ）上松了手。 9月13日晚间，雷电微力公告，持股8...",
-            source: "市场资讯",
+            title: "海外流动性收紧，A股哪些产业能抗跌",
+            summary: "北京时间9月17日凌晨，美联储结束为期两天的货币政策会议，宣布将联邦基金利率目标区间上调25个基点，到3.75%至4%。这是2023年7月底以来美联储首次加息。",
+            source: "上海证券报",
             date: "2026-09-17",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-17/doc-iniscqxx4027147.shtml"
+            url: "https://finance.sina.com.cn/china/2026-09-17/doc-inisczpv3587705.shtml"
+        },
+        {
+            title: "网飞内容总监贝拉・巴贾里亚解读大型活动战略：流媒体平台加码直播体育赛事",
+            summary: "核心要点网飞（Netflix）首席内容官贝拉・巴贾里亚表示，平台制定直播大型活动与体育赛事战略时，重点寻找具备 “不容错过” 特质的内容。",
+            source: "环球市场播报",
+            date: "2026-09-17",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpx0332246.shtml"
+        },
+        {
+            title: "内塔尼亚胡称将推翻伊朗政权",
+            summary: "以色列总理内塔尼亚胡在表彰以色列国家安全总局杰出人员的仪式上表示，伊朗政权将会垮台。 “我们将推翻伊朗政权、消灭哈马斯，也将对付真主党。",
+            source: "环球市场播报",
+            date: "2026-09-17",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpy9039288.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-17",
-        marketAssessment: "A股方面：上证指数报3875.60点（-0.41%），深证成指报13409.91点（-0.33%），创业板指报3298.31点（-0.40%）。美股方面：标普500报7,551.81（-1.11%），纳斯达克报25,978.42（-1.05%）。",
+        marketAssessment: "A股方面：上证指数报3875.60点（-0.41%），深证成指报13409.91点（-0.33%），创业板指报3298.31点（-0.40%）。美股方面：标普500报7,624.52（+0.43%），纳斯达克报26,308.12（+0.87%）。",
         hotSectors: [
-
+            { name: "种子", reason: "板块涨幅+7.86%", strength: "强" },
+            { name: "视频媒体", reason: "板块涨幅+6.58%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+5.28%", strength: "强" },
+            { name: "其他养殖", reason: "板块涨幅+5.13%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "白银", reason: "板块跌幅-6.00%", strength: "弱" },
+            { name: "贵金属", reason: "板块跌幅-5.35%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注种子、视频媒体、房产租赁经纪等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

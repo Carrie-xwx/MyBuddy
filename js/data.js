@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3875.60", change: "-0.41%", market: "A股", updateTime: "2026-09-17 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13409.91", change: "-0.33%", market: "A股", updateTime: "2026-09-17 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3298.31", change: "-0.40%", market: "A股", updateTime: "2026-09-17 实时" },
-        { name: "沪深300", code: "SH000300", value: "4460.16", change: "-0.45%", market: "A股", updateTime: "2026-09-17 实时" },
-        { name: "科创50", code: "SH000688", value: "1606.29", change: "-0.61%", market: "A股", updateTime: "2026-09-17 实时" },
-        { name: "标普500", code: "SPX", value: "7,624.52", change: "+0.43%", market: "美股", updateTime: "2026-09-17 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,308.12", change: "+0.87%", market: "美股", updateTime: "2026-09-17 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,768.50", change: "-0.57%", market: "美股", updateTime: "2026-09-17 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3875.60", change: "-0.41%", market: "A股", updateTime: "2026-09-18 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13409.91", change: "-0.33%", market: "A股", updateTime: "2026-09-18 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3298.31", change: "-0.40%", market: "A股", updateTime: "2026-09-18 实时" },
+        { name: "沪深300", code: "SH000300", value: "4460.16", change: "-0.45%", market: "A股", updateTime: "2026-09-18 实时" },
+        { name: "科创50", code: "SH000688", value: "1606.29", change: "-0.61%", market: "A股", updateTime: "2026-09-18 实时" },
+        { name: "标普500", code: "SPX", value: "7,634.03", change: "+0.56%", market: "美股", updateTime: "2026-09-18 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,397.82", change: "+1.21%", market: "美股", updateTime: "2026-09-18 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,804.12", change: "-0.50%", market: "美股", updateTime: "2026-09-18 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "查尔斯国王将在峰会上向英伟达、OpenAI、Anthropic高管施压，探讨人工智能安全",
-            summary: "核心要点查尔斯国王将于周四主持人工智能峰会，召集英伟达、OpenAI、Anthropic 等企业的高层技术负责人参会。本次会议将探讨能否制定一套通用准则...",
+            title: "特朗普：在伊朗战争中正接近重大十字路口",
+            summary: "美国总统特朗普周四表示，他在伊朗战争中正接近一个关键节点——是否重启大规模攻击以试图结束这场冲突。 “我有一个重大决定即将做出。",
             source: "环球市场播报",
-            date: "2026-09-17",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpx0369452.shtml"
-        },
-        {
-            title: "开盘：油价与收益率回落 三大股指齐涨",
-            summary: " 受科技股带动，美国三大股指周四走高。美联储三年来首次加息，导致前一交易日股市下挫，交易员正试图收复部分失地。科技板块带动大盘上行。",
-            source: "环球市场播报",
-            date: "2026-09-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpy9061330.shtml"
-        },
-        {
-            title: "英国央行调整缩表方案 取消长期国债出售计划",
-            summary: "英国央行取消出售长期国债的计划，这是其量化紧缩计划重大调整的一部分。 按照新方案，规模4880亿英镑的资产组合将于2034年9月前完成缩减。",
-            source: "环球市场播报",
-            date: "2026-09-17",
+            date: "2026-09-18",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpy9057410.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-18/doc-inisefvt3624609.shtml"
         },
         {
-            title: "中东供应扰动有望缓解 国际油价延续下跌",
-            summary: "有迹象显示中东供应中断情况或将缓解，沙特正寻求恢复一条重要管道的部分运力，油价因此继续走低。布伦特原油周三下跌2.7%，现交投于每桶102美元附近...",
+            title: "凯西・伍德：马斯克旗下SpaceX存在10万亿美元市场机遇",
+            summary: " 多年以来，埃隆・马斯克一直在为 SpaceX（股票代码：SPCX）许下宏大愿景。而这一次，华尔街最知名的投资人之一也替他描绘出了远大前景。",
             source: "环球市场播报",
-            date: "2026-09-17",
+            date: "2026-09-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpx0357327.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisefvr3855234.shtml"
         },
         {
-            title: "黑石拟为旗下大型地产基金安排二级市场出售，帮助部分投资者赎回退出",
-            summary: "消息人士称，受高利率拖累回报表现、引发投资者赎回需求，黑石集团正尝试为其一只主要房地产基金安排二级市场出售。 黑石已就该二级市场交易接触潜在买家...",
+            title: "戴蒙谈AI监管：应当实行“轻触式监管”",
+            summary: " 杰米・戴蒙向来并不推崇监管，但本周他表态支持对人工智能行业实施联邦层面的轻触式监管，他认为各州各不相同的法律会给 AI 商业活动制造阻碍。",
             source: "环球市场播报",
-            date: "2026-09-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpy9055592.shtml"
+            date: "2026-09-18",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisefvr3853708.shtml"
         },
         {
-            title: "海外流动性收紧，A股哪些产业能抗跌",
-            summary: "北京时间9月17日凌晨，美联储结束为期两天的货币政策会议，宣布将联邦基金利率目标区间上调25个基点，到3.75%至4%。这是2023年7月底以来美联储首次加息。",
-            source: "上海证券报",
-            date: "2026-09-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-09-17/doc-inisczpv3587705.shtml"
-        },
-        {
-            title: "网飞内容总监贝拉・巴贾里亚解读大型活动战略：流媒体平台加码直播体育赛事",
-            summary: "核心要点网飞（Netflix）首席内容官贝拉・巴贾里亚表示，平台制定直播大型活动与体育赛事战略时，重点寻找具备 “不容错过” 特质的内容。",
+            title: "学生贷款正在悄悄掏空你的退休储备，40多岁人群受冲击尤为严重",
+            summary: "作者：克里・汉农 为退休存钱，还是偿还学生贷款？对很多人来说，二者只能选其一，无法兼顾。 而现实往往是优先还贷。 这种现象存在于各个年龄层...",
             source: "环球市场播报",
-            date: "2026-09-17",
+            date: "2026-09-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpx0332246.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisefvv0388082.shtml"
         },
         {
-            title: "内塔尼亚胡称将推翻伊朗政权",
-            summary: "以色列总理内塔尼亚胡在表彰以色列国家安全总局杰出人员的仪式上表示，伊朗政权将会垮台。 “我们将推翻伊朗政权、消灭哈马斯，也将对付真主党。",
+            title: "清算基金、交易禁令、拘捕高管 土耳其多管齐下为基金危机“止血”",
+            summary: "土耳其官员正设法阻止该国一些知名资产管理公司的危机向整个金融业蔓延。 土耳其当局表示，随着针对本周资产管理公司出现大规模资金外流的调查不断扩大...",
             source: "环球市场播报",
-            date: "2026-09-17",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisczpy9039288.shtml"
+            date: "2026-09-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-18/doc-inisefvr3844104.shtml"
+        },
+        {
+            title: "英国国王召集峰会聚焦AI风险 黄仁勋称不够安全的产品应推迟推出",
+            summary: "人工智能（AI）行业的重量级人物齐聚苏格兰，英国国王在峰会上敦促他们确保不会失去对这项技术的控制。 查理三世召集科技业领袖及其他具有影响力的人士举行峰会...",
+            source: "环球市场播报",
+            date: "2026-09-18",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/world/2026-09-18/doc-inisefvv0366944.shtml"
+        },
+        {
+            title: "土耳其调查基金大规模资金外流 多名金融高管被捕或限制出境",
+            summary: " 土耳其当局周四在一份声明中表示，数名金融业高管已被拘留，另有一些人被禁止出境，这是针对本周部分基金出现大规模资金流出所展开调查的一部分。",
+            source: "环球市场播报",
+            date: "2026-09-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisefvw9005355.shtml"
+        },
+        {
+            title: "AI笔记设备初创公司Plaud AI计划2028年赴美上市",
+            summary: "公司联合创始人兼首席执行官徐内森接受采访时表示，Plaud AI 计划在 2028 年于美国启动 IPO。 徐内森称，Plaud AI 会在年营收突破 10 亿美元之后推进上市流程。",
+            source: "环球市场播报",
+            date: "2026-09-18",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisefvt3592724.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-17",
-        marketAssessment: "A股方面：上证指数报3875.60点（-0.41%），深证成指报13409.91点（-0.33%），创业板指报3298.31点（-0.40%）。美股方面：标普500报7,624.52（+0.43%），纳斯达克报26,308.12（+0.87%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-18",
+        marketAssessment: "A股方面：上证指数报3875.60点（-0.41%），深证成指报13409.91点（-0.33%），创业板指报3298.31点（-0.40%）。美股方面：标普500报7,634.03（+0.56%），纳斯达克报26,397.82（+1.21%）。",
         hotSectors: [
-            { name: "种子", reason: "板块涨幅+7.86%", strength: "强" },
-            { name: "视频媒体", reason: "板块涨幅+6.58%", strength: "强" },
-            { name: "房产租赁经纪", reason: "板块涨幅+5.28%", strength: "强" },
-            { name: "其他养殖", reason: "板块涨幅+5.13%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "白银", reason: "板块跌幅-6.00%", strength: "弱" },
-            { name: "贵金属", reason: "板块跌幅-5.35%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注种子、视频媒体、房产租赁经纪等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

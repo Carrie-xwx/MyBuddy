@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3911.87", change: "+0.94%", market: "A股", updateTime: "2026-09-18 实时" },
         { name: "深证成指", code: "SZ399001", value: "13640.87", change: "+1.72%", market: "A股", updateTime: "2026-09-18 实时" },
         { name: "创业板指", code: "SZ399006", value: "3372.68", change: "+2.25%", market: "A股", updateTime: "2026-09-18 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "人工智能并不会毁灭人类，但专家表示，真正的威胁已然出现",
-            summary: "作者：丹尼尔・豪利 周三，OpenAI 公开了六组新案例，展示其 AI 模型在测试评估过程中出现的 “意外或令人担忧的模型行为”。 该公司同步发布一套全新框架，用于追踪...",
+            title: "土耳其主权财富基金据悉出手买入蓝筹股 力挽市场跌势",
+            summary: " 据知情人士透露，土耳其主权财富基金周四买入股票，以支撑该国股市。这是土耳其为遏制基金管理行业危机所引发冲击而采取的最新举措。",
             source: "环球市场播报",
             date: "2026-09-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisftxc0328679.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishenv3492030.shtml"
         },
         {
-            title: "高盛：标普500盈利增长将放缓，而非崩盘",
-            summary: " 高盛策略师表示，尽管标普500成分企业近期处于“盈利超预期”状态，但人工智能带来的生产率支撑下，企业利润增速大概率只会放缓，不会出现崩盘。",
+            title: "基利安・姆巴佩结束与耐克长期合作，将领衔昂跑足球鞋业务拓展",
+            summary: " 皇家马德里前锋基利安・姆巴佩结束了与耐克的长期合作，将担任瑞士品牌昂跑足球鞋新业务的代言人，这也是昂跑首次进军足球鞋赛道。",
+            source: "环球市场播报",
+            date: "2026-09-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishenv3486607.shtml"
+        },
+        {
+            title: "600502，董事长被查！",
+            summary: " 9月18日晚间，安徽建工（600502）公告称，公司董事长、党委书记杨善斌涉嫌严重违纪违法，目前正接受相关纪委监委纪律审查和监察调查。",
+            source: "",
+            date: "2026-09-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-09-18/doc-inishenv3477818.shtml"
+        },
+        {
+            title: "万亿AI巨头，股份回购计划实施完毕！",
+            summary: "A股AI巨头工业富联本次回购实施完毕。 工业富联（601138）9月18日晚间公告称，公司此前公告拟10亿—20亿元回购公司股份。截至公告披露日...",
+            source: "",
+            date: "2026-09-18",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-09-18/doc-inishenx0250367.shtml"
+        },
+        {
+            title: "301155，终止10亿元“海力高端能源装备制造项目”，改投新项目",
+            summary: "9月18日晚间，海力风电（301155）同时发布一份终止对外投资公告和一份投资协议公告。 具体来看，海力风电在终止公告中称，基于战略考量及长期发展的需要...",
+            source: "",
+            date: "2026-09-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-09-18/doc-inishenx0250256.shtml"
+        },
+        {
+            title: "大模型初创公司Naive AI估值达 14 亿美元",
+            summary: " 据知情人士透露，一家于今年2月创立、处于保密运营状态的AI模型初创公司，在完成三轮融资合计4亿美元后，目前估值已超14亿美元，投资方包括腾讯。",
+            source: "环球市场播报",
+            date: "2026-09-18",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishenx0247774.shtml"
+        },
+        {
+            title: "盘前：纳指期货涨0.36% ，油价连跌三日，“三巫日”驾到",
+            summary: "周五美国和亚洲科技股推动股市上涨，油价回落提振整体市场情绪，为这个动荡的一周带来较为积极的收尾。日本央行此前已经充分释放信号的加息行动，未能支撑日元。",
             source: "环球市场播报",
             date: "2026-09-18",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisftwz3554949.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishent3179319.shtml"
         },
         {
-            title: "更多液化天然气经霍尔木兹海峡外运 生产商全力保障通航",
-            summary: "本周至少两船液化天然气穿越霍尔木兹海峡。当前市场供应紧张、价格飙升，生产商正寻求途径增加天然气输送量。 船舶追踪数据显示，一艘8月末在卡塔尔拉斯拉凡出口码头装货的...",
+            title: "汇丰拟通过风险转移交易对冲数据中心贷款风险",
+            summary: " 汇丰控股正筹划一笔风险转移交易，以对冲与数据中心相关的贷款敞口。随着人工智能投资热潮持续升温，越来越多银行也在考虑类似交易。",
             source: "环球市场播报",
             date: "2026-09-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-18/doc-inisftwx3340101.shtml"
-        },
-        {
-            title: "埃克森美孚：油价的更大威胁来自炼油产能而非原油供应",
-            summary: "今年油价大幅震荡，多数投资者的理解很简单：霍尔木兹海峡原油运输量减少，就意味着加油站油价上涨。 但埃克森美孚管理层表示，这种看法忽略了真正的核心矛盾。",
-            source: "环球市场播报",
-            date: "2026-09-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisftwx3339810.shtml"
-        },
-        {
-            title: "津巴布韦汽油价格上调4% 至每升2.06美元",
-            summary: "津巴布韦能源监管机构发布声明，津巴布韦汽油价格即刻上调，由每升1.99美元涨至2.06美元。 津巴布韦能源监管局周五称，柴油零售价从此前每升1.95美元上调至每升2.08美元。",
-            source: "环球市场播报",
-            date: "2026-09-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-18/doc-inisftwz3548244.shtml"
-        },
-        {
-            title: "日本经济产业大臣赤泽亮正将于9月24日入院接受小手术",
-            summary: "日本经济产业大臣赤泽亮正表示，将于9月24日至26日住院做一个预防性小手术。 他周五在东京举行的例行记者会上向媒体发表讲话。 ",
-            source: "环球市场播报",
-            date: "2026-09-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisftxc0319319.shtml"
-        },
-        {
-            title: "韩美投资机构考虑发行首支债券 落实3500亿美元投资承诺",
-            summary: "韩国承诺向美国投资3500亿美元，负责该投资计划的一家新设机构正考虑首次进入债券市场。此举也让外界得以初步了解，韩国打算如何为这项韩美贸易协议中规模最大的投资承诺筹...",
-            source: "环球市场播报",
-            date: "2026-09-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-18/doc-inisftwx3338590.shtml"
-        },
-        {
-            title: "韩国总统李在明就支持率下滑向公众致歉 承诺不会卷入伊朗战争",
-            summary: "韩国总统李在明周五向公众致歉，承诺将更加谦逊，试图扭转支持率急剧下滑的局面，让其政策议程重回正轨。 “首先，我要向那些在艰难处境中努力生活的人们表达歉意...",
-            source: "环球市场播报",
-            date: "2026-09-18",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-18/doc-inisftwz3544414.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishenv3472262.shtml"
         },
     ],
 
@@ -765,17 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-18",
         marketAssessment: "A股方面：上证指数报3911.87点（+0.94%），深证成指报13640.87点（+1.72%），创业板指报3372.68点（+2.25%）。美股方面：标普500报7,637.76（+0.61%），纳斯达克报26,418.30（+1.29%）。",
         hotSectors: [
-
+            { name: "其他医疗服务", reason: "板块涨幅+6.72%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+4.86%", strength: "强" },
+            { name: "半导体设备", reason: "板块涨幅+4.83%", strength: "强" },
+            { name: "数字芯片设计", reason: "板块涨幅+4.68%", strength: "强" },
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注其他医疗服务、房产租赁经纪、半导体设备等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

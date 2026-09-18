@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3916.07", change: "+1.04%", market: "A股", updateTime: "2026-09-18 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13613.48", change: "+1.52%", market: "A股", updateTime: "2026-09-18 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3368.03", change: "+2.11%", market: "A股", updateTime: "2026-09-18 实时" },
-        { name: "沪深300", code: "SH000300", value: "4507.02", change: "+1.05%", market: "A股", updateTime: "2026-09-18 实时" },
-        { name: "科创50", code: "SH000688", value: "1669.34", change: "+3.93%", market: "A股", updateTime: "2026-09-18 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3911.87", change: "+0.94%", market: "A股", updateTime: "2026-09-18 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13640.87", change: "+1.72%", market: "A股", updateTime: "2026-09-18 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3372.68", change: "+2.25%", market: "A股", updateTime: "2026-09-18 实时" },
+        { name: "沪深300", code: "SH000300", value: "4507.39", change: "+1.06%", market: "A股", updateTime: "2026-09-18 实时" },
+        { name: "科创50", code: "SH000688", value: "1652.63", change: "+2.88%", market: "A股", updateTime: "2026-09-18 实时" },
         { name: "标普500", code: "SPX", value: "7,637.76", change: "+0.61%", market: "美股", updateTime: "2026-09-18 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,418.30", change: "+1.29%", market: "美股", updateTime: "2026-09-18 收盘" },
         { name: "道琼斯", code: "DJI", value: "51,778.04", change: "-0.55%", market: "美股", updateTime: "2026-09-18 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "韩国总统李在明：3500亿美元对美协议令我 “夜不能寐”",
-            summary: " 韩国总统李在明表示，韩美围绕首尔 3500 亿美元投资承诺相关项目的谈判让他夜不能寐。在他发现一项接近敲定的协议部分条款难以接受后，双方重启了磋商。",
+            title: "人工智能并不会毁灭人类，但专家表示，真正的威胁已然出现",
+            summary: "作者：丹尼尔・豪利 周三，OpenAI 公开了六组新案例，展示其 AI 模型在测试评估过程中出现的 “意外或令人担忧的模型行为”。 该公司同步发布一套全新框架，用于追踪...",
             source: "环球市场播报",
             date: "2026-09-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisfprf0179994.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisftxc0328679.shtml"
         },
         {
-            title: "大和：工商银行首予“持有”评级 目标价7.80港元",
-            summary: "大和发布研报称，首予工商银行（01398）“持有”评级，目标价7.8港元，指工行是高息股，但现价已大致合理。该行预期工行2026至2028年总经营收入同比增长4%至8%...",
-            source: "新浪港股",
+            title: "高盛：标普500盈利增长将放缓，而非崩盘",
+            summary: " 高盛策略师表示，尽管标普500成分企业近期处于“盈利超预期”状态，但人工智能带来的生产率支撑下，企业利润增速大概率只会放缓，不会出现崩盘。",
+            source: "环球市场播报",
             date: "2026-09-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-18/doc-inisfpqz3344018.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisftwz3554949.shtml"
         },
         {
-            title: "马来西亚今年生物柴油消费量或增至140万吨",
-            summary: "马来西亚生物柴油协会会长Tee Lip Teng表示，作为全球第二大棕榈油生产国，马来西亚今年生物柴油消费量预计可达140万吨，高于去年的100万吨。",
+            title: "更多液化天然气经霍尔木兹海峡外运 生产商全力保障通航",
+            summary: "本周至少两船液化天然气穿越霍尔木兹海峡。当前市场供应紧张、价格飙升，生产商正寻求途径增加天然气输送量。 船舶追踪数据显示，一艘8月末在卡塔尔拉斯拉凡出口码头装货的...",
             source: "环球市场播报",
             date: "2026-09-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisfpqz3343821.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-18/doc-inisftwx3340101.shtml"
         },
         {
-            title: "花旗：宁德时代9月产量或环比跌3% 短期市场情绪低迷",
-            summary: "花旗发布研报称，ZE Consulting估计宁德时代（03750）9月月产量环比下跌3%，10月月产量或大致持平；连同市场对电池需求，尤其电动车电池需求的持续忧虑...",
-            source: "新浪港股",
+            title: "埃克森美孚：油价的更大威胁来自炼油产能而非原油供应",
+            summary: "今年油价大幅震荡，多数投资者的理解很简单：霍尔木兹海峡原油运输量减少，就意味着加油站油价上涨。 但埃克森美孚管理层表示，这种看法忽略了真正的核心矛盾。",
+            source: "环球市场播报",
             date: "2026-09-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-18/doc-inisfpqz3343577.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisftwx3339810.shtml"
         },
         {
-            title: "大和：首次覆盖内银股评级正面 净息差最差时期已过",
-            summary: "大和发布研报称，首次覆盖中国银行股并予正面评级，首予建设银行（00939）“买入”、招商银行（03968）“跑赢大市”、工商银行（01398）“持有”评级。",
-            source: "新浪港股",
+            title: "津巴布韦汽油价格上调4% 至每升2.06美元",
+            summary: "津巴布韦能源监管机构发布声明，津巴布韦汽油价格即刻上调，由每升1.99美元涨至2.06美元。 津巴布韦能源监管局周五称，柴油零售价从此前每升1.95美元上调至每升2.08美元。",
+            source: "环球市场播报",
             date: "2026-09-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-18/doc-inisfprc3404294.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-18/doc-inisftwz3548244.shtml"
         },
         {
-            title: "大摩：李宁维持“增持”评级 目标价22.50港元",
-            summary: "摩根士丹利发布研报称，维持李宁（02331）“增持”评级，目标价22.5港元。 公司今年7月零售销售录高单位数或以上跌幅，但8月趋势有所改善，其中线下跌幅收窄...",
-            source: "新浪港股",
+            title: "日本经济产业大臣赤泽亮正将于9月24日入院接受小手术",
+            summary: "日本经济产业大臣赤泽亮正表示，将于9月24日至26日住院做一个预防性小手术。 他周五在东京举行的例行记者会上向媒体发表讲话。 ",
+            source: "环球市场播报",
             date: "2026-09-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-18/doc-inisfiif3534175.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisftxc0319319.shtml"
         },
         {
-            title: "神威药业将于10月15日派发特别中期股息每股0.85元",
-            summary: "神威药业（02877）发布公告，该公司将于2026年10月15日派发2026年财政年度特别中期股息每股人民币0.85元。",
-            source: "新浪港股",
+            title: "韩美投资机构考虑发行首支债券 落实3500亿美元投资承诺",
+            summary: "韩国承诺向美国投资3500亿美元，负责该投资计划的一家新设机构正考虑首次进入债券市场。此举也让外界得以初步了解，韩国打算如何为这项韩美贸易协议中规模最大的投资承诺筹...",
+            source: "环球市场播报",
             date: "2026-09-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-18/doc-inisfiic3473047.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-18/doc-inisftwx3338590.shtml"
         },
         {
-            title: "中通快递-W于9月17日斥资1037.65万美元回购49.73万股",
-            summary: " 中通快递-W（02057）发布公告，于2026年9月17日，该公司斥资1037.65万美元回购49.73万股股份，每股回购价20.7-20.95美元。",
-            source: "新浪港股",
+            title: "韩国总统李在明就支持率下滑向公众致歉 承诺不会卷入伊朗战争",
+            summary: "韩国总统李在明周五向公众致歉，承诺将更加谦逊，试图扭转支持率急剧下滑的局面，让其政策议程重回正轨。 “首先，我要向那些在艰难处境中努力生活的人们表达歉意...",
+            source: "环球市场播报",
             date: "2026-09-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-18/doc-inisfiii0304336.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-18/doc-inisftwz3544414.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-18",
-        marketAssessment: "A股方面：上证指数报3916.07点（+1.04%），深证成指报13613.48点（+1.52%），创业板指报3368.03点（+2.11%）。美股方面：标普500报7,637.76（+0.61%），纳斯达克报26,418.30（+1.29%）。",
+        marketAssessment: "A股方面：上证指数报3911.87点（+0.94%），深证成指报13640.87点（+1.72%），创业板指报3372.68点（+2.25%）。美股方面：标普500报7,637.76（+0.61%），纳斯达克报26,418.30（+1.29%）。",
         hotSectors: [
-            { name: "其他医疗服务", reason: "板块涨幅+6.64%", strength: "强" },
-            { name: "集成电路制造", reason: "板块涨幅+6.06%", strength: "强" },
-            { name: "半导体设备", reason: "板块涨幅+5.79%", strength: "强" },
-            { name: "集成电路封测", reason: "板块涨幅+5.31%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "其他养殖", reason: "板块跌幅-3.00%", strength: "弱" },
-            { name: "种子", reason: "板块跌幅-1.57%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注其他医疗服务、集成电路制造、半导体设备等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

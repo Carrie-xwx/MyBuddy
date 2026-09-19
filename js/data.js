@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3911.87", change: "+0.94%", market: "A股", updateTime: "2026-09-19 实时" },
         { name: "深证成指", code: "SZ399001", value: "13640.87", change: "+1.72%", market: "A股", updateTime: "2026-09-19 实时" },
         { name: "创业板指", code: "SZ399006", value: "3372.68", change: "+2.25%", market: "A股", updateTime: "2026-09-19 实时" },
@@ -669,7 +669,15 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+        {
+            title: "英国首相将与特朗普会晤 说服释放“爱国者”防空导弹援乌",
+            summary: "安迪·伯纳姆即将与被其手下官员视作造成英国政府经济困境的人正面会面：唐纳德·特朗普。 这位英国新首相仍努力维持上任头两个月一贯的乐观姿态...",
+            source: "环球市场播报",
+            date: "2026-09-19",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisisqc3165413.shtml"
+        },
         {
             title: "加州州长签署行政令 要求强制上报AI智能体异常行为",
             summary: "美国加州民主党州长加文·纽森于当地时间周五签署一项行政令，称该令将“大幅加快”人工智能安全举措落地，其中包括可能要求企业为先进AI模型设置“终止开关”...",
@@ -679,7 +687,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisisqc3124180.shtml"
         },
         {
-            title: "也门冲突升级以来首次 沙特首都遭袭",
+            title: "7月也门冲突升级以来首次 沙特首都遭袭",
             summary: "沙特当局发布空袭警报后，周六首都利雅得传来爆炸声。近日，也门胡塞武装频繁对沙特发动袭击。 这是自7月邻国也门冲突升级以来，沙特首都首次遭到直接袭击。",
             source: "环球市场播报",
             date: "2026-09-19",
@@ -726,14 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisinhk7821028.shtml"
         },
-        {
-            title: "北京依法对四家在线酒店旅游预订平台企业立案调查",
-            summary: "记者今天（19日）从北京市市场监督管理局了解到，近日，北京市市场监督管理局根据国家市场监督管理总局工作部署和前期核查情况，依据《中华人民共和国反不正当竞争法》《中...",
-            source: "央视",
-            date: "2026-09-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-19/doc-inisinhc2645646.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-19",
         marketAssessment: "A股方面：上证指数报3911.87点（+0.94%），深证成指报13640.87点（+1.72%），创业板指报3372.68点（+2.25%）。美股方面：标普500报7,650.50（-0.08%），纳斯达克报26,522.54（+0.72%）。",
         hotSectors: [
-            { name: "其他医疗服务", reason: "板块涨幅+6.72%", strength: "强" },
-            { name: "房产租赁经纪", reason: "板块涨幅+4.86%", strength: "强" },
-            { name: "半导体设备", reason: "板块涨幅+4.83%", strength: "强" },
-            { name: "数字芯片设计", reason: "板块涨幅+4.68%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "其他养殖", reason: "板块跌幅-3.47%", strength: "弱" },
-            { name: "种子", reason: "板块跌幅-1.52%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注其他医疗服务、房产租赁经纪、半导体设备等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

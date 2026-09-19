@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3911.87", change: "+0.94%", market: "A股", updateTime: "2026-09-19 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13640.87", change: "+1.72%", market: "A股", updateTime: "2026-09-19 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3372.68", change: "+2.25%", market: "A股", updateTime: "2026-09-19 实时" },
-        { name: "沪深300", code: "SH000300", value: "4507.39", change: "+1.06%", market: "A股", updateTime: "2026-09-19 实时" },
-        { name: "科创50", code: "SH000688", value: "1652.63", change: "+2.88%", market: "A股", updateTime: "2026-09-19 实时" },
-        { name: "标普500", code: "SPX", value: "7,650.50", change: "-0.08%", market: "美股", updateTime: "2026-09-19 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,522.54", change: "+0.72%", market: "美股", updateTime: "2026-09-19 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,682.64", change: "-1.69%", market: "美股", updateTime: "2026-09-19 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3911.87", change: "+0.94%", market: "A股", updateTime: "2026-09-20 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13640.87", change: "+1.72%", market: "A股", updateTime: "2026-09-20 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3372.68", change: "+2.25%", market: "A股", updateTime: "2026-09-20 实时" },
+        { name: "沪深300", code: "SH000300", value: "4507.39", change: "+1.06%", market: "A股", updateTime: "2026-09-20 实时" },
+        { name: "科创50", code: "SH000688", value: "1652.63", change: "+2.88%", market: "A股", updateTime: "2026-09-20 实时" },
+        { name: "标普500", code: "SPX", value: "7,650.50", change: "-0.08%", market: "美股", updateTime: "2026-09-20 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,522.54", change: "+0.72%", market: "美股", updateTime: "2026-09-20 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,682.64", change: "-1.69%", market: "美股", updateTime: "2026-09-20 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "欧洲央行管委：若通胀飙升不排除10月加息可能性，但不应仓促行事",
-            summary: "欧洲央行管委斯图纳拉斯表示，必须注意通胀上行风险，但不应仓促行事。 这位希腊央行行长周六接受采访时表示，虽然目前为止工资等方面还没有出现第二轮影响...",
-            source: "环球市场播报",
+            title: "伊朗提出对美谈判三大前提，等待特朗普答复",
+            summary: "伊朗最高国家安全委员会秘书穆赫辛·雷扎伊周六表示，伊朗已通过卡塔尔和巴基斯坦调解人向美方提出谈判条件：全面结束所有战线的战事、释放遭扣押的伊朗资产...",
+            source: "滚动播报",
             date: "2026-09-19",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskimw9783326.shtml"
+            url: "https://finance.sina.com.cn/7x24/2026-09-19/doc-inisktzr2868566.shtml"
         },
         {
-            title: "大众据悉拟在保时捷品牌进一步裁员约4100人",
-            summary: " 据报道，在大众汽车因旗下跑车子公司保时捷出现问题而发布盈利预警后，大众汽车一项大规模的扭亏计划预计将在保时捷进一步裁减超过4000个工作岗位。",
+            title: "阿那亚突发大停电，官方回应：园区外线路故障所致，正抓紧抢修",
+            summary: " 9月19日消息，今日晚间，有网友在社交平台发帖表示，秦皇岛阿那亚突发大停电，园区多家酒店及主道路受到波及，逾3小时仍未恢复。",
+            source: "新浪科技",
+            date: "2026-09-19",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/chanjing/gsnews/2026-09-19/doc-inisktzu7287125.shtml"
+        },
+        {
+            title: "美军指挥官：霍尔木兹海峡石油运量创六个月新高",
+            summary: " 美军中央司令部司令布拉德·库珀上将表示，过去两周经由霍尔木兹海峡的石油与液化天然气运输量创下六个月新高，说明美军的海上保护与扫雷工作正在取得成效。",
             source: "环球市场播报",
             date: "2026-09-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskimv2978109.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisktzs9617811.shtml"
         },
         {
-            title: "英国首相将与特朗普会晤 说服释放“爱国者”防空导弹援乌",
-            summary: "安迪·伯纳姆即将与被其手下官员视作造成英国政府经济困境的人正面会面：唐纳德·特朗普。 这位英国新首相仍努力维持上任头两个月一贯的乐观姿态...",
+            title: "纳斯达克100指数季度再平衡落定 SpaceX权重将升至2.82%",
+            summary: "纳斯达克100指数季度再平衡将于周一生效，届时SpaceX在该指数中的权重将升至2.82%，较目前约1.28%的权重大幅提高。 这一最终权重是根据上周五收盘价计算得出...",
             source: "环球市场播报",
             date: "2026-09-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisisqc3165413.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskptt2970689.shtml"
         },
         {
-            title: "加州州长签署行政令 要求强制上报AI智能体异常行为",
-            summary: "美国加州民主党州长加文·纽森于当地时间周五签署一项行政令，称该令将“大幅加快”人工智能安全举措落地，其中包括可能要求企业为先进AI模型设置“终止开关”...",
-            source: "环球市场播报",
-            date: "2026-09-19",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisisqc3124180.shtml"
-        },
-        {
-            title: "7月也门冲突升级以来首次 沙特首都遭袭",
-            summary: "沙特当局发布空袭警报后，周六首都利雅得传来爆炸声。近日，也门胡塞武装频繁对沙特发动袭击。 这是自7月邻国也门冲突升级以来，沙特首都首次遭到直接袭击。",
+            title: "全球超级油轮短缺推高运费 长途原油贸易面临冲击",
+            summary: " 全球原油运输成本飙升，正令部分长距离原油贸易变得无利可图，并可能扰乱原油流向，而当前燃料市场的紧张程度前所未有。",
             source: "环球市场播报",
             date: "2026-09-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisisqe9872951.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskptw7396928.shtml"
         },
         {
-            title: "中期选举激烈 多名共和党候选人在数据中心等议题疏远特朗普",
-            summary: " 在部分竞争最激烈的参众两院席位争夺战中，共和党候选人已开始在特朗普总统议程的核心议题上与其拉开距离，这表明他们认为特朗普的部分政策立场正在拖累自身的选举前景。",
+            title: "SpaceX在纳斯达克100指数中的权重将达到2.82%",
+            summary: "随着纳斯达克100指数的季度调整于下周一生效，SpaceX在该指数中的权重将达到2.82%，较目前约1.28%的权重显著提升。 这一基于周五收盘价计算得出的最终数值...",
             source: "环球市场播报",
             date: "2026-09-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisispz2548225.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskptw7396556.shtml"
         },
         {
-            title: "8月财政收支边际走弱，四季度支出增速大概率回补",
-            summary: "记者 王珍8月我国宏观经济延续“生产强于需求、外需强于内需、新动能强于旧动能”的结构性分化格局，这在财政收支中得到了进一步印证。",
-            source: "界面",
-            date: "2026-09-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-19/doc-inisinhh9974907.shtml"
-        },
-        {
-            title: "派拉蒙推进和解谈判 谋求扫清1110亿美元收购华纳兄弟探索诉讼障碍",
-            summary: " 据七位了解谈判内情的人士透露，派拉蒙正积极开展和解谈判，希望了结一桩旨在阻止其收购华纳兄弟探索公司的诉讼，借此避免因交易完成延期触发高额违约金。",
+            title: "巴菲特推进计划下一步，确保伯克希尔在他身后不走样",
+            summary: "沃伦·巴菲特正在推进他多年计划中的第三个重大步骤，逐步从伯克希尔·哈撒韦退出。这家公司曾是一家陷入困境的马萨诸塞州纺织制造商，他于1965年取得控制权...",
             source: "环球市场播报",
             date: "2026-09-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisinhc2663216.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskptr2230607.shtml"
+        },
+        {
+            title: "英伟达5名高管披露持股变动：黄仁勋4.57万股用于缴税，CFO套现765万美元",
+            summary: "包括黄仁勋在内，5名英伟达高管合计出售16万股公司股票用以缴税。 当地时间9月18日，英伟达向美国证券交易委员会（SEC）提交的一份Form 4文件显示，9月16日...",
+            source: "澎湃新闻",
+            date: "2026-09-19",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/jjxw/2026-09-19/doc-iniskptr2230344.shtml"
         },
     ],
 
@@ -765,8 +765,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-19",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-20",
         marketAssessment: "A股方面：上证指数报3911.87点（+0.94%），深证成指报13640.87点（+1.72%），创业板指报3372.68点（+2.25%）。美股方面：标普500报7,650.50（-0.08%），纳斯达克报26,522.54（+0.72%）。",
         hotSectors: [
             { name: "其他医疗服务", reason: "板块涨幅+6.72%", strength: "强" },

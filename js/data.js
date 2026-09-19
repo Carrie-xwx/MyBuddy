@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3911.87", change: "+0.94%", market: "A股", updateTime: "2026-09-19 实时" },
         { name: "深证成指", code: "SZ399001", value: "13640.87", change: "+1.72%", market: "A股", updateTime: "2026-09-19 实时" },
         { name: "创业板指", code: "SZ399006", value: "3372.68", change: "+2.25%", market: "A股", updateTime: "2026-09-19 实时" },
@@ -669,7 +669,23 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+        {
+            title: "欧洲央行管委：若通胀飙升不排除10月加息可能性，但不应仓促行事",
+            summary: "欧洲央行管委斯图纳拉斯表示，必须注意通胀上行风险，但不应仓促行事。 这位希腊央行行长周六接受采访时表示，虽然目前为止工资等方面还没有出现第二轮影响...",
+            source: "环球市场播报",
+            date: "2026-09-19",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskimw9783326.shtml"
+        },
+        {
+            title: "大众据悉拟在保时捷品牌进一步裁员约4100人",
+            summary: " 据报道，在大众汽车因旗下跑车子公司保时捷出现问题而发布盈利预警后，大众汽车一项大规模的扭亏计划预计将在保时捷进一步裁减超过4000个工作岗位。",
+            source: "环球市场播报",
+            date: "2026-09-19",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskimv2978109.shtml"
+        },
         {
             title: "英国首相将与特朗普会晤 说服释放“爱国者”防空导弹援乌",
             summary: "安迪·伯纳姆即将与被其手下官员视作造成英国政府经济困境的人正面会面：唐纳德·特朗普。 这位英国新首相仍努力维持上任头两个月一贯的乐观姿态...",
@@ -718,22 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisinhc2663216.shtml"
         },
-        {
-            title: "韩官员：李在明并未拒绝特朗普协助对伊战争的要求",
-            summary: "韩国总统府一名匿名官员称，韩国总统李在明并未拒绝唐纳德·特朗普总统提出的要求，即协助华盛顿开展对伊朗的战争。 周五记者会上，尽管特朗普施加压力...",
-            source: "环球市场播报",
-            date: "2026-09-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisinhh9963803.shtml"
-        },
-        {
-            title: "韩美同意就韩国拟在美3500亿美元投资项目举行双边会谈",
-            summary: " 韩国外交部表示，韩美两国外长周五在华盛顿会晤，双方同意共同努力，争取就韩国拟在美国开展的投资项目举行双边会谈并取得“良好”成果。",
-            source: "环球市场播报",
-            date: "2026-09-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisinhk7821028.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-19",
         marketAssessment: "A股方面：上证指数报3911.87点（+0.94%），深证成指报13640.87点（+1.72%），创业板指报3372.68点（+2.25%）。美股方面：标普500报7,650.50（-0.08%），纳斯达克报26,522.54（+0.72%）。",
         hotSectors: [
-
+            { name: "其他医疗服务", reason: "板块涨幅+6.72%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+4.86%", strength: "强" },
+            { name: "半导体设备", reason: "板块涨幅+4.83%", strength: "强" },
+            { name: "数字芯片设计", reason: "板块涨幅+4.68%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "其他养殖", reason: "板块跌幅-3.47%", strength: "弱" },
+            { name: "种子", reason: "板块跌幅-1.52%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注其他医疗服务、房产租赁经纪、半导体设备等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3911.87", change: "+0.94%", market: "A股", updateTime: "2026-09-20 实时" },
         { name: "深证成指", code: "SZ399001", value: "13640.87", change: "+1.72%", market: "A股", updateTime: "2026-09-20 实时" },
         { name: "创业板指", code: "SZ399006", value: "3372.68", change: "+2.25%", market: "A股", updateTime: "2026-09-20 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "董明珠又从一家公司卸任，今年已退出3家",
-            summary: "新京报记者 陈维城编辑 杨娟娟 校对 张彦君 企查查App显示，9月19日，格力电子商务有限公司发生工商变更，董明珠卸任法定代表人、执行董事...",
-            source: "新京报",
-            date: "2026-09-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/wm/2026-09-20/doc-inisnnkt1425326.shtml"
-        },
-        {
-            title: "市场监管总局：反垄断执法要更加聚焦原料药、水电气暖、平台经济等重点领域",
-            summary: "9月20日，国务院新闻办公室举行“开局起步‘十五五’”系列主题新闻发布会。国家市场监督管理总局规划和财务司司长王国伟在会上表示，全国统一大市场建设这几年取得了显著成效...",
-            source: "中证网",
-            date: "2026-09-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-09-20/doc-inisnnky6585963.shtml"
-        },
-        {
-            title: "比亚迪拟在欧洲扩张整车、电池产线",
-            summary: "比亚迪在欧的第二座整车厂选址预计今年底敲定，优先考虑收购和改建西班牙和法国的现有汽车产线 文|《财经》主笔 尹路 编辑|黄凯茜 继即将启动生产的匈牙利工厂之后...",
-            source: "《财经》杂志",
-            date: "2026-09-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-20/doc-inisnnky6587326.shtml"
-        },
-        {
-            title: "控股权转让？600392，紧急澄清！",
-            summary: "盛和资源（600392）公告称，控股股东不存在拟对外转让公司控股权的情形。 9月20日晚间，盛和资源披露公告称，近日，公司关注到境外媒体出现关于某稀土企业集团拟收购公司控...",
+            title: "558万合同索赔1.59亿！一审判赔15万，案件受理费原告承担超99%，被告负担不足1%，两家药企“对簿公堂”",
+            summary: " 558万合同索赔1.59亿！一审判赔15万，案件受理费原告承担超99%，被告负担不足1%，两家药企“对簿公堂”，原告：正沟通上诉",
             source: "",
             date: "2026-09-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/zqgd/2026-09-20/doc-inisnhav1551211.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-09-20/doc-inisnssw6547705.shtml"
         },
         {
-            title: "LPR连续16个月不变，业内称短期降息必要性不高",
-            summary: "LPR（贷款市场报价利率）连续16个月维持不变。9月20日，中国人民银行授权全国银行间同业拆借中心公布新版LPR报价：1年期品种报3.0%，上月为3.0%；5年期以上品种报3.5%...",
-            source: "一财网",
+            title: "大摩：中国神华维持“增持”评级 目标价48.3港元",
+            summary: " 摩根士丹利发布研报称，中国神华（01088）管理层于会议上表示，2026年上半年产量较低，全年产量指引维持5.13亿吨不变；该行维持中国神华“增持”评级及目标价48.3港元。",
+            source: "新浪港股",
             date: "2026-09-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-09-20/doc-inisnhay9359075.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-20/doc-inisnsst2472012.shtml"
         },
         {
-            title: "重要数据即将发布！下周财经大事一览",
-            summary: " 成品油新一轮调价窗口将开启，第五届全球数字贸易博览会（数贸会）即将举办，2只新股将开放申购……下周，这些财经大事值得关注。",
-            source: "中国证券报-中证网",
+            title: "大和：招商银行首予“跑赢大市”评级 目标价56.3港元",
+            summary: "大和发布研报称，首予招商银行（03968）“跑赢大市”评级，目标价56.3港元，认为手续费收入拐点将重塑其盈利优势。 该行指出，招行的手续费收入于2021至2024年累计下跌23%...",
+            source: "新浪港股",
             date: "2026-09-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhay9360552.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-20/doc-inisnsst2471599.shtml"
         },
         {
-            title: "莫斯科炼油厂遇袭 俄罗斯称遭乌克兰大规模无人机袭击",
-            summary: " 俄罗斯议会选举进入最后一天投票之际，莫斯科炼油厂遭无人机袭击，这波袭击是乌克兰今年以来对俄发动的最大规模夜间无人机攻势的一部分。",
-            source: "环球市场播报",
+            title: "大和：引述中国生物制药管理层重申今年收入增长双位数指引 给予“买入”评级",
+            summary: "大和发布研报称，日前举行医疗健康行业交流活动，中国生物制药（01177）管理层重申今年收入录得双位数同比增幅的指引未变，预期可由授权收入及创新药销售增长共同带动...",
+            source: "新浪港股",
             date: "2026-09-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-20/doc-inisnhay9348361.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-20/doc-inisnssu9243619.shtml"
         },
         {
-            title: "今天起，装修、交物业费也能用住房公积金了",
-            summary: "原标题：新华解码丨住房公积金新政施行 服务全生命周期住房消费 住房公积金制度是我国城镇住房制度的重要组成部分，关系到老百姓的切身利益。",
-            source: "新华视点",
+            title: "小摩：金斯瑞生物科技维持“增持”评级 目标价41港元",
+            summary: "摩根大通发布研报称，礼来（LLY.US）宣布与金斯瑞生物科技（01548）等达成TuneLab合作协议，该行维持金斯瑞“增持”评级及目标价41港元。",
+            source: "新浪港股",
             date: "2026-09-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-09-20/doc-inisnhax2567871.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-20/doc-inisnsst2470014.shtml"
+        },
+        {
+            title: "大摩：国泰航空维持“增持”评级 目标价16.9港元",
+            summary: "摩根士丹利发布研报称，国泰航空（00293）8月客运业务在高基数下趋正常化，货运业务则具韧性；该行认为偏高的航空燃油价格仍是国泰短期盈利主要阻力。",
+            source: "新浪港股",
+            date: "2026-09-20",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-20/doc-inisnssw6529408.shtml"
+        },
+        {
+            title: "大摩：蔚来-SW给予“增持”评级 目标价68.5港元",
+            summary: "摩根士丹利发布研报称，蔚来-SW（09866）管理层重申，公司将优先透过销量增长及经营杠杆推动利润增长，并重申今年达成非公认会计准则（non-GAAP）经调整盈利的目标。",
+            source: "新浪港股",
+            date: "2026-09-20",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-20/doc-inisnssr1365927.shtml"
+        },
+        {
+            title: "大和：建设银行首予“买入”评级 目标价11.05港元",
+            summary: "大和发布研报称，首予建设银行（00939）“买入”评级及目标价11.05港元，并将该股列为中资行首选。 该行指，建行2025年股本回报率为10.1%，在国有大型银行中属第二高...",
+            source: "新浪港股",
+            date: "2026-09-20",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-20/doc-inisnsst2468190.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-20",
         marketAssessment: "A股方面：上证指数报3911.87点（+0.94%），深证成指报13640.87点（+1.72%），创业板指报3372.68点（+2.25%）。美股方面：标普500报7,650.50（-0.08%），纳斯达克报26,522.54（+0.72%）。",
         hotSectors: [

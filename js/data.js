@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3911.87", change: "+0.94%", market: "A股", updateTime: "2026-09-20 实时" },
         { name: "深证成指", code: "SZ399001", value: "13640.87", change: "+1.72%", market: "A股", updateTime: "2026-09-20 实时" },
         { name: "创业板指", code: "SZ399006", value: "3372.68", change: "+2.25%", market: "A股", updateTime: "2026-09-20 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "伊朗提出对美谈判三大前提，等待特朗普答复",
-            summary: "伊朗最高国家安全委员会秘书穆赫辛·雷扎伊周六表示，伊朗已通过卡塔尔和巴基斯坦调解人向美方提出谈判条件：全面结束所有战线的战事、释放遭扣押的伊朗资产...",
-            source: "滚动播报",
-            date: "2026-09-19",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/7x24/2026-09-19/doc-inisktzr2868566.shtml"
-        },
-        {
-            title: "阿那亚突发大停电，官方回应：园区外线路故障所致，正抓紧抢修",
-            summary: " 9月19日消息，今日晚间，有网友在社交平台发帖表示，秦皇岛阿那亚突发大停电，园区多家酒店及主道路受到波及，逾3小时仍未恢复。",
-            source: "新浪科技",
-            date: "2026-09-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/chanjing/gsnews/2026-09-19/doc-inisktzu7287125.shtml"
-        },
-        {
-            title: "美军指挥官：霍尔木兹海峡石油运量创六个月新高",
-            summary: " 美军中央司令部司令布拉德·库珀上将表示，过去两周经由霍尔木兹海峡的石油与液化天然气运输量创下六个月新高，说明美军的海上保护与扫雷工作正在取得成效。",
+            title: "三星电子在美国举办科技论坛，分享人工智能相关战略",
+            summary: "三星电子周日表示，公司在美国举办第八届年度技术论坛，面向全球开发者分享自身人工智能技术与商业战略。 三星电子在新闻稿中称，约80名来自三星电子及全球信息技术企业的...",
             source: "环球市场播报",
-            date: "2026-09-19",
+            date: "2026-09-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisktzs9617811.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-20/doc-inismzve6743022.shtml"
         },
         {
-            title: "纳斯达克100指数季度再平衡落定 SpaceX权重将升至2.82%",
-            summary: "纳斯达克100指数季度再平衡将于周一生效，届时SpaceX在该指数中的权重将升至2.82%，较目前约1.28%的权重大幅提高。 这一最终权重是根据上周五收盘价计算得出...",
+            title: "报道：联想寻求出售卢森堡国际银行90%股权 估值或达25亿欧元",
+            summary: "媒体援引未具名知情人士报道，联想控股正与高盛合作，寻求出售所持卢森堡国际银行90%的股权。 初步报价预计将在本月底前后截止，对该行的估值可能达到约25亿欧元或更高。",
             source: "环球市场播报",
-            date: "2026-09-19",
+            date: "2026-09-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskptt2970689.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-20/doc-inismzux1577514.shtml"
         },
         {
-            title: "全球超级油轮短缺推高运费 长途原油贸易面临冲击",
-            summary: " 全球原油运输成本飙升，正令部分长距离原油贸易变得无利可图，并可能扰乱原油流向，而当前燃料市场的紧张程度前所未有。",
+            title: "Meta与谷歌押注新型清洁能源技术 以满足AI的电力需求",
+            summary: " 人工智能带来的电力需求暴涨，催生了数十亿美元的清洁能源投资，投资方向包括新一代地热发电与先进核反应堆。如今，各大云巨头又在加码另一项清洁技术：长时储能电池。",
             source: "环球市场播报",
-            date: "2026-09-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskptw7396928.shtml"
+            date: "2026-09-20",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-20/doc-inismzve6739947.shtml"
         },
         {
-            title: "SpaceX在纳斯达克100指数中的权重将达到2.82%",
-            summary: "随着纳斯达克100指数的季度调整于下周一生效，SpaceX在该指数中的权重将达到2.82%，较目前约1.28%的权重显著提升。 这一基于周五收盘价计算得出的最终数值...",
-            source: "环球市场播报",
-            date: "2026-09-19",
+            title: "“玉”见未来：华北新季玉米价格持续下跌，东北产区如何应对？",
+            summary: "卓创资讯玉米市场分析师李霞 【导语】8月下旬以来华北和东北地区的玉米价格走势出现明显分化：华北玉米价格因供应增加而下行，东北玉米价格则因减产预期和惜售情绪而反弹。...",
+            source: "市场资讯",
+            date: "2026-09-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskptw7396556.shtml"
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-09-20/doc-inismvpc2578633.shtml"
         },
         {
-            title: "巴菲特推进计划下一步，确保伯克希尔在他身后不走样",
-            summary: "沃伦·巴菲特正在推进他多年计划中的第三个重大步骤，逐步从伯克希尔·哈撒韦退出。这家公司曾是一家陷入困境的马萨诸塞州纺织制造商，他于1965年取得控制权...",
-            source: "环球市场播报",
-            date: "2026-09-19",
+            title: "三季度生猪产能去化加速，四季度或接近尾声",
+            summary: "卓创资讯生猪市场分析师朱泽坤 【导语】2026年生猪价格低迷，生猪养殖长期处于亏损状态，长期亏损压力下，养殖端于三季度开始加速淘汰母猪出栏...",
+            source: "市场资讯",
+            date: "2026-09-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskptr2230607.shtml"
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-09-20/doc-inismvpe9350585.shtml"
         },
         {
-            title: "英伟达5名高管披露持股变动：黄仁勋4.57万股用于缴税，CFO套现765万美元",
-            summary: "包括黄仁勋在内，5名英伟达高管合计出售16万股公司股票用以缴税。 当地时间9月18日，英伟达向美国证券交易委员会（SEC）提交的一份Form 4文件显示，9月16日...",
-            source: "澎湃新闻",
-            date: "2026-09-19",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-19/doc-iniskptr2230344.shtml"
+            title: "花旗：三一重工及中联重科均给予“买入”评级 目标价分别为29港元及8.9港元",
+            summary: "花旗发布研报称，三一重工（00631）、中联重科（01157）及恒立液压（601100.SH）于本周三（16日）分别调整约3%至7%，该行给予三一重工H股目标价29港元...",
+            source: "新浪港股",
+            date: "2026-09-20",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-20/doc-inismvph6817636.shtml"
+        },
+        {
+            title: "里昂：零跑汽车维持“跑赢大市”评级 目标价60港元",
+            summary: "里昂发布研报称，零跑汽车（09863）举行技术发布会，推出多项新技术，首批搭载相关技术的七款新车预计于2027年亮相。该行认为，公司一体化自研应可强化成本优势及产品差异...",
+            source: "新浪港股",
+            date: "2026-09-20",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-20/doc-inismvph6816693.shtml"
+        },
+        {
+            title: "富瑞：大家乐集团目标价上调至6.90港元 维持“买入”评级",
+            summary: "富瑞发布研报称，大家乐集团（00341）于2026下半财年展开多年期转型，目前执行进度符合计划，预期随着盈利能力改善，同店销售跌幅将会收窄...",
+            source: "新浪港股",
+            date: "2026-09-20",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-20/doc-inismvnz1652596.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-09-20",
         marketAssessment: "A股方面：上证指数报3911.87点（+0.94%），深证成指报13640.87点（+1.72%），创业板指报3372.68点（+2.25%）。美股方面：标普500报7,650.50（-0.08%），纳斯达克报26,522.54（+0.72%）。",
         hotSectors: [

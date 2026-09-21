@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3949.91", change: "+0.97%", market: "A股", updateTime: "2026-09-21 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13730.02", change: "+0.65%", market: "A股", updateTime: "2026-09-21 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3399.59", change: "+0.80%", market: "A股", updateTime: "2026-09-21 实时" },
-        { name: "沪深300", code: "SH000300", value: "4539.57", change: "+0.71%", market: "A股", updateTime: "2026-09-21 实时" },
-        { name: "科创50", code: "SH000688", value: "1657.48", change: "+0.29%", market: "A股", updateTime: "2026-09-21 实时" },
-        { name: "标普500", code: "SPX", value: "7,724.77", change: "+1.38%", market: "美股", updateTime: "2026-09-21 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,939.82", change: "+2.88%", market: "美股", updateTime: "2026-09-21 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,888.45", change: "-1.02%", market: "美股", updateTime: "2026-09-21 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3949.91", change: "+0.97%", market: "A股", updateTime: "2026-09-22 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13730.02", change: "+0.65%", market: "A股", updateTime: "2026-09-22 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3399.59", change: "+0.80%", market: "A股", updateTime: "2026-09-22 实时" },
+        { name: "沪深300", code: "SH000300", value: "4539.57", change: "+0.71%", market: "A股", updateTime: "2026-09-22 实时" },
+        { name: "科创50", code: "SH000688", value: "1657.48", change: "+0.29%", market: "A股", updateTime: "2026-09-22 实时" },
+        { name: "标普500", code: "SPX", value: "7,762.92", change: "+1.88%", market: "美股", updateTime: "2026-09-22 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,088.56", change: "+3.45%", market: "美股", updateTime: "2026-09-22 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,016.99", change: "-0.77%", market: "美股", updateTime: "2026-09-22 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "智能戒指厂商Oura及其投资方拟赴美IPO，募资最高22亿美元",
-            summary: "健康健身智能戒指制造商 Oura 公司及其部分投资方，计划通过首次公开募股（IPO）募集至多 22 亿美元资金。 这家智能戒指厂商产品可以监测心脏健康、运动活动...",
+            title: "特朗普将于周二会见丹麦和格陵兰领导人",
+            summary: "美国总统特朗普将于周二与丹麦首相和格陵兰总理会面，举行三方签署仪式。 三位领导人将正式签署特朗普此前宣布的安全协议。 此前，特朗普宣布与丹麦就格陵兰达成协议...",
             source: "环球市场播报",
-            date: "2026-09-21",
+            date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisrhfx5922720.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpv5871967.shtml"
         },
         {
-            title: "AMD市值突破1万亿美元，股价延续五日连涨",
-            summary: "Advanced Micro Devices（AMD）股价周一飙升，推动其股价创下历史新高，并首次突破1万亿美元市值关口。 股价盘中最高触及613.92美元，使公司市值略高于1万亿美元。",
+            title: "Meta势创1月以来最高收盘价 智能体Muse登上苹果应用商店榜首",
+            summary: "Meta Platforms股价周一大涨逾11%，因市场持续看好其AI智能体产品Muse。 Meta股价有望创下1月以来最高收盘水平。 Evercore ISI指出...",
             source: "环球市场播报",
-            date: "2026-09-21",
+            date: "2026-09-22",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpv5871394.shtml"
+        },
+        {
+            title: "美国联邦航空管理局解除对纽约拉瓜迪亚机场航班的地面停飞",
+            summary: "根据一份通知，美国联邦航空管理局（FAA）解除针对飞往纽约拉瓜迪亚机场航班的地面停飞措施。 此前，纽约地区三大机场因空管故障实施地面停飞措施。",
+            source: "环球市场播报",
+            date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisrhfx5919875.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpr7416797.shtml"
         },
         {
-            title: "传派拉蒙与华纳兄弟就合并诉讼达成和解，两家公司股价大涨",
-            summary: "事件概况 周一，华纳兄弟探索（WBD）与派拉蒙‑天空之舞（PSKY）股价分别上涨10%、5%。 行情驱动因素 据报道，派拉蒙与各州总检察长达成和解。",
+            title: "美国FAA列出针对纽约地区所有主要机场的地面停飞措施",
+            summary: "据美国联邦航空管理局（FAA）网站，FAA列出了针对飞往纽约地区所有主要机场航班的地面停飞措施。 FAA称，飞往拉瓜迪亚机场、肯尼迪和纽瓦克机场的出港航班受到影响。",
             source: "环球市场播报",
-            date: "2026-09-21",
+            date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisrhft7494956.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpx2564565.shtml"
         },
         {
-            title: "油价暴涨冲击中期选举票仓 留给共和党的时间所剩无几",
-            summary: " 美国共和党议员已经没有多少时间来安抚因物价问题而愤怒的选民，国会山上演相互推诿的最后一幕。很多人认为，该问题是共和党在中期选举中面临的最大政治隐患。",
+            title: "连续五个交易日上涨，AMD市值首次突破1万亿美元",
+            summary: "核心要点AMD 市值首次站上 1 万亿美元关口。这家芯片企业实现五连涨，期间股价累计涨幅约 24%。AMD 依旧大幅落后英伟达，后者市值约 5.4 万亿美元。",
             source: "环球市场播报",
-            date: "2026-09-21",
+            date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisrhft7493643.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpt9071513.shtml"
         },
         {
-            title: "迈克尔・塞勒旗下Strategy公司宣布增持比特币，股价应声大涨",
-            summary: "事件概况 这家比特币持仓企业周一早盘股价涨8.7%，此前公司披露上周继续购入比特币，同时回购了部分优先股。 受此提振，Strategy 股价年内转为正收益...",
+            title: "礼来CEO：三分之一新的GLP-1口服药患者正在服用Foundayo，制药商正加紧生产",
+            summary: " 礼来公司CEO戴夫·里克斯周一表示，三分之一新的GLP-1口服药患者正在服用该制药商的Foundayo。该公司正试图追赶竞争对手诺和诺德在该领域建立起的领先地位。",
             source: "环球市场播报",
-            date: "2026-09-21",
+            date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisrhft7493145.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpv5843363.shtml"
         },
         {
-            title: "科技股估值跌至OpenAI发布ChatGPT以来最低水平",
-            summary: "科技板块终于迎来估值机会。 特鲁伊斯特（Truist）首席投资官基思・勒纳指出，标普 500 指数科技板块的远期市盈率，已经从去年 10 月的 32 倍回落至约 21 倍。",
+            title: "欧洲股市创7月以来最大涨幅 能源价格回落缓解通胀担忧",
+            summary: " 欧洲股市录得两个多月来最大涨幅，油价和天然气价格回落缓解了通胀担忧，同时市场对本周中美元首峰会的乐观情绪也提振了风险偏好。",
             source: "环球市场播报",
-            date: "2026-09-21",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisrhft7492557.shtml"
+            date: "2026-09-22",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpx2559539.shtml"
         },
         {
-            title: "002723，控股股东提议罢免一董事",
-            summary: "9月21日，小崧股份（002723）一连抛出三份公告。其中，一份临时提案提到，控股股东嘉晟时代提议罢免董事徐驰。 提交罢免提案 撤回选举提案 公告显示，9月18日...",
-            source: "上海证券报",
-            date: "2026-09-21",
+            title: "油轮紧缺推高石油海运运费",
+            summary: "作者：马克・R・朗胡塞武装实施封锁|沙特东西输油管道遇袭|战争爆发；时间轴：2026 年 1 月‑9 月；单位：每日美元；航线：西非‑中国、美国墨西哥湾‑中国...",
+            source: "环球市场播报",
+            date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-21/doc-inisrhft7493036.shtml"
-        },
-        {
-            title: "OpenAI开发新功能对标Grok Bot，同时斟酌应对Meta的Muse",
-            summary: "OpenAI率先研发出可代用户操控浏览器及其他应用的人工智能，旗下ChatGPT应用也将生成式AI带给普通消费者。如今SpaceX、Meta等竞争对手持续突破技术边界...",
-            source: "环球市场播报",
-            date: "2026-09-21",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisrhfx5907399.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpr7396013.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-21",
-        marketAssessment: "A股方面：上证指数报3949.91点（+0.97%），深证成指报13730.02点（+0.65%），创业板指报3399.59点（+0.80%）。美股方面：标普500报7,724.77（+1.38%），纳斯达克报26,939.82（+2.88%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-22",
+        marketAssessment: "A股方面：上证指数报3949.91点（+0.97%），深证成指报13730.02点（+0.65%），创业板指报3399.59点（+0.80%）。美股方面：标普500报7,762.92（+1.88%），纳斯达克报27,088.56（+3.45%）。",
         hotSectors: [
-
+            { name: "其他医疗服务", reason: "板块涨幅+7.97%", strength: "强" },
+            { name: "房产租赁经纪", reason: "板块涨幅+7.35%", strength: "强" },
+            { name: "会展服务", reason: "板块涨幅+7.18%", strength: "强" },
+            { name: "宠物食品", reason: "板块涨幅+6.61%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "空调", reason: "板块跌幅-2.12%", strength: "弱" },
+            { name: "黄金", reason: "板块跌幅-1.51%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注其他医疗服务、房产租赁经纪、会展服务等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

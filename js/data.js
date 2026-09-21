@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3929.37", change: "+0.45%", market: "A股", updateTime: "2026-09-21 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13662.69", change: "+0.16%", market: "A股", updateTime: "2026-09-21 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3384.02", change: "+0.34%", market: "A股", updateTime: "2026-09-21 实时" },
-        { name: "沪深300", code: "SH000300", value: "4515.45", change: "+0.18%", market: "A股", updateTime: "2026-09-21 实时" },
-        { name: "科创50", code: "SH000688", value: "1644.95", change: "-0.46%", market: "A股", updateTime: "2026-09-21 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3949.91", change: "+0.97%", market: "A股", updateTime: "2026-09-21 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13730.02", change: "+0.65%", market: "A股", updateTime: "2026-09-21 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3399.59", change: "+0.80%", market: "A股", updateTime: "2026-09-21 实时" },
+        { name: "沪深300", code: "SH000300", value: "4539.57", change: "+0.71%", market: "A股", updateTime: "2026-09-21 实时" },
+        { name: "科创50", code: "SH000688", value: "1657.48", change: "+0.29%", market: "A股", updateTime: "2026-09-21 实时" },
         { name: "标普500", code: "SPX", value: "7,650.50", change: "-0.08%", market: "美股", updateTime: "2026-09-21 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,522.54", change: "+0.72%", market: "美股", updateTime: "2026-09-21 收盘" },
         { name: "道琼斯", code: "DJI", value: "51,682.64", change: "-1.69%", market: "美股", updateTime: "2026-09-21 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "印度股市连续四日上涨，跟随亚洲市场走高 银行股领涨",
-            summary: "受银行股上涨提振，叠加油价走低与大国会谈改善区域市场情绪，印度股市连续第四个交易日走高。 孟买证交所 Nifty 50 指数盘中最高上涨 0.3%...",
+            title: "油价连续四日下跌，供应担忧有所缓解",
+            summary: "欧洲早盘布伦特原油期货下跌 1.9%，西德克萨斯轻质原油下跌 2%霍尔木兹海峡附近船只通航情况好转，油价的风险溢价随之回落。 内容摘要 受霍尔木兹海峡航运恢复...",
             source: "环球市场播报",
             date: "2026-09-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqetz2202362.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqvrw5696326.shtml"
         },
         {
-            title: "国泰海通证券：滴普科技维持“增持”评级 目标价61.10港元",
-            summary: " 9月20日，国泰海通证券再度发布滴普科技（01384）研究报告，此次国泰海通继续维持“增持”评级，并坚定保留61.10港元目标价。",
-            source: "新浪港股",
+            title: "奥迪总部不认可AUDI车型？奥迪中国回应：系针对海外未经官方授权销售的进口商行为，而非对品牌不认可",
+            summary: " 新浪科技讯 9月21日下午消息，针对网上传闻的奥迪总部不认可AUDI车型一事，奥迪中国今日发布声明称，系针对海外未经官方授权销售的进口商行为，而非对品牌不认可。",
+            source: "新浪科技",
             date: "2026-09-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-21/doc-inisqeue5954715.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/it/2026-09-21/doc-inisqvsc5963262.shtml"
         },
         {
-            title: "中金：阿里健康维持“跑赢行业”评级 目标价下调30.8%至4.5港元",
-            summary: "中金发布研报称，考虑到保健品类表现波动及公司医学AI投入节奏，下调阿里健康（00241）2027FY及2028FY non-GAAP净利润预测6.6%/5.8%至21.78亿元和24.21亿元。",
-            source: "新浪港股",
+            title: "刘大一恒出任阿里Qwen大模型项目负责人，明日亮相云栖大会",
+            summary: "新浪科技讯 9月21日下午消息，2026云栖大会将于9月22日-24日于杭州举办，据阿里巴巴云栖大会官网嘉宾信息，阿里巴巴ATH事业群Token Foundry...",
+            source: "新浪科技",
             date: "2026-09-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-21/doc-inisqeua8969746.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/it/2026-09-21/doc-inisqvrz9190138.shtml"
         },
         {
-            title: "中金：太平洋航运维持“跑赢行业”评级 目标价上调33.5%至4.54港元",
-            summary: "中金发布研报称，考虑到近期运价好于该行预期，上调太平洋航运（02343）2026/2027年盈利37.1%/42.7%至2.41/2.57亿美元，当前股价对应11.4/10.7倍2026/2027年市盈率。",
-            source: "新浪港股",
-            date: "2026-09-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-21/doc-inisqeuf7899062.shtml"
-        },
-        {
-            title: "三星投资2400亿韩元在韩国光州建暖通空调生产线，计划2028年投产",
-            summary: "三星电子公司周一在韩国西南部城市光州举行了暖通空调（HVAC）生产线的奠基仪式。 该公司计划投资约2400亿韩元（约合1.73亿美元）...",
+            title: "花旗下调现代汽车目标价：韩元走强及成本上升压低盈利预期",
+            summary: "花旗下调现代汽车目标价，由55.9万韩元降至45.5万韩元，同时将估值所采用的市盈率倍数由约12倍下调至约10倍。花旗表示，考虑到韩元走强以及成本假设上升...",
             source: "环球市场播报",
             date: "2026-09-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqetz2196351.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqvrw5695347.shtml"
         },
         {
-            title: "中金：联想集团维持“跑赢行业”评级 目标价51港元",
-            summary: "中金发布研报称，维持联想集团（00992）FY27/28 non-HKFRS净利润预测40.6亿美元、49.8亿美元，维持“跑赢行业”评级及51.0港元目标价。",
-            source: "新浪港股",
-            date: "2026-09-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-21/doc-inisqetz2195639.shtml"
-        },
-        {
-            title: "T. Rowe一只基金今年来回报率已逾25% 瞄准AI供应链的大中华赢家",
-            summary: " T． Rowe Price旗下一只绩效顶尖的基金正加大对大中华区AI供应链中下游企业的押注，认定该区域的投资周期仍有空间追赶全球趋势。",
+            title: "欧洲芯片股周一早盘走高",
+            summary: " 格林尼治标准时间 08：12 — 欧洲半导体企业个股新周开盘全线上涨，延续上周五的上涨势头。近几日，资金持续追捧人工智能相关概念股。",
             source: "环球市场播报",
             date: "2026-09-21",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqeua8967670.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqvrz9186712.shtml"
         },
         {
-            title: "大和：招商银行首次覆盖给予“跑赢大市”评级 目标价56.3港元",
-            summary: "大和发布研报称，首次覆盖招商银行（03968），给予“跑赢大市”评级，目标价56.3港元。该行指出，招商银行是中国领先的零售银行，在其覆盖中的非利息收入占比最高...",
-            source: "新浪港股",
+            title: "瑞银维持苹果“中性”评级：iPhone 18 Pro初期需求表现偏弱",
+            summary: " 瑞银重申对苹果的“中性”评级，并维持296美元目标价。该行最新跟踪数据显示，自上周六开启预订以来，iPhone 18 Pro系列的初期需求表现相对平淡。",
+            source: "环球市场播报",
             date: "2026-09-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-21/doc-inisqetz2193361.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqvrz9186017.shtml"
+        },
+        {
+            title: "张又侠、刘振立严重违纪违法被开除党籍军籍",
+            summary: "新华社北京9月21日电 经中共中央、中央军委批准，中央军委纪委监委对中央政治局委员、中央军委副主席张又侠，中央军委委员、军委联合参谋部原参谋长刘振立2人立案审查调查...",
+            source: "新华社",
+            date: "2026-09-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-09-21/doc-inisqvsc5960032.shtml"
+        },
+        {
+            title: "德意志银行：美元跌势或将延续，外汇市场年底前料保持平稳",
+            summary: "德意志银行表示，尽管今年大宗商品价格和利率大幅波动，全球外汇市场整体仍保持相对平静，预计这一格局将持续至年底。 该行认为，美元兑部分亚洲货币仍将延续逐步走弱趋势...",
+            source: "环球市场播报",
+            date: "2026-09-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqriz7767445.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-21",
-        marketAssessment: "A股方面：上证指数报3929.37点（+0.45%），深证成指报13662.69点（+0.16%），创业板指报3384.02点（+0.34%）。美股方面：标普500报7,650.50（-0.08%），纳斯达克报26,522.54（+0.72%）。",
+        marketAssessment: "A股方面：上证指数报3949.91点（+0.97%），深证成指报13730.02点（+0.65%），创业板指报3399.59点（+0.80%）。美股方面：标普500报7,650.50（-0.08%），纳斯达克报26,522.54（+0.72%）。",
         hotSectors: [
 
         ],

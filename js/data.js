@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3952.13", change: "+0.06%", market: "A股", updateTime: "2026-09-22 实时" },
         { name: "深证成指", code: "SZ399001", value: "13723.74", change: "-0.05%", market: "A股", updateTime: "2026-09-22 实时" },
         { name: "创业板指", code: "SZ399006", value: "3399.93", change: "+0.01%", market: "A股", updateTime: "2026-09-22 实时" },
         { name: "沪深300", code: "SH000300", value: "4544.59", change: "+0.11%", market: "A股", updateTime: "2026-09-22 实时" },
         { name: "科创50", code: "SH000688", value: "1665.04", change: "+0.46%", market: "A股", updateTime: "2026-09-22 实时" },
-        { name: "标普500", code: "SPX", value: "7,764.70", change: "+1.90%", market: "美股", updateTime: "2026-09-22 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,122.09", change: "+3.57%", market: "美股", updateTime: "2026-09-22 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,048.83", change: "-0.71%", market: "美股", updateTime: "2026-09-22 收盘" },
+        { name: "标普500", code: "SPX", value: "7,771.96", change: "+2.46%", market: "美股", updateTime: "2026-09-22 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,122.09", change: "+4.39%", market: "美股", updateTime: "2026-09-22 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,256.14", change: "+0.31%", market: "美股", updateTime: "2026-09-22 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "油价转跌 霍尔木兹海峡外交前景牵动市场",
-            summary: "油价抹去早前涨幅，有报道称，如果美国解除对伊朗港口的封锁，伊朗可能重新开放霍尔木兹海峡。 布伦特原油跌向每桶99美元，此前四个交易日累计下跌近8%。",
+            title: "阿塞拜疆计划到2030年底将铝年产量提升至10万吨",
+            summary: " 阿塞拜疆总统伊利哈姆·阿利耶夫表示，阿塞拜疆计划通过一项旨在发展采矿业和冶金工业的新国家计划，到2030年底将铝年产量提升至10万吨，并建设多座工厂。",
             source: "环球市场播报",
             date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-22/doc-inissyrc5631232.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inistmez1846212.shtml"
         },
         {
-            title: "爱玛利润腰斩，新国标的账单可不太好付",
-            summary: "来源：翠鸟资本 文|翠鸟资本 上半年营收114.4亿元，同比下降12.21%，归母净利润6.65亿元，同比下降45.15%。 新国标切换的账单、以旧换新透支的需求、停不下来的价格战...",
-            source: "市场资讯",
-            date: "2026-09-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-22/doc-inissyqx6834782.shtml"
-        },
-        {
-            title: "虎鲸文娱发布AI影视制作与管理平台“鲸锐AI”",
-            summary: " 新浪科技讯 9月22日下午消息，在2026云栖大会“AI+文化传媒”技术发展论坛上，虎鲸文娱集团发布行业首个AI影视制作与管理平台“鲸锐AI”。",
-            source: "新浪科技",
-            date: "2026-09-22",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyqz8853699.shtml"
-        },
-        {
-            title: "入驻伙伴超1000家，千问宣布打造Personal Agent",
-            summary: "新浪科技讯 9月22日下午消息，在2026年云栖大会上，千问宣布将加速打造Personal Agent。千问产品负责人郑嗣寿表示，自去年上线以来，让每个人拥有自己的AI助理...",
-            source: "新浪科技",
-            date: "2026-09-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyqx6833193.shtml"
-        },
-        {
-            title: "诺和CEO释放并购信号，拟扩充药物研发管线",
-            summary: "核心要点诺和诺德首席执行官迈克・杜斯达尔在接受采访时表示，面对日趋激烈的行业竞争，公司正在考量各类并购机会。2026 年 2 月 11 日（周三），美国纽约...",
+            title: "猎鹰9号即将逐步退役，行业加紧寻找新的载荷发射途径",
+            summary: "记者迈卡・梅登伯格、贝基・彼得森报道，SpaceX 正在逐步退役全球发射频次最高的猎鹰 9 号火箭，集中资源发展新一代星舰，这让卫星和航天器寻找发射搭载机会变得愈发困难。...",
             source: "环球市场播报",
             date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissyrc5623427.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inistmex5577445.shtml"
         },
         {
-            title: "汇丰新人工智能模型预测一个月后美国收益率下行",
-            summary: "汇丰开发的全新机器学习模型DUSTIN（美国国债方向指标），坚定预判未来一个月美国国债收益率将走低。 托马斯·德夫林等分析师在周日发布的研报中写道：“近期国债曲线短端（3...",
+            title: "“这里没有副总裁、高级副总裁”，Hut 8 为何取消绝大多数传统职位头衔",
+            summary: "作者：艾伦・默里 上周，31 岁的阿斯赫・吉努特到访，令我颇有启发。他是 Hut 8 的首席执行官。这家企业原本建设比特币挖矿中心，如今转型建设 AI 数据中心...",
             source: "环球市场播报",
             date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissyrf1994970.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inistmet6681191.shtml"
         },
         {
-            title: "高盛：土耳其基金赎回资金转入里拉存款",
-            summary: "高盛集团分析师称，在赎回危机期间撤出货币市场基金的土耳其投资者，大概率将大部分储蓄转入里拉存款。 高盛经济学家克莱门斯·格拉费与巴萨克·埃迪兹吉尔于9月21日撰文表示...",
+            title: "亚马逊将Meta的Muse拒之门外",
+            summary: "Meta 全新推出的 Muse 智能体，一面收获不少用户青睐，一面也引来多方抵触。 电商平台 Shopify 首席执行官托比亚斯・吕特克在社交平台发文称...",
             source: "环球市场播报",
             date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-22/doc-inissyqx6830856.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inistmex5573469.shtml"
         },
         {
-            title: "软银重磅垃圾债发行交易据悉已吸引逾200亿美元初步认购需求",
-            summary: "据知情人士透露，软银集团势将进行的史上规模数一数二的垃圾债发行交易已吸引逾200亿美元的初步认购需求。投资者正争相锁定该交易可能提供的创纪录收益率...",
+            title: "AutoZone销售额实现增长，预计将延续进一步扩张态势",
+            summary: "内容摘要 AutoZone 公布财年第四季度利润 9.316 亿美元，折合每股 56.05 美元，超出分析师 54.08 美元的预期。 汽车零部件零售商 AutoZone 最新财季销售额实现增长...",
             source: "环球市场播报",
             date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissyqz8847531.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inistewv6809412.shtml"
+        },
+        {
+            title: "托尔工业准备迎接更多不利因素：购买力承压、原材料成本挤压公司毛利率",
+            summary: "内容摘要 托尔工业公布财年第四季度利润 4080 万美元，上年同期为 1.258 亿美元。 房车制造商托尔工业的 2026 财年处境艰难，公司表示，此前面临的诸多不利因素...",
+            source: "环球市场播报",
+            date: "2026-09-22",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inistewx8927265.shtml"
+        },
+        {
+            title: "万斯牵头专项工作组 拟清除76万涉嫌欺诈的奥巴马医保参保记录",
+            summary: " 美国副总统JD·万斯领导的反欺诈专项工作组，计划将数十万人从《平价医疗法案》公共医保交易平台剔除，称这些参保人不满足参保资格，或是参保身份根本不存在。",
+            source: "环球市场播报",
+            date: "2026-09-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-22/doc-inistewx8925106.shtml"
+        },
+        {
+            title: "途易上调盈利指引，度假游需求强劲，公司仍暂停发布营收指引",
+            summary: "内容摘要 德国旅游集团途易将全年息税前基础收益指引收窄至 12 亿‑13 亿欧元区间。 德国旅游集团途易下调了全年盈利指引区间，称度假业务需求旺盛...",
+            source: "环球市场播报",
+            date: "2026-09-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inistexc1969835.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-22",
-        marketAssessment: "A股方面：上证指数报3952.13点（+0.06%），深证成指报13723.74点（-0.05%），创业板指报3399.93点（+0.01%）。美股方面：标普500报7,764.70（+1.90%），纳斯达克报27,122.09（+3.57%）。",
+        marketAssessment: "A股方面：上证指数报3952.13点（+0.06%），深证成指报13723.74点（-0.05%），创业板指报3399.93点（+0.01%）。美股方面：标普500报7,771.96（+2.46%），纳斯达克报27,122.09（+4.39%）。",
         hotSectors: [
             { name: "燃料电池", reason: "板块涨幅+10.78%", strength: "强" },
             { name: "其他家电Ⅲ", reason: "板块涨幅+5.00%", strength: "强" },

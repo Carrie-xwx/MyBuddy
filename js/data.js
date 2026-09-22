@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3955.74", change: "+0.15%", market: "A股", updateTime: "2026-09-22 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13804.36", change: "+0.54%", market: "A股", updateTime: "2026-09-22 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3427.03", change: "+0.81%", market: "A股", updateTime: "2026-09-22 实时" },
-        { name: "沪深300", code: "SH000300", value: "4558.93", change: "+0.43%", market: "A股", updateTime: "2026-09-22 实时" },
-        { name: "科创50", code: "SH000688", value: "1681.33", change: "+1.44%", market: "A股", updateTime: "2026-09-22 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3952.13", change: "+0.06%", market: "A股", updateTime: "2026-09-22 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13723.74", change: "-0.05%", market: "A股", updateTime: "2026-09-22 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3399.93", change: "+0.01%", market: "A股", updateTime: "2026-09-22 实时" },
+        { name: "沪深300", code: "SH000300", value: "4544.59", change: "+0.11%", market: "A股", updateTime: "2026-09-22 实时" },
+        { name: "科创50", code: "SH000688", value: "1665.04", change: "+0.46%", market: "A股", updateTime: "2026-09-22 实时" },
         { name: "标普500", code: "SPX", value: "7,764.70", change: "+1.90%", market: "美股", updateTime: "2026-09-22 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "27,122.09", change: "+3.57%", market: "美股", updateTime: "2026-09-22 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,048.83", change: "-0.71%", market: "美股", updateTime: "2026-09-22 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "中金：波司登维持“跑赢行业”评级 目标价5.65港元",
-            summary: "中金发布研报称，维持波司登（03998）FY27/28盈利预测43/46亿元不变，当前股价对应FY27/28 9/9倍市盈率。维持跑赢行业评级和目标价5.65港元不变...",
-            source: "新浪港股",
-            date: "2026-09-22",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-22/doc-inisspzm2146809.shtml"
-        },
-        {
-            title: "小摩：哔哩哔哩-W重申为数码娱乐板块首选 给予“增持”评级",
-            summary: "摩根大通发布研报称，哔哩哔哩-W（09626）的Lumi Master全球上市表现符合预期，相信正在达到估计全年10亿至15亿元人民币流水的轨道上，重申该股为数码娱乐板块首选...",
-            source: "新浪港股",
-            date: "2026-09-22",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-22/doc-inisspzi5656611.shtml"
-        },
-        {
-            title: "高盛：小米集团-W维持“买入”评级 12个月目标价39港元",
-            summary: "高盛发布研报称，维持小米集团-W（01810）“买入”评级，12个月目标价39港元。小米旗下MiMo于数日前开始公开直播MiMo-V2.6 RL（强化学习）过程，V2.6-Flash及V2...",
-            source: "新浪港股",
-            date: "2026-09-22",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-22/doc-inisspzi5654275.shtml"
-        },
-        {
-            title: "小摩：招商证券维持“增持”评级 目标价上调至21港元",
-            summary: "摩根大通发布研报称，将招商证券（06099）H股目标价由20.5港元轻微上调至21港元，维持“增持”评级。该行认为，招商证券将在第三季度业绩期前迎来重新评估长鑫科技（CXMT）（...",
-            source: "新浪港股",
-            date: "2026-09-22",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-22/doc-inisspzc6980262.shtml"
-        },
-        {
-            title: "花旗：维持澳门9月赌收180亿澳门元预测 10月盛事连场赌收复苏在望",
-            summary: "花旗发布研报称，维持2026年9月澳门赌收预测不变，为180亿澳门元，同比跌2%，意味9月余下日子日均赌收约5.8亿澳门元。根据业界消息，澳门9月首20日赌收料达约122亿澳门元...",
-            source: "新浪港股",
-            date: "2026-09-22",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-22/doc-inisspzm2143488.shtml"
-        },
-        {
-            title: "瑞银：赣锋锂业重申“买入”评级 目标价下调至44.28港元",
-            summary: "瑞银发布研报称，将赣锋锂业（01772）目标价由106.86港元下调至44.28港元，重申“买入”评级。继该行全球大宗商品团队下调全球锂价假设后...",
-            source: "新浪港股",
-            date: "2026-09-22",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-22/doc-inisspzf8879109.shtml"
-        },
-        {
-            title: "印尼一个主要镍加工中心据悉将减产 因厄尔尼诺现象导致供水减少",
-            summary: " 据知情人士称，由于厄尔尼诺现象引发的干旱导致用于冷却和保护设备的水供应减少，印尼一个主要镍加工中心的冶炼厂将被迫削减产量。",
+            title: "油价转跌 霍尔木兹海峡外交前景牵动市场",
+            summary: "油价抹去早前涨幅，有报道称，如果美国解除对伊朗港口的封锁，伊朗可能重新开放霍尔木兹海峡。 布伦特原油跌向每桶99美元，此前四个交易日累计下跌近8%。",
             source: "环球市场播报",
             date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisspzm2142854.shtml"
+            url: "https://finance.sina.com.cn/world/2026-09-22/doc-inissyrc5631232.shtml"
         },
         {
-            title: "厄尔尼诺引发干旱，印尼镍产业中心减产",
-            summary: "据知情人士透露，受厄尔尼诺现象引发的干旱影响，设备冷却与防护用水供应减少，印尼一处主要镍加工中心的冶炼厂将被迫减产。知情人士称...",
+            title: "爱玛利润腰斩，新国标的账单可不太好付",
+            summary: "来源：翠鸟资本 文|翠鸟资本 上半年营收114.4亿元，同比下降12.21%，归母净利润6.65亿元，同比下降45.15%。 新国标切换的账单、以旧换新透支的需求、停不下来的价格战...",
+            source: "市场资讯",
+            date: "2026-09-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-22/doc-inissyqx6834782.shtml"
+        },
+        {
+            title: "虎鲸文娱发布AI影视制作与管理平台“鲸锐AI”",
+            summary: " 新浪科技讯 9月22日下午消息，在2026云栖大会“AI+文化传媒”技术发展论坛上，虎鲸文娱集团发布行业首个AI影视制作与管理平台“鲸锐AI”。",
+            source: "新浪科技",
+            date: "2026-09-22",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyqz8853699.shtml"
+        },
+        {
+            title: "入驻伙伴超1000家，千问宣布打造Personal Agent",
+            summary: "新浪科技讯 9月22日下午消息，在2026年云栖大会上，千问宣布将加速打造Personal Agent。千问产品负责人郑嗣寿表示，自去年上线以来，让每个人拥有自己的AI助理...",
+            source: "新浪科技",
+            date: "2026-09-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyqx6833193.shtml"
+        },
+        {
+            title: "诺和CEO释放并购信号，拟扩充药物研发管线",
+            summary: "核心要点诺和诺德首席执行官迈克・杜斯达尔在接受采访时表示，面对日趋激烈的行业竞争，公司正在考量各类并购机会。2026 年 2 月 11 日（周三），美国纽约...",
             source: "环球市场播报",
             date: "2026-09-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisspzm2141678.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissyrc5623427.shtml"
+        },
+        {
+            title: "汇丰新人工智能模型预测一个月后美国收益率下行",
+            summary: "汇丰开发的全新机器学习模型DUSTIN（美国国债方向指标），坚定预判未来一个月美国国债收益率将走低。 托马斯·德夫林等分析师在周日发布的研报中写道：“近期国债曲线短端（3...",
+            source: "环球市场播报",
+            date: "2026-09-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissyrf1994970.shtml"
+        },
+        {
+            title: "高盛：土耳其基金赎回资金转入里拉存款",
+            summary: "高盛集团分析师称，在赎回危机期间撤出货币市场基金的土耳其投资者，大概率将大部分储蓄转入里拉存款。 高盛经济学家克莱门斯·格拉费与巴萨克·埃迪兹吉尔于9月21日撰文表示...",
+            source: "环球市场播报",
+            date: "2026-09-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-22/doc-inissyqx6830856.shtml"
+        },
+        {
+            title: "软银重磅垃圾债发行交易据悉已吸引逾200亿美元初步认购需求",
+            summary: "据知情人士透露，软银集团势将进行的史上规模数一数二的垃圾债发行交易已吸引逾200亿美元的初步认购需求。投资者正争相锁定该交易可能提供的创纪录收益率...",
+            source: "环球市场播报",
+            date: "2026-09-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissyqz8847531.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-22",
-        marketAssessment: "A股方面：上证指数报3955.74点（+0.15%），深证成指报13804.36点（+0.54%），创业板指报3427.03点（+0.81%）。美股方面：标普500报7,764.70（+1.90%），纳斯达克报27,122.09（+3.57%）。",
+        marketAssessment: "A股方面：上证指数报3952.13点（+0.06%），深证成指报13723.74点（-0.05%），创业板指报3399.93点（+0.01%）。美股方面：标普500报7,764.70（+1.90%），纳斯达克报27,122.09（+3.57%）。",
         hotSectors: [
-            { name: "燃料电池", reason: "板块涨幅+17.63%", strength: "强" },
-            { name: "房产租赁经纪", reason: "板块涨幅+5.20%", strength: "强" },
-            { name: "其他家电Ⅲ", reason: "板块涨幅+5.08%", strength: "强" },
-            { name: "其他家电Ⅱ", reason: "板块涨幅+5.08%", strength: "强" },
+            { name: "燃料电池", reason: "板块涨幅+10.78%", strength: "强" },
+            { name: "其他家电Ⅲ", reason: "板块涨幅+5.00%", strength: "强" },
+            { name: "其他家电Ⅱ", reason: "板块涨幅+5.00%", strength: "强" },
+            { name: "广告媒体", reason: "板块涨幅+4.20%", strength: "强" },
         ],
         weakSectors: [
-            { name: "涂料", reason: "板块跌幅-5.34%", strength: "弱" },
-            { name: "航运", reason: "板块跌幅-2.52%", strength: "弱" },
+            { name: "涂料", reason: "板块跌幅-5.79%", strength: "弱" },
+            { name: "橡胶助剂", reason: "板块跌幅-2.82%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注燃料电池、房产租赁经纪、其他家电Ⅲ等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注燃料电池、其他家电Ⅲ、其他家电Ⅱ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-24 实时" },
         { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-24 实时" },
         { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-24 实时" },
         { name: "沪深300", code: "SH000300", value: "4439.14", change: "-1.73%", market: "A股", updateTime: "2026-09-24 实时" },
         { name: "科创50", code: "SH000688", value: "1621.87", change: "-2.35%", market: "A股", updateTime: "2026-09-24 实时" },
-        { name: "标普500", code: "SPX", value: "7,706.03", change: "+2.04%", market: "美股", updateTime: "2026-09-24 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,936.04", change: "+3.69%", market: "美股", updateTime: "2026-09-24 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,511.59", change: "+0.10%", market: "美股", updateTime: "2026-09-24 收盘" },
+        { name: "标普500", code: "SPX", value: "7,679.84", change: "+0.55%", market: "美股", updateTime: "2026-09-24 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,794.99", change: "+1.43%", market: "美股", updateTime: "2026-09-24 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,296.64", change: "-0.93%", market: "美股", updateTime: "2026-09-24 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "阿达尼集团计划到2035年在孟加拉邦投资超1万亿卢比",
-            summary: "亿万富翁高塔姆·阿达尼表示，其集团预计到2035年，将在印度西孟加拉邦投资超过1万亿卢比（折合104亿美元），投资领域涵盖港口、物流、发电、输电与配电、道路、桥梁...",
+            title: "Oracle就“木星计划”触发不可抗力条款，2.45GW数据中心遭遇供电瓶颈",
+            summary: "Oracle已就其位于美国新墨西哥州的大型人工智能数据中心项目“木星计划”（Project Jupiter）向项目开发商发出不可抗力通知，为项目若无法按计划于2028年投运时暂停部分付款...",
             source: "环球市场播报",
             date: "2026-09-24",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxnuv5199960.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkt8144762.shtml"
         },
         {
-            title: "沙特大举出售1亿桶原油，缓解亚洲石油紧缺",
-            summary: "知情交易员称，自上周中旬起，沙特阿拉伯已向亚洲买家售出近1亿桶原油，帮助化解亚洲迫在眉睫的石油供应紧张局面。 不愿具名的交易员表示，这批10月...",
+            title: "Delivery Hero首席执行官在Uber收购交易后改变离职计划",
+            summary: " Delivery Hero首席执行官尼克拉斯·厄斯特伯格将留任，带领这家德国外卖集团完成向Uber的出售交易，推翻了四个月前在股东多年压力下宣布的离职计划。",
             source: "环球市场播报",
             date: "2026-09-24",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-24/doc-inisxnuv5199511.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkx0200034.shtml"
         },
         {
-            title: "央行：规范信贷市场经营行为，降低融资中间费用，促进社会综合融资成本低位运行",
-            summary: "中国人民银行货币政策委员会召开2026年第三季度例会 中国人民银行货币政策委员会2026年第三季度（总第114次）例会于9月19日召开。",
-            source: "央行",
-            date: "2026-09-24",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/china/2026-09-24/doc-inisxnvc0363286.shtml"
-        },
-        {
-            title: "150亿美元期权即将到期 比特币多头关注下一阶段行情",
-            summary: " 交易员在寻找线索以确定比特币上涨行情是否能持续，眼下他们的关注点转向衍生品市场中一个不容错过的事件：价值约150亿美元的期权合约季度到期日。",
+            title: "劳氏日报分析：美国限制柴油出口或重塑全球油轮市场",
+            summary: "美国若限制柴油出口，可能成为今年全球油轮市场又一次重大冲击。《劳氏日报》分析认为，由于美国目前供应全球近五分之一的海运柴油...",
             source: "环球市场播报",
             date: "2026-09-24",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxnvc0359063.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkr5035983.shtml"
         },
         {
-            title: "美国据悉拟推动美元稳定币海外使用 以巩固美元地位并提振美债需求",
-            summary: "据知情人士透露，美国政府正考虑推出一项倡议，促进美元计价稳定币在海外的使用，以巩固美元作为全球储备货币的地位。 知情人士表示...",
+            title: "开盘：美债收益率走高，主要股指低开，甲骨文领跌纳指",
+            summary: "周四美国主要股指走低。通胀担忧与美债收益率上行带来的压力，盖过了市场对中东外交局势缓和以及人工智能热潮延续的乐观预期。交易员普遍预期美联储将进一步加息。",
+            source: "环球市场播报",
+            date: "2026-09-24",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkt8142634.shtml"
+        },
+        {
+            title: "美国银行维持Meta买入评级，Muse商业化路径逐渐清晰",
+            summary: "美国银行在Meta举行Connect 2026大会后继续给予公司“买入”评级，并维持810美元目标价。该行认为，Meta新推出的个人AI助手Muse正在成为公司消费级AI战略的核心产品...",
             source: "环球市场播报",
             date: "2026-09-24",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-24/doc-inisxnuv5195503.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkx0195712.shtml"
         },
         {
-            title: "瑞士暂维持利率0%不变",
-            summary: " 核心要点 瑞士国家银行（SNB）将关键政策利率维持在 0%。瑞士 8 月通胀率为 0.8%，仍落在央行 0%‑2% 的通胀目标区间之内。",
-            source: "环球市场播报",
-            date: "2026-09-24",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxnvc0358109.shtml"
-        },
-        {
-            title: "卡塔尔增加液化天然气经霍尔木兹海峡外运量，全球天然气短缺加剧",
-            summary: " 卡塔尔提升液化天然气油轮经霍尔木兹海峡的通行规模，达到两个多月以来最高，表明该国对船舶通行这条水道的信心有所回升。",
+            title: "马斯克被提议作为华纳-派拉蒙并购案投资方 或将进入CNN与CBS新闻的运营财团",
+            summary: "最新报道称，在派拉蒙与华纳兄弟探索公司的并购交易即将落地之际，埃隆·马斯克被视作派拉蒙潜在投资方。 资讯平台Semafor周三援引知情人士消息：为巩固这家传媒公司的财务...",
             source: "环球市场播报",
             date: "2026-09-24",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-24/doc-inisxnuv5194789.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkv4904515.shtml"
         },
         {
-            title: "交易清单外泄之后 摩根士丹利急忙控制事件影响",
-            summary: " 在一份交易清单外泄之后，摩根士丹利急忙采取行动遏制损失，已经有一些对手机构的银行家在权衡可以如何利用此次事件，而且至少有两家监管机构开始研判潜在后果。",
+            title: "将AI数据中心竞赛推向太空？谷歌下周将把实验卫星送入轨道",
+            summary: "下周四，谷歌将把一颗实验卫星送入轨道。这颗卫星具备足够算力，可从太空应答简单的人工智能查询请求。 上月，在旧金山一处实验室里，身着防护服...",
             source: "环球市场播报",
             date: "2026-09-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxnuz4984144.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkr5030468.shtml"
+        },
+        {
+            title: "Google、OpenAI和Anthropic筹建AI安全自律机构，拟为前沿模型制定统一标准",
+            summary: "Google、OpenAI和Anthropic正在推进成立一个新的AI安全标准机构，希望在缺乏新的政府监管框架之际，由行业自行建立针对最先进AI模型的测试、安全和事故报告规则。",
+            source: "环球市场播报",
+            date: "2026-09-24",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkv4898399.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-24",
-        marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,706.03（+2.04%），纳斯达克报26,936.04（+3.69%）。",
+        marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,679.84（+0.55%），纳斯达克报26,794.99（+1.43%）。",
         hotSectors: [
             { name: "林业Ⅲ", reason: "板块涨幅+5.83%", strength: "强" },
             { name: "林业Ⅱ", reason: "板块涨幅+5.83%", strength: "强" },
@@ -775,8 +775,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "其他家电Ⅲ", reason: "板块涨幅+4.24%", strength: "强" },
         ],
         weakSectors: [
-            { name: "白银", reason: "板块跌幅-4.83%", strength: "弱" },
-            { name: "印制电路板", reason: "板块跌幅-4.74%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
         shortTermStrategy: "超短线关注林业Ⅲ、林业Ⅱ、其他医疗服务等板块的延续性，顺势操作，严格止损。",

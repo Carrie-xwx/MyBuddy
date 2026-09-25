@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-25 实时" },
         { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-25 实时" },
         { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-25 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "高盛逆转看空日元立场 上调日元兑美元12个月目标位至150",
-            summary: " 高盛预计，未来12个月日元兑美元将升至150，逆转了7月采取的看跌立场。高盛认为日本国内政策转变以及资金可能回流日本，改善了日元前景。",
+            title: "咨询业高管称：企业尚未看到AI带来投资回报",
+            summary: "有一个现象值得关注。咨询公司安永（EY）的数据显示，企业使用 AI 至今，仍未获得可观的营收增长或者成本缩减。 “我还没有遇到哪家客户说打算削减 AI 投入...",
+            source: "环球市场播报",
+            date: "2026-09-25",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszvzv7639565.shtml"
+        },
+        {
+            title: "空客提出资产剥离方案，以争取布鲁塞尔方面支持其太空业务合并",
+            summary: " 欧洲航空航天集团空客正在讨论出售部分资产，以缓解其拟与莱昂纳多（Leonardo）和泰雷兹（Thales）进行太空业务合并所引发的竞争担忧。",
             source: "环球市场播报",
             date: "2026-09-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszmne9580919.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszvzx4409629.shtml"
         },
         {
-            title: "诺和诺德与瑞典Nanexa签署价值11.65亿欧元药物技术合作协议",
-            summary: "瑞典原子层沉积技术企业Nanexa发布声明称，已与诺和诺德达成一项最高金额可达11.65亿欧元的药物技术合作协议。 诺和诺德获得Nanexa原子层沉积（ALD）药物递送技术平台的全...",
+            title: "Tether一家银行合作伙伴卷入美国政府资产扣押事件",
+            summary: "美国政府扣押一家加州公司的银行账户资产，暴露Tether仍依赖不稳定金融中介进行交易的风险 表面上看，全球最大的稳定币发行商 Tether...",
             source: "环球市场播报",
             date: "2026-09-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszfef4635946.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtz4539814.shtml"
         },
         {
-            title: "印度允许规模4630亿美元的财富类基金出海投资",
-            summary: " 印度市场监管机构将实施全面规则修订，首次允许面向高净值人群、规模达4630亿美元的投资组合管理行业投资海外证券，并可做空股票期权。",
+            title: "亚马逊推出工具，支持商家管理沃尔玛、Shopify 平台库存",
+            summary: "亚马逊表示，其平台 95% 的独立卖家会在多个渠道同时开展销售。 亚马逊在周四的年度卖家大会上宣布：入驻亚马逊的商家，现在可以使用亚马逊软件工具...",
             source: "环球市场播报",
             date: "2026-09-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszfcz4545335.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrua9540215.shtml"
         },
         {
-            title: "中通快递-W于9月24日斥资约341.77万美元回购约17.47万股",
-            summary: " 中通快递-W（02057）发布公告，于2026年9月24日该公司斥资约341.77万美元回购约17.47万股，回购价格为每股19.45至19.85美元。",
-            source: "新浪港股",
+            title: "OpenAI前数据中心负责人现已入职英伟达",
+            summary: "克里斯・马龙曾是 OpenAI 核心高管，主导公司大规模数据中心建设工作。 领英个人资料显示，OpenAI 前数据中心负责人克里斯・马龙已于本月加入英伟达...",
+            source: "环球市场播报",
             date: "2026-09-25",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-25/doc-iniszfeh9704615.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtx7766741.shtml"
         },
         {
-            title: "港龙中国地产前8个月合同销售金额约9.045亿元 同比减少74.89%",
-            summary: " 港龙中国地产（06968）发布公告，本公司及其附属公司（本集团），连同其合营公司和联营公司由2026年1月至8月共实现合同销售金额约人民币9.045亿元，同比减少74.89%。",
-            source: "新浪港股",
+            title: "纽约州起诉Polymarket，指控其涉嫌非法赌博",
+            summary: "这起诉讼是该州针对预测市场发起的又一轮监管斗争，此前纽约州已经起诉竞争对手初创企业 Kalshi 等机构。 纽约州已经对 Polymarket 提起诉讼...",
+            source: "环球市场播报",
             date: "2026-09-25",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-25/doc-iniszfcz4544908.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtx7762326.shtml"
         },
         {
-            title: "名创优品于9月24日斥资约20.62万美元回购约9.24万股",
-            summary: " 名创优品（09896）发布公告，于2026年9月24日该公司斥资约20.62万美元回购约9.24万股，回购价格为每股2.2175至2.24美元。",
-            source: "新浪港股",
+            title: "罗永浩谈交个朋友“溜溜凳”风波：处理没啥大问题，东方甄选是同款产品最大代销商",
+            summary: " 新浪科技讯 9月25日下午消息，近日，交个朋友直播间因售卖劣质溜溜凳引发舆论风波。今日，罗永浩通过微博公开发声，回应本次质量事件。",
+            source: "新浪科技",
             date: "2026-09-25",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-25/doc-iniszfcz4544465.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tob/2026-09-25/doc-iniszrtv4377991.shtml"
         },
         {
-            title: "吉利汽车因认股权获行使而发行5000股",
-            summary: " 吉利汽车（00175）发布公告，于2026年9月25日因本集团雇员根据认股权计划（于2023年4月28日获采纳）行使认股权而发行5000股普通股股份。",
-            source: "新浪港股",
+            title: "泽连斯基：美国提议在阿联酋举行新一轮美乌俄三方会谈",
+            summary: "乌克兰总统泽连斯基表示，美国提议在阿联酋举行乌克兰、俄罗斯和美国之间新一轮技术层面的三方和平谈判。 泽连斯基在答问中表示，美方是在本周纽约联合国大会期间举行的美...",
+            source: "环球市场播报",
             date: "2026-09-25",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-25/doc-iniszfef4628606.shtml"
-        },
-        {
-            title: "保诚于9月24日斥资约742.65万英镑回购约78.24万股",
-            summary: "保诚（02378）发布公告，于2026年9月24日该公司斥资约742.65万英镑回购约78.24万股。",
-            source: "新浪港股",
-            date: "2026-09-25",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-25/doc-iniszfef4627922.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrua9534169.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-25",
         marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,704.13（+0.87%），纳斯达克报26,939.37（+1.97%）。",
         hotSectors: [

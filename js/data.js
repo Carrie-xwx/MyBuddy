@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-25 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-25 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-25 实时" },
-        { name: "沪深300", code: "SH000300", value: "4439.14", change: "-1.73%", market: "A股", updateTime: "2026-09-25 实时" },
-        { name: "科创50", code: "SH000688", value: "1621.87", change: "-2.35%", market: "A股", updateTime: "2026-09-25 实时" },
-        { name: "标普500", code: "SPX", value: "7,729.40", change: "+1.03%", market: "美股", updateTime: "2026-09-25 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,063.93", change: "+2.04%", market: "美股", updateTime: "2026-09-25 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,593.97", change: "-0.17%", market: "美股", updateTime: "2026-09-25 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-26 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-26 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-26 实时" },
+        { name: "沪深300", code: "SH000300", value: "4439.14", change: "-1.73%", market: "A股", updateTime: "2026-09-26 实时" },
+        { name: "科创50", code: "SH000688", value: "1621.87", change: "-2.35%", market: "A股", updateTime: "2026-09-26 实时" },
+        { name: "标普500", code: "SPX", value: "7,742.47", change: "+1.20%", market: "美股", updateTime: "2026-09-26 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,091.35", change: "+2.14%", market: "美股", updateTime: "2026-09-26 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,761.66", change: "+0.15%", market: "美股", updateTime: "2026-09-26 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "受片山皋月言论提振 日元涨幅扩大至逾1%",
-            summary: " 日元在纽约早盘延续涨势，日内升幅超过1%。此前日本财务大臣片山皋月表示，市场对日元疲软存在误解，日元过度抛售可能得到纠正。",
+            title: "美国财长贝森特与日本财务大臣片山皋月讨论强势日元的“可取性”",
+            summary: "美国财政部长斯科特·贝森特表示，他最近与日本财务大臣片山皋月沟通时，讨论了强势日元的“可取性”。 “我们讨论了强势日元的可取性，因为这能反映日本经济基本面强劲...",
             source: "环球市场播报",
-            date: "2026-09-25",
+            date: "2026-09-26",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-initaair4192593.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxr4215531.shtml"
         },
         {
-            title: "油价连涨两日后略有回落 美伊据悉探索分阶段协议",
-            summary: "随着美国和伊朗谈判人员探讨分阶段重新开放全球最重要能源航运通道的协议，油价小幅回落。 布伦特原油期货在每桶105美元附近交投...",
+            title: "美国30年期国债收益率突破5.5% 技术位缺失令市场陷入“真空”",
+            summary: "在经历了惨烈一周后，美国30年期国债收益率在周五创下多年新高，此前公布的一项消费者信心指标高于经济学家的预期。 30年期国债收益率周四已升至2004年以来最高水平...",
             source: "环球市场播报",
-            date: "2026-09-25",
+            date: "2026-09-26",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-initaaiv4400962.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxp7442644.shtml"
         },
         {
-            title: "高盛料明年超大规模云服务商AI资本支出增长逾50%至1.2万亿美元",
-            summary: "高盛集团策略师预计，美国五大超大规模云服务商明年在AI基础设施方面的支出将增长逾50%，达到1.2万亿美元。 Ryan Hammond领衔的团队在一份报告中表示...",
+            title: "特斯拉Optimus 机器人扩产遇阻：手部结构与供应链接连出问题",
+            summary: "近几个月，特斯拉 Optimus 人形机器人产量提升约十倍，但公司依旧难以实现稳定规模化生产。据熟悉该项目的知情人士透露，生产线正面临机器人精密手部...",
             source: "环球市场播报",
-            date: "2026-09-25",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-initaaiv4400238.shtml"
-        },
-        {
-            title: "开盘：主要股指小幅走高，阿卡迈领涨科技板块",
-            summary: "美债收益率飙升在金融市场掀起连锁反应，华尔街即将结束一周震荡行情，周五美国主要股指小幅走高。 道指涨0.10%，标普500指数涨0.05%，纳指涨0.15%。",
-            source: "环球市场播报",
-            date: "2026-09-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-initaaiv4396807.shtml"
-        },
-        {
-            title: "开市客公布75亿美元大规模扩张计划",
-            summary: "在又一个业绩亮眼的财季过后，仓储会员店开市客（Costco Wholesale）公布 2027 财年 75 亿美元资本开支方案，加速推进业务扩张。",
-            source: "环球市场播报",
-            date: "2026-09-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-initaaiw9343748.shtml"
-        },
-        {
-            title: "特斯拉Optimus机器人量产遇阻：手部结构、供应链问题凸显，扩产进程启动",
-            summary: " 知情人士透露，近几个月特斯拉Optimus人形机器人产量提升约10倍，但公司仍难以实现稳定规模化量产。产线正面临机器人精密手部组件、自动化设备以及供应链受限等多重难题。",
-            source: "环球市场播报",
-            date: "2026-09-25",
+            date: "2026-09-26",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-initaaiw9343490.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxp7441378.shtml"
         },
         {
-            title: "阿卡迈拿下116亿美元Anthropic大单，股价大幅飙升",
-            summary: " 周四，阿卡迈技术公司宣布与人工智能巨头 Anthropic 签订一份价值 116 亿美元、为期七年的合作合约，公司盘前交易阶段股价最高上涨 20%。",
+            title: "欧洲债市：德国30年期国债收益率攀升至2011年以来最高",
+            summary: " 德国长期国债与大多数欧元区国家长期国债一道大幅下跌，受到美国国债走低的带动，此前密歇根大学9月份消费者信心指数终值被上修。",
             source: "环球市场播报",
-            date: "2026-09-25",
+            date: "2026-09-26",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-initaair4182748.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxs9130107.shtml"
         },
         {
-            title: "老铺黄金最大门店亮相上海恒隆",
-            summary: "9月25日消息，老铺黄金上海恒隆广场新门店正式亮相。新门店位于恒隆广场二层核心区，面积超过350平方米，是老铺黄金国内面积最大的门店...",
-            source: "新浪财经",
-            date: "2026-09-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tob/2026-09-25/doc-initaaiv4373700.shtml"
+            title: "Seaport对英伟达、博通持“谨慎”观点",
+            summary: "Seaport 认为，受产能约束与行业竞争加剧影响，GPU 龙头英伟达股价上行空间有限。 Seaport 分析师杰伊・戈德堡在周四研报中写道：“我们对 NVDA 维持谨慎态度。",
+            source: "环球市场播报",
+            date: "2026-09-26",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxm3970152.shtml"
+        },
+        {
+            title: "阿波罗首席经济学家：美联储可能忽视了柴油价格飙升带来的通胀威胁",
+            summary: " 阿波罗全球管理首席经济学家Torsten Slok警告称，创纪录的柴油价格带来的通胀威胁可能比美联储所意识到的更大，因为相关燃料成本会传导至核心消费者价格指数（CPI）。",
+            source: "环球市场播报",
+            date: "2026-09-26",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxm3970057.shtml"
+        },
+        {
+            title: "凯茜・伍德称全球实际GDP增速有望突破 7%",
+            summary: " 方舟投资（ARK Invest）首席执行官凯茜・伍德周五做客节目《Squawk Box》时表示，未来数年，技术进步或将推动全球实际国内生产总值实现远高于以往的增速。",
+            source: "环球市场播报",
+            date: "2026-09-26",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxm3969728.shtml"
+        },
+        {
+            title: "通胀预期抬升，9月消费者信心大幅下挫",
+            summary: "9 月消费者信心显著走弱，不过密歇根大学最新调查的月末最终读数略好于市场预期。 密歇根大学消费者信心指数最终报48.1 点，较 8 月下滑...",
+            source: "环球市场播报",
+            date: "2026-09-26",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initanxr4206882.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-25",
-        marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,729.40（+1.03%），纳斯达克报27,063.93（+2.04%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-26",
+        marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,742.47（+1.20%），纳斯达克报27,091.35（+2.14%）。",
         hotSectors: [
-            { name: "林业Ⅲ", reason: "板块涨幅+5.83%", strength: "强" },
-            { name: "林业Ⅱ", reason: "板块涨幅+5.83%", strength: "强" },
-            { name: "其他医疗服务", reason: "板块涨幅+4.29%", strength: "强" },
-            { name: "其他家电Ⅲ", reason: "板块涨幅+4.24%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "白银", reason: "板块跌幅-4.83%", strength: "弱" },
-            { name: "印制电路板", reason: "板块跌幅-4.74%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注林业Ⅲ、林业Ⅱ、其他医疗服务等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

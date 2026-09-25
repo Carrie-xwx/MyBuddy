@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-25 实时" },
         { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-25 实时" },
         { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-25 实时" },
         { name: "沪深300", code: "SH000300", value: "4439.14", change: "-1.73%", market: "A股", updateTime: "2026-09-25 实时" },
         { name: "科创50", code: "SH000688", value: "1621.87", change: "-2.35%", market: "A股", updateTime: "2026-09-25 实时" },
-        { name: "标普500", code: "SPX", value: "7,702.95", change: "+0.85%", market: "美股", updateTime: "2026-09-25 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,911.29", change: "+1.87%", market: "美股", updateTime: "2026-09-25 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,323.83", change: "-0.88%", market: "美股", updateTime: "2026-09-25 收盘" },
+        { name: "标普500", code: "SPX", value: "7,704.13", change: "+0.87%", market: "美股", updateTime: "2026-09-25 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,939.37", change: "+1.97%", market: "美股", updateTime: "2026-09-25 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,349.98", change: "-0.83%", market: "美股", updateTime: "2026-09-25 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "美国7年期国债中标收益率创2009年以来最高",
-            summary: "美国财政部发行440亿美元7年期国债的中标收益率为5.085%，创下自2009年该期限债券重新发行以来的最高纪录，截至纽约时间下午1点投标截止时的发行前交易水平为5.078%...",
+            title: "高盛逆转看空日元立场 上调日元兑美元12个月目标位至150",
+            summary: " 高盛预计，未来12个月日元兑美元将升至150，逆转了7月采取的看跌立场。高盛认为日本国内政策转变以及资金可能回流日本，改善了日元前景。",
             source: "环球市场播报",
             date: "2026-09-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-25/doc-inisycsv0141069.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszmne9580919.shtml"
         },
         {
-            title: "巴里・迪勒旗下People Inc撤销收购要约，美高梅度假村股价大跌9%",
-            summary: "核心要点巴里・迪勒旗下 People Inc． 撤回收购美高梅度假村的要约。这家已经持有该博彩巨头 26.1% 股份的公司，于 6 月提出收购剩余流通股份。",
+            title: "诺和诺德与瑞典Nanexa签署价值11.65亿欧元药物技术合作协议",
+            summary: "瑞典原子层沉积技术企业Nanexa发布声明称，已与诺和诺德达成一项最高金额可达11.65亿欧元的药物技术合作协议。 诺和诺德获得Nanexa原子层沉积（ALD）药物递送技术平台的全...",
             source: "环球市场播报",
             date: "2026-09-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-inisycst4905827.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszfef4635946.shtml"
         },
         {
-            title: "费城联储主席保尔森：未来或迎来“适度” 加息，以此遏制通胀",
-            summary: "费城联邦储备银行主席安娜・保尔森周四表示，为使通胀回落至目标水平，她与同僚可能需要进一步上调利率。 就在一周前，联邦公开市场委员会（FOMC）刚刚加息 25 个基点。",
-            source: "环球市场播报",
-            date: "2026-09-25",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-inisycst4905166.shtml"
-        },
-        {
-            title: "债市抛售愈演愈烈，华尔街一款替代债券的交易策略热度飙升",
-            summary: "如果说美国国债市场面临重重困境，有一种期权交易策略热度暴涨，却是其中最少被大众讨论的现象。 这种策略通常被称作盒式价差（Box...",
+            title: "印度允许规模4630亿美元的财富类基金出海投资",
+            summary: " 印度市场监管机构将实施全面规则修订，首次允许面向高净值人群、规模达4630亿美元的投资组合管理行业投资海外证券，并可做空股票期权。",
             source: "环球市场播报",
             date: "2026-09-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-inisycsr8132096.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszfcz4545335.shtml"
         },
         {
-            title: "养猫人群消费增加，带动宠物零售商业绩上涨",
-            summary: "核心要点通用磨坊、Chewy、Petco 在本月财报电话会上均指出，猫类宠物产品销售表现强劲。犬类宠物赛道显现疲软态势，各家企业都在制定策略，以适应宠物领养趋势的变化。",
-            source: "环球市场播报",
+            title: "中通快递-W于9月24日斥资约341.77万美元回购约17.47万股",
+            summary: " 中通快递-W（02057）发布公告，于2026年9月24日该公司斥资约341.77万美元回购约17.47万股，回购价格为每股19.45至19.85美元。",
+            source: "新浪港股",
             date: "2026-09-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-inisycsr8130931.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-25/doc-iniszfeh9704615.shtml"
         },
         {
-            title: "美联储官员哈马克：经济面临接连不断的冲击 加剧了通胀心态固化风险",
-            summary: "克利夫兰联邦储备银行行长贝丝·哈马克表示，美国经济正面临一系列供应冲击，这加大了通胀心态固化的风险。 哈马克周四在克利夫兰联储主办的一场会议上表示：“通胀前景仍然...",
-            source: "环球市场播报",
+            title: "港龙中国地产前8个月合同销售金额约9.045亿元 同比减少74.89%",
+            summary: " 港龙中国地产（06968）发布公告，本公司及其附属公司（本集团），连同其合营公司和联营公司由2026年1月至8月共实现合同销售金额约人民币9.045亿元，同比减少74.89%。",
+            source: "新浪港股",
             date: "2026-09-25",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/world/2026-09-25/doc-inisycsp4978546.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-25/doc-iniszfcz4544908.shtml"
         },
         {
-            title: "“当然由美国出钱” 丹麦称特朗普政府应为格陵兰军事基地买单",
-            summary: " 丹麦外交大臣拉斯·勒克·拉斯穆森表示，美国将为在格陵兰建设新军事基地承担费用，这与美国总统特朗普此前称新安全协议不会让华盛顿花一分钱的说法相左。",
-            source: "环球市场播报",
+            title: "名创优品于9月24日斥资约20.62万美元回购约9.24万股",
+            summary: " 名创优品（09896）发布公告，于2026年9月24日该公司斥资约20.62万美元回购约9.24万股，回购价格为每股2.2175至2.24美元。",
+            source: "新浪港股",
             date: "2026-09-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-25/doc-inisycst4900019.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-25/doc-iniszfcz4544465.shtml"
         },
         {
-            title: "欧洲债市：德国国债势创7月份以来最大两日跌幅",
-            summary: " 德国10年期国债收益率势将录得两个月来最大两日升幅，累计上涨14个基点，因石油和天然气价格延续涨势，推动期限溢价大幅上升。",
-            source: "环球市场播报",
+            title: "吉利汽车因认股权获行使而发行5000股",
+            summary: " 吉利汽车（00175）发布公告，于2026年9月25日因本集团雇员根据认股权计划（于2023年4月28日获采纳）行使认股权而发行5000股普通股股份。",
+            source: "新浪港股",
             date: "2026-09-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-25/doc-inisycsv0135399.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-25/doc-iniszfef4628606.shtml"
+        },
+        {
+            title: "保诚于9月24日斥资约742.65万英镑回购约78.24万股",
+            summary: "保诚（02378）发布公告，于2026年9月24日该公司斥资约742.65万英镑回购约78.24万股。",
+            source: "新浪港股",
+            date: "2026-09-25",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-25/doc-iniszfef4627922.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-09-25",
-        marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,702.95（+0.85%），纳斯达克报26,911.29（+1.87%）。",
+        marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,704.13（+0.87%），纳斯达克报26,939.37（+1.97%）。",
         hotSectors: [
 
         ],

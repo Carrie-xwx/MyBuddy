@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-26 实时" },
         { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-26 实时" },
         { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-26 实时" },
@@ -669,7 +669,23 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+        {
+            title: "美债收益率重返5%！美股走弱，金价跌破4300美元",
+            summary: "撰文：嘉盛集团资深分析师Jerry Chen 周三油价和美债收益率大幅升高导致风险情绪降温，风险资产普遍回落，黄金下挫失守4300美元后短线走势进一步转弱。",
+            source: "市场资讯",
+            date: "2026-09-26",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/money/forex/whxwsd/2026-09-26/doc-initcyyx3758826.shtml"
+        },
+        {
+            title: "AI模型使用超现实方言对话 混合诗意文字与科技圈黑话",
+            summary: " 新研究发现，人工智能模型已经开始用一种奇特的新式英语交流，读起来像是詹姆斯·乔伊斯《芬尼根守灵夜》和科技从业者黑话的混合体。",
+            source: "环球市场播报",
+            date: "2026-09-26",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initcqmc3921102.shtml"
+        },
         {
             title: "特朗普第一时间发帖总结会晤",
             summary: "当地时间9月25日下午，中国国家主席习近平结束对美国的国事访问返回北京。美国总统特朗普第一时间在社交媒体平台发文称，此次元首会晤是一次充满友谊、力量与成功的会晤...",
@@ -712,27 +728,11 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
         },
         {
             title: "特朗普拒绝伊朗“七天停火提议” 预计中期选举后重启轰炸行动",
-            summary: " 美国官员称，美国总统特朗普拒绝了伊朗提出的七天停火提议，并告知幕僚，他计划在11月中期选举结束后恢复对伊朗的轰炸。",
+            summary: "【相关阅读】美方：或在中期选举后恢复轰炸！特朗普：伊朗一直“乞求”美国达成协议 美国官员称，美国总统特朗普拒绝了伊朗提出的七天停火提议，并告知幕僚...",
             source: "环球市场播报",
             date: "2026-09-26",
             tag: "宏观",
             url: "https://finance.sina.com.cn/world/2026-09-26/doc-initccvi3989604.shtml"
-        },
-        {
-            title: "庞巴迪CEO：正就加拿大本土生产萨博监视飞机进入深度谈判",
-            summary: " 庞巴迪公司正与瑞典萨博公司深入洽谈，计划在加拿大生产后者的“全球眼”监视飞机。这家总部位于魁北克的私人飞机制造商，正准备大幅扩张其快速发展的国防业务。",
-            source: "环球市场播报",
-            date: "2026-09-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initccvf7211893.shtml"
-        },
-        {
-            title: "美股科技巨头，历史新高，市值逼近5万亿美元",
-            summary: "当地时间9月25日，美股三大指数集体收涨，美股芯片股表现活跃。 截至收盘，道指上涨近480点，涨幅接近1%。纳指、标普500指数涨约0.5%，指数周线均实现2连涨。",
-            source: "中国证券报-中证网",
-            date: "2026-09-26",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-26/doc-initccvi3964796.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-26",
         marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,743.41（+1.21%），纳斯达克报27,068.72（+2.06%）。",
         hotSectors: [
-            { name: "林业Ⅲ", reason: "板块涨幅+5.83%", strength: "强" },
-            { name: "林业Ⅱ", reason: "板块涨幅+5.83%", strength: "强" },
-            { name: "其他医疗服务", reason: "板块涨幅+4.29%", strength: "强" },
-            { name: "其他家电Ⅲ", reason: "板块涨幅+4.24%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "白银", reason: "板块跌幅-4.83%", strength: "弱" },
-            { name: "印制电路板", reason: "板块跌幅-4.74%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注林业Ⅲ、林业Ⅱ、其他医疗服务等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

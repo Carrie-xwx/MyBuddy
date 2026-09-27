@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-27 实时" },
         { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-27 实时" },
         { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-27 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "瑞声科技于9月25日斥资785.77万港元回购20万股",
-            summary: "瑞声科技（02018）发布公告，于2026年9月25日，该公司斥资785.77万港元回购20万股股份，每股回购价38.9-39.5港元。",
-            source: "新浪港股",
+            title: "亨通光电定增66.36亿，抢滩算力底座",
+            summary: "來源：IPO日报 近期，亨通光电（600487.SH）公告称，公司拟向特定对象发行A股股票，募集资金总额不超过人民币66.36亿元，扣除发行费用后拟用于新一代光纤研发及生产...",
+            source: "市场资讯",
             date: "2026-09-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsk0258505.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithkfx9393380.shtml"
         },
         {
-            title: "贝壳-W于9月24日斥资300万美元回购54.15万股",
-            summary: "贝壳-W（02423）发布公告，该公司于2026年9月24日斥资300万美元回购54.15万股股份，每股回购价格为5.48-5.6美元。",
-            source: "新浪港股",
+            title: "003005，实控人解除留置",
+            summary: "近两个月股价出现明显异动。 竞业达（003005）9月27日晚间公告，公司9月24日收到有关监察机关出具的《解除留置通知书》，已解除对公司实际控制人、董事长钱瑞的留置措施...",
+            source: "",
             date: "2026-09-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsm4739989.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-09-27/doc-inithkha3346237.shtml"
         },
         {
-            title: "汇丰控股于9月24日斥资1.34亿港元回购85.08万股",
-            summary: " 汇丰控股（00005）发布公告，该公司于2026年9月24日斥资1.34亿港元回购85.08万股股份，每股回购价格为156.3-158.4港元。",
-            source: "新浪港股",
+            title: "重整投资人跑了，天邦食品急寻“接盘侠”",
+            summary: "来源 | 野马财经 谁来雪中送炭？ 作者 | 方璐 编辑丨于婞 五年三度陷入亏损，主营生猪养殖业务的天邦食品（002124.SZ）正遭遇考验。",
+            source: "市场资讯",
             date: "2026-09-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsc9580286.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithkhf4545398.shtml"
         },
         {
-            title: "丽珠医药于将于11月3日派发特別中期股息每10股10.2元",
-            summary: "丽珠医药（01513）发布公告，该公司将于2026年11月3日派发特別中期股息每10股10.2元。",
-            source: "新浪港股",
+            title: "老板电器为何豪掷12亿买温度计？",
+            summary: "来源 | 野马财经 两代人做生意的分野。 作者 | 贾紫聪 编辑 |高岩 2026年，老板电器（002508.SZ）“二代”接班后的资本首秀，是花了12亿元买一张“出海”的船票。",
+            source: "市场资讯",
             date: "2026-09-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsc9580084.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithkfx9385798.shtml"
         },
         {
-            title: "渣打集团于9月24日斥资823.74万英镑回购36.34万股",
-            summary: "渣打集团（02888）发布公告，该公司于2026年9月24日斥资823.74万英镑回购36.34万股股份。",
-            source: "新浪港股",
+            title: "300211获批摘星摘帽！周二复牌",
+            summary: "9月24日晚，*ST亿通（300211）发布公告，披露公司撤销退市风险警示的申请已获深圳证券交易所审核同意。根据安排，公司股票将于9月28日开市起停牌一天，9月29日开市起复牌...",
+            source: "上海证券报",
             date: "2026-09-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsm4739225.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/wm/2026-09-27/doc-inithcye3460445.shtml"
         },
         {
-            title: "华宝国际拟9000万元收购PT. Broad Far Indonesia100%股权",
-            summary: "华宝国际（00336）发布公告，于2026年9月25日，Nocton、World Concept、博远和博远香港签署股份转让协议。基于战略规划及业务发展需要...",
-            source: "新浪港股",
+            title: "黄仁勋：驳斥AI末日论，AI是工程革命而非神秘超自然力量",
+            summary: "作为全球市值最高企业英伟达的掌门人，黄仁勋是AI浪潮背后最重要的基础设施建设者。在近期的一次深度访谈中，主持人埃兹拉·克莱因到访英伟达加州圣克拉拉总部...",
+            source: "环球市场播报",
             date: "2026-09-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsc9579648.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithcye3418857.shtml"
         },
         {
-            title: "碧桂园服务于9月25日斥资127.39万港元回购25万股",
-            summary: "碧桂园服务（06098）发布公告，于2026年9月25日，该公司斥资127.39万港元回购25万股。",
-            source: "新浪港股",
+            title: "股价暴涨后“熄火”，锡华科技中报增收不增利，六成营收靠赊销",
+            summary: "来源：证券之星 低位启动的四连涨停引爆股价后，风电齿轮箱部件细分龙头锡华科技（603248.SH）股价接连回调，9月23日以跌停收盘。",
+            source: "市场资讯",
             date: "2026-09-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsc9579265.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithcye3445825.shtml"
         },
         {
-            title: "博雷顿与因霍伊订立一项合作意向书",
-            summary: "博雷顿（01333）发布公告，本公司近日与因霍伊投资（私人）有限公司（INHOYI INVESTMENTS （PRIVATE） LIMITED）（因霍伊）订立了一项合作意向书（合作意向书）。",
-            source: "新浪港股",
+            title: "重组方案“瘦身”，观想科技H1再陷亏损，标的估值缩水超两成",
+            summary: "来源：证券之星 近日，观想科技（301213.SZ）收购锦州辽晶电子科技股份有限公司（以下简称“辽晶电子”）的交易方案迎来重大调整，公司不再谋求全资控股...",
+            source: "市场资讯",
             date: "2026-09-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsm4738419.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithcye3445695.shtml"
         },
     ],
 
@@ -765,20 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-09-27",
         marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,743.41（+1.21%），纳斯达克报27,068.72（+2.06%）。",
         hotSectors: [
-            { name: "林业Ⅲ", reason: "板块涨幅+5.83%", strength: "强" },
-            { name: "林业Ⅱ", reason: "板块涨幅+5.83%", strength: "强" },
-            { name: "其他医疗服务", reason: "板块涨幅+4.29%", strength: "强" },
-            { name: "其他家电Ⅲ", reason: "板块涨幅+4.24%", strength: "强" },
+
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注林业Ⅲ、林业Ⅱ、其他医疗服务等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

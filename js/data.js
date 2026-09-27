@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-27 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-27 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-27 实时" },
-        { name: "沪深300", code: "SH000300", value: "4439.14", change: "-1.73%", market: "A股", updateTime: "2026-09-27 实时" },
-        { name: "科创50", code: "SH000688", value: "1621.87", change: "-2.35%", market: "A股", updateTime: "2026-09-27 实时" },
-        { name: "标普500", code: "SPX", value: "7,743.41", change: "+1.21%", market: "美股", updateTime: "2026-09-27 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,068.72", change: "+2.06%", market: "美股", updateTime: "2026-09-27 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,828.62", change: "+0.28%", market: "美股", updateTime: "2026-09-27 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-28 实时" },
+        { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-28 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-28 实时" },
+        { name: "沪深300", code: "SH000300", value: "4439.14", change: "-1.73%", market: "A股", updateTime: "2026-09-28 实时" },
+        { name: "科创50", code: "SH000688", value: "1621.87", change: "-2.35%", market: "A股", updateTime: "2026-09-28 实时" },
+        { name: "标普500", code: "SPX", value: "7,743.41", change: "+1.21%", market: "美股", updateTime: "2026-09-28 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,068.72", change: "+2.06%", market: "美股", updateTime: "2026-09-28 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,828.62", change: "+0.28%", market: "美股", updateTime: "2026-09-28 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "重磅发布会，就在周一",
-            summary: "一周聚焦 国务院新闻办公室将于9月28日（星期一）下午3时举行“开局起步‘十五五’”系列主题新闻发布会，介绍落实“十五五”规划，推动中央企业高质量发展情况。",
-            source: "证券时报",
-            date: "2026-09-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-09-27/doc-inithqpy3332302.shtml"
+            title: "贝森特敦促美联储对美国通胀前景保持“开放心态”",
+            summary: " 美国财政部长贝森特表示，美联储决策者在利率问题上应保持“开放心态”，并认为人工智能带来的生产率提升和放松监管将有助于控制美国通胀。",
+            source: "环球市场播报",
+            date: "2026-09-28",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-28/doc-inithzcu3145293.shtml"
         },
         {
-            title: "特朗普：昨晚有“创纪录数量”的石油从霍尔木兹海峡运出",
-            summary: "美国总统唐纳德·特朗普表示，昨晚有“创纪录数量”的石油从霍尔木兹海峡运出。 特朗普在启程前往芝加哥地区参加一场高尔夫比赛前对媒体发表讲话 特朗普重申，战争一结束...",
+            title: "泽连斯基称俄罗斯袭击乌克兰数据中心",
+            summary: "乌克兰官方表示，俄罗斯在夜间及周日清晨发动空袭，造成乌克兰各地至少6人死亡，并袭击了基辅多个大型数据中心。乌克兰总统泽连斯基表示，扎波罗热地区有3人死亡...",
+            source: "环球市场播报",
+            date: "2026-09-28",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/7x24/2026-09-28/doc-inithzcv9915484.shtml"
+        },
+        {
+            title: "特朗普称英国事件嫌疑人企图破坏两国共用基地",
+            summary: "美国总统特朗普称赞逮捕五名涉嫌策划袭击美国所使用的英国空军基地的男子一事“太棒了”。据英国反恐警务部门称，这些嫌疑人因涉嫌违反英国《爆炸物法》以及准备实施恐怖主义...",
             source: "环球市场播报",
             date: "2026-09-27",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithqpv9318302.shtml"
+            url: "https://finance.sina.com.cn/7x24/2026-09-27/doc-inithuvw3258167.shtml"
         },
         {
-            title: "资本观察：牛股风险提示不是“走过场”",
-            summary: "来源：资本秘闻 近日，新华文轩等多只牛股披露公告提示风险。但部分投资者对此不以为然，风险提示过后，市场对牛股的投机热情依旧不减。",
-            source: "市场资讯",
+            title: "伊朗副外长批评美财长言论：各国自主决定对伊关系，胁迫制裁时代走向终结",
+            summary: "伊朗副外长加里巴巴迪批评了美国财长贝森特关于派遣特使向各国施压、要求其经济孤立伊朗的言论。加里巴巴迪在社交平台写道：“其他国家是基于自身的利益和考量来决定与伊朗...",
+            source: "环球市场播报",
             date: "2026-09-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-09-27/doc-inithqpy3317536.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/7x24/2026-09-27/doc-inithuvw3253579.shtml"
         },
         {
-            title: "VNA概念热度第一！东方中科等热门股紧急澄清",
-            summary: "记者丨林健民 编辑丨李燕娜 9月27日晚间，VNA（矢量网络分析仪）概念话题登顶同花顺热度榜单，2连板牛股东方中科（002819.SZ）亦发布异动公告称...",
-            source: "21世纪经济报道",
+            title: "在多年大举买入之后，美股散户交易者似乎正转向观望",
+            summary: "机构投资者正在掌控美股股市。 在多年大举买入之后，散户交易者似乎正转向观望。与此同时，Vanda Research的数据显示，面对美国国债收益率飙升，大型投资者仍稳守股票。",
+            source: "环球市场播报",
             date: "2026-09-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-09-27/doc-inithqqc4473476.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithuvy0010360.shtml"
         },
         {
-            title: "溢价744.44%！3.82亿重组上会迎考！",
-            summary: "来源：资本秘闻 筹划近两年时间，*ST禾信发行股份购买资产事项迎来了上会机会，将于9月29日接受大考。据悉，公司拟收购上海量羲技术有限公司（以下简称“量羲技术”）56%的股...",
-            source: "市场资讯",
+            title: "英国调查美军所用空军基地附近的可疑车辆 5名男子因涉恐嫌疑被捕",
+            summary: " 英国警方表示，他们正在调查一起潜在的恐怖主义事件，此前有五名男子因车辆被发现驶向美国用于打击伊朗的空军基地而被捕。",
+            source: "环球市场播报",
             date: "2026-09-27",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithqpy3283633.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithuvt9216620.shtml"
         },
         {
-            title: "盐湖股份的估值困局：业绩会上遭追问，股东催回购盼分红",
-            summary: "来源：华夏时报 华夏时报记者 胡雅文 北京报道 9月23日业绩会上，“市值管理”“回购”“加大信息透明度”成为盐湖股份（000792.SZ）被频繁追问的话题。",
-            source: "市场资讯",
+            title: "伊朗外长确认与美国的间接谈判 军方仍保持强硬立场",
+            summary: "伊朗表示，重新开放霍尔木兹海峡取决于美国是否满足德黑兰的条件，而外长阿拉格齐表示，谈判解决方案仍有可能。 伊朗坚持其立场：只有在其条件得到满足时...",
+            source: "环球市场播报",
             date: "2026-09-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithkfx9418423.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithuvt9209954.shtml"
         },
         {
-            title: "A股公司宣布！实控人解除留置",
-            summary: "来源：资本秘闻 竞业达实控人、董事长钱瑞解除留置。 9月27日，竞业达披露公告称，9月24日，公司收到有关监察机关出具的《解除留置通知书》，已解除对公司实际控制人...",
-            source: "市场资讯",
+            title: "特朗普拒绝霍尔木兹海峡提议 伊朗称不会让步",
+            summary: " 在美国总统唐纳德·特朗普表示拒绝之后，伊朗方面表示，正在等待美国对一项在7天内重新开放霍尔木兹海峡的方案作出明确回应，但伊朗不会软化其条件。",
+            source: "环球市场播报",
             date: "2026-09-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithkhf4574200.shtml"
-        },
-        {
-            title: "刚刚，四连板牛股提示风险！",
-            summary: "来源：资本秘闻 在二级市场斩获四连板后，9月27日晚间，奥佳华披露公告称，公司股票于9月21日至9月24日连续四个交易日涨停，累计涨幅约46.65%，短期涨幅较大。",
-            source: "市场资讯",
-            date: "2026-09-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-09-27/doc-inithkfx9414631.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithuvw3219024.shtml"
         },
     ],
 
@@ -765,8 +765,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-27",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-28",
         marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,743.41（+1.21%），纳斯达克报27,068.72（+2.06%）。",
         hotSectors: [
 

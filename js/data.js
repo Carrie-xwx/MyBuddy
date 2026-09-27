@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-27 实时" },
         { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-27 实时" },
         { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-27 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "亨通光电定增66.36亿，抢滩算力底座",
-            summary: "來源：IPO日报 近期，亨通光电（600487.SH）公告称，公司拟向特定对象发行A股股票，募集资金总额不超过人民币66.36亿元，扣除发行费用后拟用于新一代光纤研发及生产...",
-            source: "市场资讯",
-            date: "2026-09-27",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithkfx9393380.shtml"
-        },
-        {
-            title: "003005，实控人解除留置",
-            summary: "近两个月股价出现明显异动。 竞业达（003005）9月27日晚间公告，公司9月24日收到有关监察机关出具的《解除留置通知书》，已解除对公司实际控制人、董事长钱瑞的留置措施...",
-            source: "",
+            title: "重磅发布会，就在周一",
+            summary: "一周聚焦 国务院新闻办公室将于9月28日（星期一）下午3时举行“开局起步‘十五五’”系列主题新闻发布会，介绍落实“十五五”规划，推动中央企业高质量发展情况。",
+            source: "证券时报",
             date: "2026-09-27",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/zqgd/2026-09-27/doc-inithkha3346237.shtml"
+            url: "https://finance.sina.com.cn/china/2026-09-27/doc-inithqpy3332302.shtml"
         },
         {
-            title: "重整投资人跑了，天邦食品急寻“接盘侠”",
-            summary: "来源 | 野马财经 谁来雪中送炭？ 作者 | 方璐 编辑丨于婞 五年三度陷入亏损，主营生猪养殖业务的天邦食品（002124.SZ）正遭遇考验。",
-            source: "市场资讯",
-            date: "2026-09-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithkhf4545398.shtml"
-        },
-        {
-            title: "老板电器为何豪掷12亿买温度计？",
-            summary: "来源 | 野马财经 两代人做生意的分野。 作者 | 贾紫聪 编辑 |高岩 2026年，老板电器（002508.SZ）“二代”接班后的资本首秀，是花了12亿元买一张“出海”的船票。",
-            source: "市场资讯",
-            date: "2026-09-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithkfx9385798.shtml"
-        },
-        {
-            title: "300211获批摘星摘帽！周二复牌",
-            summary: "9月24日晚，*ST亿通（300211）发布公告，披露公司撤销退市风险警示的申请已获深圳证券交易所审核同意。根据安排，公司股票将于9月28日开市起停牌一天，9月29日开市起复牌...",
-            source: "上海证券报",
-            date: "2026-09-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/wm/2026-09-27/doc-inithcye3460445.shtml"
-        },
-        {
-            title: "黄仁勋：驳斥AI末日论，AI是工程革命而非神秘超自然力量",
-            summary: "作为全球市值最高企业英伟达的掌门人，黄仁勋是AI浪潮背后最重要的基础设施建设者。在近期的一次深度访谈中，主持人埃兹拉·克莱因到访英伟达加州圣克拉拉总部...",
+            title: "特朗普：昨晚有“创纪录数量”的石油从霍尔木兹海峡运出",
+            summary: "美国总统唐纳德·特朗普表示，昨晚有“创纪录数量”的石油从霍尔木兹海峡运出。 特朗普在启程前往芝加哥地区参加一场高尔夫比赛前对媒体发表讲话 特朗普重申，战争一结束...",
             source: "环球市场播报",
             date: "2026-09-27",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithcye3418857.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithqpv9318302.shtml"
         },
         {
-            title: "股价暴涨后“熄火”，锡华科技中报增收不增利，六成营收靠赊销",
-            summary: "来源：证券之星 低位启动的四连涨停引爆股价后，风电齿轮箱部件细分龙头锡华科技（603248.SH）股价接连回调，9月23日以跌停收盘。",
+            title: "资本观察：牛股风险提示不是“走过场”",
+            summary: "来源：资本秘闻 近日，新华文轩等多只牛股披露公告提示风险。但部分投资者对此不以为然，风险提示过后，市场对牛股的投机热情依旧不减。",
             source: "市场资讯",
             date: "2026-09-27",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithcye3445825.shtml"
+            url: "https://finance.sina.com.cn/china/2026-09-27/doc-inithqpy3317536.shtml"
         },
         {
-            title: "重组方案“瘦身”，观想科技H1再陷亏损，标的估值缩水超两成",
-            summary: "来源：证券之星 近日，观想科技（301213.SZ）收购锦州辽晶电子科技股份有限公司（以下简称“辽晶电子”）的交易方案迎来重大调整，公司不再谋求全资控股...",
+            title: "VNA概念热度第一！东方中科等热门股紧急澄清",
+            summary: "记者丨林健民 编辑丨李燕娜 9月27日晚间，VNA（矢量网络分析仪）概念话题登顶同花顺热度榜单，2连板牛股东方中科（002819.SZ）亦发布异动公告称...",
+            source: "21世纪经济报道",
+            date: "2026-09-27",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-09-27/doc-inithqqc4473476.shtml"
+        },
+        {
+            title: "溢价744.44%！3.82亿重组上会迎考！",
+            summary: "来源：资本秘闻 筹划近两年时间，*ST禾信发行股份购买资产事项迎来了上会机会，将于9月29日接受大考。据悉，公司拟收购上海量羲技术有限公司（以下简称“量羲技术”）56%的股...",
             source: "市场资讯",
             date: "2026-09-27",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithcye3445695.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithqpy3283633.shtml"
+        },
+        {
+            title: "盐湖股份的估值困局：业绩会上遭追问，股东催回购盼分红",
+            summary: "来源：华夏时报 华夏时报记者 胡雅文 北京报道 9月23日业绩会上，“市值管理”“回购”“加大信息透明度”成为盐湖股份（000792.SZ）被频繁追问的话题。",
+            source: "市场资讯",
+            date: "2026-09-27",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithkfx9418423.shtml"
+        },
+        {
+            title: "A股公司宣布！实控人解除留置",
+            summary: "来源：资本秘闻 竞业达实控人、董事长钱瑞解除留置。 9月27日，竞业达披露公告称，9月24日，公司收到有关监察机关出具的《解除留置通知书》，已解除对公司实际控制人...",
+            source: "市场资讯",
+            date: "2026-09-27",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-09-27/doc-inithkhf4574200.shtml"
+        },
+        {
+            title: "刚刚，四连板牛股提示风险！",
+            summary: "来源：资本秘闻 在二级市场斩获四连板后，9月27日晚间，奥佳华披露公告称，公司股票于9月21日至9月24日连续四个交易日涨停，累计涨幅约46.65%，短期涨幅较大。",
+            source: "市场资讯",
+            date: "2026-09-27",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-09-27/doc-inithkfx9414631.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-27",
         marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,743.41（+1.21%），纳斯达克报27,068.72（+2.06%）。",
         hotSectors: [

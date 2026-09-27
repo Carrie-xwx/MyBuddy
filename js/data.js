@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-27 实时" },
         { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-27 实时" },
         { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-27 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "特朗普称已拒绝伊朗提出的霍尔木兹海峡协议 胡塞武装袭击利雅得",
-            summary: " 美国总统特朗普周六表示，他拒绝了伊朗提出的一项重新开放霍尔木兹海峡的协议。与此同时，沙特阿拉伯首都周末遭到也门胡塞武装袭击。",
-            source: "环球市场播报",
+            title: "瑞声科技于9月25日斥资785.77万港元回购20万股",
+            summary: "瑞声科技（02018）发布公告，于2026年9月25日，该公司斥资785.77万港元回购20万股股份，每股回购价38.9-39.5港元。",
+            source: "新浪港股",
             date: "2026-09-27",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initerww3927998.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsk0258505.shtml"
         },
         {
-            title: "巴西政府在选举前延长燃油价格补贴措施",
-            summary: "为在10月4日总统选举首轮投票前持续为消费者提供价格缓冲，巴西政府延长了旨在遏制燃油价格上涨的相关措施。 巴西财政部发布法令，确保总额达每升2.12雷亚尔（约合0...",
-            source: "环球市场播报",
-            date: "2026-09-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/7x24/2026-09-26/doc-initemqy4019193.shtml"
+            title: "贝壳-W于9月24日斥资300万美元回购54.15万股",
+            summary: "贝壳-W（02423）发布公告，该公司于2026年9月24日斥资300万美元回购54.15万股股份，每股回购价格为5.48-5.6美元。",
+            source: "新浪港股",
+            date: "2026-09-27",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsm4739989.shtml"
         },
         {
-            title: "特朗普称拒绝伊朗重开霍尔木兹海峡的提议",
-            summary: "新华社华盛顿9月26日电 美国总统特朗普26日称，他拒绝了伊朗提出的重开霍尔木兹海峡的提议。 特朗普在接受媒体采访时表示，美方完全控制了霍尔木兹海峡...",
-            source: "",
-            date: "2026-09-26",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-26/doc-initemqy4015193.shtml"
+            title: "汇丰控股于9月24日斥资1.34亿港元回购85.08万股",
+            summary: " 汇丰控股（00005）发布公告，该公司于2026年9月24日斥资1.34亿港元回购85.08万股股份，每股回购价格为156.3-158.4港元。",
+            source: "新浪港股",
+            date: "2026-09-27",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsc9580286.shtml"
         },
         {
-            title: "伯克希尔披露对股价下跌的房屋建筑商Lennar持股接近翻倍",
-            summary: " 自7月初以来，伯克希尔·哈撒韦将其在美国第二大房屋建筑商Lennar的持股接近翻倍，从而加大了对陷入困境的美国住房市场长期复苏的押注。",
-            source: "环球市场播报",
-            date: "2026-09-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initemra0782676.shtml"
+            title: "丽珠医药于将于11月3日派发特別中期股息每10股10.2元",
+            summary: "丽珠医药（01513）发布公告，该公司将于2026年11月3日派发特別中期股息每10股10.2元。",
+            source: "新浪港股",
+            date: "2026-09-27",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsc9580084.shtml"
         },
         {
-            title: "10年期美国国债收益率处于近二十年来的最高水平",
-            summary: " 本周美国投资者感到不安，因为基准10年期美国国债收益率飙升至2007年以来最高水平，但顽固的通胀只是此次最新飙升背后的因素之一。",
-            source: "环球市场播报",
-            date: "2026-09-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initemrc5422885.shtml"
+            title: "渣打集团于9月24日斥资823.74万英镑回购36.34万股",
+            summary: "渣打集团（02888）发布公告，该公司于2026年9月24日斥资823.74万英镑回购36.34万股股份。",
+            source: "新浪港股",
+            date: "2026-09-27",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsm4739225.shtml"
         },
         {
-            title: "欧盟拟大力增加卫星发射 寻求开辟域外发射场",
-            summary: " 负责防御与太空事务的欧盟委员安德留斯·库比柳斯日前说，欧盟计划今后数年内大力增加卫星发射，寻求在加拿大等欧盟以外地区开辟发射场。",
-            source: "央视",
-            date: "2026-09-26",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-09-26/doc-initemra0773462.shtml"
+            title: "华宝国际拟9000万元收购PT. Broad Far Indonesia100%股权",
+            summary: "华宝国际（00336）发布公告，于2026年9月25日，Nocton、World Concept、博远和博远香港签署股份转让协议。基于战略规划及业务发展需要...",
+            source: "新浪港股",
+            date: "2026-09-27",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsc9579648.shtml"
         },
         {
-            title: "美债收益率重返5%！美股走弱，金价跌破4300美元",
-            summary: "撰文：嘉盛集团资深分析师Jerry Chen 周三油价和美债收益率大幅升高导致风险情绪降温，风险资产普遍回落，黄金下挫失守4300美元后短线走势进一步转弱。",
-            source: "市场资讯",
-            date: "2026-09-26",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/money/forex/whxwsd/2026-09-26/doc-initcyyx3758826.shtml"
+            title: "碧桂园服务于9月25日斥资127.39万港元回购25万股",
+            summary: "碧桂园服务（06098）发布公告，于2026年9月25日，该公司斥资127.39万港元回购25万股。",
+            source: "新浪港股",
+            date: "2026-09-27",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsc9579265.shtml"
         },
         {
-            title: "AI模型使用超现实方言对话 混合诗意文字与科技圈黑话",
-            summary: " 新研究发现，人工智能模型已经开始用一种奇特的新式英语交流，读起来像是詹姆斯·乔伊斯《芬尼根守灵夜》和科技从业者黑话的混合体。",
-            source: "环球市场播报",
-            date: "2026-09-26",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initcqmc3921102.shtml"
+            title: "博雷顿与因霍伊订立一项合作意向书",
+            summary: "博雷顿（01333）发布公告，本公司近日与因霍伊投资（私人）有限公司（INHOYI INVESTMENTS （PRIVATE） LIMITED）（因霍伊）订立了一项合作意向书（合作意向书）。",
+            source: "新浪港股",
+            date: "2026-09-27",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-27/doc-initfxsm4738419.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-09-27",
         marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,743.41（+1.21%），纳斯达克报27,068.72（+2.06%）。",
         hotSectors: [

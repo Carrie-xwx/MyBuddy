@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3823.62", change: "-1.67%", market: "A股", updateTime: "2026-09-29 实时" },
         { name: "深证成指", code: "SZ399001", value: "12858.75", change: "-3.44%", market: "A股", updateTime: "2026-09-29 实时" },
         { name: "创业板指", code: "SZ399006", value: "3139.82", change: "-4.53%", market: "A股", updateTime: "2026-09-29 实时" },
         { name: "沪深300", code: "SH000300", value: "4340.76", change: "-2.22%", market: "A股", updateTime: "2026-09-29 实时" },
         { name: "科创50", code: "SH000688", value: "1555.98", change: "-4.06%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "标普500", code: "SPX", value: "7,698.81", change: "-0.85%", market: "美股", updateTime: "2026-09-29 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,893.64", change: "-0.84%", market: "美股", updateTime: "2026-09-29 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,560.59", change: "-0.94%", market: "美股", updateTime: "2026-09-29 收盘" },
+        { name: "标普500", code: "SPX", value: "7,683.36", change: "-1.05%", market: "美股", updateTime: "2026-09-29 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,821.20", change: "-1.11%", market: "美股", updateTime: "2026-09-29 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,487.62", change: "-1.08%", market: "美股", updateTime: "2026-09-29 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "扎克伯格和Anthropic首席执行官等将出席特朗普AI主题午餐会",
-            summary: " Semafor一名记者在X平台发帖称，Meta首席执行官马克·扎克伯格将于周二出席与美国总统特朗普和众议院议长迈克·约翰逊举行的AI午餐会。",
+            title: "标普500指数中近半数股票与市场其余部分走势相悖",
+            summary: "标普500指数中近半数股票以负贝塔走势与指数相悖，这种不同寻常的分化正变得越来越难以忽视。 根据高盛最近的一份报告，约45%的标普500成分股三个月贝塔为负。",
+            source: "环球市场播报",
+            date: "2026-09-29",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmqsq2661614.shtml"
+        },
+        {
+            title: "Anthropic推出更便宜AI模型Sonnet 5.5",
+            summary: "Anthropic周一发布了一款名为Sonnet 5.5的新人工智能模型，这是该公司CEO阿莫代伊呼吁放缓开发节奏以来的第二次发布。 Sonnet 5.5是Anthropic推出的更快、成本更低的产品...",
             source: "环球市场播报",
             date: "2026-09-29",
             tag: "行业",
-            url: "https://finance.sina.com.cn/world/2026-09-29/doc-initmeau2857453.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkkp8229481.shtml"
         },
         {
-            title: "耐克股价或将迎来又一次“业绩重置时刻”？",
-            summary: "这家运动服饰巨头将于本周晚些时候发布财报，耐克（NKE）或将再度遭遇利空。 Evercore ISI 分析师迈克尔・比内蒂发布最新研报，标题为《第一财季更新或将成为又一次重置时...",
+            title: "美国国税局威胁限制ETF避税操作 华尔街税务策略面临审查",
+            summary: "美国财政部周一朝着遏制华尔街税务优化投资热潮迈出重要一步。财政部发布的一份通知显示，政府可能针对多种相关策略采取行动，国税局最新一项裁定将限制一种快速增长的ETF...",
             source: "环球市场播报",
             date: "2026-09-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmeau2854478.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkkp8229429.shtml"
         },
         {
-            title: "财报前夕，美光“超级多头”重申2000美元目标价",
-            summary: " 在看多存储芯片股美光科技（股票代码 MU）的华尔街分析师当中，D.A． 戴维森的吉尔・卢里亚堪称最为激进的一位，我们可以称他为美光的超级多头。",
+            title: "特朗普：与伊朗战争结束后 通胀将被“根除”",
+            summary: "美国总统特朗普表示，与伊朗的战争结束后，通胀将被“彻底根除”。 “通胀正在大幅下降，”特朗普称。",
+            source: "环球市场播报",
+            date: "2026-09-29",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkks2790528.shtml"
+        },
+        {
+            title: "美国法官裁定：联邦政府不能扣留各州反恐资金以强制改变选举管理",
+            summary: " 美国联邦法官阿米尔·阿里周一撤销了特朗普政府的一项规则，该规则原本会扣留各州的一部分反恐资金，除非各州和某些市镇在选举管理方式上做出某些改变。",
             source: "环球市场播报",
             date: "2026-09-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmeav9622448.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkkt9562792.shtml"
         },
         {
-            title: "德意志银行：供应短缺或令铜价半年内上涨超过50%",
-            summary: "德意志银行预计，随着买家争夺不断减少的铜库存，铜价未来六个月可能上涨逾50%，达到每吨22，050美元。 今年以来铜价已经大幅上涨...",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-29/doc-initmeav9621943.shtml"
-        },
-        {
-            title: "欧洲股市基本持平 债市抛售抵消英国住宅建筑股涨势",
-            summary: "欧洲股市周一收盘基本持平，随着10年期美国国债收益率升破5.25%，早盘涨幅尽数回吐。 斯托克欧洲600指数收盘变化不大。英国政府宣布一项面向首次购房者的新贷款计划...",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-29/doc-initmeax3475089.shtml"
-        },
-        {
-            title: "首席执行官被Meta挖角，MongoDB股价大幅下挫18%",
-            summary: " Meta 挖角 MongoDB 首席执行官奇兰坦・“CJ”・德赛，由他执掌全新的 Meta 企业平台业务，受此消息影响，MongoDB（股票代码 MDB）股价下跌。",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmeax3469655.shtml"
-        },
-        {
-            title: "“我们回不去了”：埃尔‑埃里安称收益率将维持高位",
-            summary: "经济学家穆罕默德・埃尔‑埃里安周一表示，即便伊朗战争落幕、油价回落，美国国债收益率仍大概率维持高位。 这位安联集团首席经济顾问在采访中称...",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmeax3467644.shtml"
-        },
-        {
-            title: "Meta聘请MongoDB首席执行官领导新的企业级AI平台",
-            summary: "Meta Platforms挖角MongoDB总裁兼首席执行官Chirantan “CJ” Desai，负责领导面向企业客户的新人工智能平台。该平台被Meta首席执行官马克·扎克伯格视为公司“下一大业务支柱”...",
+            title: "阿波罗首席经济学家：AI智能体恐令美国银行业大量流失低息存款",
+            summary: " 阿波罗全球管理首席经济学家Torsten Slok表示，如果消费者开始高度依赖通过Muse等人工智能助手把现金自动转入收益率更高的账户，可能会给金融体系带来风险。",
             source: "环球市场播报",
             date: "2026-09-29",
             tag: "行业",
-            url: "https://finance.sina.com.cn/world/2026-09-29/doc-initmeau2831720.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkks2789809.shtml"
+        },
+        {
+            title: "OpenAI在英伟达130亿美元交易前以早期投资提议引发对Hugging Face的竞购",
+            summary: " 据知情人士透露，在英伟达本月同意支付约130亿美元收购开源平台Hugging Face之前，OpenAI曾试图向这家初创公司投资1亿美元。",
+            source: "环球市场播报",
+            date: "2026-09-29",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkks2789168.shtml"
+        },
+        {
+            title: "美国联邦航空管理局暂缓批准波音737 Max 10 将研究相关软件问题",
+            summary: " 由于出现新的软件问题，美国联邦航空管理局（FAA）将推迟波音对737 Max 10的认证。这款机型原本已进入即将获批并开始向航空公司交付的最后阶段。",
+            source: "环球市场播报",
+            date: "2026-09-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-29/doc-initmkks2788819.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-09-29",
-        marketAssessment: "A股方面：上证指数报3823.62点（-1.67%），深证成指报12858.75点（-3.44%），创业板指报3139.82点（-4.53%）。美股方面：标普500报7,698.81（-0.85%），纳斯达克报26,893.64（-0.84%）。",
+        marketAssessment: "A股方面：上证指数报3823.62点（-1.67%），深证成指报12858.75点（-3.44%），创业板指报3139.82点（-4.53%）。美股方面：标普500报7,683.36（-1.05%），纳斯达克报26,821.20（-1.11%）。",
         hotSectors: [
 
         ],

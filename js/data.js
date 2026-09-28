@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3888.37", change: "-1.22%", market: "A股", updateTime: "2026-09-28 实时" },
-        { name: "深证成指", code: "SZ399001", value: "13316.97", change: "-2.34%", market: "A股", updateTime: "2026-09-28 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3288.95", change: "-2.68%", market: "A股", updateTime: "2026-09-28 实时" },
-        { name: "沪深300", code: "SH000300", value: "4439.14", change: "-1.73%", market: "A股", updateTime: "2026-09-28 实时" },
-        { name: "科创50", code: "SH000688", value: "1621.87", change: "-2.35%", market: "A股", updateTime: "2026-09-28 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3808.24", change: "-2.06%", market: "A股", updateTime: "2026-09-28 实时" },
+        { name: "深证成指", code: "SZ399001", value: "12806.46", change: "-3.83%", market: "A股", updateTime: "2026-09-28 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3126.78", change: "-4.93%", market: "A股", updateTime: "2026-09-28 实时" },
+        { name: "沪深300", code: "SH000300", value: "4325.42", change: "-2.56%", market: "A股", updateTime: "2026-09-28 实时" },
+        { name: "科创50", code: "SH000688", value: "1549.47", change: "-4.46%", market: "A股", updateTime: "2026-09-28 实时" },
         { name: "标普500", code: "SPX", value: "7,743.41", change: "+1.21%", market: "美股", updateTime: "2026-09-28 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "27,068.72", change: "+2.06%", market: "美股", updateTime: "2026-09-28 收盘" },
         { name: "道琼斯", code: "DJI", value: "51,828.62", change: "+0.28%", market: "美股", updateTime: "2026-09-28 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "贝森特敦促美联储对美国通胀前景保持“开放心态”",
-            summary: " 美国财政部长贝森特表示，美联储决策者在利率问题上应保持“开放心态”，并认为人工智能带来的生产率提升和放松监管将有助于控制美国通胀。",
-            source: "环球市场播报",
-            date: "2026-09-28",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-28/doc-inithzcu3145293.shtml"
-        },
-        {
-            title: "泽连斯基称俄罗斯袭击乌克兰数据中心",
-            summary: "乌克兰官方表示，俄罗斯在夜间及周日清晨发动空袭，造成乌克兰各地至少6人死亡，并袭击了基辅多个大型数据中心。乌克兰总统泽连斯基表示，扎波罗热地区有3人死亡...",
-            source: "环球市场播报",
+            title: "国泰君安期货：中美八点共识里，藏着哪些行情线索？",
+            summary: " 9月23日至25日中美元首华盛顿会晤，双方达成八点成果共识。接下来我们结合八点共识中与宏观和商品相关的条款，来聊一聊对期货市场可能产生的影响。",
+            source: "市场资讯",
             date: "2026-09-28",
             tag: "A股",
-            url: "https://finance.sina.com.cn/7x24/2026-09-28/doc-inithzcv9915484.shtml"
+            url: "https://finance.sina.com.cn/money/forex/forexroll/2026-09-28/doc-initkarm3869232.shtml"
         },
         {
-            title: "特朗普称英国事件嫌疑人企图破坏两国共用基地",
-            summary: "美国总统特朗普称赞逮捕五名涉嫌策划袭击美国所使用的英国空军基地的男子一事“太棒了”。据英国反恐警务部门称，这些嫌疑人因涉嫌违反英国《爆炸物法》以及准备实施恐怖主义...",
-            source: "环球市场播报",
-            date: "2026-09-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/7x24/2026-09-27/doc-inithuvw3258167.shtml"
+            title: "百盛集团就位于绵阳市紫金广场物业订立租赁协议",
+            summary: "百盛集团（03368）公布，于2026年9月28日，租客（公司的间接全资附属公司）与业主就位于中国四川省绵阳市的物业租赁订立租赁协议。",
+            source: "新浪港股",
+            date: "2026-09-28",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-28/doc-initkarc8698277.shtml"
         },
         {
-            title: "伊朗副外长批评美财长言论：各国自主决定对伊关系，胁迫制裁时代走向终结",
-            summary: "伊朗副外长加里巴巴迪批评了美国财长贝森特关于派遣特使向各国施压、要求其经济孤立伊朗的言论。加里巴巴迪在社交平台写道：“其他国家是基于自身的利益和考量来决定与伊朗...",
-            source: "环球市场播报",
-            date: "2026-09-27",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/7x24/2026-09-27/doc-inithuvw3253579.shtml"
+            title: "丰盛生活服务将于12月18日派发末期股息每股17.6港仙",
+            summary: "丰盛生活服务（00331）公布，将于2026年12月18日派发末期股息每股17.6港仙。",
+            source: "新浪港股",
+            date: "2026-09-28",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-28/doc-initkarm3857643.shtml"
         },
         {
-            title: "在多年大举买入之后，美股散户交易者似乎正转向观望",
-            summary: "机构投资者正在掌控美股股市。 在多年大举买入之后，散户交易者似乎正转向观望。与此同时，Vanda Research的数据显示，面对美国国债收益率飙升，大型投资者仍稳守股票。",
-            source: "环球市场播报",
-            date: "2026-09-27",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithuvy0010360.shtml"
+            title: "丰盛生活服务公布年度业绩 股东应占溢利约4.18亿港元同比减少7.7%",
+            summary: "丰盛生活服务（00331）公布截至 2026 年 6 月 30 日止年度全年业绩，收入约79.343亿港元，同比减少2.8%；毛利10.386亿港元，同比减少1.4%；公司股东应占溢利约4.18亿港元...",
+            source: "新浪港股",
+            date: "2026-09-28",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-28/doc-initkarc8698248.shtml"
         },
         {
-            title: "英国调查美军所用空军基地附近的可疑车辆 5名男子因涉恐嫌疑被捕",
-            summary: " 英国警方表示，他们正在调查一起潜在的恐怖主义事件，此前有五名男子因车辆被发现驶向美国用于打击伊朗的空军基地而被捕。",
-            source: "环球市场播报",
-            date: "2026-09-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithuvt9216620.shtml"
+            title: "医渡科技联属公司中标西安交大一附医院传染病大数据平台项目 涉资1494.5万元",
+            summary: "医渡科技（02158）公布，近期，公司的联属公司医渡云（北京）技术有限公司成功中标西安交通大学医学院第一附属医院传染病智能预警系统、传染病监测流调虚拟仿真培训中心...",
+            source: "新浪港股",
+            date: "2026-09-28",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-09-28/doc-initkarm3857620.shtml"
         },
         {
-            title: "伊朗外长确认与美国的间接谈判 军方仍保持强硬立场",
-            summary: "伊朗表示，重新开放霍尔木兹海峡取决于美国是否满足德黑兰的条件，而外长阿拉格齐表示，谈判解决方案仍有可能。 伊朗坚持其立场：只有在其条件得到满足时...",
-            source: "环球市场播报",
-            date: "2026-09-27",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithuvt9209954.shtml"
+            title: "花旗：速腾聚创首予“买入”评级 目标价23.30港元",
+            summary: " 花旗发布研报称，首次覆盖速腾聚创（02498），给予“买入”评级，目标价23.3港元。该行指出，速腾聚创是中国第二大车载光学雷达制造商。",
+            source: "新浪港股",
+            date: "2026-09-28",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-28/doc-initkari9722170.shtml"
         },
         {
-            title: "特朗普拒绝霍尔木兹海峡提议 伊朗称不会让步",
-            summary: " 在美国总统唐纳德·特朗普表示拒绝之后，伊朗方面表示，正在等待美国对一项在7天内重新开放霍尔木兹海峡的方案作出明确回应，但伊朗不会软化其条件。",
-            source: "环球市场播报",
-            date: "2026-09-27",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithuvw3219024.shtml"
+            title: "中金：九龙仓置业首予“跑赢行业”评级 目标价36港元",
+            summary: "中金发布研报称，首次覆盖九龙仓置业（01997），给予“跑赢行业”评级，目标价36港元，对应33% NAV（净资产价值）折让、5.2%的2026年目标股息收益率及17%的上行空间。",
+            source: "新浪港股",
+            date: "2026-09-28",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-28/doc-initkari9721631.shtml"
+        },
+        {
+            title: "中金：玖龙纸业目标价下调17%至10港元 下调FY27净利润预测5%",
+            summary: "中金发布研报称，玖龙纸业（02689）FY26业绩符合前期预告及该行预期。考虑到公司赎回永续债导致债务和财务费用高企，该行下调FY27净利润预测5%至42.6亿元...",
+            source: "新浪港股",
+            date: "2026-09-28",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-28/doc-initkarh2949016.shtml"
         },
     ],
 
@@ -765,17 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-09-28",
-        marketAssessment: "A股方面：上证指数报3888.37点（-1.22%），深证成指报13316.97点（-2.34%），创业板指报3288.95点（-2.68%）。美股方面：标普500报7,743.41（+1.21%），纳斯达克报27,068.72（+2.06%）。",
+        marketAssessment: "A股方面：上证指数报3808.24点（-2.06%），深证成指报12806.46点（-3.83%），创业板指报3126.78点（-4.93%）。美股方面：标普500报7,743.41（+1.21%），纳斯达克报27,068.72（+2.06%）。",
         hotSectors: [
-
+            { name: "厨房小家电", reason: "板块涨幅+2.02%", strength: "中强" },
+            { name: "林业Ⅲ", reason: "板块涨幅+1.82%", strength: "中强" },
+            { name: "林业Ⅱ", reason: "板块涨幅+1.82%", strength: "中强" },
+            { name: "商用载货车", reason: "板块涨幅+1.32%", strength: "中强" },
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注厨房小家电、林业Ⅲ、林业Ⅱ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

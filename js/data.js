@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3830.45", change: "+0.18%", market: "A股", updateTime: "2026-09-29 实时" },
         { name: "深证成指", code: "SZ399001", value: "12901.95", change: "+0.34%", market: "A股", updateTime: "2026-09-29 实时" },
         { name: "创业板指", code: "SZ399006", value: "3142.56", change: "+0.09%", market: "A股", updateTime: "2026-09-29 实时" },
         { name: "沪深300", code: "SH000300", value: "4345.21", change: "+0.10%", market: "A股", updateTime: "2026-09-29 实时" },
         { name: "科创50", code: "SH000688", value: "1569.34", change: "+0.86%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "标普500", code: "SPX", value: "7,683.69", change: "-1.04%", market: "美股", updateTime: "2026-09-29 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,820.38", change: "-1.11%", market: "美股", updateTime: "2026-09-29 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,481.51", change: "-1.09%", market: "美股", updateTime: "2026-09-29 收盘" },
+        { name: "标普500", code: "SPX", value: "7,683.83", change: "-1.04%", market: "美股", updateTime: "2026-09-29 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,881.34", change: "-1.33%", market: "美股", updateTime: "2026-09-29 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,301.18", change: "-1.08%", market: "美股", updateTime: "2026-09-29 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "诺比侃进行配售：募资净额1.3亿港元 上市9个月市值蒸发近百亿",
-            summary: "来源：雷递 雷递网 雷建平 9月29日 诺比侃（股票代码：02635.HK）今日发布公告，宣布2026年9月29日（交易时段前），公司与配售代理订立配售协议。",
-            source: "市场资讯",
-            date: "2026-09-29",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/s/2026-09-29/doc-initnwnc6159119.shtml"
-        },
-        {
-            title: "英伟达1500亿美元股票回购计划或将助推新一轮股价上涨",
-            summary: "临近年末直至 2027 年初，市场热门交易标的或许还是那个久经市场验证的选择：英伟达（NVDA）。 倘若英伟达股价获得额外上行动力，看多英伟达的投资者要归功于公司这份规模...",
+            title: "避开资产分散配置的投资者，或将迎来数十年来最佳债券买入窗口",
+            summary: "核心要点无需分散配置：股票相对债券的 10 年总回报差值接近历史最高水平。美银认为，当前债券相对股票迎来 20 多年里最好的买入机会之一。",
             source: "环球市场播报",
             date: "2026-09-29",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnwnf2919794.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzx6086964.shtml"
         },
         {
-            title: "Anthropic招股书披露宏大AI愿景，成本激增",
-            summary: "Anthropic IPO 招股书显示，该公司押下重注，认为人工智能对全球经济的变革程度，将超过工业化、电力普及与互联网。 但实现该愿景所需付出的成本高得惊人。",
+            title: "首相伯纳姆誓言重塑英国 打造“新经济、新政治”",
+            summary: " 英国首相安迪·伯纳姆承诺打造“新经济和新政治”，并在向执政党工党发表的演讲中表示，将加强公共部门对供水、能源和住房领域的控制。",
+            source: "环球市场播报",
+            date: "2026-09-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzr7548848.shtml"
+        },
+        {
+            title: "普林斯顿评论：这些公立与私立院校投资回报率表现最佳",
+            summary: "核心要点 鉴于公众对大学就读成本与潜在投资回报率愈发关切，普林斯顿评论综合学术水平、就读负担能力以及毕业生就业前景，对各高校综合价值进行排名。",
+            source: "环球市场播报",
+            date: "2026-09-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzr7547079.shtml"
+        },
+        {
+            title: "阿拉斯加航空大规模改造高端客舱，角逐高端旅行市场",
+            summary: "核心要点阿拉斯加航空将对阿拉斯加航空与夏威夷航空的客舱进行升级，推出全新顶级套房、超级经济舱以及多项配套设施。全行业都在加大投入，增设更多高价座位...",
+            source: "环球市场播报",
+            date: "2026-09-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzr7543033.shtml"
+        },
+        {
+            title: "美国8月份职位空缺降至五个月低位 裁员人数依然较少",
+            summary: "美国8月职位空缺降至五个月低点，显示夏末之际雇主在增加员工方面变得更加谨慎，但裁员人数仍然保持低位。 劳工统计局周二公布的数据显示...",
+            source: "环球市场播报",
+            date: "2026-09-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-09-29/doc-initphzz2847173.shtml"
+        },
+        {
+            title: "美国9月消费者信心跌至十二年以来最低 对经济和就业看法悲观",
+            summary: "美国9月消费者信心降至2014年以来最低水平，人们对经济和劳动力市场的看法变得更加悲观， 世界大型企业联合会公布的数据显示，消费者信心指数下降6.7点至81.9...",
+            source: "环球市场播报",
+            date: "2026-09-29",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-09-29/doc-initphzr7535220.shtml"
+        },
+        {
+            title: "消息人士：OpenAI年度经常性收入接近700亿美元",
+            summary: "媒体援引掌握财务数据的消息人士称，OpenAI年度经常性收入逼近7000亿美元；自7月以来，其企业端销售额增长超一倍。 竞品Anthropic此前在企业AI落地市场占据优势...",
             source: "环球市场播报",
             date: "2026-09-29",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnwnf2917406.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzx6062453.shtml"
         },
         {
-            title: "大众汽车因英国金融行为监管局汽车金融赔付计划",
-            summary: " 这家德国汽车巨头大众汽车，即将披露英国金融监管机构一项90亿英镑汽车金融赔偿方案带来的大额损失。数月前，大众曾联合多家竞品车企，就该方案的执行提起法律诉讼。",
+            title: "英伟达与保险公司探讨分担GPU抵押风险 挖掘新芯片需求",
+            summary: " 英伟达正与多家保险公司展开谈判，探讨分担以其芯片为抵押进行放贷所产生的风险。黄仁勋希望借此打开除大型科技集团之外更多的芯片市场需求。",
             source: "环球市场播报",
             date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnwmv7697339.shtml"
-        },
-        {
-            title: "里昂：康师傅控股重申“跑赢大市”目标价13.70港元",
-            summary: "里昂发布研报称，康师傅控股（00322）维持2026年指引，预期收入同比录得低单位数增长，报告净利润至少同比持平；业务大致按计划推进，不确定性主要来自原材料成本...",
-            source: "新浪港股",
-            date: "2026-09-29",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnwnc6143738.shtml"
-        },
-        {
-            title: "高盛：商汤科技扩展运算平台 给予目标价2.03港元",
-            summary: "高盛发布研报称，基于商汤科技（00020）两阶段 DCF 估值得出 12 个月目标价 2.03 港元，其中 WACC 为 11.5%，永续增长率为 2%。该行近期在香港与公司高管会面...",
-            source: "新浪港股",
-            date: "2026-09-29",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnwnf2915164.shtml"
-        },
-        {
-            title: "小摩：富卫集团维持“增持”评级 目标价48港元",
-            summary: "摩根大通发布研报称，维持富卫集团（01828）目标价48港元及“增持”评级，并更新模型以反映上半年强劲业绩、近期宏观变化及业绩后经营趋势。",
-            source: "新浪港股",
-            date: "2026-09-29",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnwnc2855301.shtml"
-        },
-        {
-            title: "百事股价处于52周低点，却遭机构下调评级，背后原因何在",
-            summary: "尽管百事公司（PEP）股价已经接近 52 周低点，但对摩根大通的分析师团队而言，这显然并非诱人的买入时机。 摩根大通分析师安德里亚・特谢拉周二将百事的股票评级从增持下调...",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initnwnf2914221.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzz2833512.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-29",
-        marketAssessment: "A股方面：上证指数报3830.45点（+0.18%），深证成指报12901.95点（+0.34%），创业板指报3142.56点（+0.09%）。美股方面：标普500报7,683.69（-1.04%），纳斯达克报26,820.38（-1.11%）。",
+        marketAssessment: "A股方面：上证指数报3830.45点（+0.18%），深证成指报12901.95点（+0.34%），创业板指报3142.56点（+0.09%）。美股方面：标普500报7,683.83（-1.04%），纳斯达克报26,881.34（-1.33%）。",
         hotSectors: [
 
         ],

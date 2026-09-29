@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3830.45", change: "+0.18%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "深证成指", code: "SZ399001", value: "12901.95", change: "+0.34%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3142.56", change: "+0.09%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "沪深300", code: "SH000300", value: "4345.21", change: "+0.10%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "科创50", code: "SH000688", value: "1569.34", change: "+0.86%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "标普500", code: "SPX", value: "7,683.83", change: "-1.04%", market: "美股", updateTime: "2026-09-29 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,881.34", change: "-1.33%", market: "美股", updateTime: "2026-09-29 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,301.18", change: "-1.08%", market: "美股", updateTime: "2026-09-29 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3830.45", change: "+0.18%", market: "A股", updateTime: "2026-09-30 实时" },
+        { name: "深证成指", code: "SZ399001", value: "12901.95", change: "+0.34%", market: "A股", updateTime: "2026-09-30 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3142.56", change: "+0.09%", market: "A股", updateTime: "2026-09-30 实时" },
+        { name: "沪深300", code: "SH000300", value: "4345.21", change: "+0.10%", market: "A股", updateTime: "2026-09-30 实时" },
+        { name: "科创50", code: "SH000688", value: "1569.34", change: "+0.86%", market: "A股", updateTime: "2026-09-30 实时" },
+        { name: "标普500", code: "SPX", value: "7,660.55", change: "-1.34%", market: "美股", updateTime: "2026-09-30 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,751.76", change: "-1.81%", market: "美股", updateTime: "2026-09-30 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,232.51", change: "-1.22%", market: "美股", updateTime: "2026-09-30 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "避开资产分散配置的投资者，或将迎来数十年来最佳债券买入窗口",
-            summary: "核心要点无需分散配置：股票相对债券的 10 年总回报差值接近历史最高水平。美银认为，当前债券相对股票迎来 20 多年里最好的买入机会之一。",
+            title: "奥特曼：OpenAI正推出OpenAI私有智能的预览版本",
+            summary: "OpenAI CEO奥特曼宣布，OpenAI正推出OpenAI私有智能的预览版本，名为OpenAI私有智能（OpenAI Private Intelligence）。。该产品能让用户对自身数据拥有更强管控权...",
             source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzx6086964.shtml"
-        },
-        {
-            title: "首相伯纳姆誓言重塑英国 打造“新经济、新政治”",
-            summary: " 英国首相安迪·伯纳姆承诺打造“新经济和新政治”，并在向执政党工党发表的演讲中表示，将加强公共部门对供水、能源和住房领域的控制。",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzr7548848.shtml"
-        },
-        {
-            title: "普林斯顿评论：这些公立与私立院校投资回报率表现最佳",
-            summary: "核心要点 鉴于公众对大学就读成本与潜在投资回报率愈发关切，普林斯顿评论综合学术水平、就读负担能力以及毕业生就业前景，对各高校综合价值进行排名。",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzr7547079.shtml"
-        },
-        {
-            title: "阿拉斯加航空大规模改造高端客舱，角逐高端旅行市场",
-            summary: "核心要点阿拉斯加航空将对阿拉斯加航空与夏威夷航空的客舱进行升级，推出全新顶级套房、超级经济舱以及多项配套设施。全行业都在加大投入，增设更多高价座位...",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzr7543033.shtml"
-        },
-        {
-            title: "美国8月份职位空缺降至五个月低位 裁员人数依然较少",
-            summary: "美国8月职位空缺降至五个月低点，显示夏末之际雇主在增加员工方面变得更加谨慎，但裁员人数仍然保持低位。 劳工统计局周二公布的数据显示...",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-29/doc-initphzz2847173.shtml"
-        },
-        {
-            title: "美国9月消费者信心跌至十二年以来最低 对经济和就业看法悲观",
-            summary: "美国9月消费者信心降至2014年以来最低水平，人们对经济和劳动力市场的看法变得更加悲观， 世界大型企业联合会公布的数据显示，消费者信心指数下降6.7点至81.9...",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-29/doc-initphzr7535220.shtml"
-        },
-        {
-            title: "消息人士：OpenAI年度经常性收入接近700亿美元",
-            summary: "媒体援引掌握财务数据的消息人士称，OpenAI年度经常性收入逼近7000亿美元；自7月以来，其企业端销售额增长超一倍。 竞品Anthropic此前在企业AI落地市场占据优势...",
-            source: "环球市场播报",
-            date: "2026-09-29",
+            date: "2026-09-30",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzx6062453.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppix2815278.shtml"
         },
         {
-            title: "英伟达与保险公司探讨分担GPU抵押风险 挖掘新芯片需求",
-            summary: " 英伟达正与多家保险公司展开谈判，探讨分担以其芯片为抵押进行放贷所产生的风险。黄仁勋希望借此打开除大型科技集团之外更多的芯片市场需求。",
+            title: "奥特曼：预计AI行业责任框架将是“多层次的事情”",
+            summary: "OpenAI首席执行官奥特曼表示，AI行业的“责任框架”正在被激烈辩论，他预计“会有一种多层次的事情”。 他以汽车行业为例，说有不同的方式让汽车制造商和不负责任的司机承担责...",
             source: "环球市场播报",
-            date: "2026-09-29",
+            date: "2026-09-30",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppip7471717.shtml"
+        },
+        {
+            title: "奥特曼：没有其他事件像Hugging Face遭受攻击那样“严重”",
+            summary: " OpenAI CEO奥特曼表示，他不知道有任何AI事件像对开源软件开发者平台Hugging Face的攻击那样“严重”，该公司今年夏天早些时候披露了该事件。",
+            source: "环球市场播报",
+            date: "2026-09-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppix2813771.shtml"
+        },
+        {
+            title: "奥特曼称不受扎克伯格威胁，但Muse“似乎是不错的产品”",
+            summary: " OpenAI CEO奥特曼表示，Meta的Muse AI代理“似乎是不错的产品”，但他表示自己并不受到Meta首席执行官马克·扎克伯格的威胁。",
+            source: "环球市场播报",
+            date: "2026-09-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppiv2630775.shtml"
+        },
+        {
+            title: "奥特曼谈英伟达代理安全平台：“这是好事”",
+            summary: " OpenAI CEO奥特曼表示，英伟达本周发布的最新AI软件平台旨在阻止AI代理行为不当，这是一件“好事”，但不是“完整解决方案”。",
+            source: "环球市场播报",
+            date: "2026-09-30",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initphzz2833512.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppiv2630658.shtml"
+        },
+        {
+            title: "奥特曼：不想对华盛顿可能出台的监管“过于乐观”",
+            summary: "奥特曼表示，他不想对AI国际协调或华盛顿特区新监管的可能性“过于乐观”。 “我以前曾错误地认为华盛顿会发生某些事情，但你知道，它没有发生，”他说。",
+            source: "环球市场播报",
+            date: "2026-09-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppiv2630520.shtml"
+        },
+        {
+            title: "奥特曼谈硬件：“值得等待的东西”可能即将到来",
+            summary: "OpenAI首席执行官奥特曼预告，AI硬件领域可能很快会出现“值得等待的东西”。 但他在接受采访时表示，在这一领域比赛中领先他人并不是他的首要考虑...",
+            source: "环球市场播报",
+            date: "2026-09-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppiv2630469.shtml"
+        },
+        {
+            title: "奥特曼谈IPO计划：心中没有具体时间表",
+            summary: " 奥特曼表示，对于OpenAI何时IPO，他“心中没有具体时间表”。他说，一旦公司觉得已经理解如何应对下一级AI并安全地做到这一点，他认为就有可能。",
+            source: "环球市场播报",
+            date: "2026-09-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppip7470969.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-09-29",
-        marketAssessment: "A股方面：上证指数报3830.45点（+0.18%），深证成指报12901.95点（+0.34%），创业板指报3142.56点（+0.09%）。美股方面：标普500报7,683.83（-1.04%），纳斯达克报26,881.34（-1.33%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-09-30",
+        marketAssessment: "A股方面：上证指数报3830.45点（+0.18%），深证成指报12901.95点（+0.34%），创业板指报3142.56点（+0.09%）。美股方面：标普500报7,660.55（-1.34%），纳斯达克报26,751.76（-1.81%）。",
         hotSectors: [
 
         ],

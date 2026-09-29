@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3823.62", change: "-1.67%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "深证成指", code: "SZ399001", value: "12858.75", change: "-3.44%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3139.82", change: "-4.53%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "沪深300", code: "SH000300", value: "4340.76", change: "-2.22%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "科创50", code: "SH000688", value: "1555.98", change: "-4.06%", market: "A股", updateTime: "2026-09-29 实时" },
-        { name: "标普500", code: "SPX", value: "7,683.36", change: "-1.05%", market: "美股", updateTime: "2026-09-29 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,821.20", change: "-1.11%", market: "美股", updateTime: "2026-09-29 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,487.62", change: "-1.08%", market: "美股", updateTime: "2026-09-29 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3828.03", change: "+0.12%", market: "A股", updateTime: "2026-09-29 实时" },
+        { name: "深证成指", code: "SZ399001", value: "12893.85", change: "+0.27%", market: "A股", updateTime: "2026-09-29 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3144.83", change: "+0.16%", market: "A股", updateTime: "2026-09-29 实时" },
+        { name: "沪深300", code: "SH000300", value: "4342.99", change: "+0.05%", market: "A股", updateTime: "2026-09-29 实时" },
+        { name: "科创50", code: "SH000688", value: "1560.63", change: "+0.30%", market: "A股", updateTime: "2026-09-29 实时" },
+        { name: "标普500", code: "SPX", value: "7,683.69", change: "-1.04%", market: "美股", updateTime: "2026-09-29 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,820.38", change: "-1.11%", market: "美股", updateTime: "2026-09-29 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,481.51", change: "-1.09%", market: "美股", updateTime: "2026-09-29 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "标普500指数中近半数股票与市场其余部分走势相悖",
-            summary: "标普500指数中近半数股票以负贝塔走势与指数相悖，这种不同寻常的分化正变得越来越难以忽视。 根据高盛最近的一份报告，约45%的标普500成分股三个月贝塔为负。",
-            source: "环球市场播报",
+            title: "花旗：中集安瑞科维持“买入”评级 目标价9.50港元",
+            summary: "花旗发布研报称，维持中集安瑞科（03899）目标价9.5港元及“买入”评级。 该行指出，近期与中集安瑞科管理层进行交流，相比今年8月上半年业绩发布时...",
+            source: "新浪港股",
+            date: "2026-09-29",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnmwi2956136.shtml"
+        },
+        {
+            title: "大摩：上海电气维持“减持”评级 目标价上调20%至2.32港元",
+            summary: "大摩发布研报称，上调上海电气（02727）目标价，H股由1.93港元上调至2.32港元；A股由4.63人民币上调至5.33人民币，幅度分别达20%及15%。",
+            source: "新浪港股",
+            date: "2026-09-29",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnmwi2955712.shtml"
+        },
+        {
+            title: "里昂：联想集团重申为首选中国科技股 维持“跑赢大市”评级",
+            summary: "里昂发布研报称，重申联想集团（00992）为其首选中国科技股，维持“跑赢大市”评级，目标价48.7港元。Akamai Technologies（AKAM.US）日前宣布与人工智能公司Anthropic签订为...",
+            source: "新浪港股",
+            date: "2026-09-29",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnmwi2954728.shtml"
+        },
+        {
+            title: "康诺亚-B午后涨逾9% 公司在自免、肿瘤等多个创新药领域具备强竞争优势",
+            summary: "康诺亚-B（02162）午后涨超8%，截至发稿，股价上涨8.95%，现报79.70港元，成交额2.37亿港元。 本月初，康诺亚宣布已与跨国医药公司 Aeira...",
+            source: "新浪港股",
+            date: "2026-09-29",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-09-29/doc-initnmwi2954177.shtml"
+        },
+        {
+            title: "西部证券：博泰车联首予“买入”评级 拟收购成都明夷约70%股权",
+            summary: "近日，西部证券发布首次覆盖博泰车联（02889）的深度研究报告，给予“买入”评级。报告预计，公司2026-2028年营业收入分别为60.30亿元、84.87亿元、110.74亿元...",
+            source: "新浪港股",
+            date: "2026-09-29",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnmvz7793341.shtml"
+        },
+        {
+            title: "高盛：途虎-W策略性收购澳洲mycar 维持目标价13港元",
+            summary: "高盛发布研报称，维持途虎-W（09690）目标价13港元。公司宣布收购经营澳洲汽车维修及保养品牌“mycar Tyre &amp; Auto”的公司Conti Trade Australia Pty Ltd...",
+            source: "新浪港股",
+            date: "2026-09-29",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnmwi2950391.shtml"
+        },
+        {
+            title: "大摩：维持恒生指数目标26550点",
+            summary: "大摩发布研报称，中国股市整体前景仍偏审慎，并维持早前9月初下调主要指数目标的观点。 该行认为，当前国内需求前景依然脆弱，家庭去杠杆正转为信心驱动...",
+            source: "新浪港股",
+            date: "2026-09-29",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-29/doc-initnmwi2949813.shtml"
+        },
+        {
+            title: "美联储鹰派预期与能源通胀推高美元，USD/CAD升至1.4200附近创近三个月新高",
+            summary: "文章来源：汇通财经 美元兑加元周二亚洲时段延续近期升势，USD/CAD一度升至1.4200附近，刷新7月9日以来高位。过去三周，美元持续获得利率预期和避险需求支撑...",
+            source: "市场资讯",
             date: "2026-09-29",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmqsq2661614.shtml"
-        },
-        {
-            title: "Anthropic推出更便宜AI模型Sonnet 5.5",
-            summary: "Anthropic周一发布了一款名为Sonnet 5.5的新人工智能模型，这是该公司CEO阿莫代伊呼吁放缓开发节奏以来的第二次发布。 Sonnet 5.5是Anthropic推出的更快、成本更低的产品...",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkkp8229481.shtml"
-        },
-        {
-            title: "美国国税局威胁限制ETF避税操作 华尔街税务策略面临审查",
-            summary: "美国财政部周一朝着遏制华尔街税务优化投资热潮迈出重要一步。财政部发布的一份通知显示，政府可能针对多种相关策略采取行动，国税局最新一项裁定将限制一种快速增长的ETF...",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkkp8229429.shtml"
-        },
-        {
-            title: "特朗普：与伊朗战争结束后 通胀将被“根除”",
-            summary: "美国总统特朗普表示，与伊朗的战争结束后，通胀将被“彻底根除”。 “通胀正在大幅下降，”特朗普称。",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkks2790528.shtml"
-        },
-        {
-            title: "美国法官裁定：联邦政府不能扣留各州反恐资金以强制改变选举管理",
-            summary: " 美国联邦法官阿米尔·阿里周一撤销了特朗普政府的一项规则，该规则原本会扣留各州的一部分反恐资金，除非各州和某些市镇在选举管理方式上做出某些改变。",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkkt9562792.shtml"
-        },
-        {
-            title: "阿波罗首席经济学家：AI智能体恐令美国银行业大量流失低息存款",
-            summary: " 阿波罗全球管理首席经济学家Torsten Slok表示，如果消费者开始高度依赖通过Muse等人工智能助手把现金自动转入收益率更高的账户，可能会给金融体系带来风险。",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkks2789809.shtml"
-        },
-        {
-            title: "OpenAI在英伟达130亿美元交易前以早期投资提议引发对Hugging Face的竞购",
-            summary: " 据知情人士透露，在英伟达本月同意支付约130亿美元收购开源平台Hugging Face之前，OpenAI曾试图向这家初创公司投资1亿美元。",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkks2789168.shtml"
-        },
-        {
-            title: "美国联邦航空管理局暂缓批准波音737 Max 10 将研究相关软件问题",
-            summary: " 由于出现新的软件问题，美国联邦航空管理局（FAA）将推迟波音对737 Max 10的认证。这款机型原本已进入即将获批并开始向航空公司交付的最后阶段。",
-            source: "环球市场播报",
-            date: "2026-09-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-29/doc-initmkks2788819.shtml"
+            url: "https://finance.sina.com.cn/money/forex/whxwsd/2026-09-29/doc-initnmvz7783356.shtml"
         },
     ],
 
@@ -765,17 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-09-29",
-        marketAssessment: "A股方面：上证指数报3823.62点（-1.67%），深证成指报12858.75点（-3.44%），创业板指报3139.82点（-4.53%）。美股方面：标普500报7,683.36（-1.05%），纳斯达克报26,821.20（-1.11%）。",
+        marketAssessment: "A股方面：上证指数报3828.03点（+0.12%），深证成指报12893.85点（+0.27%），创业板指报3144.83点（+0.16%）。美股方面：标普500报7,683.69（-1.04%），纳斯达克报26,820.38（-1.11%）。",
         hotSectors: [
 
         ],
         weakSectors: [
 
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

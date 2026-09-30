@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3830.45", change: "+0.18%", market: "A股", updateTime: "2026-09-30 实时" },
-        { name: "深证成指", code: "SZ399001", value: "12901.95", change: "+0.34%", market: "A股", updateTime: "2026-09-30 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3142.56", change: "+0.09%", market: "A股", updateTime: "2026-09-30 实时" },
-        { name: "沪深300", code: "SH000300", value: "4345.21", change: "+0.10%", market: "A股", updateTime: "2026-09-30 实时" },
-        { name: "科创50", code: "SH000688", value: "1569.34", change: "+0.86%", market: "A股", updateTime: "2026-09-30 实时" },
-        { name: "标普500", code: "SPX", value: "7,660.55", change: "-1.34%", market: "美股", updateTime: "2026-09-30 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,751.76", change: "-1.81%", market: "美股", updateTime: "2026-09-30 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,232.51", change: "-1.22%", market: "美股", updateTime: "2026-09-30 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3847.11", change: "+0.43%", market: "A股", updateTime: "2026-09-30 实时" },
+        { name: "深证成指", code: "SZ399001", value: "12915.96", change: "+0.11%", market: "A股", updateTime: "2026-09-30 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3143.77", change: "+0.04%", market: "A股", updateTime: "2026-09-30 实时" },
+        { name: "沪深300", code: "SH000300", value: "4362.60", change: "+0.40%", market: "A股", updateTime: "2026-09-30 实时" },
+        { name: "科创50", code: "SH000688", value: "1532.14", change: "-2.37%", market: "A股", updateTime: "2026-09-30 实时" },
+        { name: "标普500", code: "SPX", value: "7,670.84", change: "-1.21%", market: "美股", updateTime: "2026-09-30 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,797.54", change: "-1.64%", market: "美股", updateTime: "2026-09-30 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,349.92", change: "-0.99%", market: "美股", updateTime: "2026-09-30 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "奥特曼：OpenAI正推出OpenAI私有智能的预览版本",
-            summary: "OpenAI CEO奥特曼宣布，OpenAI正推出OpenAI私有智能的预览版本，名为OpenAI私有智能（OpenAI Private Intelligence）。。该产品能让用户对自身数据拥有更强管控权...",
-            source: "环球市场播报",
-            date: "2026-09-30",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppix2815278.shtml"
-        },
-        {
-            title: "奥特曼：预计AI行业责任框架将是“多层次的事情”",
-            summary: "OpenAI首席执行官奥特曼表示，AI行业的“责任框架”正在被激烈辩论，他预计“会有一种多层次的事情”。 他以汽车行业为例，说有不同的方式让汽车制造商和不负责任的司机承担责...",
-            source: "环球市场播报",
-            date: "2026-09-30",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppip7471717.shtml"
-        },
-        {
-            title: "奥特曼：没有其他事件像Hugging Face遭受攻击那样“严重”",
-            summary: " OpenAI CEO奥特曼表示，他不知道有任何AI事件像对开源软件开发者平台Hugging Face的攻击那样“严重”，该公司今年夏天早些时候披露了该事件。",
+            title: "印度设定目标：到2032财年乘用车燃油效率将提升16.7%",
+            summary: " 据印度电力部的一份声明，印度政府已发布乘用车新的企业平均燃油经济性（CAFE）标准，目标是在2032年3月前将燃油消耗改善16.7%。",
             source: "环球市场播报",
             date: "2026-09-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppix2813771.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initqqvi2215156.shtml"
         },
         {
-            title: "奥特曼称不受扎克伯格威胁，但Muse“似乎是不错的产品”",
-            summary: " OpenAI CEO奥特曼表示，Meta的Muse AI代理“似乎是不错的产品”，但他表示自己并不受到Meta首席执行官马克·扎克伯格的威胁。",
-            source: "环球市场播报",
+            title: "一周之内两家公司启动私有化，主动寻求“退市” 今年以来港股已有31家公司除牌",
+            summary: "每经记者|曾子建每经编辑|袁东 近期港股市场多家公司启动私有化退市，继老牌婴童龙头好孩子国际（HK01086）官宣私有化退市计划后...",
+            source: "每日经济新闻",
+            date: "2026-09-30",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/roll/2026-09-30/doc-initqqvm2608646.shtml"
+        },
+        {
+            title: "朋友圈的贷款中介突然“消停”！今起这项新规正式施行",
+            summary: "21世纪经济报道记者李览青 9月30日，由中国人民银行等八部门联合发布的《金融产品网络营销管理办法》（以下简称“新规”）正式施行。",
+            source: "21世纪经济报道",
             date: "2026-09-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppiv2630775.shtml"
+            url: "https://finance.sina.com.cn/roll/2026-09-30/doc-initqqvi5833607.shtml"
         },
         {
-            title: "奥特曼谈英伟达代理安全平台：“这是好事”",
-            summary: " OpenAI CEO奥特曼表示，英伟达本周发布的最新AI软件平台旨在阻止AI代理行为不当，这是一件“好事”，但不是“完整解决方案”。",
+            title: "台湾以东海域发生5.5级地震，震源深度10千米，网友：厦门福州有震感",
+            summary: "来源：中国地震台网速报 中国地震台网正式测定：09月30日13时00分在台湾以东海域（北纬23.77度，东经122.96度）发生5.5级地震，震源深度10千米。 网友评论：",
+            source: "环球网",
+            date: "2026-09-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/roll/2026-09-30/doc-initqquz7053309.shtml"
+        },
+        {
+            title: "“木头姐”抛售AMD股票套现逾1亿美元，加仓英伟达、特斯拉和SpaceX",
+            summary: "凯茜·伍德旗下的方舟投资管理公司（Ark Invest）周二进行了一系列重大交易，涉及英伟达、特斯拉和AMD等多只科技股。这些交易反映了Ark在市场波动及相关公司动态背景下的战...",
             source: "环球市场播报",
             date: "2026-09-30",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppiv2630658.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initqqvm2600233.shtml"
         },
         {
-            title: "奥特曼：不想对华盛顿可能出台的监管“过于乐观”",
-            summary: "奥特曼表示，他不想对AI国际协调或华盛顿特区新监管的可能性“过于乐观”。 “我以前曾错误地认为华盛顿会发生某些事情，但你知道，它没有发生，”他说。",
+            title: "摩根大通和高盛均预计中东原油输出规模接近战前水平",
+            summary: "根据摩根大通和高盛各自的估算，虽然航运风险依然存在，但中东原油运输量正恢复至接近战前的水平。 摩根大通分析师在9月29日的报告中表示，中东石油出口通道已经大致恢复...",
             source: "环球市场播报",
             date: "2026-09-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppiv2630520.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initqqvm2599465.shtml"
         },
         {
-            title: "奥特曼谈硬件：“值得等待的东西”可能即将到来",
-            summary: "OpenAI首席执行官奥特曼预告，AI硬件领域可能很快会出现“值得等待的东西”。 但他在接受采访时表示，在这一领域比赛中领先他人并不是他的首要考虑...",
+            title: "油价飙升抹平政策红利，外资再度撤离印度",
+            summary: "随着油价飙升和全球收益率走高威胁到近期需求的复苏，海外投资者再次开始抛售印度资产。 本月迄今为止，全球基金已抛售了21亿美元的印度本地股票...",
             source: "环球市场播报",
             date: "2026-09-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppiv2630469.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initqqvi2206798.shtml"
         },
         {
-            title: "奥特曼谈IPO计划：心中没有具体时间表",
-            summary: " 奥特曼表示，对于OpenAI何时IPO，他“心中没有具体时间表”。他说，一旦公司觉得已经理解如何应对下一级AI并安全地做到这一点，他认为就有可能。",
-            source: "环球市场播报",
+            title: "花旗：普拉达维持“中性”评级 目标价下调至39.90港元",
+            summary: "花旗发布研报称，维持普拉达（01913）“中性”评级，将目标价由41.5港元下调至39.9港元。该行将2026至2028年各年集团净销售预测下调约1%...",
+            source: "新浪港股",
             date: "2026-09-30",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initppip7470969.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-09-30/doc-initqqvi5819901.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-09-30",
-        marketAssessment: "A股方面：上证指数报3830.45点（+0.18%），深证成指报12901.95点（+0.34%），创业板指报3142.56点（+0.09%）。美股方面：标普500报7,660.55（-1.34%），纳斯达克报26,751.76（-1.81%）。",
+        marketAssessment: "A股方面：上证指数报3847.11点（+0.43%），深证成指报12915.96点（+0.11%），创业板指报3143.77点（+0.04%）。美股方面：标普500报7,670.84（-1.21%），纳斯达克报26,797.54（-1.64%）。",
         hotSectors: [
 
         ],

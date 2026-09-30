@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-09-30 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-09-30 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-09-30 实时" },
         { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-09-30 实时" },
         { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-09-30 实时" },
-        { name: "标普500", code: "SPX", value: "7,670.84", change: "-1.21%", market: "美股", updateTime: "2026-09-30 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,797.54", change: "-1.64%", market: "美股", updateTime: "2026-09-30 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,349.92", change: "-0.99%", market: "美股", updateTime: "2026-09-30 收盘" },
+        { name: "标普500", code: "SPX", value: "7,712.52", change: "+0.08%", market: "美股", updateTime: "2026-09-30 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,052.02", change: "+0.43%", market: "美股", updateTime: "2026-09-30 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,380.20", change: "-0.26%", market: "美股", updateTime: "2026-09-30 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "从迪拜飞往特拉维夫的航班因机上事故在沙特降落 所有乘客均安全无恙",
-            summary: " 一架由迪拜航空运营、从迪拜国际机场飞往特拉维夫的航班，由于航空公司所称“在飞往以色列途中发生的事件”，周三上午被迫改道飞往沙特阿拉伯进行计划外降落。",
+            title: "分析师称：中东原油出口恢复至战前水平",
+            summary: "海湾地区重构石油出口基础设施，不再依赖单一运输通道2 月 28 日美伊冲突爆发后，霍尔木兹海峡的石油运输流量曾大幅缩减。 分析师表示，受伊朗冲突扰动影响...",
             source: "环球市场播报",
             date: "2026-09-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-30/doc-initrfsz1972788.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrshv1816459.shtml"
         },
         {
-            title: "机构：柴油出口禁令风险、霍尔木兹谈判停滞搅动市场",
-            summary: "睿思达能源在一份报告中称，中东冲突悬而未决叠加美国拟出台柴油出口禁令的风险，两大因素“同时冲击能源市场”。 首席经济学家克劳迪奥·加利姆贝尔蒂表示...",
+            title: "保时捷汽车控股：德国法院驳回投资者提起的61亿美元诉讼",
+            summary: "原告指控该公司在逐步增持大众汽车股权期间，未如实披露真实意图。保时捷汽车控股股份公司表示，该判决为终审判决，现已认定原告无权获得损害赔偿。",
             source: "环球市场播报",
             date: "2026-09-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-30/doc-initrftc2500576.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrshp6656495.shtml"
         },
         {
-            title: "阿联酋环球铝业经阿联酋东海岸扩大铝出口 避开霍尔木兹海峡",
-            summary: "受霍尔木兹海峡航运持续受阻影响，阿联酋国有铝生产商将每年从本国东海岸出口至多25万吨铝。 根据阿联酋环球铝业与物流企业海湾码头公司达成的新协议...",
+            title: "宝马计划缩减人员规模，加大人工智能落地以提升运营效率",
+            summary: "宝马表示，未来数月内将把业务部门数量与管理岗位削减 20%，实现组织架构精简集团正为未来日趋严峻的市场环境做好准备。 内容速览 宝马计划在未来数月削减 20%...",
             source: "环球市场播报",
             date: "2026-09-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-30/doc-initrfsz1971932.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrshv1815297.shtml"
         },
         {
-            title: "Oura与World Labs：风险投资退出市场出现分化",
-            summary: "事实证明，今年对于风险投资退出而言算是不错的一年 —— 但仅限于并购收购（M&amp;A）渠道。 以本周一的新闻为例，超威半导体（AMD）宣布收购李飞飞创立的 World Labs。",
+            title: "IPO 市场寒意渐显？",
+            summary: "作者：沃尔登・休可穿戴科技企业奥拉（Oura）于周二推迟 IPO；安索普尼克（Anthropic）等企业的上市时间表也已发生变动。 今年 IPO 市场原本势头火热...",
             source: "环球市场播报",
             date: "2026-09-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrftc2499355.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrshp6654744.shtml"
         },
         {
-            title: "瑞典央行耶尔姆：2026年内加息具备合理性",
-            summary: " 最新货币政策会议纪要显示，瑞典央行副行长约兰·耶尔姆称，“若报告草案中的经济前景维持不变”，2026年将政策利率上调至2%是“合理的”。",
-            source: "环球市场播报",
-            date: "2026-09-30",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-30/doc-initrfsz1970842.shtml"
-        },
-        {
-            title: "Oura推迟IPO，反映整体市场陷入停滞",
-            summary: "IPO 市场似乎已经陷入停滞，这对 Anthropic 而言或将成为麻烦。智能指环厂商 Oura 于周二宣布推迟 IPO，理由是 “IPO 市场充满不确定性”。",
+            title: "EIA：美国原油库存上周增加92.2万桶 预估中值为减少71万桶",
+            summary: "美国能源信息管理局（EIA）库存报告还显示上周有如下变动： 汽油库存减少168.4万桶，预估为减少100万桶 馏分油库存减少225.1万桶，预估为增加7.5万桶 库欣原油库存增加55...",
             source: "环球市场播报",
             date: "2026-09-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrfst6810975.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrshp6653724.shtml"
         },
         {
-            title: "波兰通胀创15个月新高 加息理由进一步增强",
-            summary: "中东冲突推高燃油价格，波兰通胀升至2025年年中以来最高，央行面临收紧货币政策的压力。 初步数据显示，9月CPI同比上涨4%，8月为3.4%，符合彭博经济学家调查的预期中值。",
-            source: "环球市场播报",
-            date: "2026-09-30",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-09-30/doc-initrfsz5721586.shtml"
-        },
-        {
-            title: "交易员等待霍尔木兹海峡最新消息 欧洲天然气价格持稳",
-            summary: "欧洲天然气价格震荡，交易员静待中东停火局势、霍尔木兹海峡航运恢复情况的新进展。 11月基准期货价格维持在70欧元/兆瓦时附近。",
+            title: "美国运通为企业卡新增人工智能与费用追踪功能，对抗金融科技竞争对手",
+            summary: "这款全新企业返现卡，是美国运通首款接入费用管理软件的企业卡这款全新企业返现卡是美国运通首款对接费用管理软件的企业卡。 内容速览...",
             source: "环球市场播报",
             date: "2026-09-30",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-09-30/doc-initrftc2490248.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrshv5644953.shtml"
+        },
+        {
+            title: "五角大楼投资初创企业，目标供应关键磁体所需金属",
+            summary: " 赫莎金属公司（Hertha Metals）采用一套连续式反应装置，可处理任意品位铁矿石，以天然气或氢气作为还原剂。—— 赫莎金属公司",
+            source: "环球市场播报",
+            date: "2026-09-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrmyr6783725.shtml"
+        },
+        {
+            title: "礼来复方药物在糖尿病临床试验中实现创纪录减重",
+            summary: " 礼来公司表示，一款全新复方制剂帮助糖尿病患者最高减重23%，减重效果超过同类研究中的其他药物，有望成为该企业目前减重效力最强的肥胖注射制剂。",
+            source: "环球市场播报",
+            date: "2026-09-30",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrmyr6780088.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-09-30",
-        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,670.84（-1.21%），纳斯达克报26,797.54（-1.64%）。",
+        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,712.52（+0.08%），纳斯达克报27,052.02（+0.43%）。",
         hotSectors: [
             { name: "视频媒体", reason: "板块涨幅+6.06%", strength: "强" },
             { name: "医美耗材", reason: "板块涨幅+5.23%", strength: "强" },
@@ -775,7 +775,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "疫苗", reason: "板块涨幅+4.64%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "印制电路板", reason: "板块跌幅-4.56%", strength: "弱" },
+            { name: "集成电路封测", reason: "板块跌幅-4.10%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
         shortTermStrategy: "超短线关注视频媒体、医美耗材、其他生物制品等板块的延续性，顺势操作，严格止损。",

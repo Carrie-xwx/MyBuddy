@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-01 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-01 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-01 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "沙特交易所将允许市价单在多个价格档位成交",
-            summary: "沙特交易所自10月4日起，允许市价单跨多个价格档位成交，而非仅在单一价格档位成交。 现行机制下，市价单会优先撮合最优价格上的可用挂单...",
+            title: "莱纳斯稀土6.72亿美元收购Meteoric Resources",
+            summary: "Meteoric 公司持有巴西米纳斯吉拉斯州西南部卡尔代拉稀土项目莱纳斯稀土市值约 90 亿美元，是中国境外规模最大的稀土分离生产商。",
             source: "环球市场播报",
             date: "2026-10-01",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-01/doc-initsyai2102829.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksf6634995.shtml"
         },
         {
-            title: "花旗分析师：十月适宜布局存储芯片股",
-            summary: " 花旗集团分析师李彼得称，投资者应当开始买入全球头部存储芯片厂商股票，人工智能相关需求或将在明年造成严重的半导体供应短缺。",
+            title: "阿拉食品CEO：将斥资数百万欧元，抢抓高蛋白乳制品市场需求",
+            summary: "这家丹麦乳业巨头计划扩建位于德国、瑞典的冰岛式酸奶（skyr）和茅屋干酪生产基地阿拉食品通过一系列投资，希望从蛋白食品热潮中获益。",
+            source: "环球市场播报",
+            date: "2026-10-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittkrz1130582.shtml"
+        },
+        {
+            title: "埃森哲第四季度营收187亿美元 同比增长6.3%",
+            summary: "埃森哲 第四季度 营收187亿美元，同比+6.3%，预估180.4亿美元。 第四季度业绩： 营收187亿美元，同比+6.3%，预估180.4亿美元。 金融服务收入34.7亿美元，同比+4.7%...",
+            source: "环球市场播报",
+            date: "2026-10-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksf6634104.shtml"
+        },
+        {
+            title: "欧洲豪华车企为美国市场打造超大尺寸SUV",
+            summary: "宝马、奥迪、沃尔沃等车企正力求提升美国市场销量，以此对冲欧洲与中国市场的疲软奥迪 Q9 内容摘要 包括宝马、奥迪在内的欧洲汽车厂商...",
+            source: "环球市场播报",
+            date: "2026-10-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksf6618687.shtml"
+        },
+        {
+            title: "美光盘前跌0.8% Q4利润、营收大幅飙升",
+            summary: "该公司公布第四财季利润达 377 亿美元，去年同期为 32 亿美元美光科技第四财季利润与营收大幅增长。 内容摘要 美光科技公布第四财季利润 377 亿美元...",
+            source: "环球市场播报",
+            date: "2026-10-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksc1977641.shtml"
+        },
+        {
+            title: "欧盟寻求统一立场 此前美国要求欧洲国家释放柴油储备",
+            summary: "美国要求欧洲国家释放紧急柴油储备，以缓解价格压力并避免实施出口禁令后，欧盟正与成员国协调共同立场。 一份备忘录显示，欧盟石油协调小组周三晚间要求成员国确认是否已...",
+            source: "环球市场播报",
+            date: "2026-10-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-01/doc-inittksc1974683.shtml"
+        },
+        {
+            title: "华尔街与硅谷对AI估值产生分歧",
+            summary: "经济形势正在发生变化，使得硅谷与华尔街对 AI 的财务判断分歧持续扩大，数万亿美元 AI 投资的前景蒙上一层阴影。 股市的担忧情绪已经导致数家中型企业 IPO 推迟；市场对...",
             source: "环球市场播报",
             date: "2026-10-01",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsyaf1296438.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittkrz5201225.shtml"
         },
         {
-            title: "汇丰即将迁入新总部 交易楼层挑高空间远逊同业",
-            summary: " 明年初，汇丰的交易员将成为首批搬离目前金丝雀码头总部的员工之一；他们迁入位于伦敦历史悠久的金融城新总部时，可能会大吃一惊。",
+            title: "举债扩张的AI数据中心热潮显现裂痕",
+            summary: " 债券市场如今对低评级借款人收紧信贷。CleanSpark 就是一例：这家正在为 Meta 建设数据中心的企业，本月早些时候不得不向投资者作出重大让步，才拿到融资。",
             source: "环球市场播报",
             date: "2026-10-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsyaf1294335.shtml"
-        },
-        {
-            title: "SK海力士重申尚未就美国子公司Solidigm上市作出决定",
-            summary: " SK海力士周四表示，正在评估其美国子公司Solidigm的各种融资选项，但尚未做出任何决定。此举重申了其针对有关该子公司可能在美国上市的传闻所持的一贯立场。",
-            source: "环球市场播报",
-            date: "2026-10-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsyaf1294326.shtml"
-        },
-        {
-            title: "特朗普借Flydubai惊险事件力挺737 MAX：称飞机承受远超设计预期的极端载荷",
-            summary: "美国总统特朗普在Flydubai一架737 MAX客机发生严重空中事件后公开称赞这一机型，表示飞机在事件中承受了“远超设计和预期”的重力载荷与结构应力...",
-            source: "环球市场播报",
-            date: "2026-10-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsyai2098596.shtml"
-        },
-        {
-            title: "花旗：将12个月比特币价格预测从8.2万美元上调至11.3万美元",
-            summary: "花旗集团已将其12个月比特币价格预测从此前的8.2万美元上调至11.3万美元。 这一上调标志着该银行在2026年年中立场的重大转变。2026年7月，由于ETF持续流出...",
-            source: "环球市场播报",
-            date: "2026-10-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsyaf1288838.shtml"
-        },
-        {
-            title: "全球债券收益率节节攀升的十大理由：经济韧性、央行加息、AI举债热等",
-            summary: "全球债券收益率几乎天天攀升，引发市场激烈争论：究竟是什么原因推动这波走势，收益率又还会升多高？ 全球固定收益市场的抛售潮，导致美国基准10年期国债收益率升至2007年...",
-            source: "环球市场播报",
-            date: "2026-10-01",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsyaf1286528.shtml"
-        },
-        {
-            title: "欧盟就币安无视关停令继续运营一事提出质询",
-            summary: " 据知情人士称，欧盟官员正就币安继续在当地开展业务一事展开质询，该公司本收到指令需关停在欧盟地区业务，却利用一项法律豁免条款继续为当地用户提供服务。",
-            source: "环球市场播报",
-            date: "2026-10-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsyaf5306227.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksc1972389.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-01",
         marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,651.54（-0.71%），纳斯达克报26,861.06（-0.28%）。",
         hotSectors: [
-            { name: "视频媒体", reason: "板块涨幅+6.06%", strength: "强" },
-            { name: "医美耗材", reason: "板块涨幅+5.23%", strength: "强" },
-            { name: "其他生物制品", reason: "板块涨幅+4.72%", strength: "强" },
-            { name: "疫苗", reason: "板块涨幅+4.64%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "印制电路板", reason: "板块跌幅-4.56%", strength: "弱" },
-            { name: "集成电路封测", reason: "板块跌幅-4.10%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注视频媒体、医美耗材、其他生物制品等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

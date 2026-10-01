@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-01 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-01 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-01 实时" },
         { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-10-01 实时" },
         { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-10-01 实时" },
-        { name: "标普500", code: "SPX", value: "7,651.54", change: "-0.71%", market: "美股", updateTime: "2026-10-01 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,861.06", change: "-0.28%", market: "美股", updateTime: "2026-10-01 收盘" },
-        { name: "道琼斯", code: "DJI", value: "50,906.05", change: "-1.18%", market: "美股", updateTime: "2026-10-01 收盘" },
+        { name: "标普500", code: "SPX", value: "7,632.01", change: "-0.94%", market: "美股", updateTime: "2026-10-01 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,800.41", change: "-0.52%", market: "美股", updateTime: "2026-10-01 收盘" },
+        { name: "道琼斯", code: "DJI", value: "50,622.82", change: "-1.42%", market: "美股", updateTime: "2026-10-01 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "莱纳斯稀土6.72亿美元收购Meteoric Resources",
-            summary: "Meteoric 公司持有巴西米纳斯吉拉斯州西南部卡尔代拉稀土项目莱纳斯稀土市值约 90 亿美元，是中国境外规模最大的稀土分离生产商。",
-            source: "环球市场播报",
-            date: "2026-10-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksf6634995.shtml"
-        },
-        {
-            title: "阿拉食品CEO：将斥资数百万欧元，抢抓高蛋白乳制品市场需求",
-            summary: "这家丹麦乳业巨头计划扩建位于德国、瑞典的冰岛式酸奶（skyr）和茅屋干酪生产基地阿拉食品通过一系列投资，希望从蛋白食品热潮中获益。",
-            source: "环球市场播报",
-            date: "2026-10-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittkrz1130582.shtml"
-        },
-        {
-            title: "埃森哲第四季度营收187亿美元 同比增长6.3%",
-            summary: "埃森哲 第四季度 营收187亿美元，同比+6.3%，预估180.4亿美元。 第四季度业绩： 营收187亿美元，同比+6.3%，预估180.4亿美元。 金融服务收入34.7亿美元，同比+4.7%...",
-            source: "环球市场播报",
-            date: "2026-10-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksf6634104.shtml"
-        },
-        {
-            title: "欧洲豪华车企为美国市场打造超大尺寸SUV",
-            summary: "宝马、奥迪、沃尔沃等车企正力求提升美国市场销量，以此对冲欧洲与中国市场的疲软奥迪 Q9 内容摘要 包括宝马、奥迪在内的欧洲汽车厂商...",
-            source: "环球市场播报",
-            date: "2026-10-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksf6618687.shtml"
-        },
-        {
-            title: "美光盘前跌0.8% Q4利润、营收大幅飙升",
-            summary: "该公司公布第四财季利润达 377 亿美元，去年同期为 32 亿美元美光科技第四财季利润与营收大幅增长。 内容摘要 美光科技公布第四财季利润 377 亿美元...",
-            source: "环球市场播报",
-            date: "2026-10-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksc1977641.shtml"
-        },
-        {
-            title: "欧盟寻求统一立场 此前美国要求欧洲国家释放柴油储备",
-            summary: "美国要求欧洲国家释放紧急柴油储备，以缓解价格压力并避免实施出口禁令后，欧盟正与成员国协调共同立场。 一份备忘录显示，欧盟石油协调小组周三晚间要求成员国确认是否已...",
-            source: "环球市场播报",
-            date: "2026-10-01",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-01/doc-inittksc1974683.shtml"
-        },
-        {
-            title: "华尔街与硅谷对AI估值产生分歧",
-            summary: "经济形势正在发生变化，使得硅谷与华尔街对 AI 的财务判断分歧持续扩大，数万亿美元 AI 投资的前景蒙上一层阴影。 股市的担忧情绪已经导致数家中型企业 IPO 推迟；市场对...",
+            title: "日本联合戴尔、Jera推出1400亿美元AI数据中心建设计划",
+            summary: "日本计划依托本国实力强劲的天然气贸易企业，推进一项规模达1400亿美元的投资方案，加快数据中心建设。 周四，戴尔、全球最大天然气贸易商Jera等三家企业达成协议...",
             source: "环球市场播报",
             date: "2026-10-01",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittkrz5201225.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvhc8060261.shtml"
         },
         {
-            title: "举债扩张的AI数据中心热潮显现裂痕",
-            summary: " 债券市场如今对低评级借款人收紧信贷。CleanSpark 就是一例：这家正在为 Meta 建设数据中心的企业，本月早些时候不得不向投资者作出重大让步，才拿到融资。",
+            title: "美联储官员卡什卡利：不知利率升到多高才能遏制通胀 但必须采取行动",
+            summary: " 明尼阿波利斯联储行长尼尔·卡什卡里表示，他不知道利率最终需要升到多高才能给价格降温，在经历了持续五年的供应冲击后，把通胀压下来是美联储的职责。",
+            source: "环球市场播报",
+            date: "2026-10-01",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvfx1877809.shtml"
+        },
+        {
+            title: "埃森哲股价暴涨22% AI冲击业务的担忧落空",
+            summary: " 全球最大上市咨询集团埃森哲表示，今年营收增速有望加快，打消了市场关于人工智能将摧毁其服务需求的担忧，公司股价周四大涨22%。",
             source: "环球市场播报",
             date: "2026-10-01",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittksc1972389.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvfz6452421.shtml"
+        },
+        {
+            title: "欧盟各国紧急磋商柴油储备释放事宜",
+            summary: "欧洲多国正就释放柴油储备开展危机磋商。美国向欧洲发出威胁：若欧盟不释放柴油战略储备，美方将出台柴油出口禁令。 三名知情人士透露，美国政府已向欧洲国家施压...",
+            source: "环球市场播报",
+            date: "2026-10-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvfv5101337.shtml"
+        },
+        {
+            title: "美国股市早盘走低 最新数据显示美国制造业面临通胀压力",
+            summary: "油价上涨推动债券收益率走高之际，美国股市早盘下跌。数据显示美国制造业面临通胀压力后，美股扩大跌幅。 纽约时间10：30，标普500指数跌0.2%，纳斯达克100指数跌0.1%...",
+            source: "环球市场播报",
+            date: "2026-10-01",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvfv5099335.shtml"
+        },
+        {
+            title: "10年期美债收益率创2022年以来最大单月涨幅",
+            summary: " 债市即将迎来历史表现偏弱的月份。10 年期美国国债收益率周四徘徊于 2002 年以来高位附近，此前该收益率已经连续七个月环比上行。",
+            source: "环球市场播报",
+            date: "2026-10-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvfv5095202.shtml"
+        },
+        {
+            title: "全球债市抛售潮又一里程碑 10年期美债收益率触及二十四年新高",
+            summary: "美国基准国债收益率升至2002年以来最高水平，标志着全球主权债数月抛售潮的又一里程碑。 10年期国债收益率周四一度升破2007年的高点至5.34%。",
+            source: "环球市场播报",
+            date: "2026-10-01",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvhc8051351.shtml"
+        },
+        {
+            title: "美银：美股情绪指标接近“卖出”信号",
+            summary: "美国银行对美股的卖方指标从9月的56.4%升至57.2%，为2022年3月以来最高水平，距离“卖出”信号仅差0.3个百分点。 该指标追踪卖方策略师的平均股票配置建议。",
+            source: "环球市场播报",
+            date: "2026-10-01",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittvhc8050822.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-01",
-        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,651.54（-0.71%），纳斯达克报26,861.06（-0.28%）。",
+        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,632.01（-0.94%），纳斯达克报26,800.41（-0.52%）。",
         hotSectors: [
 
         ],

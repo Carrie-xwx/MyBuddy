@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-02 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-02 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-02 实时" },
         { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-10-02 实时" },
         { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-10-02 实时" },
-        { name: "标普500", code: "SPX", value: "7,666.45", change: "-0.49%", market: "美股", updateTime: "2026-10-02 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,871.60", change: "-0.25%", market: "美股", updateTime: "2026-10-02 收盘" },
-        { name: "道琼斯", code: "DJI", value: "50,926.56", change: "-0.82%", market: "美股", updateTime: "2026-10-02 收盘" },
+        { name: "标普500", code: "SPX", value: "7,752.23", change: "+0.11%", market: "美股", updateTime: "2026-10-02 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,335.29", change: "+0.98%", market: "美股", updateTime: "2026-10-02 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,269.77", change: "-1.08%", market: "美股", updateTime: "2026-10-02 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "鲍曼：杠杆率改革释放交易空间，美债交易商持仓升至逾7000亿美元",
-            summary: "美联储负责监管的副主席米歇尔·鲍曼10月1日表示，增强型补充杠杆率（eSLR）改革已扩大银行交易商参与美国国债市场的空间。监管数据显示...",
+            title: "高盛因客户提前投资SpaceX股份退出斩获巨额收益",
+            summary: "高盛集团投行在承办SpaceX这场规模盛大的6月IPO时赚取巨额费用，而这笔上市相关的更大收益，早在多年前就埋下伏笔。 知情人士透露...",
             source: "环球市场播报",
             date: "2026-10-02",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvtwx4523323.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initwenv1154838.shtml"
         },
         {
-            title: "杰斐逊：通胀风险偏向上行，下一步利率调整仍需更多时间判断",
-            summary: "美联储副主席菲利普·杰斐逊10月1日在弗吉尼亚大学达顿商学院发表讲话时表示，美国经济与就业前景的风险大致平衡，通胀风险则偏向上行。",
+            title: "埃里森表示，派拉蒙与华纳兄弟探索合并后的新公司将命名为天空之舞（Skydance）",
+            summary: "核心要点戴维・埃里森称，派拉蒙与华纳兄弟探索合并完成后，新集团将命名为 Skydance（天空之舞）。2025 年 8 月，埃里森旗下 Skydance 完成对派拉蒙的收购。",
             source: "环球市场播报",
             date: "2026-10-02",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvtwx4522333.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initwenz7037836.shtml"
         },
         {
-            title: "欧洲债券利差飙升 促使市场押注欧洲央行减少加息次数",
-            summary: " 欧元区主权债券利差急剧扩大的势头周五有所放缓，交易员押注欧洲央行将被迫减少加息次数，以支持地区内债务负担较重的成员国。",
-            source: "环球市场播报",
-            date: "2026-10-02",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvtwz1288476.shtml"
-        },
-        {
-            title: "港股国庆后首日交易遇冷 三大指数集体重挫 金融股成拖累指数核心力量",
-            summary: "今日（10月2日），港股在国庆假期后恢复交易（10月1日休市），市场全天低开低走，三大指数集体收跌。恒生指数收报23972.29点，下跌640.98点，跌幅2.60%...",
-            source: "每日经济新闻",
-            date: "2026-10-02",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/roll/2026-10-02/doc-initvtxf7219250.shtml"
-        },
-        {
-            title: "机器人赛道：谷歌走安卓路线，对标特斯拉的苹果模式",
-            summary: "作者：Jessica E． Lessin 上周采访谷歌的科雷・卡武库奥卢时，我有种似曾相识的感觉。 这是卡武库奥卢就任谷歌 DeepMind 首席执行官之后的首次深度专访。",
+            title: "英伟达股价自5月以来首次创历史新高 市值迈向6万亿美元",
+            summary: "英伟达股价自5月以来首次创下历史新高，在两个月的抛售导致市值蒸发逾1万亿美元后，投资者重新涌入该股。 这家全球市值最高的上市公司股价周五上涨2.9%...",
             source: "环球市场播报",
             date: "2026-10-02",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvtxf7214702.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initwenz7037748.shtml"
         },
         {
-            title: "为何编码 AI 代理选择 Vercel 的频率已经堪比人类开发者",
-            summary: "能够编写软件的 AI 代理蓬勃兴起，为承载这类软件的平台带来实实在在的业务增长，Vercel 就是其中一员。Vercel 提供的工具可以帮助开发者搭建、托管网站与 AI 应用...",
+            title: "Rivian三季度交付超预期，确认2026全年业绩指引",
+            summary: "核心要点Rivian 第三季度汽车交付量同比增长 46%。这家电动车厂商重申 2026 年全年汽车交付指引：65000‑70000 辆。2026 年 4 月 24 日周五，芝加哥斯特里特维尔展厅...",
             source: "环球市场播报",
-            date: "2026-10-02",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvpqz4631882.shtml"
-        },
-        {
-            title: "河北石家庄市行唐县发生2.0级地震，震源深度8千米",
-            summary: "转自：央视网 央视网消息：中国地震台网正式测定：10月02日17时50分在河北石家庄市行唐县（北纬38.58度，东经114.26度）发生2.0级地震，震源深度8千米。",
-            source: "央视",
             date: "2026-10-02",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-02/doc-initvtxf7216779.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initwent4376592.shtml"
         },
         {
-            title: "OpenAI 解雇三名安全研究员",
-            summary: "公司表示，上述员工违规处置敏感信息，违反公司制度。 OpenAI 对外披露，已解雇三名负责安全业务的员工。知情人士称，事件涉及员工向一家从事 AI 测评的外部机构泄露...",
+            title: "特斯拉公布第三季度交付486532辆汽车，超出市场预期",
+            summary: "核心要点特斯拉公布第三季度汽车交付与产量数据。市场调研机构 StreetAccount 汇总的华尔街一致预期，交付量约为 461100 辆。截至周四收盘，特斯拉今年股价累计下跌 21%...",
             source: "环球市场播报",
             date: "2026-10-02",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvpri7343927.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initwenx5431516.shtml"
+        },
+        {
+            title: "特朗普经济顾问哈塞特：鲍威尔的未来由他自己决定 而非白宫",
+            summary: " 当被问及白宫是否应该在决定杰罗姆·鲍威尔是否继续担任美联储理事一事上发挥作用时，白宫国家经济委员会主任凯文·哈塞特表示：“不。目前这是鲍威尔要作出的决定。”",
+            source: "环球市场播报",
+            date: "2026-10-02",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyez5562197.shtml"
+        },
+        {
+            title: "美国8月工厂订单环比增长0.1% 预期增长0.2%",
+            summary: "美国普查局数据显示，8月份工厂订单环比增长0.1%，预估中值为增长0.2%。 35位经济学家的预测区间为下降0.2%至增长0.7%。 7月份工厂订单增幅从0.9%下修至0.8%。",
+            source: "环球市场播报",
+            date: "2026-10-02",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyfc7166939.shtml"
+        },
+        {
+            title: "特朗普称欧洲将释放“庞大规模的”柴油",
+            summary: " 在美国政府施压欧洲、要求其帮助在11月中期选举前缓解高油价后，美国总统唐纳德·特朗普表示，欧洲已同意释放柴油供应。",
+            source: "环球市场播报",
+            date: "2026-10-02",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvyez5561192.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-02",
-        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,666.45（-0.49%），纳斯达克报26,871.60（-0.25%）。",
+        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,752.23（+0.11%），纳斯达克报27,335.29（+0.98%）。",
         hotSectors: [
-            { name: "视频媒体", reason: "板块涨幅+6.06%", strength: "强" },
-            { name: "医美耗材", reason: "板块涨幅+5.23%", strength: "强" },
-            { name: "其他生物制品", reason: "板块涨幅+4.72%", strength: "强" },
-            { name: "疫苗", reason: "板块涨幅+4.64%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "印制电路板", reason: "板块跌幅-4.56%", strength: "弱" },
-            { name: "集成电路封测", reason: "板块跌幅-4.10%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注视频媒体、医美耗材、其他生物制品等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

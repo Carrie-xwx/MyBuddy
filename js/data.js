@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-02 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-02 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-02 实时" },
         { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-10-02 实时" },
         { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-10-02 实时" },
-        { name: "标普500", code: "SPX", value: "7,669.23", change: "-0.45%", market: "美股", updateTime: "2026-10-02 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,921.95", change: "-0.06%", market: "美股", updateTime: "2026-10-02 收盘" },
-        { name: "道琼斯", code: "DJI", value: "50,905.69", change: "-0.87%", market: "美股", updateTime: "2026-10-02 收盘" },
+        { name: "标普500", code: "SPX", value: "7,666.45", change: "-0.49%", market: "美股", updateTime: "2026-10-02 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,871.60", change: "-0.25%", market: "美股", updateTime: "2026-10-02 收盘" },
+        { name: "道琼斯", code: "DJI", value: "50,926.56", change: "-0.82%", market: "美股", updateTime: "2026-10-02 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "普京：如果加里宁格勒遭到袭击 俄罗斯可能会动用全部武库",
-            summary: " 俄罗斯总统普京重申俄罗斯外交部本周发出的警告，称如果俄罗斯（包括飞地加里宁格勒）遭到攻击，莫斯科将考虑动用“所掌握的一切武器”。",
-            source: "环球市场播报",
+            title: "博雷顿午后大涨超27% 公司深化非洲矿业合作计划明年迈向规模化盈利",
+            summary: "博雷顿（01333）盘中大涨超33%，截至发稿，股价上涨27.05%，现报20.48港元，成交额3858.43万港元。 近期，博雷顿与因霍伊投资（私人）有限公司签署合作意向书。",
+            source: "新浪港股",
             date: "2026-10-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initufvx7838839.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-02/doc-initviif1382137.shtml"
         },
         {
-            title: "派拉蒙天舞新债买家浮亏数亿美元 资管机构愤怒致电承销行",
-            summary: " 派拉蒙天舞的520亿美元高收益率债发行仅数小时后，投资者就已出现数亿美元账面亏损，资产管理机构愤怒致电承销这些债务的华尔街银行。",
-            source: "环球市场播报",
+            title: "中环新能源午后涨逾11%创新高 上半年AI算力业务收入突破10亿元",
+            summary: " 中环新能源（01735）午后涨逾11%，高见13.22港元，创历史新高。截至发稿，股价上涨10.46%，现报13.09港元，成交额2.78亿港元。",
+            source: "新浪港股",
             date: "2026-10-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-inittzpz7957724.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-02/doc-initviii5784077.shtml"
         },
         {
-            title: "普京：俄罗斯有足够柴油 但制裁阻碍了出口",
-            summary: "俄罗斯总统普京在瓦尔代国际辩论俱乐部年会全体会议上表示：“我们已经有足够的柴油。” 普京表示：“不过，由于针对我们的石油和石油产品实施了禁令和制裁...",
+            title: "瑞士宝盛集团宣布6亿瑞郎股票回购计划",
+            summary: " 瑞士宝盛集团宣布了一项价值至多6亿瑞士法郎（7.23亿美元）的股票回购计划，此前集团瑞士监管机构刚刚宣布结束对该公司长达数年的调查。",
             source: "环球市场播报",
             date: "2026-10-02",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-inittzpz7955610.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvazm5903450.shtml"
         },
         {
-            title: "领英前负责人罗斯兰斯基即将离开微软，多位高管接连出走",
-            summary: "核心要点微软高管瑞安・罗斯兰斯基将于今年年底离职。他执掌领英长达六年，去年又新增负责 Office 办公软件业务。罗斯兰斯基表示，若要推进下一阶段工作...",
-            source: "环球市场播报",
+            title: "花旗：小米集团-W维持“买入”评级 目标价34港元",
+            summary: "花旗发布研报称，小米集团-W（01810）公布9月电动车交付量超过4万辆，该行维持“买入”评级及目标价34港元。 小米YU7新款GT车型交期已缩短至介于1至5周...",
+            source: "新浪港股",
             date: "2026-10-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-inittzpx6349314.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-02/doc-initvazi1491096.shtml"
         },
         {
-            title: "欧洲股市下跌 银行股表现落后 债券收益率攀升令投资者恐慌",
-            summary: "欧洲股市周四下跌，因为地区债券收益率攀升削弱了股票的吸引力，并引发了人们对借贷成本上升拖累经济的担忧。 斯托克欧洲600指数下跌1.3%，收于6月份以来最低水平。",
-            source: "环球市场播报",
+            title: "大摩：吉利汽车维持“增持”评级 目标价27港元",
+            summary: " 大摩发布研报称，近期每周汽车数据亦显示，9月行业销售存在下行风险，主要原因是10月1日假期。该行予吉利汽车（00175）目标价27港元，给予“增持”评级。",
+            source: "新浪港股",
             date: "2026-10-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-inittzpv1787453.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-02/doc-initvazf4718547.shtml"
         },
         {
-            title: "通用汽车第三季度销量下滑5.5% 丰田受益于电动车与混动车型实现增长",
-            summary: "核心要点通用汽车公布第三季度新车销量同比下滑 5.5%。这家车企旗下全部纯电动车型销量全线下跌。与此同时，丰田公布最近一个季度销量上涨 0.6%...",
-            source: "环球市场播报",
+            title: "美联储本月加不加息？美国9月非农今晚揭晓 全球市场严阵以待",
+            summary: "转自：财联社 财联社10月2日讯（编辑 卞纯）北京时间周五晚20：30，美国劳工统计局将公布9月非农就业报告。届时，围绕美国劳动力市场现状的诸多疑问将得到解答。",
+            source: "市场资讯",
             date: "2026-10-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-inittzpt5014672.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/money/forex/forexroll/2026-10-02/doc-initvazm5901490.shtml"
         },
         {
-            title: "市场震荡环境下，富国银行如何配置投资组合",
-            summary: "富国银行投资研究所表示，不断走高的债券收益率与跌宕起伏的股市，给投资者同时带来挑战与机遇。 该机构认为，当股票市场波动加剧时...",
+            title: "芝加哥期权交易所拟推出“恐慌指数”VIX永续期货",
+            summary: "美国最大衍生品交易所芝加哥期权交易所（Cboe Global Markets）正探索上市挂钩Cboe波动率指数（VIX，“恐慌指数”）的永续期货。该产品若落地...",
             source: "环球市场播报",
             date: "2026-10-02",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-inittzpt5014175.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-02/doc-initvazm5899569.shtml"
         },
         {
-            title: "富国银行下调埃克森美孚评级",
-            summary: " 富国银行将埃克森美孚（XOM）评级下调至持有（equal weight），但维持目标价 182 美元 / 股。对比周三收盘价 162.75 美元，目标价仍隐含 12% 的上涨空间。",
-            source: "环球市场播报",
+            title: "蔚来-SW前三季度交付300301辆汽车 同比增长49.2%",
+            summary: "蔚来-SW（09866）发布公告，公司于2026年9月交付37，408辆汽车，同比增长7.7%。有关交付包括公司旗下蔚来品牌的汽车21，318辆，公司旗下乐道品牌的汽车8，763辆...",
+            source: "新浪港股",
             date: "2026-10-02",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-inittzpv1786061.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-02/doc-initvazp7498988.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-10-02",
-        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,669.23（-0.45%），纳斯达克报26,921.95（-0.06%）。",
+        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,666.45（-0.49%），纳斯达克报26,871.60（-0.25%）。",
         hotSectors: [
 
         ],

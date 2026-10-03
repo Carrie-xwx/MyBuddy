@@ -657,19 +657,75 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-03 实时" },
-        { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-03 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-03 实时" },
-        { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-10-03 实时" },
-        { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-10-03 实时" },
-        { name: "标普500", code: "SPX", value: "7,722.72", change: "-0.27%", market: "美股", updateTime: "2026-10-03 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,190.86", change: "+0.45%", market: "美股", updateTime: "2026-10-03 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,176.96", change: "-1.26%", market: "美股", updateTime: "2026-10-03 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-04 实时" },
+        { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-04 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-04 实时" },
+        { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-10-04 实时" },
+        { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-10-04 实时" },
+        { name: "标普500", code: "SPX", value: "7,722.72", change: "-0.27%", market: "美股", updateTime: "2026-10-04 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,190.86", change: "+0.45%", market: "美股", updateTime: "2026-10-04 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,176.96", change: "-1.26%", market: "美股", updateTime: "2026-10-04 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+        {
+            title: "OpenAI安全部门员工辞职 呼吁采取核电级别的防护措施",
+            summary: "OpenAI一名专注于人工智能安全的员工已从公司离职，并警告称，顶尖人工智能公司在降低风险方面做得还不够。 此前负责OpenAI安全团队透明度工作的David...",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/world/2026-10-04/doc-inityptx6040261.shtml"
+        },
+        {
+            title: "报道：特朗普指示动用纳税人资金投放颂扬其总统任期的广告",
+            summary: " 据知情人士透露，美国总统特朗普亲自指示预算局局长动用纳税人资金投放电视广告，宣传他本人及其执政成果，由此敲定一份价值 2000 万美元的合同，资金取自国土安全部。",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-04/doc-inityptv4434728.shtml"
+        },
+        {
+            title: "台积电探讨与马斯克 Terafab 项目开展合作",
+            summary: "半导体巨头台积电正考虑与埃隆・马斯克的 Terafab 项目开展合作，在美国建立先进的端到端半导体制造产能。据通讯刊物 Culpium 的独家报道...",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-04/doc-inityptv4427769.shtml"
+        },
+        {
+            title: "苹果将加强Mac隐私控制 警告AI智能体带来的风险上升",
+            summary: " 苹果公司表示，计划为Mac用户推出新的隐私控制措施，并警告称，向包括AI智能体在内的第三方软件授予广泛的数据访问权限所带来的风险正在上升。",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/world/2026-10-04/doc-inityptr3684201.shtml"
+        },
+        {
+            title: "贝森特称国债收益率上升符合全球趋势 不必感到惊恐",
+            summary: " 尽管通胀担忧已推动一些基准收益率升至20多年来最高水平，但美国财长斯科特·贝森特表示，近期美国国债收益率上升符合全球趋势，不必对此感到惊恐。",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-04/doc-inityptv4425599.shtml"
+        },
+        {
+            title: "OpenAI安全部门员工辞职 呼吁对AI采取核电级别的防护措施",
+            summary: "OpenAI一名专注于人工智能安全的员工已从公司离职，并警告称，顶尖人工智能公司在降低风险方面做得还不够。 此前负责OpenAI安全团队透明度工作的大卫·罗宾森（David...",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-inityimx4523185.shtml"
+        },
+        {
+            title: "韩国一储蓄银行遭黑客攻击，约4万客户数据泄露",
+            summary: " 韩国耶加兰储蓄银行（Yegaram Savings Bank）表示，9月30日，一名身份不明的黑客入侵了存放客户数据的服务器，导致约4万名客户的个人信息泄露。",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-inityimv0522961.shtml"
+        },
         {
             title: "美国据悉将向维斯特拉公司提供42亿美元贷款，以提升核电产能",
             summary: "知情人士周六表示，美国将向维斯特拉公司（Vistra）提供约42亿美元贷款，以提升其核电发电量。 该消息人士称，美国能源部长赖特将于周一在位于俄亥俄州伊利湖畔的维斯特拉...",
@@ -677,62 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-10-03",
             tag: "行业",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-inityimx4517715.shtml"
-        },
-        {
-            title: "贝森特自称是马斯克的超级粉丝",
-            summary: " 美国财长贝森特在周六播出的一次采访中自称是埃隆·马斯克的“超级粉丝”，并再次就马斯克在“政府效率部”任职期间两人曾在白宫发生冲突的传闻进行了澄清。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-inityccv3853777.shtml"
-        },
-        {
-            title: "贝森特称本周伊朗不会有石油在海上运输",
-            summary: " 美国财长斯科特·贝森特表示，本周伊朗将没有任何石油在海上运输，也不会有相关收入；华盛顿方面正加大力度，实施他所形容的旨在从经济上孤立德黑兰的“前所未有的行动”。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initycec6237363.shtml"
-        },
-        {
-            title: "意大利和希腊寻求欧盟财政规则灵活性",
-            summary: "意大利和希腊本周分别致信欧盟委员会，请求在欧盟财政规则下获得更多财政回旋空间。伊朗战争导致柴油和汽油价格上涨，推高两国燃料价格支持措施成本，加剧公共财政压力。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3940697.shtml"
-        },
-        {
-            title: "日本最大自动售货机制造商富士电机将制冷技术转用于数据中心冷却",
-            summary: "日本最大自动售货机制造商富士电机利用其制冷技术，为耗电量巨大的人工智能数据中心开发出节能冷却系统，据称可降低能耗85%。该技术原本用于冷却碳酸饮料、茶和咖啡...",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxsqi6399001.shtml"
-        },
-        {
-            title: "私募资本大举投资欧洲青年旅舍市场",
-            summary: "过去18个月，博枫、阿波罗等全球私募资本巨头对欧洲青年旅舍行业进行重大投资，推动这一长期被机构投资者忽视的旅游细分领域走向标准化和高端化。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3934385.shtml"
-        },
-        {
-            title: "纽约一写字楼租金创纪录 对冲基金Castle Hook年付最高2120万美元",
-            summary: " 纽约曼哈顿中城一座摩天大楼近日创下写字楼租金纪录，低调对冲基金Castle Hook Partners租下其顶层两层，年租金最高达2120万美元。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3934027.shtml"
-        },
-        {
-            title: "美国银行团体起诉货币监理署 指控其越权向加密公司发放信托牌照",
-            summary: "美国独立社区银行家协会（ICBA）周五在联邦法院起诉美国货币监理署（OCC），指控该监管机构越权向加密公司发放国家信托银行牌照，使其在未受到与社区银行同等监管的情况下...",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3933313.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-10-03",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-10-04",
         marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,722.72（-0.27%），纳斯达克报27,190.86（+0.45%）。",
         hotSectors: [
-            { name: "视频媒体", reason: "板块涨幅+6.06%", strength: "强" },
-            { name: "医美耗材", reason: "板块涨幅+5.23%", strength: "强" },
-            { name: "其他生物制品", reason: "板块涨幅+4.72%", strength: "强" },
-            { name: "疫苗", reason: "板块涨幅+4.64%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "印制电路板", reason: "板块跌幅-4.56%", strength: "弱" },
-            { name: "集成电路封测", reason: "板块跌幅-4.10%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注视频媒体、医美耗材、其他生物制品等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

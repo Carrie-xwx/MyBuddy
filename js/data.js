@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-03 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-03 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-03 实时" },
@@ -669,7 +669,31 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+        {
+            title: "美国据悉将向维斯特拉公司提供42亿美元贷款，以提升核电产能",
+            summary: "知情人士周六表示，美国将向维斯特拉公司（Vistra）提供约42亿美元贷款，以提升其核电发电量。 该消息人士称，美国能源部长赖特将于周一在位于俄亥俄州伊利湖畔的维斯特拉...",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-inityimx4517715.shtml"
+        },
+        {
+            title: "贝森特自称是马斯克的超级粉丝",
+            summary: " 美国财长贝森特在周六播出的一次采访中自称是埃隆·马斯克的“超级粉丝”，并再次就马斯克在“政府效率部”任职期间两人曾在白宫发生冲突的传闻进行了澄清。",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-inityccv3853777.shtml"
+        },
+        {
+            title: "贝森特称本周伊朗不会有石油在海上运输",
+            summary: " 美国财长斯科特·贝森特表示，本周伊朗将没有任何石油在海上运输，也不会有相关收入；华盛顿方面正加大力度，实施他所形容的旨在从经济上孤立德黑兰的“前所未有的行动”。",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initycec6237363.shtml"
+        },
         {
             title: "意大利和希腊寻求欧盟财政规则灵活性",
             summary: "意大利和希腊本周分别致信欧盟委员会，请求在欧盟财政规则下获得更多财政回旋空间。伊朗战争导致柴油和汽油价格上涨，推高两国燃料价格支持措施成本，加剧公共财政压力。",
@@ -710,30 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3933313.shtml"
         },
-        {
-            title: "美国9月就业发布后比特币24小时内上涨超过2%",
-            summary: "美国劳工部周五公布的非农就业报告显示，美国9月新增就业2.9万人，远低于市场预期的9万人；8月新增就业数据从16.2万下修至13.3万；7月新增就业从2.1万下修为减少1万。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3932715.shtml"
-        },
-        {
-            title: "特朗普拟任命克莱顿为人工智能事务负责人",
-            summary: "据报道，美国总统特朗普可能任命前美国证券交易委员会主席杰伊·克莱顿为政府人工智能事务负责人。克莱顿在担任证交会主席期间主导了对加密货币行业的执法打击...",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxsqc0703492.shtml"
-        },
-        {
-            title: "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀",
-            summary: " 美国总统唐纳德·特朗普表示，在七国集团及其合作伙伴同意释放部分应急燃料储备、以遏制价格飙升之后，他不会宣布单方面禁止美国柴油出口。",
-            source: "智通财经APP",
-            date: "2026-10-03",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-10-03/doc-initwzsp5057993.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-03",
         marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,722.72（-0.27%），纳斯达克报27,190.86（+0.45%）。",
         hotSectors: [
-
+            { name: "视频媒体", reason: "板块涨幅+6.06%", strength: "强" },
+            { name: "医美耗材", reason: "板块涨幅+5.23%", strength: "强" },
+            { name: "其他生物制品", reason: "板块涨幅+4.72%", strength: "强" },
+            { name: "疫苗", reason: "板块涨幅+4.64%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "印制电路板", reason: "板块跌幅-4.56%", strength: "弱" },
+            { name: "集成电路封测", reason: "板块跌幅-4.10%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注视频媒体、医美耗材、其他生物制品等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

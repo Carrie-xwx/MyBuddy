@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-03 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-03 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-03 实时" },
         { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-10-03 实时" },
         { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-10-03 实时" },
-        { name: "标普500", code: "SPX", value: "7,719.70", change: "-0.31%", market: "美股", updateTime: "2026-10-03 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,178.57", change: "+0.41%", market: "美股", updateTime: "2026-10-03 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,149.34", change: "-1.31%", market: "美股", updateTime: "2026-10-03 收盘" },
+        { name: "标普500", code: "SPX", value: "7,722.72", change: "-0.27%", market: "美股", updateTime: "2026-10-03 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,190.86", change: "+0.45%", market: "美股", updateTime: "2026-10-03 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,176.96", change: "-1.26%", market: "美股", updateTime: "2026-10-03 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "隐私币ETF近一月大涨60%，跻身2026年表现最佳基金行列",
-            summary: " 灰度 Zcash ETF（代码 ZCSH）过去一个月涨幅超 60%，年内涨幅约 253%。市场重新重视隐私叙事，投机资本从 AI 板块轮动流入该产品，推动其大涨。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwkut1085118.shtml"
-        },
-        {
-            title: "美股本轮牛市迎来四周年",
-            summary: "瑞银表示，10 月是本轮全球牛市的第四个年头，市场后续走向依旧向上。 瑞银瑞士高级金融市场顾问伯克哈德・瓦恩霍尔特周五撰文称：“过去四年，全球股市接连创出历史新高...",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwkuv5341288.shtml"
-        },
-        {
-            title: "百奥明公布庞贝病五年临床数据：运动功能具备持久获益",
-            summary: "核心要点百奥明（BioMarin）的组合疗法可帮助晚发型庞贝病成人患者，在持续五年治疗期间维持步行距离。患者呼吸功能整体保持相对稳定，未发现新的安全风险信号。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwkux6945871.shtml"
-        },
-        {
-            title: "欧洲债市：法国国债相对于德国国债的收益率溢价收窄",
-            summary: " 尽管欧洲债券周五上涨，但在对法国财政状况以及明年总统大选结果的担忧持续之际，基准法国10年期国债收益率连续第五周走高，也是过去八周中第七周上升。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-03/doc-initwkur4311107.shtml"
-        },
-        {
-            title: "报道：沙特计划对也门胡塞武装发动攻势",
-            summary: "据媒体援引未具名海湾地区和也门官员以及西方外交人士报道，沙特阿拉伯正计划对也门胡塞武装发动攻势。 这项行动预计将在未来数周内启动...",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-03/doc-initwkux6941476.shtml"
-        },
-        {
-            title: "法国财政困局冲击债市 欧洲央行的噩梦场景日益逼近",
-            summary: "随着法国国债收益率飙升，给欧洲央行带来了越来越大的被迫采取行动的压力，该行面临着被卷入法国债券市场困境的风险。 投资者持有法国国债相对于同期限德国国债所要求的溢...",
-            source: "环球市场播报",
+            title: "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀",
+            summary: " 美国总统唐纳德·特朗普表示，在七国集团及其合作伙伴同意释放部分应急燃料储备、以遏制价格飙升之后，他不会宣布单方面禁止美国柴油出口。",
+            source: "智通财经APP",
             date: "2026-10-03",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-10-03/doc-initwenv1203970.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-10-03/doc-initwzsp5057993.shtml"
         },
         {
-            title: "疲软非农报告弱化美联储短期内加息的可能 美债收益率显著走低",
-            summary: "债券交易员下调了对美联储本月加息的预期，此前美国劳动力市场显现疲软迹象。 美国9月新增就业人数低于预期，失业率小幅上升，推动美国国债周五上涨。",
+            title: "苹果确认iPhone 18 Pro Max存在AT&T网络故障 受影响用户需换机",
+            summary: " 苹果公司表示，近期升级至iPhone 18 Pro Max的美国电话电报公司（AT&amp;T）客户中，有“少数”用户遇到故障导致手机失去蜂窝网络服务，从而需要更换设备。",
             source: "环球市场播报",
             date: "2026-10-03",
             tag: "美股",
-            url: "https://finance.sina.com.cn/world/2026-10-03/doc-initwent4430473.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwvkt6761318.shtml"
         },
         {
-            title: "欧洲债市动荡加剧 欧盟据悉担忧成员国寻求更多财政空间",
-            summary: "一位欧盟官员表示，随着债券市场下跌，欧盟政策制定者越来越担心各国政府要求放宽预算约束。 因讨论敏感消息而要求匿名的这位官员表示，各国没有意识到形势的严重性...",
+            title: "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加剧",
+            summary: "持续数周的美国国债抛售潮令华尔街面临新的挑战。尽管周五公布的美国9月就业报告意外疲软，一度推动美债收益率回落、美股反弹，债券市场的涨势未能持续。",
+            source: "智通财经APP",
+            date: "2026-10-03",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-03/doc-initwvkr5157670.shtml"
+        },
+        {
+            title: "日本央行加息仍难提振日元 对冲基金重新建立空头押注 美元多头仓位持续增加",
+            summary: "尽管日本央行上个月如期加息，由于其政策立场未能达到市场预期的鹰派程度，加之美日利差仍然显著，日元持续面临贬值压力。美国商品期货交易委员会（CFTC）最新数据显示...",
+            source: "智通财经APP",
+            date: "2026-10-03",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-03/doc-initwvkt6762636.shtml"
+        },
+        {
+            title: "沃什淡化利率前瞻性指引 美联储两位高官讲话仍牵动市场 10月加息预期大幅降温",
+            summary: "尽管美联储主席沃什已明确表示，不希望通过前瞻性指引向市场释放明确的利率路径信号，美联储两位高级官员本周的讲话仍然显著影响了投资者预期。",
+            source: "智通财经APP",
+            date: "2026-10-03",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-03/doc-initwvkr5157646.shtml"
+        },
+        {
+            title: "克利夫兰联储行长：美联储下次会前有时间权衡更多数据",
+            summary: "克利夫兰联邦储备银行行长贝丝·哈马克表示，决策层在10月下旬再次召开议息会议之前有大量经济数据要考虑。 “我们在月底的会议召开之前还会有大量的信息...",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwvkm4176517.shtml"
+        },
+        {
+            title: "高盛据悉助客户早期布局SpaceX 上市后斩获数亿美元奖励费",
+            summary: " 高盛的银行家在6月操办SpaceX轰动市场的首次公开募股（IPO）时赚取了巨额费用，但与此次上市相关的一笔可观收益在数年前就已埋下伏笔。",
             source: "环球市场播报",
             date: "2026-10-03",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-03/doc-initwenz7069973.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwvkr5154728.shtml"
+        },
+        {
+            title: "海湾局势叠加全球变暖，北极航运热度飙升",
+            summary: "通过北极航运的规模已达到创纪录水平。随着海冰融化，以及全球关键航运咽喉要道面临压力，船东正寻求替代航线。 据劳氏船级社旗下的 Lloyd’s List Intelligence 数据...",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwvkp0945772.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-10-03",
-        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,719.70（-0.31%），纳斯达克报27,178.57（+0.41%）。",
+        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,722.72（-0.27%），纳斯达克报27,190.86（+0.45%）。",
         hotSectors: [
 
         ],

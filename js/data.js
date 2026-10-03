@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-03 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-03 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-03 实时" },
@@ -669,7 +669,63 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+        {
+            title: "意大利和希腊寻求欧盟财政规则灵活性",
+            summary: "意大利和希腊本周分别致信欧盟委员会，请求在欧盟财政规则下获得更多财政回旋空间。伊朗战争导致柴油和汽油价格上涨，推高两国燃料价格支持措施成本，加剧公共财政压力。",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3940697.shtml"
+        },
+        {
+            title: "日本最大自动售货机制造商富士电机将制冷技术转用于数据中心冷却",
+            summary: "日本最大自动售货机制造商富士电机利用其制冷技术，为耗电量巨大的人工智能数据中心开发出节能冷却系统，据称可降低能耗85%。该技术原本用于冷却碳酸饮料、茶和咖啡...",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxsqi6399001.shtml"
+        },
+        {
+            title: "私募资本大举投资欧洲青年旅舍市场",
+            summary: "过去18个月，博枫、阿波罗等全球私募资本巨头对欧洲青年旅舍行业进行重大投资，推动这一长期被机构投资者忽视的旅游细分领域走向标准化和高端化。",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3934385.shtml"
+        },
+        {
+            title: "纽约一写字楼租金创纪录 对冲基金Castle Hook年付最高2120万美元",
+            summary: " 纽约曼哈顿中城一座摩天大楼近日创下写字楼租金纪录，低调对冲基金Castle Hook Partners租下其顶层两层，年租金最高达2120万美元。",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3934027.shtml"
+        },
+        {
+            title: "美国银行团体起诉货币监理署 指控其越权向加密公司发放信托牌照",
+            summary: "美国独立社区银行家协会（ICBA）周五在联邦法院起诉美国货币监理署（OCC），指控该监管机构越权向加密公司发放国家信托银行牌照，使其在未受到与社区银行同等监管的情况下...",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3933313.shtml"
+        },
+        {
+            title: "美国9月就业发布后比特币24小时内上涨超过2%",
+            summary: "美国劳工部周五公布的非农就业报告显示，美国9月新增就业2.9万人，远低于市场预期的9万人；8月新增就业数据从16.2万下修至13.3万；7月新增就业从2.1万下修为减少1万。",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3932715.shtml"
+        },
+        {
+            title: "特朗普拟任命克莱顿为人工智能事务负责人",
+            summary: "据报道，美国总统特朗普可能任命前美国证券交易委员会主席杰伊·克莱顿为政府人工智能事务负责人。克莱顿在担任证交会主席期间主导了对加密货币行业的执法打击...",
+            source: "环球市场播报",
+            date: "2026-10-03",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxsqc0703492.shtml"
+        },
         {
             title: "G7打响“油价降温战”!一亿桶石油储备释放叠加特朗普放弃禁运，全球通胀迎来关键减压阀",
             summary: " 美国总统唐纳德·特朗普表示，在七国集团及其合作伙伴同意释放部分应急燃料储备、以遏制价格飙升之后，他不会宣布单方面禁止美国柴油出口。",
@@ -677,62 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-10-03",
             tag: "宏观",
             url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-10-03/doc-initwzsp5057993.shtml"
-        },
-        {
-            title: "苹果确认iPhone 18 Pro Max存在AT&T网络故障 受影响用户需换机",
-            summary: " 苹果公司表示，近期升级至iPhone 18 Pro Max的美国电话电报公司（AT&amp;T）客户中，有“少数”用户遇到故障导致手机失去蜂窝网络服务，从而需要更换设备。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwvkt6761318.shtml"
-        },
-        {
-            title: "美债收益率居高不下！高借贷成本持续冲击美国经济 AI投资热潮与实体经济表现分化加剧",
-            summary: "持续数周的美国国债抛售潮令华尔街面临新的挑战。尽管周五公布的美国9月就业报告意外疲软，一度推动美债收益率回落、美股反弹，债券市场的涨势未能持续。",
-            source: "智通财经APP",
-            date: "2026-10-03",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-03/doc-initwvkr5157670.shtml"
-        },
-        {
-            title: "日本央行加息仍难提振日元 对冲基金重新建立空头押注 美元多头仓位持续增加",
-            summary: "尽管日本央行上个月如期加息，由于其政策立场未能达到市场预期的鹰派程度，加之美日利差仍然显著，日元持续面临贬值压力。美国商品期货交易委员会（CFTC）最新数据显示...",
-            source: "智通财经APP",
-            date: "2026-10-03",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-03/doc-initwvkt6762636.shtml"
-        },
-        {
-            title: "沃什淡化利率前瞻性指引 美联储两位高官讲话仍牵动市场 10月加息预期大幅降温",
-            summary: "尽管美联储主席沃什已明确表示，不希望通过前瞻性指引向市场释放明确的利率路径信号，美联储两位高级官员本周的讲话仍然显著影响了投资者预期。",
-            source: "智通财经APP",
-            date: "2026-10-03",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-03/doc-initwvkr5157646.shtml"
-        },
-        {
-            title: "克利夫兰联储行长：美联储下次会前有时间权衡更多数据",
-            summary: "克利夫兰联邦储备银行行长贝丝·哈马克表示，决策层在10月下旬再次召开议息会议之前有大量经济数据要考虑。 “我们在月底的会议召开之前还会有大量的信息...",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwvkm4176517.shtml"
-        },
-        {
-            title: "高盛据悉助客户早期布局SpaceX 上市后斩获数亿美元奖励费",
-            summary: " 高盛的银行家在6月操办SpaceX轰动市场的首次公开募股（IPO）时赚取了巨额费用，但与此次上市相关的一笔可观收益在数年前就已埋下伏笔。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwvkr5154728.shtml"
-        },
-        {
-            title: "海湾局势叠加全球变暖，北极航运热度飙升",
-            summary: "通过北极航运的规模已达到创纪录水平。随着海冰融化，以及全球关键航运咽喉要道面临压力，船东正寻求替代航线。 据劳氏船级社旗下的 Lloyd’s List Intelligence 数据...",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initwvkp0945772.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-03",
         marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,722.72（-0.27%），纳斯达克报27,190.86（+0.45%）。",
         hotSectors: [

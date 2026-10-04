@@ -657,19 +657,59 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-04 实时" },
-        { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-04 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-04 实时" },
-        { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-10-04 实时" },
-        { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-10-04 实时" },
-        { name: "标普500", code: "SPX", value: "7,722.72", change: "-0.27%", market: "美股", updateTime: "2026-10-04 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,190.86", change: "+0.45%", market: "美股", updateTime: "2026-10-04 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,176.96", change: "-1.26%", market: "美股", updateTime: "2026-10-04 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-05 实时" },
+        { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-05 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-05 实时" },
+        { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-10-05 实时" },
+        { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-10-05 实时" },
+        { name: "标普500", code: "SPX", value: "7,722.72", change: "-0.27%", market: "美股", updateTime: "2026-10-05 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,190.86", change: "+0.45%", market: "美股", updateTime: "2026-10-05 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,176.96", change: "-1.26%", market: "美股", updateTime: "2026-10-05 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+        {
+            title: "环球一周展望：美欧央行纪要料凸显通胀忧虑 惟加息紧迫性已降温",
+            summary: " 在美国9月份就业数据疲软、法国金融市场压力急剧上升之后，美联储和欧洲央行决策者在本月会议上连续第二个月加息的紧迫性已经下降。",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-04/doc-iniuassv3513119.shtml"
+        },
+        {
+            title: "软银集团孙正义罕见地就AI安全风险表达担忧 呼吁各国携手应对威胁",
+            summary: " 软银集团领导人孙正义是人工智能最坚定的信奉者之一，但即便是他也表示，随着机器正迅速获得更多能力，他对安全风险感到担忧。",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/world/2026-10-04/doc-iniuassx5117724.shtml"
+        },
+        {
+            title: "沙特支持的也门部队发动全面攻势 试图夺回胡塞武装控制区",
+            summary: " 在伊朗支持的胡塞武装与沙特阿拉伯之间的冲突升级数周后，也门获国际承认的政府发起全面军事行动，试图夺回胡塞武装控制的所有地区。",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-04/doc-iniuassz6927704.shtml"
+        },
+        {
+            title: "苹果新任CEO特努斯上任即亲掌设计，10月密集推新品对冲服务业务放缓",
+            summary: "苹果新任首席执行官John Ternus上任头几周将设计列为优先事项。此外，除了触摸屏和转向OLED技术外，苹果改版后的MacBook Pro还有另一项重大变化。",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-iniuassy0134334.shtml"
+        },
+        {
+            title: "OPEC+主要成员国同意11月维持产量目标不变",
+            summary: "OPEC+主要成员国同意下个月维持产量配额不变，与此同时中东冲突继续导致该联盟相当大一部分石油生产陷入停滞。 OPEC在一份声明中表示...",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-iniuassv3493653.shtml"
+        },
         {
             title: "余承东回应误发“余总转发文案”：没想到工作备注比正文还抢镜",
             summary: "新浪科技讯 10月4日晚间消息，10月3日，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东在微博转发鸿蒙智行宣传内容，文案中却出现“余总转发文案”字样...",
@@ -693,46 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-10-04",
             tag: "A股",
             url: "https://finance.sina.com.cn/jjxw/2026-10-04/doc-initzzvh0332342.shtml"
-        },
-        {
-            title: "英国国家医疗服务体系20余家信托机构停用Palantir候诊工具",
-            summary: "分析显示，英格兰超过20家国民保健制度信托机构已停止使用美国软件巨头Palantir的候诊名单工具，使外界广泛引用的该项目成功说法受到质疑。",
-            source: "环球市场播报",
-            date: "2026-10-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0328464.shtml"
-        },
-        {
-            title: "法国汽车制造商雷诺利用大规模制造经验进军无人机领域",
-            summary: "法国汽车制造商雷诺正将其在大规模生产领域积累的经验应用于无人机生产，通过与法国国防电子企业泰雷兹合作，计划将“Toutatis”无人机月产能提升至1000架...",
-            source: "环球市场播报",
-            date: "2026-10-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0326172.shtml"
-        },
-        {
-            title: "华尔街IPO热潮降温 需求疲软与估值担忧导致多宗上市暂停",
-            summary: " 近期，华尔街首次公开募股市场明显降温，投资者对新股需求疲软以及对高估值的担忧，令本被寄予厚望的上市旺季遇冷。过去数周，多家企业暂停或推迟在美国上市的计划。",
-            source: "环球市场播报",
-            date: "2026-10-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0323551.shtml"
-        },
-        {
-            title: "商务部回应G20贸易部长会议：坚持原则 促谈促合",
-            summary: "新华财经北京10月4日电（记者谢希瑶）商务部新闻发言人4日就二十国集团（G20）贸易部长会议及相关情况答记者问时表示，本次G20贸易部长会议...",
-            source: "新华社",
-            date: "2026-10-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-04/doc-initzzvh0321184.shtml"
-        },
-        {
-            title: "木头姐：聪明的投资者需要开始关注AI Agent把钱花到哪里",
-            summary: "随着AI智能体从回答问题发展到真正花钱，投资者和科技巨头正竞相争夺对机器驱动商业活动背后金融网络的控制权。 多年来，ARK Invest首席执行官“木头姐”Cathie...",
-            source: "环球市场播报",
-            date: "2026-10-04",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzvpf3899087.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-10-04",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-10-05",
         marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,722.72（-0.27%），纳斯达克报27,190.86（+0.45%）。",
         hotSectors: [
-            { name: "视频媒体", reason: "板块涨幅+6.06%", strength: "强" },
-            { name: "医美耗材", reason: "板块涨幅+5.23%", strength: "强" },
-            { name: "其他生物制品", reason: "板块涨幅+4.72%", strength: "强" },
-            { name: "疫苗", reason: "板块涨幅+4.64%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "印制电路板", reason: "板块跌幅-4.56%", strength: "弱" },
-            { name: "集成电路封测", reason: "板块跌幅-4.10%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注视频媒体、医美耗材、其他生物制品等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

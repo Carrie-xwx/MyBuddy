@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-04 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-04 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-04 实时" },
@@ -669,7 +669,31 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+        {
+            title: "贝森特“灭火”：美债收益率上升属全球现象，驳斥AI泡沫担忧",
+            summary: " 美国财政部长贝森特为近期国债收益率攀升进行辩护，并对人工智能泡沫论予以驳斥，同时暗示美国政府未来或将向更多盟友国家提供金融援助。",
+            source: "智通财经APP",
+            date: "2026-10-04",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-10-04/doc-initzrfn0452363.shtml"
+        },
+        {
+            title: "贝森特批评AI风险警告是危言耸听",
+            summary: "美国财长斯科特·贝森特批评人工智能领域一些知名人士就这项技术带来的人类存亡风险发出警告，称这些言论是在危言耸听，没有助益，并呼吁该行业进行自我监管并拿出解决方案...",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/world/2026-10-04/doc-initytzr0408702.shtml"
+        },
+        {
+            title: "工资涨不过物价 美国人想尽各种办法维持消费",
+            summary: "过去五个月里，美国物价上涨速度一直快于工资增速，这种现象本该促使消费者削减开支。但实际上，他们仍在继续消费。 8月份美国消费增速达到一年多来最快水平...",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initytzv5949378.shtml"
+        },
         {
             title: "OpenAI安全部门员工辞职 呼吁采取核电级别的防护措施",
             summary: "OpenAI一名专注于人工智能安全的员工已从公司离职，并警告称，顶尖人工智能公司在降低风险方面做得还不够。 此前负责OpenAI安全团队透明度工作的David...",
@@ -710,30 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/world/2026-10-04/doc-inityptv4425599.shtml"
         },
-        {
-            title: "OpenAI安全部门员工辞职 呼吁对AI采取核电级别的防护措施",
-            summary: "OpenAI一名专注于人工智能安全的员工已从公司离职，并警告称，顶尖人工智能公司在降低风险方面做得还不够。 此前负责OpenAI安全团队透明度工作的大卫·罗宾森（David...",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-inityimx4523185.shtml"
-        },
-        {
-            title: "韩国一储蓄银行遭黑客攻击，约4万客户数据泄露",
-            summary: " 韩国耶加兰储蓄银行（Yegaram Savings Bank）表示，9月30日，一名身份不明的黑客入侵了存放客户数据的服务器，导致约4万名客户的个人信息泄露。",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-inityimv0522961.shtml"
-        },
-        {
-            title: "美国据悉将向维斯特拉公司提供42亿美元贷款，以提升核电产能",
-            summary: "知情人士周六表示，美国将向维斯特拉公司（Vistra）提供约42亿美元贷款，以提升其核电发电量。 该消息人士称，美国能源部长赖特将于周一在位于俄亥俄州伊利湖畔的维斯特拉...",
-            source: "环球市场播报",
-            date: "2026-10-03",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-inityimx4517715.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-10-04",
         marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,722.72（-0.27%），纳斯达克报27,190.86（+0.45%）。",
         hotSectors: [

@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-04 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-04 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-04 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "贝森特“灭火”：美债收益率上升属全球现象，驳斥AI泡沫担忧",
-            summary: " 美国财政部长贝森特为近期国债收益率攀升进行辩护，并对人工智能泡沫论予以驳斥，同时暗示美国政府未来或将向更多盟友国家提供金融援助。",
-            source: "智通财经APP",
+            title: "“要让肇事者付出代价！”东航就“空姐下跪事件”报案，六成网友支持“应加大惩戒辱骂者”",
+            summary: "文 | 《BUG》栏目 徐苑蕾 近日，“东方航空空姐下跪事件”相关话题多次登上热搜。东方航空发布最新通报，涉事旅客涉嫌扰乱民用航空器内秩序，已正式向公安机关报案...",
+            source: "BUG",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tob/2026-10-04/doc-initzzvh0368596.shtml"
+        },
+        {
+            title: "英国国家医疗服务体系20余家信托机构停用Palantir候诊工具",
+            summary: "分析显示，英格兰超过20家国民保健制度信托机构已停止使用美国软件巨头Palantir的候诊名单工具，使外界广泛引用的该项目成功说法受到质疑。",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0328464.shtml"
+        },
+        {
+            title: "法国汽车制造商雷诺利用大规模制造经验进军无人机领域",
+            summary: "法国汽车制造商雷诺正将其在大规模生产领域积累的经验应用于无人机生产，通过与法国国防电子企业泰雷兹合作，计划将“Toutatis”无人机月产能提升至1000架...",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0326172.shtml"
+        },
+        {
+            title: "华尔街IPO热潮降温 需求疲软与估值担忧导致多宗上市暂停",
+            summary: " 近期，华尔街首次公开募股市场明显降温，投资者对新股需求疲软以及对高估值的担忧，令本被寄予厚望的上市旺季遇冷。过去数周，多家企业暂停或推迟在美国上市的计划。",
+            source: "环球市场播报",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0323551.shtml"
+        },
+        {
+            title: "商务部回应G20贸易部长会议：坚持原则 促谈促合",
+            summary: "新华财经北京10月4日电（记者谢希瑶）商务部新闻发言人4日就二十国集团（G20）贸易部长会议及相关情况答记者问时表示，本次G20贸易部长会议...",
+            source: "新华社",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-04/doc-initzzvh0321184.shtml"
+        },
+        {
+            title: "木头姐：聪明的投资者需要开始关注AI Agent把钱花到哪里",
+            summary: "随着AI智能体从回答问题发展到真正花钱，投资者和科技巨头正竞相争夺对机器驱动商业活动背后金融网络的控制权。 多年来，ARK Invest首席执行官“木头姐”Cathie...",
+            source: "环球市场播报",
             date: "2026-10-04",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-10-04/doc-initzrfn0452363.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzvpf3899087.shtml"
         },
         {
-            title: "贝森特批评AI风险警告是危言耸听",
-            summary: "美国财长斯科特·贝森特批评人工智能领域一些知名人士就这项技术带来的人类存亡风险发出警告，称这些言论是在危言耸听，没有助益，并呼吁该行业进行自我监管并拿出解决方案...",
-            source: "环球市场播报",
-            date: "2026-10-04",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/world/2026-10-04/doc-initytzr0408702.shtml"
-        },
-        {
-            title: "工资涨不过物价 美国人想尽各种办法维持消费",
-            summary: "过去五个月里，美国物价上涨速度一直快于工资增速，这种现象本该促使消费者削减开支。但实际上，他们仍在继续消费。 8月份美国消费增速达到一年多来最快水平...",
+            title: "美国加密货币行业9月招聘职位激增 申请量反而下降",
+            summary: " 今年9月，加密货币行业招聘职位发布量增至1241个，较7月增长两倍以上，但申请量降至约2万份，显示行业招聘需求回暖与求职竞争格局出现分化。",
             source: "环球市场播报",
             date: "2026-10-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initytzv5949378.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzvpf3896418.shtml"
         },
         {
-            title: "OpenAI安全部门员工辞职 呼吁采取核电级别的防护措施",
-            summary: "OpenAI一名专注于人工智能安全的员工已从公司离职，并警告称，顶尖人工智能公司在降低风险方面做得还不够。 此前负责OpenAI安全团队透明度工作的David...",
-            source: "环球市场播报",
-            date: "2026-10-04",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/world/2026-10-04/doc-inityptx6040261.shtml"
-        },
-        {
-            title: "报道：特朗普指示动用纳税人资金投放颂扬其总统任期的广告",
-            summary: " 据知情人士透露，美国总统特朗普亲自指示预算局局长动用纳税人资金投放电视广告，宣传他本人及其执政成果，由此敲定一份价值 2000 万美元的合同，资金取自国土安全部。",
+            title: "伦敦支付基础设施公司OpenPayd计划年底前在纳斯达克上市",
+            summary: "伦敦支付基础设施公司OpenPayd计划年底前在纳斯达克上市，以资助其美国市场扩张和收购计划。该公司首席执行官Iana Dimitrova表示...",
             source: "环球市场播报",
             date: "2026-10-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-04/doc-inityptv4434728.shtml"
-        },
-        {
-            title: "台积电探讨与马斯克 Terafab 项目开展合作",
-            summary: "半导体巨头台积电正考虑与埃隆・马斯克的 Terafab 项目开展合作，在美国建立先进的端到端半导体制造产能。据通讯刊物 Culpium 的独家报道...",
-            source: "环球市场播报",
-            date: "2026-10-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-04/doc-inityptv4427769.shtml"
-        },
-        {
-            title: "苹果将加强Mac隐私控制 警告AI智能体带来的风险上升",
-            summary: " 苹果公司表示，计划为Mac用户推出新的隐私控制措施，并警告称，向包括AI智能体在内的第三方软件授予广泛的数据访问权限所带来的风险正在上升。",
-            source: "环球市场播报",
-            date: "2026-10-04",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/world/2026-10-04/doc-inityptr3684201.shtml"
-        },
-        {
-            title: "贝森特称国债收益率上升符合全球趋势 不必感到惊恐",
-            summary: " 尽管通胀担忧已推动一些基准收益率升至20多年来最高水平，但美国财长斯科特·贝森特表示，近期美国国债收益率上升符合全球趋势，不必对此感到惊恐。",
-            source: "环球市场播报",
-            date: "2026-10-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-04/doc-inityptv4425599.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzvpk0438447.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-04",
         marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,722.72（-0.27%），纳斯达克报27,190.86（+0.45%）。",
         hotSectors: [
-
+            { name: "视频媒体", reason: "板块涨幅+6.06%", strength: "强" },
+            { name: "医美耗材", reason: "板块涨幅+5.23%", strength: "强" },
+            { name: "其他生物制品", reason: "板块涨幅+4.72%", strength: "强" },
+            { name: "疫苗", reason: "板块涨幅+4.64%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "印制电路板", reason: "板块跌幅-4.56%", strength: "弱" },
+            { name: "集成电路封测", reason: "板块跌幅-4.10%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注视频媒体、医美耗材、其他生物制品等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

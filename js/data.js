@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-04 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-04 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-04 实时" },
@@ -669,7 +669,15 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+        {
+            title: "余承东回应误发“余总转发文案”：没想到工作备注比正文还抢镜",
+            summary: "新浪科技讯 10月4日晚间消息，10月3日，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东在微博转发鸿蒙智行宣传内容，文案中却出现“余总转发文案”字样...",
+            source: "新浪科技",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tech/2026-10-04/doc-iniuanma0247722.shtml"
+        },
         {
             title: "“要让肇事者付出代价！”东航就“空姐下跪事件”报案，六成网友支持“应加大惩戒辱骂者”",
             summary: "文 | 《BUG》栏目 徐苑蕾 近日，“东方航空空姐下跪事件”相关话题多次登上热搜。东方航空发布最新通报，涉事旅客涉嫌扰乱民用航空器内秩序，已正式向公安机关报案...",
@@ -677,6 +685,14 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-10-04",
             tag: "A股",
             url: "https://finance.sina.com.cn/tob/2026-10-04/doc-initzzvh0368596.shtml"
+        },
+        {
+            title: "“全世界都知道中国人放假了”！黄金周长假推动出入境游双向升温",
+            summary: "在“请3休13”催生的“超长版黄金周”下，中国长假成了全球旅游旺季。多家在线旅游平台与旅行社披露的数据显示，此次中秋、国庆双节，出入境游双向升温。",
+            source: "澎湃新闻",
+            date: "2026-10-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-04/doc-initzzvh0332342.shtml"
         },
         {
             title: "英国国家医疗服务体系20余家信托机构停用Palantir候诊工具",
@@ -718,22 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "行业",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzvpf3899087.shtml"
         },
-        {
-            title: "美国加密货币行业9月招聘职位激增 申请量反而下降",
-            summary: " 今年9月，加密货币行业招聘职位发布量增至1241个，较7月增长两倍以上，但申请量降至约2万份，显示行业招聘需求回暖与求职竞争格局出现分化。",
-            source: "环球市场播报",
-            date: "2026-10-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzvpf3896418.shtml"
-        },
-        {
-            title: "伦敦支付基础设施公司OpenPayd计划年底前在纳斯达克上市",
-            summary: "伦敦支付基础设施公司OpenPayd计划年底前在纳斯达克上市，以资助其美国市场扩张和收购计划。该公司首席执行官Iana Dimitrova表示...",
-            source: "环球市场播报",
-            date: "2026-10-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzvpk0438447.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-04",
         marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,722.72（-0.27%），纳斯达克报27,190.86（+0.45%）。",
         hotSectors: [

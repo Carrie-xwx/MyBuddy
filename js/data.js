@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-05 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-05 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-05 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "雅居乐集团午后涨超10% 接近敲定逾51.8亿美元境外债务重组计划",
-            summary: "雅居乐集团（03383）午后涨超10%，截至发稿，股价上涨10.57%，现报0.136港元，成交额103.96万港元。 10月5日，雅居乐集团公布境外债务重组之重大进展。",
-            source: "新浪港股",
+            title: "奥特曼称Cerebras为“紧密合作伙伴”，该芯片企业股价盘前上涨6%",
+            summary: "核心要点Cerebras 周一盘前股价走高，从上周下跌行情中反弹。上涨背景是 OpenAI 首席执行官山姆・奥特曼向投资者重申两家公司的合作关系。",
+            source: "环球市场播报",
             date: "2026-10-05",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-05/doc-iniucyni4550331.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniuemac4378341.shtml"
         },
         {
-            title: "泉峰控股午后涨逾6% 大和将目标价上调至40港元",
-            summary: "泉峰控股（02285）午后涨逾6%，截至发稿，股价上涨5.81%，现报30.60港元，成交额5030.95万港元。 今年9月10日，创科实业前行政总裁Joseph Galli...",
-            source: "新浪港股",
-            date: "2026-10-05",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-05/doc-iniucyni9730456.shtml"
-        },
-        {
-            title: "小摩：中远海能重申“增持”评级 目标价29港元",
-            summary: "摩根大通发布研报称，重申对中远海能（01138）的“增持”评级，目标价29港元，建议投资者趁低吸纳，指出超大型油轮（VLCC）运费上周大部分时间回软...",
-            source: "新浪港股",
-            date: "2026-10-05",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-05/doc-iniucynf2943982.shtml"
-        },
-        {
-            title: "美银证券：友邦保险重申“买入”评级 目标价95港元",
-            summary: "美银证券发布研报称，友邦保险（01299）于中国黄金周假期首日急跌5%，同期恒生指数跌3%。该行指，过去6年黄金周首日亦见类似高波幅...",
-            source: "新浪港股",
-            date: "2026-10-05",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-05/doc-iniucyni4532883.shtml"
-        },
-        {
-            title: "高盛：将智谱上调至“买入”评级 目标价1560港元",
-            summary: "高盛发布研报称，将智谱评级由“中性”上调至“买入”，并将基于DCF的12个月目标价修订为1560港元。上调理由包括：变现路径更为清晰——该行将2026E年底ARR预测上调至32亿美元（...",
-            source: "新浪港股",
-            date: "2026-10-05",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-05/doc-iniucynm6474487.shtml"
-        },
-        {
-            title: "网传孙宇晨“迪拜遭袭身亡”，本人回应：一切都好",
-            summary: " 当地时间10月3日晚间，一条惊悚传言在海内外社交平台快速扩散：加密货币企业家、波场创始人孙宇晨在迪拜酒店附近遭遇枪击、当场身亡。",
+            title: "11月三项税收公投，将直接影响高收入群体",
+            summary: "核心要点11 月，加州、科罗拉多州、华盛顿州选民将对投票提案进行表决，提案一旦落地，会显著影响高收入人群，并改变财富跨州迁移格局。",
             source: "环球市场播报",
             date: "2026-10-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniucynm6448501.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniuemac4375183.shtml"
         },
         {
-            title: "里昂：港铁公司维持“持有”评级 目标价33港元",
-            summary: "里昂发布研报称，港铁公司（00066）已就高铁及沙中线相关建造问题与香港特区政府达成和解，整体仅须向政府支付22.5亿元，约相当于该行2026年预测资产净值及现时市值约1%...",
-            source: "新浪港股",
+            title: "沙特阿美总裁称重建全球石油储备或将耗时两年",
+            summary: "核心要点沙特阿美首席执行官阿明・纳赛尔警示，重建全球石油库存最多可能需要两年时间；随着美伊战争持续，石油供应紧张局面或将进一步恶化。",
+            source: "环球市场播报",
             date: "2026-10-05",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-05/doc-iniucynf2910548.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniuekzz2768691.shtml"
         },
         {
-            title: "花旗：澳门国庆黄金周开局强劲 重申10月博彩收入预测250亿澳门元",
-            summary: "花旗发布研报称，澳门国庆黄金周开局强劲，该行引述澳门政府旅游局（MGTO）数据，今年国庆黄金周首三日访澳旅客总数达540，549人次，同比高出约12%...",
-            source: "新浪港股",
+            title: "高盛古特曼呼吁各国政府削减开支，抑制失控的借贷成本",
+            summary: "核心要点高盛高管安东尼・古特曼表示，各国政府需要压缩支出、提振经济增长，以此应对借贷成本飙升。他称，收益率上行是西方各经济体共同面临的难题...",
+            source: "环球市场播报",
             date: "2026-10-05",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-05/doc-iniucyni4515283.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniuemac4372896.shtml"
+        },
+        {
+            title: "俄罗斯加大对基辅基础设施打击力度",
+            summary: "核心要点上周末，一架无人机损毁基辅关键的北大桥，俄罗斯承诺将加大对基辅及乌克兰其他城市的打击强度。俄方表示，此番打击是对乌克兰行动的报复；此前泽连斯基誓言要加大...",
+            source: "环球市场播报",
+            date: "2026-10-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniuemac4370432.shtml"
+        },
+        {
+            title: "西班牙9月服务业PMI升至58.3，三季度扩张速度创五年最佳",
+            summary: " 西班牙服务业9月继续强劲扩张，商业活动增速追平近三年半最快水平。标普全球数据显示，西班牙9月服务业PMI由8月的57.8升至58.3，第三季度平均水平则创下五年来最佳表现。",
+            source: "环球市场播报",
+            date: "2026-10-05",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/2026-10-05/doc-iniuemac4367014.shtml"
+        },
+        {
+            title: "PMI调查显示英国就业低迷持续时间已超过金融危机时期",
+            summary: "项备受关注的调查显示，英国就业市场正经历本世纪初以来持续时间最长的一轮低迷，萎缩期已超过全球金融危机时期。 标普全球英国采购经理人指数显示...",
+            source: "环球市场播报",
+            date: "2026-10-05",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniuekzz2761750.shtml"
+        },
+        {
+            title: "德国8月机械订单同比下降5%，欧元区需求疲弱拖累行业复苏",
+            summary: "德国8月机械设备行业订单同比实际下降5%，结束此前连续两个月的增长，显示国内和海外投资需求仍然偏弱。 德国机械设备制造业联合会VDMA数据显示...",
+            source: "环球市场播报",
+            date: "2026-10-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniuemac9606136.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-05",
         marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,722.72（-0.27%），纳斯达克报27,190.86（+0.45%）。",
         hotSectors: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-06 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-06 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-06 实时" },
         { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-10-06 实时" },
         { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-10-06 实时" },
-        { name: "标普500", code: "SPX", value: "7,773.95", change: "+1.17%", market: "美股", updateTime: "2026-10-06 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,477.31", change: "+2.45%", market: "美股", updateTime: "2026-10-06 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,267.90", change: "-0.41%", market: "美股", updateTime: "2026-10-06 收盘" },
+        { name: "标普500", code: "SPX", value: "7,841.37", change: "+2.22%", market: "美股", updateTime: "2026-10-06 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,715.61", change: "+3.43%", market: "美股", updateTime: "2026-10-06 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,654.39", change: "+0.59%", market: "美股", updateTime: "2026-10-06 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "谷歌与Constellation达成为期20年的核电采购协议",
-            summary: "谷歌母公司Alphabet Inc．已同意与Constellation Energy Corp．签署一项为期20年的核电采购协议。在数据中心建设热潮推动电力需求激增之际...",
+            title: "欧洲央行管委Kocher：能源价格上涨对通胀预测构成风险",
+            summary: "欧洲央行管理委员会委员Martin Kocher表示，能源市场近期走高，对9月份发布的奥地利和欧元区通胀预测构成风险。 “与此同时，能源价格再度有所上涨...",
+            source: "环球市场播报",
+            date: "2026-10-06",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-06/doc-iniuiexc5416232.shtml"
+        },
+        {
+            title: "三星电子正在越南建设一座大型半导体测试工厂",
+            summary: "据报道，三星电子正在越南建设一座大型半导体测试工厂，以此落实出口基地多元化战略，满足人工智能基础设施扩张带来的存储芯片激增需求。",
             source: "环球市场播报",
             date: "2026-10-06",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhuhz8845931.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiewy6687603.shtml"
         },
         {
-            title: "谷歌与星座能源达成890兆瓦核电装机协议",
-            summary: " 谷歌与星座能源集团（Constellation Energy）宣布达成长期协议，未来20年将为伊利诺伊州、宾夕法尼亚州及新泽西州的PJM电网新增890兆瓦核电装机。",
+            title: "摩根大通CEO戴蒙称AI带来未知漏洞 Mythos问世后风险增10倍",
+            summary: "摩根大通首席执行官杰米·戴蒙表示，Anthropic PBC的人工智能模型Mythos大幅增加了全球网络安全风险。 AI带来的风险“在Mythos出现后增加了10倍”，戴蒙周二接受采访时表示。",
             source: "环球市场播报",
             date: "2026-10-06",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhuic5604241.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiewv8683088.shtml"
         },
         {
-            title: "AI教授斯图尔特・罗素：让AI对齐人类目标或许根本无法实现",
-            summary: "上周，OpenAI 因测试结果发现模型存在欺骗行为、对齐失效，决定放弃原定发布的 GPT-6.1 Astra。 伯克利计算机科学教授、经典 AI 教材合著者斯图尔特・罗素评价：“我觉得早...",
+            title: "不确定本轮AI牛市还能走多久？债券如今迎来多年难得的配置价值，可作为投资缓冲垫",
+            summary: "撰稿：迈克尔・桑托利 核心要点对于担心 AI 行情崩盘的投资者（我的 “神秘经纪人” 消息源也属于这一类），债券市场当前具备多年来最好的价格，能够提供资产缓冲。",
             source: "环球市场播报",
             date: "2026-10-06",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhuic5599871.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiewy6681859.shtml"
         },
         {
-            title: "黄仁勋的女婿如何成为他最信任高管之一",
-            summary: "作者：菲比・刘 一周多前，英伟达冉冉升起的高管、黄仁勋之女麦迪逊・黄，在夏威夷举办婚礼。 她的丈夫尼科・卡普雷茨，曾是职业滑雪选手；两年半前...",
+            title: "美债收益率脱离2002年以来高点 受油价下跌及贝森特讲话影响",
+            summary: " 由于油价回落至每桶100美元下方，加之美国财政部长贝森特坚持认为政府债务负担可控，美债收益率从2002年以来最高水平回落。",
             source: "环球市场播报",
             date: "2026-10-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhuhz8821233.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiewy6680816.shtml"
         },
         {
-            title: "德国8月工厂订单大幅下滑 制造业复苏遭遇挫折",
-            summary: "德国工厂订单创1月以来最大降幅，令寻求持续复苏的制造业遭遇挫折。 8月工厂订单下降10.6%，7月增长3.2%。根据预测中值，经济学家此前预计仅下降1%。",
+            title: "美国8月贸易逆差大幅扩大 达1056亿美元",
+            summary: " 美国商务部周二报告称，由于与人工智能基础设施建设相关的商品大量涌入，以及进口关税的反复无常，美国8月贸易逆差大幅扩大。",
             source: "环球市场播报",
             date: "2026-10-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhuhz8820874.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiewx5443096.shtml"
         },
         {
-            title: "华尔街交易和投行业务迎来丰收年 奖金预计将创纪录新高",
-            summary: "华尔街交易和投行业务增长强劲，今年行业利润有望突破900亿美元，刷新历史，奖金规模预计也将达到纪录高位。 纽约州审计长Thomas DiNapoli的一份报告显示...",
+            title: "谷歌DeepMind首席AI“准备度”官：如何为未来做准备",
+            summary: " 谷歌DeepMind首席AI“准备度”官莉拉·易卜拉欣可能是世界上唯一拥有这一头衔的人。她说，如果她不相信AI的天平最终会倒向积极一面，她就不会接受这一职位。",
+            source: "环球市场播报",
+            date: "2026-10-06",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiewv8669662.shtml"
+        },
+        {
+            title: "以色列警告公民：10月7日前海外遇袭风险上升",
+            summary: "以色列国家安全委员会表示，随着2023年10月7日袭击事件周年临近，海外以色列人和犹太人遇袭风险上升。 当局建议公众提高警惕，避免在社交媒体上发布旅行计划详情...",
             source: "环球市场播报",
             date: "2026-10-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhuii5596836.shtml"
-        },
-        {
-            title: "独享1200万瑞典克朗奖金，弗朗西斯·哈尔岑获本年度诺贝尔物理奖",
-            summary: "当地时间10月6日上午，瑞典皇家科学院决定将2026年诺贝尔物理学奖授予弗朗西斯·哈尔岑（Francis Halzen‌）。获奖理由是他“对冰立方中微子天文台的决定性贡献...",
-            source: "界面",
-            date: "2026-10-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-06/doc-iniuhuhz8816859.shtml"
-        },
-        {
-            title: "2026年诺贝尔物理学奖授予弗朗西斯·哈尔岑",
-            summary: " 瑞典皇家科学院决定将2026年诺贝尔物理学奖授予Francis Halzen，以表彰他对冰立方中微子天文台作出的决定性贡献，以及对天体物理来源高能中微子的发现。 ",
-            source: "环球市场播报",
-            date: "2026-10-06",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhuii5590828.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiexc5403290.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-06",
-        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,773.95（+1.17%），纳斯达克报27,477.31（+2.45%）。",
+        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,841.37（+2.22%），纳斯达克报27,715.61（+3.43%）。",
         hotSectors: [
             { name: "视频媒体", reason: "板块涨幅+6.06%", strength: "强" },
             { name: "医美耗材", reason: "板块涨幅+5.23%", strength: "强" },

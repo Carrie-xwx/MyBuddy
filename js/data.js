@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-07 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-07 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-07 实时" },
         { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-10-07 实时" },
         { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-10-07 实时" },
-        { name: "标普500", code: "SPX", value: "7,827.13", change: "+2.04%", market: "美股", updateTime: "2026-10-07 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,649.18", change: "+3.18%", market: "美股", updateTime: "2026-10-07 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,534.98", change: "+0.36%", market: "美股", updateTime: "2026-10-07 收盘" },
+        { name: "标普500", code: "SPX", value: "7,818.93", change: "+1.93%", market: "美股", updateTime: "2026-10-07 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,599.89", change: "+2.99%", market: "美股", updateTime: "2026-10-07 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,521.28", change: "+0.33%", market: "美股", updateTime: "2026-10-07 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "欧洲股市三连涨 油价和债券收益率回落提振风险偏好",
-            summary: "欧洲股市连续第三个交易日上涨，油价回落和债券收益率下降提振了风险偏好。 斯托克欧洲600指数收涨0.5%。旅游股和汽车股跑赢大盘，电信和工业板块表现落后。",
+            title: "龙资源午后涨超8% 芬兰Jokisivu金矿钻探发现高品位样段",
+            summary: "龙资源（01712）午后涨超8%。截至发稿，股价上涨8.08%，现报9.44港元，成交额780.41万港元。 龙资源发布公告，已获得在芬兰南部Jokisivu金矿完成的3个地下金刚石取芯钻孔工...",
+            source: "新浪港股",
+            date: "2026-10-07",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-07/doc-iniuksym4732341.shtml"
+        },
+        {
+            title: "耐克资深高管推动中国市场转型",
+            summary: "耐克中国区新任负责人申凯希（Cathy Sparks）正推动一系列改革，以扭转该公司在中国市场连续五年的下滑态势。申凯希今年春季出任耐克大中华区负责人...",
             source: "环球市场播报",
             date: "2026-10-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-07/doc-iniuimew6602422.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuksyc8158559.shtml"
         },
         {
-            title: "油气运输量上升之际 伊朗对霍尔木兹海峡油轮的袭击愈发频繁",
-            summary: "就在霍尔木兹海峡石油运输量接近战前水平之际，伊朗近期对霍尔木兹海峡油轮的袭击愈发频繁。 英国海上贸易行动办公室（UKMTO）本月迄今已报告霍尔木兹海峡发生9起袭击...",
-            source: "环球市场播报",
+            title: "蚬壳电业午后涨近15% 星兆控股已正式入主称无意将公司私有化",
+            summary: "蚬壳电业（02381）盘中涨近20%。截至发稿，股价上涨14.71%，现报0.39港元，成交额315.69万港元。 星兆控股已完成收购蚬壳电业14亿股股份，占公司已发行股份总数70%...",
+            source: "新浪港股",
             date: "2026-10-07",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-10-07/doc-iniuimez5327190.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-07/doc-iniuksyf4930814.shtml"
         },
         {
-            title: "对冲基金9月业绩排行榜：德劭录得上涨 Haidar宏观基金回报率近18%",
-            summary: "在9月全球债市剧烈波动环境下，德劭旗下对冲基金以及Said Haidar的宏观交易策略基金成为赢家。 不具名知情人士称，德劭主要多策略对冲基金Composite上月回报率1.5%...",
-            source: "环球市场播报",
+            title: "交银国际：新能源汽车终端需求仍具支撑 建议关注小鹏集团-W等",
+            summary: "交银国际发布研报称，9月新能源汽车车企销量延续环比改善，10家样本车企合计销量约80.9万辆，同比及环比分别升14.3%及3.8%。展望第四季度...",
+            source: "新浪港股",
             date: "2026-10-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-07/doc-iniuimez5326853.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-07/doc-iniuknsk6122668.shtml"
         },
         {
-            title: "报道：旧金山联储行长称AI需求引发的冲击或非“一次性”",
-            summary: "旧金山联储行长玛丽·戴利警告称，对人工智能的强劲需求带来的经济冲击可能比一些人预期的更为普遍和持久。 “人工智能的需求似乎没有下降。",
-            source: "环球市场播报",
+            title: "富瑞：新秀丽维持“买入”评级 目标价上调至19.9港元",
+            summary: "富瑞发布研报称，上调新秀丽（01910）目标价，由19.6港元升至19.9港元，维持“买入”评级。该行上调公司2027-2028年净利预测3%，以反映收购BÉIS的影响，销售预测亦上调6%...",
+            source: "新浪港股",
             date: "2026-10-07",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/world/2026-10-07/doc-iniuimew6595935.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-07/doc-iniuknsi5037045.shtml"
         },
         {
-            title: "欧洲债市：法国国债连续第三日跑赢德国国债",
-            summary: "法国国债上涨，跑赢德国国债，10年期法德国债收益率利差收窄9个基点至128个基点。随着油价下跌，市场风险偏好连续第三天升温。上周...",
-            source: "环球市场播报",
+            title: "瑞银：嘉里建设给予“买入”评级 目标价27港元",
+            summary: "瑞银发布研报称，给予嘉里建设（00683）目标价27港元及“买入”评级。地政总署公布，嘉里建设以逾43.08亿港元投得何文田佛光街住宅地，作价远高于市场预期上限...",
+            source: "新浪港股",
             date: "2026-10-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-07/doc-iniuimez5316560.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-07/doc-iniuknsi5037019.shtml"
         },
         {
-            title: "美国财长贝森特重弹降债老调 市场人士直言“愿景不是计划”",
-            summary: " 美国财政部长贝森特表示，经济增长和财政撙节双管齐下能够遏制联邦赤字，但面对政府庞大的负债额，市场策略师怀疑这种做法未必奏效。",
-            source: "环球市场播报",
-            date: "2026-10-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-07/doc-iniuimev5374582.shtml"
-        },
-        {
-            title: "央行官员谈黄金投资 理由从分散风险到数字资产策略不一而足",
-            summary: " 本周在意大利与会的央行官员强调，随着地缘政治不确定性和制裁风险提升黄金这一避险资产的吸引力，黄金在实现储备多元化方面正发挥越来越重要的战略作用。",
-            source: "环球市场播报",
-            date: "2026-10-07",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-10-07/doc-iniuimev5374085.shtml"
-        },
-        {
-            title: "Marvell发布长期营收展望，股价上涨4%",
-            summary: "周二午盘，Marvell Technology股价大涨超 4%，公司在投资者日活动上公布了长期营收指引。 Marvell预计，2028 财年营收将达到 200 亿美元...",
+            title: "泰国拟下调生物燃料税以减少原油进口",
+            summary: "泰国政府正考虑下调生物燃料消费税，压低价格并拉动消费。 泰国能源部发言人蓬波尔・约德孟查伦（Pongpol Yodmuangcharoen）在周三新闻发布会上表示...",
             source: "环球市场播报",
             date: "2026-10-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuimev5370347.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuknsk6120746.shtml"
+        },
+        {
+            title: "日本首相高市早苗：若收益率异动，日本将重新评估财政状况",
+            summary: "日本首相高市早苗在国会接受议员质询时表示，若国债收益率出现意外波动，日本政府将视需要重新评估收支计划。她称，从力度与时效性两方面考量...",
+            source: "环球市场播报",
+            date: "2026-10-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuknsk6118158.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-10-07",
-        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,827.13（+2.04%），纳斯达克报27,649.18（+3.18%）。",
+        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,818.93（+1.93%），纳斯达克报27,599.89（+2.99%）。",
         hotSectors: [
             { name: "视频媒体", reason: "板块涨幅+6.06%", strength: "强" },
             { name: "医美耗材", reason: "板块涨幅+5.23%", strength: "强" },

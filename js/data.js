@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3842.19", change: "+0.31%", market: "A股", updateTime: "2026-10-07 实时" },
         { name: "深证成指", code: "SZ399001", value: "12887.62", change: "-0.11%", market: "A股", updateTime: "2026-10-07 实时" },
         { name: "创业板指", code: "SZ399006", value: "3135.28", change: "-0.23%", market: "A股", updateTime: "2026-10-07 实时" },
         { name: "沪深300", code: "SH000300", value: "4357.62", change: "+0.29%", market: "A股", updateTime: "2026-10-07 实时" },
         { name: "科创50", code: "SH000688", value: "1530.01", change: "-2.51%", market: "A股", updateTime: "2026-10-07 实时" },
-        { name: "标普500", code: "SPX", value: "7,818.93", change: "+1.93%", market: "美股", updateTime: "2026-10-07 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,599.89", change: "+2.99%", market: "美股", updateTime: "2026-10-07 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,521.28", change: "+0.33%", market: "美股", updateTime: "2026-10-07 收盘" },
+        { name: "标普500", code: "SPX", value: "7,786.52", change: "+1.76%", market: "美股", updateTime: "2026-10-07 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,460.22", change: "+2.23%", market: "美股", updateTime: "2026-10-07 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,059.60", change: "+0.30%", market: "美股", updateTime: "2026-10-07 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "Antofagasta旗下智利铜矿将罢工 铜供应担忧加剧",
-            summary: "Antofagasta旗下位于智利的Centinela铜矿劳资谈判破裂，工人定于周三发起罢工，加剧这个全球最大产铜国矿业领域的劳资紧张局势。",
+            title: "预付5万美元，苦等九年。特斯拉Roadster能否不负万众期待？",
+            summary: "特斯拉新款 Roadster 超跑定于 10 月 15 日首发，历经近十年打磨，客户预付定金最低 5 万美元 内容速览 特斯拉计划 10 月 15 日在得州韦科市...",
             source: "环球市场播报",
             date: "2026-10-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumcpz4825449.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumqcv4685805.shtml"
         },
         {
-            title: "002388，重大资产重组！明起停牌！",
-            summary: "公司股票明起停牌。 新亚制程（002388）10月7日晚公告，公司正在筹划以发行股份及支付现金的方式购买上海启元气体发展有限公司（简称“启元气体”）的控股权并募集配套资金。...",
-            source: "证券时报",
-            date: "2026-10-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-07/doc-iniumcqa5828991.shtml"
-        },
-        {
-            title: "胡塞武装袭击、美国墨西哥湾风暴加剧供应风险，油价上行",
-            summary: "12 月布伦特原油期货上涨 1%，报每桶 101.54 美元；12 月 WTI 原油期货上涨 1%，报每桶 89.31 美元美国能源信息署将第四季度布伦特原油均价预期上调至每桶 105 美元...",
+            title: "英伟达千亿并购引擎，下一步将投向何处",
+            summary: "在开启历史性的大规模并购之后，这家芯片巨头接下来或将布局机器人、自动驾驶技术以及端侧本地 AI 模型领域。 今年 7 月，英伟达听闻 AI 模型交易平台 OpenRouter...",
             source: "环球市场播报",
             date: "2026-10-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumcpz4810539.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumqcz4369412.shtml"
         },
         {
-            title: "中东冲突扰乱燃油市场，壳牌炼油利润率飙升至历史新高",
-            summary: "该公司炼油指标利润率预计达每桶 42 美元，超过 2022 年俄罗斯全面入侵乌克兰之后创下的 28.04 美元纪录能源企业的交易部门往往能从价格大幅波动中获利...",
+            title: "特斯拉Optimus前负责人创办工业机器人初创企业",
+            summary: "据两位知情人士透露，特斯拉 Optimus 人形机器人前 AI 负责人阿希什・库马尔联合创办了一家初创公司，研发非人形机器人，用来完成制造业...",
             source: "环球市场播报",
             date: "2026-10-07",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumcqf4547902.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumqcz4368411.shtml"
         },
         {
-            title: "芯片初创企业Groq背后风投机构目标募集百亿美元巨型基金",
-            summary: "押注热门 AI 初创企业大获成功，这家原本知名度不高的达拉斯机构跻身少数巨型基金募资阵营Disruptive 公司创始人兼首席执行官亚历克斯・戴维斯。",
+            title: "美联储调查显示一年期通胀预期升至2023年5月以来最高，通胀担忧加剧",
+            summary: "美国9月通胀担忧加剧，推动纽约联储月度调查中的近期展望升至近三年半以来最高水平。 美联储的消费者预期调查显示，未来12个月通胀预期中值升至3.9%，较8月上升0...",
             source: "环球市场播报",
             date: "2026-10-07",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumcqa5821575.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumqct7907006.shtml"
         },
         {
-            title: "报道：伊朗军方称必要时将采取先发制人的军事行动",
-            summary: " 伊朗半官方的法尔斯通讯社引述一名军方发言人的话称，伊朗可能“在必要时采取先发制人的军事行动，以威慑敌方，阻止其发动任何侵略或袭击”。",
+            title: "纽约联储：消费者通胀预期升至2023年5月以来最高水平",
+            summary: "纽约联储消费者预期调查显示，9月一年期通胀预期升至3.9%，高于8月的3.58%。 对未来三年的通胀率预期上升0.1个百分点至3.3%；对未来五年通胀率预期维持在3.0%不变。",
             source: "环球市场播报",
             date: "2026-10-07",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukxhc4933962.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumqct7906038.shtml"
         },
         {
-            title: "30年期美国国债收益率攀升至2002年以来最高水平",
-            summary: "随着油价持续走高，美国国债周三延续跌势，收益率重返本周早些时候触及的高位。 30年期美国国债收益率上涨5个基点至5.7%，10年期收益率上涨4个基点至5.3%。",
+            title: "谷歌、英伟达前高管创办新公司，意在缓解GPU紧缺局面",
+            summary: "National Compute 公司计划汇集闲置的云端 AI 服务器资源，供中小型企业租赁使用。 安杰尼・米达，前安德森・霍洛维茨（a16z）普通合伙人，联合谷歌...",
+            source: "环球市场播报",
+            date: "2026-10-07",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumqcw5639169.shtml"
+        },
+        {
+            title: "微软能否帮助客户削减Claude使用成本？",
+            summary: "对 Anthropic 而言，一则消息有喜有忧：两大重量级客户微软与 Meta，正在削减员工使用 Claude 产生的费用。 利空消息是：微软内部 Claude 的年化开支...",
             source: "环球市场播报",
             date: "2026-10-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukxhi4675666.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumivv8033760.shtml"
         },
         {
-            title: "微软预计将发布新Surface 无需云端算力面向AI开发者",
-            summary: " 微软将于10月7日在旧金山举办一场特别活动，对会议议题保持缄默。微软确认议程包含Windows、RTX Spark以及Surface相关内容，但暂未公布具体细节。",
+            title: "HubSpot裁员7%，称裁员并非源于人工智能",
+            summary: "尽管市场一直担忧人工智能会侵蚀其营收，HubSpot 还是成为今年又一家实施裁员的企业软件厂商。 软件服务商 HubSpot 宣布裁员 660 人，占员工总规模的 7%。",
             source: "环球市场播报",
             date: "2026-10-07",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukxhc4927371.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniumivv8032808.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-07",
-        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,818.93（+1.93%），纳斯达克报27,599.89（+2.99%）。",
+        marketAssessment: "A股方面：上证指数报3842.19点（+0.31%），深证成指报12887.62点（-0.11%），创业板指报3135.28点（-0.23%）。美股方面：标普500报7,786.52（+1.76%），纳斯达克报27,460.22（+2.23%）。",
         hotSectors: [
             { name: "视频媒体", reason: "板块涨幅+6.06%", strength: "强" },
             { name: "医美耗材", reason: "板块涨幅+5.23%", strength: "强" },

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3811.90", change: "-0.79%", market: "A股", updateTime: "2026-10-08 实时" },
         { name: "深证成指", code: "SZ399001", value: "12620.90", change: "-2.07%", market: "A股", updateTime: "2026-10-08 实时" },
         { name: "创业板指", code: "SZ399006", value: "3036.66", change: "-3.15%", market: "A股", updateTime: "2026-10-08 实时" },
         { name: "沪深300", code: "SH000300", value: "4310.28", change: "-1.09%", market: "A股", updateTime: "2026-10-08 实时" },
         { name: "科创50", code: "SH000688", value: "1456.32", change: "-4.82%", market: "A股", updateTime: "2026-10-08 实时" },
-        { name: "标普500", code: "SPX", value: "7,801.77", change: "+1.96%", market: "美股", updateTime: "2026-10-08 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,538.69", change: "+2.52%", market: "美股", updateTime: "2026-10-08 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,179.87", change: "+0.54%", market: "美股", updateTime: "2026-10-08 收盘" },
+        { name: "标普500", code: "SPX", value: "7,772.26", change: "+1.38%", market: "美股", updateTime: "2026-10-08 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,363.83", change: "+1.83%", market: "美股", updateTime: "2026-10-08 收盘" },
+        { name: "道琼斯", code: "DJI", value: "50,989.17", change: "+0.12%", market: "美股", updateTime: "2026-10-08 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "万亿对冲基金大举举债，如何成为华尔街的摇钱树",
-            summary: " 今年2月，高盛邀请一众头部对冲基金高管，前往伦敦郊外一处占地500英亩的度假庄园。这家华尔街投行传递出明确信号：你们不再是我们的对手，而是我们最核心的客户群体。",
+            title: "特朗普8月买入最高2500万美元Meta股票，并投资数百万美元SpaceX债券",
+            summary: "核心要点特朗普总统 8 月财务披露文件显示，他买入最高 2500 万美元 Meta 股票，以及最高 500 万美元 SpaceX 债券。最新披露显示，这笔 SpaceX 债券投资完成两天后...",
             source: "环球市场播报",
             date: "2026-10-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphnx7638772.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptaz3538220.shtml"
         },
         {
-            title: "高盛高层将迎巨额特别奖金 总额料超5亿美元",
-            summary: "高盛集团最高层管理人员即将获得一笔特别奖金，其规模将跻身该公司历来最大笔此类奖励之列。 根据文件以及知情人士透露，约20名高管有望获得一批将在本月晚些时候最终确定...",
+            title: "亚马逊全面更新老旧设备产品线：推出定价更高的Alexa平板",
+            summary: "核心要点亚马逊发布全新 Alexa 品牌平板产品线，宣布砍掉主打性价比的 Fire 系列产品。亚马逊表示，新款 Alexa 平板速度、性能提升，搭载 AI 功能、外观设计升级...",
             source: "环球市场播报",
             date: "2026-10-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuphnx7633861.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptat7523496.shtml"
         },
         {
-            title: "商务部部长王文涛会见欧委会贸易和经济安全委员谢夫乔维奇",
-            summary: "10月8日，商务部部长王文涛在京会见欧委会贸易和经济安全委员谢夫乔维奇。",
-            source: "商务部网站",
-            date: "2026-10-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-08/doc-iniuphnx7628530.shtml"
-        },
-        {
-            title: "德国将2026年经济增长预期上调逾一倍 制造业回升",
-            summary: "上半年经济表现强于预期后，德国将今年经济增长预期上调逾一倍，强劲出口和政府支出激增抵消了消费疲软的影响。 德国经济部在秋季预测中表示...",
+            title: "美国调查多所高校涉嫌J-1签证欺诈 耶鲁、哈佛、斯坦福等在列",
+            summary: " 据社交平台上的一则帖子，美国宣布调查涉及耶鲁、哈佛、斯坦福大学、布朗大学、加州理工学院、麻省理工学院等高校的J-1签证欺诈问题。",
             source: "环球市场播报",
             date: "2026-10-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphnx7618713.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptaz3535479.shtml"
         },
         {
-            title: "“福建前首富”女婿自由了，背后三安光电正值300亿转型关键期",
-            summary: "来源 | 野马财经 老丈人仍被刑拘。 作者 | 贾紫聪 姚悦 女婿的留置解除了，“福建前首富”林秀成的刑拘还没有结束。 10月7日晚间，三安光电（600703.SH）公告...",
-            source: "市场资讯",
+            title: "美国副总统万斯称微软滥用PERM项目 将暂停其申请资格",
+            summary: "美国副总统万斯在一场仪式上表示，“遗憾的是，美国没有哪家公司比微软更严重地滥用这一制度。” 万斯补充称，特朗普政府将暂停微软参与PERM项目...",
+            source: "环球市场播报",
             date: "2026-10-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-08/doc-iniuphnz4393640.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptat7518399.shtml"
         },
         {
-            title: "“80后”掌舵舍得酒业，直面营收、利润双降难题！",
-            summary: "来源 | 野马财经 80后掌舵，老酒再突围 作者 | 方璐 编辑丨于婞 有“川酒六朵金花之一”之称的舍得酒业（600702.SH），于9月底公布一份新管理团队名单...",
-            source: "市场资讯",
+            title: "Skydance埃里森：合并后公司 “在每一个业务赛道都具备取胜实力”",
+            summary: "核心要点派拉蒙 - 天空之舞于周二完成对华纳兄弟探索公司的收购。大卫・埃里森与伊农・克雷兹将担任合并后的新公司（沿用 Skydance 天空之舞名称）联席首席执行官。",
+            source: "环球市场播报",
             date: "2026-10-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-08/doc-iniuphpf7658337.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptaz3532853.shtml"
         },
         {
-            title: "英国破获疑似伊朗无人机袭击图谋 西方基地安保问题凸显",
-            summary: " 一桩疑似伊朗策划袭击驻英珍贵B-1轰炸机的阴谋，暴露了北约防御体系的致命短板：该联盟空军基地远未做到能够抵御无人机攻击。",
+            title: "数百只新型职业球队ETF问世，将散户投资推向赌博边缘",
+            summary: "核心要点预测市场已经模糊了金融交易与赌博的界限；如今多家基金公司提交申请，拟发行数百只 ETF，依托与球队单赛季表现指标挂钩的期货，追踪国家冰球联盟（NHL）...",
+            source: "环球市场播报",
+            date: "2026-10-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptav4289605.shtml"
+        },
+        {
+            title: "纽约联储：众多日常用品通胀完全由关税导致",
+            summary: "核心要点纽约联邦储备银行一份报告显示，如果不是特朗普总统这套存在法律争议的关税政策，大量日常消费品的价格本会出现下跌。受 2025 年及 2026 年初实施的关税影响...",
             source: "环球市场播报",
             date: "2026-10-08",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphnx7604801.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptaz7486151.shtml"
         },
         {
-            title: "优衣库有望超越H&M 向Zara发起全球第一的冲击",
-            summary: " 优衣库母公司迅销集团年度营收增长17%，达到创纪录的3.96万亿日元（折合250亿美元），稳固踏上超越H&amp;M成为全球第二大服装零售商之路，并向Zara发起全球第一的冲击。",
+            title: "欧洲高温干旱 明年粮食收成堪忧",
+            summary: "焦渴的土地与灼人的热浪，正威胁着欧洲的秋季播种季节，令本已因地缘政治紧张而绷紧的全球粮食供应，再添风险。 今年夏天席卷欧洲的多轮热浪已经打乱收成...",
             source: "环球市场播报",
             date: "2026-10-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphnx7599707.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptaz7486036.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-08",
-        marketAssessment: "A股方面：上证指数报3811.90点（-0.79%），深证成指报12620.90点（-2.07%），创业板指报3036.66点（-3.15%）。美股方面：标普500报7,801.77（+1.96%），纳斯达克报27,538.69（+2.52%）。",
+        marketAssessment: "A股方面：上证指数报3811.90点（-0.79%），深证成指报12620.90点（-2.07%），创业板指报3036.66点（-3.15%）。美股方面：标普500报7,772.26（+1.38%），纳斯达克报27,363.83（+1.83%）。",
         hotSectors: [
             { name: "蓄电池及其他电池", reason: "板块涨幅+5.19%", strength: "强" },
             { name: "锂电专用设备", reason: "板块涨幅+4.98%", strength: "强" },
@@ -775,8 +775,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "焦炭Ⅱ", reason: "板块涨幅+3.75%", strength: "强" },
         ],
         weakSectors: [
-            { name: "视频媒体", reason: "板块跌幅-8.71%", strength: "弱" },
-            { name: "文字媒体", reason: "板块跌幅-7.95%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
         shortTermStrategy: "超短线关注蓄电池及其他电池、锂电专用设备、焦炭Ⅲ等板块的延续性，顺势操作，严格止损。",

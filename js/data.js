@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3796.33", change: "-1.19%", market: "A股", updateTime: "2026-10-08 实时" },
-        { name: "深证成指", code: "SZ399001", value: "12553.64", change: "-2.59%", market: "A股", updateTime: "2026-10-08 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3016.26", change: "-3.80%", market: "A股", updateTime: "2026-10-08 实时" },
-        { name: "沪深300", code: "SH000300", value: "4293.03", change: "-1.48%", market: "A股", updateTime: "2026-10-08 实时" },
-        { name: "科创50", code: "SH000688", value: "1448.01", change: "-5.36%", market: "A股", updateTime: "2026-10-08 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3811.90", change: "-0.79%", market: "A股", updateTime: "2026-10-08 实时" },
+        { name: "深证成指", code: "SZ399001", value: "12620.90", change: "-2.07%", market: "A股", updateTime: "2026-10-08 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3036.66", change: "-3.15%", market: "A股", updateTime: "2026-10-08 实时" },
+        { name: "沪深300", code: "SH000300", value: "4310.28", change: "-1.09%", market: "A股", updateTime: "2026-10-08 实时" },
+        { name: "科创50", code: "SH000688", value: "1456.32", change: "-4.82%", market: "A股", updateTime: "2026-10-08 实时" },
         { name: "标普500", code: "SPX", value: "7,801.77", change: "+1.96%", market: "美股", updateTime: "2026-10-08 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "27,538.69", change: "+2.52%", market: "美股", updateTime: "2026-10-08 收盘" },
         { name: "道琼斯", code: "DJI", value: "51,179.87", change: "+0.54%", market: "美股", updateTime: "2026-10-08 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "受AI芯片需求拉动，三星预估利润暴涨8倍至800亿美元",
-            summary: "三星电子预估，第三季度营业利润暴涨近9倍，AI企业对存储芯片的旺盛需求持续造成全行业供给短缺。 这家全球最大存储芯片厂商预计，7–9月营业利润达到107...",
+            title: "万亿对冲基金大举举债，如何成为华尔街的摇钱树",
+            summary: " 今年2月，高盛邀请一众头部对冲基金高管，前往伦敦郊外一处占地500英亩的度假庄园。这家华尔街投行传递出明确信号：你们不再是我们的对手，而是我们最核心的客户群体。",
             source: "环球市场播报",
             date: "2026-10-08",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunvxf4403818.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphnx7638772.shtml"
         },
         {
-            title: "花旗：下调中创新航及宁德时代目标价 均维持“买入”评级",
-            summary: "花旗发布研报称，下调中创新航（03931）及宁德时代（03750）H股目标价，均维持“买入”评级。其中，中创新航目标价由40.9港元下调至33.1港元...",
-            source: "新浪港股",
+            title: "高盛高层将迎巨额特别奖金 总额料超5亿美元",
+            summary: "高盛集团最高层管理人员即将获得一笔特别奖金，其规模将跻身该公司历来最大笔此类奖励之列。 根据文件以及知情人士透露，约20名高管有望获得一批将在本月晚些时候最终确定...",
+            source: "环球市场播报",
             date: "2026-10-08",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-08/doc-iniunvxm7803887.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuphnx7633861.shtml"
         },
         {
-            title: "大和：泉峰控股重申“买入”评级 目标价40港元",
-            summary: " 大和发布研报称，重申泉峰控股（02285）“买入”评级，目标价40港元。该行认为，泉峰控股在未来几个月内将迎来明确的估值重塑。",
-            source: "新浪港股",
+            title: "商务部部长王文涛会见欧委会贸易和经济安全委员谢夫乔维奇",
+            summary: "10月8日，商务部部长王文涛在京会见欧委会贸易和经济安全委员谢夫乔维奇。",
+            source: "商务部网站",
             date: "2026-10-08",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-08/doc-iniunvxf4400460.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-10-08/doc-iniuphnx7628530.shtml"
         },
         {
-            title: "国金证券：创想三维维持“买入”评级 AI+消费级3D打印平台化生态拐点确立",
-            summary: "国金证券发布研报称，业绩拐点已现，26H1创想三维（03388）随着9月起新品密集发布，公司有望自2026H2起迎来收入与利润率的双重修复。",
-            source: "新浪港股",
+            title: "德国将2026年经济增长预期上调逾一倍 制造业回升",
+            summary: "上半年经济表现强于预期后，德国将今年经济增长预期上调逾一倍，强劲出口和政府支出激增抵消了消费疲软的影响。 德国经济部在秋季预测中表示...",
+            source: "环球市场播报",
             date: "2026-10-08",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-08/doc-iniunvxf4399588.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphnx7618713.shtml"
         },
         {
-            title: "富瑞：裕元集团目标价下调至5.6港元 维持“跑输大市”评级",
-            summary: "富瑞发布研报称，将裕元集团（00551）目标价由5.7港元下调至5.6港元，维持“跑输大市”评级。市场预期裕元集团更强的第四季度表现将抵销第三季度的疲弱表现...",
-            source: "新浪港股",
-            date: "2026-10-08",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-08/doc-iniunvxc7625565.shtml"
-        },
-        {
-            title: "雅迪控股午后涨超6% 东南亚市场电动两轮车替代油摩趋势提速",
-            summary: "雅迪控股（01585）午后涨超6%。截至发稿，股价上涨6.12%，现报8.67港元，成交额1.09亿港元。 2026年7月起，河内试点中心城区分时段限制燃油摩托通行；印尼自6月推出电摩购...",
-            source: "新浪港股",
-            date: "2026-10-08",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-08/doc-iniunvxf4397105.shtml"
-        },
-        {
-            title: "外盘原油没怎么涨，为啥国内能化板块却大涨？",
-            summary: "来源：一德菁英汇 节后第一个交易日，不少交易者都发现了一个反常的市场现象：外盘整体没有明显上涨，国际原油价格也保持震荡，但是国内能化板块却走出了独立的上涨行情...",
+            title: "“福建前首富”女婿自由了，背后三安光电正值300亿转型关键期",
+            summary: "来源 | 野马财经 老丈人仍被刑拘。 作者 | 贾紫聪 姚悦 女婿的留置解除了，“福建前首富”林秀成的刑拘还没有结束。 10月7日晚间，三安光电（600703.SH）公告...",
             source: "市场资讯",
             date: "2026-10-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-10-08/doc-iniunvxm3847987.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-10-08/doc-iniuphnz4393640.shtml"
         },
         {
-            title: "法国AI基础设施公司Sesterce宣布百亿欧元芬兰数据中心项目",
-            summary: "法国人工智能（AI）基础设施公司Sesterce周四宣布，计划在芬兰开发一个耗资超过 100 亿欧元（约合 112.1 亿美元）的数据中心项目；这是外国科技企业在这一北欧国家进行的一...",
+            title: "“80后”掌舵舍得酒业，直面营收、利润双降难题！",
+            summary: "来源 | 野马财经 80后掌舵，老酒再突围 作者 | 方璐 编辑丨于婞 有“川酒六朵金花之一”之称的舍得酒业（600702.SH），于9月底公布一份新管理团队名单...",
+            source: "市场资讯",
+            date: "2026-10-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-08/doc-iniuphpf7658337.shtml"
+        },
+        {
+            title: "英国破获疑似伊朗无人机袭击图谋 西方基地安保问题凸显",
+            summary: " 一桩疑似伊朗策划袭击驻英珍贵B-1轰炸机的阴谋，暴露了北约防御体系的致命短板：该联盟空军基地远未做到能够抵御无人机攻击。",
             source: "环球市场播报",
             date: "2026-10-08",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunvxc7621085.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphnx7604801.shtml"
+        },
+        {
+            title: "优衣库有望超越H&M 向Zara发起全球第一的冲击",
+            summary: " 优衣库母公司迅销集团年度营收增长17%，达到创纪录的3.96万亿日元（折合250亿美元），稳固踏上超越H&amp;M成为全球第二大服装零售商之路，并向Zara发起全球第一的冲击。",
+            source: "环球市场播报",
+            date: "2026-10-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphnx7599707.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-08",
-        marketAssessment: "A股方面：上证指数报3796.33点（-1.19%），深证成指报12553.64点（-2.59%），创业板指报3016.26点（-3.80%）。美股方面：标普500报7,801.77（+1.96%），纳斯达克报27,538.69（+2.52%）。",
+        marketAssessment: "A股方面：上证指数报3811.90点（-0.79%），深证成指报12620.90点（-2.07%），创业板指报3036.66点（-3.15%）。美股方面：标普500报7,801.77（+1.96%），纳斯达克报27,538.69（+2.52%）。",
         hotSectors: [
-
+            { name: "蓄电池及其他电池", reason: "板块涨幅+5.19%", strength: "强" },
+            { name: "锂电专用设备", reason: "板块涨幅+4.98%", strength: "强" },
+            { name: "焦炭Ⅲ", reason: "板块涨幅+3.75%", strength: "强" },
+            { name: "焦炭Ⅱ", reason: "板块涨幅+3.75%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "视频媒体", reason: "板块跌幅-8.71%", strength: "弱" },
+            { name: "文字媒体", reason: "板块跌幅-7.95%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注蓄电池及其他电池、锂电专用设备、焦炭Ⅲ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3811.90", change: "-0.79%", market: "A股", updateTime: "2026-10-09 实时" },
-        { name: "深证成指", code: "SZ399001", value: "12620.90", change: "-2.07%", market: "A股", updateTime: "2026-10-09 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3036.66", change: "-3.15%", market: "A股", updateTime: "2026-10-09 实时" },
-        { name: "沪深300", code: "SH000300", value: "4310.28", change: "-1.09%", market: "A股", updateTime: "2026-10-09 实时" },
-        { name: "科创50", code: "SH000688", value: "1456.32", change: "-4.82%", market: "A股", updateTime: "2026-10-09 实时" },
-        { name: "标普500", code: "SPX", value: "7,756.96", change: "+1.18%", market: "美股", updateTime: "2026-10-09 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,166.26", change: "+1.10%", market: "美股", updateTime: "2026-10-09 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,167.75", change: "+0.47%", market: "美股", updateTime: "2026-10-09 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3821.61", change: "+0.25%", market: "A股", updateTime: "2026-10-09 实时" },
+        { name: "深证成指", code: "SZ399001", value: "12660.46", change: "+0.31%", market: "A股", updateTime: "2026-10-09 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3047.94", change: "+0.37%", market: "A股", updateTime: "2026-10-09 实时" },
+        { name: "沪深300", code: "SH000300", value: "4327.39", change: "+0.40%", market: "A股", updateTime: "2026-10-09 实时" },
+        { name: "科创50", code: "SH000688", value: "1463.51", change: "+0.49%", market: "A股", updateTime: "2026-10-09 实时" },
+        { name: "标普500", code: "SPX", value: "7,765.36", change: "+1.29%", market: "美股", updateTime: "2026-10-09 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,193.34", change: "+1.20%", market: "美股", updateTime: "2026-10-09 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,231.64", change: "+0.60%", market: "美股", updateTime: "2026-10-09 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "圣路易斯联储行长暗示未来六到九个月可能上调利率",
-            summary: " 圣路易斯联储行长穆萨莱姆表示，为帮助通胀回到美联储2%的目标水平，未来6至9个月应进一步上调利率，但他没有明确支持在本月政策会议上加息。",
-            source: "环球市场播报",
+            title: "内房股午后部分拉升 世茂集团大涨超44%旭辉控股集团涨超21%",
+            summary: "内房股午后部分拉升，截至发稿，世茂集团（00813）上涨44.11%，报0.098港元；旭辉控股集团（00884）上涨21.21%，报0.040港元；富力地产（02777）上涨15.91%，报0...",
+            source: "新浪港股",
             date: "2026-10-09",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqcsp7352807.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-09/doc-iniurfei6902647.shtml"
         },
         {
-            title: "美国CBO负责人质疑贝森特理论 称单靠经济增长难以解决高债务问题",
-            summary: " 美国国会预算办公室（CBO）负责人Phillip Swagel警告称，把加快经济增长作为遏制联邦债务的解决方案恐怕效果不佳，这个结论与美国财政部长贝森特大相径庭。",
+            title: "视频|李大霄：先救港股或行之有效",
+            summary: "视频|李大霄：先救港股或行之有效",
+            source: "市场资讯",
+            date: "2026-10-09",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/roll/2026-10-09/doc-iniurfen1071172.shtml"
+        },
+        {
+            title: "中资券商股午后拉升 中国银河及光大证券均涨逾3%",
+            summary: "中资券商股午后拉升，截至发稿，中国银河（06881）上涨3.11%，报7.14港元；光大证券（06178）上涨2.83%，报6.92港元；国联民生（01456）上涨2.44%，报3...",
+            source: "新浪港股",
+            date: "2026-10-09",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-09/doc-iniurfen1070349.shtml"
+        },
+        {
+            title: "花旗下调诺和诺德目标价至296丹麦克朗：减肥药片剂销售前景改善，但利润率增长乏力",
+            summary: "花旗将丹麦制药商诺和诺德的目标价从310丹麦克朗下调至296丹麦克朗，维持“中性”评级。主要原因是诺和诺德预计，到2030年公司利润率将总体保持稳定...",
             source: "环球市场播报",
             date: "2026-10-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqcsp7349958.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurfei2945107.shtml"
         },
         {
-            title: "欧洲股市连续第二天下跌 银行股触及四个月低点",
-            summary: "欧洲股市周四连续第二天下跌，银行股抛售延续，反映出投资者对法国财政状况以及油价上涨的担忧加剧。 斯托克欧洲600指数收盘下跌0.8%。",
+            title: "马斯克称SpaceX收购低频段频谱资源“无异于一场地震”",
+            summary: " SpaceX 首席执行官埃隆·马斯克周四表示，该公司收购 800 MHz 频段将成为在美国提供卫星蜂窝连接服务的一个重要里程碑。",
             source: "环球市场播报",
             date: "2026-10-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkx7412657.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurfei6896729.shtml"
         },
         {
-            title: "调查显示OPEC上月原油产量回升 受沙特带动",
-            summary: "调查显示，随着沙特阿拉伯带动中东原油出口恢复，OPEC上月原油产量上升。 OPEC日均产量增加112万桶，达到2071万桶，其中沙特约占增量的一半。",
-            source: "环球市场播报",
+            title: "期糖冲高突遭抛售！极端天气连番轰炸，全球食糖供应链将迎超级风暴？",
+            summary: "来源：金十数据 据报道，原糖在触及19个月新高后，受短期获利了结盘打压出现回落。然而，随着巴西恶劣天气导致供应前景趋紧，其核心基本面依然保持建设性。",
+            source: "市场资讯",
             date: "2026-10-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkt4237871.shtml"
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-10-09/doc-iniurfep7820492.shtml"
         },
         {
-            title: "拉加德：欧洲央行有工具应对缺乏正当理由的市场波动",
-            summary: "欧洲央行行长克里斯蒂娜·拉加德向欧元区各国财长表示，如有需要，欧洲央行拥有稳定金融市场的工具。 了解相关会谈、不愿具名的知情人士称，在卢森堡举行的一场闭门会议上...",
-            source: "环球市场播报",
-            date: "2026-10-09",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkr7465096.shtml"
-        },
-        {
-            title: "微软回应移民用工争议 称去年80%的H-1B签证申请并非招聘新人",
-            summary: "微软在公司博客中表示，去年提交的6000份H-1B签证申请中，80%并非用于招聘新员工。 微软称，其余用于新员工的申请涉及在决定加入微软前已有美国合法居留权的人士...",
-            source: "环球市场播报",
+            title: "“金镯子断货”！水贝黄金，外国游客组团扫货",
+            summary: " 国庆假期，广东深圳水贝黄金珠宝市场迎来一轮销售热潮。作为国内黄金珠宝产业的重要集散地，水贝多家商场及黄金档口人气旺盛。",
+            source: "新华社",
             date: "2026-10-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkt4225414.shtml"
+            url: "https://finance.sina.com.cn/wm/2026-10-09/doc-iniuqywm7005943.shtml"
         },
         {
-            title: "苹果宣布10月13日在纽约举行智能家居新品发布会",
-            summary: "苹果公司周四证实，将于10月13日在纽约举行新品发布会，推出新的智能家居产品。 此次活动以“欢迎回家”（Welcome home）为主题。苹果将发布多款设备...",
-            source: "环球市场播报",
+            title: "关于延长港股交易时间，香港证监会发声！",
+            summary: "来源：证券日报之声 10月9日，香港证监会行政总裁梁凤仪在亚洲证券业与金融市场协会（ASIFMA）会议上发表讲话称，今年以来，香港股票市场的日均成交额突破2700亿港元...",
+            source: "证券日报",
             date: "2026-10-09",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkx3443507.shtml"
-        },
-        {
-            title: "美国30年期国债标售表现稳健 长端维持涨势",
-            summary: "美国财政部发行220亿美元30年期国债，中标收益率为5.618%，而纽约时间下午1点投标截止时的发行前交易水平为5.617%。截标前，美债长端收益率已至日内低点；结果公布后...",
-            source: "环球市场播报",
-            date: "2026-10-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkr7446809.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/esg/2026-10-09/doc-iniuqywq1171385.shtml"
         },
     ],
 
@@ -765,17 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-10-09",
-        marketAssessment: "A股方面：上证指数报3811.90点（-0.79%），深证成指报12620.90点（-2.07%），创业板指报3036.66点（-3.15%）。美股方面：标普500报7,756.96（+1.18%），纳斯达克报27,166.26（+1.10%）。",
+        marketAssessment: "A股方面：上证指数报3821.61点（+0.25%），深证成指报12660.46点（+0.31%），创业板指报3047.94点（+0.37%）。美股方面：标普500报7,765.36（+1.29%），纳斯达克报27,193.34（+1.20%）。",
         hotSectors: [
 
         ],
         weakSectors: [
 
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

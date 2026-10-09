@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3813.79", change: "+0.05%", market: "A股", updateTime: "2026-10-09 实时" },
         { name: "深证成指", code: "SZ399001", value: "12641.86", change: "+0.17%", market: "A股", updateTime: "2026-10-09 实时" },
         { name: "创业板指", code: "SZ399006", value: "3043.33", change: "+0.22%", market: "A股", updateTime: "2026-10-09 实时" },
         { name: "沪深300", code: "SH000300", value: "4317.25", change: "+0.16%", market: "A股", updateTime: "2026-10-09 实时" },
         { name: "科创50", code: "SH000688", value: "1457.27", change: "+0.07%", market: "A股", updateTime: "2026-10-09 实时" },
-        { name: "标普500", code: "SPX", value: "7,765.36", change: "+1.29%", market: "美股", updateTime: "2026-10-09 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,193.34", change: "+1.20%", market: "美股", updateTime: "2026-10-09 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,231.64", change: "+0.60%", market: "美股", updateTime: "2026-10-09 收盘" },
+        { name: "标普500", code: "SPX", value: "7,802.85", change: "+1.04%", market: "美股", updateTime: "2026-10-09 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,322.46", change: "+0.48%", market: "美股", updateTime: "2026-10-09 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,507.94", change: "+0.65%", market: "美股", updateTime: "2026-10-09 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "分析师：英伟达或将在2028年下半年采用英特尔Foveros封装技术",
-            summary: "韩国GF证券分析师Jeff Pu认为，英伟达或将在2028年下半年采用Foveros封装技术。该消息仍需审慎看待：目前尚未公布任何相关合同或具体产品。",
+            title: "NBA总裁：联盟希望获取预测市场数据以检测操纵行为",
+            summary: "NBA总裁亚当·萧华周五表示，NBA希望获取预测市场数据，以便进行监管并发现内幕交易。 “不管它叫预测市场，还是叫体育博彩，对我们联盟来说都是同样的问题...",
+            source: "环球市场播报",
+            date: "2026-10-09",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaix6580388.shtml"
+        },
+        {
+            title: "特朗普任命委员会调查美联储丽莎·库克的陈述",
+            summary: " 白宫周五宣布，美国总统特朗普正式设立了一个“调查委员会”，以调查有关美联储理事丽莎·库克就“一份或多份抵押贷款文书”作出虚假陈述的指控。",
             source: "环球市场播报",
             date: "2026-10-09",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurrui7830395.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaka0920941.shtml"
         },
         {
-            title: "账面价值约382万元，挂牌价3123万元！上市药企卖老厂，七年亏损超8.7亿元",
-            summary: "红星资本局10月9日消息 10月8日晚，莱美药业（300006.SZ）发布公告称，拟公开挂牌出售部分资产，标的为公司持有的重庆市南岸区月季路8号土地使用权及地上房屋建筑物...",
-            source: "",
+            title: "科技股韧性令投资者费解，期权市场或许暗藏线索",
+            summary: "越是刻意等待，意外反而越不会发生。这或许可以解释：在利率飙升、AI 板块饱受质疑的背景下，科技股为何依旧保持强势。但在期权交易市场...",
+            source: "环球市场播报",
             date: "2026-10-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-09/doc-iniurruc2816996.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaka0919922.shtml"
         },
         {
-            title: "OpenAI与Anthropic挖角特朗普政府官员 AI行业争夺华盛顿信任",
-            summary: " 随着前沿技术日益被视作国家安全议题，Anthropic与OpenAI正在招揽特朗普政府官员出任高管，AI行业争相巩固与华盛顿的关系。",
+            title: "Blockchain.com寻求美国监管批准，拟开展预测市场与加密衍生品交易业务",
+            summary: "核心要点Blockchain.com向 证实，已向美国商品期货交易委员会（CFTC）提交牌照申请，计划在美国推出事件合约以及加密货币衍生品业务。",
+            source: "环球市场播报",
+            date: "2026-10-09",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaix6576980.shtml"
+        },
+        {
+            title: "法拉利董事长看好AI，但对企业如何变现尚存疑虑",
+            summary: "核心要点法拉利董事长约翰・埃尔坎并不担忧 AI 泡沫，他表示，即便市场出现回调，也不会阻碍这项技术的长期发展。他承认风险来自两方面：AI 基础设施投资规模飙升...",
             source: "环球市场播报",
             date: "2026-10-09",
             tag: "行业",
-            url: "https://finance.sina.com.cn/world/2026-10-09/doc-iniurruc6767920.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniusaix6576406.shtml"
         },
         {
-            title: "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-            summary: "种植链今日（10月9日）又掀涨停潮。截至收盘，敦煌种业、金健米业、万向德农、海南橡胶涨停，神农种业涨超10%，农发种业、亚盛集团等亦涨幅居前。",
-            source: "新浪基金",
-            date: "2026-10-09",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
-        },
-        {
-            title: "央行行长潘功胜会见高盛集团总裁兼首席运营官温泽恩",
-            summary: "中国人民银行行长潘功胜会见高盛集团总裁兼首席运营官温泽恩 2026年10月9日，中国人民银行行长潘功胜会见了高盛集团总裁兼首席运营官温泽恩，双方围绕全球经济金融形势...",
-            source: "央行",
-            date: "2026-10-09",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/china/2026-10-09/doc-iniurruc2805588.shtml"
-        },
-        {
-            title: "伦敦房产经纪人像交易员一样紧盯利率市场",
-            summary: " 伦敦东南边缘一家本地房产中介门店经理史蒂夫·布朗，在和客户聊房价、通勤时长这些常规话题之外，新增了一个出人意料的讨论指标：互换利率。",
-            source: "环球市场播报",
-            date: "2026-10-09",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-10-09/doc-iniurruc2801244.shtml"
-        },
-        {
-            title: "日本国债全期限收益率下行 日元在G10货币中表现疲软",
-            summary: "日本国债整条收益率曲线下行，日元在十大发达经济体货币中多数币种面前表现走弱。 欧元兑日元最高上涨0.5%，报177.87。 美元兑日元上涨0.3%，报158.38...",
+            title: "预测市场：2027年前，规划中或已投运的数据中心数量大概率将超过5100座",
+            summary: "核心要点预测交易平台 Kalshi 的交易者认为，2027 年之前，处于规划阶段或已经投入运行的 AI 数据中心数量超过 5100 座的概率为 75%；两周前该概率仅为 60%。",
             source: "环球市场播报",
             date: "2026-10-09",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-09/doc-iniurruc2801040.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurvzz6706684.shtml"
         },
         {
-            title: "油价回落叠加AI乐观情绪 新兴市场股市终结两连跌",
-            summary: "受油价回落、市场对AI投资热潮可持续性的担忧有所缓解，新兴市场股市周五迎来反弹。 明晟新兴市场股指最大涨幅达0.5%，结束连续两个交易日的下跌。",
+            title: "美财长贝森特聘请前美联储理事人选朱迪·谢尔顿担任顾问",
+            summary: "朱迪·谢尔顿——其颇具争议的经济主张曾导致参议院阻止其被提名为美联储理事——已被任命为财政部长斯科特·贝森特的顾问。 加入财政部之前...",
             source: "环球市场播报",
             date: "2026-10-09",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/world/2026-10-09/doc-iniurruc6755554.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurwae1045166.shtml"
+        },
+        {
+            title: "美国10月消费者信心指数跌至五个月低点 通胀预期略有上升",
+            summary: "美国消费者信心10月初下滑，通胀继续给家庭带来压力，人们对当前经济状况的看法降至历史低点， 密歇根大学周五公布的调查显示，消费者信心指数初值降至46.3...",
+            source: "环球市场播报",
+            date: "2026-10-09",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-09/doc-iniurwae1043211.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-09",
-        marketAssessment: "A股方面：上证指数报3813.79点（+0.05%），深证成指报12641.86点（+0.17%），创业板指报3043.33点（+0.22%）。美股方面：标普500报7,765.36（+1.29%），纳斯达克报27,193.34（+1.20%）。",
+        marketAssessment: "A股方面：上证指数报3813.79点（+0.05%），深证成指报12641.86点（+0.17%），创业板指报3043.33点（+0.22%）。美股方面：标普500报7,802.85（+1.04%），纳斯达克报27,322.46（+0.48%）。",
         hotSectors: [
 
         ],

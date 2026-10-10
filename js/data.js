@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3813.79", change: "+0.05%", market: "A股", updateTime: "2026-10-10 实时" },
         { name: "深证成指", code: "SZ399001", value: "12641.86", change: "+0.17%", market: "A股", updateTime: "2026-10-10 实时" },
         { name: "创业板指", code: "SZ399006", value: "3043.33", change: "+0.22%", market: "A股", updateTime: "2026-10-10 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "“只是升级，不是召回！” 尊界V800刹车部件升级方案或月底敲定，V680同步调整，有准车主退定被拒",
-            summary: "文 | 《BUG》栏目 徐苑蕾 尊界V800被曝在测试中刹车踏板支架断裂一事持续发酵。此前，尊界官方曾发布声明称，将进一步优化该部件设计，并为已交付用户提供免费升级选择。",
-            source: "BUG",
+            title: "国家电网与中国中车集团举行会谈",
+            summary: "人民财讯10月10日电，10月10日，国家电网公司董事长、党组书记张智刚在公司总部与中国中车集团有限公司董事长、党委书记孙永才举行会谈。",
+            source: "证券时报网",
             date: "2026-10-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/chanjing/gsnews/2026-10-10/doc-iniututc6007764.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniuufia0603320.shtml"
         },
         {
-            title: "双汇营收五连降、多高管年薪反而连涨！10年“掏空式”分红517亿元 “肥”了万隆家族、二代接棒陷毒猪肉风波",
-            summary: "出品：新浪财经上市公司研究院 作者：cici 一家营收连续五年下滑的肉类巨头，高管薪酬却在逆势上涨；一家利润几乎全部分光的上市公司...",
-            source: "新浪证券",
+            title: "立讯精密遭美国337调查，涉及数据中心电源模块 公司：相关产品处于客户验证阶段",
+            summary: "每经记者|王晶每经编辑|董兴生 10月10日，立讯精密（SZ002475）发布关于公司及控股子公司涉及美国国际贸易委员会337调查的公告称...",
+            source: "每日经济新闻",
             date: "2026-10-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/observe/2026-10-10/doc-iniututh0643564.shtml"
+            url: "https://finance.sina.com.cn/roll/2026-10-10/doc-iniuufhx5906297.shtml"
         },
         {
-            title: "一半海水，一半火焰！中远海控的多空拉锯战",
-            summary: "来源：市值风云 航运股的周期，很难猜透。 作者 |beyond 编辑 |小白 古希腊人认为，海洋是有脾气的神。它时而风平浪静，馈赠给人们航线；时而怒涛排空...",
-            source: "市场资讯",
+            title: "立讯精密，紧急公告",
+            summary: "10月10日晚，立讯精密公告称，近日，公司获悉，美国国际贸易委员会（以下简称“ITC”）于当地时间10月9日宣布，就美国Vicor Corporation（以下简称“Vicor”）提出的相关专利侵...",
+            source: "中国证券报",
             date: "2026-10-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-10/doc-iniututh0631746.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-10-10/doc-iniuufhx5907996.shtml"
         },
         {
-            title: "股息率7.5%？健康元：旧业务出清未竟，新增长尚需时间",
-            summary: "来源：市值风云 远水难解近渴，业务结构切换节奏慢于市场预期。 作者 |木盒 编辑 |小白 8月25日晚，健康元（600380.SH）披露2026年半年报：营业收入同比下降16.66%...",
-            source: "市场资讯",
+            title: "一问到底丨最强厄尔尼诺来了，如何影响全球气候？",
+            summary: "近日，“超强厄尔尼诺已形成”的话题冲上了热搜。记者从中国气象局国家气候中心了解到，一次“东部型超强厄尔尼诺事件”已于今年9月正式形成。",
+            source: "央视",
             date: "2026-10-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-10/doc-iniututc5998757.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutyzf7461267.shtml"
         },
         {
-            title: "猪肉检出抗生素超标 38 倍！双汇领 1.29 亿罚单：从 \"瘦肉精\" 到 \"林可霉素\"",
-            summary: "来源：滨海湾深圳公园 10月9日，河南双汇投资发展股份有限公司发布“关于诚恳接受行政处罚决定的公告”，具体内容如下： 近日，因黑龙江望奎双汇“猪后鞧肉”林可霉素残留超标...",
-            source: "市场资讯",
+            title: "焦点访谈丨运输企业为超载能有多拼？花招多到想不到！",
+            summary: "油罐车是封闭的罐体，竟然能超重58%！背后到底有什么猫腻？ 为追求更多利润，部分危货运输企业绞尽脑汁耍花样，想方设法超载、规避监管。",
+            source: "央视",
             date: "2026-10-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-10/doc-iniututh0596094.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutyyz5994997.shtml"
         },
         {
-            title: "出口占比升至七成，奇瑞重整全球经营",
-            summary: "界面新闻记者 | 王臻界面新闻编辑 | 周姝祺 近日，奇瑞汽车股份有限公司发布公告，重新任命国内外业务和品牌管理负责人。 公告称，奇瑞主品牌纳入全球市场体系...",
+            title: "亚马逊云科技向姚基金捐赠100万美元现金及云+AI资源，姚明：有幸携手同行",
+            summary: "新浪科技讯 10月10日晚间消息，亚马逊云科技宣布与北京姚基金公益基金会（简称“姚基金”）共同推出“云上篮图” 体育×科技育人计划，将依托姚基金覆盖全国的学校网络...",
+            source: "新浪科技",
+            date: "2026-10-10",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/tech/it/2026-10-10/doc-iniutyyz2027750.shtml"
+        },
+        {
+            title: "被字节开除的田柯宇创业冲上热搜，项目投后估值2亿美元",
+            summary: "界面新闻记者 | 宋佳楠 近日有媒体报道称，曾被字节跳动开除的田柯宇创办了自己的人工智能实验室，完成近3000万美元融资，投资方包含五源资本与IDG资本...",
             source: "界面",
             date: "2026-10-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniututc5972579.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutyyz2028128.shtml"
         },
         {
-            title: "债市动荡让欧洲负债累累的国家开始考虑谨慎行事",
-            summary: "欧洲政界开始显露出向无情的债券市场意志屈服的最初迹象。 过去几周，从伦敦到巴黎再到罗马，各国的预算政策和讨论都朝着谨慎的方向迈出了一小步...",
-            source: "环球市场播报",
+            title: "最新！全国各地最低工资标准公布",
+            summary: "近日，人社部网站发布全国各省、自治区、直辖市最低工资标准情况（截至2026年10月1日）。在月最低工资标准方面，上海以2740元的标准居全国首位；在小时最低工资标准方面...",
+            source: "21世纪经济报道",
             date: "2026-10-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniututc5967376.shtml"
-        },
-        {
-            title: "李嘉诚家族加仓加拿大石油资产，268亿并购扩容油砂资源",
-            summary: "近日，加拿大能源企业 Cenovus Energy 宣布达成最终协议，将收购本土石油公司 Athabasca Oil Corporation 全部已发行流通普通股，本次交易对价约57亿加元（约合268亿元人民...",
-            source: "界面",
-            date: "2026-10-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniututc5965149.shtml"
+            url: "https://finance.sina.com.cn/china/2026-10-10/doc-iniutyyz2020882.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-10",
         marketAssessment: "A股方面：上证指数报3813.79点（+0.05%），深证成指报12641.86点（+0.17%），创业板指报3043.33点（+0.22%）。美股方面：标普500报7,811.54（+1.15%），纳斯达克报27,366.17（+0.64%）。",
         hotSectors: [

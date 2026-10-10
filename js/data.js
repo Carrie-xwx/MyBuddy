@@ -657,19 +657,51 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3813.79", change: "+0.05%", market: "A股", updateTime: "2026-10-10 实时" },
-        { name: "深证成指", code: "SZ399001", value: "12641.86", change: "+0.17%", market: "A股", updateTime: "2026-10-10 实时" },
-        { name: "创业板指", code: "SZ399006", value: "3043.33", change: "+0.22%", market: "A股", updateTime: "2026-10-10 实时" },
-        { name: "沪深300", code: "SH000300", value: "4317.25", change: "+0.16%", market: "A股", updateTime: "2026-10-10 实时" },
-        { name: "科创50", code: "SH000688", value: "1457.27", change: "+0.07%", market: "A股", updateTime: "2026-10-10 实时" },
-        { name: "标普500", code: "SPX", value: "7,811.54", change: "+1.15%", market: "美股", updateTime: "2026-10-10 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,366.17", change: "+0.64%", market: "美股", updateTime: "2026-10-10 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,654.95", change: "+0.93%", market: "美股", updateTime: "2026-10-10 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3813.79", change: "+0.05%", market: "A股", updateTime: "2026-10-11 实时" },
+        { name: "深证成指", code: "SZ399001", value: "12641.86", change: "+0.17%", market: "A股", updateTime: "2026-10-11 实时" },
+        { name: "创业板指", code: "SZ399006", value: "3043.33", change: "+0.22%", market: "A股", updateTime: "2026-10-11 实时" },
+        { name: "沪深300", code: "SH000300", value: "4317.25", change: "+0.16%", market: "A股", updateTime: "2026-10-11 实时" },
+        { name: "科创50", code: "SH000688", value: "1457.27", change: "+0.07%", market: "A股", updateTime: "2026-10-11 实时" },
+        { name: "标普500", code: "SPX", value: "7,811.54", change: "+1.15%", market: "美股", updateTime: "2026-10-11 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,366.17", change: "+0.64%", market: "美股", updateTime: "2026-10-11 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,654.95", change: "+0.93%", market: "美股", updateTime: "2026-10-11 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+        {
+            title: "沙特阿拉伯在利雅得机场遭袭击后暂停该机场运营",
+            summary: " 沙特阿拉伯表示，在遭到“敌方”袭击后，已暂停利雅得机场的运营。随着与也门胡塞武装的冲突升级，这是该国本周第三次出现航空交通受到干扰。",
+            source: "环球市场播报",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/flashnews/2026-10-11/doc-iniuumqz7398279.shtml"
+        },
+        {
+            title: "特朗普联手普京增加柴油供应 乌克兰与欧洲盟友强烈反对",
+            summary: " 为了在美国中期选举前遏制飙升的燃油价格，美国总统特朗普正与俄罗斯总统普京合作，让俄罗斯柴油供应进入全球市场，而此举颠覆了多年来的制裁政策。",
+            source: "环球市场播报",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/flashnews/2026-10-11/doc-iniuumqy0569709.shtml"
+        },
+        {
+            title: "沙特利雅得机场频繁遭袭 我使馆发布领事提醒",
+            summary: "当地时间10日，中国驻沙特大使馆发布领事提醒，内容如下： 利雅得哈立德国王机场发布公告称：提醒旅客有必要与有关航空公司保持直接沟通，并在前往机场前确认航班状态。",
+            source: "央视",
+            date: "2026-10-10",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniuufhx5930809.shtml"
+        },
+        {
+            title: "301636，宣布重要收购！切入散热赛道",
+            summary: "泽润新能拟收购合创智造不低于51%股权。 泽润新能（301636）10月9日晚公告，公司于当日召开第二届董事会第五次会议，会议审议通过《关于筹划股权收购事项暨签署&lt;合作框...",
+            source: "",
+            date: "2026-10-10",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-10-10/doc-iniuufhx1962788.shtml"
+        },
         {
             title: "国家电网与中国中车集团举行会谈",
             summary: "人民财讯10月10日电，10月10日，国家电网公司董事长、党组书记张智刚在公司总部与中国中车集团有限公司董事长、党委书记孙永才举行会谈。",
@@ -702,38 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutyzf7461267.shtml"
         },
-        {
-            title: "焦点访谈丨运输企业为超载能有多拼？花招多到想不到！",
-            summary: "油罐车是封闭的罐体，竟然能超重58%！背后到底有什么猫腻？ 为追求更多利润，部分危货运输企业绞尽脑汁耍花样，想方设法超载、规避监管。",
-            source: "央视",
-            date: "2026-10-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutyyz5994997.shtml"
-        },
-        {
-            title: "亚马逊云科技向姚基金捐赠100万美元现金及云+AI资源，姚明：有幸携手同行",
-            summary: "新浪科技讯 10月10日晚间消息，亚马逊云科技宣布与北京姚基金公益基金会（简称“姚基金”）共同推出“云上篮图” 体育×科技育人计划，将依托姚基金覆盖全国的学校网络...",
-            source: "新浪科技",
-            date: "2026-10-10",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/tech/it/2026-10-10/doc-iniutyyz2027750.shtml"
-        },
-        {
-            title: "被字节开除的田柯宇创业冲上热搜，项目投后估值2亿美元",
-            summary: "界面新闻记者 | 宋佳楠 近日有媒体报道称，曾被字节跳动开除的田柯宇创办了自己的人工智能实验室，完成近3000万美元融资，投资方包含五源资本与IDG资本...",
-            source: "界面",
-            date: "2026-10-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutyyz2028128.shtml"
-        },
-        {
-            title: "最新！全国各地最低工资标准公布",
-            summary: "近日，人社部网站发布全国各省、自治区、直辖市最低工资标准情况（截至2026年10月1日）。在月最低工资标准方面，上海以2740元的标准居全国首位；在小时最低工资标准方面...",
-            source: "21世纪经济报道",
-            date: "2026-10-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-10/doc-iniutyyz2020882.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,8 +765,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-10-10",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-10-11",
         marketAssessment: "A股方面：上证指数报3813.79点（+0.05%），深证成指报12641.86点（+0.17%），创业板指报3043.33点（+0.22%）。美股方面：标普500报7,811.54（+1.15%），纳斯达克报27,366.17（+0.64%）。",
         hotSectors: [
 

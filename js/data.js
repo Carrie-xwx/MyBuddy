@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3813.79", change: "+0.05%", market: "A股", updateTime: "2026-10-10 实时" },
         { name: "深证成指", code: "SZ399001", value: "12641.86", change: "+0.17%", market: "A股", updateTime: "2026-10-10 实时" },
         { name: "创业板指", code: "SZ399006", value: "3043.33", change: "+0.22%", market: "A股", updateTime: "2026-10-10 实时" },
         { name: "沪深300", code: "SH000300", value: "4317.25", change: "+0.16%", market: "A股", updateTime: "2026-10-10 实时" },
         { name: "科创50", code: "SH000688", value: "1457.27", change: "+0.07%", market: "A股", updateTime: "2026-10-10 实时" },
-        { name: "标普500", code: "SPX", value: "7,812.97", change: "+1.17%", market: "美股", updateTime: "2026-10-10 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,363.41", change: "+0.63%", market: "美股", updateTime: "2026-10-10 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,683.54", change: "+0.99%", market: "美股", updateTime: "2026-10-10 收盘" },
+        { name: "标普500", code: "SPX", value: "7,811.54", change: "+1.15%", market: "美股", updateTime: "2026-10-10 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,366.17", change: "+0.64%", market: "美股", updateTime: "2026-10-10 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,654.95", change: "+0.93%", market: "美股", updateTime: "2026-10-10 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "美银调查：投资者大幅削减欧元外汇敞口 幅度创纪录",
-            summary: "根据美国银行10月份对基金经理进行的一项调查，欧元头寸月环比降幅创有记录以来最大。 Ralf Preusser等策略师在周五发布的一份报告中写道：“欧元汇率人气和头寸明显大幅下...",
-            source: "环球市场播报",
+            title: "A股IPO月报|宇树科技发行市盈率/行业市盈率比值最高 前三季度中信建投撤单数量最多",
+            summary: "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 2026年9月，A股IPO企业上会数量为9家，过会9家，名义过会率100%。2026年前三季度，A股IPO上会企业数量为140家...",
+            source: "新浪证券",
             date: "2026-10-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniushrv2541532.shtml"
+            url: "https://finance.sina.com.cn/stock/observe/2026-10-10/doc-iniutkcp7410099.shtml"
         },
         {
-            title: "欧洲股市录得小幅周上涨 债市波动减弱以及美国财报前景提振人气",
-            summary: " 欧洲股市周五创9月中旬以来最大涨幅，得益于欧洲债券市场的波动减弱，同时市场对美国企业强劲盈利的预期提振了投资者情绪。",
-            source: "环球市场播报",
-            date: "2026-10-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniushry0861820.shtml"
-        },
-        {
-            title: "巴拿马发生7.7级地震",
-            summary: " 根据欧洲-地中海地震中心报告，当地时间9日12时56分，巴拿马中部马卡拉卡斯地区发生7.7级地震，震源深度12公里。美国海啸预警系统发布海啸警告。（总台记者 马天静）",
-            source: "央视",
-            date: "2026-10-10",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniushrv2538879.shtml"
-        },
-        {
-            title: "特斯拉在欧洲弃用“Full Self-Driving”品牌名 改为辅助驾驶",
-            summary: " 特斯拉已将其“Full Self-Driving （Supervised）”（即FSD）系统在欧洲的品牌名改为“Assisted Driving”（辅助驾驶），此前德国监管机构称该品牌名“有些误导性”。",
+            title: "苹果：第二期中国清洁能源基金的承诺投资已增至2.12亿美元",
+            summary: "苹果公司今日宣布，其第二期中国清洁能源基金的承诺投资总额已增至2.12亿美元（14亿元人民币）。自苹果去年完成1亿美元的初始锚定投资以来...",
             source: "环球市场播报",
             date: "2026-10-10",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniushrv6489871.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniutkcp7386543.shtml"
         },
         {
-            title: "受内存、存储芯片短缺推高价格，游戏硬件销量跌至13年新低",
-            summary: " 全球内存与存储芯片短缺，正给游戏行业带来沉重打击。微软、任天堂与索尼均上调了自家游戏主机售价，以此抵消元器件成本上涨，以及此前关税带来的冲击。",
-            source: "环球市场播报",
-            date: "2026-10-10",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniusaix2656160.shtml"
-        },
-        {
-            title: "SpaceX重磅出手挑战手机通信行业，美国电话电报、T‑Mobile、威瑞森股价遭遇重挫",
-            summary: "埃隆・马斯克的 SpaceX 向无线通信行业释放了一个强烈信号：我们要在用户市场分一杯羹。 周四晚间，SpaceX 宣布将收购一套覆盖全国的低频段频谱资产。",
-            source: "环球市场播报",
+            title: "世界粮食计划署司长：厄尔尼诺叠加战争影响，一场“慢燃式”粮食危机正在形成",
+            summary: "今年2月底以来，从红海、黑海到霍尔木兹海峡，全球关键航运通道持续受到地缘冲突的冲击，从能源、化肥到粮食价格，冲击波沿着全球供应链逐级传导；与此同时...",
+            source: "澎湃新闻",
             date: "2026-10-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniusaix2655352.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutkcp7371552.shtml"
         },
         {
-            title: "知名经济学家克鲁格曼警告法国或引发欧洲债务危机",
-            summary: " 诺贝尔经济学奖得主保罗·克鲁格曼警告称，法国不断恶化的公共财政正走在一条“不可持续的道路”上，有可能引发一场席卷欧元区的债务危机。",
-            source: "环球市场播报",
+            title: "盘中，突然大跌！“多头猝不及防”！一则消息引发？",
+            summary: "来源：期货日报 大家好，来关注下玉米期货。 当地时间10月9日，美国农业部将本年度玉米产量预估上调至约160亿蒲式耳，较上月增加1%。",
+            source: "市场资讯",
             date: "2026-10-10",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniusaix2655001.shtml"
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-10-10/doc-iniutkci2116334.shtml"
         },
         {
-            title: "AI引发的“SaaS末日” 本应重创软件股，现实却截然相反",
-            summary: "所谓 “SaaS 末日” 会把软件股一路杀到归零的说法，终究只是一场空想。 2026 年市场上被反复提及的流行说法 —— 认为 Anthropic、OpenAI 这类 AI...",
-            source: "环球市场播报",
+            title: "机构：Q2油价大幅上涨，石油石化行业盈利显著提升",
+            summary: "文章来源：财闻 报告指出，Q2油价大幅上涨，石油石化行业盈利显著提升。 10月10日，华源证券发布了一篇石油石化行业的研究报告，报告指出，Q2油价大幅上涨...",
+            source: "滚动播报",
             date: "2026-10-10",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniusaka0971678.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutcvm2203111.shtml"
+        },
+        {
+            title: "保诚：2026年第一次中期股息为每股普通股8.88美分",
+            summary: "保诚（02378）发布公告，于2026年8月27日，Prudential plc（保诚）宣布2026年第一次中期股息为每股普通股8.88美分以及根据“永续以股代息计划条款及条件”就股息提供以股代息...",
+            source: "新浪港股",
+            date: "2026-10-10",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-10/doc-iniutcvm6150489.shtml"
+        },
+        {
+            title: "渣打集团于10月8日斥资814.52万英镑回购38.64万股",
+            summary: "渣打集团（02888）发布公告，于2026年10月8日斥资814.52万英镑回购38.64万股。",
+            source: "新浪港股",
+            date: "2026-10-10",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-10/doc-iniutcvm2191499.shtml"
+        },
+        {
+            title: "阅文集团于10月9日斥资121.55万港元回购6.1万股",
+            summary: "阅文集团（00772）发布公告，于2026年10月9日，该公司斥资121.55万港元回购6.1万股。",
+            source: "新浪港股",
+            date: "2026-10-10",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-10/doc-iniutcvm6146136.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-10-10",
-        marketAssessment: "A股方面：上证指数报3813.79点（+0.05%），深证成指报12641.86点（+0.17%），创业板指报3043.33点（+0.22%）。美股方面：标普500报7,812.97（+1.17%），纳斯达克报27,363.41（+0.63%）。",
+        marketAssessment: "A股方面：上证指数报3813.79点（+0.05%），深证成指报12641.86点（+0.17%），创业板指报3043.33点（+0.22%）。美股方面：标普500报7,811.54（+1.15%），纳斯达克报27,366.17（+0.64%）。",
         hotSectors: [
 
         ],

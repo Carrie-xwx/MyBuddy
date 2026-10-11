@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3813.79", change: "+0.05%", market: "A股", updateTime: "2026-10-11 实时" },
         { name: "深证成指", code: "SZ399001", value: "12641.86", change: "+0.17%", market: "A股", updateTime: "2026-10-11 实时" },
         { name: "创业板指", code: "SZ399006", value: "3043.33", change: "+0.22%", market: "A股", updateTime: "2026-10-11 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "2家A股公司，突然火了！迎上百家机构调研",
-            summary: "国庆假期前后（9月28日—30日、10月8日—9日），A股共有262家上市公司接待机构投资者调研。 从赚钱效应来看，获得正收益的机构调研股近五成，其中九阳股份实现5连板...",
-            source: "e公司",
+            title: "公告出现多处修订痕迹！刚刚，华塑控股致歉！",
+            summary: "来源：资本秘闻 10月11日，华塑控股发布澄清及致歉公告显示，近日公司披露的《关于收购股权暨签署股权转让协议的进展公告》带有修订痕迹...",
+            source: "市场资讯",
             date: "2026-10-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/zqgd/2026-10-11/doc-iniuvpap7376208.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuwcyf7266469.shtml"
         },
         {
-            title: "马斯克称给信用卡拍照就能用Grok购物 Tibo：干脆把卡发网上得了",
-            summary: " 埃隆・马斯克发文称，“买东西时，你只需拍一张信用卡照片发到聊天框，Grok机器人就会全网搜索你想要商品的最优价格并完成下单。”",
+            title: "披露重组预案！北部湾港，复牌！",
+            summary: "来源：资本秘闻 10月11日，北部湾港披露重组预案，公司股票将于10月12日起复牌。 预案显示，北部湾港拟通过发行股份及支付现金方式...",
+            source: "市场资讯",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuwcyf7266058.shtml"
+        },
+        {
+            title: "明天复牌！000582，重组并购方案出炉",
+            summary: "公司股票将于10月12日开市起复牌。 短暂停牌后，北部湾港（000582）披露重组预案，公司将其视为把握平陆运河通航发展机遇的关键一步。本次交易不构成重大资产重组。",
+            source: "",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-10-11/doc-iniuvxsi7343601.shtml"
+        },
+        {
+            title: "八年熬出盈利！芯联集成从巨亏20亿到预盈6.81亿",
+            summary: "来源：尺度商业 文 | 董武英 编辑 | 刘振涛 三年前的2023年，这家公司创下历史性亏损，亏损规模高达19.58亿元。三年后，这家公司实现盈利...",
+            source: "市场资讯",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuvxsh0571271.shtml"
+        },
+        {
+            title: "万亿巨头601138，回应337调查",
+            summary: "来源：中国基金报 【导读】工业富联回应337调查，涉及一项“垂直供电系统”专利权 中国基金报记者 闻言 10月11日晚间，工业富联发布公告称...",
+            source: "市场资讯",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuvxsc5696055.shtml"
+        },
+        {
+            title: "哈药股份：公司董事兼总裁芦传有被立案、实施留置",
+            summary: "哈药股份11日公告称，公司于近日收到相关监察委员会关于公司董事、总裁芦传有的《立案通知书》和《留置通知书》。目前，公司已对相关工作进行了妥善安排，董事长...",
+            source: "21世纪经济报道",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuvxsi7323949.shtml"
+        },
+        {
+            title: "Jefferies基金称Radiant World在价值9亿美元融资交易中存在欺诈",
+            summary: " Jefferies旗下一支基金在法庭诉讼中表示，它掌握了铁矿石贸易商Radiant World和Sapphire Minmetals在面值近9亿美元的应收账款融资交易中涉嫌欺诈行为的证据。",
             source: "环球市场播报",
             date: "2026-10-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuvpap7363919.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuvxsh0506317.shtml"
         },
         {
-            title: "纽约肯尼迪国际机场：全国性系统故障影响旅客安检",
-            summary: "纽约肯尼迪国际机场在X上发帖表示，由于“美国海关与边境保护局系统故障”，到达旅客的安检工作受到影响。 旅客应做好等待更长处理时间的准备。",
-            source: "环球市场播报",
+            title: "重整后业绩持续承压，文投控股上半年业绩转亏，逆势收购影院资产存隐忧",
+            summary: "来源：证券之星 2024年底完成重整的文投控股（600715.SH）仍未能走出业绩泥潭。今年上半年，公司营收同比大降近四成，归母净利润同比由盈转亏...",
+            source: "市场资讯",
             date: "2026-10-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuvpan0564295.shtml"
-        },
-        {
-            title: "接连遭遇黑客攻击后 韩国多家银行增加网络安全投入",
-            summary: "业内消息人士周日称，韩国多家银行在本土接连遭遇黑客攻击后，正考虑增加网络安全系统与人员方面的投入。 新韩银行、韩亚银行、KB国民银行等主流银行本月先后曝出黑客事件...",
-            source: "环球市场播报",
-            date: "2026-10-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuvpan0542214.shtml"
-        },
-        {
-            title: "美国建议公民避免使用沙特阿拉伯的哈立德国王机场",
-            summary: "美国驻利雅得大使馆在X上发帖表示，在10月10日袭击事件发生后，“强烈建议”公民避开哈立德国王国际机场及其周边地区。 在沙特阿拉伯工作的美国政府雇员需要获得特别许可才能...",
-            source: "环球市场播报",
-            date: "2026-10-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuvhum1907093.shtml"
-        },
-        {
-            title: "特朗普政绩无法扭转选民情绪 民调显示共和党中期选举翻盘无望",
-            summary: "民调发现，随着中期选举进入最后几周，多数美国人认为共和党找不到清晰途径重获竞选优势；就连共和党选民也怀疑，总统唐纳德·特朗普能否拿出临门一脚的举措改写选情。",
-            source: "环球市场播报",
-            date: "2026-10-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuvhum1889658.shtml"
-        },
-        {
-            title: "外资持有三星股份比例降至17年来新低 外流趋势或难以扭转",
-            summary: " 韩国交易所10月11日的数据显示，截至10月7日，外资持有三星电子股份的比例为46.37%，为2009年7月16日（46.45%）之后约17年3个月以来的最低值。",
-            source: "环球市场播报",
-            date: "2026-10-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuvhur7368251.shtml"
-        },
-        {
-            title: "韩企发展分化：大企业出口大增 中小企业生产下滑",
-            summary: "三星电子持续公布创历史新高的业绩，半导体行业热度居高不下，但这份红利似乎并未传导至韩国中小企业。 韩国数据统计局国家统计门户（KOSIS）11日发布的工业活动趋势数据显...",
-            source: "环球市场播报",
-            date: "2026-10-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuvhuq0581006.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuvxsm8834928.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-11",
         marketAssessment: "A股方面：上证指数报3813.79点（+0.05%），深证成指报12641.86点（+0.17%），创业板指报3043.33点（+0.22%）。美股方面：标普500报7,811.54（+1.15%），纳斯达克报27,366.17（+0.64%）。",
         hotSectors: [
-
+            { name: "视频媒体", reason: "板块涨幅+19.98%", strength: "强" },
+            { name: "文字媒体", reason: "板块涨幅+15.00%", strength: "强" },
+            { name: "种子", reason: "板块涨幅+7.78%", strength: "强" },
+            { name: "影视动漫制作", reason: "板块涨幅+7.64%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "印制电路板", reason: "板块跌幅-4.06%", strength: "弱" },
+            { name: "元件", reason: "板块跌幅-3.67%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注视频媒体、文字媒体、种子等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

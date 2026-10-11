@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3813.79", change: "+0.05%", market: "A股", updateTime: "2026-10-11 实时" },
         { name: "深证成指", code: "SZ399001", value: "12641.86", change: "+0.17%", market: "A股", updateTime: "2026-10-11 实时" },
         { name: "创业板指", code: "SZ399006", value: "3043.33", change: "+0.22%", market: "A股", updateTime: "2026-10-11 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "公告出现多处修订痕迹！刚刚，华塑控股致歉！",
-            summary: "来源：资本秘闻 10月11日，华塑控股发布澄清及致歉公告显示，近日公司披露的《关于收购股权暨签署股权转让协议的进展公告》带有修订痕迹...",
-            source: "市场资讯",
-            date: "2026-10-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuwcyf7266469.shtml"
-        },
-        {
-            title: "披露重组预案！北部湾港，复牌！",
-            summary: "来源：资本秘闻 10月11日，北部湾港披露重组预案，公司股票将于10月12日起复牌。 预案显示，北部湾港拟通过发行股份及支付现金方式...",
-            source: "市场资讯",
-            date: "2026-10-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuwcyf7266058.shtml"
-        },
-        {
-            title: "明天复牌！000582，重组并购方案出炉",
-            summary: "公司股票将于10月12日开市起复牌。 短暂停牌后，北部湾港（000582）披露重组预案，公司将其视为把握平陆运河通航发展机遇的关键一步。本次交易不构成重大资产重组。",
-            source: "",
-            date: "2026-10-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/zqgd/2026-10-11/doc-iniuvxsi7343601.shtml"
-        },
-        {
-            title: "八年熬出盈利！芯联集成从巨亏20亿到预盈6.81亿",
-            summary: "来源：尺度商业 文 | 董武英 编辑 | 刘振涛 三年前的2023年，这家公司创下历史性亏损，亏损规模高达19.58亿元。三年后，这家公司实现盈利...",
-            source: "市场资讯",
-            date: "2026-10-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuvxsh0571271.shtml"
-        },
-        {
-            title: "万亿巨头601138，回应337调查",
-            summary: "来源：中国基金报 【导读】工业富联回应337调查，涉及一项“垂直供电系统”专利权 中国基金报记者 闻言 10月11日晚间，工业富联发布公告称...",
-            source: "市场资讯",
-            date: "2026-10-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuvxsc5696055.shtml"
-        },
-        {
-            title: "哈药股份：公司董事兼总裁芦传有被立案、实施留置",
-            summary: "哈药股份11日公告称，公司于近日收到相关监察委员会关于公司董事、总裁芦传有的《立案通知书》和《留置通知书》。目前，公司已对相关工作进行了妥善安排，董事长...",
-            source: "21世纪经济报道",
-            date: "2026-10-11",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuvxsi7323949.shtml"
-        },
-        {
-            title: "Jefferies基金称Radiant World在价值9亿美元融资交易中存在欺诈",
-            summary: " Jefferies旗下一支基金在法庭诉讼中表示，它掌握了铁矿石贸易商Radiant World和Sapphire Minmetals在面值近9亿美元的应收账款融资交易中涉嫌欺诈行为的证据。",
+            title: "法国之后，下一个是意大利？高盛警示后者债券风险",
+            summary: " 最近几周，法国债务动荡使欧洲财政压力成为焦点，但随着争议性的新政府支出计划出台，投资者的注意力正迅速转向意大利。",
             source: "环球市场播报",
             date: "2026-10-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuvxsh0506317.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuwkhc7335003.shtml"
         },
         {
-            title: "重整后业绩持续承压，文投控股上半年业绩转亏，逆势收购影院资产存隐忧",
-            summary: "来源：证券之星 2024年底完成重整的文投控股（600715.SH）仍未能走出业绩泥潭。今年上半年，公司营收同比大降近四成，归母净利润同比由盈转亏...",
+            title: "特朗普称俄罗斯和乌克兰已同意能源停火",
+            summary: "“即刻起，俄乌战争实施能源停火。”美国总统特朗普表示。“双方都同意了，”他表示。",
+            source: "环球市场播报",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuwkfx5632755.shtml"
+        },
+        {
+            title: "特朗普：将考虑加入沙特打击胡塞武装的行动",
+            summary: " 美国总统特朗普表示，在利雅得主要机场遭到致命袭击后，他正在考虑加入沙特阿拉伯对也门境内胡塞武装的报复行动。此举可能使美国进一步卷入伊朗战争的第二战线。",
+            source: "环球市场播报",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuwkhc7326868.shtml"
+        },
+        {
+            title: "公告带着“修订痕迹”发布，000509澄清并致歉",
+            summary: "因收购进展公告多处出现修订记录引起媒体关注，华塑控股（000509）10月11日晚发布公告作出澄清称，修订记录未涉及敏感或应予保密内容，修订版与最终正式版内容完全一致...",
+            source: "上海证券报",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuwkha0556401.shtml"
+        },
+        {
+            title: "泽连斯基称乌克兰愿意与俄罗斯实现能源停火",
+            summary: "乌克兰总统泽连斯基在接受采访时表示，乌克兰已做好与俄罗斯实现能源停火的准备。 “我们愿意从任何形式的降级措施开始，”他说。泽连斯基表示...",
+            source: "环球市场播报",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuwkhc7322432.shtml"
+        },
+        {
+            title: "国际能源署署长比罗尔建议成员国加快投放库存 优先柴油",
+            summary: "国际能源署在新闻稿中表示，该机构署长法提赫·比罗尔已就全球柴油市场趋紧问题致函成员国政府。 比罗尔建议成员国加快剩余部分的投放...",
+            source: "环球市场播报",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuwkfx5623678.shtml"
+        },
+        {
+            title: "600693要追“光”，交易所“闪电”出手",
+            summary: "来源：中国基金报 【导读】东百集团收购标的764%增值率的背后，应收账款高企与产能宣传不匹配 中国基金报记者 刘墨 东百集团（600693）10月11日晚间发布公告称，拟以3...",
             source: "市场资讯",
             date: "2026-10-11",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuvxsm8834928.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-10-11/doc-iniuwkhf8771632.shtml"
+        },
+        {
+            title: "俄罗斯外交部谴责针对沙特利雅得机场的袭击",
+            summary: "当地时间10月11日，俄罗斯外交部网站发表声明，谴责针对沙特阿拉伯首都利雅得哈立德国王国际机场的袭击。 声明呼吁阿拉伯半岛地区冲突各方完全放弃对民用基础设施目标的打...",
+            source: "央视",
+            date: "2026-10-11",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-11/doc-iniuwkfx5601692.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-11",
         marketAssessment: "A股方面：上证指数报3813.79点（+0.05%），深证成指报12641.86点（+0.17%），创业板指报3043.33点（+0.22%）。美股方面：标普500报7,811.54（+1.15%），纳斯达克报27,366.17（+0.64%）。",
         hotSectors: [

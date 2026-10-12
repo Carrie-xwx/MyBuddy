@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3797.24", change: "-0.43%", market: "A股", updateTime: "2026-10-13 实时" },
         { name: "深证成指", code: "SZ399001", value: "12384.87", change: "-2.03%", market: "A股", updateTime: "2026-10-13 实时" },
         { name: "创业板指", code: "SZ399006", value: "2963.82", change: "-2.61%", market: "A股", updateTime: "2026-10-13 实时" },
         { name: "沪深300", code: "SH000300", value: "4287.98", change: "-0.68%", market: "A股", updateTime: "2026-10-13 实时" },
         { name: "科创50", code: "SH000688", value: "1426.72", change: "-2.10%", market: "A股", updateTime: "2026-10-13 实时" },
-        { name: "标普500", code: "SPX", value: "7,803.02", change: "+0.37%", market: "美股", updateTime: "2026-10-13 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "27,244.60", change: "-0.85%", market: "美股", updateTime: "2026-10-13 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,848.74", change: "+1.13%", market: "美股", updateTime: "2026-10-13 收盘" },
+        { name: "标普500", code: "SPX", value: "7,807.24", change: "+0.43%", market: "美股", updateTime: "2026-10-13 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "27,245.90", change: "-0.84%", market: "美股", updateTime: "2026-10-13 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,850.55", change: "+1.14%", market: "美股", updateTime: "2026-10-13 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "扎克伯格：Meta在人工智能前沿已赶上竞争对手",
-            summary: "Meta首席执行官马克·扎克伯格在采访中表示，随着新模型Muse Wonder发布，Meta已经追上处于AI“前沿”的竞争对手。 扎克伯格补充称，新系统“将能够完成复杂得多的任务...",
+            title: "大宗商品综述：油价转涨 现货金价跌破4,200美元 铜价上扬",
+            summary: "‘原油期货上涨，中东和俄乌战场都传出了利空供应的消息；金价从一周高位回落，交易员在等待有关美联储利率路径的新线索并评估油价波动；铜价上涨...",
             source: "环球市场播报",
             date: "2026-10-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuw0487254.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-13/doc-iniuzkkt7145832.shtml"
         },
         {
-            title: "美联储哈马克：随着“通胀心态”形成的风险上升，可能需要更高利率",
-            summary: "克利夫兰联邦储备银行行长贝丝·哈马克周一表示，可能需要收紧货币政策以降低通胀，央行应迅速、渐进地调整。 “在可行的情况下，我通常认为，较小幅度的调整...",
+            title: "10月13日收盘：三大指数涨跌不一 油价走高 标普500牛市四周年之际市场聚焦银行财报与通胀数据",
+            summary: "周一，美股三大指数涨跌不一，投资者为周二大型银行财报做准备，并密切关注能源市场的地缘政治动向。 道指涨195.60点，涨幅0.38%，报51850.55点；标普500指数跌4.30点...",
             source: "环球市场播报",
             date: "2026-10-13",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuw0473922.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-13/doc-iniuzkkv8197690.shtml"
         },
         {
-            title: "Meta推出最新AI模型Muse Wonder",
-            summary: "Meta推出了其最新人工智能模型Muse Wonder，并称它是驱动数字助手的最先进选项。但它并非免费。 要使用该模型，Muse个人代理应用的用户需要注册每月20美元或100美元的订阅...",
-            source: "环球市场播报",
-            date: "2026-10-13",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuz8302435.shtml"
-        },
-        {
-            title: "克利夫兰联储行长主张对货币政策小步快调 避免日后大幅纠偏",
-            summary: " 克利夫兰联储行长贝丝·哈马克表示，幅度较小、频率较高的货币政策调整有助于保持通胀预期稳定，但她没有明确支持本月加息。",
+            title: "原油：布伦特和WTI齐转涨 中东和俄乌都传来利空供应消息",
+            summary: " 原油期货上涨，一方面是因为乌克兰对美国总统唐纳德·特朗普鼓吹的“能源停火”表示质疑，而另一方面遭受了伊朗战争爆发以来最致命袭击的沙特阿拉伯又面临新一轮攻击。",
             source: "环球市场播报",
             date: "2026-10-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuz8301937.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-13/doc-iniuzkkt7122420.shtml"
         },
         {
-            title: "阿布扎比国家石油物流洽谈收购HEA股权，企业估值达30亿美元",
-            summary: "据知情人士透露，阿联酋油气巨头阿布扎比国家石油公司（Adnoc）旗下的物流子公司，正在洽谈收购 HEA Energy 的大额股权。这笔交易对这家中东海上能源服务企业的估值最高可...",
+            title: "报道：美国告诉乌克兰允许俄罗斯出口柴油旨在软化莫斯科",
+            summary: "援引三名熟悉会谈情况的未具名人士报道，特朗普特使贾里德·库什纳和史蒂夫·威特科夫周五告诉乌克兰官员，允许俄罗斯出口柴油是为了推动俄罗斯重返谈判桌...",
             source: "环球市场播报",
             date: "2026-10-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuw0467670.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-13/doc-iniuzkks0349038.shtml"
         },
         {
-            title: "量子计算企业IonQ拟最高13亿美元收购网络安全公司",
-            summary: "内容摘要 IonQ 达成全股票交易协议，拟收购网络安全企业 Elisity，这笔交易对后者估值最高可达 13 亿美元。 据企业高管透露，量子计算公司 IonQ 达成全股票收购协议...",
+            title: "纽约汇市：彭博美元指数升至逾三个月高点 因油价上涨加剧通胀担忧",
+            summary: "随着油价上涨加剧通胀担忧，美元升至逾三个月最高水平，兑其他所有G-10货币上涨。 彭博美元即期指数上涨0.1%，至6月25日以来最高水平。...",
+            source: "环球市场播报",
+            date: "2026-10-13",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-13/doc-iniuzkks0348600.shtml"
+        },
+        {
+            title: "美国债市：国债期货基本持平 假期交投清淡",
+            summary: "美国国债期货周一收盘基本持平，长端表现略好，意味着美国国债现券市场周二结束休假重新开市时，收益率曲线可能出现轻微的趋平走势。",
             source: "环球市场播报",
             date: "2026-10-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxut5145216.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-13/doc-iniuzeax8308144.shtml"
         },
         {
-            title: "思泰瑞拟21亿美元收购Xodus Medical",
-            summary: "思泰瑞于周一宣布这笔交易，称收购将丰富自身产品组合，新增多款手术用消耗类产品。 总部位于宾夕法尼亚州的 Xodus 公司研发、生产多款医疗器械。",
+            title: "美国联邦特工搜查众议员伊尔汗·奥马尔的华盛顿住所",
+            summary: " 据一位知情人士透露，联邦特工搜查了美国众议员伊尔汗·奥马尔位于华盛顿地区的住所，标志着特朗普政府对这位明尼苏达民主党人的调查升级。",
             source: "环球市场播报",
             date: "2026-10-13",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuw0465772.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-13/doc-iniuzeav7250168.shtml"
         },
         {
-            title: "路威酩轩（LVMH）销售疲软，给脆弱复苏的奢侈品行业蒙上阴影",
-            summary: "这家法国奢侈品巨头表示，公司销售增速放缓，欧洲奢侈品行业期盼已久的复苏进程遭遇阻碍。 总部位于巴黎的 LVMH 手握一众时装、珠宝、香槟品牌...",
+            title: "伊朗否认策划英国空军基地恐袭 指责英方的指控毫无根据",
+            summary: " 伊朗外交部在声明中表示，英国政府声称伊朗是上月英国皇家空军费尔福德基地恐袭未遂行动的幕后黑手，这种指控是“为推进反伊朗运动而策划的丑陋阴谋”。",
             source: "环球市场播报",
             date: "2026-10-13",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxux7237187.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-13/doc-iniuzeax8307021.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-10-13",
-        marketAssessment: "A股方面：上证指数报3797.24点（-0.43%），深证成指报12384.87点（-2.03%），创业板指报2963.82点（-2.61%）。美股方面：标普500报7,803.02（+0.37%），纳斯达克报27,244.60（-0.85%）。",
+        marketAssessment: "A股方面：上证指数报3797.24点（-0.43%），深证成指报12384.87点（-2.03%），创业板指报2963.82点（-2.61%）。美股方面：标普500报7,807.24（+0.43%），纳斯达克报27,245.90（-0.84%）。",
         hotSectors: [
 
         ],

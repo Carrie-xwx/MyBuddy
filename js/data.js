@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3791.42", change: "-0.59%", market: "A股", updateTime: "2026-10-12 实时" },
-        { name: "深证成指", code: "SZ399001", value: "12394.79", change: "-1.95%", market: "A股", updateTime: "2026-10-12 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2969.65", change: "-2.42%", market: "A股", updateTime: "2026-10-12 实时" },
-        { name: "沪深300", code: "SH000300", value: "4281.86", change: "-0.82%", market: "A股", updateTime: "2026-10-12 实时" },
-        { name: "科创50", code: "SH000688", value: "1427.96", change: "-2.01%", market: "A股", updateTime: "2026-10-12 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3797.24", change: "-0.43%", market: "A股", updateTime: "2026-10-12 实时" },
+        { name: "深证成指", code: "SZ399001", value: "12384.87", change: "-2.03%", market: "A股", updateTime: "2026-10-12 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2963.82", change: "-2.61%", market: "A股", updateTime: "2026-10-12 实时" },
+        { name: "沪深300", code: "SH000300", value: "4287.98", change: "-0.68%", market: "A股", updateTime: "2026-10-12 实时" },
+        { name: "科创50", code: "SH000688", value: "1426.72", change: "-2.10%", market: "A股", updateTime: "2026-10-12 实时" },
         { name: "标普500", code: "SPX", value: "7,811.54", change: "+1.15%", market: "美股", updateTime: "2026-10-12 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "27,366.17", change: "+0.64%", market: "美股", updateTime: "2026-10-12 收盘" },
         { name: "道琼斯", code: "DJI", value: "51,654.95", change: "+0.93%", market: "美股", updateTime: "2026-10-12 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "花旗下调“对冲基金大鳄”阿克曼旗下潘兴广场评级至卖出，目标价45美元，较现价低17%",
-            summary: "美国投行花旗将亿万富翁投资者比尔·阿克曼（Bill Ackman）旗下投资管理公司潘兴广场（Pershing Square Inc．）的股票评级从“中性/高风险”下调至“卖出/高风险”...",
+            title: "英特尔、博通首席执行官警告：资金紧张或将成为人工智能最大瓶颈",
+            summary: "核心要点英特尔与博通发出警示：资金获取难题，有可能成为人工智能热潮的主要制约因素。博通首席执行官陈福阳周一在新加坡举办的星展银行亚洲未来前瞻峰会上表示：“我认为...",
             source: "环球市场播报",
             date: "2026-10-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxwip8542389.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypex5255628.shtml"
         },
         {
-            title: "长安期货屈亚娟：上行驱动略显不足，锌价或暂陷调整",
-            summary: "9月后，锌价快速冲高后回调，与有色整体波动节奏基本一致，矿及冶炼端偏紧逻辑已演绎较长时间，随美元走强和美债利率高位，宏观压力逐步体现...",
+            title: "泽连斯基称乌克兰愿意接受能源停火",
+            summary: "核心要点乌克兰总统弗拉基米尔・泽连斯基对美国斡旋促成的 “能源停火” 表示欢迎，但同时警告莫斯科方面必须采取对等行动。泽连斯基于周一表示：“今天一整个上午...",
+            source: "环球市场播报",
+            date: "2026-10-12",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypff8405933.shtml"
+        },
+        {
+            title: "拟跨界“追光”！刚刚，东百集团提示风险！",
+            summary: "来源：资本秘闻 百货公司东百集团拟3.16亿元跨界“追光”成为了市场热议焦点，上交所也火速向公司下发了监管工作函。不过在有关消息披露次日，即10月12日...",
             source: "市场资讯",
             date: "2026-10-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-10-12/doc-iniuxwik0513765.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-10-12/doc-iniuypfc7293976.shtml"
         },
         {
-            title: "长安期货闫隽永：中期选举前停火或已成共识，贵金属或下存支撑",
-            summary: "本周贵金属在9月中下旬下跌后小幅反弹，但动能偏弱：黄金相对抗跌、维持高位，白银及工业属性更强的铂、钯延续弱势，钯金最弱，反映资金自前期强势品种阶段性撤离。",
+            title: "停牌核查！10连板牛股公告！",
+            summary: "来源：资本秘闻 10月12日晚间，新华传媒披露公告称，公司将就股票交易波动情况进行停牌核查。公司股票将于10月13日起停牌，自披露核查公告后复牌。",
             source: "市场资讯",
             date: "2026-10-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-10-12/doc-iniuxwim7285413.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-10-12/doc-iniuypfc7293567.shtml"
         },
         {
-            title: "花旗：大金重工给予“买入”评级 目标价43港元",
-            summary: " 花旗发布研报称，给予大金重工（01081）“买入”评级，目标价43港元。该行认为，公司股价大幅下跌是买入良机，预计2027年上半年欧洲新订单恢复将带来正面影响。",
-            source: "新浪港股",
-            date: "2026-10-12",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-12/doc-iniuxwif5369770.shtml"
-        },
-        {
-            title: "快讯：午后碳酸锂期货延续跌势 主力合约日内跌超10%",
-            summary: "快讯：2026年10月12日，午后碳酸锂期货延续跌势，主力合约日内跌超10%。",
-            source: "市场资讯",
+            title: "泽连斯基称若普京拒绝能源停火 乌克兰将继续对俄远程打击",
+            summary: "乌克兰总统泽连斯基周一表示，乌克兰将继续对俄罗斯发动远程打击，并指责莫斯科违反能源停火安排。 泽连斯基通过视频连线在华沙安全论坛上发表讲话称...",
+            source: "环球市场播报",
             date: "2026-10-12",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-10-12/doc-iniuxwip8523361.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypfc7281471.shtml"
         },
         {
-            title: "太明证券：粤港湾智算维持“买入”评级 目标价36港元",
-            summary: "太明证券发布研报称，维持粤港湾智算（01396）“买入”评级，12个月目标价36港元，潜在升幅255.0%。该行认为，持续计费基础扩大支撑公司盈利快速增长...",
-            source: "新浪港股",
+            title: "证监会主席吴清会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦",
+            summary: "2026年10月12日，中国证监会主席吴清在京会见了阿联酋主权投资机构穆巴达拉投资公司首席执行官兼董事总经理哈勒敦（Khaldoon Khalifa Al Mubarak）。",
+            source: "中国证监会网站",
             date: "2026-10-12",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-12/doc-iniuxwip8523319.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuypex5235787.shtml"
         },
         {
-            title: "高盛：香港交易所维持“买入”评级 目标价下调1.7%至523港元",
-            summary: "高盛发布研报称，将香港交易所（00388）目标价下调1.7%，由532港元降至523港元，维持“买入”评级。该行将港交所2026至2029财年每股盈利预测下调1%至2%...",
-            source: "新浪港股",
+            title: "沙特着眼将原油管道输送能力提高至每日1000万桶",
+            summary: " 沙特阿拉伯能源大臣阿卜杜勒阿齐兹·本·萨勒曼表示，沙特正研究在未来两到三年内，将通往波斯湾以外地区的原油管道输送能力扩大至每日1000万桶。",
+            source: "环球市场播报",
             date: "2026-10-12",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-12/doc-iniuxwip8521208.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypfa0490833.shtml"
         },
         {
-            title: "东鹏饮料午后涨超4% 截至9月末回购712.26万股A股",
-            summary: "东鹏饮料（09980）午后涨超4%，截至发稿，股价上涨4.08%，现报99.45港元，成交额7257.51万港元。 10月9日，东鹏饮料发布公告，截至2026年9月30日...",
-            source: "新浪港股",
+            title: "Firmus上市搁浅凸显投资者转趋谨慎 亚太AI领域IPO交易门槛料被抬高",
+            summary: " 澳大利亚企业Firmus Grid首次公开募股的搁浅在亚洲火热的股票市场引起强烈反响，使得投资者对取决于未来收益的AI基础设施领域交易更加进行甄别。",
+            source: "环球市场播报",
             date: "2026-10-12",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-12/doc-iniuxwif5365942.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypex5226449.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-12",
-        marketAssessment: "A股方面：上证指数报3791.42点（-0.59%），深证成指报12394.79点（-1.95%），创业板指报2969.65点（-2.42%）。美股方面：标普500报7,811.54（+1.15%），纳斯达克报27,366.17（+0.64%）。",
+        marketAssessment: "A股方面：上证指数报3797.24点（-0.43%），深证成指报12384.87点（-2.03%），创业板指报2963.82点（-2.61%）。美股方面：标普500报7,811.54（+1.15%），纳斯达克报27,366.17（+0.64%）。",
         hotSectors: [
-            { name: "文字媒体", reason: "板块涨幅+7.34%", strength: "强" },
-            { name: "逆变器", reason: "板块涨幅+4.53%", strength: "强" },
-            { name: "影视动漫制作", reason: "板块涨幅+4.48%", strength: "强" },
-            { name: "影视院线", reason: "板块涨幅+4.04%", strength: "强" },
+            { name: "文字媒体", reason: "板块涨幅+6.91%", strength: "强" },
+            { name: "视频媒体", reason: "板块涨幅+5.04%", strength: "强" },
+            { name: "逆变器", reason: "板块涨幅+4.42%", strength: "强" },
+            { name: "影视动漫制作", reason: "板块涨幅+4.24%", strength: "强" },
         ],
         weakSectors: [
-            { name: "房产租赁经纪", reason: "板块跌幅-5.89%", strength: "弱" },
-            { name: "种子", reason: "板块跌幅-5.54%", strength: "弱" },
+            { name: "房产租赁经纪", reason: "板块跌幅-6.61%", strength: "弱" },
+            { name: "种子", reason: "板块跌幅-6.41%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注文字媒体、逆变器、影视动漫制作等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注文字媒体、视频媒体、逆变器等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

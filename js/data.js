@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3707.48", change: "-1.59%", market: "A股", updateTime: "2026-10-15 实时" },
         { name: "深证成指", code: "SZ399001", value: "11816.79", change: "-2.43%", market: "A股", updateTime: "2026-10-15 实时" },
         { name: "创业板指", code: "SZ399006", value: "2783.17", change: "-2.92%", market: "A股", updateTime: "2026-10-15 实时" },
         { name: "沪深300", code: "SH000300", value: "4166.01", change: "-1.23%", market: "A股", updateTime: "2026-10-15 实时" },
         { name: "科创50", code: "SH000688", value: "1359.52", change: "-1.50%", market: "A股", updateTime: "2026-10-15 实时" },
-        { name: "标普500", code: "SPX", value: "7,718.94", change: "-1.06%", market: "美股", updateTime: "2026-10-15 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,692.87", change: "-3.07%", market: "美股", updateTime: "2026-10-15 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,621.48", change: "+0.86%", market: "美股", updateTime: "2026-10-15 收盘" },
+        { name: "标普500", code: "SPX", value: "7,685.51", change: "-1.03%", market: "美股", updateTime: "2026-10-15 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,378.47", change: "-3.00%", market: "美股", updateTime: "2026-10-15 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,891.77", change: "+1.29%", market: "美股", updateTime: "2026-10-15 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "美国9月CPI高于预期后美债收益率大跌，投资者等待更多经济数据",
-            summary: "美国国债收益率周四走低。周三公布的9月消费者物价通胀数据强于市场预期，目前投资者正在等待更多经济指标。 基准10年期美债收益率最新下跌9个基点至5...",
+            title: "Anthropic增长迅猛但增速放缓，或将拖累IPO估值",
+            summary: "据《The Information》获取的 Anthropic 组织架构资料，该公司在面向 IPO 潜在投资者的沟通会上披露，公司营收虽然仍在高速增长，但增速已经回落。",
             source: "环球市场播报",
             date: "2026-10-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyan4703357.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-iniviksh4740948.shtml"
         },
         {
-            title: "乌克兰将恢复打击俄罗斯炼油厂，“能源停火”希望破灭",
-            summary: "核心要点泽连斯基总统表示，特朗普近期与弗拉基米尔・普京的打交道方式、俄罗斯袭击乌克兰能源基础设施，以及星链系统暴露出的功能局限，都令他感到失望。",
+            title: "伊媒：伊朗海军称一艘“违规”油轮在霍尔木兹海峡附近起火",
+            summary: "据伊朗媒体援引海军声明报道，伊朗海军称，已识别一艘在霍尔木兹海峡以东“限制区域”内起火的“违规”油轮。 报道没有说明涉事船只身份，也未具体交代起火原因。",
+            source: "环球市场播报",
+            date: "2026-10-15",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-15/doc-inivikrz7290800.shtml"
+        },
+        {
+            title: "IPO涉嫌操纵被停牌，茶百道股价已蒸发超七成",
+            summary: "来源：雷达Finance 雷达财经出品 文|丁禹 编|孟帅 “浓眉大眼”的茶百道，近日摊上一桩“麻烦事”。 10月13日早间，港交所发布通告，根据相关规则...",
+            source: "市场资讯",
+            date: "2026-10-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-15/doc-iniviksk1522233.shtml"
+        },
+        {
+            title: "市值蒸发超2000亿，“中药茅”再对董事长“动刀”",
+            summary: "来源：雷达Finance 雷达财经出品 文|周慧 编|孟帅 “药中茅台”片仔癀，近日再次对公司管理层“动刀”。 10月13日，片仔癀发布公告称，因工作调整...",
+            source: "市场资讯",
+            date: "2026-10-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-15/doc-iniviksh4748394.shtml"
+        },
+        {
+            title: "TPG投资会计师事务所：布局人工智能，计划开展更多收购",
+            summary: "私募巨头 TPG 投资的会计师事务所 Smith + Howard，部分业务增长来自收购小型同行企业。该公司正筹备新一轮收购，其中两笔交易有望在今年年底前完成。",
             source: "环球市场播报",
             date: "2026-10-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyai8100869.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-iniviksk1504953.shtml"
         },
         {
-            title: "全球智能手机出货量暴跌22%，创季度最大降幅，AI需求推高存储芯片成本",
-            summary: "市场研究机构IDC最新报告显示，第三季度全球智能手机出货量同比下降22%，创有记录以来最大季度降幅。主要原因是人工智能产业持续扩大存储芯片采购...",
+            title: "私募信贷基金瞄准英格兰足球俱乐部 推出以球员资产为依托的贷款产品",
+            summary: "随着各类愈发新颖的融资方式涌入足坛，私募信贷基金正瞄准足球领域规模最大的转会市场，向英格兰俱乐部推广以球员价值为基础的贷款。",
+            source: "环球市场播报",
+            date: "2026-10-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-15/doc-iniviksk1504582.shtml"
+        },
+        {
+            title: "Cursor员工调查机密数据是否流入SpaceX用于AI训练",
+            summary: "SpaceX人工智能部门在8月推出个人AI智能体产品Grok Bot的数周前，Cursor的工程师发现了一个潜在隐患。 当时SpaceX正收购AI代码初创公司Cursor...",
             source: "环球市场播报",
             date: "2026-10-15",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyaq1467748.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-iniviksk1495820.shtml"
         },
         {
-            title: "印度IDBI银行股价大跌7%：印度政府向加拿大费尔法克斯集团出售55亿美元股份",
-            summary: "核心要点费尔法克斯集团中标报价为每股 81 卢比，收购 IDBI 银行 60.7% 股权。一旦各项审批落地，费尔法克斯收购 IDBI 银行多数股权的交易...",
+            title: "美国据悉告知IEA其他成员其对目前释储计划不满 希望额外释放1亿桶",
+            summary: " 据知情人士透露，美国已告知国际能源署（IEA）其他成员国，目前释放紧急石油储备的计划不足以遏制不断上涨的燃油价格。",
             source: "环球市场播报",
             date: "2026-10-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyai8097321.shtml"
-        },
-        {
-            title: "纽约证交所股票做空规模创历史新高，首次突破210亿股，EPFR认为可能是反向看涨信号",
-            summary: "全球资金流向研究机构EPFR最新数据显示，截至9月下旬，纽约证券交易所上市股票的未平仓卖空数量环比上一统计期增加2.7%，历史上首次突破210亿股，创下纪录新高。",
-            source: "环球市场播报",
-            date: "2026-10-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyan4691861.shtml"
-        },
-        {
-            title: "欧盟与海湾国家预计因袭击事件推迟沙特峰会",
-            summary: "由于主办国沙特遭到也门胡塞武装袭击，欧盟与海湾合作委员会预计推迟这场核心政治峰会。 保加利亚总理鲁门·拉德夫周四称：“据我所知，利雅得这场会议很遗憾将要推迟...",
-            source: "环球市场播报",
-            date: "2026-10-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-15/doc-inivhyaf7365200.shtml"
-        },
-        {
-            title: "银行向印度储备银行反映：卢比远期市场流动性正在枯竭",
-            summary: " 知情人士称，多家银行向印度央行表示，央行对外汇衍生品实施的限制令外汇远期市场流动性枯竭，并要求央行明确新限制措施的适用范围。",
-            source: "环球市场播报",
-            date: "2026-10-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-15/doc-inivhyai8094524.shtml"
-        },
-        {
-            title: "台积电确认讨论与马斯克的Terafab计划进行合作 但必须控制芯片工厂",
-            summary: "台积电正在讨论与埃隆·马斯克的Terafab项目合作，不过这家亚洲芯片制造商强调，在任何联盟中都必须控制其芯片生产。 当被问及台积电是否会加入马斯克进军芯片制造领域的雄...",
-            source: "环球市场播报",
-            date: "2026-10-15",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyai8094218.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-iniviksk1482337.shtml"
         },
     ],
 
@@ -765,20 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-15",
-        marketAssessment: "A股方面：上证指数报3707.48点（-1.59%），深证成指报11816.79点（-2.43%），创业板指报2783.17点（-2.92%）。美股方面：标普500报7,718.94（-1.06%），纳斯达克报26,692.87（-3.07%）。",
+        marketAssessment: "A股方面：上证指数报3707.48点（-1.59%），深证成指报11816.79点（-2.43%），创业板指报2783.17点（-2.92%）。美股方面：标普500报7,685.51（-1.03%），纳斯达克报26,378.47（-3.00%）。",
         hotSectors: [
-            { name: "卫浴电器", reason: "板块涨幅+4.57%", strength: "强" },
-            { name: "纺织鞋类制造", reason: "板块涨幅+3.38%", strength: "强" },
-            { name: "大众出版", reason: "板块涨幅+1.37%", strength: "中强" },
-            { name: "电信运营商", reason: "板块涨幅+1.11%", strength: "中强" },
+
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注卫浴电器、纺织鞋类制造、大众出版等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

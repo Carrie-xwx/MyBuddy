@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3692.65", change: "-1.98%", market: "A股", updateTime: "2026-10-15 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11773.45", change: "-2.78%", market: "A股", updateTime: "2026-10-15 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2768.63", change: "-3.42%", market: "A股", updateTime: "2026-10-15 实时" },
-        { name: "沪深300", code: "SH000300", value: "4133.46", change: "-2.00%", market: "A股", updateTime: "2026-10-15 实时" },
-        { name: "科创50", code: "SH000688", value: "1338.53", change: "-3.02%", market: "A股", updateTime: "2026-10-15 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3707.48", change: "-1.59%", market: "A股", updateTime: "2026-10-15 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11816.79", change: "-2.43%", market: "A股", updateTime: "2026-10-15 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2783.17", change: "-2.92%", market: "A股", updateTime: "2026-10-15 实时" },
+        { name: "沪深300", code: "SH000300", value: "4166.01", change: "-1.23%", market: "A股", updateTime: "2026-10-15 实时" },
+        { name: "科创50", code: "SH000688", value: "1359.52", change: "-1.50%", market: "A股", updateTime: "2026-10-15 实时" },
         { name: "标普500", code: "SPX", value: "7,718.94", change: "-1.06%", market: "美股", updateTime: "2026-10-15 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,692.87", change: "-3.07%", market: "美股", updateTime: "2026-10-15 收盘" },
         { name: "道琼斯", code: "DJI", value: "51,621.48", change: "+0.86%", market: "美股", updateTime: "2026-10-15 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "IDC 称智能手机出货量暴跌 22%，创史上最差季度",
-            summary: " 市场研究机构 IDC 表示，受存储芯片成本上涨影响，9 月所在季度智能手机出货量下滑 22%，手机市场遭遇有记录以来最大季度跌幅，后续形势或将进一步恶化。",
+            title: "美国9月CPI高于预期后美债收益率大跌，投资者等待更多经济数据",
+            summary: "美国国债收益率周四走低。周三公布的9月消费者物价通胀数据强于市场预期，目前投资者正在等待更多经济指标。 基准10年期美债收益率最新下跌9个基点至5...",
             source: "环球市场播报",
             date: "2026-10-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhpnu1420347.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyan4703357.shtml"
         },
         {
-            title: "华泰证券2026年公司债券(第五期) 品种二的票面利率为1.58%",
-            summary: "华泰证券（06886）发布公告，根据《华泰证券股份有限公司2026年面向专业投资者公开发行公司债券（第五期）发行公告》，华泰证券股份有限公司2026年面向专业投资者公开发行...",
-            source: "新浪港股",
-            date: "2026-10-15",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-15/doc-inivhpnu1412844.shtml"
-        },
-        {
-            title: "名创优品于10月14日斥资约21.43万美元回购约8.38万股",
-            summary: " 名创优品（09896）发布公告，于2026年10月14日该公司斥资约21.43万美元回购约8.38万股，回购价格为每股2.5475至2.565美元。",
-            source: "新浪港股",
-            date: "2026-10-15",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-15/doc-inivhpns4640233.shtml"
-        },
-        {
-            title: "俄罗斯称击中两艘货船以及乌克兰港口",
-            summary: "俄罗斯国防部表示，其部队夜间打击了两艘驶往乌克兰敖德萨的干货船，同时袭击多瑙河伊兹梅尔港的港口基础设施。俄方称打击目标为军用物资。",
+            title: "乌克兰将恢复打击俄罗斯炼油厂，“能源停火”希望破灭",
+            summary: "核心要点泽连斯基总统表示，特朗普近期与弗拉基米尔・普京的打交道方式、俄罗斯袭击乌克兰能源基础设施，以及星链系统暴露出的功能局限，都令他感到失望。",
             source: "环球市场播报",
             date: "2026-10-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhpnm7440644.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyai8100869.shtml"
         },
         {
-            title: "GlobalFoundries根据美日协议获得210亿美元用于新建芯片工厂",
-            summary: " GlobalFoundries Inc．计划在日本政府高达210亿美元的支持下新建两座芯片工厂，作为协议的一部分，其中还包括美国持有该公司4%的股份。",
+            title: "全球智能手机出货量暴跌22%，创季度最大降幅，AI需求推高存储芯片成本",
+            summary: "市场研究机构IDC最新报告显示，第三季度全球智能手机出货量同比下降22%，创有记录以来最大季度降幅。主要原因是人工智能产业持续扩大存储芯片采购...",
             source: "环球市场播报",
             date: "2026-10-15",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhpns4634618.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyaq1467748.shtml"
         },
         {
-            title: "花旗：敏华控股维持“买入”评级 目标价削至3.6港元",
-            summary: "花旗发布研报称，敏华控股（01999）早前发盈警，截至2026年9月底止半年度纯利料同比减少70%至90%，该行仍维持“买入”评级，目标价由5.6港元削至3.6港元...",
-            source: "新浪港股",
-            date: "2026-10-15",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-15/doc-inivhpnp8168359.shtml"
-        },
-        {
-            title: "澳大利亚一州批准该国最大风电项目",
-            summary: "维多利亚州批准澳大利亚规模最大的风电场项目，为该国扩大可再生能源装机、实现宏大气候目标注入助力。 州政府周四称，规划中的沃拉克纳比尔能源公园装机容量最高可达 1...",
+            title: "印度IDBI银行股价大跌7%：印度政府向加拿大费尔法克斯集团出售55亿美元股份",
+            summary: "核心要点费尔法克斯集团中标报价为每股 81 卢比，收购 IDBI 银行 60.7% 股权。一旦各项审批落地，费尔法克斯收购 IDBI 银行多数股权的交易...",
             source: "环球市场播报",
             date: "2026-10-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhpnp8168248.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyai8097321.shtml"
         },
         {
-            title: "印尼盾走低，印尼央行入市干预汇市",
-            summary: "印尼央行在外汇市场实施干预，印尼盾兑美元回吐部分早前跌幅。 美元兑印尼盾上涨 0.2%，报 17940，盘中最大涨幅曾达 0.3%；该汇率连续两日走高...",
+            title: "纽约证交所股票做空规模创历史新高，首次突破210亿股，EPFR认为可能是反向看涨信号",
+            summary: "全球资金流向研究机构EPFR最新数据显示，截至9月下旬，纽约证券交易所上市股票的未平仓卖空数量环比上一统计期增加2.7%，历史上首次突破210亿股，创下纪录新高。",
             source: "环球市场播报",
             date: "2026-10-15",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhpnp8168047.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyan4691861.shtml"
+        },
+        {
+            title: "欧盟与海湾国家预计因袭击事件推迟沙特峰会",
+            summary: "由于主办国沙特遭到也门胡塞武装袭击，欧盟与海湾合作委员会预计推迟这场核心政治峰会。 保加利亚总理鲁门·拉德夫周四称：“据我所知，利雅得这场会议很遗憾将要推迟...",
+            source: "环球市场播报",
+            date: "2026-10-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-15/doc-inivhyaf7365200.shtml"
+        },
+        {
+            title: "银行向印度储备银行反映：卢比远期市场流动性正在枯竭",
+            summary: " 知情人士称，多家银行向印度央行表示，央行对外汇衍生品实施的限制令外汇远期市场流动性枯竭，并要求央行明确新限制措施的适用范围。",
+            source: "环球市场播报",
+            date: "2026-10-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-15/doc-inivhyai8094524.shtml"
+        },
+        {
+            title: "台积电确认讨论与马斯克的Terafab计划进行合作 但必须控制芯片工厂",
+            summary: "台积电正在讨论与埃隆·马斯克的Terafab项目合作，不过这家亚洲芯片制造商强调，在任何联盟中都必须控制其芯片生产。 当被问及台积电是否会加入马斯克进军芯片制造领域的雄...",
+            source: "环球市场播报",
+            date: "2026-10-15",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyai8094218.shtml"
         },
     ],
 
@@ -765,18 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-15",
-        marketAssessment: "A股方面：上证指数报3692.65点（-1.98%），深证成指报11773.45点（-2.78%），创业板指报2768.63点（-3.42%）。美股方面：标普500报7,718.94（-1.06%），纳斯达克报26,692.87（-3.07%）。",
+        marketAssessment: "A股方面：上证指数报3707.48点（-1.59%），深证成指报11816.79点（-2.43%），创业板指报2783.17点（-2.92%）。美股方面：标普500报7,718.94（-1.06%），纳斯达克报26,692.87（-3.07%）。",
         hotSectors: [
-            { name: "卫浴电器", reason: "板块涨幅+4.99%", strength: "强" },
-            { name: "纺织鞋类制造", reason: "板块涨幅+3.16%", strength: "强" },
-            { name: "大众出版", reason: "板块涨幅+2.54%", strength: "中强" },
-            { name: "医美耗材", reason: "板块涨幅+1.71%", strength: "中强" },
+            { name: "卫浴电器", reason: "板块涨幅+4.57%", strength: "强" },
+            { name: "纺织鞋类制造", reason: "板块涨幅+3.38%", strength: "强" },
+            { name: "大众出版", reason: "板块涨幅+1.37%", strength: "中强" },
+            { name: "电信运营商", reason: "板块涨幅+1.11%", strength: "中强" },
         ],
         weakSectors: [
-            { name: "焦煤", reason: "板块跌幅-5.69%", strength: "弱" },
-            { name: "焦炭Ⅱ", reason: "板块跌幅-5.65%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
         shortTermStrategy: "超短线关注卫浴电器、纺织鞋类制造、大众出版等板块的延续性，顺势操作，严格止损。",

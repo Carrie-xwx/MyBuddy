@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3716.28", change: "+0.24%", market: "A股", updateTime: "2026-10-16 实时" },
         { name: "深证成指", code: "SZ399001", value: "11802.46", change: "-0.12%", market: "A股", updateTime: "2026-10-16 实时" },
         { name: "创业板指", code: "SZ399006", value: "2772.38", change: "-0.39%", market: "A股", updateTime: "2026-10-16 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "IPO市场遇冷，私募股权控股企业转向债务市场向投资者返还资金",
-            summary: "核心要点IPO 上市、企业出售交易持续低迷，私募机构更多采用股息资本重组方式向投资者回款。穆迪表示，欧非中东地区由私募控股的企业...",
+            title: "Travelers：投资收益拉动利润小幅上涨",
+            summary: "营收基本持平，达 124.1 亿美元，高于分析师预期的 113.6 亿美元投资组合增厚公司利润，税前净投资收益增长 6%，创下 11 亿美元历史新高...",
             source: "环球市场播报",
             date: "2026-10-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiif7688226.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmtwz7549784.shtml"
         },
         {
-            title: "谷歌购物工具Universal Cart在美国上线",
-            summary: "谷歌周四宣布，其购物工具“Universal Cart”（通用购物车）现已面向美国用户开放。该工具允许用户集中保存和追踪通过谷歌搜索及Gemini应用发现的商品。",
+            title: "Lumen公司CEO与CFO：亲如手足的搭档是如何炼成的",
+            summary: " 几乎每个工作日，凯特・约翰逊在西雅图醒来后，很快就会给身处丹佛的克里斯・斯坦斯伯里打一通电话，开口便是：“好了，我起床了。你那边有什么情况？”",
             source: "环球市场播报",
             date: "2026-10-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiip8380201.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmtwx6816369.shtml"
         },
         {
-            title: "艘新加坡籍船只已沉没，但为何其他船舶仍在穿越霍尔木兹海峡",
-            summary: "核心要点尽管两艘集装箱船遇袭，新加坡籍船舶仍计划继续航行于风险重重的霍尔木兹海峡。专家指出，即便安全威胁加剧，航运企业仍可能寻找机会穿越该海峡。",
-            source: "环球市场播报",
-            date: "2026-10-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiin1606657.shtml"
-        },
-        {
-            title: "SK海力士参加OCP峰会 展示下一代AI内存技术",
-            summary: "韩国存储巨头SK海力士16日表示，公司12日至15日参加在美国加州圣何塞举行的开放计算项目（Open Compute Project）全球峰会，展示面向下一代人工智能（AI）时代的内存技术。...",
-            source: "环球市场播报",
-            date: "2026-10-16",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiin1605089.shtml"
-        },
-        {
-            title: "美联储沃什未释放利率信号，称赞全球同步收紧政策：“没有搭便车者”",
-            summary: "核心要点美联储主席凯文・沃什周五在曼谷发表演讲，拒绝透露本月是否会再度加息。他认可全球各国央行开启同步收紧，称 “不存在搭便车者”。",
+            title: "盘前：纳指期货跌0.12% 沃什讲话后加息押注仅剩15%",
+            summary: "在经历了动荡的一周后，交易员仍在艰难应对人工智能投资热潮引发的资金轮动、美国国债大幅反弹以及通胀数据超预期等多重因素。周五美股开盘前，市场交投谨慎...",
             source: "环球市场播报",
             date: "2026-10-16",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiin1604054.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmprc7667763.shtml"
         },
         {
-            title: "沃尔沃加码与英伟达合作，推进脱手自动驾驶技术",
-            summary: "沃尔沃正通过扩大与英伟达近十年的合作关系，升级其自动驾驶系统。两家公司周四宣布，沃尔沃将在未来的车型中采用英伟达的三项硬件和软件技术...",
+            title: "300903，业绩大增超600%！章建平退出前十大股东名单",
+            summary: "2026年半年报中出现在科翔股份（300903）前十大股东名单的“牛散”章建平，三季报又退出了该公司的持股前十榜单。 10月16日晚间，科翔股份披露的2026年三季报显示...",
+            source: "证券时报",
+            date: "2026-10-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-16/doc-inivmprk1663110.shtml"
+        },
+        {
+            title: "世界银行计划五年内将关键矿产融资规模扩大五倍至190亿美元，已锁定20个潜在合作国家",
+            summary: "世界银行行长阿贾伊·班加（Ajay Banga）10月16日宣布，计划在未来五年内将关键矿产业务规模扩大至此前的五倍，并已确定20个潜在合作国家，以推动矿产开采...",
+            source: "环球市场播报",
+            date: "2026-10-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmprc7652050.shtml"
+        },
+        {
+            title: "特斯拉新一代Roadster亮相：可短距离飞行，零百加速仅0.81秒，股价盘前上涨逾3%",
+            summary: "特斯拉10月15日晚在美国得克萨斯州SpaceX测试基地展示新一代Roadster电动跑车，首次演示利用高压气体推进器实现短距离飞行、悬停及空中姿态调整的能力。",
             source: "环球市场播报",
             date: "2026-10-16",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiip8375299.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmpqz6918698.shtml"
         },
         {
-            title: "防弹少年团巡演提振盈利预期，HYBE股价大涨10%",
-            summary: "核心要点分析师预测，HYBE 第三季度营收有望实现翻倍，验唱会收入同比近乎增至原来的三倍。Katseye、Cortis 等新生代艺人是公司实现长期增长...",
+            title: "关店、被追债、渠道纠纷之后，蔚小理为出海补课",
+            summary: "9月，蔚来在德国只上牌了1辆新车。德国联邦机动车运输管理局数据显示，其前九个月累计注册20辆；2023年全年，这一数字还是1263辆，2025年降至325辆。",
+            source: "界面",
+            date: "2026-10-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmprm8424822.shtml"
+        },
+        {
+            title: "Netflix更换首席内容官 力图遏制股价下跌",
+            summary: " 流媒体巨头Netflix迎来重大管理层人事调整，任命好莱坞资深人士彼得·赖斯接替贝拉·巴贾里亚出任首席内容官。此举意在扭转股价跌势、重新拉动用户观看时长增长。",
             source: "环球市场播报",
             date: "2026-10-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiip8372027.shtml"
-        },
-        {
-            title: "任子行通道合同虚增利润，股票索赔仍在征集",
-            summary: " 此前，深圳证监局〔2025〕7号处罚决定书披露：任子行收购北京亚鸿后，2018年起双方联合中标创新项目，实际由北京亚鸿实施，其间安排签订无商业实质的购销合同作资金通道。",
-            source: "市场资讯",
-            date: "2026-10-16",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-10-16/doc-inivmiic6949361.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmprk1646431.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-16",
         marketAssessment: "A股方面：上证指数报3716.28点（+0.24%），深证成指报11802.46点（-0.12%），创业板指报2772.38点（-0.39%）。美股方面：标普500报7,744.06（-0.27%），纳斯达克报26,713.03（-1.77%）。",
         hotSectors: [

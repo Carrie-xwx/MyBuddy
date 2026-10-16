@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3742.66", change: "+0.95%", market: "A股", updateTime: "2026-10-16 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11957.07", change: "+1.19%", market: "A股", updateTime: "2026-10-16 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2809.90", change: "+0.96%", market: "A股", updateTime: "2026-10-16 实时" },
-        { name: "沪深300", code: "SH000300", value: "4197.46", change: "+0.75%", market: "A股", updateTime: "2026-10-16 实时" },
-        { name: "科创50", code: "SH000688", value: "1381.85", change: "+1.64%", market: "A股", updateTime: "2026-10-16 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3716.28", change: "+0.24%", market: "A股", updateTime: "2026-10-16 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11802.46", change: "-0.12%", market: "A股", updateTime: "2026-10-16 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2772.38", change: "-0.39%", market: "A股", updateTime: "2026-10-16 实时" },
+        { name: "沪深300", code: "SH000300", value: "4170.61", change: "+0.11%", market: "A股", updateTime: "2026-10-16 实时" },
+        { name: "科创50", code: "SH000688", value: "1358.65", change: "-0.06%", market: "A股", updateTime: "2026-10-16 实时" },
         { name: "标普500", code: "SPX", value: "7,744.06", change: "-0.27%", market: "美股", updateTime: "2026-10-16 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,713.03", change: "-1.77%", market: "美股", updateTime: "2026-10-16 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,177.69", change: "+1.85%", market: "美股", updateTime: "2026-10-16 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "特朗普称乌克兰重启打击俄罗斯炼油厂的行为 “可耻”",
-            summary: " 美国总统唐纳德・特朗普在当地时间周四播出的采访中表示，乌克兰恢复袭击俄罗斯炼油厂是一件 “可耻” 的事，此举推高全球能源价格。",
+            title: "IPO市场遇冷，私募股权控股企业转向债务市场向投资者返还资金",
+            summary: "核心要点IPO 上市、企业出售交易持续低迷，私募机构更多采用股息资本重组方式向投资者回款。穆迪表示，欧非中东地区由私募控股的企业...",
             source: "环球市场播报",
             date: "2026-10-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkwts1544641.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiif7688226.shtml"
         },
         {
-            title: "澳洲联邦银行：美元走弱反映市场对沃什讲话感到失望",
-            summary: "澳洲联邦银行认为，美元走弱表明市场感到失望，美联储主席凯文・沃什并未提及本周美国超预期的 CPI 数据，也没有释放下次会议加息的信号。",
+            title: "谷歌购物工具Universal Cart在美国上线",
+            summary: "谷歌周四宣布，其购物工具“Universal Cart”（通用购物车）现已面向美国用户开放。该工具允许用户集中保存和追踪通过谷歌搜索及Gemini应用发现的商品。",
             source: "环球市场播报",
             date: "2026-10-16",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkwts1537156.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiip8380201.shtml"
         },
         {
-            title: "沃什讲话后加息预期降温，美股期货、股市走高",
-            summary: " 美联储主席凯文・沃什表示人工智能投资对美国经济大有裨益，受此影响，美股股指期货上涨，亚洲股市涨幅扩大。交易员下调美联储加息预期，美元走弱。",
+            title: "艘新加坡籍船只已沉没，但为何其他船舶仍在穿越霍尔木兹海峡",
+            summary: "核心要点尽管两艘集装箱船遇袭，新加坡籍船舶仍计划继续航行于风险重重的霍尔木兹海峡。专家指出，即便安全威胁加剧，航运企业仍可能寻找机会穿越该海峡。",
+            source: "环球市场播报",
+            date: "2026-10-16",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiin1606657.shtml"
+        },
+        {
+            title: "SK海力士参加OCP峰会 展示下一代AI内存技术",
+            summary: "韩国存储巨头SK海力士16日表示，公司12日至15日参加在美国加州圣何塞举行的开放计算项目（Open Compute Project）全球峰会，展示面向下一代人工智能（AI）时代的内存技术。...",
+            source: "环球市场播报",
+            date: "2026-10-16",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiin1605089.shtml"
+        },
+        {
+            title: "美联储沃什未释放利率信号，称赞全球同步收紧政策：“没有搭便车者”",
+            summary: "核心要点美联储主席凯文・沃什周五在曼谷发表演讲，拒绝透露本月是否会再度加息。他认可全球各国央行开启同步收紧，称 “不存在搭便车者”。",
             source: "环球市场播报",
             date: "2026-10-16",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkwtm7742444.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiin1604054.shtml"
         },
         {
-            title: "美联储主席沃什称生产力和就业工作组听证会将于下月召开",
-            summary: "美联储主席凯文·沃什表示，他的生产力和就业工作组将于下个月在旧金山湾区举行实地听证会。在周五上午于曼谷举行的国际货币基金组织年会期间...",
+            title: "沃尔沃加码与英伟达合作，推进脱手自动驾驶技术",
+            summary: "沃尔沃正通过扩大与英伟达近十年的合作关系，升级其自动驾驶系统。两家公司周四宣布，沃尔沃将在未来的车型中采用英伟达的三项硬件和软件技术...",
             source: "环球市场播报",
             date: "2026-10-16",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkwtt8294941.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiip8375299.shtml"
         },
         {
-            title: "美联储主席沃什未就10月利率动向释放信号",
-            summary: " 美联储主席凯文．沃什未对同僚近期释放的信号表示支持或反对；这些信号显示，官员们并不急于在本月加息。沃什表示，美联储已不再提前预告政策决定。",
+            title: "防弹少年团巡演提振盈利预期，HYBE股价大涨10%",
+            summary: "核心要点分析师预测，HYBE 第三季度营收有望实现翻倍，验唱会收入同比近乎增至原来的三倍。Katseye、Cortis 等新生代艺人是公司实现长期增长...",
             source: "环球市场播报",
             date: "2026-10-16",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkwti7004663.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiip8372027.shtml"
         },
         {
-            title: "港股午评：恒指涨1.21% 科指涨2.09% 科网股普涨 生物技术板块大涨",
-            summary: "10月16日消息，港股三大指数集体上涨。截至午间收盘，恒生指数涨1.21%，报24353.69，恒生科技指数涨2.09%，国企指数涨1.09%。盘面上，科网股普涨，快手涨超4%，阿里巴巴...",
-            source: "新浪港股",
+            title: "任子行通道合同虚增利润，股票索赔仍在征集",
+            summary: " 此前，深圳证监局〔2025〕7号处罚决定书披露：任子行收购北京亚鸿后，2018年起双方联合中标创新项目，实际由北京亚鸿实施，其间安排签订无商业实质的购销合同作资金通道。",
+            source: "市场资讯",
             date: "2026-10-16",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkwtm7719021.shtml"
-        },
-        {
-            title: "贝壳-W午前涨逾6% 瑞银看好公司潜在超额收益",
-            summary: "贝壳-W（02423）午前涨超6%，截至发稿，股价上涨6.21%，现报48.22港元，成交额2.99亿港元。 10月15日，深圳、杭州出台商品住房销售制度改革相关细则。",
-            source: "新浪港股",
-            date: "2026-10-16",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkwts1493850.shtml"
-        },
-        {
-            title: "海致科技集团盘中涨超9% 公司与九州通订立战略合作框架协议",
-            summary: "海致科技集团（02706）盘中涨超9%，截至发稿，股价上涨4.55%，现报28.50港元，成交额2985.84万港元。 海致科技集团发布公告，本公司近期与九州通医药集团股份有限公司（九...",
-            source: "新浪港股",
-            date: "2026-10-16",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkwtt8263213.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-10-16/doc-inivmiic6949361.shtml"
         },
     ],
 
@@ -765,21 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-16",
-        marketAssessment: "A股方面：上证指数报3742.66点（+0.95%），深证成指报11957.07点（+1.19%），创业板指报2809.90点（+0.96%）。美股方面：标普500报7,744.06（-0.27%），纳斯达克报26,713.03（-1.77%）。",
+        marketAssessment: "A股方面：上证指数报3716.28点（+0.24%），深证成指报11802.46点（-0.12%），创业板指报2772.38点（-0.39%）。美股方面：标普500报7,744.06（-0.27%），纳斯达克报26,713.03（-1.77%）。",
         hotSectors: [
-            { name: "燃料电池", reason: "板块涨幅+9.83%", strength: "强" },
-            { name: "地面兵装Ⅲ", reason: "板块涨幅+7.73%", strength: "强" },
-            { name: "地面兵装Ⅱ", reason: "板块涨幅+7.73%", strength: "强" },
-            { name: "航空装备Ⅲ", reason: "板块涨幅+7.19%", strength: "强" },
+            { name: "燃料电池", reason: "板块涨幅+6.56%", strength: "强" },
+            { name: "航空装备Ⅲ", reason: "板块涨幅+5.98%", strength: "强" },
+            { name: "航空装备Ⅱ", reason: "板块涨幅+5.98%", strength: "强" },
+            { name: "地面兵装Ⅲ", reason: "板块涨幅+5.97%", strength: "强" },
         ],
         weakSectors: [
-            { name: "印制电路板", reason: "板块跌幅-2.57%", strength: "弱" },
-            { name: "文字媒体", reason: "板块跌幅-2.13%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注燃料电池、地面兵装Ⅲ、地面兵装Ⅱ等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注燃料电池、航空装备Ⅲ、航空装备Ⅱ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

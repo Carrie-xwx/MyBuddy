@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3716.28", change: "+0.24%", market: "A股", updateTime: "2026-10-17 实时" },
         { name: "深证成指", code: "SZ399001", value: "11802.46", change: "-0.12%", market: "A股", updateTime: "2026-10-17 实时" },
         { name: "创业板指", code: "SZ399006", value: "2772.38", change: "-0.39%", market: "A股", updateTime: "2026-10-17 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "一周“纪”事：为健康中国建设保驾护航",
-            summary: "一周“纪”事 | 为健康中国建设保驾护航 来源：中央纪委国家监委网站 中央纪委国家监委网站张磊 10月12日至13日，全国卫生与健康大会召开...",
-            source: "中央纪委国家监委",
+            title: "欧洲央行行长拉加德：债券抛售拖累经济增长并将抑制通胀",
+            summary: "欧洲央行行长拉加德周六表示，债券市场的抛售正导致欧元区借贷成本上升，拖累经济增长，并最终抑制通胀。 由于投资者担忧债务和通胀问题...",
+            source: "环球市场播报",
+            date: "2026-10-17",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivpnhn1397952.shtml"
+        },
+        {
+            title: "庞兴海同志逝世",
+            summary: "黑龙江牡丹江市军队离退休干部休养所17日发布讣告： 中国共产党党员，原23军67师201团政治处副主任庞兴海同志因病医治无效，于2026年10月17日5时46分在牡丹江病逝...",
+            source: "中国新闻网",
             date: "2026-10-17",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-17/doc-inivnzsm7286884.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivpfyq1423989.shtml"
         },
         {
-            title: "黄仁勋称AI市场震荡将会过去，密集欧洲行持续释放信心",
-            summary: "近期股市AI板块震荡，但黄仁勋对未来有信心。 近期股市AI板块震荡，不少AI基础设施个股大跌，作为AI基础设施头部企业的英伟达（NVDA.O）...",
-            source: "一财网",
-            date: "2026-10-17",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/roll/2026-10-17/doc-inivnzsm7281862.shtml"
-        },
-        {
-            title: "自愿放弃无效 用人单位欠缴社保最高罚3倍 新规即将施行",
-            summary: "11月1日，《全国税务行政处罚裁量基准（2026年版）》开始施行，社保缴费违法行为首次被纳入全国统一的税务行政处罚裁量体系。《基准》明确...",
-            source: "央视",
+            title: "西工大博士研发载人“空中出租车” 填补国内技术空白",
+            summary: "转自：证券时报 人民财讯10月17日电，据西安日报，近日举行的2026Inclusion·外滩大会上，西北工业大学95后博士白志亮带队研发的鸿鹄eVTOL（电动垂直起降飞行器）预生产原型...",
+            source: "证券时报网",
             date: "2026-10-17",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnzst8220202.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivpfyr8191089.shtml"
         },
         {
-            title: "美股牛市第五年开局遭“重挫”：半导体股蒸发2万亿美元“缺钱”成最大风险",
-            summary: "原标题：美股牛市第五年开局遭“重挫”：半导体股蒸发2万亿美元，“缺钱”成最大风险；会飞的Roadster推高特斯拉与SpaceX合并预期；纽约养老金要求Anthropic暂停IPO；英伟达市...",
+            title: "欧洲央行行长拉加德：能源冲击规模巨大，不可忽视",
+            summary: "欧洲央行行长克里斯蒂娜·拉加德在泰国向全球各国财政预算负责人发表讲话，强调稳健公共财政的重要意义。 在由全球财长与央行官员组成的国际货币与金融委员会（IMFC）的发言...",
+            source: "环球市场播报",
+            date: "2026-10-17",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyr8177344.shtml"
+        },
+        {
+            title: "IMFC第54次会议主席声明：经济韧性可持续“不能想当然”",
+            summary: "IMF官网发布国际货币与金融委员会（IMFC）第五十四次会议主席声明，其中指出，全球经济接连遭遇多重冲击，但其表现好于预期。不过经济韧性可持续这件事不能想当然。",
+            source: "环球市场播报",
+            date: "2026-10-17",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyi7214566.shtml"
+        },
+        {
+            title: "教师被安排“耻辱”合影事件后，雷波县将迎新县长",
+            summary: "澎湃新闻记者 蒋子文 四川省凉山州雷波县将迎来新任县长。此前，该县教师被安排“耻辱”合影事件调查结果公布，时任县长被给予党内警告处分，按程序调离县长岗位。",
+            source: "澎湃新闻",
+            date: "2026-10-17",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivpfyr8170845.shtml"
+        },
+        {
+            title: "沙特媒体揭秘胡塞武装手搓导弹：技术人员靠颜色编码组装弹药 零部件来源于多个国家 在也门境内完成本地组装",
+            summary: " 原标题：沙特媒体揭秘胡塞武装手搓导弹：技术人员靠颜色编码组装弹药，零部件来源于美国、日本、德国等多个国家，在也门境内完成本地组装",
             source: "每日经济新闻",
             date: "2026-10-17",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/world/gjcj/2026-10-17/doc-inivnzsm7299771.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivpfyf6478196.shtml"
         },
         {
-            title: "厄瓜多尔一艘渔船疑似沉没 14名船员失踪",
-            summary: "当地时间10月16日，厄瓜多尔海军通报称，正持续在该国圣埃莱娜省附近海域搜救一艘疑似沉没渔船上的14名失踪船员。事发渔船名为“多梅尼卡·L”号（Doménica L）...",
-            source: "央视",
+            title: "厄尔尼诺气候损害作物 印度停止将糖用于乙醇生产",
+            summary: "印度已下令国有燃料零售商停止采购以食糖及主要甘蔗原料制成的乙醇，此举或将有助于控制食糖价格。 该政策将于11月1日开启的印度新供应年度生效。",
+            source: "环球市场播报",
             date: "2026-10-17",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnzst8188630.shtml"
-        },
-        {
-            title: "应届生涌向机器人秋招：年薪50万元成“白菜价”，正式offer不好拿",
-            summary: "模型训练和核心算法岗位研发门槛较高，人才依然比较稀缺。 “秋招每天点开邮箱，跟开盲盒一样。”在找工作的焦虑裹挟下，李枫不时查看信息。",
-            source: "一财网",
-            date: "2026-10-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-10-17/doc-inivnvku1484181.shtml"
-        },
-        {
-            title: "绿泡泡短剧入场，短剧为何又回到了小程序？",
-            summary: "界面新闻记者 | 李欣媛界面新闻编辑 | 姜妍 短剧正在重新回到它最初生长的地方。 9月下旬，微信上线了“绿泡泡短剧”小程序。与此前散落在微信生态中的大量短剧小程序不同...",
-            source: "界面",
-            date: "2026-10-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnvkm6593155.shtml"
-        },
-        {
-            title: "一线调研丨平均通航时间减半 流程图看“黄金水道”改革破局",
-            summary: "推进市场设施高标准联通是打破地理阻碍、加快要素流动的基础前提，也是建设全国统一大市场的重要举措。在长江支流嘉陵江畔，一场推动市场设施联通的改革正在进行。",
-            source: "央视",
-            date: "2026-10-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnvkp7323853.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyf6462171.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-17",
         marketAssessment: "A股方面：上证指数报3716.28点（+0.24%），深证成指报11802.46点（-0.12%），创业板指报2772.38点（-0.39%）。美股方面：标普500报7,659.44（-1.95%），纳斯达克报26,140.03（-4.48%）。",
         hotSectors: [

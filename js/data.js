@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3716.28", change: "+0.24%", market: "A股", updateTime: "2026-10-17 实时" },
         { name: "深证成指", code: "SZ399001", value: "11802.46", change: "-0.12%", market: "A股", updateTime: "2026-10-17 实时" },
         { name: "创业板指", code: "SZ399006", value: "2772.38", change: "-0.39%", market: "A股", updateTime: "2026-10-17 实时" },
@@ -669,7 +669,15 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+        {
+            title: "马斯克称AI和机器人是解决美国国债问题唯一途径",
+            summary: "马斯克在与传记作者沃尔特·艾萨克森的一次最新播客访谈中表示，曾由他领导的“DOGE”（政府效率部）的工作最终不了了之；这一经历证明，想要“从政府内部解决赤字问题...",
+            source: "环球市场播报",
+            date: "2026-10-17",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivpwwi8120700.shtml"
+        },
         {
             title: "Anthropic联合创始人：人工智能或推动美国经济规模到2030年达到44万亿美元",
             summary: "Anthropic联合创始人杰克·克拉克（Jack Clark）周六表示，人工智能能力的迅速提升将推动各领域发生更为迅猛的变革；该公司内部的一项模型预测，在特定条件下，到2030年...",
@@ -726,14 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyi7214566.shtml"
         },
-        {
-            title: "教师被安排“耻辱”合影事件后，雷波县将迎新县长",
-            summary: "澎湃新闻记者 蒋子文 四川省凉山州雷波县将迎来新任县长。此前，该县教师被安排“耻辱”合影事件调查结果公布，时任县长被给予党内警告处分，按程序调离县长岗位。",
-            source: "澎湃新闻",
-            date: "2026-10-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivpfyr8170845.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-10-17",
         marketAssessment: "A股方面：上证指数报3716.28点（+0.24%），深证成指报11802.46点（-0.12%），创业板指报2772.38点（-0.39%）。美股方面：标普500报7,659.44（-1.95%），纳斯达克报26,140.03（-4.48%）。",
         hotSectors: [

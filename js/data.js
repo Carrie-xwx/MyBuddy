@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3716.28", change: "+0.24%", market: "A股", updateTime: "2026-10-17 实时" },
         { name: "深证成指", code: "SZ399001", value: "11802.46", change: "-0.12%", market: "A股", updateTime: "2026-10-17 实时" },
         { name: "创业板指", code: "SZ399006", value: "2772.38", change: "-0.39%", market: "A股", updateTime: "2026-10-17 实时" },
@@ -669,7 +669,23 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+        {
+            title: "Anthropic联合创始人：人工智能或推动美国经济规模到2030年达到44万亿美元",
+            summary: "Anthropic联合创始人杰克·克拉克（Jack Clark）周六表示，人工智能能力的迅速提升将推动各领域发生更为迅猛的变革；该公司内部的一项模型预测，在特定条件下，到2030年...",
+            source: "环球市场播报",
+            date: "2026-10-17",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivpwwi8076046.shtml"
+        },
+        {
+            title: "美国大型银行股创下2008年以来最长周度连跌",
+            summary: "美国大型银行股录得2008年全球金融危机以来最长周度连跌，最新季度财报不足以提振投资者对这一低迷板块的信心。 包含24只成分股的KBW银行指数本周下跌近1%...",
+            source: "环球市场播报",
+            date: "2026-10-17",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivpsqc7127448.shtml"
+        },
         {
             title: "欧洲央行行长拉加德：债券抛售拖累经济增长并将抑制通胀",
             summary: "欧洲央行行长拉加德周六表示，债券市场的抛售正导致欧元区借贷成本上升，拖累经济增长，并最终抑制通胀。 由于投资者担忧债务和通胀问题...",
@@ -718,22 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivpfyr8170845.shtml"
         },
-        {
-            title: "沙特媒体揭秘胡塞武装手搓导弹：技术人员靠颜色编码组装弹药 零部件来源于多个国家 在也门境内完成本地组装",
-            summary: " 原标题：沙特媒体揭秘胡塞武装手搓导弹：技术人员靠颜色编码组装弹药，零部件来源于美国、日本、德国等多个国家，在也门境内完成本地组装",
-            source: "每日经济新闻",
-            date: "2026-10-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivpfyf6478196.shtml"
-        },
-        {
-            title: "厄尔尼诺气候损害作物 印度停止将糖用于乙醇生产",
-            summary: "印度已下令国有燃料零售商停止采购以食糖及主要甘蔗原料制成的乙醇，此举或将有助于控制食糖价格。 该政策将于11月1日开启的印度新供应年度生效。",
-            source: "环球市场播报",
-            date: "2026-10-17",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyf6462171.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-17",
         marketAssessment: "A股方面：上证指数报3716.28点（+0.24%），深证成指报11802.46点（-0.12%），创业板指报2772.38点（-0.39%）。美股方面：标普500报7,659.44（-1.95%），纳斯达克报26,140.03（-4.48%）。",
         hotSectors: [
-            { name: "燃料电池", reason: "板块涨幅+6.56%", strength: "强" },
-            { name: "航空装备Ⅲ", reason: "板块涨幅+5.98%", strength: "强" },
-            { name: "航空装备Ⅱ", reason: "板块涨幅+5.98%", strength: "强" },
-            { name: "地面兵装Ⅲ", reason: "板块涨幅+5.97%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "文字媒体", reason: "板块跌幅-4.60%", strength: "弱" },
-            { name: "印制电路板", reason: "板块跌幅-4.51%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注燃料电池、航空装备Ⅲ、航空装备Ⅱ等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

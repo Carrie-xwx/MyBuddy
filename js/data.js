@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3716.28", change: "+0.24%", market: "A股", updateTime: "2026-10-18 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11802.46", change: "-0.12%", market: "A股", updateTime: "2026-10-18 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2772.38", change: "-0.39%", market: "A股", updateTime: "2026-10-18 实时" },
-        { name: "沪深300", code: "SH000300", value: "4170.61", change: "+0.11%", market: "A股", updateTime: "2026-10-18 实时" },
-        { name: "科创50", code: "SH000688", value: "1358.65", change: "-0.06%", market: "A股", updateTime: "2026-10-18 实时" },
-        { name: "标普500", code: "SPX", value: "7,659.44", change: "-1.95%", market: "美股", updateTime: "2026-10-18 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,140.03", change: "-4.48%", market: "美股", updateTime: "2026-10-18 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,002.41", change: "+0.67%", market: "美股", updateTime: "2026-10-18 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3716.28", change: "+0.24%", market: "A股", updateTime: "2026-10-19 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11802.46", change: "-0.12%", market: "A股", updateTime: "2026-10-19 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2772.38", change: "-0.39%", market: "A股", updateTime: "2026-10-19 实时" },
+        { name: "沪深300", code: "SH000300", value: "4170.61", change: "+0.11%", market: "A股", updateTime: "2026-10-19 实时" },
+        { name: "科创50", code: "SH000688", value: "1358.65", change: "-0.06%", market: "A股", updateTime: "2026-10-19 实时" },
+        { name: "标普500", code: "SPX", value: "7,659.44", change: "-1.95%", market: "美股", updateTime: "2026-10-19 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,140.03", change: "-4.48%", market: "美股", updateTime: "2026-10-19 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,002.41", change: "+0.67%", market: "美股", updateTime: "2026-10-19 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "药师帮于10月16日耗资约153.12万港元回购45.8万股",
-            summary: "药师帮（09885）公布，2026年10月16日耗资约153.12万港元回购45.8万股股份。",
-            source: "新浪港股",
+            title: "韩国财长：半导体市场“至少到明年”将保持稳健",
+            summary: "韩国副总理兼财政经济部长官李炯日周六表示，半导体繁荣将至少持续到2027年。 “目前，我们的看法是，我们至少能把这种增长维持到明年...",
+            source: "环球市场播报",
             date: "2026-10-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvi7788838.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivshce1011370.shtml"
         },
         {
-            title: "威胜控股于10月16日斥资306.09万港元回购25万股",
-            summary: "威胜控股（03393）发布公告，于2026年10月16日该公司斥资306.09万港元回购25万股，回购价格为每股12.08至12.52港元。",
-            source: "新浪港股",
+            title: "牛股突发！002667，第一大股东变更！上周五股价跌停",
+            summary: "又有A股，第一大股东变更。 10月18日晚间，*ST威领（002667）公告称，在10月13日的司法拍卖中，公司控股股东上海领亿新材料有限公司（下称“上海领亿”）所持公司的285万股股...",
+            source: "证券时报",
             date: "2026-10-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvi7788254.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-18/doc-inivshcm7220452.shtml"
         },
         {
-            title: "卓越教育集团于10月16日斥资22.72万港元回购9.5万股",
-            summary: "卓越教育集团（03978）发布公告，于2026年10月16日斥资22.72万港元回购9.5万股。",
-            source: "新浪港股",
+            title: "伊朗：若美国恢复袭击 已有“新作战计划”",
+            summary: " 伊朗一名高级安全官员周日警告称，德黑兰已准备好应对美国和以色列任何再次袭击的新回应计划；与此同时，海事当局报告称，阿拉伯半岛周边发生数起独立的商船遇袭事件。",
+            source: "环球市场播报",
             date: "2026-10-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvh1015202.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivshcf7756548.shtml"
         },
         {
-            title: "石药集团授出合共7808.5万股受限制股份",
-            summary: "石药集团（01093）发布公告，于2026年10月16日，公司根据2026年股份奖励计划向集团205名获选参与者授出合共7808.5万股受限制股份...",
-            source: "新浪港股",
+            title: "周末利好！多家A股公司出手",
+            summary: "10月18日晚，包括格科微、澜起科技、中科曙光、海光信息和生益科技等多家上市公司发布回购相关公告。 中科曙光公告称，公司董事会收到董事长、总经理历军提议...",
+            source: "中国证券报",
             date: "2026-10-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvp7257249.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-10-18/doc-inivshci6465601.shtml"
         },
         {
-            title: "创科实业于10月16日斥资约719.29万港元回购5.5万股",
-            summary: " 创科实业（00669）发布公告，于2026年10月16日该公司斥资约719.29万港元回购5.5万股，回购价格为每股129.2至131.7港元。",
-            source: "新浪港股",
+            title: "603517、603838，将“摘帽”！明日停牌",
+            summary: " 10月18日，ST绝味公告称，自10月20日起复牌并撤销其他风险警示；*ST四通此前公告，自10月20日起复牌并撤销退市风险警示。两只股票明日（10月19日）停牌一天。",
+            source: "每日经济新闻",
             date: "2026-10-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvh1014233.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-18/doc-inivshcm7199069.shtml"
         },
         {
-            title: "中裕能源于10月16日斥资107.74万港元回购40万股",
-            summary: "中裕能源（03633）发布公告，于2026年10月16日斥资107.74万港元回购40万股。",
-            source: "新浪港股",
+            title: "韩国监狱人满为患 获假释囚犯人数骤增",
+            summary: " 韩国政府发布的最新数据显示，由于监狱收容能力不足，今年1月至8月，600多名囚犯在所判刑期实际执行不到60%的情况下就获得假释，较往年大幅增加。",
+            source: "央视",
             date: "2026-10-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvi7786313.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivshci6478297.shtml"
         },
         {
-            title: "恒鼎实业第三季度生产原煤88.9万吨 同比减少32%",
-            summary: " 恒鼎实业（01393）发布2026年第三季度主要经营数据，生产原煤88.9万吨，同比减少32%；生产精煤19.6万吨，同比减少51%。",
-            source: "新浪港股",
+            title: "600392，稀土大动作！",
+            summary: "来源：中国基金报 【导读】盛和资源拟联手中国稀土集团子公司，实现稀土冶炼分离业务股权合作 中国基金报记者 闻言 10月18日晚间，盛和资源发布公告称...",
+            source: "市场资讯",
             date: "2026-10-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvm6524531.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-18/doc-inivshcm7173596.shtml"
         },
         {
-            title: "碧桂园服务于10月16日耗资约154.33万港元回购30万股",
-            summary: "碧桂园服务（06098）公布，2026年10月16日耗资约154.33万港元回购30万股股份。",
-            source: "新浪港股",
+            title: "乐道汽车携手户外运动产业大会，总裁沈斐：参与城市体育是品牌使命的自然延伸",
+            summary: "新浪科技讯 10月18日晚间消息，近日，乐道汽车成为2026中国户外运动产业大会官方赞助商，乐道L90、乐道L80以及乐道L60均成为会议官方指定用车...",
+            source: "新浪科技",
             date: "2026-10-18",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvi7784402.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tob/2026-10-18/doc-inivshce0924140.shtml"
         },
     ],
 
@@ -765,17 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-10-18",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-10-19",
         marketAssessment: "A股方面：上证指数报3716.28点（+0.24%），深证成指报11802.46点（-0.12%），创业板指报2772.38点（-0.39%）。美股方面：标普500报7,659.44（-1.95%），纳斯达克报26,140.03（-4.48%）。",
         hotSectors: [
-
+            { name: "燃料电池", reason: "板块涨幅+6.56%", strength: "强" },
+            { name: "航空装备Ⅲ", reason: "板块涨幅+5.98%", strength: "强" },
+            { name: "航空装备Ⅱ", reason: "板块涨幅+5.98%", strength: "强" },
+            { name: "地面兵装Ⅲ", reason: "板块涨幅+5.97%", strength: "强" },
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注燃料电池、航空装备Ⅲ、航空装备Ⅱ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

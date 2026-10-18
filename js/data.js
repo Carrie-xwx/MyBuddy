@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3716.28", change: "+0.24%", market: "A股", updateTime: "2026-10-18 实时" },
         { name: "深证成指", code: "SZ399001", value: "11802.46", change: "-0.12%", market: "A股", updateTime: "2026-10-18 实时" },
         { name: "创业板指", code: "SZ399006", value: "2772.38", change: "-0.39%", market: "A股", updateTime: "2026-10-18 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "埃安Ray7开启预售：纯电续航最高702公里，预售价12.88万元起",
-            summary: "新浪科技讯 10月18日下午消息，纯电轿车埃安Ray7近日正式开启预售，预售价12.88万—15.88万元。 Ray7具备大5米车长、低趴宽体造型、1.30宽高比、0...",
-            source: "新浪科技",
+            title: "药师帮于10月16日耗资约153.12万港元回购45.8万股",
+            summary: "药师帮（09885）公布，2026年10月16日耗资约153.12万港元回购45.8万股股份。",
+            source: "新浪港股",
             date: "2026-10-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/tob/2026-10-18/doc-inivrvpk0993664.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvi7788838.shtml"
         },
         {
-            title: "高通孟樸：终端侧AI正发挥重要作用，智能体的发展进一步加速这一趋势",
-            summary: "新浪科技讯 10月18日下午消息，2026东北亚（沈阳）人才交流大会暨人工智能赋能产业发展大会在沈阳开幕。高通公司中国区董事长孟樸出席大会...",
-            source: "新浪科技",
+            title: "威胜控股于10月16日斥资306.09万港元回购25万股",
+            summary: "威胜控股（03393）发布公告，于2026年10月16日该公司斥资306.09万港元回购25万股，回购价格为每股12.08至12.52港元。",
+            source: "新浪港股",
             date: "2026-10-18",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/tob/2026-10-18/doc-inivrrfn1068767.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvi7788254.shtml"
         },
         {
-            title: "机场核心指标“齐降”，厦门空港拟向轻资产模式转型，短期业绩高度依赖关联交易",
-            summary: "来源：证券之星 备受关注的厦门空港（600897.SH）业务调整方案正式出炉。翔安机场将于今年底正式投入使用，厦门空港运营的高崎机场将同步关闭。",
-            source: "市场资讯",
+            title: "卓越教育集团于10月16日斥资22.72万港元回购9.5万股",
+            summary: "卓越教育集团（03978）发布公告，于2026年10月16日斥资22.72万港元回购9.5万股。",
+            source: "新浪港股",
             date: "2026-10-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-18/doc-inivrvpp6523992.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvh1015202.shtml"
         },
         {
-            title: "伯恩斯坦维持GE Aerospace目标价421美元，看好LEAP发动机售后业务及宽体机维修需求",
-            summary: "伯恩斯坦重申GE Aerospace（GE）“跑赢大盘”评级，维持421美元目标价。该机构认为，尽管能源价格上涨引发市场对航空公司推迟发动机维修的担忧...",
-            source: "环球市场播报",
+            title: "石药集团授出合共7808.5万股受限制股份",
+            summary: "石药集团（01093）发布公告，于2026年10月16日，公司根据2026年股份奖励计划向集团205名获选参与者授出合共7808.5万股受限制股份...",
+            source: "新浪港股",
             date: "2026-10-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfr6601150.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvp7257249.shtml"
         },
         {
-            title: "瑞银维持苹果296美元目标价：iPhone 18 Pro等待时间同比缩短4天，涨价后需求面临考验",
-            summary: "瑞银最新研报重申苹果（Apple）“中性”评级，维持296美元目标价。该行追踪全球30多个市场的iPhone供货情况发现，iPhone 18 Pro平均等待时间较去年同期缩短约4天...",
-            source: "环球市场播报",
+            title: "创科实业于10月16日斥资约719.29万港元回购5.5万股",
+            summary: " 创科实业（00669）发布公告，于2026年10月16日该公司斥资约719.29万港元回购5.5万股，回购价格为每股129.2至131.7港元。",
+            source: "新浪港股",
             date: "2026-10-18",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfr6600790.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvh1014233.shtml"
         },
         {
-            title: "微软取消AI相关合作，英国本土数据中心先锋企业遭遇重大挫折",
-            summary: "微软已退出一笔位于埃塞克斯的数据中心交易，对英国企业Nscale规模达数十亿美元的上市计划构成打击。 作为Nscale最大的两家客户之一，这家美国科技巨头近期通知Nscale...",
-            source: "环球市场播报",
+            title: "中裕能源于10月16日斥资107.74万港元回购40万股",
+            summary: "中裕能源（03633）发布公告，于2026年10月16日斥资107.74万港元回购40万股。",
+            source: "新浪港股",
             date: "2026-10-18",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrft7315033.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvi7786313.shtml"
         },
         {
-            title: "厄尔尼诺影响 甘蔗减产 印度禁令或抑制糖价上涨",
-            summary: "印度已下令国有燃油零售商停止采购以食糖及核心甘蔗原料制成的乙醇，此举有望抑制食糖价格上涨。今夏干旱天气重创甘蔗产量，推动全球糖价走高...",
-            source: "环球市场播报",
+            title: "恒鼎实业第三季度生产原煤88.9万吨 同比减少32%",
+            summary: " 恒鼎实业（01393）发布2026年第三季度主要经营数据，生产原煤88.9万吨，同比减少32%；生产精煤19.6万吨，同比减少51%。",
+            source: "新浪港股",
             date: "2026-10-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfn1008034.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvm6524531.shtml"
         },
         {
-            title: "瑞银看好洛克希德·马丁弹药业务：未来五年年均增长20%，维持653美元目标价",
-            summary: "瑞银重申洛克希德·马丁（Lockheed Martin）“买入”评级，目标价653美元。该行预计，受PAC-3防空导弹、THAAD反导系统以及JASSM/LRASM远程导弹项目推动...",
-            source: "环球市场播报",
+            title: "碧桂园服务于10月16日耗资约154.33万港元回购30万股",
+            summary: "碧桂园服务（06098）公布，2026年10月16日耗资约154.33万港元回购30万股股份。",
+            source: "新浪港股",
             date: "2026-10-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfn1007604.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivrzvi7784402.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-18",
         marketAssessment: "A股方面：上证指数报3716.28点（+0.24%），深证成指报11802.46点（-0.12%），创业板指报2772.38点（-0.39%）。美股方面：标普500报7,659.44（-1.95%），纳斯达克报26,140.03（-4.48%）。",
         hotSectors: [

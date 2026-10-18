@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3716.28", change: "+0.24%", market: "A股", updateTime: "2026-10-18 实时" },
         { name: "深证成指", code: "SZ399001", value: "11802.46", change: "-0.12%", market: "A股", updateTime: "2026-10-18 实时" },
         { name: "创业板指", code: "SZ399006", value: "2772.38", change: "-0.39%", market: "A股", updateTime: "2026-10-18 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "Anthropic聘请法律人士，助力AI智能体完成交易谈判",
-            summary: "Anthropic正与法律机构磋商，以解决一个全新难题：AI智能体应当如何谈判，为人类使用者争取最优交易结果。 这家总部位于旧金山的企业...",
-            source: "环球市场播报",
-            date: "2026-10-18",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrkxi6702654.shtml"
-        },
-        {
-            title: "Anthropic联合创始人克拉克：AI能力快速进步，或大幅提振美国GDP",
-            summary: "Anthropic联合创始人杰克・克拉克周六称，人工智能能力飞速进步，将在所有领域带来更快速的变革。该公司内部模型预测，在特定条件下...",
-            source: "环球市场播报",
-            date: "2026-10-18",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrers1134467.shtml"
-        },
-        {
-            title: "今年前三季度全国铁路发送旅客37.1亿人次 创历史同期新高",
-            summary: "记者今天从国铁集团获悉，今年前三季度，全国铁路累计发送旅客37.1亿人次，同比增长4.8%，创历史同期新高。 前三季度，京港高铁雄安至商丘段、西渝高铁西安至安康段...",
-            source: "央视",
+            title: "埃安Ray7开启预售：纯电续航最高702公里，预售价12.88万元起",
+            summary: "新浪科技讯 10月18日下午消息，纯电轿车埃安Ray7近日正式开启预售，预售价12.88万—15.88万元。 Ray7具备大5米车长、低趴宽体造型、1.30宽高比、0...",
+            source: "新浪科技",
             date: "2026-10-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivrerv6709121.shtml"
+            url: "https://finance.sina.com.cn/tob/2026-10-18/doc-inivrvpk0993664.shtml"
         },
         {
-            title: "韩国财长：半导体市场景气至少维持至明年",
-            summary: "韩国财政部长李炯日周六表示，半导体行业繁荣将至少延续至 2027 年。 李炯日在曼谷出席国际货币基金组织与世界银行年会间隙接受采访时称：“目前...",
-            source: "环球市场播报",
+            title: "高通孟樸：终端侧AI正发挥重要作用，智能体的发展进一步加速这一趋势",
+            summary: "新浪科技讯 10月18日下午消息，2026东北亚（沈阳）人才交流大会暨人工智能赋能产业发展大会在沈阳开幕。高通公司中国区董事长孟樸出席大会...",
+            source: "新浪科技",
             date: "2026-10-18",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrert7843032.shtml"
+            url: "https://finance.sina.com.cn/tob/2026-10-18/doc-inivrrfn1068767.shtml"
         },
         {
-            title: "委内瑞拉预计未来五年石油领域将获得近760亿美元投资",
-            summary: " 委内瑞拉代总统德尔西・罗德里格斯周六表示，该国预计未来五年油气行业将吸引近760亿美元投资，委内瑞拉正积极引入私人资本，推动能源增产。",
-            source: "环球市场播报",
-            date: "2026-10-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivqyip6845183.shtml"
-        },
-        {
-            title: "AI融资风暴来袭，亚洲AI明星企业风险凸显",
-            summary: "美国科技股持续遭抛售，暴露了亚洲AI产业链新的风险点：不断走高的融资成本，或将掐断维持AI繁荣所需资本开支，威胁整条供应链企业盈利...",
-            source: "环球市场播报",
-            date: "2026-10-18",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivqyip6816868.shtml"
-        },
-        {
-            title: "内蒙古一地首次成功试养澳洲淡水龙虾！网友：在哪儿能买到？",
-            summary: "（来源：呼伦贝尔市海拉尔区人民政府） 为丰富本地水产养殖品类 破解传统养殖效益偏低难题 今年 呼和浩特首次在土默特左旗 引进澳洲淡水龙虾 开展本土化试验养殖 经过数月...",
-            source: "",
-            date: "2026-10-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/wm/2026-10-18/doc-inivqyim6086156.shtml"
-        },
-        {
-            title: "国信证券：科技筹码出清，走到哪一步了？",
-            summary: "来源：智通财经网 国信证券发布研究报告称，科技抛压扰动市场行情走势，较高点杠杆资金、偏股公募、短线外资、险资筹码出清约1-2成，私募、长线外资...",
+            title: "机场核心指标“齐降”，厦门空港拟向轻资产模式转型，短期业绩高度依赖关联交易",
+            summary: "来源：证券之星 备受关注的厦门空港（600897.SH）业务调整方案正式出炉。翔安机场将于今年底正式投入使用，厦门空港运营的高崎机场将同步关闭。",
             source: "市场资讯",
             date: "2026-10-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-18/doc-inivqyim6080041.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-10-18/doc-inivrvpp6523992.shtml"
+        },
+        {
+            title: "伯恩斯坦维持GE Aerospace目标价421美元，看好LEAP发动机售后业务及宽体机维修需求",
+            summary: "伯恩斯坦重申GE Aerospace（GE）“跑赢大盘”评级，维持421美元目标价。该机构认为，尽管能源价格上涨引发市场对航空公司推迟发动机维修的担忧...",
+            source: "环球市场播报",
+            date: "2026-10-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfr6601150.shtml"
+        },
+        {
+            title: "瑞银维持苹果296美元目标价：iPhone 18 Pro等待时间同比缩短4天，涨价后需求面临考验",
+            summary: "瑞银最新研报重申苹果（Apple）“中性”评级，维持296美元目标价。该行追踪全球30多个市场的iPhone供货情况发现，iPhone 18 Pro平均等待时间较去年同期缩短约4天...",
+            source: "环球市场播报",
+            date: "2026-10-18",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfr6600790.shtml"
+        },
+        {
+            title: "微软取消AI相关合作，英国本土数据中心先锋企业遭遇重大挫折",
+            summary: "微软已退出一笔位于埃塞克斯的数据中心交易，对英国企业Nscale规模达数十亿美元的上市计划构成打击。 作为Nscale最大的两家客户之一，这家美国科技巨头近期通知Nscale...",
+            source: "环球市场播报",
+            date: "2026-10-18",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrft7315033.shtml"
+        },
+        {
+            title: "厄尔尼诺影响 甘蔗减产 印度禁令或抑制糖价上涨",
+            summary: "印度已下令国有燃油零售商停止采购以食糖及核心甘蔗原料制成的乙醇，此举有望抑制食糖价格上涨。今夏干旱天气重创甘蔗产量，推动全球糖价走高...",
+            source: "环球市场播报",
+            date: "2026-10-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfn1008034.shtml"
+        },
+        {
+            title: "瑞银看好洛克希德·马丁弹药业务：未来五年年均增长20%，维持653美元目标价",
+            summary: "瑞银重申洛克希德·马丁（Lockheed Martin）“买入”评级，目标价653美元。该行预计，受PAC-3防空导弹、THAAD反导系统以及JASSM/LRASM远程导弹项目推动...",
+            source: "环球市场播报",
+            date: "2026-10-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfn1007604.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-18",
         marketAssessment: "A股方面：上证指数报3716.28点（+0.24%），深证成指报11802.46点（-0.12%），创业板指报2772.38点（-0.39%）。美股方面：标普500报7,659.44（-1.95%），纳斯达克报26,140.03（-4.48%）。",
         hotSectors: [
-            { name: "燃料电池", reason: "板块涨幅+6.56%", strength: "强" },
-            { name: "航空装备Ⅲ", reason: "板块涨幅+5.98%", strength: "强" },
-            { name: "航空装备Ⅱ", reason: "板块涨幅+5.98%", strength: "强" },
-            { name: "地面兵装Ⅲ", reason: "板块涨幅+5.97%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "文字媒体", reason: "板块跌幅-4.60%", strength: "弱" },
-            { name: "印制电路板", reason: "板块跌幅-4.51%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注燃料电池、航空装备Ⅲ、航空装备Ⅱ等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

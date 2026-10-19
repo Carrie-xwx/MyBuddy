@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3730.92", change: "+0.39%", market: "A股", updateTime: "2026-10-19 实时" },
         { name: "深证成指", code: "SZ399001", value: "11817.42", change: "+0.13%", market: "A股", updateTime: "2026-10-19 实时" },
         { name: "创业板指", code: "SZ399006", value: "2746.29", change: "-0.94%", market: "A股", updateTime: "2026-10-19 实时" },
         { name: "沪深300", code: "SH000300", value: "4174.53", change: "+0.09%", market: "A股", updateTime: "2026-10-19 实时" },
         { name: "科创50", code: "SH000688", value: "1329.19", change: "-2.17%", market: "A股", updateTime: "2026-10-19 实时" },
-        { name: "标普500", code: "SPX", value: "7,659.44", change: "-1.95%", market: "美股", updateTime: "2026-10-19 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,140.03", change: "-4.48%", market: "美股", updateTime: "2026-10-19 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,002.41", change: "+0.67%", market: "美股", updateTime: "2026-10-19 收盘" },
+        { name: "标普500", code: "SPX", value: "7,726.97", change: "-1.03%", market: "美股", updateTime: "2026-10-19 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,600.92", change: "-2.37%", market: "美股", updateTime: "2026-10-19 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,097.05", change: "+0.48%", market: "美股", updateTime: "2026-10-19 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "涨停！这家“*ST”公司，获控股股东无偿赠送6000万元",
-            summary: "10月18日晚，*ST准油公告，公司10月16日收到控股股东克拉玛依市城市建设投资发展有限责任公司（简称：“克拉玛依城投”）出具的《关于赠与现金资产的函》。",
-            source: "",
-            date: "2026-10-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-19/doc-inivueup6873179.shtml"
-        },
-        {
-            title: "证监会：全力维护资本市场安全稳定，近期将推出四项举措，完善违规减持处罚规则",
-            summary: "来源：国际金融报 10月19日，证监会主席吴清出席2026金融街论坛年会开幕式并作主题演讲。 吴清表示，坚持稳字当头，全力维护资本市场安全稳定。",
-            source: "市场资讯",
-            date: "2026-10-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-19/doc-inivueuh0906456.shtml"
-        },
-        {
-            title: "格林尼治亿万富豪夫妇豪掷重金，试图重塑民主党",
-            summary: "史蒂夫和苏·曼德尔资助了至少三个新组织，向民主党建制派发起挑战 11月3日中期选举结束十天后，约2000名民主党人将齐聚丹佛的一处音乐演出场地...",
+            title: "Anthropic是今年大型IPO的最后一大希望",
+            summary: "进入2026年时，投资者曾对一系列新IPO的前景感到兴奋，包括SpaceX、Anthropic和OpenAI等超大市值私营公司的IPO。 但如今，投资者将不得不接受低于年初预期的结果：OpenAI已...",
             source: "环球市场播报",
             date: "2026-10-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivueuh0901892.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivurkf6125340.shtml"
         },
         {
-            title: "金融监管总局：稳妥处置高风险机构",
-            summary: "10月19日，金融监管总局局长丁向群出席2026金融街论坛年会开幕式并作主题演讲。 金融监管总局：稳妥处置高风险机构 推动风险持续收敛 金融监管总局局长丁向群表示，当前...",
-            source: "证券时报",
-            date: "2026-10-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-19/doc-inivueup6861334.shtml"
-        },
-        {
-            title: "吴清：坚持稳字当头，全力维护资本市场安全稳定",
-            summary: "10月19日，证监会主席吴清在2026金融街论坛年会上表示，当前和今后一个时期，证监会将坚持稳中求进工作总基调，扎扎实实办好自己的事...",
-            source: "中国证券报-中证网",
-            date: "2026-10-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivueuh0904246.shtml"
-        },
-        {
-            title: "吴清，最新发声！中国资产配置价值更加凸显",
-            summary: "10月19日，证监会主席吴清在2026金融街论坛年会开幕式上发表讲话，内容如下： 全力应对多重超预期输入性风险挑战 吴清表示，证监会深入落实国家“十五五”规划和新“国九条”部...",
-            source: "券商中国",
-            date: "2026-10-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-19/doc-inivueuh0872152.shtml"
-        },
-        {
-            title: "吴清：全力应对多重超预期输入性风险挑战",
-            summary: "10月19日，证监会主席吴清在2026金融街论坛年会上表示，今年是“十五五”开局之年，在党中央、国务院坚强领导下，在中央金融委统筹指挥协调下...",
-            source: "中国证券报",
-            date: "2026-10-19",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-19/doc-inivueup6837686.shtml"
-        },
-        {
-            title: "台积电熊本产出计划变更 二厂改产3nm并下调产能",
-            summary: "日本经济产业省于2026年10月16日认定了台积电及其日本子公司JASM（Japan Advanced Semiconductor Manufacturing）就熊本第二工厂提交的生产计划变更。",
+            title: "汇丰开始为资产管理业务寻找新任首席执行官",
+            summary: "汇丰控股已开始为旗下资产管理业务寻找新任首席执行官，以接替Nicolas Moreau。 该行代表已开始接触潜在候选人，了解他们对这一职位的兴趣。",
             source: "环球市场播报",
             date: "2026-10-19",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtynp6233624.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivurka0974898.shtml"
+        },
+        {
+            title: "特朗普经济顾问哈塞特：通胀仍需关注 尊重美联储独立性",
+            summary: " 白宫国家经济委员会主任凯文·哈塞特表示，牛肉和鸡蛋等商品价格在下降，但9月消费者价格数据显示，整体通胀仍需政策关注。",
+            source: "环球市场播报",
+            date: "2026-10-19",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivurkf6118042.shtml"
+        },
+        {
+            title: "Lombard Odier认为美国增长前景将推动美元进一步走强",
+            summary: " 随着美国经济增长更加强劲，以及市场对美联储独立性的担忧缓解，美元前景有所改善，Lombard Odier &amp; Cie转而看涨美元，扭转了此前的看空立场。",
+            source: "环球市场播报",
+            date: "2026-10-19",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivurkc7740001.shtml"
+        },
+        {
+            title: "民调：勒庞将在法国大选首轮投票中取胜 得票率至少31%",
+            summary: " Cluster 17为《观点》杂志进行的一项投票意向调查显示，法国极右翼领导人玛丽娜·勒庞将在总统选举首轮投票中领先，得票率至少31%。",
+            source: "环球市场播报",
+            date: "2026-10-19",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivurka0951207.shtml"
+        },
+        {
+            title: "胡塞武装持续袭击 沙特取消旗舰投资大会线下参会安排",
+            summary: " 沙特已排除今年以线下形式举办其旗舰投资大会，持续不断的胡塞武装袭击扰乱了前往沙特的交通，打击了利雅得吸引外国资本并将自身打造为全球商业中心的努力。",
+            source: "环球市场播报",
+            date: "2026-10-19",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivurki6828321.shtml"
+        },
+        {
+            title: "美国国防部首席技术官：考虑投资微电子企业",
+            summary: " 美国国防部首席技术官Emil Michael在接受采访时表示，五角大楼正在“关注微电子企业”，以及从事目前“只有阿斯麦和台积电从事”的部分供应链环节的公司。",
+            source: "环球市场播报",
+            date: "2026-10-19",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivurkf6087938.shtml"
+        },
+        {
+            title: "伊朗外长：针对里海地区伊朗和俄罗斯船只的袭击令人深感关切",
+            summary: " 伊朗外交部长阿巴斯·阿拉格齐表示，针对里海地区伊朗和俄罗斯船只的袭击，以及对当地“港口基础设施”的打击，对地区和平造成“严重后果”。",
+            source: "环球市场播报",
+            date: "2026-10-19",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivurka0936564.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-19",
-        marketAssessment: "A股方面：上证指数报3730.92点（+0.39%），深证成指报11817.42点（+0.13%），创业板指报2746.29点（-0.94%）。美股方面：标普500报7,659.44（-1.95%），纳斯达克报26,140.03（-4.48%）。",
+        marketAssessment: "A股方面：上证指数报3730.92点（+0.39%），深证成指报11817.42点（+0.13%），创业板指报2746.29点（-0.94%）。美股方面：标普500报7,726.97（-1.03%），纳斯达克报26,600.92（-2.37%）。",
         hotSectors: [
-
+            { name: "其他数字媒体", reason: "板块涨幅+12.49%", strength: "强" },
+            { name: "地面兵装Ⅲ", reason: "板块涨幅+4.34%", strength: "强" },
+            { name: "地面兵装Ⅱ", reason: "板块涨幅+4.34%", strength: "强" },
+            { name: "钾肥", reason: "板块涨幅+3.39%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "教育运营及其他", reason: "板块跌幅-6.78%", strength: "弱" },
+            { name: "其他种植业", reason: "板块跌幅-4.72%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注其他数字媒体、地面兵装Ⅲ、地面兵装Ⅱ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

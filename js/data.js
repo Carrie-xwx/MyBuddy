@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3735.37", change: "+0.12%", market: "A股", updateTime: "2026-10-21 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11801.29", change: "-0.14%", market: "A股", updateTime: "2026-10-21 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2739.20", change: "-0.26%", market: "A股", updateTime: "2026-10-21 实时" },
-        { name: "沪深300", code: "SH000300", value: "4152.11", change: "-0.54%", market: "A股", updateTime: "2026-10-21 实时" },
-        { name: "科创50", code: "SH000688", value: "1342.42", change: "+1.00%", market: "A股", updateTime: "2026-10-21 实时" },
-        { name: "标普500", code: "SPX", value: "7,721.46", change: "-1.08%", market: "美股", updateTime: "2026-10-21 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,495.97", change: "-2.60%", market: "美股", updateTime: "2026-10-21 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,466.77", change: "+1.54%", market: "美股", updateTime: "2026-10-21 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3718.54", change: "-0.45%", market: "A股", updateTime: "2026-10-21 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11739.44", change: "-0.52%", market: "A股", updateTime: "2026-10-21 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2703.22", change: "-1.31%", market: "A股", updateTime: "2026-10-21 实时" },
+        { name: "沪深300", code: "SH000300", value: "4118.53", change: "-0.81%", market: "A股", updateTime: "2026-10-21 实时" },
+        { name: "科创50", code: "SH000688", value: "1344.49", change: "+0.15%", market: "A股", updateTime: "2026-10-21 实时" },
+        { name: "标普500", code: "SPX", value: "7,712.57", change: "-1.19%", market: "美股", updateTime: "2026-10-21 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,424.82", change: "-2.87%", market: "美股", updateTime: "2026-10-21 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,495.88", change: "+1.60%", market: "美股", updateTime: "2026-10-21 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "CFA三级考试通过率降至47% 低于历史平均水平",
-            summary: "特许金融分析师（CFA）三级考试通过率继续低于过去十年的平均水平。 CFA协会周二表示，8月三级考试通过率为47%，低于去年2月和8月均为50%的通过率...",
-            source: "环球市场播报",
-            date: "2026-10-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-21/doc-inivwyqz7734540.shtml"
-        },
-        {
-            title: "美银启动永续债发行 为数日内第二笔发债交易",
-            summary: "美国银行启动数日内第二笔投资级债券发行，在上周募资80亿美元后，将发行永续债。 知情人士称，这批债券最早可在五年后赎回，初步讨论的收益率区间为7.5%至7.625%。",
-            source: "环球市场播报",
-            date: "2026-10-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-21/doc-inivwyrf6419459.shtml"
-        },
-        {
-            title: "称赞马克龙经济团队一流 贝森特料法国债市动荡不会外溢",
-            summary: "美国财政部长斯科特·贝森特表示，他不认为收益率飙升引发财政状况之忧的法国债券市场会对外产生溢出效应。 “我不认为法国的情况会蔓延到其他地方...",
-            source: "环球市场播报",
-            date: "2026-10-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-21/doc-inivwyqz7733851.shtml"
-        },
-        {
-            title: "欧洲债市：德国国债上涨 伊朗谈判消息引发市场波动",
-            summary: "德国国债上涨，法国国债相对德国国债的收益率溢价有所收窄。此前一则未经证实的报道称，卡塔尔和巴基斯坦提出新方案以推动结束伊朗战争，能源价格应声下跌。",
+            title: "日本央行副行长暗示准备好继续加息",
+            summary: " 日本央行副行长冰见野良三周三表示，日本的基础通胀水平已相当接近央行设定的2%目标，且金融环境依然保持宽松。这释放出日本央行已准备好上调借贷成本的信号。",
             source: "环球市场播报",
             date: "2026-10-21",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-10-21/doc-inivwyrc5685100.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivyhkp5438414.shtml"
         },
         {
-            title: "卡塔尔和巴基斯坦据报提出新方案以推动结束伊朗战争 布伦特原油跌3%",
-            summary: "一则未经证实的报道称，卡塔尔和巴基斯坦提出了一项新方案，试图重启谈判以结束伊朗战争，布伦特原油价格随之下跌。 该消息推动这一全球基准油价下跌逾3%...",
-            source: "环球市场播报",
-            date: "2026-10-20",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-10-20/doc-inivwyrc5651665.shtml"
-        },
-        {
-            title: "法国国债风险指标徘徊高位 相对德债收益率溢价一度突破150基点",
-            summary: "衡量法国债券风险的一项指标周二突破关键水平。 10年期法国国债相对同期限德国国债的收益率溢价突破150基点，至154个基点，为10月2日以来最大。",
-            source: "环球市场播报",
-            date: "2026-10-20",
+            title: "滴普科技DeepWorks企业智能体平台开放自主注册 无需邀请码即可体验",
+            summary: "新浪科技讯 10月21日中午消息，即日起，滴普科技旗下企业智能体平台 DeepWorks 正式结束申请试用模式，面向所有用户开放自主注册。",
+            source: "市场资讯",
+            date: "2026-10-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-20/doc-inivwyqz7688630.shtml"
+            url: "https://finance.sina.com.cn/china/gncj/2026-10-21/doc-inivyhkr6162011.shtml"
         },
         {
-            title: "交易员认为SpaceX财报发布后股价将继续上涨 看涨合约成交活跃",
-            summary: "对SpaceX而言，过去三个月动作不断。 该公司以创纪录的速度将四名宇航员送往国际空间站、拓展移动网络频谱资源；据报道，其正洽谈一笔400亿美元的债务融资...",
-            source: "环球市场播报",
-            date: "2026-10-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivwyqz7676589.shtml"
+            title: "美银证券：理想汽车-W维持“中性”评级 目标价58.9港元",
+            summary: "美银证券发布研报称，维持理想汽车-W（02015）“中性”评级及H股目标价58.9港元。该行指出，理想汽车日前宣布旗下专注芯片及域控制器业务的附属公司MHX Technology将进行16...",
+            source: "新浪港股",
+            date: "2026-10-21",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-21/doc-inivyhkr6156523.shtml"
         },
         {
-            title: "彭博美元指数跌至近三周低点 布伦特原油走低",
-            summary: "随着布伦特原油价格周二下跌约3%，彭博美元现货指数下跌0.4%，至9月30日以来最低水平。 G-10所有货币兑美元均上涨，其中英镑和澳元涨幅居前...",
+            title: "镍价连续第四日上涨 市场聚焦印尼可能减产规模",
+            summary: "镍价连续第四个交易日上涨。中国生产商可能协调削减印尼产量，推动市场对供应趋紧的预期升温。 伦敦金属交易所镍价一度上涨2%，逼近每吨16，000美元...",
             source: "环球市场播报",
-            date: "2026-10-20",
+            date: "2026-10-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivwyqz7672539.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivyhks7974013.shtml"
+        },
+        {
+            title: "币安美国向美国监管申请推出预测市场服务",
+            summary: "媒体援引知情匿名人士消息，币安美国已提交监管申请，计划在美国境内提供预测市场业务。 英国加密平台Blockchain.com上周也递交申请...",
+            source: "环球市场播报",
+            date: "2026-10-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivyhku4737471.shtml"
+        },
+        {
+            title: "中金：奇瑞汽车维持“跑赢行业”评级 目标价35港元",
+            summary: "中金发布研报称，维持奇瑞汽车（09973）2026年及2027年净利润预测不变，分别为202亿元和251亿元，维持“跑赢行业”评级及35港元目标价，较当前股价有43%的上行空间。",
+            source: "新浪港股",
+            date: "2026-10-21",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-21/doc-inivyaar5546634.shtml"
+        },
+        {
+            title: "农业银行将于11月25日派发中期股息每10股1.522165港元",
+            summary: "农业银行（01288）发布公告，将于2026年11月25日派发截至2026年6月30日止六个月的中期股息每10股1.522165港元。",
+            source: "新浪港股",
+            date: "2026-10-21",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-21/doc-inivyaar5545950.shtml"
+        },
+        {
+            title: "工商银行将于11月25日派发中期股息每10股1.77332港元",
+            summary: "工商银行（01398）发布公告，将于2026年11月25日派发截至2026年6月30日止六个月的中期股息每10股1.77332港元。",
+            source: "新浪港股",
+            date: "2026-10-21",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-21/doc-inivyaat6277394.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-10-21",
-        marketAssessment: "A股方面：上证指数报3735.37点（+0.12%），深证成指报11801.29点（-0.14%），创业板指报2739.20点（-0.26%）。美股方面：标普500报7,721.46（-1.08%），纳斯达克报26,495.97（-2.60%）。",
+        marketAssessment: "A股方面：上证指数报3718.54点（-0.45%），深证成指报11739.44点（-0.52%），创业板指报2703.22点（-1.31%）。美股方面：标普500报7,712.57（-1.19%），纳斯达克报26,424.82（-2.87%）。",
         hotSectors: [
-
+            { name: "其他数字媒体", reason: "板块涨幅+7.56%", strength: "强" },
+            { name: "广告媒体", reason: "板块涨幅+5.93%", strength: "强" },
+            { name: "林业Ⅲ", reason: "板块涨幅+3.78%", strength: "强" },
+            { name: "林业Ⅱ", reason: "板块涨幅+3.78%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "人力资源服务", reason: "板块跌幅-3.82%", strength: "弱" },
+            { name: "电信运营商", reason: "板块跌幅-3.58%", strength: "弱" },
         ],
-        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
+        shortTermStrategy: "超短线关注其他数字媒体、广告媒体、林业Ⅲ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

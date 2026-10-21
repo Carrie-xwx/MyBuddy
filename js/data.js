@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3718.54", change: "-0.45%", market: "A股", updateTime: "2026-10-21 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11739.44", change: "-0.52%", market: "A股", updateTime: "2026-10-21 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2703.22", change: "-1.31%", market: "A股", updateTime: "2026-10-21 实时" },
-        { name: "沪深300", code: "SH000300", value: "4118.53", change: "-0.81%", market: "A股", updateTime: "2026-10-21 实时" },
-        { name: "科创50", code: "SH000688", value: "1344.49", change: "+0.15%", market: "A股", updateTime: "2026-10-21 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3713.03", change: "-0.60%", market: "A股", updateTime: "2026-10-21 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11704.35", change: "-0.82%", market: "A股", updateTime: "2026-10-21 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2694.71", change: "-1.62%", market: "A股", updateTime: "2026-10-21 实时" },
+        { name: "沪深300", code: "SH000300", value: "4111.93", change: "-0.97%", market: "A股", updateTime: "2026-10-21 实时" },
+        { name: "科创50", code: "SH000688", value: "1343.28", change: "+0.06%", market: "A股", updateTime: "2026-10-21 实时" },
         { name: "标普500", code: "SPX", value: "7,712.57", change: "-1.19%", market: "美股", updateTime: "2026-10-21 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,424.82", change: "-2.87%", market: "美股", updateTime: "2026-10-21 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,495.88", change: "+1.60%", market: "美股", updateTime: "2026-10-21 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "日本央行副行长暗示准备好继续加息",
-            summary: " 日本央行副行长冰见野良三周三表示，日本的基础通胀水平已相当接近央行设定的2%目标，且金融环境依然保持宽松。这释放出日本央行已准备好上调借贷成本的信号。",
+            title: "法国国债风险指标逼近160个基点 创15年新高",
+            summary: "随着对法国财政前景的担忧拖累市场，投资者要求持有法国国债获得更高的风险溢价。 备受关注的法国与德国10年期国债收益率之差扩大6个基点至159.4个基点，创15年来最宽。",
             source: "环球市场播报",
             date: "2026-10-21",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivyhkp5438414.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-21/doc-inivysyq4832102.shtml"
         },
         {
-            title: "滴普科技DeepWorks企业智能体平台开放自主注册 无需邀请码即可体验",
-            summary: "新浪科技讯 10月21日中午消息，即日起，滴普科技旗下企业智能体平台 DeepWorks 正式结束申请试用模式，面向所有用户开放自主注册。",
+            title: "法国10年期国债收益率自2002年以来首次升至5%",
+            summary: "法国基准国债收益率自2002年以来首次升至5%，能源价格上涨引发欧元区债券普遍抛售。 法国10年期国债收益率上涨7个基点至5%，创2002年7月以来最高水平。",
+            source: "环球市场播报",
+            date: "2026-10-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-21/doc-inivysyi5400178.shtml"
+        },
+        {
+            title: "法国借贷成本升至5%，为2002年以来首次",
+            summary: "市场担忧法国财政状况及政治稳定性，推动10年期国债收益率从2月底的3.2%持续攀升 法国长期借贷成本升至5%，触及2002年以来未见的水平。",
+            source: "环球市场播报",
+            date: "2026-10-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivysyq4821722.shtml"
+        },
+        {
+            title: "再造一个“汇源”，朱新礼有多大胜算",
+            summary: "图片来源：咱家果源视频号界面新闻记者 | 赵晓娟界面新闻编辑 | 许悦 10月19日，汇源集团宣布与“汇源”品牌切割，全面启用新品牌“咱家果源”...",
+            source: "界面",
+            date: "2026-10-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/wm/2026-10-21/doc-inivysyn8052883.shtml"
+        },
+        {
+            title: "招金集团滕杰田：黄金矿业正经历从规模驱动到质量引领的深刻转型",
+            summary: "2026可持续全球领导者大会于10月20日-22日在上海举行，在由世界黄金协会与新浪财经联合举办的主题为“经济新格局与消费新篇章”行业论坛上...",
             source: "市场资讯",
             date: "2026-10-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/gncj/2026-10-21/doc-inivyhkr6162011.shtml"
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-10-21/doc-inivysyn8037511.shtml"
         },
         {
-            title: "美银证券：理想汽车-W维持“中性”评级 目标价58.9港元",
-            summary: "美银证券发布研报称，维持理想汽车-W（02015）“中性”评级及H股目标价58.9港元。该行指出，理想汽车日前宣布旗下专注芯片及域控制器业务的附属公司MHX Technology将进行16...",
-            source: "新浪港股",
-            date: "2026-10-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-21/doc-inivyhkr6156523.shtml"
-        },
-        {
-            title: "镍价连续第四日上涨 市场聚焦印尼可能减产规模",
-            summary: "镍价连续第四个交易日上涨。中国生产商可能协调削减印尼产量，推动市场对供应趋紧的预期升温。 伦敦金属交易所镍价一度上涨2%，逼近每吨16，000美元...",
+            title: "俄副总理：首艘装载俄柴油、运往美国的油轮计划22日出发",
+            summary: "首艘装载俄罗斯柴油、运往美国的油轮计划于10月22日从港口出发。俄罗斯副总理亚历山大·诺瓦克向记者通报了这一消息。 “首艘油轮计划明天，也就是10月22日离港。",
             source: "环球市场播报",
             date: "2026-10-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivyhks7974013.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivynss4930711.shtml"
         },
         {
-            title: "币安美国向美国监管申请推出预测市场服务",
-            summary: "媒体援引知情匿名人士消息，币安美国已提交监管申请，计划在美国境内提供预测市场业务。 英国加密平台Blockchain.com上周也递交申请...",
+            title: "期权押注增多 交易员赌月末美国10年期国债收益率突破5.3%",
+            summary: "交易员正在加码期权头寸，押注美国10年期国债收益率从当前约5.11%的水平，到月末至少上行20个基点。 两名伦敦交易员称，市场买入12000手TY Wk5合约、行权价104...",
             source: "环球市场播报",
             date: "2026-10-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-21/doc-inivyhku4737471.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-21/doc-inivynss4927275.shtml"
         },
         {
-            title: "中金：奇瑞汽车维持“跑赢行业”评级 目标价35港元",
-            summary: "中金发布研报称，维持奇瑞汽车（09973）2026年及2027年净利润预测不变，分别为202亿元和251亿元，维持“跑赢行业”评级及35港元目标价，较当前股价有43%的上行空间。",
-            source: "新浪港股",
+            title: "英国通胀升至11个月高位 英国央行加息预期升温",
+            summary: "汽油和柴油价格飙升，推动英国通胀率升至11个月高位。涨幅之大超出预期，使英国央行有望实施三年多来首次加息。 英国国家统计局周三表示，截至9月的12个月...",
+            source: "环球市场播报",
             date: "2026-10-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-21/doc-inivyaar5546634.shtml"
-        },
-        {
-            title: "农业银行将于11月25日派发中期股息每10股1.522165港元",
-            summary: "农业银行（01288）发布公告，将于2026年11月25日派发截至2026年6月30日止六个月的中期股息每10股1.522165港元。",
-            source: "新浪港股",
-            date: "2026-10-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-21/doc-inivyaar5545950.shtml"
-        },
-        {
-            title: "工商银行将于11月25日派发中期股息每10股1.77332港元",
-            summary: "工商银行（01398）发布公告，将于2026年11月25日派发截至2026年6月30日止六个月的中期股息每10股1.77332港元。",
-            source: "新浪港股",
-            date: "2026-10-21",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-21/doc-inivyaat6277394.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-21/doc-inivynsm5507205.shtml"
         },
     ],
 
@@ -765,21 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-21",
-        marketAssessment: "A股方面：上证指数报3718.54点（-0.45%），深证成指报11739.44点（-0.52%），创业板指报2703.22点（-1.31%）。美股方面：标普500报7,712.57（-1.19%），纳斯达克报26,424.82（-2.87%）。",
+        marketAssessment: "A股方面：上证指数报3713.03点（-0.60%），深证成指报11704.35点（-0.82%），创业板指报2694.71点（-1.62%）。美股方面：标普500报7,712.57（-1.19%），纳斯达克报26,424.82（-2.87%）。",
         hotSectors: [
-            { name: "其他数字媒体", reason: "板块涨幅+7.56%", strength: "强" },
-            { name: "广告媒体", reason: "板块涨幅+5.93%", strength: "强" },
-            { name: "林业Ⅲ", reason: "板块涨幅+3.78%", strength: "强" },
-            { name: "林业Ⅱ", reason: "板块涨幅+3.78%", strength: "强" },
+            { name: "广告媒体", reason: "板块涨幅+6.85%", strength: "强" },
+            { name: "其他数字媒体", reason: "板块涨幅+6.61%", strength: "强" },
+            { name: "生猪养殖", reason: "板块涨幅+3.79%", strength: "强" },
+            { name: "电视广播Ⅲ", reason: "板块涨幅+3.26%", strength: "强" },
         ],
         weakSectors: [
-            { name: "人力资源服务", reason: "板块跌幅-3.82%", strength: "弱" },
-            { name: "电信运营商", reason: "板块跌幅-3.58%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注其他数字媒体、广告媒体、林业Ⅲ等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注广告媒体、其他数字媒体、生猪养殖等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

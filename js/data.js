@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3658.03", change: "-1.48%", market: "A股", updateTime: "2026-10-22 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11357.32", change: "-2.96%", market: "A股", updateTime: "2026-10-22 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2576.90", change: "-4.37%", market: "A股", updateTime: "2026-10-22 实时" },
-        { name: "沪深300", code: "SH000300", value: "4036.30", change: "-1.84%", market: "A股", updateTime: "2026-10-22 实时" },
-        { name: "科创50", code: "SH000688", value: "1305.87", change: "-2.78%", market: "A股", updateTime: "2026-10-22 实时" },
-        { name: "标普500", code: "SPX", value: "7,691.26", change: "-0.68%", market: "美股", updateTime: "2026-10-22 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,291.22", change: "-1.58%", market: "美股", updateTime: "2026-10-22 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,791.84", change: "+1.18%", market: "美股", updateTime: "2026-10-22 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3658.03", change: "-1.48%", market: "A股", updateTime: "2026-10-23 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11357.32", change: "-2.96%", market: "A股", updateTime: "2026-10-23 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2576.90", change: "-4.37%", market: "A股", updateTime: "2026-10-23 实时" },
+        { name: "沪深300", code: "SH000300", value: "4036.30", change: "-1.84%", market: "A股", updateTime: "2026-10-23 实时" },
+        { name: "科创50", code: "SH000688", value: "1305.87", change: "-2.78%", market: "A股", updateTime: "2026-10-23 实时" },
+        { name: "标普500", code: "SPX", value: "7,658.26", change: "-1.11%", market: "美股", updateTime: "2026-10-23 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,050.08", change: "-2.48%", market: "美股", updateTime: "2026-10-23 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,780.48", change: "+1.16%", market: "美股", updateTime: "2026-10-23 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "壳牌与埃克森美孚英国化工合资企业挂牌出售 价值80亿美元",
-            summary: "壳牌参股的一家英国化工企业正寻求以80亿美元的估值出售。这家能源巨头持续剥离非核心业务板块，重新聚焦油气主业。 知情人士透露，由壳牌...",
+            title: "欧洲股市收盘下跌 企业财报令人失望且AI忧虑重燃",
+            summary: "受爱马仕等大型公司业绩不及预期以及人工智能相关担忧再度升温影响，欧洲股市下跌。 欧洲斯托克600指数收盘下跌1%。矿业股和银行股跌幅居前，食品饮料板块则上涨。",
             source: "环球市场播报",
-            date: "2026-10-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwchpk5006340.shtml"
-        },
-        {
-            title: "开盘：纳指跌1.5% AI担忧升温 特斯拉、Meta等拖累指数",
-            summary: "美股周四开盘下跌，Meta、特斯拉等大盘巨头拖累指数，市场对AI交易行情的担忧升温；与此同时，地缘紧张情绪推高油价。 截至发稿，道琼斯工业平均指数下跌218点，跌幅0...",
-            source: "环球市场播报",
-            date: "2026-10-22",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwchpk4997568.shtml"
-        },
-        {
-            title: "SpaceX：下一个伯克希尔，还是一盘乱局？",
-            summary: "马斯克试图合并SpaceX与特斯拉，这笔交易或许对马斯克本人有利，但对股东而言——尤其是特斯拉股东，利好并不明显。 一旦合并，马斯克旗下主要业务将归于同一主体...",
-            source: "环球市场播报",
-            date: "2026-10-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwchph8220452.shtml"
-        },
-        {
-            title: "AI支出计划引发担忧 Meta信用风险指标升至新高",
-            summary: " Meta Platforms Inc．表示，公司未来与各类租赁和合同相关的支出承诺约为8，250亿美元，其中许多与人工智能所需的算力和基础设施有关。",
-            source: "环球市场播报",
-            date: "2026-10-22",
+            date: "2026-10-23",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwchph8219299.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-23/doc-iniwctce4923854.shtml"
         },
         {
-            title: "300221，董事会与“牛散”股东矛盾升级！双方回应→",
-            summary: "银禧科技打出“诉讼牌”。 10月21日晚间，彭朝晖通过银禧科技（300221）的公告得知自己成为被告。 银禧科技认为彭朝晖等六名自然人股东构成一致行动人关系...",
-            source: "",
-            date: "2026-10-22",
+            title: "欧洲债市：法国国债相对于德债的收益率溢价达到175个基点",
+            summary: "周四，法国10年期国债相对于德国国债的收益率溢价上涨15个基点，收于近175个基点。 法国10年期国债较意大利国债的收益率溢价首次达到50个基点；收于49.9个基点。",
+            source: "环球市场播报",
+            date: "2026-10-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-22/doc-iniwchpk4991564.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-23/doc-iniwctaz5804614.shtml"
         },
         {
-            title: "152家企，港股“上市申请失效”",
-            summary: "来源：智通财经网 港股IPO市场在经历阶段性活跃后，部分项目开始显现出调整迹象。从上市申请失效，到拟上市企业临近挂牌时宣布延迟发行...",
-            source: "市场资讯",
-            date: "2026-10-22",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-10-22/doc-iniwchpc5172854.shtml"
+            title: "欧洲央行管委Panetta：债券收益率上升将抑制经济增长",
+            summary: "欧洲央行管理委员会成员Fabio Panetta表示，债券收益率跃升将抑制该地区经济，不过就目前情况而言并不严重。 这位意大利央行行长在都灵发表讲话时称...",
+            source: "环球市场播报",
+            date: "2026-10-23",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-23/doc-iniwcnuz5173368.shtml"
         },
         {
-            title: "000333，已回购1.38亿股，将全部注销！多家A股龙头也出手！",
-            summary: "宁德时代单日回购近5亿元；美的集团（000333）大额回购持续推进，累计超112亿元。 近期，A股出现回调，以宁德时代和美的集团为代表的龙头企业正用真金白银传递信心。",
-            source: "证券时报",
-            date: "2026-10-22",
+            title: "苹果股价与芯片股走势高度背离 成为对冲AI概念股的理想选择",
+            summary: " 随着市场对人工智能（AI）交易的情绪剧烈波动，股市中逐渐形成了一种颇为稳定的交易模式：无论AI概念股怎么走，苹果公司往往反向而行。",
+            source: "环球市场播报",
+            date: "2026-10-23",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/world/2026-10-23/doc-iniwcnvc5903645.shtml"
+        },
+        {
+            title: "美国IPO市场陷入“瘫痪” Anthropic被寄望打破僵局",
+            summary: " 围绕人工智能（AI）的争议令一些企业被迫按下了IPO暂停键，在Anthropic上市一天天迫近之际，数十亿美元资金和长达数月的筹备工作陷入停顿。",
+            source: "环球市场播报",
+            date: "2026-10-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/wm/2026-10-22/doc-iniwchpf5891303.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-23/doc-iniwcnuz5170634.shtml"
         },
         {
-            title: "美国首次申领失业救济人数降至三个月低点",
-            summary: "美国上周首次申请失业救济人数降至三个月低点，显示劳动力市场保持稳定。 美国劳工部周四公布的数据显示，截至10月17日当周，首次申领失业救济人数减少6000人，至19...",
+            title: "报道：马斯克向埃里森旗下Skydance投资10亿美元",
+            summary: " 据知情人士透露，埃隆·马斯克已向Skydance投资约10亿美元，为这家正寻求削减成本并提振股价的公司提供了急需的资金注入。",
+            source: "环球市场播报",
+            date: "2026-10-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-23/doc-iniwcnve8227701.shtml"
+        },
+        {
+            title: "巴克莱将裁员5000人 借助人工智能削减成本",
+            summary: "巴克莱将裁减5000个岗位，以借助人工智能降低成本，成为又一家因新技术逐渐渗透整个银行业而缩减员工规模的大型银行。 此次裁员相当于这家总部位于伦敦的银行总员工人数的...",
+            source: "环球市场播报",
+            date: "2026-10-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-23/doc-iniwcnve8220092.shtml"
+        },
+        {
+            title: "黑石总裁反驳人工智能泡沫论 称需求呈“抛物线式”增长",
+            summary: "黑石集团总裁Jon Gray反驳了几天前亿万富豪肯·格里芬关于人工智能（AI）存在泡沫的说法。 Gray周四在黑石公布第三季度业绩后接受采访时表示：“说到泡沫...",
             source: "环球市场播报",
             date: "2026-10-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwchpk4949430.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-22/doc-iniwcnvh4989578.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-10-22",
-        marketAssessment: "A股方面：上证指数报3658.03点（-1.48%），深证成指报11357.32点（-2.96%），创业板指报2576.90点（-4.37%）。美股方面：标普500报7,691.26（-0.68%），纳斯达克报26,291.22（-1.58%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-10-23",
+        marketAssessment: "A股方面：上证指数报3658.03点（-1.48%），深证成指报11357.32点（-2.96%），创业板指报2576.90点（-4.37%）。美股方面：标普500报7,658.26（-1.11%），纳斯达克报26,050.08（-2.48%）。",
         hotSectors: [
             { name: "电机Ⅲ", reason: "板块涨幅+4.13%", strength: "强" },
             { name: "电机Ⅱ", reason: "板块涨幅+4.13%", strength: "强" },

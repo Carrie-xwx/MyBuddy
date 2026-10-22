@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3658.03", change: "-1.48%", market: "A股", updateTime: "2026-10-22 实时" },
         { name: "深证成指", code: "SZ399001", value: "11357.32", change: "-2.96%", market: "A股", updateTime: "2026-10-22 实时" },
         { name: "创业板指", code: "SZ399006", value: "2576.90", change: "-4.37%", market: "A股", updateTime: "2026-10-22 实时" },
         { name: "沪深300", code: "SH000300", value: "4036.30", change: "-1.84%", market: "A股", updateTime: "2026-10-22 实时" },
         { name: "科创50", code: "SH000688", value: "1305.87", change: "-2.78%", market: "A股", updateTime: "2026-10-22 实时" },
-        { name: "标普500", code: "SPX", value: "7,757.17", change: "+0.50%", market: "美股", updateTime: "2026-10-22 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,702.86", change: "+0.04%", market: "美股", updateTime: "2026-10-22 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,856.09", change: "+2.39%", market: "美股", updateTime: "2026-10-22 收盘" },
+        { name: "标普500", code: "SPX", value: "7,691.26", change: "-0.68%", market: "美股", updateTime: "2026-10-22 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,291.22", change: "-1.58%", market: "美股", updateTime: "2026-10-22 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,791.84", change: "+1.18%", market: "美股", updateTime: "2026-10-22 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "大增超4000%！603186，业绩大爆发",
-            summary: "又有A股公司，业绩大幅增长。 10月22日，华正新材（603186）披露2026年第三季度报告，前三季度公司实现营业收入56.10亿元，同比增长75.54%；归属于上市公司股东的净利润8...",
+            title: "壳牌与埃克森美孚英国化工合资企业挂牌出售 价值80亿美元",
+            summary: "壳牌参股的一家英国化工企业正寻求以80亿美元的估值出售。这家能源巨头持续剥离非核心业务板块，重新聚焦油气主业。 知情人士透露，由壳牌...",
+            source: "环球市场播报",
+            date: "2026-10-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwchpk5006340.shtml"
+        },
+        {
+            title: "开盘：纳指跌1.5% AI担忧升温 特斯拉、Meta等拖累指数",
+            summary: "美股周四开盘下跌，Meta、特斯拉等大盘巨头拖累指数，市场对AI交易行情的担忧升温；与此同时，地缘紧张情绪推高油价。 截至发稿，道琼斯工业平均指数下跌218点，跌幅0...",
+            source: "环球市场播报",
+            date: "2026-10-22",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwchpk4997568.shtml"
+        },
+        {
+            title: "SpaceX：下一个伯克希尔，还是一盘乱局？",
+            summary: "马斯克试图合并SpaceX与特斯拉，这笔交易或许对马斯克本人有利，但对股东而言——尤其是特斯拉股东，利好并不明显。 一旦合并，马斯克旗下主要业务将归于同一主体...",
+            source: "环球市场播报",
+            date: "2026-10-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwchph8220452.shtml"
+        },
+        {
+            title: "AI支出计划引发担忧 Meta信用风险指标升至新高",
+            summary: " Meta Platforms Inc．表示，公司未来与各类租赁和合同相关的支出承诺约为8，250亿美元，其中许多与人工智能所需的算力和基础设施有关。",
+            source: "环球市场播报",
+            date: "2026-10-22",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwchph8219299.shtml"
+        },
+        {
+            title: "300221，董事会与“牛散”股东矛盾升级！双方回应→",
+            summary: "银禧科技打出“诉讼牌”。 10月21日晚间，彭朝晖通过银禧科技（300221）的公告得知自己成为被告。 银禧科技认为彭朝晖等六名自然人股东构成一致行动人关系...",
+            source: "",
+            date: "2026-10-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-22/doc-iniwchpk4991564.shtml"
+        },
+        {
+            title: "152家企，港股“上市申请失效”",
+            summary: "来源：智通财经网 港股IPO市场在经历阶段性活跃后，部分项目开始显现出调整迹象。从上市申请失效，到拟上市企业临近挂牌时宣布延迟发行...",
+            source: "市场资讯",
+            date: "2026-10-22",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-10-22/doc-iniwchpc5172854.shtml"
+        },
+        {
+            title: "000333，已回购1.38亿股，将全部注销！多家A股龙头也出手！",
+            summary: "宁德时代单日回购近5亿元；美的集团（000333）大额回购持续推进，累计超112亿元。 近期，A股出现回调，以宁德时代和美的集团为代表的龙头企业正用真金白银传递信心。",
             source: "证券时报",
             date: "2026-10-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-22/doc-iniwavxn8199647.shtml"
+            url: "https://finance.sina.com.cn/wm/2026-10-22/doc-iniwchpf5891303.shtml"
         },
         {
-            title: "研究：日本央行转鹰或令日元套利交易承压 AI股面临冲击",
-            summary: " 全球人工智能（AI）相关股票近期走势不稳。如果投资者借机平仓日元融资套利交易，日本央行自9月以来的鹰派转向可能加剧市场回调。",
-            source: "环球市场播报",
-            date: "2026-10-22",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwavxi5207521.shtml"
-        },
-        {
-            title: "光大期货20261022热点追踪 烧碱创历史新低，什么位置才是底？",
-            summary: "20261022热点追踪 烧碱创历史新低，什么位置才是底？",
-            source: "市场资讯",
-            date: "2026-10-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-10-22/doc-iniwavxn8178707.shtml"
-        },
-        {
-            title: "毛草乐园的AI潮玩还没摆上货架，为什么能拿到红杉中国的钱？",
-            summary: "界面新闻记者 | 马越界面新闻编辑 | 许悦 根据行业媒体雷峰网·鲸犀报道，潮玩品牌“毛草乐园”已完成种子轮融资，投资方为红杉中国，并已启动新一轮融资。",
-            source: "界面",
-            date: "2026-10-22",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-22/doc-iniwavxi5198436.shtml"
-        },
-        {
-            title: "欧盟接近达成证券化改革方案 力争释放数十亿欧元资金",
-            summary: " 欧盟就改革其证券化市场监管规则达成初步协议，这项协议有望释放数十亿欧元资金，为国防和气候韧性等关键领域的项目提供融资。",
+            title: "美国首次申领失业救济人数降至三个月低点",
+            summary: "美国上周首次申请失业救济人数降至三个月低点，显示劳动力市场保持稳定。 美国劳工部周四公布的数据显示，截至10月17日当周，首次申领失业救济人数减少6000人，至19...",
             source: "环球市场播报",
             date: "2026-10-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwavxm5928014.shtml"
-        },
-        {
-            title: "特朗普政府住房行政令内部意见分歧",
-            summary: " 知情人士透露，特朗普政府内部围绕一份旨在提升住房可负担性的行政令存在分歧。距离中期选举仅剩不到两周，白宫一直在斟酌如何应对生活成本问题。",
-            source: "环球市场播报",
-            date: "2026-10-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwavxn8171477.shtml"
-        },
-        {
-            title: "花旗：受新云厂商行情波动影响 短期IPO市场趋于谨慎",
-            summary: " 花旗全球股权资本市场联席主管称，市场对AI扩张投入、尤其是数据中心融资的担忧持续发酵，短期内投资者在新股选择上会更加审慎。",
-            source: "环球市场播报",
-            date: "2026-10-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwavxi5191543.shtml"
-        },
-        {
-            title: "又有百亿房企将退市 曾放话“五年千亿”",
-            summary: "来源：中国房地产报 “ 安徽首家IPO上市房企正面临着退市风险。 中房报记者 曾冬梅丨广州报道 10月21日，三巽控股集团有限公司（以下简称“三巽集团”，06611...",
-            source: "市场资讯",
-            date: "2026-10-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-22/doc-iniwavxm5926310.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-22/doc-iniwchpk4949430.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-22",
-        marketAssessment: "A股方面：上证指数报3658.03点（-1.48%），深证成指报11357.32点（-2.96%），创业板指报2576.90点（-4.37%）。美股方面：标普500报7,757.17（+0.50%），纳斯达克报26,702.86（+0.04%）。",
+        marketAssessment: "A股方面：上证指数报3658.03点（-1.48%），深证成指报11357.32点（-2.96%），创业板指报2576.90点（-4.37%）。美股方面：标普500报7,691.26（-0.68%），纳斯达克报26,291.22（-1.58%）。",
         hotSectors: [
             { name: "电机Ⅲ", reason: "板块涨幅+4.13%", strength: "强" },
             { name: "电机Ⅱ", reason: "板块涨幅+4.13%", strength: "强" },

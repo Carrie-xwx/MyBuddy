@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3690.48", change: "+0.89%", market: "A股", updateTime: "2026-10-23 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11673.83", change: "+2.79%", market: "A股", updateTime: "2026-10-23 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2684.10", change: "+4.16%", market: "A股", updateTime: "2026-10-23 实时" },
-        { name: "沪深300", code: "SH000300", value: "4105.33", change: "+1.71%", market: "A股", updateTime: "2026-10-23 实时" },
-        { name: "科创50", code: "SH000688", value: "1345.51", change: "+3.04%", market: "A股", updateTime: "2026-10-23 实时" },
-        { name: "标普500", code: "SPX", value: "7,619.78", change: "-0.52%", market: "美股", updateTime: "2026-10-23 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "25,887.72", change: "-0.97%", market: "美股", updateTime: "2026-10-23 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,335.43", change: "+0.64%", market: "美股", updateTime: "2026-10-23 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3690.48", change: "+0.89%", market: "A股", updateTime: "2026-10-24 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11673.83", change: "+2.79%", market: "A股", updateTime: "2026-10-24 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2684.10", change: "+4.16%", market: "A股", updateTime: "2026-10-24 实时" },
+        { name: "沪深300", code: "SH000300", value: "4105.33", change: "+1.71%", market: "A股", updateTime: "2026-10-24 实时" },
+        { name: "科创50", code: "SH000688", value: "1345.51", change: "+3.04%", market: "A股", updateTime: "2026-10-24 实时" },
+        { name: "标普500", code: "SPX", value: "7,629.95", change: "-0.39%", market: "美股", updateTime: "2026-10-24 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "25,997.17", change: "-0.55%", market: "美股", updateTime: "2026-10-24 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,242.61", change: "+0.46%", market: "美股", updateTime: "2026-10-24 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "605258，拟易主！下周一停牌",
-            summary: "来源：中国基金报 【导读】协和电子控股股东筹划控制权变更事项，自10月26日开市起停牌 中国基金报记者 闻言 10月23日晚间，协和电子发布公告称，公司控股股东张南国...",
-            source: "市场资讯",
-            date: "2026-10-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-23/doc-iniwfruk1811999.shtml"
-        },
-        {
-            title: "俄罗斯央行连续第二次维持利率不变",
-            summary: " 俄罗斯央行周五宣布维持基准利率14%不变，这是连续第二个议息会议按兵不动，符合彭博调查11位经济学家的预期，仅一位经济学家预计降息25个基点。",
+            title: "美国将氦列入关键材料清单 供应链中断风险上升",
+            summary: " 美国能源部将氦列入关键材料清单，理由是这种元素对美国国内制造业和半导体生产至关重要，而且越来越容易受到供应链中断的影响。",
             source: "环球市场播报",
-            date: "2026-10-23",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfmnn1937383.shtml"
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwak2554284.shtml"
         },
         {
-            title: "iPhone Duo在美正式发售 苹果第五大道门店未见CEO特纳斯",
-            summary: "知名科技记者Mark Gurman爆料，市场预期苹果CEO特纳斯、零售负责人奥布莱恩会亮相未第五大道的iPhone Duo发售活动，但现场情况出乎预料，特纳斯并未到场...",
+            title: "SK海力士放弃Solidigm美国IPO计划，分析师：利好美光和闪迪，缓解NAND闪存产能过剩担忧",
+            summary: "SK海力士决定放弃旗下存储业务Solidigm在美国首次公开募股（IPO）的计划。研究机构LYNX Equity Strategies在10月23日发布的报告中指出...",
+            source: "环球市场播报",
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwaa8310632.shtml"
+        },
+        {
+            title: "AI将漏洞发现“工业化” Anthropic高管警告网络安全风险或进一步恶化",
+            summary: " Anthropic PBC一名高管警告称，大规模网络安全扰动，例如本周多国政府和企业争相修补两项关键软件漏洞的情况，在好转之前可能会“严重得多”。",
+            source: "环球市场播报",
+            date: "2026-10-24",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwak2539557.shtml"
+        },
+        {
+            title: "欧洲股市连续第二天下跌，沃尔沃汽车一度暴跌32%，油价上涨推动能源股走强",
+            summary: "欧洲股市连续第二个交易日下跌，部分企业财报表现不佳，加之投资者对人工智能（AI）相关股票及高油价的担忧，令市场承压。斯托克欧洲600指数收跌0.3%...",
+            source: "环球市场播报",
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwae5070500.shtml"
+        },
+        {
+            title: "美国将氦归类为制造半导体的关键材料",
+            summary: "美国能源部将氦列为关键材料。 美国能源部长克里斯·赖特在声明中表示：“氦对于生产支撑美国经济的半导体和先进技术至关重要。将氦列为关键材料是我们保障供应链安全迈出的...",
+            source: "环球市场播报",
+            date: "2026-10-24",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwae5068513.shtml"
+        },
+        {
+            title: "CoreWeave本月暴跌37%，瑞银下调目标价至105美元：AI融资风险加剧，市场信心恢复或需数个季度",
+            summary: "瑞银10月23日将AI云计算公司CoreWeave（NASDAQ：CRWV）的目标价从120美元下调至105美元，但维持“买入”评级。该行指出，CoreWeave股价10月以来已累计下跌37%...",
+            source: "环球市场播报",
+            date: "2026-10-24",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwak2522207.shtml"
+        },
+        {
+            title: "10月23日美股盘中：三大指数集体下跌，AI融资担忧持续发酵，布伦特原油升破115美元",
+            summary: "美股三大指数10月23日早盘集体下跌，AI基础设施融资压力及国际油价持续上涨令市场风险偏好承压。截至美东时间上午10时16分，道琼斯工业平均指数下跌683点，跌幅1...",
             source: "环球市场播报",
             date: "2026-10-23",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfmnq2664806.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfrue8370502.shtml"
         },
         {
-            title: "四部门：防范不良中介机构影响优质中小企业培育认定",
-            summary: " 新华社北京10月23日电（记者周圆）工业和信息化部等四部门23日发布通知，进一步防范不良中介机构影响优质中小企业培育认定，持续擦亮专精特新“金字招牌”。",
-            source: "新华社",
-            date: "2026-10-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-23/doc-iniwfmnh8349688.shtml"
-        },
-        {
-            title: "资本项目外汇管理一揽子政策重磅落地，企业跨境投融资空间将拓宽",
-            summary: "资本项目收入直接结汇支付金额提升为每月不超过等值50万美元，将进一步提升外资投资效率，有利于吸引和利用外资。 优化资本项目外汇管理一揽子政策落地。",
-            source: "一财网",
-            date: "2026-10-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/roll/2026-10-23/doc-iniwfmnk5109275.shtml"
-        },
-        {
-            title: "巴西总统决选结果难料 华尔街的“博索纳罗交易”迎来大考",
-            summary: "在弗拉维奥·博索纳罗成为巴西总统选举首轮投票的领跑者后，华尔街策略师曾纷纷建议加码巴西资产。随着势均力敌的第二轮投票将于周日举行，这些建议是否会让客户获利...",
+            title: "特朗普称美国和墨西哥即将达成贸易协议",
+            summary: "美国总统特朗普在被问及与墨西哥贸易谈判的进展时表示，美国接近与墨西哥达成贸易协议。",
             source: "环球市场播报",
             date: "2026-10-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfmnh8332317.shtml"
-        },
-        {
-            title: "跨境投融资迎利好！一揽子便利化政策拟推出",
-            summary: "为持续深化资本项目高水平开放，更好发挥金融服务实体经济作用，10月23日，国家外汇管理局发布《国家外汇管理局关于进一步优化跨境投融资便利化政策有关事宜的通知（征求意...",
-            source: "中国证券报-中证网",
-            date: "2026-10-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniwfmnn1915790.shtml"
-        },
-        {
-            title: "欧盟对华光伏玻璃12年“双反”落幕",
-            summary: "界面新闻记者 | 席菁华 欧盟终止了对中国光伏玻璃长达12年半的“双反”措施。 当地时间10月19日，欧盟委员会通过（EU）2026/2314、（EU）2026/2310两项实施条例...",
-            source: "界面",
-            date: "2026-10-23",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniwfmnq2629104.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfrue8367014.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
-        date: "2026-10-23",
-        marketAssessment: "A股方面：上证指数报3690.48点（+0.89%），深证成指报11673.83点（+2.79%），创业板指报2684.10点（+4.16%）。美股方面：标普500报7,619.78（-0.52%），纳斯达克报25,887.72（-0.97%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+        date: "2026-10-24",
+        marketAssessment: "A股方面：上证指数报3690.48点（+0.89%），深证成指报11673.83点（+2.79%），创业板指报2684.10点（+4.16%）。美股方面：标普500报7,629.95（-0.39%），纳斯达克报25,997.17（-0.55%）。",
         hotSectors: [
 
         ],

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3640.89", change: "-0.47%", market: "A股", updateTime: "2026-10-23 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11391.21", change: "+0.30%", market: "A股", updateTime: "2026-10-23 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2600.16", change: "+0.90%", market: "A股", updateTime: "2026-10-23 实时" },
-        { name: "沪深300", code: "SH000300", value: "4055.13", change: "+0.47%", market: "A股", updateTime: "2026-10-23 实时" },
-        { name: "科创50", code: "SH000688", value: "1293.90", change: "-0.92%", market: "A股", updateTime: "2026-10-23 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3690.48", change: "+0.89%", market: "A股", updateTime: "2026-10-23 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11673.83", change: "+2.79%", market: "A股", updateTime: "2026-10-23 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2684.10", change: "+4.16%", market: "A股", updateTime: "2026-10-23 实时" },
+        { name: "沪深300", code: "SH000300", value: "4105.33", change: "+1.71%", market: "A股", updateTime: "2026-10-23 实时" },
+        { name: "科创50", code: "SH000688", value: "1345.51", change: "+3.04%", market: "A股", updateTime: "2026-10-23 实时" },
         { name: "标普500", code: "SPX", value: "7,663.43", change: "-1.04%", market: "美股", updateTime: "2026-10-23 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,008.86", change: "-2.64%", market: "美股", updateTime: "2026-10-23 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,867.98", change: "+1.32%", market: "美股", updateTime: "2026-10-23 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "亮晴控股公布将于10月23日下午起短暂停牌",
-            summary: "亮晴控股（03774）发布公告，公司股份将于2026年10月23日下午一时正起短暂停止买卖。",
-            source: "新浪港股",
+            title: "经济学家预计：欧洲央行下周按兵不动 并将于12月加息",
+            summary: " 经济学家表示，欧洲央行将在下周暂停加息后，于12月进行本轮最后一次加息；这一判断与市场押注未来还将大幅加息形成鲜明对比。",
+            source: "环球市场播报",
             date: "2026-10-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-23/doc-iniweuqs4904513.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-23/doc-iniwffes2627151.shtml"
         },
         {
-            title: "SpaceX加速天地组网 洽谈使用美国8万个移动通信基站",
-            summary: " 据知情人士透露，SpaceX寻求在全美取得至少8万个移动通信基站站址的使用权，目前正与至少一家大型通信基础设施公司洽谈，以实现这一目标。",
+            title: "首开股份，永续债太重要了",
+            summary: "來源：地产K线 文丨乐居财经 曾树佳 首开股份（600376）获得了一笔新的永续债。 10月21日，它发布公告称，为满足公司生产经营发展的需要...",
+            source: "市场资讯",
+            date: "2026-10-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-23/doc-iniwffek8208907.shtml"
+        },
+        {
+            title: "黄仁勋访问哈萨克斯坦之际 英伟达投资AI视频图像生成公司Higgsfield",
+            summary: " 由一名前Snap公司高管创立的AI视频初创公司Higgsfield表示，已获得英伟达公司以及TCV投资，以支持全球基础设施建设和人才招聘，把握不断增长的市场需求。",
+            source: "环球市场播报",
+            date: "2026-10-23",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwffes2618404.shtml"
+        },
+        {
+            title: "惠誉：AI颠覆金融业务 财富管理板块承压尤为突出",
+            summary: "惠誉评级表示，未来五年，人工智能引发的业务颠覆将给金融机构带来中等风险。缓释因素包括监管形成的准入壁垒（含资本要求）、依托客户关系与业务多元化构筑的稳固业务根基...",
+            source: "环球市场播报",
+            date: "2026-10-23",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwffek8194747.shtml"
+        },
+        {
+            title: "13天8个涨停，但九阳第三季度利润只有21万元",
+            summary: "10月22日晚间，九阳股份（002242.SZ）披露了2026年三季报。 数字可以分两组看。前三季度，公司营业收入50.52亿元，同比下降9.55%；归母净利润7199万元，同比下降41.75%。",
+            source: "",
+            date: "2026-10-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-23/doc-iniwffeq1891982.shtml"
+        },
+        {
+            title: "印度最大加密货币交易所否认遭黑客攻击",
+            summary: " 链上调查人员发现，与印度加密货币交易所CoinDCX关联的地址流出约1600万美元资金，但该交易所否认其正在使用的钱包遭到黑客攻击。",
             source: "环球市场播报",
             date: "2026-10-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniweuqu1956239.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwffes2614782.shtml"
         },
         {
-            title: "SpaceX第三季度所持Boring公司股份录得5.61亿美元投资收益",
-            summary: " SpaceX周四表示，该公司持有的埃隆·马斯克旗下隧道挖掘公司The Boring Company的股份，在第三季度为其带来了5.61亿美元的投资收益。",
+            title: "随着稳定币和数字欧元临近 瑞典央行重启电子克朗讨论",
+            summary: "瑞典央行认为，电子克朗对于保障国家支付体系安全和维护货币控制权至关重要。 瑞典央行正呼吁立法者重新考虑发行数字克朗，警告称...",
+            source: "环球市场播报",
+            date: "2026-10-23",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwffeq1881609.shtml"
+        },
+        {
+            title: "融资盘平仓加速印度小盘股下跌",
+            summary: "通胀与加息担忧持续打压市场情绪，散户集中去杠杆，引发印度小盘股七个月来最猛烈下跌。 券商表示，融资持仓平仓令跌势进一步恶化。",
             source: "环球市场播报",
             date: "2026-10-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniweuqu1955719.shtml"
-        },
-        {
-            title: "乌克兰拟将海关查验转移至欧盟境内 躲避俄军无人机袭击",
-            summary: " 媒体周五援引知情人士消息称，乌克兰正与欧盟成员国波兰、斯洛伐克协商，把粮食出口卡车的海关查验点从边境转移至上述两国境内，以此避免卡车遭到俄罗斯无人机打击。",
-            source: "环球市场播报",
-            date: "2026-10-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniweuqs4902167.shtml"
-        },
-        {
-            title: "多家机构上调纳斯达克公司目标价",
-            summary: "派杰桑德勒将纳斯达克公司目标价从108美元上调至112美元；摩根大通将纳斯达克公司目标价从120美元上调至122美元；TD Cowen 将纳斯达克公司目标价从 107 美元上调至 122 美...",
-            source: "环球市场播报",
-            date: "2026-10-23",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniweuqu1951744.shtml"
-        },
-        {
-            title: "瑞银：中国电信维持“买入”评级 目标价上调至5.7港元",
-            summary: "瑞银发布研报称，将中国电信（00728）目标价上调1.8%，由5.6港元升至5.7港元，维持“买入”评级。该行将2026至2028年的净利润预测微调0%至2%...",
-            source: "新浪港股",
-            date: "2026-10-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-23/doc-iniweuqq8114636.shtml"
-        },
-        {
-            title: "高盛：福耀玻璃维持“中性”评级 目标价下调至59港元",
-            summary: "高盛发布研报称，福耀玻璃（03606）2026年第三季度业绩逊于预期，将目标价由64港元下调至59港元，维持“中性”评级。该行下调公司2026至2028年每股盈利预测5%至10%...",
-            source: "新浪港股",
-            date: "2026-10-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-23/doc-iniweuqs4886213.shtml"
-        },
-        {
-            title: "佐丹奴国际第三季度实现收入8.2亿港元 同比减少8.3%",
-            summary: "佐丹奴国际（00709）发布公告，于截至9月30日止季度，实现收入8.2亿港元，同比减少8.3%；集团同店销售额6.05亿港元，同比减少7.1%；全球品牌销售额8.93亿港元，同比减少7...",
-            source: "新浪港股",
-            date: "2026-10-23",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-23/doc-iniweuqq8112207.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-23/doc-iniwffen4958541.shtml"
         },
     ],
 
@@ -765,20 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-23",
-        marketAssessment: "A股方面：上证指数报3640.89点（-0.47%），深证成指报11391.21点（+0.30%），创业板指报2600.16点（+0.90%）。美股方面：标普500报7,663.43（-1.04%），纳斯达克报26,008.86（-2.64%）。",
+        marketAssessment: "A股方面：上证指数报3690.48点（+0.89%），深证成指报11673.83点（+2.79%），创业板指报2684.10点（+4.16%）。美股方面：标普500报7,663.43（-1.04%），纳斯达克报26,008.86（-2.64%）。",
         hotSectors: [
-            { name: "纺织鞋类制造", reason: "板块涨幅+5.28%", strength: "强" },
-            { name: "医美服务", reason: "板块涨幅+2.98%", strength: "中强" },
-            { name: "国际工程", reason: "板块涨幅+2.19%", strength: "中强" },
-            { name: "快递", reason: "板块涨幅+2.14%", strength: "中强" },
+
         ],
         weakSectors: [
 
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注纺织鞋类制造、医美服务、国际工程等板块的延续性，顺势操作，严格止损。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

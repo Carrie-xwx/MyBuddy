@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3690.48", change: "+0.89%", market: "A股", updateTime: "2026-10-24 实时" },
         { name: "深证成指", code: "SZ399001", value: "11673.83", change: "+2.79%", market: "A股", updateTime: "2026-10-24 实时" },
         { name: "创业板指", code: "SZ399006", value: "2684.10", change: "+4.16%", market: "A股", updateTime: "2026-10-24 实时" },
@@ -669,7 +669,39 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+        {
+            title: "中央气象台：全球天气公报（2026年10月24日）",
+            summary: "来源：中央气象台网站 一、全球天气实况 1．日本泰国等地有强降水 过去24小时（10月23日00时-10月24日00时，UTC），斯里兰卡、泰国、缅甸南部、马来西亚、印度尼西亚...",
+            source: "",
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/hyxh/2026-10-24/doc-iniwikcq1243698.shtml"
+        },
+        {
+            title: "绿色动力驶向全球：潍柴的技术创新与可持续发展之路",
+            summary: "随着中国“双碳”目标持续推进，绿色低碳已成为许多产业的重要发展方向。其中，装备制造业广泛服务于物流运输、基础设施建设和能源生产等关键领域...",
+            source: "市场资讯",
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-10-24/doc-iniwikcs1959763.shtml"
+        },
+        {
+            title: "2026可持续全球领导者大会·北大光华分论坛在沪举行 共探碳中和系统变革的落地路径",
+            summary: "10月21日下午，2026可持续全球领导者大会·北大光华分论坛在上海黄浦滨江·里滩文化中心举行。本次论坛以“碳中和的系统变革：绿色金融与产业重塑”为主题...",
+            source: "市场资讯",
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-10-24/doc-iniwicvs1352388.shtml"
+        },
+        {
+            title: "瑞士股市成为市场AI恐慌下的避风港",
+            summary: "瑞士市场指数跟踪该国20只流动性最好的大盘股，本月累计上涨4.6%；而欧元区对标指数欧洲斯托克50指数同期下跌3.2%。瑞士股指近8个百分点的超额收益...",
+            source: "环球市场播报",
+            date: "2026-10-24",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwicvn8068652.shtml"
+        },
         {
             title: "英国承诺出资1亿英镑设立生物安全实验室 OpenAI、Anthropic参与合作",
             summary: "英国宣布出资1亿英镑（折合1.34亿美元）建设AI生物安全实验室，由OpenAI、Anthropic以及谷歌DeepMind提供支持。这是一揽子举措中的一项...",
@@ -702,38 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "A股",
             url: "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwhhsa1724593.shtml"
         },
-        {
-            title: "大宗商品综述：油价大涨 铜价收窄周跌幅 金价下跌",
-            summary: "布伦特原油本周收于4月份以来最高水平，因为沙特阿拉伯遭到的袭击愈演愈烈，加剧了此前已因美伊战争而升温的供应担忧。铜价周五上涨并收窄周跌幅...",
-            source: "环球市场播报",
-            date: "2026-10-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhrw8286322.shtml"
-        },
-        {
-            title: "CFTC：对冲基金削减日元空头 增持澳元多头",
-            summary: " 美国商品期货交易委员会（CFTC）周五公布的数据显示，截至10月20日当周，对冲基金削减日元空头头寸。日元连续第二周上涨，周五兑美元则小幅走弱。",
-            source: "环球市场播报",
-            date: "2026-10-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhse2448937.shtml"
-        },
-        {
-            title: "法国获得喘息之机 穆迪未下调其信用评级",
-            summary: "法国躲过一劫，穆迪未下调该国信用评级，让这个饱受债券收益率飙升、政治僵局和街头抗议困扰的国家获得了喘息之机。 穆迪维持这个欧元区第二大经济体Aa3评级不变...",
-            source: "环球市场播报",
-            date: "2026-10-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhsa1716659.shtml"
-        },
-        {
-            title: "10月24日外盘头条：俄乌同意奥列什基停火 特朗普拟豁免更多加拿大产品关税 美国将氦列入关键材料清单",
-            summary: "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、俄乌同意奥列什基停火，泽连斯基称11月举行新一轮和平会谈 2、共和党参议员选情告急 特朗普拟豁免更多加拿大产品关税...",
-            source: "环球市场播报",
-            date: "2026-10-24",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhry5046368.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-24",
         marketAssessment: "A股方面：上证指数报3690.48点（+0.89%），深证成指报11673.83点（+2.79%），创业板指报2684.10点（+4.16%）。美股方面：标普500报7,623.68（-0.47%），纳斯达克报25,955.34（-0.71%）。",
         hotSectors: [

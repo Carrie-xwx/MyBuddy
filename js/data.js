@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3690.48", change: "+0.89%", market: "A股", updateTime: "2026-10-24 实时" },
         { name: "深证成指", code: "SZ399001", value: "11673.83", change: "+2.79%", market: "A股", updateTime: "2026-10-24 实时" },
         { name: "创业板指", code: "SZ399006", value: "2684.10", change: "+4.16%", market: "A股", updateTime: "2026-10-24 实时" },
         { name: "沪深300", code: "SH000300", value: "4105.33", change: "+1.71%", market: "A股", updateTime: "2026-10-24 实时" },
         { name: "科创50", code: "SH000688", value: "1345.51", change: "+3.04%", market: "A股", updateTime: "2026-10-24 实时" },
-        { name: "标普500", code: "SPX", value: "7,629.95", change: "-0.39%", market: "美股", updateTime: "2026-10-24 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "25,997.17", change: "-0.55%", market: "美股", updateTime: "2026-10-24 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,242.61", change: "+0.46%", market: "美股", updateTime: "2026-10-24 收盘" },
+        { name: "标普500", code: "SPX", value: "7,623.68", change: "-0.47%", market: "美股", updateTime: "2026-10-24 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "25,955.34", change: "-0.71%", market: "美股", updateTime: "2026-10-24 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,215.16", change: "+0.41%", market: "美股", updateTime: "2026-10-24 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "美国将氦列入关键材料清单 供应链中断风险上升",
-            summary: " 美国能源部将氦列入关键材料清单，理由是这种元素对美国国内制造业和半导体生产至关重要，而且越来越容易受到供应链中断的影响。",
-            source: "环球市场播报",
-            date: "2026-10-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwak2554284.shtml"
-        },
-        {
-            title: "SK海力士放弃Solidigm美国IPO计划，分析师：利好美光和闪迪，缓解NAND闪存产能过剩担忧",
-            summary: "SK海力士决定放弃旗下存储业务Solidigm在美国首次公开募股（IPO）的计划。研究机构LYNX Equity Strategies在10月23日发布的报告中指出...",
-            source: "环球市场播报",
-            date: "2026-10-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwaa8310632.shtml"
-        },
-        {
-            title: "AI将漏洞发现“工业化” Anthropic高管警告网络安全风险或进一步恶化",
-            summary: " Anthropic PBC一名高管警告称，大规模网络安全扰动，例如本周多国政府和企业争相修补两项关键软件漏洞的情况，在好转之前可能会“严重得多”。",
+            title: "英国承诺出资1亿英镑设立生物安全实验室 OpenAI、Anthropic参与合作",
+            summary: "英国宣布出资1亿英镑（折合1.34亿美元）建设AI生物安全实验室，由OpenAI、Anthropic以及谷歌DeepMind提供支持。这是一揽子举措中的一项...",
             source: "环球市场播报",
             date: "2026-10-24",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwak2539557.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwhtfy2247230.shtml"
         },
         {
-            title: "欧洲股市连续第二天下跌，沃尔沃汽车一度暴跌32%，油价上涨推动能源股走强",
-            summary: "欧洲股市连续第二个交易日下跌，部分企业财报表现不佳，加之投资者对人工智能（AI）相关股票及高油价的担忧，令市场承压。斯托克欧洲600指数收跌0.3%...",
+            title: "10月24日隔夜要闻：美股三大指数收跌 油价大涨 金价下跌 特朗普称可能对伊发动一次小规模“史诗怒火”行动",
+            summary: "市场 10月24日收盘：美股三大指数收跌 道指跌超600点 布油创4月以来新高 市场抛售范围扩大 10月24日热门中概股涨跌不一，台积电涨1.49%...",
             source: "环球市场播报",
             date: "2026-10-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwae5070500.shtml"
-        },
-        {
-            title: "美国将氦归类为制造半导体的关键材料",
-            summary: "美国能源部将氦列为关键材料。 美国能源部长克里斯·赖特在声明中表示：“氦对于生产支撑美国经济的半导体和先进技术至关重要。将氦列为关键材料是我们保障供应链安全迈出的...",
-            source: "环球市场播报",
-            date: "2026-10-24",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwae5068513.shtml"
-        },
-        {
-            title: "CoreWeave本月暴跌37%，瑞银下调目标价至105美元：AI融资风险加剧，市场信心恢复或需数个季度",
-            summary: "瑞银10月23日将AI云计算公司CoreWeave（NASDAQ：CRWV）的目标价从120美元下调至105美元，但维持“买入”评级。该行指出，CoreWeave股价10月以来已累计下跌37%...",
-            source: "环球市场播报",
-            date: "2026-10-24",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwfwak2522207.shtml"
-        },
-        {
-            title: "10月23日美股盘中：三大指数集体下跌，AI融资担忧持续发酵，布伦特原油升破115美元",
-            summary: "美股三大指数10月23日早盘集体下跌，AI基础设施融资压力及国际油价持续上涨令市场风险偏好承压。截至美东时间上午10时16分，道琼斯工业平均指数下跌683点，跌幅1...",
-            source: "环球市场播报",
-            date: "2026-10-23",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfrue8370502.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhnya2334385.shtml"
         },
         {
-            title: "特朗普称美国和墨西哥即将达成贸易协议",
-            summary: "美国总统特朗普在被问及与墨西哥贸易谈判的进展时表示，美国接近与墨西哥达成贸易协议。",
+            title: "报道：美国将部分外交人员及其家属撤离中东驻地",
+            summary: "据多名知情人士透露，随着地区局势升级的威胁迫近，美国正匆忙从多个中东驻地撤离部分外交官及其家属。 这些撤离被描述为令人沮丧且混乱的“似曾相识”——许多离开的人不久前...",
             source: "环球市场播报",
-            date: "2026-10-23",
+            date: "2026-10-24",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfrue8367014.shtml"
+            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhnxy1602777.shtml"
+        },
+        {
+            title: "古巴外长驳斥特朗普“顺道解决古巴”言论",
+            summary: "转自：新华网 新华社哈瓦那/华盛顿10月23日电（记者蒋彪 黄强）针对美方所谓“顺道解决古巴”言论，古巴外长罗德里格斯23日驳斥说，古巴拒绝美国对其发出的一切威胁。",
+            source: "央视",
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwhhsa1724593.shtml"
+        },
+        {
+            title: "大宗商品综述：油价大涨 铜价收窄周跌幅 金价下跌",
+            summary: "布伦特原油本周收于4月份以来最高水平，因为沙特阿拉伯遭到的袭击愈演愈烈，加剧了此前已因美伊战争而升温的供应担忧。铜价周五上涨并收窄周跌幅...",
+            source: "环球市场播报",
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhrw8286322.shtml"
+        },
+        {
+            title: "CFTC：对冲基金削减日元空头 增持澳元多头",
+            summary: " 美国商品期货交易委员会（CFTC）周五公布的数据显示，截至10月20日当周，对冲基金削减日元空头头寸。日元连续第二周上涨，周五兑美元则小幅走弱。",
+            source: "环球市场播报",
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhse2448937.shtml"
+        },
+        {
+            title: "法国获得喘息之机 穆迪未下调其信用评级",
+            summary: "法国躲过一劫，穆迪未下调该国信用评级，让这个饱受债券收益率飙升、政治僵局和街头抗议困扰的国家获得了喘息之机。 穆迪维持这个欧元区第二大经济体Aa3评级不变...",
+            source: "环球市场播报",
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhsa1716659.shtml"
+        },
+        {
+            title: "10月24日外盘头条：俄乌同意奥列什基停火 特朗普拟豁免更多加拿大产品关税 美国将氦列入关键材料清单",
+            summary: "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、俄乌同意奥列什基停火，泽连斯基称11月举行新一轮和平会谈 2、共和党参议员选情告急 特朗普拟豁免更多加拿大产品关税...",
+            source: "环球市场播报",
+            date: "2026-10-24",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhhry5046368.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-10-24",
-        marketAssessment: "A股方面：上证指数报3690.48点（+0.89%），深证成指报11673.83点（+2.79%），创业板指报2684.10点（+4.16%）。美股方面：标普500报7,629.95（-0.39%），纳斯达克报25,997.17（-0.55%）。",
+        marketAssessment: "A股方面：上证指数报3690.48点（+0.89%），深证成指报11673.83点（+2.79%），创业板指报2684.10点（+4.16%）。美股方面：标普500报7,623.68（-0.47%），纳斯达克报25,955.34（-0.71%）。",
         hotSectors: [
 
         ],

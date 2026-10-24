@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3690.48", change: "+0.89%", market: "A股", updateTime: "2026-10-24 实时" },
         { name: "深证成指", code: "SZ399001", value: "11673.83", change: "+2.79%", market: "A股", updateTime: "2026-10-24 实时" },
         { name: "创业板指", code: "SZ399006", value: "2684.10", change: "+4.16%", market: "A股", updateTime: "2026-10-24 实时" },
@@ -669,7 +669,39 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+        {
+            title: "南方区域电力市场转入正式运行",
+            summary: "10月24日消息，我国首个区域电力市场——南方区域电力市场今天转入正式运行。历经一年多极端工况实战检验，市场完成从试点探索到制度成熟定型的“关键一跃”...",
+            source: "新浪财经",
+            date: "2026-10-24",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/china/2026-10-24/doc-iniwiqmh7907000.shtml"
+        },
+        {
+            title: "“X女下海赚外快”？ 哈啰顺风车被曝涉黄！订单现疑似招嫖信息，官方紧急排查，高管曾称“七年没亏钱”",
+            summary: "《“X女下海赚外快”？ 哈啰顺风车被曝涉黄！订单现疑似招嫖信息，官方紧急排查，高管曾称“七年没亏钱”》 文|《BUG》栏目 张俊 哈啰顺风车又出事了。 这次是因为涉黄。",
+            source: "新浪财经",
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-10-24/doc-iniwikcq1264147.shtml"
+        },
+        {
+            title: "“吃完两瓶了，天塌了！” 山姆紧急下架“好健康”牡蛎精！消费者不满“仅退款”，10倍索赔成立吗？",
+            summary: "文 | 《BUG》栏目 马世雯 近日，山姆紧急下架“好健康”牌牡蛎精胶囊。同时向会员发布召回部分批次产品的短信，并办理全额退款，无需退回商品。",
+            source: "新浪财经",
+            date: "2026-10-24",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-10-24/doc-iniwikck8019248.shtml"
+        },
+        {
+            title: "七平台联合倡议推动新就业形态人员参保医保：责任明确化，骑手司机盼落地",
+            summary: "继《新就业形态劳动者权益保障办法（征求意见稿）》发布后，新就业形态劳动者的权益保障迎来新进展。 10月22日，美团、淘宝闪购、顺丰同城、中通快递、曹操专车...",
+            source: "一财网",
+            date: "2026-10-24",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwikck7993017.shtml"
+        },
         {
             title: "中央气象台：全球天气公报（2026年10月24日）",
             summary: "来源：中央气象台网站 一、全球天气实况 1．日本泰国等地有强降水 过去24小时（10月23日00时-10月24日00时，UTC），斯里兰卡、泰国、缅甸南部、马来西亚、印度尼西亚...",
@@ -702,38 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "行业",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwicvn8068652.shtml"
         },
-        {
-            title: "英国承诺出资1亿英镑设立生物安全实验室 OpenAI、Anthropic参与合作",
-            summary: "英国宣布出资1亿英镑（折合1.34亿美元）建设AI生物安全实验室，由OpenAI、Anthropic以及谷歌DeepMind提供支持。这是一揽子举措中的一项...",
-            source: "环球市场播报",
-            date: "2026-10-24",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwhtfy2247230.shtml"
-        },
-        {
-            title: "10月24日隔夜要闻：美股三大指数收跌 油价大涨 金价下跌 特朗普称可能对伊发动一次小规模“史诗怒火”行动",
-            summary: "市场 10月24日收盘：美股三大指数收跌 道指跌超600点 布油创4月以来新高 市场抛售范围扩大 10月24日热门中概股涨跌不一，台积电涨1.49%...",
-            source: "环球市场播报",
-            date: "2026-10-24",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhnya2334385.shtml"
-        },
-        {
-            title: "报道：美国将部分外交人员及其家属撤离中东驻地",
-            summary: "据多名知情人士透露，随着地区局势升级的威胁迫近，美国正匆忙从多个中东驻地撤离部分外交官及其家属。 这些撤离被描述为令人沮丧且混乱的“似曾相识”——许多离开的人不久前...",
-            source: "环球市场播报",
-            date: "2026-10-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwhnxy1602777.shtml"
-        },
-        {
-            title: "古巴外长驳斥特朗普“顺道解决古巴”言论",
-            summary: "转自：新华网 新华社哈瓦那/华盛顿10月23日电（记者蒋彪 黄强）针对美方所谓“顺道解决古巴”言论，古巴外长罗德里格斯23日驳斥说，古巴拒绝美国对其发出的一切威胁。",
-            source: "央视",
-            date: "2026-10-24",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwhhsa1724593.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-24",
         marketAssessment: "A股方面：上证指数报3690.48点（+0.89%），深证成指报11673.83点（+2.79%），创业板指报2684.10点（+4.16%）。美股方面：标普500报7,623.68（-0.47%），纳斯达克报25,955.34（-0.71%）。",
         hotSectors: [
-
+            { name: "其他数字媒体", reason: "板块涨幅+15.02%", strength: "强" },
+            { name: "机器人", reason: "板块涨幅+7.98%", strength: "强" },
+            { name: "视频媒体", reason: "板块涨幅+6.56%", strength: "强" },
+            { name: "横向通用软件", reason: "板块涨幅+5.72%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "国有大型银行Ⅲ", reason: "板块跌幅-2.75%", strength: "弱" },
+            { name: "食用菌", reason: "板块跌幅-2.60%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注其他数字媒体、机器人、视频媒体等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3690.48", change: "+0.89%", market: "A股", updateTime: "2026-10-25 实时" },
         { name: "深证成指", code: "SZ399001", value: "11673.83", change: "+2.79%", market: "A股", updateTime: "2026-10-25 实时" },
         { name: "创业板指", code: "SZ399006", value: "2684.10", change: "+4.16%", market: "A股", updateTime: "2026-10-25 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "分析：SpaceX大幅上调Q4资本开支指引，AI算力采购规模大增",
-            summary: "当地时间10月20日，SpaceX发布2026年第三季度财报，报告期内，该公司营收为145.8亿美元，同比增长161%；净利润为44亿美元，同比扭亏，去年同期为净亏损10...",
-            source: "市场资讯",
-            date: "2026-10-24",
+            title: "全球最大的燕麦加工厂起火 疑似发生爆炸",
+            summary: " 当地时间周六，桂格燕麦（Quaker Oats）当地工厂疑似发生爆炸并引发火灾。该工厂是企业宣称的全球最大燕麦研磨加工厂，消防部门称暂无人员受伤。",
+            source: "环球市场播报",
+            date: "2026-10-25",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmhuz3313952.shtml"
+        },
+        {
+            title: "OpenAI降价抢单成效显著 多家Anthropic客户编码业务“倒戈”",
+            summary: "OpenAI压低报价与Anthropic竞争的策略已经初见成效。 人力资源软件公司Rippling首席执行官Parker Conrad称，今年5月，公司数百名工程师的编码工作中...",
+            source: "环球市场播报",
+            date: "2026-10-25",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-24/doc-iniwiyzk3609815.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmanw3213693.shtml"
         },
         {
-            title: "夏春：注册制改邀请制弊大于利",
-            summary: "夏春财经智识 近日有传闻，某新质生产力赛道龙头企业的上市在监管系统内部被定性为一次“发行事故”：上市后二级市场蒸发数千亿市值，整个赛道的资本化进程被迫叫停。",
-            source: "市场资讯",
-            date: "2026-10-24",
+            title: "杠杆ETF新规落地后 韩国散户首次月度净买入押注反弹",
+            summary: " 韩国散户投资者自7月底监管收紧投资规则以来首次实现单月净买入单一个股杠杆ETF。韩国股市大跌之际，押注三星电子、SK海力士等大型芯片企业反弹的需求再度升温。",
+            source: "环球市场播报",
+            date: "2026-10-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-24/doc-iniwiutn3719861.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmanz6647345.shtml"
         },
         {
-            title: "全世界都没看透的可口可乐真相",
-            summary: "般若之眼 你有没有想过，也许韩国、阿根廷、印度、约旦或者我们中国，也都有一种很好喝的饮料，但为啥没有像可口可乐那样成为全球饮料？",
-            source: "市场资讯",
-            date: "2026-10-24",
+            title: "SK集团会长崔泰源纽约牛排店合影流出 外界关注美国投资布局",
+            summary: "有关SK集团会长崔泰源现身纽约一家牛排馆的照片流传开来，引发市场对集团美国投资计划的关注。照片拍摄于崔泰源9月末赴纽约参加范弗利特奖颁奖活动期间...",
+            source: "环球市场播报",
+            date: "2026-10-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-24/doc-iniwiutt4046028.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmanx9955716.shtml"
         },
         {
-            title: "泡泡玛特的宿命：一代人有一代人的“拉布布”",
-            summary: "般若之眼 上几代人玩的鼻烟壶、遛鸟、盘串、集邮，这一代人抽盲盒、追拉布布。它们的共性本质可以一句话概括： 人类把不可控的时间、情感、身份和孤独，外化成可触摸...",
-            source: "市场资讯",
-            date: "2026-10-24",
+            title: "韩国存储双雄即将公布第三季度财报 合计营业利润有望达185万亿韩元",
+            summary: " 韩国芯片企业三星电子与SK海力士将于下周发布第三季度财报，人工智能存储芯片的旺盛需求有望推动两家企业实现丰厚利润。",
+            source: "环球市场播报",
+            date: "2026-10-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-24/doc-iniwiutn3715488.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmapc3403465.shtml"
         },
         {
-            title: "美国：这个我是真没卡住! 中国第三代半导体全面崛起! 拿下 90% 市场!",
-            summary: "杨哥商业说 问AI·碳化硅侧翼赛道为何不受顶级光刻机制约？ 一台两吨重的电动车在国道上以 120 公里时速超车，车底逆变器里几千伏的高压电正以每秒数万次的频率切换。",
-            source: "市场资讯",
-            date: "2026-10-24",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/china/2026-10-24/doc-iniwiutn3715604.shtml"
-        },
-        {
-            title: "南方区域电力市场转入正式运行",
-            summary: "10月24日消息，我国首个区域电力市场——南方区域电力市场今天转入正式运行。历经一年多极端工况实战检验，市场完成从试点探索到制度成熟定型的“关键一跃”...",
-            source: "新浪财经",
-            date: "2026-10-24",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/china/2026-10-24/doc-iniwiqmh7907000.shtml"
-        },
-        {
-            title: "“X女下海赚外快”？ 哈啰顺风车被曝涉黄！订单现疑似招嫖信息，官方紧急排查，高管曾称“七年没亏钱”",
-            summary: "《“X女下海赚外快”？ 哈啰顺风车被曝涉黄！订单现疑似招嫖信息，官方紧急排查，高管曾称“七年没亏钱”》 文|《BUG》栏目 张俊 哈啰顺风车又出事了。 这次是因为涉黄。",
-            source: "新浪财经",
-            date: "2026-10-24",
+            title: "三星电子会长李在镕近日出访阿联酋 业内关注新增数据中心订单可能性",
+            summary: "三星电子会长李在镕已前往阿联酋。该地区目前处于近乎战时的地缘紧张环境，分析师称，此行将推动三星集团在中东业务提速，涵盖面向人工智能数据中心建设与运营的先进芯片供...",
+            source: "环球市场播报",
+            date: "2026-10-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-24/doc-iniwikcq1264147.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwkwfc6750638.shtml"
         },
         {
-            title: "“吃完两瓶了，天塌了！” 山姆紧急下架“好健康”牡蛎精！消费者不满“仅退款”，10倍索赔成立吗？",
-            summary: "文 | 《BUG》栏目 马世雯 近日，山姆紧急下架“好健康”牌牡蛎精胶囊。同时向会员发布召回部分批次产品的短信，并办理全额退款，无需退回商品。",
-            source: "新浪财经",
-            date: "2026-10-24",
+            title: "奥巴马为中期选举造势 抨击特朗普对伊战争、翻修白宫",
+            summary: "美国前总统奥巴马周六在俄亥俄州一场中期选举造势集会上猛烈抨击特朗普与共和党，这是距离选举日不足两周之际，他首次出席中期选举造势活动。",
+            source: "环球市场播报",
+            date: "2026-10-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-24/doc-iniwikck8019248.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwkwfc6736962.shtml"
+        },
+        {
+            title: "伊朗否认以霍尔木兹海峡换解除封锁的报道，称系\"谎言与幻想\"",
+            summary: "知情人士称，伊朗未向巴基斯坦调停人提出任何新方案，并拒绝所谓以重新开放霍尔木兹海峡换取美国解除海上封锁的报道。该消息人士驳斥阿拉伯卫星电视台关于德黑兰已向华盛顿...",
+            source: "环球市场播报",
+            date: "2026-10-25",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/7x24/2026-10-25/doc-iniwkrxa3325699.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-10-25",
         marketAssessment: "A股方面：上证指数报3690.48点（+0.89%），深证成指报11673.83点（+2.79%），创业板指报2684.10点（+4.16%）。美股方面：标普500报7,623.68（-0.47%），纳斯达克报25,955.34（-0.71%）。",
         hotSectors: [

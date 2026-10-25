@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3690.48", change: "+0.89%", market: "A股", updateTime: "2026-10-25 实时" },
         { name: "深证成指", code: "SZ399001", value: "11673.83", change: "+2.79%", market: "A股", updateTime: "2026-10-25 实时" },
         { name: "创业板指", code: "SZ399006", value: "2684.10", change: "+4.16%", market: "A股", updateTime: "2026-10-25 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "全球最大的燕麦加工厂起火 疑似发生爆炸",
-            summary: " 当地时间周六，桂格燕麦（Quaker Oats）当地工厂疑似发生爆炸并引发火灾。该工厂是企业宣称的全球最大燕麦研磨加工厂，消防部门称暂无人员受伤。",
+            title: "高盛将韩国Kospi指数12个月目标价下调25% 因对人工智能交易担忧加剧",
+            summary: " 随着市场对人工智能交易的担忧加剧，高盛集团策略师将韩国Kospi指数的目标位下调25%。这是该行今年多次上调目标后的首次大幅下调。",
             source: "环球市场播报",
             date: "2026-10-25",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmhuz3313952.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmtkr9771143.shtml"
         },
         {
-            title: "OpenAI降价抢单成效显著 多家Anthropic客户编码业务“倒戈”",
-            summary: "OpenAI压低报价与Anthropic竞争的策略已经初见成效。 人力资源软件公司Rippling首席执行官Parker Conrad称，今年5月，公司数百名工程师的编码工作中...",
+            title: "以色列大选日限制巴勒斯坦人员出入境",
+            summary: " 以色列国防军发布通告称，以色列将于 10 月 27 日大选当天，禁止约旦河西岸巴勒斯坦务工人员出入境，并关闭所有陆路口岸。",
+            source: "环球市场播报",
+            date: "2026-10-25",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmpax3236858.shtml"
+        },
+        {
+            title: "iPhone Duo未能通过JerryRigEverything粉尘耐用性测试",
+            summary: "苹果iPhone Duo没能通过JerryRigEverything最新一轮耐用测试。该机虽具备IP68防尘等级，但粉尘仍从多处缝隙进入铰链内部，导致机身闭合磁吸结构失效。",
+            source: "环球市场播报",
+            date: "2026-10-25",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmpav6451672.shtml"
+        },
+        {
+            title: "华大智造：减亏之后，拐点该看哪三个信号",
+            summary: "来源：证券之星 华大智造（688114）大概是科创板中最让人纠结的一类标的：技术底子足够硬，赛道位置足够关键，但利润表始终不好看。",
+            source: "市场资讯",
+            date: "2026-10-25",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-25/doc-iniwmtkq2991582.shtml"
+        },
+        {
+            title: "尚太科技涨停“B面”：外协加工抬升成本，利息费用挤压利润",
+            summary: "来源：证券之星 连续两日回调后，10月23日，尚太科技（001301.SZ）低开高走，早盘开盘触及40.79元/股的年内新低，股价随后企稳回升，午后开盘不久快速拉升封死涨停...",
+            source: "市场资讯",
+            date: "2026-10-25",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-25/doc-iniwmtkq2993155.shtml"
+        },
+        {
+            title: "韩国二季度经常账户盈余超德日之和，半导体出口拉动顺差大增",
+            summary: "韩国二季度经常账户盈余规模，超过德国、日本这两大全球制造业强国的盈余总和。半导体出口热潮推高贸易顺差至历史高位，同时海外投资扩张带动股息与利息收入走高...",
             source: "环球市场播报",
             date: "2026-10-25",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmanw3213693.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmpav6451385.shtml"
         },
         {
-            title: "杠杆ETF新规落地后 韩国散户首次月度净买入押注反弹",
-            summary: " 韩国散户投资者自7月底监管收紧投资规则以来首次实现单月净买入单一个股杠杆ETF。韩国股市大跌之际，押注三星电子、SK海力士等大型芯片企业反弹的需求再度升温。",
+            title: "孙正义计划在马来西亚投资500亿美元 押注AI、数据中心",
+            summary: " 马来西亚总理称，软银集团孙正义选定马来西亚多地，计划投入500亿美元科技投资，这笔资金将加快这位富豪在全球AI基础设施领域的布局。",
             source: "环球市场播报",
             date: "2026-10-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmanz6647345.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmpas3053918.shtml"
         },
         {
-            title: "SK集团会长崔泰源纽约牛排店合影流出 外界关注美国投资布局",
-            summary: "有关SK集团会长崔泰源现身纽约一家牛排馆的照片流传开来，引发市场对集团美国投资计划的关注。照片拍摄于崔泰源9月末赴纽约参加范弗利特奖颁奖活动期间...",
+            title: "苹果计划优化iPhone Duo外屏Safari布局",
+            summary: "苹果正考虑对iPhone Duo的Safari浏览器做出调整，让网页能够占用更多外屏显示区域，不过苹果尚未敲定最终方案。 难题在于，既要允许网页填充到Safari侧边控件下方...",
             source: "环球市场播报",
             date: "2026-10-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmanx9955716.shtml"
-        },
-        {
-            title: "韩国存储双雄即将公布第三季度财报 合计营业利润有望达185万亿韩元",
-            summary: " 韩国芯片企业三星电子与SK海力士将于下周发布第三季度财报，人工智能存储芯片的旺盛需求有望推动两家企业实现丰厚利润。",
-            source: "环球市场播报",
-            date: "2026-10-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmapc3403465.shtml"
-        },
-        {
-            title: "三星电子会长李在镕近日出访阿联酋 业内关注新增数据中心订单可能性",
-            summary: "三星电子会长李在镕已前往阿联酋。该地区目前处于近乎战时的地缘紧张环境，分析师称，此行将推动三星集团在中东业务提速，涵盖面向人工智能数据中心建设与运营的先进芯片供...",
-            source: "环球市场播报",
-            date: "2026-10-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwkwfc6750638.shtml"
-        },
-        {
-            title: "奥巴马为中期选举造势 抨击特朗普对伊战争、翻修白宫",
-            summary: "美国前总统奥巴马周六在俄亥俄州一场中期选举造势集会上猛烈抨击特朗普与共和党，这是距离选举日不足两周之际，他首次出席中期选举造势活动。",
-            source: "环球市场播报",
-            date: "2026-10-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwkwfc6736962.shtml"
-        },
-        {
-            title: "伊朗否认以霍尔木兹海峡换解除封锁的报道，称系\"谎言与幻想\"",
-            summary: "知情人士称，伊朗未向巴基斯坦调停人提出任何新方案，并拒绝所谓以重新开放霍尔木兹海峡换取美国解除海上封锁的报道。该消息人士驳斥阿拉伯卫星电视台关于德黑兰已向华盛顿...",
-            source: "环球市场播报",
-            date: "2026-10-25",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/7x24/2026-10-25/doc-iniwkrxa3325699.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmhux6558838.shtml"
         },
     ],
 
@@ -765,17 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-25",
         marketAssessment: "A股方面：上证指数报3690.48点（+0.89%），深证成指报11673.83点（+2.79%），创业板指报2684.10点（+4.16%）。美股方面：标普500报7,623.68（-0.47%），纳斯达克报25,955.34（-0.71%）。",
         hotSectors: [
-
+            { name: "其他数字媒体", reason: "板块涨幅+15.02%", strength: "强" },
+            { name: "机器人", reason: "板块涨幅+7.98%", strength: "强" },
+            { name: "视频媒体", reason: "板块涨幅+6.56%", strength: "强" },
+            { name: "横向通用软件", reason: "板块涨幅+5.72%", strength: "强" },
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        shortTermStrategy: "超短线关注其他数字媒体、机器人、视频媒体等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

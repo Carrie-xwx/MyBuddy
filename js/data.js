@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3690.48", change: "+0.89%", market: "A股", updateTime: "2026-10-26 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11673.83", change: "+2.79%", market: "A股", updateTime: "2026-10-26 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2684.10", change: "+4.16%", market: "A股", updateTime: "2026-10-26 实时" },
-        { name: "沪深300", code: "SH000300", value: "4105.33", change: "+1.71%", market: "A股", updateTime: "2026-10-26 实时" },
-        { name: "科创50", code: "SH000688", value: "1345.51", change: "+3.04%", market: "A股", updateTime: "2026-10-26 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3688.70", change: "-0.05%", market: "A股", updateTime: "2026-10-26 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11589.67", change: "-0.72%", market: "A股", updateTime: "2026-10-26 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2653.93", change: "-1.12%", market: "A股", updateTime: "2026-10-26 实时" },
+        { name: "沪深300", code: "SH000300", value: "4088.73", change: "-0.40%", market: "A股", updateTime: "2026-10-26 实时" },
+        { name: "科创50", code: "SH000688", value: "1324.42", change: "-1.57%", market: "A股", updateTime: "2026-10-26 实时" },
         { name: "标普500", code: "SPX", value: "7,623.68", change: "-0.47%", market: "美股", updateTime: "2026-10-26 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "25,955.34", change: "-0.71%", market: "美股", updateTime: "2026-10-26 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,215.16", change: "+0.41%", market: "美股", updateTime: "2026-10-26 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "特朗普称伊朗问题临近决断时刻 要么达成协议要么彻底解决",
-            summary: " 随着伊朗和胡塞武装针对中东地区美国人的威胁持续上升，美国总统唐纳德·特朗普表示，现在“越来越到了作出决定的时候”：是与德黑兰达成协议，还是恢复打击。",
+            title: "LONG投资集团：根据供股发行新股2.04亿股",
+            summary: "LONG投资集团（02312）发布公告，于2026年10月26日根据供股发行新股2.04亿股。",
+            source: "新浪港股",
+            date: "2026-10-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-26/doc-iniwpmtu2550973.shtml"
+        },
+        {
+            title: "H&H国际控股前三季度总收入按呈报基准按年上升24.5%",
+            summary: "H&amp;H国际控股（01112）发布公告，截至2026年9月30日止9个月，总收入按呈报基准按年上升24.5% （按同类比较基准上升24.4%）至人民币134.48亿元...",
+            source: "新浪港股",
+            date: "2026-10-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-26/doc-iniwpmtz2401057.shtml"
+        },
+        {
+            title: "天津发展：力生制药前三季度归母净利润7851万元 同比减少78.82%",
+            summary: "天津发展（00882）发布力生制药截至2026年9月30日止九个月业绩，营业总收入8.88亿元人民币，同比减少11.84%；归属于母公司所有者的净利润7851万元，同比减少78...",
+            source: "新浪港股",
+            date: "2026-10-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-26/doc-iniwpmtx5623304.shtml"
+        },
+        {
+            title: "英恒科技前三季度总收入约55.7亿元 同比增长约21.4%",
+            summary: " 英恒科技（01760）发布截至2026年9月30日止第三季度的业务更新，截至2026年9月30日止九个月，本集团总收入约人民币55.7亿元（未经审核），较2025 年同期增长约21.4%。",
+            source: "新浪港股",
+            date: "2026-10-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-26/doc-iniwpmtz2400236.shtml"
+        },
+        {
+            title: "新加坡推出核能能力建设计划",
+            summary: "据新加坡能源与工业部及能源市场管理局（EMA）的联合声明，新加坡已推出三项计划，以支持本土核能专业人才的培养。 这些计划旨在建设国内核能能力...",
             source: "环球市场播报",
-            date: "2026-10-25",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwnkhm6067433.shtml"
-        },
-        {
-            title: "特朗普：还有“许多”关于经济的消息要发布",
-            summary: "美国总统特朗普表示，在宣布大众汽车计划在佐治亚州建设一家奥迪工厂后，他的政府还有“许多其他消息”要宣布。 特朗普谈到在11月3日中期选举前为共和党助选的情况。",
-            source: "环球市场播报",
-            date: "2026-10-25",
+            date: "2026-10-26",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwncyk2910312.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwpmtz2400024.shtml"
         },
         {
-            title: "特朗普称计划发布更多经济领域公告",
-            summary: " 美国总统唐纳德·特朗普表示，继宣布大众汽车集团计划在佐治亚州建设一座奥迪工厂之后，他的政府还有“许多其他公告”即将发布。",
-            source: "环球市场播报",
-            date: "2026-10-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwncyp6184455.shtml"
+            title: "医渡科技：中标重庆医科大学第一附属医院新一代大数据平台项目",
+            summary: " 医渡科技（02158）发布公告，近期，本公司的联属公司医渡云（北京）技术有限公司中标重庆医科大学第一附属医院新一代大数据平台项目，项目总金额约为人民币1329万元。",
+            source: "新浪港股",
+            date: "2026-10-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-26/doc-iniwpmtx5622642.shtml"
         },
         {
-            title: "沙特利雅得机场重新开放 胡塞武装袭击仍在持续",
-            summary: "沙特阿拉伯首都利雅得的主要机场在关闭两周后重新向全球航空交通开放，尽管胡塞武装周末持续袭击这座城市。 根据机场网站，周日早间...",
-            source: "环球市场播报",
-            date: "2026-10-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwncyp6182831.shtml"
+            title: "融太集团附属与四川聚兴华商贸分别就买卖物业订立买卖协议",
+            summary: " 融太集团（01172）发布公告，于2026年10月26日，卖方融太发展（成都）有限公司（本公司的间接全资附属公司）与买方四川聚兴华商贸有限公司分别就买卖物业订立买卖协议。",
+            source: "新浪港股",
+            date: "2026-10-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-26/doc-iniwpmtv9324859.shtml"
         },
         {
-            title: "GPU企业登临科技通过上市聆讯：4个月营收2亿 亏1647万 估值72亿",
-            summary: "来源：雷递 雷递网 雷建平 10月25日 苏州登临科技股份有限公司（简称：“登临科技”）今日通过上市聆讯，准备在港交所上市。 登临科技在2025年10月完成2.9亿元D2轮融资...",
-            source: "市场资讯",
-            date: "2026-10-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-25/doc-iniwncym9670097.shtml"
-        },
-        {
-            title: "特朗普宣布奥迪将在佐治亚州投资40亿美元建厂",
-            summary: "美国总统唐纳德·特朗普周六宣布，奥迪计划在佐治亚州建设一座价值40亿美元的组装工厂，每年生产20万辆SUV。 特朗普一直在向汽车制造商施压，要求将生产转移至美国...",
-            source: "环球市场播报",
-            date: "2026-10-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwncym9666306.shtml"
-        },
-        {
-            title: "明起停牌！600621，控股股东拟变更",
-            summary: "华鑫股份明起停牌。 华鑫股份（600621）10月25日晚间公告，因公司控股股东上海仪电（集团）有限公司（简称“仪电集团”）正在筹划涉及所持有公司股份转让事宜...",
-            source: "证券时报",
-            date: "2026-10-25",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-25/doc-iniwncyp6167925.shtml"
-        },
-        {
-            title: "消息：伊朗并未通过巴基斯坦向美国提交新方案",
-            summary: "一名知情人士称，有关伊朗提议以重新开放霍尔木兹海峡换取美国解除海上封锁的报道“虚假且纯属幻想”。 这名消息人士说：“从根本上说...",
-            source: "环球市场播报",
-            date: "2026-10-25",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwncyk2872683.shtml"
+            title: "宝发控股公布于10月26日上午起停牌",
+            summary: "宝发控股（08532）发布公告，该公司的股份已于2026年10月26日上午11时13分起暂停买卖。",
+            source: "新浪港股",
+            date: "2026-10-26",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-26/doc-iniwpmtv9324160.shtml"
         },
     ],
 
@@ -765,20 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-10-26",
-        marketAssessment: "A股方面：上证指数报3690.48点（+0.89%），深证成指报11673.83点（+2.79%），创业板指报2684.10点（+4.16%）。美股方面：标普500报7,623.68（-0.47%），纳斯达克报25,955.34（-0.71%）。",
+        marketAssessment: "A股方面：上证指数报3688.70点（-0.05%），深证成指报11589.67点（-0.72%），创业板指报2653.93点（-1.12%）。美股方面：标普500报7,623.68（-0.47%），纳斯达克报25,955.34（-0.71%）。",
         hotSectors: [
-            { name: "其他数字媒体", reason: "板块涨幅+15.02%", strength: "强" },
-            { name: "机器人", reason: "板块涨幅+7.98%", strength: "强" },
-            { name: "视频媒体", reason: "板块涨幅+6.56%", strength: "强" },
-            { name: "横向通用软件", reason: "板块涨幅+5.72%", strength: "强" },
+            { name: "会展服务", reason: "板块涨幅+9.21%", strength: "强" },
+            { name: "其他数字媒体", reason: "板块涨幅+7.88%", strength: "强" },
+            { name: "视频媒体", reason: "板块涨幅+5.17%", strength: "强" },
+            { name: "烘焙食品", reason: "板块涨幅+4.63%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "印制电路板", reason: "板块跌幅-5.07%", strength: "弱" },
+            { name: "元件", reason: "板块跌幅-4.33%", strength: "弱" },
         ],
-        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注其他数字媒体、机器人、视频媒体等板块的延续性，顺势操作，严格止损。",
+        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
+        shortTermStrategy: "超短线关注会展服务、其他数字媒体、视频媒体等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3687.22", change: "-0.28%", market: "A股", updateTime: "2026-10-27 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11445.95", change: "-0.77%", market: "A股", updateTime: "2026-10-27 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2609.19", change: "-1.10%", market: "A股", updateTime: "2026-10-27 实时" },
-        { name: "沪深300", code: "SH000300", value: "4094.52", change: "-0.22%", market: "A股", updateTime: "2026-10-27 实时" },
-        { name: "科创50", code: "SH000688", value: "1287.65", change: "-2.12%", market: "A股", updateTime: "2026-10-27 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3648.30", change: "-1.33%", market: "A股", updateTime: "2026-10-27 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11245.73", change: "-2.50%", market: "A股", updateTime: "2026-10-27 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2548.15", change: "-3.41%", market: "A股", updateTime: "2026-10-27 实时" },
+        { name: "沪深300", code: "SH000300", value: "4049.55", change: "-1.32%", market: "A股", updateTime: "2026-10-27 实时" },
+        { name: "科创50", code: "SH000688", value: "1252.28", change: "-4.81%", market: "A股", updateTime: "2026-10-27 实时" },
         { name: "标普500", code: "SPX", value: "7,676.77", change: "-0.18%", market: "美股", updateTime: "2026-10-27 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,169.38", change: "-0.99%", market: "美股", updateTime: "2026-10-27 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,361.58", change: "+0.76%", market: "美股", updateTime: "2026-10-27 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "华泰证券：德适-B首次覆盖给予“买入”评级 目标价296.13港元",
-            summary: "华泰证券首次覆盖德适-B（02526），给予“买入”评级，目标价296.13港元。该行看好公司在医学影像智能化需求加速释放的背景下，凭借跨模态模型能力...",
-            source: "新浪港股",
-            date: "2026-10-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-27/doc-iniwruyt8880890.shtml"
-        },
-        {
-            title: "Meta普通股发行规模由225亿美元上调至250亿美元",
-            summary: "Meta Platforms公司将本次A股普通股发行规模，由此前公布的225亿美元扩大至250亿美元。 本次发行的A股普通股定价为每股625美元。 Meta宣布存托股份发行定价为每股50美元。",
-            source: "环球市场播报",
+            title: "中天期货:乙二醇突破上行 甲醇继续拉高",
+            summary: "热点品种分析 商品指数 股指 中国上证综指10月 27日（周二）收盘下跌49.22点，跌幅 1.33%，报 3648.30 点； 中国深证成指 10月 27日（周二）收盘下跌288.65点，跌幅 2...",
+            source: "市场资讯",
             date: "2026-10-27",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwruyx1452085.shtml"
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-10-27/doc-iniwsfqt1309717.shtml"
         },
         {
-            title: "乐普生物获董事长兼执行董事蒲忠杰增持105万股H股",
-            summary: "乐普生物（02157）发布公告，董事会接获蒲忠杰博士（蒲博士，董事长兼执行董事，及本公司控股股东）通知，彼已于2026年10月27日以其自有资金通过沪港通在公开市场按每股H股...",
-            source: "新浪港股",
+            title: "雷军“卖房”，和想象中不太一样",
+            summary: "来源：地产K线 文丨乐居财经 曾树佳 近日，小米的首个住宅项目“光谷梦享家”在武汉开售。外界的讨论，大多集中在“雷军是否要进军房地产”...",
+            source: "市场资讯",
             date: "2026-10-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-27/doc-iniwruyx1451665.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-10-27/doc-iniwsfqt1306958.shtml"
         },
         {
-            title: "英国央行要求审查 Revolut 产品审批流程",
-            summary: "媒体援引知情人士消息报道，英国央行审慎监管局今年早些时候下达第 166 条指令，核查 Revolut 快速推出各类金融新产品背后存在的风险。",
+            title: "伊朗称将对长锦商船的船舶采取法律行动",
+            summary: "伊朗的波斯湾海峡管理局在X上表示，“过去三个月里，属于长锦商船这家航运公司的船舶违规通行次数最多。” 自11月1日起，将对长锦商船的船只采取法律行动。",
             source: "环球市场播报",
             date: "2026-10-27",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwruys2099544.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwsfqw3811546.shtml"
         },
         {
-            title: "汇丰第三季度税前利润同比增长32%，宣布10亿美元股票回购计划",
-            summary: " 欧洲最大银行汇丰控股（HSBC）周二公布了第三季度税前利润，该数据基本符合汇丰所汇总的分析师预期；同时，该行宣布将在今年年底前进行总额最高达10亿美元的股票回购。",
+            title: "习近平致电祝贺卢拉当选连任巴西总统",
+            summary: "新华社快讯：习近平致电祝贺卢拉当选连任巴西总统。",
+            source: "新华社",
+            date: "2026-10-27",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-10-27/doc-iniwsfqw3815837.shtml"
+        },
+        {
+            title: "提前结募！招商价值智选主动管理ETF提前结束募集",
+            summary: "10月27日，招商基金旗下的主动ETF“招商价值智选主动管理ETF”募集规模已超20亿元，提前结束募集。‌‌ 招商基金量化投资部总监王平表示...",
+            source: "新浪基金",
+            date: "2026-10-27",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/fund/jjdt/2026-10-27/doc-iniwsfqu7032925.shtml"
+        },
+        {
+            title: "Anthropic的S‑1文件凸显支付处理成本持续走高",
+            summary: "Stripe 是 Anthropic 的核心支付服务商。 Anthropic 提交的 S‑1 招股书显示，今年上半年，公司支付处理手续费较去年同期增加 2.22 亿美元。",
             source: "环球市场播报",
             date: "2026-10-27",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwruyv4672466.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwsfqw3807561.shtml"
         },
         {
-            title: "Jio 在印度暗盘交易中较发行价上涨 22%",
-            summary: " 有幸中签 Jio Platforms Ltd 这宗募资 31 亿美元、创印度纪录 IPO 的投资者，在非官方暗盘市场的交易让市场预期该股上市首日大涨。",
+            title: "提前结募！均衡量化主动ETF天弘（158908）募集超20亿元",
+            summary: "10月27日，从渠道处获悉，均衡量化主动ETF天弘（158908）已于27日募集超20亿元，或提前结募并触发比例配售。 公开资料显示，天弘均衡量化选股主动ETF采用量化策略...",
+            source: "新浪基金",
+            date: "2026-10-27",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/fund/jjdt/2026-10-27/doc-iniwsfqu7030432.shtml"
+        },
+        {
+            title: "DoorDash接近达成170亿美元收购Instacart的交易",
+            summary: "据知情人士透露，DoorDash 正在就以约 170 亿美元收购 Instacart 开展深度谈判。 部分知情人士表示，如果不在最后关头谈崩，这笔交易可能于未来数日内官宣。",
             source: "环球市场播报",
             date: "2026-10-27",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwruyx1444653.shtml"
-        },
-        {
-            title: "法拉帝前三季度新订单量6.65亿欧元 同比减少约13.8%",
-            summary: "法拉帝（09638）发布截至2026年9月30日止9个月业绩，新订单量：2026年9个月的新订单量为6.65亿欧元，较截至2025年9月30日止9个月（2025年9个月）的7.71亿欧元减少约13...",
-            source: "新浪港股",
-            date: "2026-10-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-27/doc-iniwruyv4667286.shtml"
-        },
-        {
-            title: "名创优品于10月26日斥资23.72万美元回购9.49万股",
-            summary: " 名创优品（09896）发布公告，该公司于2026年10月26日斥资23.72万美元回购9.49万股股份，每股回购价格为2.48-2.535美元。",
-            source: "新浪港股",
-            date: "2026-10-27",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-27/doc-iniwruys2084852.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwsfqt1301895.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-27",
-        marketAssessment: "A股方面：上证指数报3687.22点（-0.28%），深证成指报11445.95点（-0.77%），创业板指报2609.19点（-1.10%）。美股方面：标普500报7,676.77（-0.18%），纳斯达克报26,169.38（-0.99%）。",
+        marketAssessment: "A股方面：上证指数报3648.30点（-1.33%），深证成指报11245.73点（-2.50%），创业板指报2548.15点（-3.41%）。美股方面：标普500报7,676.77（-0.18%），纳斯达克报26,169.38（-0.99%）。",
         hotSectors: [
-            { name: "纺织鞋类制造", reason: "板块涨幅+3.80%", strength: "强" },
-            { name: "会展服务", reason: "板块涨幅+3.38%", strength: "强" },
-            { name: "粘胶", reason: "板块涨幅+3.03%", strength: "强" },
-            { name: "电机Ⅲ", reason: "板块涨幅+2.82%", strength: "中强" },
+
         ],
         weakSectors: [
-            { name: "钴", reason: "板块跌幅-6.15%", strength: "弱" },
-            { name: "诊断服务", reason: "板块跌幅-4.58%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注纺织鞋类制造、会展服务、粘胶等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

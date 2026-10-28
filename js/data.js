@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3681.47", change: "+0.91%", market: "A股", updateTime: "2026-10-28 实时" },
         { name: "深证成指", code: "SZ399001", value: "11473.18", change: "+2.02%", market: "A股", updateTime: "2026-10-28 实时" },
         { name: "创业板指", code: "SZ399006", value: "2634.76", change: "+3.40%", market: "A股", updateTime: "2026-10-28 实时" },
         { name: "沪深300", code: "SH000300", value: "4083.87", change: "+0.85%", market: "A股", updateTime: "2026-10-28 实时" },
         { name: "科创50", code: "SH000688", value: "1282.93", change: "+2.45%", market: "A股", updateTime: "2026-10-28 实时" },
-        { name: "标普500", code: "SPX", value: "7,722.60", change: "+0.13%", market: "美股", updateTime: "2026-10-28 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,477.81", change: "+0.20%", market: "美股", updateTime: "2026-10-28 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,377.57", change: "-0.23%", market: "美股", updateTime: "2026-10-28 收盘" },
+        { name: "标普500", code: "SPX", value: "7,735.32", change: "-0.28%", market: "美股", updateTime: "2026-10-28 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,472.75", change: "-0.86%", market: "美股", updateTime: "2026-10-28 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,478.15", change: "-0.72%", market: "美股", updateTime: "2026-10-28 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "Bumble创始人赫德解读公司私有化的决策",
-            summary: "Bumble 联合创始人兼首席执行官惠特妮・沃尔夫・赫德于周二表示，受公开资本市场的对待方式影响，出售这家拥有 12 年历史的交友应用...",
+            title: "活跃买家数量回升，Etsy销售额实现增长",
+            summary: "这家线上交易平台运营商第三季度营收上涨 11%，达到 6.925 亿美元Etsy 第三季度销售额走高。 内容概要 Etsy 第三季度营收上涨 11% 至 6.925 亿美元...",
             source: "环球市场播报",
             date: "2026-10-28",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuqvv9481160.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuzmn6472412.shtml"
         },
         {
-            title: "安森美半导体洽谈以约10亿美元收购一家初创芯片企业",
-            summary: "知情人士透露，半导体元器件厂商安森美半导体（Onsemi）正在洽谈收购成立已有 16 年的芯片初创公司 Ferric，交易对价接近 10 亿美元。",
-            source: "环球市场播报",
-            date: "2026-10-28",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuqvv9479773.shtml"
-        },
-        {
-            title: "长期采购英伟达芯片的OpenAI计划购入谷歌AI芯片",
-            summary: " 据知情人士透露，OpenAI 计划采购谷歌的 AI 芯片。对于英伟达这家 OpenAI 投资方的崛起对手而言，这无疑是一次重大利好。",
-            source: "环球市场播报",
-            date: "2026-10-28",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuqvv9478611.shtml"
-        },
-        {
-            title: "德恩精工盘中触及“20cm”涨停！多家外资机构现身前十大股东行列",
-            summary: "来源：金融投资报 10月27日晚间，减速器、机器人零部件厂商德恩精工（300780）披露2026年三季报。财报显示，公司营收同比下滑，整体继续处于亏损状态...",
-            source: "市场资讯",
-            date: "2026-10-28",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-10-28/doc-iniwuqvu3333179.shtml"
-        },
-        {
-            title: "谷歌迎来TPU发展黄金窗口期",
-            summary: "做好准备，周三谷歌将大力宣传自家 TPU 芯片。谷歌母公司 Alphabet 明日将发布第三季度财报，公司自研 AI 芯片 —— 张量处理单元（TPU）...",
+            title: "面对资本监管要求，瑞银首席执行官暗示或将撤离瑞士",
+            summary: "受监管规则调整，瑞银需额外增配约 160 亿美元股权资本瑞银首席执行官塞尔吉奥・埃尔莫蒂表示，集团正在评估总部设在瑞士对自身长期竞争能力带来的影响。",
             source: "环球市场播报",
             date: "2026-10-28",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuqvx5907534.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuzmr9357360.shtml"
         },
         {
-            title: "向中国人民道歉！总台确认收到皇马道歉函",
-            summary: " 北京时间10月28日下午，西班牙皇家马德里俱乐部通过西甲联盟致函中央广播电视总台，正式就其球员姆巴佩的负面言论向中国人民道歉。",
-            source: "央视",
-            date: "2026-10-28",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-28/doc-iniwuqvv9457823.shtml"
-        },
-        {
-            title: "Anduril值1200亿美元吗？",
-            summary: "作者：朱莉娅・霍恩斯坦 我获悉，Anduril Industries 部分资深员工向投资人透露，这家自主武器厂商计划在明年一季度开启新一轮融资。",
+            title: "疫苗销售不及预期，葛兰素史克跌 7%",
+            summary: "欧洲午盘交易时段该股大跌 7%，回吐今年以来全部涨幅葛兰素史克正推进降本工作，加快新药管线研发进度。 葛兰素史克公布第三季度营收 118.3 亿美元，同比增长 4%。",
             source: "环球市场播报",
             date: "2026-10-28",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuqvv9455652.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuzmt5806711.shtml"
         },
         {
-            title: "高盛投行联合主管：AI热潮之下市场正在发生 “重新定位”",
-            summary: "金・波斯内特表示，如果利率长期维持高位，AI 项目将无法实现预期回报。 高盛全球投行联合主管金・波斯内特周二在 The Information 的 WTF 峰会上表示...",
+            title: "特朗普政府对伊战争成本超470亿美元 超50%为消耗弹药",
+            summary: " 一份文件显示：美军官员估算，截至10月中旬，特朗普政府对伊朗的战争开销已经超过470亿美元，近几周新增支出超30亿美元。",
             source: "环球市场播报",
             date: "2026-10-28",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuqvs6545456.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuzmn6465110.shtml"
+        },
+        {
+            title: "受网络攻击及多重不利因素影响，波士顿科学再度下调业绩指引",
+            summary: "这家医疗设备企业目前预计全年销售额增幅约 4.25%该医疗企业称，目前预计全年销售额增长约 4.25%，低于此前 5.5%‑6.5% 的指引区间；同时将调整后每股收益预期由此前 3...",
+            source: "环球市场播报",
+            date: "2026-10-28",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuzmq3240709.shtml"
+        },
+        {
+            title: "EIA：美国上周原油库存减少189.2万桶",
+            summary: "美国能源信息管理局公布的报告还显示上周其他变动如下： 汽油库存增加387万桶，预估为减少100万桶。 馏分油库存减少146.2万桶，预估为减少107.5万桶。",
+            source: "环球市场播报",
+            date: "2026-10-28",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuzmq3240040.shtml"
+        },
+        {
+            title: "博士伦由亏转盈，上调全年业绩指引",
+            summary: "这家眼部健康企业预计全年营收为 54.5‑55.5 亿美元，此前预期为 54.4‑55.4 亿美元博士伦公布第三季度盈利后，上调了全年业绩预期。",
+            source: "环球市场播报",
+            date: "2026-10-28",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuzmn6463596.shtml"
+        },
+        {
+            title: "Anthropic的IPO申报文件警告：部分风险可能无法投保",
+            summary: "Anthropic的IPO申报文件包含许多描述风险的文字，从知识产权盗窃到安全事件、数据丢失、气候变化、失控智能体，一直到人类生存危机。",
+            source: "环球市场播报",
+            date: "2026-10-28",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuzmr9349521.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-28",
-        marketAssessment: "A股方面：上证指数报3681.47点（+0.91%），深证成指报11473.18点（+2.02%），创业板指报2634.76点（+3.40%）。美股方面：标普500报7,722.60（+0.13%），纳斯达克报26,477.81（+0.20%）。",
+        marketAssessment: "A股方面：上证指数报3681.47点（+0.91%），深证成指报11473.18点（+2.02%），创业板指报2634.76点（+3.40%）。美股方面：标普500报7,735.32（-0.28%），纳斯达克报26,472.75（-0.86%）。",
         hotSectors: [
             { name: "文字媒体", reason: "板块涨幅+8.91%", strength: "强" },
             { name: "模拟芯片设计", reason: "板块涨幅+6.07%", strength: "强" },
@@ -775,8 +775,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "航天装备Ⅱ", reason: "板块涨幅+5.52%", strength: "强" },
         ],
         weakSectors: [
-            { name: "白酒Ⅱ", reason: "板块跌幅-2.33%", strength: "弱" },
-            { name: "白酒Ⅲ", reason: "板块跌幅-2.33%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
         shortTermStrategy: "超短线关注文字媒体、模拟芯片设计、航天装备Ⅲ等板块的延续性，顺势操作，严格止损。",

@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3655.10", change: "-0.72%", market: "A股", updateTime: "2026-10-29 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11188.75", change: "-2.48%", market: "A股", updateTime: "2026-10-29 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2538.66", change: "-3.65%", market: "A股", updateTime: "2026-10-29 实时" },
-        { name: "沪深300", code: "SH000300", value: "4047.51", change: "-0.89%", market: "A股", updateTime: "2026-10-29 实时" },
-        { name: "科创50", code: "SH000688", value: "1231.64", change: "-4.00%", market: "A股", updateTime: "2026-10-29 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3651.43", change: "-0.82%", market: "A股", updateTime: "2026-10-29 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11138.20", change: "-2.92%", market: "A股", updateTime: "2026-10-29 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2517.59", change: "-4.45%", market: "A股", updateTime: "2026-10-29 实时" },
+        { name: "沪深300", code: "SH000300", value: "4041.84", change: "-1.03%", market: "A股", updateTime: "2026-10-29 实时" },
+        { name: "科创50", code: "SH000688", value: "1228.09", change: "-4.27%", market: "A股", updateTime: "2026-10-29 实时" },
         { name: "标普500", code: "SPX", value: "7,743.98", change: "-0.17%", market: "美股", updateTime: "2026-10-29 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "26,549.85", change: "-0.57%", market: "美股", updateTime: "2026-10-29 收盘" },
         { name: "道琼斯", code: "DJI", value: "52,475.10", change: "-0.72%", market: "美股", updateTime: "2026-10-29 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "快讯：现货黄金跌超1%，现报4025.15美元/盎司。",
-            summary: "北京时间10月29日下午，现货黄金跌超1%，现报4025.15美元/盎司。",
+            title: "AI催生的铜价热潮，迎来现实检验",
+            summary: "上周，数千名金属领域投资者与企业高管齐聚伦敦，参加伦敦金属交易所年度行业聚会，全场焦点只有一个：铜，以及市场的共识——AI革命将持续推动这种红色金属价格刷新历史高位...",
+            source: "环球市场播报",
+            date: "2026-10-29",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/world/2026-10-29/doc-iniwwyav5203325.shtml"
+        },
+        {
+            title: "东方非遗亮相华盛顿 ，“非遗大豫园”助力中美民间人文交流",
+            summary: "（来源：上观新闻）“共鸣未来——ShanghaiEye之夜”中美人文交流暨“魅力上海”城市形象推广系列活动日前在美国华盛顿特区举办。豫园股份携“非遗大豫园”主题亮相华盛顿国家广场...",
             source: "市场资讯",
             date: "2026-10-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/nmetal/roll/2026-10-29/doc-iniwwpnz5262822.shtml"
+            url: "https://finance.sina.com.cn/china/2026-10-29/doc-iniwwyaq5970572.shtml"
         },
         {
-            title: "中金：华润建材科技维持“跑赢行业”评级 目标价下调40%至1.33港元",
-            summary: "中金发布研报称，华润建材科技（01313）2026年第三季度业绩低于该行预期。考虑到煤炭成本超预期上涨，叠加水泥和骨料价格持续承压...",
-            source: "新浪港股",
+            title: "国际青年体验海派文化之美，在豫园海上梨园邂逅戏曲非遗",
+            summary: "（来源：上观新闻）日前，来自德国、墨西哥、西班牙、意大利、波兰、英国、印度、越南、马来西亚、尼日利亚、埃塞俄比亚、埃及、厄瓜多尔等14个国家的30名同济大学的海外留...",
+            source: "市场资讯",
             date: "2026-10-29",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-29/doc-iniwwifc5384247.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-10-29/doc-iniwwyaq5968567.shtml"
         },
         {
-            title: "中金：中广核矿业维持“跑赢行业”评级 目标价下调36%至3.07港元",
-            summary: "中金发布研报称，维持中广核矿业（01164）“跑赢行业”评级，但由于美债利率抬升导致铀矿股估值下行，将目标价下调36%至3.07港元，对应2026年及2027年31.3倍及21.0倍市盈率...",
-            source: "新浪港股",
+            title: "非遗大豫园音乐季再添秋日新玩法，BFC拉美文化周、豫园城市游牧场接力登场",
+            summary: "（来源：上观新闻）在外滩BFC的江风中随拉丁电音起舞，在豫园商城的蒙古包里聆听悠远呼麦，再与“才子之乡”抚州的非遗匠人面对面交流……这个秋天...",
+            source: "市场资讯",
             date: "2026-10-29",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-29/doc-iniwwiez8933581.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-10-29/doc-iniwwyas2742489.shtml"
         },
         {
-            title: "瑞银：国泰航空维持“买入”评级 目标价上调3.6%至20.1港元",
-            summary: "瑞银发布研报称，将国泰航空（00293）目标价上调3.6%，由19.4港元升至20.1港元，维持“买入”评级。尽管该行因上调燃油价格预测而将国泰航空2026年每股盈利预测下调5%...",
-            source: "新浪港股",
-            date: "2026-10-29",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-29/doc-iniwwifc5382203.shtml"
-        },
-        {
-            title: "花旗：中国石油股份维持“买入”评级 目标价12港元",
-            summary: "花旗发布研报称，中国石油股份（00857）第三季度业绩符合预期，实现纯利518亿元人民币，环比下降7%，同比增长22%；首三季度纯利已达到该行全年预测的83%。",
-            source: "新浪港股",
-            date: "2026-10-29",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-29/doc-iniwwiew6107889.shtml"
-        },
-        {
-            title: "荣利营造午后涨逾10% 拟折让约9.77%配股净筹约9460万港元",
-            summary: "荣利营造（09639）盘中涨超15%，截至发稿，股价上涨9.77%，现报1.18港元，成交额327.16万港元。 荣利营造发布公告，于2026年10月28日（联交所交易时段后）...",
-            source: "新浪港股",
-            date: "2026-10-29",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-29/doc-iniwwiez8930124.shtml"
-        },
-        {
-            title: "脑动极光-B午后涨超14% 仅7个交易日低点反弹超两倍",
-            summary: " 脑动极光-B（06681）今早一度涨近19%，该公司股价连续放量大涨，自10月20日低点至今飙涨超210%。截至发稿，股价上涨14.01%，现报2.075港元，成交额8.014亿港元。",
-            source: "新浪港股",
-            date: "2026-10-29",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-29/doc-iniwwifc5379702.shtml"
-        },
-        {
-            title: "现代汽车第三季度净利润下降24.2%，下调全年销量目标至400万辆",
-            summary: "现代汽车公司周四表示，受生产中断和全球需求疲软影响，其第三季度净利润同比下降了24.2%。 该公司在提交给监管机构的文件中披露，7月至9月期间的净利润为1...",
+            title: "金巴利警示美国市场受竞争与供应链问题挤压，股价下挫5%",
+            summary: "欧洲早盘该股跌幅达 5%尽管整体表现优于行业多数同行，但大卫・金巴利‑米兰集团的销售增长呈现不均衡态势。 简要摘要 大卫・金巴利‑米兰集团警示，受市场走势疲软影响...",
             source: "环球市场播报",
             date: "2026-10-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwiez8925050.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwyaq5962046.shtml"
+        },
+        {
+            title: "赫力昂下调业绩指引，布洛芬生产商股价大跌13.5%",
+            summary: "公司目前预计全年有机营收增速约 2.5%，低于 7 月给出的 3%‑5%赫力昂呼吸健康品类营收出现下滑。 解热镇痛药 Advil（安舒疼）生产商赫力昂（Haleon）下调全年业绩预期...",
+            source: "环球市场播报",
+            date: "2026-10-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwyat8734765.shtml"
+        },
+        {
+            title: "外滩邂逅拉美狂欢，老城厢奏响游牧牧歌，非遗大豫园音乐季解锁秋日文旅新体验",
+            summary: "（来源：上观新闻）金秋上海，黄浦江畔与老城厢内好戏轮番上演。即日起至11月1日，非遗大豫园音乐季持续上新，外滩BFC拉美文化周、豫园商城城市游牧场主题市集先后登场。",
+            source: "市场资讯",
+            date: "2026-10-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/china/2026-10-29/doc-iniwwyav5187530.shtml"
+        },
+        {
+            title: "德国房东巨头沃诺维亚警示市场形势严峻，股价下挫5.3%",
+            summary: "欧洲早盘交易中该股下跌 5.3%沃诺维亚表示，投资项目推进速度放缓，促使其下调 2028 年有机租金增长目标。 这家德国住宅地产运营商对本年度业绩展望转为更为谨慎...",
+            source: "环球市场播报",
+            date: "2026-10-29",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwyav5184256.shtml"
         },
     ],
 
@@ -765,18 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-10-29",
-        marketAssessment: "A股方面：上证指数报3655.10点（-0.72%），深证成指报11188.75点（-2.48%），创业板指报2538.66点（-3.65%）。美股方面：标普500报7,743.98（-0.17%），纳斯达克报26,549.85（-0.57%）。",
+        marketAssessment: "A股方面：上证指数报3651.43点（-0.82%），深证成指报11138.20点（-2.92%），创业板指报2517.59点（-4.45%）。美股方面：标普500报7,743.98（-0.17%），纳斯达克报26,549.85（-0.57%）。",
         hotSectors: [
-            { name: "纺织鞋类制造", reason: "板块涨幅+6.00%", strength: "强" },
-            { name: "航天装备Ⅲ", reason: "板块涨幅+4.63%", strength: "强" },
-            { name: "航天装备Ⅱ", reason: "板块涨幅+4.63%", strength: "强" },
-            { name: "院线", reason: "板块涨幅+3.48%", strength: "强" },
+            { name: "纺织鞋类制造", reason: "板块涨幅+6.17%", strength: "强" },
+            { name: "航天装备Ⅲ", reason: "板块涨幅+3.54%", strength: "强" },
+            { name: "航天装备Ⅱ", reason: "板块涨幅+3.54%", strength: "强" },
+            { name: "院线", reason: "板块涨幅+3.37%", strength: "强" },
         ],
         weakSectors: [
-            { name: "印制电路板", reason: "板块跌幅-7.23%", strength: "弱" },
-            { name: "教育运营及其他", reason: "板块跌幅-7.09%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
         shortTermStrategy: "超短线关注纺织鞋类制造、航天装备Ⅲ、航天装备Ⅱ等板块的延续性，顺势操作，严格止损。",

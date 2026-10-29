@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3651.43", change: "-0.82%", market: "A股", updateTime: "2026-10-29 实时" },
         { name: "深证成指", code: "SZ399001", value: "11138.20", change: "-2.92%", market: "A股", updateTime: "2026-10-29 实时" },
         { name: "创业板指", code: "SZ399006", value: "2517.59", change: "-4.45%", market: "A股", updateTime: "2026-10-29 实时" },
         { name: "沪深300", code: "SH000300", value: "4041.84", change: "-1.03%", market: "A股", updateTime: "2026-10-29 实时" },
         { name: "科创50", code: "SH000688", value: "1228.09", change: "-4.27%", market: "A股", updateTime: "2026-10-29 实时" },
-        { name: "标普500", code: "SPX", value: "7,743.98", change: "-0.17%", market: "美股", updateTime: "2026-10-29 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "26,549.85", change: "-0.57%", market: "美股", updateTime: "2026-10-29 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,475.10", change: "-0.72%", market: "美股", updateTime: "2026-10-29 收盘" },
+        { name: "标普500", code: "SPX", value: "7,720.92", change: "+0.75%", market: "美股", updateTime: "2026-10-29 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "26,219.69", change: "+0.81%", market: "美股", updateTime: "2026-10-29 收盘" },
+        { name: "道琼斯", code: "DJI", value: "52,358.85", change: "-0.96%", market: "美股", updateTime: "2026-10-29 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "AI催生的铜价热潮，迎来现实检验",
-            summary: "上周，数千名金属领域投资者与企业高管齐聚伦敦，参加伦敦金属交易所年度行业聚会，全场焦点只有一个：铜，以及市场的共识——AI革命将持续推动这种红色金属价格刷新历史高位...",
+            title: "ServiceNow财报后股价暴跌24%，AI颠覆行业的担忧再度抬头",
+            summary: "核心要点ServiceNow 股价或将迎来史上最差交易日。这家企业软件公司第三季度业绩表现平平，再度引发市场对 AI 颠覆现有商业模式的担忧。",
             source: "环球市场播报",
             date: "2026-10-29",
             tag: "行业",
-            url: "https://finance.sina.com.cn/world/2026-10-29/doc-iniwwyav5203325.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwxksk5879928.shtml"
         },
         {
-            title: "东方非遗亮相华盛顿 ，“非遗大豫园”助力中美民间人文交流",
-            summary: "（来源：上观新闻）“共鸣未来——ShanghaiEye之夜”中美人文交流暨“魅力上海”城市形象推广系列活动日前在美国华盛顿特区举办。豫园股份携“非遗大豫园”主题亮相华盛顿国家广场...",
-            source: "市场资讯",
+            title: "欧洲央行行长拉加德即将卸任，谁是热门继任人选",
+            summary: "核心要点克里斯蒂娜・拉加德将于 2027 年 2 月 7 日离开欧洲央行，距离任期原定结束时间提前近 9 个月。欧洲央行同时迎来多位高层换届：首席经济学家菲利普・莱恩...",
+            source: "环球市场播报",
+            date: "2026-10-29",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwxekt5207145.shtml"
+        },
+        {
+            title: "角逐欧央行行长：两位务实派领跑",
+            summary: " 欧洲央行下一任行长之争，目前形成两人角逐的局面：两位分别来自欧洲南、北部的央行务实派官员，都愿意重新反思长期秉持的货币政策理念。",
+            source: "环球市场播报",
+            date: "2026-10-29",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwxekr8755110.shtml"
+        },
+        {
+            title: "拉加德：除非出现意外 否则欧洲央行的行动方向非常明确",
+            summary: " 欧洲央行行长拉加德在法兰克福举行的记者会上表示，除非出现重大变化，否则“央行的行动走向对我们所有人来说是相当明确的”。",
+            source: "环球市场播报",
+            date: "2026-10-29",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwxekt5200231.shtml"
+        },
+        {
+            title: "301468，重大资产重组方案出炉！明天复牌",
+            summary: "博盈特焊重大资产重组方案出炉。 10月29日晚，博盈特焊（301468）披露重组预案，拟向7名股东收购苏州罗克莱海洋装备股份有限公司（下称“罗克莱”）55%股份...",
+            source: "",
             date: "2026-10-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-29/doc-iniwwyaq5970572.shtml"
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-10-29/doc-iniwxekq2771519.shtml"
         },
         {
-            title: "国际青年体验海派文化之美，在豫园海上梨园邂逅戏曲非遗",
-            summary: "（来源：上观新闻）日前，来自德国、墨西哥、西班牙、意大利、波兰、英国、印度、越南、马来西亚、尼日利亚、埃塞俄比亚、埃及、厄瓜多尔等14个国家的30名同济大学的海外留...",
-            source: "市场资讯",
-            date: "2026-10-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-29/doc-iniwwyaq5968567.shtml"
-        },
-        {
-            title: "非遗大豫园音乐季再添秋日新玩法，BFC拉美文化周、豫园城市游牧场接力登场",
-            summary: "（来源：上观新闻）在外滩BFC的江风中随拉丁电音起舞，在豫园商城的蒙古包里聆听悠远呼麦，再与“才子之乡”抚州的非遗匠人面对面交流……这个秋天...",
-            source: "市场资讯",
-            date: "2026-10-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-29/doc-iniwwyas2742489.shtml"
-        },
-        {
-            title: "金巴利警示美国市场受竞争与供应链问题挤压，股价下挫5%",
-            summary: "欧洲早盘该股跌幅达 5%尽管整体表现优于行业多数同行，但大卫・金巴利‑米兰集团的销售增长呈现不均衡态势。 简要摘要 大卫・金巴利‑米兰集团警示，受市场走势疲软影响...",
+            title: "大型招聘机构：银行与医疗企业高薪争抢软件人才，出价超过科技公司",
+            summary: "核心要点任仕达（Randstad）的研究显示，随着 AI 相关技能需求上涨，银行、医疗企业以及其他非科技雇主向软件工程师开出的薪资已经高于科技企业。",
             source: "环球市场播报",
             date: "2026-10-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwyaq5962046.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwxekt5198440.shtml"
         },
         {
-            title: "赫力昂下调业绩指引，布洛芬生产商股价大跌13.5%",
-            summary: "公司目前预计全年有机营收增速约 2.5%，低于 7 月给出的 3%‑5%赫力昂呼吸健康品类营收出现下滑。 解热镇痛药 Advil（安舒疼）生产商赫力昂（Haleon）下调全年业绩预期...",
+            title: "礼来上调全年销售预期，CEO称肥胖药物市场拥有“巨大”扩张空间",
+            summary: "核心要点礼来第三季度盈利、营收大幅超出市场预期，并上调全年销售指引。减重药Zepbound（替尔泊肽）与糖尿病药物Mounjaro（穆峰达 / 替尔泊肽）需求再度暴涨...",
             source: "环球市场播报",
             date: "2026-10-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwyat8734765.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwxekq2767479.shtml"
         },
         {
-            title: "外滩邂逅拉美狂欢，老城厢奏响游牧牧歌，非遗大豫园音乐季解锁秋日文旅新体验",
-            summary: "（来源：上观新闻）金秋上海，黄浦江畔与老城厢内好戏轮番上演。即日起至11月1日，非遗大豫园音乐季持续上新，外滩BFC拉美文化周、豫园商城城市游牧场主题市集先后登场。",
-            source: "市场资讯",
-            date: "2026-10-29",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-10-29/doc-iniwwyav5187530.shtml"
-        },
-        {
-            title: "德国房东巨头沃诺维亚警示市场形势严峻，股价下挫5.3%",
-            summary: "欧洲早盘交易中该股下跌 5.3%沃诺维亚表示，投资项目推进速度放缓，促使其下调 2028 年有机租金增长目标。 这家德国住宅地产运营商对本年度业绩展望转为更为谨慎...",
+            title: "TD Cowen上调微软目标价至650美元，Azure增长加速且业绩指引超预期",
+            summary: "10月29日，TD Cowen将微软（Microsoft）目标价从625美元上调至650美元，维持“买入”评级，主要看好Azure云计算业务增长加速及利润率改善前景。",
             source: "环球市场播报",
             date: "2026-10-29",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwyav5184256.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwxekn5990516.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-29",
-        marketAssessment: "A股方面：上证指数报3651.43点（-0.82%），深证成指报11138.20点（-2.92%），创业板指报2517.59点（-4.45%）。美股方面：标普500报7,743.98（-0.17%），纳斯达克报26,549.85（-0.57%）。",
+        marketAssessment: "A股方面：上证指数报3651.43点（-0.82%），深证成指报11138.20点（-2.92%），创业板指报2517.59点（-4.45%）。美股方面：标普500报7,720.92（+0.75%），纳斯达克报26,219.69（+0.81%）。",
         hotSectors: [
             { name: "纺织鞋类制造", reason: "板块涨幅+6.17%", strength: "强" },
             { name: "航天装备Ⅲ", reason: "板块涨幅+3.54%", strength: "强" },
@@ -775,7 +775,8 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "院线", reason: "板块涨幅+3.37%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "印制电路板", reason: "板块跌幅-7.97%", strength: "弱" },
+            { name: "通信线缆及配套", reason: "板块跌幅-7.01%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
         shortTermStrategy: "超短线关注纺织鞋类制造、航天装备Ⅲ、航天装备Ⅱ等板块的延续性，顺势操作，严格止损。",

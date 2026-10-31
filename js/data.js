@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3599.02", change: "-1.44%", market: "A股", updateTime: "2026-10-31 实时" },
         { name: "深证成指", code: "SZ399001", value: "10833.78", change: "-2.73%", market: "A股", updateTime: "2026-10-31 实时" },
         { name: "创业板指", code: "SZ399006", value: "2413.63", change: "-4.13%", market: "A股", updateTime: "2026-10-31 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "币安赵长鹏回应马斯克：现在不是开玩笑的时候",
-            summary: "全球最大加密货币交易所币安近日遭遇可能是史上规模最大的网络盗窃案，受影响资金总额约为63亿美元。 币安创始人赵长鹏在社交媒体平台X上表示...",
+            title: "加密货币行业向美国2026年中期选举投入超过2亿美元",
+            summary: " 据Public Citizen称，在美国本选举周期中，加密货币团体在联邦企业政治支出方面超过了在线博彩和数据中心开发团体。与加密货币相关的组织在本选举周期已投入超过2亿美元。",
             source: "环球市场播报",
             date: "2026-10-31",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixcfys1616275.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixcsqr3743827.shtml"
         },
         {
-            title: "云南通报村支书威胁环保博主事件：马某某被行政处罚，免去村党总支书记职务，村委会主任职务处理按程序启动",
-            summary: "【#云南通报村支书威胁环保博主事件# ：马某某被行政处罚，免去村党总支书记职务，村委会主任职务处理已按程序启动】#威胁环保博主村支书已被免职#10月31日...",
-            source: "新京报",
+            title: "消息人士称伊朗正在研究万斯来信中的提议",
+            summary: "据沙特方面10月31日援引消息人士的话称，伊朗正在研究美国副总统万斯在致伊方信件中的提议。 消息人士说，万斯来信中提出了双方谈判的总体原则和框架...",
+            source: "央视",
             date: "2026-10-31",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-31/doc-inixcfyq4806486.shtml"
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/jjxw/2026-10-31/doc-inixcsqp7302314.shtml"
         },
         {
-            title: "三星高管会见OpenAI首席执行官，探讨人工智能转型",
-            summary: " 三星表示，公司旗下主要子公司的多位高管于周六会见了OpenAI联合创始人兼CEO萨姆·奥特曼（Sam Altman），共同探讨了人工智能（AI）转型方面的未来战略。",
-            source: "环球市场播报",
+            title: "花旗：潍柴动力维持“买入”评级 目标价50港元",
+            summary: "花旗发布研报称，维持潍柴动力（02338）“买入”评级及50港元目标价。公司第三季度实现收入580亿元人民币（下同），同比增长1%、按季下降4%...",
+            source: "新浪港股",
             date: "2026-10-31",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixazsu1689217.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-31/doc-inixcsqk4723499.shtml"
         },
         {
-            title: "谷歌据悉洽商参与特朗普的“金穹”防御计划",
-            summary: " 据知情人士称，Alphabet旗下谷歌正在与美国国防部洽谈，拟合作开展一项新的数据安全工作，以支持价值1850亿美元的“金穹”导弹防御项目。",
-            source: "环球市场播报",
+            title: "花旗：渣打集团目标价升至230.8港元 上调盈利预测看好近期动能",
+            summary: "花旗发布研报称，渣打集团（02888）公布2026年第三季业绩后，该行上调2026年每股盈利预测10%，以及2027至2028年每股盈利预测3%；该行将目标价由223.7港元上调至230.8港元...",
+            source: "新浪港股",
             date: "2026-10-31",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixazsu1683372.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-31/doc-inixcsqk4723065.shtml"
         },
         {
-            title: "净申购！三季度份额增长基金名单出炉",
-            summary: "【导读】逆市净申购！三季度份额增长基金名单出炉 来源：中国基金报 中国基金报记者 若晖 随着基金三季报数据披露完毕，一份“三季度份额逆市增长”的基金名单浮出水面。",
-            source: "滚动播报",
+            title: "花旗：百威亚太维持“买入”评级 目标价8.7港元",
+            summary: "花旗发布研报称，维持百威亚太（01876）“买入”评级及8.7港元目标价。公司第三季度自然EBITDA同比下降23%，低于该行及市场预期各12%...",
+            source: "新浪港股",
             date: "2026-10-31",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-10-31/doc-inixazss4892682.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-31/doc-inixcsqr3735321.shtml"
         },
         {
-            title: "美国只有3亿人，为啥消费力能远超我们14亿人？其实早“露馅”了",
-            summary: "来源：元宝 · 新闻妹",
-            source: "市场资讯",
+            title: "花旗：中国联通第三季业绩大致符预期",
+            summary: "花旗发布研报称，中国联通（00762）今年第三季收入同比增长1%至933亿元人民币，大致符合该行预期升1%及市场预期持平，但按季跌5%；该行维持中国联通H股“买入”评级及目标价7...",
+            source: "新浪港股",
             date: "2026-10-31",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/gjcj/2026-10-31/doc-inixazsu1656790.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-31/doc-inixcsqr3734407.shtml"
         },
         {
-            title: "Spotify计划于明年初推出AI音乐混音服务",
-            summary: " Spotify计划在2027年初推出一款全新AI功能服务，听众可以自制歌曲混音与翻唱版本。目前公司正在洽谈版权授权，并努力说服音乐人接纳这项技术。",
-            source: "环球市场播报",
+            title: "里昂：中国石油股份目标价升至12.4港元 维持“跑赢大市”评级",
+            summary: "里昂发布研报称，中国石油股份（00857、601857.SH）H股被市场错价；该行上调中国石油股份2026至2028年每股盈利预测2%至8%，并以SOTP估值将H股目标价由12港元升至12.4港元...",
+            source: "新浪港股",
             date: "2026-10-31",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixazsu1656084.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-31/doc-inixcsqr3734110.shtml"
         },
         {
-            title: "沙特卖油用人民币结算，转头换成金条运走，会掏空我国储备吗？",
-            summary: "来源：城市产录 问AI·上海金交所国际板保税库如何隔离央行储备？ 网上流传一种担心，沙特卖石油用的是人民币，但是转头就换成金条运走...",
-            source: "市场资讯",
+            title: "大摩：中国联通维持H股“与大市同步”评级 目标价7港元",
+            summary: "摩根士丹利发布研报称，维持中国联通（00762）H股“与大市同步”评级及7港元目标价。公司第三季度服务收入同比下降0.4%至829亿元人民币，EBITDA同比下降10%至228亿元人民币...",
+            source: "新浪港股",
             date: "2026-10-31",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-10-31/doc-inixazsv7490142.shtml"
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-10-31/doc-inixcsqr3733740.shtml"
         },
     ],
 
@@ -765,17 +765,20 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-10-31",
         marketAssessment: "A股方面：上证指数报3599.02点（-1.44%），深证成指报10833.78点（-2.73%），创业板指报2413.63点（-4.13%）。美股方面：标普500报7,580.07（-0.57%），纳斯达克报25,437.00（-2.00%）。",
         hotSectors: [
-
+            { name: "白酒Ⅲ", reason: "板块涨幅+5.15%", strength: "强" },
+            { name: "白酒Ⅱ", reason: "板块涨幅+5.15%", strength: "强" },
+            { name: "纺织鞋类制造", reason: "板块涨幅+3.87%", strength: "强" },
+            { name: "综合电商", reason: "板块涨幅+3.51%", strength: "强" },
         ],
         weakSectors: [
 
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注白酒Ⅲ、白酒Ⅱ、纺织鞋类制造等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

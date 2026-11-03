@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3638.03", change: "+1.08%", market: "A股", updateTime: "2026-11-03 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11010.68", change: "+1.63%", market: "A股", updateTime: "2026-11-03 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2458.70", change: "+1.87%", market: "A股", updateTime: "2026-11-03 实时" },
-        { name: "沪深300", code: "SH000300", value: "4016.92", change: "+0.79%", market: "A股", updateTime: "2026-11-03 实时" },
-        { name: "科创50", code: "SH000688", value: "1196.94", change: "+3.11%", market: "A股", updateTime: "2026-11-03 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3608.10", change: "-0.82%", market: "A股", updateTime: "2026-11-03 实时" },
+        { name: "深证成指", code: "SZ399001", value: "10876.99", change: "-1.21%", market: "A股", updateTime: "2026-11-03 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2391.65", change: "-2.73%", market: "A股", updateTime: "2026-11-03 实时" },
+        { name: "沪深300", code: "SH000300", value: "4008.87", change: "-0.20%", market: "A股", updateTime: "2026-11-03 实时" },
+        { name: "科创50", code: "SH000688", value: "1151.28", change: "-3.81%", market: "A股", updateTime: "2026-11-03 实时" },
         { name: "标普500", code: "SPX", value: "7,541.40", change: "-1.76%", market: "美股", updateTime: "2026-11-03 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "25,164.32", change: "-3.84%", market: "美股", updateTime: "2026-11-03 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "25,164.36", change: "-3.84%", market: "美股", updateTime: "2026-11-03 收盘" },
         { name: "道琼斯", code: "DJI", value: "51,983.98", change: "-0.72%", market: "美股", updateTime: "2026-11-03 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "苹果第四财季营收增长放缓",
-            summary: "苹果公司9月季度销售增速放缓，中国市场营收不及预期。这是John Ternus出任首席执行官以来公司发布的首份财报。 苹果周一在声明中表示...",
-            source: "环球市场播报",
+            title: "收评：国内期货主力合约跌多涨少 SC原油跌超6%",
+            summary: "2026年11月3日收盘，国内期货主力合约跌多涨少。不锈钢、玻璃、烧碱涨超1%，沪镍、三十年国债涨近1%；下跌方面，受美伊和谈消息影响，能化系普跌。",
+            source: "市场资讯",
             date: "2026-11-03",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkzyk2416146.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-11-03/doc-inixmxcy2237090.shtml"
         },
         {
-            title: "原油：油价创三个月最大跌幅 美伊示意对谈判持开放态度",
-            summary: "油价创下三个月来最大跌幅，此前美国和伊朗均示意对谈判持开放态度，这场冲突一直扰动中东能源供应。 WTI下跌7.4%，收于每桶接近96.5美元。",
+            title: "SpaceX正与Boost Mobile洽谈，寻求扩大无线通信网络覆盖范围",
+            summary: "据报道，SpaceX正与美国低价移动运营商Boost Mobile进行谈判，以扩大其现有无线通信网络的覆盖范围，使其不再局限于卫星网络。报道指出...",
             source: "环球市场播报",
             date: "2026-11-03",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkzyh6769105.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixmxcu9888792.shtml"
         },
         {
-            title: "11月03日热门中概股多数上涨，阿里巴巴涨超3%",
-            summary: "11月03日热门中概股多数上涨，纳斯达克中国金龙指数（HXC）收涨2.25%。 上涨个股（按市值从高到低）：阿里巴巴涨3.53%，拼多多涨3.91%，网易涨1.63%，京东涨2.41%...",
+            title: "今日黄金：跌破3950美元，回吐前一日涨幅",
+            summary: "11月3日，国际金价下跌，前一交易日受美伊和谈进展推动的反弹未能延续，贵金属市场再度遭遇抛售。截至北发稿，现货黄金下跌0.76%，报每盎司3916...",
             source: "环球市场播报",
             date: "2026-11-03",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkvsp8988962.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixmxcw6658888.shtml"
         },
         {
-            title: "特朗普称伊朗希望“尽快”达成和解",
-            summary: "“伊朗希望尽快达成和解。这是可能发生的！” 美国总统特朗普在Truth Social上发帖道。 他说，油价下跌“是因为人们觉得不会跟伊朗发生战争”。",
+            title: "中联重科午后涨逾3% 机构料公司盈利水平有望修复",
+            summary: "中联重科（01157）午后涨超4%。截至发稿，股价上涨2.91%，现报5.13港元，成交额2534.78万港元。 中联重科第三季度收入为128.84亿元，同比增长4.74%；净利润为8.59亿元...",
+            source: "新浪港股",
+            date: "2026-11-03",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-03/doc-inixmxcy2231775.shtml"
+        },
+        {
+            title: "美国贸易委员会：三星与Netlist达成和解，芯片专利调查正式终止",
+            summary: "周一发布的一份联邦公告显示，随着韩国芯片厂商三星电子与美国存储企业Netlist达成和解，美国国际贸易委员会（USITC）已正式终止这项涉及三星以及多家美国大型科技企业的专...",
             source: "环球市场播报",
+            date: "2026-11-03",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixmxcu9882149.shtml"
+        },
+        {
+            title: "东方甄选午后涨近7% 花旗指公司增长快于预期",
+            summary: "东方甄选（01797）午后涨近7%，截至发稿，股价上涨6.79%，现报28港元，成交额3.17亿港元。 花旗发布研报称，东方甄选增长快于预期，根据新东方2027财年首季业绩...",
+            source: "新浪港股",
+            date: "2026-11-03",
+            tag: "港股",
+            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-03/doc-inixmxcz8681404.shtml"
+        },
+        {
+            title: "增量资金入市在即，央行盘中公告互换便利操作1000亿元",
+            summary: "互换便利通过信号释放、融资支持和定向投资发挥作用，股市历史表现为其促进市场修复提供了相关性佐证。 11月3日午间，央行公告，根据参与机构需求情况...",
+            source: "一财网",
             date: "2026-11-03",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkvsi0115603.shtml"
+            url: "https://finance.sina.com.cn/roll/2026-11-03/doc-inixmxcw6659889.shtml"
         },
         {
-            title: "11月3日收盘：美股三大指数冲高回落 科技股承压 油价暴跌 市场聚焦中期选举与就业数据",
-            summary: "周一，美股三大股指冲高回落，科技股抛售重启，投资者评估又一个财报、中期选举和关键就业报告密集的一周。 道指涨213.67点，涨幅0.41%，报51983.98点；标普500指数跌38...",
-            source: "环球市场播报",
-            date: "2026-11-03",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkzyk2410790.shtml"
-        },
-        {
-            title: "美国债市：国债维持涨势 油价重挫缓解通胀担忧",
-            summary: " 美国国债牛市趋平，长债跑赢。油价大跌缓解了通胀担忧，推动盈亏平衡通胀率下行。芯片股遭抛售拖累股市，带来的避险买盘对美国国债形成支撑。",
-            source: "环球市场播报",
-            date: "2026-11-03",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkvsi0112142.shtml"
-        },
-        {
-            title: "纽约汇市：美元走低 油价在美国中期选举前下挫",
-            summary: "随着中东紧张局势可能缓和的前景推动油价下跌，美元走低，投资者同时将注意力转向周二的美国中期选举。 彭博美元即期指数下跌0.2%。",
+            title: "美国中期选举迎来投票日 国会两院控制权是焦点所在",
+            summary: "美国选民对唐纳德·特朗普第二个总统任期的评判已经开始。 美国中期选举投票站将于周二上午开放，而数千万张提前选票已经投出。选民表示...",
             source: "环球市场播报",
             date: "2026-11-03",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkvsi0106192.shtml"
-        },
-        {
-            title: "哈梅内伊为和平谈判开绿灯 特朗普称“有可能”与伊朗达成协议",
-            summary: " 伊朗最高领袖穆杰塔巴·哈梅内伊批准政府推进和平谈判，在外界日益担忧美以与伊朗再度爆发冲突之际，释放出可能出现外交突破的信号。",
-            source: "环球市场播报",
-            date: "2026-11-03",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixkvsn2525555.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixmxcu9881395.shtml"
         },
     ],
 
@@ -765,17 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-11-03",
-        marketAssessment: "A股方面：上证指数报3638.03点（+1.08%），深证成指报11010.68点（+1.63%），创业板指报2458.70点（+1.87%）。美股方面：标普500报7,541.40（-1.76%），纳斯达克报25,164.32（-3.84%）。",
+        marketAssessment: "A股方面：上证指数报3608.10点（-0.82%），深证成指报10876.99点（-1.21%），创业板指报2391.65点（-2.73%）。美股方面：标普500报7,541.40（-1.76%），纳斯达克报25,164.36（-3.84%）。",
         hotSectors: [
 
         ],
         weakSectors: [
 
         ],
-        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
+        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

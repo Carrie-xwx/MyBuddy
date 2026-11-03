@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3608.10", change: "-0.82%", market: "A股", updateTime: "2026-11-04 实时" },
         { name: "深证成指", code: "SZ399001", value: "10876.99", change: "-1.21%", market: "A股", updateTime: "2026-11-04 实时" },
         { name: "创业板指", code: "SZ399006", value: "2391.65", change: "-2.73%", market: "A股", updateTime: "2026-11-04 实时" },
         { name: "沪深300", code: "SH000300", value: "4008.87", change: "-0.20%", market: "A股", updateTime: "2026-11-04 实时" },
         { name: "科创50", code: "SH000688", value: "1151.28", change: "-3.81%", market: "A股", updateTime: "2026-11-04 实时" },
-        { name: "标普500", code: "SPX", value: "7,575.48", change: "-1.91%", market: "美股", updateTime: "2026-11-04 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "25,369.32", change: "-4.19%", market: "美股", updateTime: "2026-11-04 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,844.46", change: "-1.02%", market: "美股", updateTime: "2026-11-04 收盘" },
+        { name: "标普500", code: "SPX", value: "7,573.10", change: "-1.94%", market: "美股", updateTime: "2026-11-04 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "25,380.98", change: "-4.14%", market: "美股", updateTime: "2026-11-04 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,812.75", change: "-1.08%", market: "美股", updateTime: "2026-11-04 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "加拿大餐饮特许经营集团Foodtastic对MTY Food发起敌意收购",
-            summary: "内容概要 Foodtastic 向竞争对手 MTY Food 集团发起敌意收购，对后者整体估值约 9.82 亿加元。 加拿大餐饮特许经营企业 Foodtastic 向 MTY Food 集团发起敌意收购...",
+            title: "纽约汇市：美元上涨 AI交易回暖叠加美国就业数据强劲",
+            summary: "美元走强，人工智能交易回暖推动股市上涨，同时美国职位空缺数升至四个月最高，裁员人数降至逾一年低点。 彭博美元即期指数上涨0.2%。中东外交努力推动布伦特原油下跌。",
+            source: "环球市场播报",
+            date: "2026-11-04",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnyrh9634064.shtml"
+        },
+        {
+            title: "德国央行行长：欧洲央行可能不得不在12月加息",
+            summary: "欧洲央行管委Joachim Nagel表示，由于通胀前景恶化，欧洲央行很可能在下个月提高利率。 这位德国央行行长在柏林发表讲话称，即便是9月公布的消费者价格预测也是以进一步加...",
+            source: "环球市场播报",
+            date: "2026-11-04",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnyrn1935087.shtml"
+        },
+        {
+            title: "“没人喜欢它” 摩根资管呼吁美国财政部取消20年期国债",
+            summary: "摩根资产管理的Bob Michele给美国财政部长贝森特提了一条建议：取消20年期国债。 在财政部周三公布季度债券发行计划前，这位摩根资产管理全球固定收益主管表示“没人喜欢20...",
             source: "环球市场播报",
             date: "2026-11-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnuin6499040.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnyrh9628255.shtml"
         },
         {
-            title: "欧洲多趟航班过去两天收到炸弹威胁 被迫改道",
-            summary: "过去两天，欧洲多趟航班收到炸弹威胁，迫使载有数百名乘客的飞机改道，并在抵达后接受搜查。 相关航空公司表示，自周一以来，威兹航空两趟航班...",
+            title: "欧洲债市：德国国债结束三日连涨 收益率曲线呈熊市趋陡",
+            summary: " 随着美伊和平谈判走向释放出相互矛盾的信号，能源价格收窄跌幅，德国国债收益率曲线呈熊市趋陡。英国国债收益率曲线也呈熊市趋陡，结束6月以来最长连涨纪录。",
             source: "环球市场播报",
             date: "2026-11-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnuik9722427.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnyrh9627204.shtml"
         },
         {
-            title: "克里格胡椒博士：咖啡业务仍面临挑战",
-            summary: "内容概要 克里格胡椒博士公布第三季度利润、销售额双双增长，整体净销售额大涨 71%，达到 73.4 亿美元。 尽管最新季度利润和营收实现增长...",
+            title: "特朗普在中期选举日宣布停止每年给以色列的40亿美元援助",
+            summary: " 特朗普表示，鉴于在选举年因为支持以色列而受到的攻击，他已与内塔尼亚胡达成协议，美国将停止对以色列每年40亿美元的援助。",
             source: "环球市场播报",
             date: "2026-11-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnuin6497980.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnyrn1923653.shtml"
         },
         {
-            title: "汤森路透季度利润下滑，去年同期曾获资产出售收益",
-            summary: "内容概要 汤森路透公布第三季度净利润从去年同期 4.23 亿美元降至 3.39 亿美元。 受去年资产出售带来的一次性增益消退，叠加软件摊销费用走高的挤压...",
+            title: "欧洲股市下跌 美伊协议乐观预期迅速消退",
+            summary: "欧洲股市周二下跌，盘中一度受美伊可能达成协议的乐观情绪推动上涨，但涨势很快消退。 斯托克欧洲600指数收跌0.6%。该指数午后早些时候曾短暂转涨...",
             source: "环球市场播报",
             date: "2026-11-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnuir8475697.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnuiq2046246.shtml"
         },
         {
-            title: "意大利联合圣保罗银行上调盈利指引，收购西雅那银行的竞标进入关键阶段",
-            summary: "内容概要 意大利联合圣保罗银行（Intesa Sanpaolo）第二次上调 2026 年净利润预期，受益于营收抬升、成本保持稳定；这家意大利大型银行正准备向规模较小的竞争对手西雅那银...",
-            source: "环球市场播报",
-            date: "2026-11-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnuik9718358.shtml"
-        },
-        {
-            title: "AI在多线中期选举博弈中直面选民",
-            summary: "作者：纳特・艾夫斯 早上好。在今日中期选举到来前，人工智能渗透到各类政治竞选活动之中，正如它几乎渗入各行各业一般： 越来越多美国人会使用 AI...",
+            title: "假招聘、恶意软件和AI 币安披露史上最大加密货币盗窃案细节",
+            summary: " 币安控股周二表示，在一起造成63亿美元损失的盗窃案中，黑客使用了包括虚假求职面试在内的社会工程手段以及恶意软件。这是迄今有关此次事件如何发生的最详细说明。",
             source: "环球市场播报",
             date: "2026-11-04",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnuir8471748.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnuik9741491.shtml"
         },
         {
-            title: "Meta拟通过美元债发行筹资约150亿美元 最早周三首发欧元债券",
-            summary: " Meta Platforms Inc．寻求通过跨境美元债券发行筹集约150亿美元。在投资者对科技巨头高额支出怀疑加深之际，这些公司仍在发债为人工智能基础设施建设融资。",
+            title: "中期选举：若民主党横扫国会，股市或将迎来震荡",
+            summary: "核心要点投资者尚未充分定价民主党同时拿下参众两院的情景。一旦出现 “蓝色浪潮”，周三股价短期承压。历史规律显示，中期选举后的回调通常是买入机会...",
             source: "环球市场播报",
-            date: "2026-11-03",
+            date: "2026-11-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixnuik9711246.shtml"
-        },
-        {
-            title: "甲骨文据悉将100亿美元股票发行中65%配售给10名投资者",
-            summary: "据知情人士透露，甲骨文在规模100亿美元的股票发行中，将65%的发行股份配售给了认购规模最大的10名投资者。 知情人士表示，此次发行获得的认购需求达到可供发行股份数量的...",
-            source: "环球市场播报",
-            date: "2026-11-03",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixnuik9706659.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixnuin6515475.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-11-04",
-        marketAssessment: "A股方面：上证指数报3608.10点（-0.82%），深证成指报10876.99点（-1.21%），创业板指报2391.65点（-2.73%）。美股方面：标普500报7,575.48（-1.91%），纳斯达克报25,369.32（-4.19%）。",
+        marketAssessment: "A股方面：上证指数报3608.10点（-0.82%），深证成指报10876.99点（-1.21%），创业板指报2391.65点（-2.73%）。美股方面：标普500报7,573.10（-1.94%），纳斯达克报25,380.98（-4.14%）。",
         hotSectors: [
-            { name: "教育运营及其他", reason: "板块涨幅+9.84%", strength: "强" },
-            { name: "涂料", reason: "板块涨幅+5.07%", strength: "强" },
-            { name: "氨纶", reason: "板块涨幅+4.17%", strength: "强" },
-            { name: "视频媒体", reason: "板块涨幅+3.89%", strength: "强" },
+
         ],
         weakSectors: [
-            { name: "半导体设备", reason: "板块跌幅-6.76%", strength: "弱" },
-            { name: "通信网络设备及器件", reason: "板块跌幅-6.62%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注教育运营及其他、涂料、氨纶等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

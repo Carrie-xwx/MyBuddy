@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3674.06", change: "+1.83%", market: "A股", updateTime: "2026-11-04 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11307.44", change: "+3.96%", market: "A股", updateTime: "2026-11-04 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2537.63", change: "+6.10%", market: "A股", updateTime: "2026-11-04 实时" },
-        { name: "沪深300", code: "SH000300", value: "4093.42", change: "+2.11%", market: "A股", updateTime: "2026-11-04 实时" },
-        { name: "科创50", code: "SH000688", value: "1259.09", change: "+9.36%", market: "A股", updateTime: "2026-11-04 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3686.17", change: "+2.16%", market: "A股", updateTime: "2026-11-04 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11335.69", change: "+4.22%", market: "A股", updateTime: "2026-11-04 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2544.73", change: "+6.40%", market: "A股", updateTime: "2026-11-04 实时" },
+        { name: "沪深300", code: "SH000300", value: "4101.34", change: "+2.31%", market: "A股", updateTime: "2026-11-04 实时" },
+        { name: "科创50", code: "SH000688", value: "1265.47", change: "+9.92%", market: "A股", updateTime: "2026-11-04 实时" },
         { name: "标普500", code: "SPX", value: "7,568.92", change: "-1.99%", market: "美股", updateTime: "2026-11-04 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "25,372.01", change: "-4.18%", market: "美股", updateTime: "2026-11-04 收盘" },
         { name: "道琼斯", code: "DJI", value: "51,786.72", change: "-1.13%", market: "美股", updateTime: "2026-11-04 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "全球主要铂金精炼商贺利氏被曝系统性低报贵金属含量，涉及全球450家客户",
-            summary: "11月4日，一项独立调查发现，德国贵金属精炼巨头贺利氏（Heraeus）在为客户加工材料时，长期系统性低报其中的贵金属含量，导致客户最终获得的现金结算或精炼金属数量减少。...",
+            title: "美国民主党拿下国会控制权，股市上涨",
+            summary: " 周三，随着民主党在中期选举中大获全胜、确定拿下国会两院控制权（这场胜选甚至超出了民主党最乐观的预期），股市逆转早盘下跌走势，迎来上涨。",
             source: "环球市场播报",
             date: "2026-11-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqaaw6190655.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqsyq6047264.shtml"
         },
         {
-            title: "兑吧午后涨超16% 短剧视频用户规模已超4亿 公司布局全链路AI短剧业务",
-            summary: "兑吧（01753）午后涨超16%。截至发稿，股价上涨13.26%，现报1.03港元，成交额1283.266万港元。 QuestMobile数据显示，9月抖音集团内部前三大应用变为抖音、红果免费短剧...",
-            source: "新浪港股",
-            date: "2026-11-04",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-04/doc-inixqaau9414073.shtml"
-        },
-        {
-            title: "菜籽油专项分析：偏紧供需现实支撑，相较豆棕油表现扛跌",
-            summary: "文：长安期货胡心阁 （1）全球菜籽供给：丰产已经定局，但主产国出口或有收紧 全球菜籽的丰产格局在10月已经基本确立，这是压制远月价格最根本的因素。",
-            source: "市场资讯",
-            date: "2026-11-04",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-11-04/doc-inixqaaz8095941.shtml"
-        },
-        {
-            title: "杰富瑞维持CrowdStrike“买入”评级，目标价240美元，看好AI安全业务扩张",
-            summary: "11月4日，杰富瑞（Jefferies）重申网络安全公司CrowdStrike（CRWD）“买入”评级，维持240美元目标价。该机构认为，CrowdStrike近期宣布的两项AI安全领域收购...",
-            source: "环球市场播报",
-            date: "2026-11-04",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqaaw6188621.shtml"
-        },
-        {
-            title: "美国中期选举不确定性消退，比特币V形反弹逼近78000美元",
-            summary: "随着美国中期选举带来的不确定性逐渐消退，比特币价格强劲上涨。 比特币（BTC）已抹去早些时候的跌幅，随着美国中期选举的不确定性消退，价格持续走高。",
+            title: "啤酒企业抢占欢乐时光市场，烈酒品牌黯然失色",
+            summary: "帝亚吉欧与保乐力加错失罐装鸡尾酒热潮，投资者为此付出代价High Noon 伏特加气泡预调鸡尾酒，即饮鸡尾酒产品。 如果你在万圣节派对上喝过罐装鸡尾酒...",
             source: "环球市场播报",
             date: "2026-11-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqaaw6188459.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqsyv0003134.shtml"
         },
         {
-            title: "宝马第三季度税前利润同比下降11%",
-            summary: " 德国汽车巨头宝马周三公布第三季度税前利润同比下降11%，并再次下调了全年业绩展望，因年底将面临巨额重组支出，且公司正努力应对中国市场的疲软局面。",
+            title: "A股IPO月报|赛克赛斯三度闯关失败 莫森泰克实际募资较预期低45%",
+            summary: "出品：新浪财经上市公司研究院 作者：扈深北 在刚刚过去的10月份，4家A股IPO企业上会全部通过，全年1—10月被否企业为零。同月，11家企业终止IPO，较9月的2家大幅增长。",
+            source: "新浪证券",
+            date: "2026-11-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/observe/2026-11-04/doc-inixqsyw6650193.shtml"
+        },
+        {
+            title: "大陆集团股价上涨：这家轮胎企业押注中国车企拉动业务增长",
+            summary: "欧洲早盘该股涨幅约 6%大陆集团表示，其欧洲业务已做好准备，把握进军欧洲市场的中国车企带来的供应机遇。 内容摘要 这家德国轮胎制造商上调全年调整后息税前利润率以及自...",
             source: "环球市场播报",
             date: "2026-11-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqaau9411906.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqnss6168376.shtml"
         },
         {
-            title: "五一视界盘中涨逾17% 创始人自愿延长禁售期四年",
-            summary: "五一视界（06651）盘中涨超17%，截至发稿，股价上涨9.04%，现报55.50港元，成交额6.17亿港元。 五一视界近期宣布子公司51Sim成功入选 NVIDIA Halos SAFE 生态名单...",
-            source: "新浪港股",
-            date: "2026-11-04",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-11-04/doc-inixqaaw6187694.shtml"
-        },
-        {
-            title: "高盛维持AMD“买入”评级，目标价700美元，看好数据中心业务持续增长",
-            summary: "11月4日，高盛重申超威半导体（AMD）“买入”评级，维持700美元目标价。该行分析师James Schneider认为，AMD最新业绩及前瞻指引表现强劲，有望推动股价进一步上涨。",
+            title: "沃尔沃汽车销量下滑：中美市场持续走弱拖累业绩",
+            summary: "这家瑞典车企该周期销量为 141656 台，去年同期为 168967 台得克萨斯州奥斯汀的一家沃尔沃汽车经销商门店。美国市场环境依旧严峻，消费者信心低迷。",
             source: "环球市场播报",
             date: "2026-11-04",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqaaw6186763.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqnss6165366.shtml"
+        },
+        {
+            title: "宝马再度下调业绩指引，加速推进重组计划",
+            summary: "宝马大幅下调汽车业务盈利预期，同时预计今年汽车交付量将出现小幅下滑宝马斯帕坦堡工厂。公司承诺借助人工智能提升运营效率。 内容摘要 宝马再度下调全年业绩指引...",
+            source: "环球市场播报",
+            date: "2026-11-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqnss6162101.shtml"
+        },
+        {
+            title: "诺和诺德上调业绩指引，Wegovy口服减肥药持续扩大市场投放",
+            summary: "Wegovy 口服药第三季度销售额折合 8.072 亿美元生产设备中的 Wegovy 药片。分析师此前就预计，随着这款药物销量攀升，诺和诺德会上调业绩指引。",
+            source: "环球市场播报",
+            date: "2026-11-04",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqnsq9383182.shtml"
+        },
+        {
+            title: "民主党大获全胜，马斯克旗下SpaceX、特斯拉盘前均大跌3.5%以上",
+            summary: "马斯克的政治献金主要投向得州，这里是他庞大商业帝国的核心SpaceX 创始人、首席执行官、董事长兼总工程师埃隆・马斯克，通过视频连线参与 SpaceX IPO 活动。",
+            source: "环球市场播报",
+            date: "2026-11-04",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqnss6157426.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-11-04",
-        marketAssessment: "A股方面：上证指数报3674.06点（+1.83%），深证成指报11307.44点（+3.96%），创业板指报2537.63点（+6.10%）。美股方面：标普500报7,568.92（-1.99%），纳斯达克报25,372.01（-4.18%）。",
+        marketAssessment: "A股方面：上证指数报3686.17点（+2.16%），深证成指报11335.69点（+4.22%），创业板指报2544.73点（+6.40%）。美股方面：标普500报7,568.92（-1.99%），纳斯达克报25,372.01（-4.18%）。",
         hotSectors: [
-            { name: "半导体设备", reason: "板块涨幅+14.57%", strength: "强" },
-            { name: "半导体材料", reason: "板块涨幅+10.94%", strength: "强" },
-            { name: "黄金", reason: "板块涨幅+10.38%", strength: "强" },
-            { name: "贵金属", reason: "板块涨幅+10.29%", strength: "强" },
+            { name: "半导体设备", reason: "板块涨幅+15.22%", strength: "强" },
+            { name: "半导体材料", reason: "板块涨幅+11.89%", strength: "强" },
+            { name: "半导体", reason: "板块涨幅+10.64%", strength: "强" },
+            { name: "集成电路制造", reason: "板块涨幅+10.63%", strength: "强" },
         ],
         weakSectors: [
-            { name: "电信运营商", reason: "板块跌幅-3.80%", strength: "弱" },
-            { name: "水产饲料", reason: "板块跌幅-3.34%", strength: "弱" },
+            { name: "电信运营商", reason: "板块跌幅-3.27%", strength: "弱" },
+            { name: "水产饲料", reason: "板块跌幅-3.12%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注半导体设备、半导体材料、黄金等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注半导体设备、半导体材料、半导体等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

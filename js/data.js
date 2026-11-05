@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3686.17", change: "+2.16%", market: "A股", updateTime: "2026-11-05 实时" },
-        { name: "深证成指", code: "SZ399001", value: "11335.69", change: "+4.22%", market: "A股", updateTime: "2026-11-05 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2544.73", change: "+6.40%", market: "A股", updateTime: "2026-11-05 实时" },
-        { name: "沪深300", code: "SH000300", value: "4101.34", change: "+2.31%", market: "A股", updateTime: "2026-11-05 实时" },
-        { name: "科创50", code: "SH000688", value: "1265.47", change: "+9.92%", market: "A股", updateTime: "2026-11-05 实时" },
-        { name: "标普500", code: "SPX", value: "7,695.71", change: "-0.62%", market: "美股", updateTime: "2026-11-05 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "25,797.95", change: "-2.83%", market: "美股", updateTime: "2026-11-05 收盘" },
-        { name: "道琼斯", code: "DJI", value: "53,320.77", change: "+1.61%", market: "美股", updateTime: "2026-11-05 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3689.91", change: "+0.10%", market: "A股", updateTime: "2026-11-05 实时" },
+        { name: "深证成指", code: "SZ399001", value: "11471.09", change: "+1.19%", market: "A股", updateTime: "2026-11-05 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2566.80", change: "+0.87%", market: "A股", updateTime: "2026-11-05 实时" },
+        { name: "沪深300", code: "SH000300", value: "4113.41", change: "+0.29%", market: "A股", updateTime: "2026-11-05 实时" },
+        { name: "科创50", code: "SH000688", value: "1286.68", change: "+1.68%", market: "A股", updateTime: "2026-11-05 实时" },
+        { name: "标普500", code: "SPX", value: "7,688.62", change: "-0.71%", market: "美股", updateTime: "2026-11-05 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "25,736.51", change: "-3.06%", market: "美股", updateTime: "2026-11-05 收盘" },
+        { name: "道琼斯", code: "DJI", value: "53,356.12", change: "+1.68%", market: "美股", updateTime: "2026-11-05 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "国内失意后可能更敢放手一搏 特朗普外交“大动作”或接踵而至",
-            summary: " 特朗普第二个总统任期的外交政策打破了历史惯例。如果历史经验可以作为参考，那么随着民主党掌控国会并在国内事务上与他对抗，其未来在外交领域可能会更加放开手脚。",
+            title: "今日原油：暴跌8%后企稳，美国中期选举引发美伊停战预期",
+            summary: "11月5日，国家油价在暴跌8%后基本持稳，此前美国民主党在中期选举中赢得国会参众两院控制权，市场预期特朗普政府可能面临更大的结束对伊朗战争的政治压力...",
             source: "环球市场播报",
             date: "2026-11-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixriwq6397902.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsmka6106919.shtml"
         },
         {
-            title: "加拿大总理卡尼将访问爱尔兰、菲律宾、柬埔寨",
-            summary: "加拿大总理马克·卡尼办公室发表声明称，卡尼将于11月11日至19日访问爱尔兰、菲律宾、柬埔寨。 卡尼将出席在都柏林举行的欧洲政治共同体峰会、在菲律宾举行的东盟峰会...",
-            source: "环球市场播报",
+            title: "收评|多个能化品种跌停 燃料油、低硫燃料油（LU）跌超10%",
+            summary: "2026年11月5日，国内期货主力合约涨多跌少，钯涨超8%，铂涨超7%，沪银涨近6%，沪镍涨超5%，沪金涨超4%，红枣涨近4%，焦炭、碳酸锂涨超3%。",
+            source: "市场资讯",
             date: "2026-11-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixriwn9749599.shtml"
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-11-05/doc-inixsmis8805250.shtml"
         },
         {
-            title: "欧洲股市上涨 美国中期选举结果提振市场情绪",
-            summary: " 欧洲股市周三上涨，逼近8月创下的纪录高位，此前民主党在美国中期选举中赢得国会参众两院控制权。银行、奢侈品和可再生能源股领涨。",
+            title: "AI交易板块已经“跌无可跌”，但高盛策略师指出民主党大胜背后仍有积极看点",
+            summary: "经历一轮抛售叠加选举落地后，持仓结构得到出清，空头需要回补，成长板块韧性尚存 近几周市场对AI板块的情绪明显转空。中期选举结果，会让一部分投资者觉得...",
             source: "环球市场播报",
             date: "2026-11-05",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrcqq9880092.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsmis8803137.shtml"
         },
         {
-            title: "特朗普称共和党因伊朗问题败选的说法“基本属实”",
-            summary: "特朗普表示，共和党因伊朗问题输掉中期选举的说法“基本属实”。 有记者问及副总统万斯称伊朗战争是共和党中期选举败选原因的言论，特朗普回应称： “这基本属实...",
+            title: "万斯在伊朗问题上与特朗普产生分歧：数周以来，白宫内部一直为这场战争焦虑纠结",
+            summary: "周二晚间，副总统 JD・万斯在白宫东厅紧盯中期选举糟糕的计票结果。他和特朗普总统坐在一起，眼睁睁看着自己曾经短暂担任过的俄亥俄州参议院席位落入民主党手中...",
             source: "环球市场播报",
             date: "2026-11-05",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrcqq9880041.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsmiy9451545.shtml"
         },
         {
-            title: "特朗普称没有考虑替换赫格塞思",
-            summary: "美国总统特朗普被问及是否考虑更换国防部长皮特·赫格塞思时回答称“不”。 特朗普补充称，赫格塞思“做得非常好”。",
+            title: "今日“木头姐”调仓：减持4923万美元SpaceX股票，买入约905万美元Nurix Therapeutics",
+            summary: "11月5日，凯茜·伍德（Cathie Wood）旗下ARK Invest公布11月4日ETF交易记录，显示公司大幅减持SpaceX及Alphabet等科技股，同时增持多家生物科技企业。",
             source: "环球市场播报",
             date: "2026-11-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrcqq9879941.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsmis8798028.shtml"
         },
         {
-            title: "美国众议院民主党领导层选举将于11月18日至19日举行",
-            summary: "美国众议院民主党人将于11月18日和19日举行领导层选举，民主党将在之后举行各委员会主席选举。",
+            title: "现货黄金震荡走高，12月加息概率超80%为何压不垮它？",
+            summary: "文章来源：汇通财经 现货黄金周四（11月5日）亚洲时段震荡走高，为连续第二日上涨，当前交投于每盎司4125美元附近，，盘中早些时候曾触及4146.79美元/盎司...",
+            source: "市场资讯",
+            date: "2026-11-05",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/money/nmetal/hjzx/2026-11-05/doc-inixsmka6098743.shtml"
+        },
+        {
+            title: "今日黄金：大涨近2%一度突破4130美元，中期选举推动美元美债收益率双双下跌",
+            summary: "11月5日，国际金价延续上涨势头，现货黄金一度突破每盎司4130美元，主要受到美国中期选举结果引发的美元及美债收益率下跌推动。截至发稿，现货黄金上涨1.66%至4127...",
             source: "环球市场播报",
             date: "2026-11-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrcqk5939622.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsmka6098238.shtml"
         },
         {
-            title: "布伦特原油暴跌10% 交易员押注民主党大胜将推动伊朗战争更早结束",
-            summary: "布伦特原油期货暴跌10%，至每桶100美元下方，投资者押注民主党横扫国会两院可能使持续数月的的美伊冲突得以更快结束。 这一全球基准油价盘中最低跌至每桶93.22美元...",
-            source: "环球市场播报",
-            date: "2026-11-05",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrcqq9873992.shtml"
-        },
-        {
-            title: "对瑞信整合接近尾声 瑞银在伦敦削减约200个职位",
-            summary: "随着对瑞信的整合接近尾声，瑞银集团最近几周在伦敦削减了约200个职位。 这轮裁员最近几周已在内部宣布，涉及瑞银多个业务部门，包括财富管理和投资银行业务。",
+            title: "中期选举惨败 共和党内部分裂加剧 高层或生变局",
+            summary: "共和党在选举夜遭遇失利后，美国众议院共和党党团内部掀起一股相互指责的浪潮，一众议员质疑众议院议长迈克·约翰逊（Mike Johnson）以及其他高层副手能否在下周的领袖选举...",
             source: "环球市场播报",
             date: "2026-11-05",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrcqq9873630.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixsmiy9449209.shtml"
         },
     ],
 
@@ -765,21 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-11-05",
-        marketAssessment: "A股方面：上证指数报3686.17点（+2.16%），深证成指报11335.69点（+4.22%），创业板指报2544.73点（+6.40%）。美股方面：标普500报7,695.71（-0.62%），纳斯达克报25,797.95（-2.83%）。",
+        marketAssessment: "A股方面：上证指数报3689.91点（+0.10%），深证成指报11471.09点（+1.19%），创业板指报2566.80点（+0.87%）。美股方面：标普500报7,688.62（-0.71%），纳斯达克报25,736.51（-3.06%）。",
         hotSectors: [
-            { name: "半导体设备", reason: "板块涨幅+15.22%", strength: "强" },
-            { name: "半导体材料", reason: "板块涨幅+11.89%", strength: "强" },
-            { name: "半导体", reason: "板块涨幅+10.64%", strength: "强" },
-            { name: "集成电路制造", reason: "板块涨幅+10.63%", strength: "强" },
+            { name: "光伏辅材", reason: "板块涨幅+9.94%", strength: "强" },
+            { name: "光伏加工设备", reason: "板块涨幅+9.58%", strength: "强" },
+            { name: "视频媒体", reason: "板块涨幅+9.27%", strength: "强" },
+            { name: "光伏电池组件", reason: "板块涨幅+8.83%", strength: "强" },
         ],
         weakSectors: [
-            { name: "电信运营商", reason: "板块跌幅-3.27%", strength: "弱" },
-            { name: "水产饲料", reason: "板块跌幅-3.12%", strength: "弱" },
+            { name: "动力煤", reason: "板块跌幅-2.20%", strength: "弱" },
+            { name: "冶钢辅料", reason: "板块跌幅-1.99%", strength: "弱" },
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注半导体设备、半导体材料、半导体等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注光伏辅材、光伏加工设备、视频媒体等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

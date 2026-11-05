@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3689.91", change: "+0.10%", market: "A股", updateTime: "2026-11-06 实时" },
         { name: "深证成指", code: "SZ399001", value: "11471.09", change: "+1.19%", market: "A股", updateTime: "2026-11-06 实时" },
         { name: "创业板指", code: "SZ399006", value: "2566.80", change: "+0.87%", market: "A股", updateTime: "2026-11-06 实时" },
         { name: "沪深300", code: "SH000300", value: "4113.41", change: "+0.29%", market: "A股", updateTime: "2026-11-06 实时" },
         { name: "科创50", code: "SH000688", value: "1286.68", change: "+1.68%", market: "A股", updateTime: "2026-11-06 实时" },
-        { name: "标普500", code: "SPX", value: "7,464.20", change: "-3.32%", market: "美股", updateTime: "2026-11-06 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "24,708.71", change: "-5.64%", market: "美股", updateTime: "2026-11-06 收盘" },
-        { name: "道琼斯", code: "DJI", value: "52,214.04", change: "-0.25%", market: "美股", updateTime: "2026-11-06 收盘" },
+        { name: "标普500", code: "SPX", value: "7,373.08", change: "-4.50%", market: "美股", updateTime: "2026-11-06 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "24,391.22", change: "-6.85%", market: "美股", updateTime: "2026-11-06 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,596.20", change: "-1.43%", market: "美股", updateTime: "2026-11-06 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "非A 板块股票集体上涨，而华盛顿政局又为这波行情添了一把火",
-            summary: "这次大选给了华尔街买入绝大多数股票的理由，但芯片股是例外。自 10 月初以来，芯片股市值已经蒸发近 4 万亿美元。 民主党拿下国会参众两院...",
+            title: "伊朗通过卡塔尔向美国提出核方案",
+            summary: "一位未具名的伊朗高级官员称，伊朗通过卡塔尔向美国提出一份核方案，但只有在华盛顿满足其七项要求后才会进行讨论。 据称，华盛顿正在审议德黑兰的核方案。",
+            source: "环球市场播报",
+            date: "2026-11-06",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixttca8385758.shtml"
+        },
+        {
+            title: "共和党中期选举一败涂地 传言国务卿卢比奥考虑离开特朗普政府",
+            summary: " 美国共和党在本周的中期选举中惨败后，国务卿马尔科·卢比奥开始酝酿自己的前程，而据知情人士透露，他在考虑是否要离开特朗普政府。",
             source: "环球市场播报",
             date: "2026-11-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixthpk5378458.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtnve8512621.shtml"
         },
         {
-            title: "民主党大胜引发市场对合并前景、AI建设担忧，SpaceX与特斯拉股价大跌",
-            summary: "SpaceX 与特斯拉股价周四延续跌势，两家公司均下跌约 9%。本周民主党拿下参众两院控制权之后，这两家埃隆・马斯克旗下企业遭到重挫。",
-            source: "环球市场播报",
-            date: "2026-11-06",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixthpq9238119.shtml"
-        },
-        {
-            title: "盈利展望不及预期，分析师对高通态度趋于平淡",
-            summary: "高通周三公布财报，业绩展望偏弱，华尔街对其前景态度审慎。伯恩斯坦分析师史黛西・拉斯贡给予该股市场表现同步（market‑perform）评级...",
+            title: "美国国税局上调2027年遗产税和赠与税免税额",
+            summary: "美国国税局（IRS）宣布，提高2027年的遗产税和赠与税免税额度。 该机构周四发布公告，将2027年联邦遗产税和赠与税的“基本免税额”（Basic Exclusion...",
             source: "环球市场播报",
             date: "2026-11-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixthph8599658.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtnvq5799504.shtml"
         },
         {
-            title: "亿客行CEO：AI智能代理尚未改变用户预订习惯",
-            summary: "核心要点亿客行（Expedia）首席执行官阿里亚娜・戈林表示，公司暂未观察到 AI 智能代理改变消费者的预订行为。她称，旅游业业务错综复杂，AI 很难完全替代旅游服务。",
+            title: "民主党荣耀夜也是2028试金石 潜在总统候选人政治行情显端倪",
+            summary: "民主党在周二中期选举中的压倒性胜利将产生深远影响，尤其是对总统之位的竞逐。随着德克萨斯、南卡罗来纳州和堪萨斯州等传统共和党堡垒把民主党人送进参议院...",
+            source: "环球市场播报",
+            date: "2026-11-06",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtnvq5797842.shtml"
+        },
+        {
+            title: "纽约汇市：美元走势震荡 芯片股拖累股市下跌",
+            summary: "纽约汇市美元兑G10货币下跌，与此同时芯片股下跌拖累股市走低，因为投资者猜测民主党掌控的国会将会打击AI行业。 彭博美元现货指数基本持平。",
             source: "环球市场播报",
             date: "2026-11-06",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixthph8598722.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtnvn9141882.shtml"
         },
         {
-            title: "马克・洛尔旗下Wonder秘密递交IPO申请",
-            summary: "核心要点该公司表示，Wonder 已秘密提交首次公开募股（IPO）申请。创始人马克・洛尔曾创办Diapers.com以及Jet.com，这两家公司分别出售给亚马逊与沃尔玛。",
+            title: "微软对押注“新云”渐生悔意 加强审查部分数据中心项目",
+            summary: " 微软曾帮助催生“新云”热潮。为了满足市场对其云服务和AI服务的巨大需求，该公司与新兴数据中心运营商签署了数百亿美元的合同。",
             source: "环球市场播报",
             date: "2026-11-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixthpk5373727.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtnvn9139462.shtml"
         },
         {
-            title: "新一届国会或将重启的三项针对富人的税收提案",
-            summary: "核心要点民主党中期选举获胜，再度掀起对超级富豪征税的呼声，俄勒冈州民主党参议员罗恩・怀登已经向亿万富豪发出警示。参议院财政委员会收到数份提案，分别针对附带权益...",
+            title: "欧洲债市：避险需求推动德国国债全线上涨",
+            summary: "德国国债全线上涨，科技股暴跌推动避险需求升温。市场预计，本周美国民主党横扫国会将打击数据中心建设的推进。英国国债大体持稳，此前英国央行如预期加息25个基点至4%...",
             source: "环球市场播报",
             date: "2026-11-06",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixthpk5372757.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtnvh5274628.shtml"
         },
         {
-            title: "英伟达等美国芯片股抛售加剧 人工智能交易担忧笼罩市场",
-            summary: "半导体股周四暴跌，延续近期下挫势头。民主党横扫国会两院后，投资者对人工智能交易的信心开始动摇。 费城证券交易所半导体指数下跌9.2%，迈向6月以来最大单日跌幅。",
+            title: "银行倒闭引发巴拉圭政局危机 特朗普盟友培尼亚辞去总统职务",
+            summary: "巴拉圭总统培尼亚周四宣布辞职，此前一家与其政府有关联的大型商业银行倒闭，使这个南美国家陷入金融和社会动荡。 监管机构周二早些时候接管Ueno银行...",
             source: "环球市场播报",
             date: "2026-11-06",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixthpq9232827.shtml"
-        },
-        {
-            title: "高通财报公布后大跌11.3%，引领大选过后芯片股抛售潮",
-            summary: "核心要点高通第四季度盈利小幅超出市场预期，但给出的业绩指引偏弱。受大选过后市场担忧数据中心建设放缓影响，芯片板块全线走弱。",
-            source: "环球市场播报",
-            date: "2026-11-05",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixthpq9225992.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtnvn9137004.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-11-06",
-        marketAssessment: "A股方面：上证指数报3689.91点（+0.10%），深证成指报11471.09点（+1.19%），创业板指报2566.80点（+0.87%）。美股方面：标普500报7,464.20（-3.32%），纳斯达克报24,708.71（-5.64%）。",
+        marketAssessment: "A股方面：上证指数报3689.91点（+0.10%），深证成指报11471.09点（+1.19%），创业板指报2566.80点（+0.87%）。美股方面：标普500报7,373.08（-4.50%），纳斯达克报24,391.22（-6.85%）。",
         hotSectors: [
             { name: "光伏辅材", reason: "板块涨幅+9.94%", strength: "强" },
             { name: "光伏加工设备", reason: "板块涨幅+9.58%", strength: "强" },

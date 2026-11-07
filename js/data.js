@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3649.18", change: "-1.10%", market: "A股", updateTime: "2026-11-07 实时" },
         { name: "深证成指", code: "SZ399001", value: "11175.78", change: "-2.57%", market: "A股", updateTime: "2026-11-07 实时" },
         { name: "创业板指", code: "SZ399006", value: "2465.23", change: "-3.96%", market: "A股", updateTime: "2026-11-07 实时" },
         { name: "沪深300", code: "SH000300", value: "4054.28", change: "-1.44%", market: "A股", updateTime: "2026-11-07 实时" },
         { name: "科创50", code: "SH000688", value: "1253.20", change: "-2.60%", market: "A股", updateTime: "2026-11-07 实时" },
-        { name: "标普500", code: "SPX", value: "7,399.67", change: "-2.38%", market: "美股", updateTime: "2026-11-07 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "24,645.38", change: "-3.11%", market: "美股", updateTime: "2026-11-07 收盘" },
-        { name: "道琼斯", code: "DJI", value: "51,452.93", change: "-0.61%", market: "美股", updateTime: "2026-11-07 收盘" },
+        { name: "标普500", code: "SPX", value: "7,376.86", change: "-2.68%", market: "美股", updateTime: "2026-11-07 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "24,579.42", change: "-3.37%", market: "美股", updateTime: "2026-11-07 收盘" },
+        { name: "道琼斯", code: "DJI", value: "51,285.73", change: "-0.94%", market: "美股", updateTime: "2026-11-07 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "日本央行行长称尚不清楚2%的通胀率能维持多久",
-            summary: " 日本央行行长植田和男表示，虽然日本通胀率已经达到政策制定者的目标，但能维持多久仍是未知数，其暗示2%的通胀尚未在日本社会彻底稳固。",
-            source: "环球市场播报",
-            date: "2026-11-07",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvwak8450303.shtml"
-        },
-        {
-            title: "高盛美股恐慌指数触及极端水平 预示强劲反弹或已不远",
-            summary: "高盛集团的交易员表示，美国股市遭受的剧烈抛售已将市场恐慌推升至从历史经验来看中期会有强劲反弹的极端水平。 该行的波动恐慌指数周四飙升至9.57（最高为10），跨过了9...",
-            source: "环球市场播报",
-            date: "2026-11-07",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvrus8685553.shtml"
-        },
-        {
-            title: "欧洲股市周五下跌 周涨幅收窄 波动幅度小于美股",
-            summary: "由于市场担忧美国民主党横扫国会及其对AI交易的影响，全球股市出现下跌，波动率上升，欧洲股市抹去了本周大部分涨幅。 截至收盘，斯托克欧洲600指数下跌1%。",
-            source: "环球市场播报",
-            date: "2026-11-07",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvrun8566856.shtml"
-        },
-        {
-            title: "微软正逐步终止与甲骨文的人工智能云计算租赁协议",
-            summary: "微软公司（Microsoft Corp．）正逐步终止从甲骨文公司（Oracle Corp．）租用人工智能算力的协议，这是该公司重新评估价值数十亿美元的云计算合作关系的更广泛行动的一部分...",
+            title: "时隔30年首次 俄罗斯将从北极港口摩尔曼斯克出口生铁",
+            summary: "俄罗斯将时隔30年首次从北极港口摩尔曼斯克出口生铁，以此避开黑海区域遭乌克兰打击的航运线路，调整货物运输通道。 摩尔曼斯克港口周四发布一段视频...",
             source: "环球市场播报",
             date: "2026-11-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvruu5459483.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwtha4818542.shtml"
         },
         {
-            title: "特朗普：只有“愚蠢的”领导人才会对AI说不",
-            summary: "美国总统特朗普重申他支持人工智能。此前，对这项技术可能受到更严格监管的担忧引发股市暴跌，市值蒸发2.3万亿美元。 他在社交平台上谈到AI公司时表示：“它们是黄金...",
+            title: "韩股下跌 韩国散户狂买美股 五日净买入规模超8月全月",
+            summary: " 韩国本土股市下跌之际，韩国散户正在加大美股买入力度。仅五个交易日内，美股净买入额接近3万亿韩元，超过8月全月规模。",
+            source: "环球市场播报",
+            date: "2026-11-07",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwtfy8168859.shtml"
+        },
+        {
+            title: "澳大利亚总理呼吁美伊在美国中期选举后缓和紧张局势",
+            summary: "澳大利亚总理阿尔巴尼斯呼吁在美国中期选举后缓和美伊之间的紧张局势，他形容此次选举意义重大。  这位澳大利亚领导人称，伊朗战争以及美国对贸易伙伴征关税是此次选举结果...",
+            source: "环球市场播报",
+            date: "2026-11-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwthh5082356.shtml"
+        },
+        {
+            title: "突然，净空头持仓暴增24.6万手！美联储，加息生变？",
+            summary: "来源：期货日报 大家好，来关注下美债。 美国商品期货交易委员会发布的最新数据显示，截至11月3日当周，投机者将CBOT美国5年期国债期货净空头头寸增加246314手...",
+            source: "市场资讯",
+            date: "2026-11-07",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/money/future/fmnews/2026-11-07/doc-inixwthh5080386.shtml"
+        },
+        {
+            title: "“蓝潮”如何重塑美国能源政策：扭转特朗普政策 淡化气候叙事 新能源与LNG并行",
+            summary: "美国中期选举以民主党大获全胜、掀起“蓝潮”落幕，各界目光开始聚焦美国能源政策下一步走向。主流观点认为，民主党会延续其传统的支持可再生能源立场。",
             source: "环球市场播报",
             date: "2026-11-07",
             tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvrus8675233.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwtfy8147526.shtml"
         },
         {
-            title: "特斯拉将逐步停产Cybertruck 因多年来商业表现不佳",
-            summary: " 特斯拉将停产皮卡Cybertruck，这款颇具争议的车上市时间不长，却吸引了大量目光，然而销量始终远未达到马斯克当初的高预期。",
-            source: "环球市场播报",
-            date: "2026-11-07",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvrus8674174.shtml"
-        },
-        {
-            title: "日本央行行长：企业风险偏好似乎在回升",
-            summary: "日本央行行长植田和男在周五的讲稿中重点谈到本国经常账户盈余的现代历史，并未直接评论货币政策。 植田和男在国际货币基金组织就“日本的经常账户盈余与企业调整”的主题发...",
-            source: "环球市场播报",
-            date: "2026-11-07",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvrun8556494.shtml"
-        },
-        {
-            title: "马斯克：本季度SpaceX来自政府的收入不到10%",
-            summary: "SpaceX首席执行官埃隆·马斯克在X发帖称：“本季度政府收入占SpaceX收入的比例将低于10%，一年后将低于5%。” 马斯克在谈及SpaceX与美国政府的合同时表示：“我很乐意取消任何...",
+            title: "特朗普称本周末将就俄乌问题举行很多会谈",
+            summary: "“我们在海湖庄园安排了很多会议，与许多与俄罗斯有关的人士会晤，”美国总统特朗普在佛罗里达州对记者表示。 他补充说，他今天就俄乌问题进行了几次电话交谈...",
             source: "环球市场播报",
             date: "2026-11-07",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixvruq5204577.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwnya8250508.shtml"
+        },
+        {
+            title: "马斯克在得州投资2.25亿美元 民主党批评特殊优待拟收紧审查",
+            summary: "埃隆·马斯克已在得州投入2.25亿美元。如今新一届民主党领导层手握权力或叫停他的多个项目。 SpaceX、特斯拉等马斯克旗下企业在得州发展一路顺风顺水...",
+            source: "环球市场播报",
+            date: "2026-11-07",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwnye4886936.shtml"
+        },
+        {
+            title: "马斯克评估特斯拉与SpaceX合并之际 谷歌高管哈里森离任SpaceX独立董事",
+            summary: "SpaceX周五提交文件披露，长期担任公司董事的唐纳德·哈里森已经卸任。此时CEO埃隆·马斯克正推动SpaceX与特斯拉合并。 哈里森是谷歌企业发展总裁...",
+            source: "环球市场播报",
+            date: "2026-11-07",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwnyk5147084.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-11-07",
-        marketAssessment: "A股方面：上证指数报3649.18点（-1.10%），深证成指报11175.78点（-2.57%），创业板指报2465.23点（-3.96%）。美股方面：标普500报7,399.67（-2.38%），纳斯达克报24,645.38（-3.11%）。",
+        marketAssessment: "A股方面：上证指数报3649.18点（-1.10%），深证成指报11175.78点（-2.57%），创业板指报2465.23点（-3.96%）。美股方面：标普500报7,376.86（-2.68%），纳斯达克报24,579.42（-3.37%）。",
         hotSectors: [
             { name: "视频媒体", reason: "板块涨幅+6.25%", strength: "强" },
             { name: "种子", reason: "板块涨幅+4.64%", strength: "强" },

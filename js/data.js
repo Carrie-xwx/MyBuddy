@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3649.18", change: "-1.10%", market: "A股", updateTime: "2026-11-08 实时" },
         { name: "深证成指", code: "SZ399001", value: "11175.78", change: "-2.57%", market: "A股", updateTime: "2026-11-08 实时" },
         { name: "创业板指", code: "SZ399006", value: "2465.23", change: "-3.96%", market: "A股", updateTime: "2026-11-08 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "腾讯反弹，段永平：还拿着",
-            summary: " 10月底以来，恒生科技指数迎来反弹，腾讯罕见五连阳。有网友问知名投资人段永平是否还持有腾讯，段永平回复称：“拿着呢”。",
-            source: "上海证券报",
-            date: "2026-11-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-08/doc-inixzpaw7213422.shtml"
-        },
-        {
-            title: "医疗器械龙头三季报出炉！上市以来前三季营收首次破百亿，净利润同比走低，现金流由正转负",
-            summary: "红星资本局11月8日消息 近日，医疗器械龙头联影医疗（688271.SH）发布2026年三季报，前三季度营业收入105.80亿元，同比增长19.43%，上市以来首次突破百亿元；归母净利润10...",
-            source: "",
-            date: "2026-11-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-08/doc-inixzpas7015613.shtml"
-        },
-        {
-            title: "“技术推出得太早！” 奔驰承认L3自动驾驶太超前，中国车主嘲讽“难用”，季度销量暴跌31%",
-            summary: "文|《次世代车研所》栏目 闫妍 今日据媒体报道，奔驰首席技术官约尔格·布尔策在媒体圆桌会议上表示，奔驰早年率先推出L3级自动驾驶技术，但技术的实用性十分有限。",
-            source: "次世代车研所",
-            date: "2026-11-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/nextauto/2026-11-08/doc-inixzhva4089373.shtml"
-        },
-        {
-            title: "欧盟与英国即将达成协议，在脱欧后重新链接碳市场",
-            summary: "欧盟与英国正就链接双方碳排放交易体系达成最终协议，此举将提升市场流动性，并最终为企业节省数百万欧元的碳边境税。 该协议计划在本月晚些时候举行的一次重要峰会上宣布...",
+            title: "沙特阿美在首都利雅得的办公楼遇袭 受到轻微损伤",
+            summary: "沙特阿美位于利雅得的办公室周日遭到袭击。目前沙特正面临来自伊朗支持的也门胡塞武装的新一轮打击。 据沙特能源部和官方的沙特通讯社称...",
             source: "环球市场播报",
             date: "2026-11-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzhuu7122740.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzxsn6833330.shtml"
         },
         {
-            title: "女首富1270亿元身家背后，蓝思科技正在经历一场转型手术",
-            summary: "来源：尺度商业 文 | 张佳儒 编辑 | 刘振涛 周群飞以1270亿元身家，登顶中国女首富。但另一组数字，让这个“登顶”变得不那么值得庆祝。",
-            source: "市场资讯",
-            date: "2026-11-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-08/doc-inixzpaw7190627.shtml"
-        },
-        {
-            title: "和美药业延迟港股上市：曾拟募资8.6亿港元 4个月亏3125万",
-            summary: "来源：雷递 雷递网 雷建平 11月8日 赣州和美药业股份有限公司（简称：“和美药业”，股票代码：“00054”）日前宣布延迟上市，和美药业原计划2026年11月9日在港交所上市。",
-            source: "市场资讯",
-            date: "2026-11-08",
-            tag: "港股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-08/doc-inixzpaw7189774.shtml"
-        },
-        {
-            title: "又见A股跨界，603725，拟控股光通信企业！",
-            summary: "又有上市公司拟进行跨界并购！ 天安新材（603725）11月8日晚公告，公司拟以增资及股权转让的方式取得深圳市嘉万光通信有限公司（简称嘉万光）62.5%股权，经初步测算...",
-            source: "",
-            date: "2026-11-08",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/zqgd/2026-11-08/doc-inixzhuy7307327.shtml"
-        },
-        {
-            title: "以色列总统授权埃森科特组阁 令内塔尼亚胡执政地位迎重大考验",
-            summary: "以色列大选挑战者加迪·埃森科特将率先获得组阁权，这使他距离终结内塔尼亚胡创纪录的总理任期又近了一步。 以色列总统伊萨克·赫尔佐格办公室发布声明称...",
+            title: "法国外长：欧洲人将参加阿布扎比乌克兰会谈",
+            summary: "法国外长让-诺埃尔·巴罗周日表示，欧洲人将参加下周在阿布扎比举行的乌克兰问题会谈。 巴罗在接受采访时说：“欧洲人将得到充分代表；法国将赴阿布扎比参加这些讨论。",
             source: "环球市场播报",
             date: "2026-11-08",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzhuw3764416.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzxsq3477394.shtml"
+        },
+        {
+            title: "民主党将如何试图终结特朗普的关税",
+            summary: "美国国会争夺战已经结束。围绕特朗普关税的战争即将升温。 特朗普过去两年编织的错综复杂的关税网络，可能很快面临最大威胁，因为民主党人正准备动用新的立法火力...",
+            source: "环球市场播报",
+            date: "2026-11-08",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzxsu3805136.shtml"
+        },
+        {
+            title: "伊斯兰革命卫队称周日霍尔木兹海峡有3艘油轮起火",
+            summary: "伊朗伊斯兰革命卫队海军的声明报道称，自周日凌晨以来，三艘“不合规”油轮在霍尔木兹海峡的一条“未经授权航线”上起火。 声明称，这些船只关闭了导航和识别系统",
+            source: "环球市场播报",
+            date: "2026-11-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzxsn6825965.shtml"
+        },
+        {
+            title: "亚马逊已成立新的家用机器人团队 正开发一款“世界首创的机器人产品”",
+            summary: " 杰夫·贝索斯在2017年做出了一次大胆押注。贝索斯是科幻和机器人爱好者，他确信消费者在不久的将来就会拥有家用机器人。",
+            source: "环球市场播报",
+            date: "2026-11-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzxss7027705.shtml"
+        },
+        {
+            title: "启元机器人第10000台个人机器人下线",
+            summary: "新浪科技讯 11月8日晚间消息，上纬新材宣布启元机器人第10000台个人机器人正式下线。这是继10月25日第5000台个人机器人下线后，启元机器人在14天内完成累计下线从5000台至1...",
+            source: "新浪科技",
+            date: "2026-11-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/tob/2026-11-08/doc-inixzxss7027496.shtml"
+        },
+        {
+            title: "民主党赢得国会控制权，华尔街敦促企业加快巨额并购，2027年中或成关键期限",
+            summary: "美国民主党在中期选举中取得压倒性胜利，正促使华尔街和美国大型企业重新评估巨额并购计划。尽管特朗普政府仍将掌握反垄断审批权，但随着民主党即将控制国会两院...",
+            source: "环球市场播报",
+            date: "2026-11-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzxss7025042.shtml"
+        },
+        {
+            title: "A股建材巨头，抛百亿级并购！",
+            summary: "来源：资本秘闻 11月8日晚间，华新建材披露公告称，在协定的企业价值为127亿巴西雷亚尔（相当于约23.085亿美元）基础上，公司拟以预估约90.337亿巴西雷亚尔（相当于约16...",
+            source: "市场资讯",
+            date: "2026-11-08",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-11-08/doc-inixztku7153690.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-11-08",
         marketAssessment: "A股方面：上证指数报3649.18点（-1.10%），深证成指报11175.78点（-2.57%），创业板指报2465.23点（-3.96%）。美股方面：标普500报7,376.86（-2.68%），纳斯达克报24,579.42（-3.37%）。",
         hotSectors: [
@@ -775,8 +775,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             { name: "其他养殖", reason: "板块涨幅+3.18%", strength: "强" },
         ],
         weakSectors: [
-            { name: "印制电路板", reason: "板块跌幅-5.86%", strength: "弱" },
-            { name: "元件", reason: "板块跌幅-5.13%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
         shortTermStrategy: "超短线关注视频媒体、种子、卫浴电器等板块的延续性，顺势操作，严格止损。",

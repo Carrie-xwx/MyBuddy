@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3634.35", change: "-0.59%", market: "A股", updateTime: "2026-11-14 实时" },
         { name: "深证成指", code: "SZ399001", value: "10968.79", change: "-2.05%", market: "A股", updateTime: "2026-11-14 实时" },
         { name: "创业板指", code: "SZ399006", value: "2426.08", change: "-3.32%", market: "A股", updateTime: "2026-11-14 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "老黄离职后，“大空头”加码做空科技股！警告AI热潮或陷入“牛市陷阱”",
-            summary: "本文转自“华尔街见闻” 作者：张雅琦 英伟达（NVDA.US）CEO黄仁勋的离职令科技股前景蒙上阴影，著名空头Michael Burry借势加码做空押注...",
-            source: "市场资讯",
+            title: "印尼总统下令提高国家在矿业收益中的分成比例",
+            summary: " 印尼总统普拉博沃·苏比延多周六表示，国家应从各类采矿许可中获取更大份额的收益；如有必要，还应在矿业资产中持有控股权。",
+            source: "环球市场播报",
             date: "2026-11-14",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-11-14/doc-iniysrcf2969234.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytfyz3927495.shtml"
         },
         {
-            title: "英国央行首席经济学家：需进一步加息",
-            summary: " 英国央行首席经济学家警告，继12月加息之后，明年央行大概率还需要进一步加息，这表明部分政策制定者对通胀升温的态度趋于强硬。",
+            title: "特朗普据悉考虑暂缓对伊朗军事打击",
+            summary: " 据知情人士透露，美国总统唐纳德·特朗普近日向高级顾问表示，如果美国未受到来自伊朗或也门胡塞武装的任何新挑衅，他可能会暂缓对伊朗采取军事打击。",
             source: "环球市场播报",
             date: "2026-11-14",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/world/2026-11-14/doc-iniysrcc0597024.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytfyw7122179.shtml"
         },
         {
-            title: "美国解除全国停飞令 此前航班因空管系统故障停飞逾四小时",
-            summary: " 美国有关部门解除了影响数千架次航班、导致旅客滞留全国各地的停飞令，为航空公司在停飞逾四小时后恢复运营扫清了障碍。",
+            title: "泽连斯基称美国提出以让乌克兰加入北约来换取其放弃顿巴斯地区",
+            summary: " 乌克兰总统泽连斯基表示，美国特使曾询问乌克兰是否愿意将东部的顿巴斯地区让给俄罗斯，以此换取加入北约的机会；这表明华盛顿的谈判策略可能发生了转变。",
             source: "环球市场播报",
             date: "2026-11-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-11-14/doc-iniysrax0273459.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyszsy7219163.shtml"
         },
         {
-            title: "美国交通部长谈全美停飞：国会应该批准500亿美元改造空管系统",
-            summary: " 一场技术故障引发二十多年来持续时间最长的全美航班停飞后，美国交通部长肖恩·达菲呼吁国会批准500亿美元紧急资金，全面改造美国空中交通管制系统。",
+            title: "币安称计划下周全面恢复提现服务",
+            summary: "币安周六表示，计划在下周末前恢复所有剩余网络和资产的提现功能。此前，这家全球最大的加密货币交易所遭遇了一起网络入侵事件，导致平台上价值63亿美元的资产在上个月被盗...",
             source: "环球市场播报",
             date: "2026-11-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-11-14/doc-iniyskvf0673816.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysvma7323868.shtml"
         },
         {
-            title: "传统的圣诞行情，今年的美股还有吗？",
-            summary: "本文来源：华尔街见闻 作者：鲍奕龙 美股在经历一轮剧烈抛售后，技术面与仓位面同步修复，高盛（GS.US）等华尔街主要机构相继发出年末反弹信号。",
+            title: "微软称服务已全面恢复 此前故障波及全球",
+            summary: "微软公司表示，其旗舰软件服务已全面恢复。此前发生的故障导致全球多地政府部门、交易员和企业的工作陷入停顿。 微软网站上的服务运行状况更新显示：“所有产品均已正常运行...",
+            source: "环球市场播报",
+            date: "2026-11-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysvma7318329.shtml"
+        },
+        {
+            title: "黄仁勋时代落幕 英伟达面临三重考验",
+            summary: "英伟达（NVDA.US）的黄仁勋时代正式落幕。 当地时间11月12日，黄仁勋宣布辞去公司总裁、CEO及董事职务。现任CFO Colette Kress暂代CEO...",
             source: "市场资讯",
             date: "2026-11-14",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-11-14/doc-iniyskvi3034331.shtml"
+            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-11-14/doc-iniysvmc2897712.shtml"
         },
         {
-            title: "Afterpay联合创始人莫尔纳将于年底离开",
-            summary: "先买后付平台Afterpay联合创始人尼克·莫尔纳宣布，他将于今年年底离开这家公司及其美国母公司Block。 莫尔纳在2014年与安东尼·艾森一同创立了这家澳大利亚先买后付企业...",
+            title: "黄仁勋辞职后：亲友齐聚旧金山豪宅 点炸鸡外卖",
+            summary: " 深陷风波的科技巨头黄仁勋被曝光存在多段婚外情、戏剧性宣布辞职后，数小时内，他的亲友陆续聚集在其价值3800万美元的旧金山豪宅内。",
             source: "环球市场播报",
             date: "2026-11-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyskvf0669977.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysvmc2868383.shtml"
         },
         {
-            title: "美国联邦航空管理局已解除全国停飞令",
-            summary: " 知情人士透露，美国联邦航空管理局已解除全国停飞令。此前通信故障导致全美航班暂停起飞，在停飞超四小时后，航司得以恢复运营。",
+            title: "马斯克称Cybercab每月299美元自动驾驶订阅费太高",
+            summary: "特斯拉宣布开始向部分个人用户开放 Cybercab 购买渠道，起售价为 29990 美元，首批车辆预计将于 2026 年 12 月交付。不过，目前特斯拉 Cybercab...",
             source: "环球市场播报",
             date: "2026-11-14",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysepk7547195.shtml"
-        },
-        {
-            title: "今年1至10月全国铁路发送旅客41.3亿人次，创历史同期新高",
-            summary: "今年1至10月全国铁路累计发送旅客41.3亿人次，同比增长4.7%，创历史同期新高，全国铁路运输安全平稳有序。 旅客运输能力持续提升 1至10月，日均安排开行旅客列车11670列...",
-            source: "澎湃新闻",
-            date: "2026-11-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniysepm3126927.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysvma7285464.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-11-14",
         marketAssessment: "A股方面：上证指数报3634.35点（-0.59%），深证成指报10968.79点（-2.05%），创业板指报2426.08点（-3.32%）。美股方面：标普500报7,561.67（+2.51%），纳斯达克报25,136.27（+2.27%）。",
         hotSectors: [

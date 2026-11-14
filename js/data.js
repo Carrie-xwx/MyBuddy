@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3634.35", change: "-0.59%", market: "A股", updateTime: "2026-11-14 实时" },
         { name: "深证成指", code: "SZ399001", value: "10968.79", change: "-2.05%", market: "A股", updateTime: "2026-11-14 实时" },
         { name: "创业板指", code: "SZ399006", value: "2426.08", change: "-3.32%", market: "A股", updateTime: "2026-11-14 实时" },
@@ -669,7 +669,63 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+        {
+            title: "美国航班大乱持续 数千架次取消或延误",
+            summary: "美国航空出行周六仍在艰难恢复。此前发生的系统故障导致美国经历自2001年9月恐怖袭击以来持续时间最长的全国性航班停飞，数千架次航班被取消...",
+            source: "环球市场播报",
+            date: "2026-11-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytnht0289195.shtml"
+        },
+        {
+            title: "美国空管系统故障致4小时停飞，交通部长申请500亿升级资金",
+            summary: "美国交通部长达菲呼吁国会批准500亿美元紧急资金，用于对该国老化的空中交通管制系统进行现代化改造。 此前，一场持续四小时的地面停飞导致数千架次航班受影响。",
+            source: "环球市场播报",
+            date: "2026-11-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/7x24/2026-11-14/doc-iniytnhu7064817.shtml"
+        },
+        {
+            title: "乌克兰“星盾”又被限速，泽连斯基痛批SpaceX",
+            summary: " 乌克兰总统泽连斯基周六加大了对SpaceX的批评，称该公司对其军用级“星盾”（Starshield）卫星终端实施的速度限制，会带来危险的政治后果，并削弱了乌克兰关键的防空能力。",
+            source: "环球市场播报",
+            date: "2026-11-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytnhu7057329.shtml"
+        },
+        {
+            title: "Meta被意大利数据保护机构罚款8.07亿欧元",
+            summary: "意大利数据保护机构周六表示，已对美国科技巨头Meta Platforms处以 8.05 亿欧元（约合 8.87 亿美元）罚款，原因是调查发现该公司在未经用户同意且未告知用户的情况下...",
+            source: "环球市场播报",
+            date: "2026-11-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytfyx2738454.shtml"
+        },
+        {
+            title: "英国央行委员格林：现在就通胀采取主动行动，才能将决策失误的负面影响降至最低",
+            summary: " 英国央行委员梅根·格林（Megan Greene）周六表示，与其采取过于谨慎的态度并冒着引发严重“第二轮效应”的风险，不如现在就主动出击，以有效控制通胀。",
+            source: "环球市场播报",
+            date: "2026-11-14",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytfyz3959762.shtml"
+        },
+        {
+            title: "意大利表示支持德国加入下一代战斗机项目",
+            summary: " 意大利周六表示，完全支持德国参与旨在研发下一代战斗机的“全球空战计划”（Global Combat Air Programme，简称GCAP），并驳斥了有关意大利曾试图阻止德国加入的媒体报道。",
+            source: "环球市场播报",
+            date: "2026-11-14",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytfyv0380109.shtml"
+        },
+        {
+            title: "英国央行首席经济学家：明年或需进一步加息，伊朗冲突结束可能性极低",
+            summary: " 英国央行首席经济学家皮尔（Huw Pill）在周六刊出的采访中表示，为抑制通胀，英国央行除了12月下次会议加息之外，2027年可能需要进一步加息。",
+            source: "环球市场播报",
+            date: "2026-11-14",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytfyx2726460.shtml"
+        },
         {
             title: "印尼总统下令提高国家在矿业收益中的分成比例",
             summary: " 印尼总统普拉博沃·苏比延多周六表示，国家应从各类采矿许可中获取更大份额的收益；如有必要，还应在矿业资产中持有控股权。",
@@ -677,62 +733,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             date: "2026-11-14",
             tag: "A股",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytfyz3927495.shtml"
-        },
-        {
-            title: "特朗普据悉考虑暂缓对伊朗军事打击",
-            summary: " 据知情人士透露，美国总统唐纳德·特朗普近日向高级顾问表示，如果美国未受到来自伊朗或也门胡塞武装的任何新挑衅，他可能会暂缓对伊朗采取军事打击。",
-            source: "环球市场播报",
-            date: "2026-11-14",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytfyw7122179.shtml"
-        },
-        {
-            title: "泽连斯基称美国提出以让乌克兰加入北约来换取其放弃顿巴斯地区",
-            summary: " 乌克兰总统泽连斯基表示，美国特使曾询问乌克兰是否愿意将东部的顿巴斯地区让给俄罗斯，以此换取加入北约的机会；这表明华盛顿的谈判策略可能发生了转变。",
-            source: "环球市场播报",
-            date: "2026-11-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyszsy7219163.shtml"
-        },
-        {
-            title: "币安称计划下周全面恢复提现服务",
-            summary: "币安周六表示，计划在下周末前恢复所有剩余网络和资产的提现功能。此前，这家全球最大的加密货币交易所遭遇了一起网络入侵事件，导致平台上价值63亿美元的资产在上个月被盗...",
-            source: "环球市场播报",
-            date: "2026-11-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysvma7323868.shtml"
-        },
-        {
-            title: "微软称服务已全面恢复 此前故障波及全球",
-            summary: "微软公司表示，其旗舰软件服务已全面恢复。此前发生的故障导致全球多地政府部门、交易员和企业的工作陷入停顿。 微软网站上的服务运行状况更新显示：“所有产品均已正常运行...",
-            source: "环球市场播报",
-            date: "2026-11-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysvma7318329.shtml"
-        },
-        {
-            title: "黄仁勋时代落幕 英伟达面临三重考验",
-            summary: "英伟达（NVDA.US）的黄仁勋时代正式落幕。 当地时间11月12日，黄仁勋宣布辞去公司总裁、CEO及董事职务。现任CFO Colette Kress暂代CEO...",
-            source: "市场资讯",
-            date: "2026-11-14",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-11-14/doc-iniysvmc2897712.shtml"
-        },
-        {
-            title: "黄仁勋辞职后：亲友齐聚旧金山豪宅 点炸鸡外卖",
-            summary: " 深陷风波的科技巨头黄仁勋被曝光存在多段婚外情、戏剧性宣布辞职后，数小时内，他的亲友陆续聚集在其价值3800万美元的旧金山豪宅内。",
-            source: "环球市场播报",
-            date: "2026-11-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysvmc2868383.shtml"
-        },
-        {
-            title: "马斯克称Cybercab每月299美元自动驾驶订阅费太高",
-            summary: "特斯拉宣布开始向部分个人用户开放 Cybercab 购买渠道，起售价为 29990 美元，首批车辆预计将于 2026 年 12 月交付。不过，目前特斯拉 Cybercab...",
-            source: "环球市场播报",
-            date: "2026-11-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysvma7285464.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-11-14",
         marketAssessment: "A股方面：上证指数报3634.35点（-0.59%），深证成指报10968.79点（-2.05%），创业板指报2426.08点（-3.32%）。美股方面：标普500报7,561.67（+2.51%），纳斯达克报25,136.27（+2.27%）。",
         hotSectors: [

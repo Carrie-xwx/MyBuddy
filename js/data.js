@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3634.35", change: "-0.59%", market: "A股", updateTime: "2026-11-15 实时" },
         { name: "深证成指", code: "SZ399001", value: "10968.79", change: "-2.05%", market: "A股", updateTime: "2026-11-15 实时" },
         { name: "创业板指", code: "SZ399006", value: "2426.08", change: "-3.32%", market: "A股", updateTime: "2026-11-15 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "系统故障酿全美航班停飞 交通部长达菲将矛头指向承包商L3Harris",
-            summary: "美国交通部长肖恩·达菲周六表示，官员们正在调查航空航天和国防承包商L3Harris Technologies Inc．是否是空中交通管制系统瘫痪的罪魁祸首。",
+            title: "“黄仁勋将重磅回归硅谷” 业内高管称多家公司伸出橄榄枝",
+            summary: "黄仁勋从英伟达辞职的次日，硅谷已经在期待他的回归。 黄仁勋是唐纳德·特朗普的亲密盟友，经常接到总统的电话，甚至是公开通话，他也因此成为总部大多位于加州的科技行业在...",
             source: "环球市场播报",
             date: "2026-11-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniytwwq6847969.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuyka6448550.shtml"
         },
         {
-            title: "特斯拉开始邀请部分个人用户订购无人驾驶汽车Cybercab",
-            summary: "特斯拉公司开始邀请部分客户订购Cybercab，这款双座车型没有方向盘和脚踏板。 特斯拉人工智能负责人Ashok Elluswamy表示，Cybercab将在与特斯拉Robotaxi车队相同的所有地点...",
+            title: "韩国央行逢低买金 第三季度黄金ETF持仓增40%",
+            summary: "韩国央行在时隔13年、于二季度重新布局黄金投资后，三季度将一只黄金交易所交易基金（ETF）的持仓增持超40%。该行趁金价走低买入黄金...",
             source: "环球市场播报",
             date: "2026-11-15",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/7x24/2026-11-15/doc-iniytsqr0181590.shtml"
-        },
-        {
-            title: "索菲亚发布设计趋势洞察 推进全案定制战略落地",
-            summary: "11月14日晚间消息，11月11日，第二届索菲亚5A好设计大赛全国总决赛暨趋势洞察发布会于广州举行。据介绍，本届赛事于4月在法国巴黎正式启幕...",
-            source: "新浪科技",
-            date: "2026-11-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/chanjing/gsnews/2026-11-14/doc-iniytsqs6949054.shtml"
-        },
-        {
-            title: "伊朗驳斥美方制裁威胁，邻国贸易稳步增长",
-            summary: "伊朗经济部长马达尼扎德驳斥了华盛顿进一步实施经济制裁的威胁，称尽管面临美国压力，伊朗与邻国的贸易仍在扩大。马达尼扎德周六回应美国财长贝森特近期的言论时表示...",
-            source: "环球市场播报",
-            date: "2026-11-14",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/7x24/2026-11-14/doc-iniytsqr0172002.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuyka6430476.shtml"
         },
         {
-            title: "Meta在意大利被罚款8.05亿欧元 涉未经明确同意访问用户相册",
-            summary: " 意大利数据保护局对Meta Platforms处以8.05亿欧元（8.87亿美元）罚款，原因是该公司未经Android用户明确同意，访问了其手机相册中的照片和视频。",
+            title: "招商证券：AI投资预期不断调整 市场在担忧什么？",
+            summary: "招商证券发布研报称，资本开支预期持续上修，但实际交付节奏仍存不确定性。主要科技企业不断提高未来投资计划，但部分企业三季报实际资本开支低于预期...",
+            source: "智通财经APP",
+            date: "2026-11-15",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-11-15/doc-iniyuykf3216101.shtml"
+        },
+        {
+            title: "伊朗革命卫队：出动六架无人机袭击了巴林美军基地一防空雷达",
+            summary: "伊朗革命卫队在一份声明中称，其出动六架无人机，袭击了巴林里法直升机基地内的一处美国防空雷达，将此次袭击描述为针对美国军事行动的第二轮报复。",
             source: "环球市场播报",
-            date: "2026-11-14",
+            date: "2026-11-15",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuykf3208928.shtml"
+        },
+        {
+            title: "韩国10月ICT产业出口额达703.5亿美元 芯片出口同比大增259.4%",
+            summary: " 上月，韩国信息通信技术（ICT）产业出口额达703.5亿美元，连续第二个月突破700亿美元关口。同比增速为202.0%，首次超过200%。",
+            source: "环球市场播报",
+            date: "2026-11-15",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuuae6531237.shtml"
+        },
+        {
+            title: "巴拿马航空客机与UPS货机在迈阿密机场滑行时相撞",
+            summary: "根据空中交通管制员的通话记录，一架巴拿马航空客机与一架UPS货机在迈阿密国际机场滑行时发生碰撞。 ATC.com公布的空管员与飞行员通话录音显示...",
+            source: "环球市场播报",
+            date: "2026-11-15",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytnhx3878199.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuuaa9745755.shtml"
         },
         {
-            title: "美联储柯林斯：稳步、渐进加息是适宜之举",
-            summary: " 波士顿联储行长苏珊·柯林斯表示，随着劳动力市场站稳脚跟而没有加剧价格压力，循序渐进的加息路径对于降低通胀来说将是适宜的。",
+            title: "全球资金大轮动 AI热潮退却推动印度股市强势回归",
+            summary: " 今年前九个月，人工智能热潮吸走全球投资者资金，令印度股市遭受重创。如今，随着这一交易策略开始逆转，印度股票已一跃成为全球表现最出色的资产之一。",
             source: "环球市场播报",
-            date: "2026-11-14",
+            date: "2026-11-15",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuuae6514778.shtml"
+        },
+        {
+            title: "纳斯达克23小时交易临近 韩资美股投资或将扩容",
+            summary: "距离美国纳斯达克实施“23小时交易”仅剩三周，这项新规对韩国股市带来的影响也备受关注。 美国各大主要交易所正全力投入吸引包括亚洲投资者在内的全球资金的竞争...",
+            source: "环球市场播报",
+            date: "2026-11-15",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytnhx3878101.shtml"
-        },
-        {
-            title: "美国航班大乱持续 数千架次取消或延误",
-            summary: "美国航空出行周六仍在艰难恢复。此前发生的系统故障导致美国经历自2001年9月恐怖袭击以来持续时间最长的全国性航班停飞，数千架次航班被取消...",
-            source: "环球市场播报",
-            date: "2026-11-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniytnht0289195.shtml"
-        },
-        {
-            title: "美国空管系统故障致4小时停飞，交通部长申请500亿升级资金",
-            summary: "美国交通部长达菲呼吁国会批准500亿美元紧急资金，用于对该国老化的空中交通管制系统进行现代化改造。 此前，一场持续四小时的地面停飞导致数千架次航班受影响。",
-            source: "环球市场播报",
-            date: "2026-11-14",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/7x24/2026-11-14/doc-iniytnhu7064817.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyuuaf2063749.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-11-15",
         marketAssessment: "A股方面：上证指数报3634.35点（-0.59%），深证成指报10968.79点（-2.05%），创业板指报2426.08点（-3.32%）。美股方面：标普500报7,561.67（+2.51%），纳斯达克报25,136.27（+2.27%）。",
         hotSectors: [

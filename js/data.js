@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3634.35", change: "-0.59%", market: "A股", updateTime: "2026-11-15 实时" },
         { name: "深证成指", code: "SZ399001", value: "10968.79", change: "-2.05%", market: "A股", updateTime: "2026-11-15 实时" },
         { name: "创业板指", code: "SZ399006", value: "2426.08", change: "-3.32%", market: "A股", updateTime: "2026-11-15 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "已报案！又有A股公司公章被冒用",
-            summary: "涞源：资本秘闻 ST恒信称公司已作废公章被冒用。 近日，ST恒信披露公告称，公司编号为1301000919690的公章已于2026年7月31日依法声明作废...",
-            source: "市场资讯",
-            date: "2026-11-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-15/doc-iniyvkxw6320193.shtml"
-        },
-        {
-            title: "斩获三连板！刚刚，提示风险！",
-            summary: "来源：资本秘闻 在二级市场接连斩获三个涨停板后，11月15日晚间，金辰股份发布股票交易风险提示公告。 金辰股份表示，公司股价涨幅显著偏离大盘指数涨幅...",
-            source: "市场资讯",
-            date: "2026-11-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-15/doc-iniyvkxu9526994.shtml"
-        },
-        {
-            title: "002174：控股子公司签超14亿元闪存颗粒采购订单",
-            summary: "11月15日晚间，游族网络（002174）披露签署日常经营重大合同的公告显示，该公司控股子公司收到闪存颗粒采购订单。 2026年3月15日...",
-            source: "",
-            date: "2026-11-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/zqgd/2026-11-15/doc-iniyvkxu9524898.shtml"
-        },
-        {
-            title: "300394，已回购50万股，将全部注销",
-            summary: "天孚通信已累计回购50万股，成交总金额6550万元（不含交易费用）。 天孚通信（300394）此前审议通过了《关于回购公司股份的议案》...",
-            source: "证券时报",
-            date: "2026-11-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-15/doc-iniyvery6400041.shtml"
-        },
-        {
-            title: "刚刚，A股公司实控人被刑拘！",
-            summary: "来源：资本秘闻 南卫股份实控人被刑拘。 11月15日晚间，南卫股份披露公告称，当日收到公司实际控制人李平家属通知，李平因2023年在公开市场的减持被公安以涉嫌内幕交易罪...",
-            source: "市场资讯",
-            date: "2026-11-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-15/doc-iniyvesc3173401.shtml"
-        },
-        {
-            title: "第三季度净利骤降52%，胜宏科技的生意“变”了吗？",
-            summary: "来源：尺度商业 文 | 杨万里 编辑 | 刘振涛 2025年5月和2026年1月，黄仁勋设宴款待英伟达AI供应链伙伴，在合影的众多产业大佬中，胜宏科技董事长陈涛两度出现...",
-            source: "市场资讯",
-            date: "2026-11-15",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-15/doc-iniyvesc3170879.shtml"
-        },
-        {
-            title: "英伟达CEO继承难题",
-            summary: " 多年来，黄仁勋一直开玩笑说，作为英伟达的联合创始人兼首席执行官，他执掌这家公司已逾三十年，想要取代他几乎是不可能的。",
+            title: "贝森特：预计下月通胀显著回落，呼吁美联储着眼未来",
+            summary: "美国财政部长贝森特就当前经济形势发表系列表态。在通胀方面，他指出核心通胀保持温和，已接近美联储目标，并预计下个月通货膨胀率将大幅下降。",
             source: "环球市场播报",
             date: "2026-11-15",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvery6380208.shtml"
+            url: "https://finance.sina.com.cn/7x24/2026-11-15/doc-iniyvvpt1689841.shtml"
         },
         {
-            title: "伊朗称当前局势下无法推进与国际原子能机构合作",
-            summary: " 伊朗外交部发言人巴加埃在电视直播的记者会上表示，“只要当前局势持续，我们就不能指望伊朗与国际原子能机构的合作就取得任何进展。”",
+            title: "美财长施压英伟达：要求外部换帅，限期10天回应合规问题",
+            summary: " 针对英伟达近期的出口限制争议，美国财政部长贝森特发表系列强硬表态，要求英伟达必须从外部寻找新领导人，并对公司现有领导层进行“大幅调整”。",
+            source: "环球市场播报",
+            date: "2026-11-15",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/7x24/2026-11-15/doc-iniyvvpv2911966.shtml"
+        },
+        {
+            title: "美国二叠纪盆地地区石油产量稳健增长再次超出预期",
+            summary: "这一年原本被普遍预期为美国最高产油田产量终于停止增长的一年。然而，伊朗战争爆发了。 随着美国对伊朗发动袭击导致美国原油价格飙升至每桶115美元以上...",
+            source: "环球市场播报",
+            date: "2026-11-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvvpt1673394.shtml"
+        },
+        {
+            title: "伊朗数周来首次直接袭击巴林 同时重申与美国结束冲突仍有可能",
+            summary: " 伊朗袭击了巴林的一处空军基地，这是数周来伊朗首次直接袭击这个海湾国家。与此同时，伊朗重申，结束与美国冲突的途径仍然存在。",
             source: "环球市场播报",
             date: "2026-11-15",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyverw9592601.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvrfx3012576.shtml"
+        },
+        {
+            title: "闻泰科技：将提起上诉",
+            summary: "闻泰科技（证券简称：*ST闻泰，证券代码：600745）与境外子公司NexperiaHolding B.V．（安世半导体控股有限公司）和 Nexperia B.V．（安世半导体有限公司）（下合称“安世境...",
+            source: "",
+            date: "2026-11-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-11-15/doc-iniyvrfv1784336.shtml"
+        },
+        {
+            title: "美国电动车企首席执行官：不指望民主党支持我们",
+            summary: " 几家美国电动车制造商的负责人表示，即便民主党在一月份掌控国会，他们也不指望企业能获得更强的联邦支持，但如果真有这样的支持，他们自然乐意接受。",
+            source: "环球市场播报",
+            date: "2026-11-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvrfv1776381.shtml"
+        },
+        {
+            title: "内幕交易栽跟头！南卫股份实控人被刑拘",
+            summary: "来源：资本秘闻 11月15日晚间，南卫股份实控人突发利空。 南卫股份披露公告称，当日收到公司实际控制人李平家属通知，李平因2023年在公开市场的减持被公安以涉嫌内幕交易罪...",
+            source: "市场资讯",
+            date: "2026-11-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-11-15/doc-iniyvrfx3005741.shtml"
+        },
+        {
+            title: "A股又一例重组，暂缓审议！",
+            summary: "来源：资本秘闻 近日，海南矿业披露公告称，公司重组事项遭暂缓审议。 海南矿业表示，公司收到上交所并购重组审核委员会（以下简称“上交所重组委”）出具的审议会议结果公告...",
+            source: "市场资讯",
+            date: "2026-11-15",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-11-15/doc-iniyvrfx3005468.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
         date: "2026-11-15",
         marketAssessment: "A股方面：上证指数报3634.35点（-0.59%），深证成指报10968.79点（-2.05%），创业板指报2426.08点（-3.32%）。美股方面：标普500报7,561.67（+2.51%），纳斯达克报25,136.27（+2.27%）。",
         hotSectors: [

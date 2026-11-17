@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3584.58", change: "-0.50%", market: "A股", updateTime: "2026-11-18 实时" },
         { name: "深证成指", code: "SZ399001", value: "10638.52", change: "-0.49%", market: "A股", updateTime: "2026-11-18 实时" },
         { name: "创业板指", code: "SZ399006", value: "2292.20", change: "-1.20%", market: "A股", updateTime: "2026-11-18 实时" },
         { name: "沪深300", code: "SH000300", value: "3976.46", change: "-0.08%", market: "A股", updateTime: "2026-11-18 实时" },
         { name: "科创50", code: "SH000688", value: "1221.19", change: "+0.62%", market: "A股", updateTime: "2026-11-18 实时" },
-        { name: "标普500", code: "SPX", value: "7,337.85", change: "-2.43%", market: "美股", updateTime: "2026-11-18 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "24,257.41", change: "-3.23%", market: "美股", updateTime: "2026-11-18 收盘" },
-        { name: "道琼斯", code: "DJI", value: "50,882.52", change: "-2.58%", market: "美股", updateTime: "2026-11-18 收盘" },
+        { name: "标普500", code: "SPX", value: "7,340.53", change: "-2.40%", market: "美股", updateTime: "2026-11-18 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "24,328.38", change: "-2.94%", market: "美股", updateTime: "2026-11-18 收盘" },
+        { name: "道琼斯", code: "DJI", value: "50,759.42", change: "-2.82%", market: "美股", updateTime: "2026-11-18 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "Anthropic上市后 亚马逊和谷歌将合计持股约28%",
-            summary: "Anthropic PBC的两大客户在其上市后将合计持有公司逾28%的股份，进一步凸显推动人工智能热潮的企业之间关系密切。 根据周二向美国证券交易委员会（SEC）提交的文件...",
-            source: "环球市场播报",
-            date: "2026-11-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizapzv7358468.shtml"
-        },
-        {
-            title: "大型炸鸡连锁加盟商申请第11章破产保护",
-            summary: " 市场数据机构 Circana 的数据显示，尽管 2025 年炸鸡类餐厅到店客流增长 3%，但部分大型加盟商依旧深陷困境，面临销售额下滑、成本上涨的压力。",
-            source: "环球市场播报",
-            date: "2026-11-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizapzr1473254.shtml"
-        },
-        {
-            title: "英伟达前首席执行官黄仁勋发布辞职后首份声明，称愿意回归公司",
-            summary: "核心要点上周辞去英伟达首席执行官后，黄仁勋发表首次公开声明，语气充满悔意，表示将全力配合董事会的调查。黄仁勋书面声明中写道：“我给董事会造成麻烦，对此深感懊悔。",
+            title: "浑水在英伟达公布业绩前夕宣布做空其股票",
+            summary: "浑水公司在X上发帖说自己做空英伟达。 英伟达将于周二收盘后公布财报。",
             source: "环球市场播报",
             date: "2026-11-18",
             tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizapzv1967204.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizauit7275971.shtml"
         },
         {
-            title: "克利夫兰联储行长提议制定美国国债市场干预原则",
-            summary: "克利夫兰联储行长贝丝·哈马克表示，决策者应制定有关何时以及如何干预美国国债市场的原则，并传达清晰的退出策略。 哈马克表示，美联储应趁市场平静时制定这些指导原则。",
+            title: "美国国家安全局称维护期间出现“暂时性能下降”",
+            summary: "美国国家安全局（NSA）发布新闻稿称，在按计划进行的例行维护期间出现“暂时性能下降”。 NSA称：“尽管部分内部系统受到影响，但使命所需关键能力仍全面运作...",
             source: "环球市场播报",
             date: "2026-11-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizapzr1470350.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizauit1887562.shtml"
         },
         {
-            title: "伊朗称美国袭击了格什姆岛多个地点 美伊双方持续互袭",
-            summary: "据伊朗半官方迈赫尔通讯社报道，美国袭击了波斯湾格什姆岛的多个地点，美伊双方在持续的战争中对彼此发动打击。 迈赫尔通讯社周二援引霍尔木兹甘省主管政治...",
+            title: "伊朗“认真寻求”通过外交途径打破僵局",
+            summary: "伊朗总统佩泽希齐扬表示，伊朗正“认真寻求通过有尊严的外交途径，摆脱‘非战非和’的局面”。 此前，伊朗称美国袭击了格什姆岛多个地点，美伊双方持续互袭。",
             source: "环球市场播报",
             date: "2026-11-18",
             tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizapzv7348894.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizauit1866367.shtml"
         },
         {
-            title: "美国10年期国债收益率今年以来维持在5%以上的天数逼近2007年的纪录",
-            summary: " 随着投资者押注美联储将在通胀持续高企之际进一步加息，美国10年期国债收益率位于5%以上的时间正在接近近20年以来的最长。",
+            title: "摩根大通任命Bregje de Best为新任首席财务官",
+            summary: "摩根大通任命Bregje de Best为新任首席财务官，接替Jeremy Barnum。 摩根大通周二在声明中表示，43岁的De Best将在该行公布第一季度业绩后就任。",
             source: "环球市场播报",
             date: "2026-11-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizapzt5184872.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizauit7253199.shtml"
         },
         {
-            title: "美国参议员沃伦：应禁止总统持有和交易个股",
-            summary: "“我们需要禁止总统、副总统以及每一位国会议员持有和交易个股，”美国参议员伊丽莎白·沃伦发帖表示。 “如果总统不愿剥离这些资产，国会就应该迫使他这么做，”她补充道。",
+            title: "美国全国停飞事件后 FAA暂停安装新路由器",
+            summary: " 美国联邦航空管理局（FAA）周二表示，将暂停安装新路由器，此前该技术问题导致该机构周五发布了罕见的全国地面停飞令。",
             source: "环球市场播报",
             date: "2026-11-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizaitv5312215.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizauip1369274.shtml"
         },
         {
-            title: "美国国家安全局机密内部通信网络中断",
-            summary: "CNN援引六名知情人士报道称，美国国家安全局用于内部通信的高度机密网络中断。 报道称，目前没有证据表明发生了网络攻击。 该机构正在排查问题影响范围...",
+            title: "欧洲债市：德国国债随美国国债上涨 科技股遭抛售推升避险需求",
+            summary: " 欧洲债券上涨，追随美国国债涨势，科技股再度遭到抛售，推升了对较安全资产的需求。CNN报道称，美国国家安全局高度机密的通信网络发生中断，进一步提振尾盘避险需求。",
             source: "环球市场播报",
             date: "2026-11-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizaitx7476095.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizauir5088339.shtml"
+        },
+        {
+            title: "城堡证券任命前优步高管Danny Guo为首席技术官",
+            summary: "随着做市商大举投资于支撑公司运营所需的基础设施，城堡证券任命Danny Guo为首席技术官。 根据Guo的领英个人资料，他在优步科技工作近12年，离任前担任工程与科学副总裁...",
+            source: "环球市场播报",
+            date: "2026-11-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizauir5082881.shtml"
+        },
+        {
+            title: "欧洲股市延续跌势 科技股领跌 德意志银行重挫",
+            summary: "欧洲股市周二延续跌势，科技股构成拖累，英伟达即将公布业绩。 斯托克欧洲600指数下跌1.8%，创3月份以来最大跌幅，围绕人工智能交易的担忧持续，92%的成分股收跌。",
+            source: "环球市场播报",
+            date: "2026-11-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizauit7246170.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-11-18",
-        marketAssessment: "A股方面：上证指数报3584.58点（-0.50%），深证成指报10638.52点（-0.49%），创业板指报2292.20点（-1.20%）。美股方面：标普500报7,337.85（-2.43%），纳斯达克报24,257.41（-3.23%）。",
+        marketAssessment: "A股方面：上证指数报3584.58点（-0.50%），深证成指报10638.52点（-0.49%），创业板指报2292.20点（-1.20%）。美股方面：标普500报7,340.53（-2.40%），纳斯达克报24,328.38（-2.94%）。",
         hotSectors: [
             { name: "集成电路制造", reason: "板块涨幅+5.82%", strength: "强" },
             { name: "橡胶助剂", reason: "板块涨幅+3.32%", strength: "强" },

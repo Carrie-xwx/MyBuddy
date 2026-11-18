@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3587.83", change: "+0.09%", market: "A股", updateTime: "2026-11-18 实时" },
         { name: "深证成指", code: "SZ399001", value: "10659.41", change: "+0.20%", market: "A股", updateTime: "2026-11-18 实时" },
         { name: "创业板指", code: "SZ399006", value: "2311.62", change: "+0.85%", market: "A股", updateTime: "2026-11-18 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "比特币徘徊在6.5万美元附近",
-            summary: " 周三早间，比特币价格在6.5万美元附近徘徊，过去24小时小幅下跌。市场正等待美联储于当天晚些时候公布上次货币政策会议的纪要。",
+            title: "乌克兰称允许私营国防企业购买和操作防空系统的计划已取得成效",
+            summary: " 乌克兰已允许部分私营国防企业自行购买和部署防空装备，以保护自身安全。乌方表示，参与该计划的企业迄今已拦截近90个空中威胁目标。",
             source: "环球市场播报",
             date: "2026-11-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvvf6975434.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensx1472351.shtml"
         },
         {
-            title: "谷歌发现可自主运行的俄语注释AI黑客工具",
-            summary: " 谷歌周一表示，该公司发现一款能够在无人类协助的情况下自主识别并利用软件漏洞的黑客工具，凸显了人工智能（AI）智能体带来的风险。",
+            title: "美联储理事沃勒放鹰：12月应考虑加息50个基点",
+            summary: "美联储理事克里斯托弗·沃勒周三表示，通胀仍在朝错误的方向发展，并敦促美联储考虑在12月会议上加息50个基点。 沃勒周三接受时表示：“我们必须在加息方面稍微更激进一些...",
             source: "环球市场播报",
             date: "2026-11-18",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvvc4868053.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensx1471711.shtml"
         },
         {
-            title: "法巴银行旗下BNL调整业务战略，目标2030年税前权益回报率超过20%",
-            summary: "11月18日，法国巴黎银行宣布，旗下意大利银行BNL将调整业务战略，把经营重心从大众零售银行业务转向财富管理、私人银行及企业银行业务，同时加强成本控制、优化资本配置...",
-            source: "环球市场播报",
-            date: "2026-11-18",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvuz1090512.shtml"
-        },
-        {
-            title: "印尼央行意外加息25个基点以支撑印尼盾",
-            summary: "随着印尼盾兑美元持续走弱，印尼央行出人意料地重启加息，以吸引资金流入并支撑本币，货币政策立场转向收紧。 印尼央行周三将基准利率上调25个基点至6%...",
-            source: "环球市场播报",
-            date: "2026-11-18",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvuz1086516.shtml"
-        },
-        {
-            title: "鲁比奥：纯属巧合，美国并未遭受“系统性攻击”。",
-            summary: "美国国务卿马可·鲁比奥（Marco Rubio）周三上午在马尼拉接受采访时表示，美国政府没有任何证据表明近期发生的一系列技术服务中断事件彼此相关。",
+            title: "《GTA6》发售前夕，Take-Two股价上涨近7%",
+            summary: " 备受期待的《侠盗猎车手 6（GTA VI）》即将上线，Take-Two Interactive 股价大涨近 7%。这款游戏将于周四正式开放游玩。",
             source: "环球市场播报",
             date: "2026-11-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvuz1086093.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensv4692188.shtml"
         },
         {
-            title: "英国10月通胀率升至3.6%，柴油价格创历史新高",
-            summary: "11月18日，英国官方公布的数据显示，10月消费者价格指数（CPI）同比上涨3.6%，高于9月的3.5%，符合市场预期； 环比上涨0.5%。 燃油价格上涨是推动本月通胀加速的主要因素...",
-            source: "环球市场播报",
-            date: "2026-11-18",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvvf6966210.shtml"
-        },
-        {
-            title: "特朗普撤回FDA局长提名，考虑提名参议员马歇尔",
-            summary: "据美国政府高级官员透露，白宫已撤回海蒂·奥弗顿（Heidi Overton）担任美国食品药品监督管理局（FDA）局长的提名。 特朗普于今年8月提名奥弗顿出任FDA局长。",
+            title: "墨西哥总统辛鲍姆称与特朗普会晤“非常富有成效”",
+            summary: "墨西哥总统克劳迪娅·辛鲍姆在X平台发文称，她与美国总统唐纳德·特朗普及其团队举行了一场“非常富有成效”的会晤。 辛鲍姆表示：“我们继续在共同议程上取得进展。”",
             source: "环球市场播报",
             date: "2026-11-18",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvvf6965508.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizenst0892101.shtml"
         },
         {
-            title: "英国10月通胀率升至3.6% 符合预期",
-            summary: "英国国家统计局周三发布的报告显示，10月消费者价格指数（CPI）同比上涨3.6%，符合预期。 核心消费者价格指数同比上涨2.8%，符合预期",
+            title: "劳氏公布财报后股价下跌4.3%",
+            summary: "劳氏（LOW）周三盘前交易时段跌4.3%，此前该公司发布了第三季度财报。 公司本季度调整后每股收益为 3.10 美元，但其中包含 0.34 美元的关税退款收益。",
             source: "环球市场播报",
             date: "2026-11-18",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizcvvf1629390.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensx6774903.shtml"
+        },
+        {
+            title: "SpaceX 400亿美元GPU融资安排表外操作 最快本周向投资者发售",
+            summary: " 据知情人士透露，阿波罗资管正在为SpaceX安排一笔规模高达400亿美元的融资，这笔融资最快本周推向市场，但不会计入SpaceX自身资产负债表。",
+            source: "环球市场播报",
+            date: "2026-11-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensv4690189.shtml"
+        },
+        {
+            title: "金价跌至年内低点，矿业股应声大跌",
+            summary: "周三现货黄金价格跌幅超 2%，创下一年以来最低水平。黄金矿业板块个股随贵金属价格同步走弱。 纽蒙特（NEM）股价下跌 3%，自由港麦克莫兰（FCX）下跌 2.5%。",
+            source: "环球市场播报",
+            date: "2026-11-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-18/doc-inizensx6773373.shtml"
+        },
+        {
+            title: "“牵手”欧莱雅不到10天，惠城环保身家61亿创始人突遭留置",
+            summary: "来源：雷达Finance 雷达财经出品 文|周慧 编|孟帅 正值新技术步入规模化产业落地的关键时期，惠城环保身家61亿的创始人突遭留置。",
+            source: "市场资讯",
+            date: "2026-11-18",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-11-18/doc-inizensx6769554.shtml"
         },
     ],
 
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-11-18",
         marketAssessment: "A股方面：上证指数报3587.83点（+0.09%），深证成指报10659.41点（+0.20%），创业板指报2311.62点（+0.85%）。美股方面：标普500报7,340.53（-2.40%），纳斯达克报24,328.38（-2.94%）。",
         hotSectors: [
-            { name: "通信工程及服务", reason: "板块涨幅+4.52%", strength: "强" },
-            { name: "通信服务", reason: "板块涨幅+3.50%", strength: "强" },
-            { name: "印制电路板", reason: "板块涨幅+3.13%", strength: "强" },
-            { name: "冰洗", reason: "板块涨幅+2.81%", strength: "中强" },
+
         ],
         weakSectors: [
-            { name: "院线", reason: "板块跌幅-5.84%", strength: "弱" },
-            { name: "医美耗材", reason: "板块跌幅-5.05%", strength: "弱" },
+
         ],
         longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
-        shortTermStrategy: "超短线关注通信工程及服务、通信服务、印制电路板等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线关注今日热门板块的持续性和扩散方向，顺势而为，注意控制仓位和止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3533.79", change: "-1.23%", market: "A股", updateTime: "2026-11-20 实时" },
         { name: "深证成指", code: "SZ399001", value: "10256.39", change: "-3.09%", market: "A股", updateTime: "2026-11-20 实时" },
         { name: "创业板指", code: "SZ399006", value: "2212.13", change: "-3.54%", market: "A股", updateTime: "2026-11-20 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "日本10月CPI创11个月新高，凯投宏观预计日本央行明年年中将利率上调至2.5%",
-            summary: "11月20日，日本总务省公布的数据显示，受生鲜食品价格大幅上涨及能源价格回升推动，日本10月消费者物价指数（CPI）同比涨幅由9月的2.1%升至2.3%...",
+            title: "Anthropic上市，美国经济命运与AI进一步深度绑定",
+            summary: "这一天终于到来。Anthropic 股票于周四正式挂牌交易，开盘价 111.50 美元，大幅高于 83 美元的 IPO 发行价，盘中市值一度达到 2 万亿美元，收盘回落至 1.2 万亿美元...",
             source: "环球市场播报",
             date: "2026-11-20",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizh3995544.shtml"
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkyxc0201943.shtml"
         },
         {
-            title: "特朗普将举办晚宴，招待特朗普币持有者",
-            summary: "美国总统唐纳德·特朗普将于本周末举办一场晚宴，允许其个人迷因币的最大持有者与总统接触。与此同时，民主党誓言调查特朗普政府涉嫌存在的“大规模腐败”问题...",
-            source: "环球市场播报",
-            date: "2026-11-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizc5591408.shtml"
-        },
-        {
-            title: "刚刚，集体大跌！抛售为哪般？",
-            summary: "期货日报 今日，国内期货市场开盘后，贵金属、有色金属板块突然跳水，一路走低，市场抛压明显。截至目前，沪银、钯期价跌超7%，其中...",
+            title: "摩尔线程实控人提议5亿—10亿元回购股份！",
+            summary: "来源：资本秘闻 11月20日晚间，摩尔线程（688795）披露公告称，公司实际控制人、董事长、总经理张建中提议公司使用自有资金和/或自筹资金...",
             source: "市场资讯",
             date: "2026-11-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-11-20/doc-inizkize7213180.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-11-20/doc-inizkyww7090003.shtml"
         },
         {
-            title: "外交部回应高市早苗表态台湾问题：日方必须履行恪守中日4个政治文件",
-            summary: " #中方回应高市早苗表态台湾问题#【#日方必须履行恪守中日4个政治文件#】11月20日，外交部发言人郭嘉昆主持例行记者会。",
-            source: "北京日报客户端",
-            date: "2026-11-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-11-20/doc-inizkizh3994057.shtml"
-        },
-        {
-            title: "外交部：中方一贯支持国际司法机构为促进国际法治发挥建设性作用",
-            summary: " 11月20日，外交部发言人郭嘉昆主持例行记者会。有记者就中俄美元首和平宣言中有关国家同意原则和如何界定滥用管辖权提问。",
-            source: "央视",
-            date: "2026-11-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-11-20/doc-inizkizh3994961.shtml"
-        },
-        {
-            title: "【市场聚焦】棕榈油：近期预期调整",
-            summary: "中粮期货研究中心 概要 近期市场一直围绕着马来库存边际调整进行交易，包括库存拐点以及产量拐点，并且在盘面大幅走低后，市场在评估当前是否具备交易价值...",
+            title: "终止重组！刚刚，百亿A股公司公告！",
+            summary: "来源：资本秘闻 11月20日晚间，科森科技（603626）披露公告称，公司终止购买惠州展固科技有限公司（以下简称“展固科技”）53.26%股权事项。",
             source: "市场资讯",
             date: "2026-11-20",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-11-20/doc-inizkizc5600285.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-11-20/doc-inizkywy3865222.shtml"
         },
         {
-            title: "外交部回应日方最新表态：在台湾问题上尽快纠正错误言行",
-            summary: " 11月20日，外交部发言人郭嘉昆主持例行记者会。有记者就日本首相高市早苗在APEC上有关台湾问题和日本历史问题上的最新表态提问。",
-            source: "央视",
-            date: "2026-11-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/jjxw/2026-11-20/doc-inizkizm0371273.shtml"
-        },
-        {
-            title: "“木头姐”上市首日斥资7760万美元买入Anthropic，继续减持英伟达",
-            summary: "11月20日，“木头姐”凯茜·伍德（Cathie Wood）旗下ARK公布最新交易记录。11月19日，ARK通过旗下六只ETF合计买入934，968股Anthropic股票，交易金额约7760万美元...",
+            title: "七张图表看懂油价新常态",
+            summary: "多重力量相互博弈，令油价既难以大幅走高，也不会深度下探 内容摘要 石油交易商与分析师预测，在可预见的未来，油价将维持在每桶 85‑95 美元区间。",
             source: "环球市场播报",
             date: "2026-11-20",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkizh3984189.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkyxc0192876.shtml"
+        },
+        {
+            title: "欧洲科技股将创下六年最大单周跌幅",
+            summary: "欧洲科技板块连续第七个交易日收跌，即将迎来2022年1月以来最长连跌行情，跟随美、亚科技股一同走弱。全球AI板块获利回吐行情压制了市场情绪...",
+            source: "环球市场播报",
+            date: "2026-11-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkyww7066173.shtml"
+        },
+        {
+            title: "TPG联合Corpay约60亿美元收购金融平台 Bill",
+            summary: "TPG 将收购 Bill 多数股权，Corpay 购入少数股权金融平台 Bill Holdings 将被收购，交易估值约 60 亿美元。 内容摘要 TPG 与 Corpay 将以约 60...",
+            source: "环球市场播报",
+            date: "2026-11-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkyxc0188110.shtml"
+        },
+        {
+            title: "AI市场抛售潮席卷全球市场，Anthropic股价下跌逾10%",
+            summary: " Anthropic股价下跌之际，承销银行正在行使所谓的超额配售权（Over-allotment Option），也称为“绿鞋机制”（Greenshoe），允许承销银行在股票开始交易后额外出售股份。",
+            source: "环球市场播报",
+            date: "2026-11-20",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkura3965933.shtml"
+        },
+        {
+            title: "300376，向东莞前首富追款1亿元！曾因财务造假，被判向投资者赔偿",
+            summary: "易事特（300376）公开向前实控人追款。 11月20日收盘后，易事特披露公告：截至11月18日，普通代表人诉讼的赔款已由公司先行兑付，但何思模及扬州东方集团有限公司（下称“东...",
+            source: "",
+            date: "2026-11-20",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-11-20/doc-inizkurf0306602.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-11-20",
         marketAssessment: "A股方面：上证指数报3533.79点（-1.23%），深证成指报10256.39点（-3.09%），创业板指报2212.13点（-3.54%）。美股方面：标普500报7,175.83（-5.49%），纳斯达克报23,879.20（-5.86%）。",
         hotSectors: [

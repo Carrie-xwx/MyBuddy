@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3533.79", change: "-1.23%", market: "A股", updateTime: "2026-11-20 实时" },
-        { name: "深证成指", code: "SZ399001", value: "10256.39", change: "-3.09%", market: "A股", updateTime: "2026-11-20 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2212.13", change: "-3.54%", market: "A股", updateTime: "2026-11-20 实时" },
-        { name: "沪深300", code: "SH000300", value: "3954.57", change: "-0.76%", market: "A股", updateTime: "2026-11-20 实时" },
-        { name: "科创50", code: "SH000688", value: "1231.09", change: "-3.12%", market: "A股", updateTime: "2026-11-20 实时" },
-        { name: "标普500", code: "SPX", value: "7,175.83", change: "-5.49%", market: "美股", updateTime: "2026-11-20 收盘" },
-        { name: "纳斯达克", code: "IXIC", value: "23,879.20", change: "-5.86%", market: "美股", updateTime: "2026-11-20 收盘" },
-        { name: "道琼斯", code: "DJI", value: "49,097.06", change: "-6.12%", market: "美股", updateTime: "2026-11-20 收盘" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3533.79", change: "-1.23%", market: "A股", updateTime: "2026-11-21 实时" },
+        { name: "深证成指", code: "SZ399001", value: "10256.39", change: "-3.09%", market: "A股", updateTime: "2026-11-21 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2212.13", change: "-3.54%", market: "A股", updateTime: "2026-11-21 实时" },
+        { name: "沪深300", code: "SH000300", value: "3954.57", change: "-0.76%", market: "A股", updateTime: "2026-11-21 实时" },
+        { name: "科创50", code: "SH000688", value: "1231.09", change: "-3.12%", market: "A股", updateTime: "2026-11-21 实时" },
+        { name: "标普500", code: "SPX", value: "7,039.53", change: "-6.91%", market: "美股", updateTime: "2026-11-21 收盘" },
+        { name: "纳斯达克", code: "IXIC", value: "23,095.00", change: "-8.12%", market: "美股", updateTime: "2026-11-21 收盘" },
+        { name: "道琼斯", code: "DJI", value: "48,876.55", change: "-6.63%", market: "美股", updateTime: "2026-11-21 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
         {
-            title: "Anthropic上市，美国经济命运与AI进一步深度绑定",
-            summary: "这一天终于到来。Anthropic 股票于周四正式挂牌交易，开盘价 111.50 美元，大幅高于 83 美元的 IPO 发行价，盘中市值一度达到 2 万亿美元，收盘回落至 1.2 万亿美元...",
+            title: "威瑞森CEO深知马斯克要来抢占自家业务，他称SpaceX要参与竞争将耗资超3000亿美元",
+            summary: "威瑞森 CEO 丹・舒尔曼表示，公司高度重视 SpaceX 进军电信行业的动向，但并未陷入恐慌。 埃隆・马斯克希望星链（Starlink）成长为美国主流移动运营商。",
             source: "环球市场播报",
-            date: "2026-11-20",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkyxc0201943.shtml"
-        },
-        {
-            title: "摩尔线程实控人提议5亿—10亿元回购股份！",
-            summary: "来源：资本秘闻 11月20日晚间，摩尔线程（688795）披露公告称，公司实际控制人、董事长、总经理张建中提议公司使用自有资金和/或自筹资金...",
-            source: "市场资讯",
-            date: "2026-11-20",
+            date: "2026-11-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-20/doc-inizkyww7090003.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfeu7093765.shtml"
         },
         {
-            title: "终止重组！刚刚，百亿A股公司公告！",
-            summary: "来源：资本秘闻 11月20日晚间，科森科技（603626）披露公告称，公司终止购买惠州展固科技有限公司（以下简称“展固科技”）53.26%股权事项。",
-            source: "市场资讯",
-            date: "2026-11-20",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-20/doc-inizkywy3865222.shtml"
-        },
-        {
-            title: "七张图表看懂油价新常态",
-            summary: "多重力量相互博弈，令油价既难以大幅走高，也不会深度下探 内容摘要 石油交易商与分析师预测，在可预见的未来，油价将维持在每桶 85‑95 美元区间。",
+            title: "市场可能再跌10%–12%—— 当下该买、该卖的标的",
+            summary: "嘉宾：Carter Worth（Worth Charting 创始人兼 CEO），主持人 Caroline Woods Caroline Woods：今天请到 Carter Worth，Worth Charting 的创始人兼 CEO。",
             source: "环球市场播报",
-            date: "2026-11-20",
+            date: "2026-11-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkyxc0192876.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3869173.shtml"
         },
         {
-            title: "欧洲科技股将创下六年最大单周跌幅",
-            summary: "欧洲科技板块连续第七个交易日收跌，即将迎来2022年1月以来最长连跌行情，跟随美、亚科技股一同走弱。全球AI板块获利回吐行情压制了市场情绪...",
+            title: "2026年美国数据中心建设成本飙升13%",
+            summary: "核心要点受人工智能算力需求拉动，今年美国大型数据中心的需求暴涨，远超具备供电条件的土地以及建筑施工劳动力供给。全球项目管理机构特纳‑汤森（Turner &amp;...",
             source: "环球市场播报",
-            date: "2026-11-20",
+            date: "2026-11-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkyww7066173.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfeu7088648.shtml"
         },
         {
-            title: "TPG联合Corpay约60亿美元收购金融平台 Bill",
-            summary: "TPG 将收购 Bill 多数股权，Corpay 购入少数股权金融平台 Bill Holdings 将被收购，交易估值约 60 亿美元。 内容摘要 TPG 与 Corpay 将以约 60...",
+            title: "贝森特称Anthropic一名创始人将向特朗普账户做出大额捐赠",
+            summary: " 美国财政部长斯科特·贝森特表示，Anthropic PBC一名创始人将在未来几周向“特朗普账户”捐款。本周这家人工智能公司首次公开募股使其创始人都成为身家数以十亿美元的富豪。",
             source: "环球市场播报",
-            date: "2026-11-20",
+            date: "2026-11-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkyxc0188110.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfez0192293.shtml"
         },
         {
-            title: "AI市场抛售潮席卷全球市场，Anthropic股价下跌逾10%",
-            summary: " Anthropic股价下跌之际，承销银行正在行使所谓的超额配售权（Over-allotment Option），也称为“绿鞋机制”（Greenshoe），允许承销银行在股票开始交易后额外出售股份。",
+            title: "比特币跌破6万美元 投资者撤离风险资产",
+            summary: "比特币周五跌破6万美元，为7月以来首次。市场担心人工智能交易可能瓦解，促使投资者纷纷撤离风险较高的资产。 比特币一度下跌4.5%至58，732美元，势将连续第七周下跌...",
             source: "环球市场播报",
-            date: "2026-11-20",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkura3965933.shtml"
+            date: "2026-11-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3864157.shtml"
         },
         {
-            title: "300376，向东莞前首富追款1亿元！曾因财务造假，被判向投资者赔偿",
-            summary: "易事特（300376）公开向前实控人追款。 11月20日收盘后，易事特披露公告：截至11月18日，普通代表人诉讼的赔款已由公司先行兑付，但何思模及扬州东方集团有限公司（下称“东...",
-            source: "",
-            date: "2026-11-20",
+            title: "欧洲债市：德国国债上涨 全球科技股抛售提振避险需求",
+            summary: "随着全球股市抛售加剧，投资者对更安全资产的需求上升，欧洲债券上涨，推动债券收益率降至一周来最低水平。 10年期德国国债收益率下跌10个基点，至3.30%...",
+            source: "环球市场播报",
+            date: "2026-11-21",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/zqgd/2026-11-20/doc-inizkurf0306602.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3863809.shtml"
+        },
+        {
+            title: "纳指大跌，年内收益转负，Anthropic带动AI板块集体抛售",
+            summary: " 受科技股拖累，叠加 AI 巨头 Anthropic 前一交易日上市后股价走弱，纳斯达克综合指数周五大幅回撤，年内收益由正转负。",
+            source: "环球市场播报",
+            date: "2026-11-21",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfew3853868.shtml"
+        },
+        {
+            title: "美国国债延续本周大涨之势 投资者撤离股市",
+            summary: "随着市场对人工智能（AI）交易的疑虑加剧、全球股市下挫，美国国债周五进一步走高，延续本周大涨之势。 美债上涨推动各期限收益率走低...",
+            source: "环球市场播报",
+            date: "2026-11-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizmfez0183262.shtml"
         },
     ],
 
@@ -765,9 +765,9 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
-        date: "2026-11-20",
-        marketAssessment: "A股方面：上证指数报3533.79点（-1.23%），深证成指报10256.39点（-3.09%），创业板指报2212.13点（-3.54%）。美股方面：标普500报7,175.83（-5.49%），纳斯达克报23,879.20（-5.86%）。",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+        date: "2026-11-21",
+        marketAssessment: "A股方面：上证指数报3533.79点（-1.23%），深证成指报10256.39点（-3.09%），创业板指报2212.13点（-3.54%）。美股方面：标普500报7,039.53（-6.91%），纳斯达克报23,095.00（-8.12%）。",
         hotSectors: [
             { name: "其他数字媒体", reason: "板块涨幅+15.00%", strength: "强" },
             { name: "视频媒体", reason: "板块涨幅+3.19%", strength: "强" },

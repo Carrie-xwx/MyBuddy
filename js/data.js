@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3533.79", change: "-1.23%", market: "A股", updateTime: "2026-11-21 实时" },
         { name: "深证成指", code: "SZ399001", value: "10256.39", change: "-3.09%", market: "A股", updateTime: "2026-11-21 实时" },
         { name: "创业板指", code: "SZ399006", value: "2212.13", change: "-3.54%", market: "A股", updateTime: "2026-11-21 实时" },
@@ -669,7 +669,31 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
+        {
+            title: "韩国总统李在明称高考作弊等同“腐败犯罪”，重申举报者奖励1亿韩元",
+            summary: " 韩国总统李在明周六重申，政府将向任何举报本周高考作弊行为的人提供1亿韩元（约合7.5万美元）的奖励。他将这种违规行为比作涉及政府官员的“腐败犯罪”，性质同样严重。",
+            source: "环球市场播报",
+            date: "2026-11-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznthh9698783.shtml"
+        },
+        {
+            title: "韩国总统李在明称对AI数据中心的需求可能会进一步增长",
+            summary: " 韩国总统李在明表示，随着技术的进步，对AI数据中心和内存的需求可能会进一步增加，政府正在考虑解决建设这些设施所需人员短缺的问题。",
+            source: "环球市场播报",
+            date: "2026-11-21",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizntha6646756.shtml"
+        },
+        {
+            title: "马斯克称FSD V15下个月将全面推送",
+            summary: "特斯拉CEO埃隆·马斯克在X平台上发帖称，FSD V15版本下个月将全面推送。 他写道：“SFT（有监督微调）与其说是“微调”，倒不如说是“用电锯理发”！",
+            source: "环球市场播报",
+            date: "2026-11-21",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznthh9675725.shtml"
+        },
         {
             title: "Anthropic上市表现遇冷 华尔街AI板块合计蒸发4万亿美元市值",
             summary: " 自2022年末ChatGPT问世、开启这场改变世界的技术与资本市场新周期以来，本周投资者第一次不为所动，没有把本轮抛售看作AI璀璨前路之中一次短暂的颠簸。",
@@ -710,30 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "美股",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznnyc4968963.shtml"
         },
-        {
-            title: "印尼金融服务监管局责令股票操纵案相关方返还240亿印尼盾",
-            summary: " 印尼金融服务监管局要求三起股票操纵案件的相关主体，合计返还237.7亿印尼盾非法所得，监管机构正加大执法力度，维护市场秩序。",
-            source: "环球市场播报",
-            date: "2026-11-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-11-21/doc-iniznnyh3480554.shtml"
-        },
-        {
-            title: "比特币跌破56000美元 风险资产抛售加剧下行压力",
-            summary: "比特币跌至两年多来的最低水平，从特朗普再次当选后备受市场追捧的资产，进一步转变为更广泛投机性押注退潮的受害者。 这种最早的加密货币周五在美国下跌6%...",
-            source: "环球市场播报",
-            date: "2026-11-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/world/2026-11-21/doc-iniznnyh3473939.shtml"
-        },
-        {
-            title: "Anthropic CEO阿莫代，多年前曾拒绝过马斯克",
-            summary: " 在完成史上规模最大IPO的两年前，一个闷热的秋日，丹妮拉·阿莫代把Anthropic全体员工召集到圣克鲁斯山附近一片占地16英亩的花园里。",
-            source: "环球市场播报",
-            date: "2026-11-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznnyk9736552.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-11-21",
         marketAssessment: "A股方面：上证指数报3533.79点（-1.23%），深证成指报10256.39点（-3.09%），创业板指报2212.13点（-3.54%）。美股方面：标普500报6,910.39（-8.61%），纳斯达克报22,617.73（-10.02%）。",
         hotSectors: [
-
+            { name: "其他数字媒体", reason: "板块涨幅+15.00%", strength: "强" },
+            { name: "视频媒体", reason: "板块涨幅+3.19%", strength: "强" },
+            { name: "国有大型银行Ⅲ", reason: "板块涨幅+2.39%", strength: "中强" },
+            { name: "核力发电", reason: "板块涨幅+1.49%", strength: "中强" },
         ],
         weakSectors: [
-
+            { name: "涂料", reason: "板块跌幅-8.84%", strength: "弱" },
+            { name: "其他黑色家电", reason: "板块跌幅-8.31%", strength: "弱" },
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        shortTermStrategy: "超短线关注其他数字媒体、视频媒体、国有大型银行Ⅲ等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

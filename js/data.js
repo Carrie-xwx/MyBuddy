@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3533.79", change: "-1.23%", market: "A股", updateTime: "2026-11-22 实时" },
         { name: "深证成指", code: "SZ399001", value: "10256.39", change: "-3.09%", market: "A股", updateTime: "2026-11-22 实时" },
         { name: "创业板指", code: "SZ399006", value: "2212.13", change: "-3.54%", market: "A股", updateTime: "2026-11-22 实时" },
@@ -669,7 +669,39 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+        {
+            title: "亚马逊接近以75亿美元收购AI初创企业Decart",
+            summary: " 亚马逊即将达成一项75亿美元收购AI初创公司Decart的交易。双方谈判已进入后期阶段，交易最早可能于下周初敲定，但谈判仍存在破裂可能。",
+            source: "环球市场播报",
+            date: "2026-11-22",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/7x24/2026-11-22/doc-inizpqms6400684.shtml"
+        },
+        {
+            title: "美国财长贝森特：调查将确定英伟达是否有“滥售”行为",
+            summary: "美国财政部长贝森特表示：“随着（英伟达）临时管理层调查究竟发生了什么，我们将看看该公司是否在某种程度上滥售。” 贝森特表示，另一点需要关注的是...",
+            source: "环球市场播报",
+            date: "2026-11-22",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizpqmw9384620.shtml"
+        },
+        {
+            title: "加密货币正在淡出时代潮流 投资者开始厌倦",
+            summary: "随着价格下跌、交易日趋清淡以及黑客攻击造成损失，加密货币每周都在给其死忠拥趸一个新的退出理由。 比特币周五跌破57742美元，为2024年9月以来首次...",
+            source: "环球市场播报",
+            date: "2026-11-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizpqmu3159375.shtml"
+        },
+        {
+            title: "众议院民主党领袖杰弗里斯接受访谈：拒绝与斯蒂芬·米勒会面，上任首要务是终止伊朗战争，推动两国方案",
+            summary: " 周三，美国众议院民主党人以压倒性票数提名哈基姆·杰弗里斯担任下一任众议院议长，这几乎意味着，明年1月他将成为美国历史上首位黑人议长。",
+            source: "环球市场播报",
+            date: "2026-11-22",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizpqmw9372978.shtml"
+        },
         {
             title: "Anthropic上市未能止住美股暴跌 华尔街追问什么能拯救AI交易",
             summary: "本月美股走势艰难，民主党在中期选举中取得胜利，英伟达公司黄仁勋突然遭罢免，接连给市场带来冲击。 Anthropic创纪录的首次公开募股原本被寄望能给市场带来喘息之机...",
@@ -702,38 +734,6 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
             tag: "行业",
             url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizpkcu6483121.shtml"
         },
-        {
-            title: "泽连斯基提名乌克兰下一任驻美大使人选",
-            summary: "乌克兰总统泽连斯基已提名多名潜在人选，角逐乌克兰下一任驻美国大使一职，该职位自今年8月起空缺。 泽连斯基周六在记者问答中，点名现任外交部长安德烈·瑟比加...",
-            source: "环球市场播报",
-            date: "2026-11-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/7x24/2026-11-21/doc-inizpkcw3256543.shtml"
-        },
-        {
-            title: "伊朗正在探索外交是否仍有机会",
-            summary: " “我们正与包括卡塔尔方面在内的调解方保持接触，既有面对面接触，也有线上接触，并正在进行必要的谈判，以了解是否还能再给外交一个机会，”伊朗副外长加里布阿巴迪表示。",
-            source: "环球市场播报",
-            date: "2026-11-21",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/7x24/2026-11-21/doc-inizpkcw3253048.shtml"
-        },
-        {
-            title: "特朗普白宫记者会复盘亚洲之行 宣扬美国取得历史性胜利",
-            summary: "当地时间11月20日白宫记者简报会上，美国总统特朗普与副总统万斯、国务卿鲁比奥一同到场，接受记者提问。刚结束亚洲之行归来，特朗普借本次简报会着重强调...",
-            source: "环球市场播报",
-            date: "2026-11-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizpkcw3247451.shtml"
-        },
-        {
-            title: "Anthropic创纪录IPO撞上华尔街科技股自2020年以来最糟糕的一周",
-            summary: " 初创企业投资人本·纳拉辛对Anthropic的重磅IPO兴奋不已，他计划本月晚些时候在硅谷的家中举办派对。届时将供应清酒、伏特加和库克香槟。每位出席者将获得两罐鱼子酱。",
-            source: "环球市场播报",
-            date: "2026-11-21",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizpkcu6455439.shtml"
-        },
     ],
 
     /* ========== 个股推荐（长线价值 + 超短线热门，参考同花顺/富途moomoo） ========== */
@@ -765,21 +765,17 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-11-22",
         marketAssessment: "A股方面：上证指数报3533.79点（-1.23%），深证成指报10256.39点（-3.09%），创业板指报2212.13点（-3.54%）。美股方面：标普500报6,910.39（-8.61%），纳斯达克报22,617.73（-10.02%）。",
         hotSectors: [
-            { name: "其他数字媒体", reason: "板块涨幅+15.00%", strength: "强" },
-            { name: "视频媒体", reason: "板块涨幅+3.19%", strength: "强" },
-            { name: "国有大型银行Ⅲ", reason: "板块涨幅+2.39%", strength: "中强" },
-            { name: "核力发电", reason: "板块涨幅+1.49%", strength: "中强" },
+
         ],
         weakSectors: [
-            { name: "涂料", reason: "板块跌幅-8.84%", strength: "弱" },
-            { name: "其他黑色家电", reason: "板块跌幅-8.31%", strength: "弱" },
+
         ],
         longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线关注其他数字媒体、视频媒体、国有大型银行Ⅲ等板块的延续性，顺势操作，严格止损。",
+        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

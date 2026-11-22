@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3533.79", change: "-1.23%", market: "A股", updateTime: "2026-11-22 实时" },
         { name: "深证成指", code: "SZ399001", value: "10256.39", change: "-3.09%", market: "A股", updateTime: "2026-11-22 实时" },
         { name: "创业板指", code: "SZ399006", value: "2212.13", change: "-3.54%", market: "A股", updateTime: "2026-11-22 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "巴林称民用工业设施遭伊朗袭击并起火",
-            summary: "巴林内政部表示，“伊朗侵略”行动将一处民用工业设施作为袭击目标，并导致现场发生火情。巴林内政部在发帖称，民防部门正在努力控制火势初步报告显示有财产损失...",
-            source: "环球市场播报",
+            title: "三连跌停后，002187，最新回应！",
+            summary: "近期，广百股份（002187）经历了一轮暴涨暴跌。 11月22日，广百股份再次披露异动公告，公司提示，其股票于2026年11月18日、11月19日...",
+            source: "",
             date: "2026-11-22",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizqwfa6049277.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/zqgd/2026-11-22/doc-inizrhva8874824.shtml"
         },
         {
-            title: "蚂蚁集团CEO韩歆毅：人工智能已走到临床很多环节，相信AI可以成为连接医患延续照顾的可靠纽带",
-            summary: "新浪科技讯 11月22日下午消息，2026蚂蚁阿福医疗健康生态大会举行。 在“AI赋能下的未来医院”分论坛上，蚂蚁集团首席执行官韩歆毅提出...",
-            source: "新浪科技",
+            title: "千亿龙头，又“追光”！",
+            summary: "证券日报之声 本报记者 陈红 11月22日晚间，苏州天孚光通信股份有限公司（以下简称“天孚通信”）发布公告称，公司与南昌经济技术开发区管理委员会于近期签署了《产业项目投...",
+            source: "证券日报",
             date: "2026-11-22",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/tech/2026-11-22/doc-inizqwfa6045814.shtml"
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-11-22/doc-inizrhuw5958649.shtml"
         },
         {
-            title: "瑞银：美国全国性停飞将拖累航司四季度业绩，捷蓝航空受冲击最大",
-            summary: "瑞银分析师在报告中指出，受美国全国性停飞事件及随后持续三天的航班取消影响，美国航空公司第四季度运力、营收、现金流及盈利均将面临压力...",
+            title: "韩国将推出分阶段措施以稳定市场波动",
+            summary: " 韩国高层金融官员在周日召开的紧急会议后表示，鉴于市场波动加剧，韩国宣布了分阶段措施以稳定市场，其中包括确保股票稳定基金就绪，以便在必要时采取行动。",
             source: "环球市场播报",
             date: "2026-11-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizqwfh8979415.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizrhuy2705671.shtml"
         },
         {
-            title: "欧盟拟向大型科技企业征收3%数字税，成员国就长期预算陷入分歧",
-            summary: "11月21日，欧洲理事会主席科斯塔公布欧盟2028年至2034年长期预算修订方案，拟通过征收数字服务税、电子废弃物税及提高烟草税等方式扩大欧盟财政收入来源...",
-            source: "环球市场播报",
+            title: "沪深交易所、中国结算集体降费",
+            summary: "上证报记者22日获悉，沪深交易所近日拟发布《关于进一步减免相关费用的通知》，推出新一批降费措施。其中，上交所新增降费预计让利13.68亿元...",
+            source: "上海证券报",
             date: "2026-11-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizqwfe2815796.shtml"
+            url: "https://finance.sina.com.cn/china/2026-11-22/doc-inizrhuw5919916.shtml"
         },
         {
-            title: "法国拒绝欧盟最新长期预算方案，称农业补贴力度不足",
-            summary: "11月21日，法国总统府宣布拒绝欧洲理事会主席科斯塔提出的欧盟2028年至2034年长期预算方案，称该方案无法满足欧盟共同农业政策的资金需求...",
-            source: "环球市场播报",
+            title: "刚刚官宣！融资保证金比例下限降至80%！有望释放4000亿元增量资金",
+            summary: " 11月22日，经中国证监会批准，沪深北交易所发布《关于调整融资保证金比例等相关安排的通知》（下称“通知”），将融资保证金比例下限从100%降低至80%。",
+            source: "上海证券报",
             date: "2026-11-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizqwfe2815256.shtml"
+            url: "https://finance.sina.com.cn/wm/2026-11-22/doc-inizrhuw5918701.shtml"
         },
         {
-            title: "高盛发布2027年油价展望：预计原油市场重返供应过剩，年底布油跌至78美元",
-            summary: " 高盛在最新报告中预计，2027年布伦特原油均价将达到88美元/桶，随着全球原油市场重新进入供应过剩状态，布伦特原油价格将于2027年12月回落至78美元/桶。",
-            source: "环球市场播报",
+            title: "深交所组合式推出新一批降费措施 助力激发市场主体活力",
+            summary: "来源：深交所 11月22日，深交所发布《关于进一步减免相关费用的通知》，推出新一批降费措施，包括免收交易单元使用费、网络投票服务费、减免交易通信服务费...",
+            source: "市场资讯",
             date: "2026-11-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizqwfa6037918.shtml"
+            url: "https://finance.sina.com.cn/china/2026-11-22/doc-inizrhva8835650.shtml"
         },
         {
-            title: "伊朗革命卫队公开新型双联装导弹发射装置",
-            summary: "来源：CCTV国际时讯 #伊朗革命卫队公开新型导弹发射装置#当地时间11月21日，伊朗国家电视台发布的一段视频显示，伊朗伊斯兰革命卫队总司令瓦希迪等高级官员日前现身革命卫...",
-            source: "滚动播报",
-            date: "2026-11-22",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/world/gjcj/2026-11-22/doc-inizqwfk1305441.shtml"
-        },
-        {
-            title: "美国移民执法人员在西雅图机场逮捕两名乘客，民主党承诺展开国会调查",
-            summary: " 美国移民与海关执法局（ICE）执法人员在西雅图-塔科马国际机场逮捕两名乘客，引发华盛顿州多名政府官员及民主党议员的强烈批评。",
-            source: "环球市场播报",
+            title: "将被实施ST！启迪设计，停牌一天！",
+            summary: "来源：资本秘闻 11月22日晚间，启迪设计（300500）披露公告称，公司于11月19日收到江苏证监局下发的《行政处罚事先告知书》，公司股票将被实施其他风险警示...",
+            source: "市场资讯",
             date: "2026-11-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-22/doc-inizqwfh8975290.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-11-22/doc-inizrhva8823772.shtml"
+        },
+        {
+            title: "300500，将被ST",
+            summary: "来源：中国基金报 【导读】启迪设计将被实施其他风险警示，股票于11月23日停牌一天 中国基金报记者 李智 处罚落地！启迪设计将被实施其他风险警示...",
+            source: "市场资讯",
+            date: "2026-11-22",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/s/2026-11-22/doc-inizrhuw5899036.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-11-22",
         marketAssessment: "A股方面：上证指数报3533.79点（-1.23%），深证成指报10256.39点（-3.09%），创业板指报2212.13点（-3.54%）。美股方面：标普500报6,910.39（-8.61%），纳斯达克报22,617.73（-10.02%）。",
         hotSectors: [

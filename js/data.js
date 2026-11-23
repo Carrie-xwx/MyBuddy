@@ -657,82 +657,82 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
-        { name: "上证指数", code: "SH000001", value: "3533.79", change: "-1.23%", market: "A股", updateTime: "2026-11-23 实时" },
-        { name: "深证成指", code: "SZ399001", value: "10256.39", change: "-3.09%", market: "A股", updateTime: "2026-11-23 实时" },
-        { name: "创业板指", code: "SZ399006", value: "2212.13", change: "-3.54%", market: "A股", updateTime: "2026-11-23 实时" },
-        { name: "沪深300", code: "SH000300", value: "3954.57", change: "-0.76%", market: "A股", updateTime: "2026-11-23 实时" },
-        { name: "科创50", code: "SH000688", value: "1231.09", change: "-3.12%", market: "A股", updateTime: "2026-11-23 实时" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+        { name: "上证指数", code: "SH000001", value: "3538.95", change: "+0.15%", market: "A股", updateTime: "2026-11-23 实时" },
+        { name: "深证成指", code: "SZ399001", value: "10454.37", change: "+1.93%", market: "A股", updateTime: "2026-11-23 实时" },
+        { name: "创业板指", code: "SZ399006", value: "2280.20", change: "+3.08%", market: "A股", updateTime: "2026-11-23 实时" },
+        { name: "沪深300", code: "SH000300", value: "3958.29", change: "+0.09%", market: "A股", updateTime: "2026-11-23 实时" },
+        { name: "科创50", code: "SH000688", value: "1227.89", change: "-0.26%", market: "A股", updateTime: "2026-11-23 实时" },
         { name: "标普500", code: "SPX", value: "6,910.39", change: "-8.61%", market: "美股", updateTime: "2026-11-23 收盘" },
         { name: "纳斯达克", code: "IXIC", value: "22,617.73", change: "-10.02%", market: "美股", updateTime: "2026-11-23 收盘" },
         { name: "道琼斯", code: "DJI", value: "48,147.33", change: "-8.02%", market: "美股", updateTime: "2026-11-23 收盘" },
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
         {
-            title: "美国财长贝森特警告美联储过度紧缩风险 指出金融体系出现脆弱迹象",
-            summary: " 美国财政部长贝森特警告称，美联储若针对最新通胀数据而过度收紧政策，则可能危及美国经济，并指出金融体系出现脆弱迹象。",
+            title: "乌克兰在利比亚沿海击沉俄罗斯军舰",
+            summary: "乌克兰总统泽连斯基称此次袭击是一次“堪称典范”的海上无人艇行动。 乌克兰在利比亚沿海击沉了一艘俄罗斯军舰和一艘用于运输武器的货船。",
             source: "环球市场播报",
             date: "2026-11-23",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-inizrtkw8726223.shtml"
-        },
-        {
-            title: "华尔街策略师再度下调标普500目标位，认为熊市不太可能出现",
-            summary: "在美股大幅下跌、标普500进入技术性回调之后，华尔街策略师艾德·亚德尼在约两个月内第二次下调标普500指数年末目标。 亚德尼研究公司总裁兼首席投资策略师亚德尼目前预测...",
-            source: "环球市场播报",
-            date: "2026-11-22",
-            tag: "美股",
-            url: "https://finance.sina.com.cn/7x24/2026-11-22/doc-inizrtky1026263.shtml"
-        },
-        {
-            title: "涉财务造假，300500下周二“戴帽”",
-            summary: "11月22日，启迪设计（300500）一连披露3则公告，公司于11月19日收到江苏证监局下发的《行政处罚事先告知书》，因原子公司虚增利润等事项导致公司2021年...",
-            source: "上海证券报",
-            date: "2026-11-22",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-22/doc-inizrpau5912384.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-iniztfnh0634364.shtml"
         },
         {
-            title: "“杨东”，打开限购！",
-            summary: "22日晚间，宁泉资产发布公告称，自2026年11月23日起，恢复接受公司旗下所有基金的新投资者首次申购申请。据公开资料，宁泉资产创始人为知名基金经理杨东...",
-            source: "上海证券报",
-            date: "2026-11-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/china/2026-11-22/doc-inizrpau5911335.shtml"
-        },
-        {
-            title: "603799，拟最高15亿元回购",
-            summary: "来源：中国基金报 【导读】华友钴业拟回购10至15亿元股份 中国基金报记者 夏天 11月22日晚间，华友钴业（证券代码：603799）发布公告称...",
+            title: "提供美股实时行情的APP有哪些？2026年主流美股行情软件评测与推荐",
+            summary: "对于关注美股市场的投资者来说，一款好用的行情APP，已经不只是用来查看股价涨跌的工具。 美股市场与A股存在明显差异：交易时间与北京时间相差较大...",
             source: "市场资讯",
-            date: "2026-11-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-22/doc-inizrpca1130475.shtml"
+            date: "2026-11-23",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-iniztfmy5504895.shtml"
         },
         {
-            title: "持仓13.35亿元！章建平家族大举加仓300903",
-            summary: "两个月内股价腰斩，章建平家族大手笔加仓。 科翔股份（300903）最新公告显示，四季度以来，章建平妻子方文艳大手笔加仓，截至11月13日，跃升为该公司第一大流通股东。",
-            source: "上海证券报",
-            date: "2026-11-22",
+            title: "SK崔泰源申请和解劝告：将全额支付9440亿韩元离婚财产分割款",
+            summary: "SK集团会长崔泰源向负责他与NABI艺术中心馆长卢素英离婚财产分割再审的法庭提出了和解劝告裁定申请。崔泰源一方表示，愿意全额支付今年7月发回重审阶段敲定的9440亿韩元财...",
+            source: "环球市场播报",
+            date: "2026-11-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-22/doc-inizrpay8782439.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-iniztfna2277299.shtml"
         },
         {
-            title: "三连跌停后，002187，最新回应！",
-            summary: "近期，广百股份（002187）经历了一轮暴涨暴跌。 11月22日，广百股份再次披露异动公告，公司提示，其股票于2026年11月18日、11月19日...",
-            source: "",
-            date: "2026-11-22",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/zqgd/2026-11-22/doc-inizrhva8874824.shtml"
+            title: "韩国教育部长辞职，称自己年事已高难以应对AI考试作弊问题。",
+            summary: " 韩国教育部长崔教振（Choi Kyo-jin）辞职。此前，韩国政府在采取措施打击该国竞争激烈的大学入学考试中利用人工智能（AI）作弊的行为时陷入混乱。",
+            source: "环球市场播报",
+            date: "2026-11-23",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-iniztfmy5495249.shtml"
         },
         {
-            title: "千亿龙头，又“追光”！",
-            summary: "证券日报之声 本报记者 陈红 11月22日晚间，苏州天孚光通信股份有限公司（以下简称“天孚通信”）发布公告称，公司与南昌经济技术开发区管理委员会于近期签署了《产业项目投...",
-            source: "证券日报",
-            date: "2026-11-22",
+            title: "外交部：中方始终认为对话谈判是解决乌克兰危机唯一可行出路",
+            summary: "新华社北京11月23日电（记者曹嘉玥、伍岳）外交部发言人郭嘉昆23日在例行记者会上表示，中方关于乌克兰危机的立场是一贯、明确的...",
+            source: "新华社",
+            date: "2026-11-23",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-22/doc-inizrhuw5958649.shtml"
+            url: "https://finance.sina.com.cn/jjxw/2026-11-23/doc-iniztfne8286108.shtml"
+        },
+        {
+            title: "外交部：对联合国气候大会未达成政治协议表示失望，但不应因此对多边进程丧失信心",
+            summary: " 11月23日，外交部发言人郭嘉昆主持例行记者会。路透社记者提问，周日闭幕的联合国气候大会并未达成政治协议，许多国家对此表示遗憾。中方对此有何表态？",
+            source: "澎湃新闻",
+            date: "2026-11-23",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/jjxw/2026-11-23/doc-iniztfnh0615101.shtml"
+        },
+        {
+            title: "特朗普称只想向中国出售落后芯片，外交部回应",
+            summary: " 【#特朗普称只想向中国出售落后芯片#】#外交部回应美对华芯片出口管制# 11月23日，外交部发言人郭嘉昆主持例行记者会。",
+            source: "北京日报客户端",
+            date: "2026-11-23",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/china/2026-11-23/doc-iniztfna2266579.shtml"
+        },
+        {
+            title: "伯恩斯坦：即使甲骨文AI数据中心业务完全失败，股价仍有31%上涨空间",
+            summary: "11月23日，伯恩斯坦在最新报告中指出，即使假设甲骨文（Oracle）全部AI数据中心业务收入归零，且相关硬件资产无法变现，公司现有软件及云计算业务的价值仍足以支撑133美元...",
+            source: "环球市场播报",
+            date: "2026-11-23",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-iniztfna2263259.shtml"
         },
     ],
 
@@ -765,17 +765,21 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
         date: "2026-11-23",
-        marketAssessment: "A股方面：上证指数报3533.79点（-1.23%），深证成指报10256.39点（-3.09%），创业板指报2212.13点（-3.54%）。美股方面：标普500报6,910.39（-8.61%），纳斯达克报22,617.73（-10.02%）。",
+        marketAssessment: "A股方面：上证指数报3538.95点（+0.15%），深证成指报10454.37点（+1.93%），创业板指报2280.20点（+3.08%）。美股方面：标普500报6,910.39（-8.61%），纳斯达克报22,617.73（-10.02%）。",
         hotSectors: [
-
+            { name: "视频媒体", reason: "板块涨幅+15.21%", strength: "强" },
+            { name: "其他数字媒体", reason: "板块涨幅+14.16%", strength: "强" },
+            { name: "机器人", reason: "板块涨幅+9.54%", strength: "强" },
+            { name: "文字媒体", reason: "板块涨幅+8.65%", strength: "强" },
         ],
         weakSectors: [
-
+            { name: "油气开采Ⅱ", reason: "板块跌幅-2.29%", strength: "弱" },
+            { name: "油气开采Ⅲ", reason: "板块跌幅-2.29%", strength: "弱" },
         ],
-        longTermStrategy: "市场回调中，长线关注业绩确定性强、估值合理的龙头标的。半年报披露期重点筛选有业绩兑现的个股，远离纯概念炒作。建议哑铃型配置：一手AI业绩龙头，一手高股息防御。",
-        shortTermStrategy: "超短线宜谨慎，关注今日强势板块的延续性机会，严格止损不追高。回调充分的核心资产可能出现超跌反弹机会。",
+        longTermStrategy: "市场企稳回升，长线布局业绩拐点标的。半年报披露期关注超预期个股，重点配置AI产业链业绩龙头和受益于政策支持的方向。",
+        shortTermStrategy: "超短线关注视频媒体、其他数字媒体、机器人等板块的延续性，顺势操作，严格止损。",
         positionAdvice: "激进型6-7成（聚焦今日强势板块），稳健型4-5成（业绩龙头+红利），保守型2-3成（仅核心资产）",
         riskWarning: "以上内容仅整合公开市场数据，不构成投资建议。股市有风险，投资需谨慎。个股推荐来源为公开信息整合，不代表任何投资建议。",
         sources: [

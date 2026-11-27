@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3606.49", change: "+3.73%", market: "A股", updateTime: "2026-11-27 实时" },
         { name: "深证成指", code: "SZ399001", value: "10814.02", change: "+7.24%", market: "A股", updateTime: "2026-11-27 实时" },
         { name: "创业板指", code: "SZ399006", value: "2443.96", change: "+11.61%", market: "A股", updateTime: "2026-11-27 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        marketNews: [
         {
-            title: "法国和西班牙通胀放缓程度远超预期",
-            summary: "随着能源价格压力减轻，法国和西班牙通胀放缓程度远超预期。这将让正在权衡是否进一步加息的欧洲央行稍感宽慰。 法国11月消费价格同比上涨3.2%，低于10月的3.7%...",
-            source: "环球市场播报",
-            date: "2026-11-27",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkaencz1030424.shtml"
-        },
-        {
-            title: "全线大爆发！300502，尾盘急拉 “20cm”涨停",
-            summary: "全线大爆发。 周五（11月27日），A股放量强势上攻，科技成长股领涨，科创综指飙升14.21%，创2年多来最大单日涨幅，北证50大涨逾13%，创业板指大涨逾11%，深证成指...",
-            source: "",
-            date: "2026-11-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/s/2026-11-27/doc-inkaeneh5479365.shtml"
-        },
-        {
-            title: "大奇迹日！百点长阳，后市怎么走？",
-            summary: "11月27日，A股主要指数午后集体飙升，截至收盘，沪指涨3.73%报3606.49点，深证成指涨7.24%，创业板指涨11.61%，科创综指涨14.21%。",
+            title: "下周摘牌，科创板首例市值退市！四种财务造假手法曝光",
+            summary: " 11月27日晚间，*ST卓然（688121）公告称，公司收到上交所终止上市决定，因股票连续20个交易日每日收盘市值均低于3亿元，触发科创板股票上市规则规定的终止上市情形。",
             source: "上海证券报",
             date: "2026-11-27",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/gzqh/2026-11-27/doc-inkaenea7797678.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-11-27/doc-inkaewtw7754131.shtml"
         },
         {
-            title: "中国证监会同意瓦楞原纸期货和期权注册",
-            summary: " 近日，中国证监会同意上海期货交易所瓦楞原纸期货和期权注册。中国证监会将督促上海期货交易所做好各项准备工作，确保瓦楞原纸期货和期权的平稳推出和稳健运行。",
-            source: "市场资讯",
+            title: "688121，终止上市！",
+            summary: "*ST卓然将正式退市。 *ST卓然（688121）11月27日公告，上海证券交易所决定终止公司股票上市，公司股票将于2026年12月4日终止上市暨摘牌。",
+            source: "证券时报",
             date: "2026-11-27",
             tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-11-27/doc-inkaeneh5475142.shtml"
+            url: "https://finance.sina.com.cn/stock/s/2026-11-27/doc-inkaewtv0971855.shtml"
         },
         {
-            title: "长安期货梁安迪：外盘提振郑糖反弹，国内基本面或限制高度",
-            summary: "一、2026/27榨季全球糖存在减产预期，供需格局或边际收紧 2026/27榨季，全球主要产糖国巴西、印度、欧盟和泰国均出现减产预期，而全球糖消费量或变动较小...",
-            source: "市场资讯",
-            date: "2026-11-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/2026-11-27/doc-inkaefwi3274082.shtml"
-        },
-        {
-            title: "广期所：关于调整多晶硅期货相关合约交易限额的通知",
-            summary: "关于调整多晶硅期货相关合约交易限额的通知 时间：2026-11-27 广期所公告〔2026〕76号 各会员单位： 经研究决定，对多晶硅期货相关合约的交易限额作如下调整：...",
-            source: "",
-            date: "2026-11-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/future/fmnews/2026-11-27/doc-inkaefwk5601590.shtml"
-        },
-        {
-            title: "快讯：纽约期金突破3700美元/盎司",
-            summary: "11月27日，纽约期金突破3700美元/盎司，日内涨4%。 消息面来看，昨晚有“新美联储通讯社”之称的Timiraos指出，通胀已连续五年多高于美联储目标...",
-            source: "市场资讯",
-            date: "2026-11-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/money/nmetal/roll/2026-11-27/doc-inkaefwi3272189.shtml"
-        },
-        {
-            title: "高盛上调费森尤斯评级至买入，看好生物类似药业务长期增长潜力，预计股价仍有近27%上涨空间",
-            summary: "11月27日，高盛将德国医疗保健集团费森尤斯（Fresenius SE）的股票评级由“中性”上调至“买入”，并将12个月目标价由52欧元上调至67欧元，较周四收盘价52.95欧元存在约26...",
+            title: "美国10月商品贸易逆差扩大至1495亿美元 预期逆差1360亿",
+            summary: "美国普查局公布的数据显示，美国10月商品贸易逆差初值从前一个月的1351亿美元扩大至1495亿美元。 33位经济学家的预测区间为逆差1274亿至1510亿美元...",
             source: "环球市场播报",
             date: "2026-11-27",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkaefwi3267323.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkaewua5411722.shtml"
+        },
+        {
+            title: "伊朗：又一油轮在霍尔木兹海峡附近触雷起火",
+            summary: "伊朗革命卫队宣称，周五又有一艘油轮在霍尔木兹海峡附近触雷起火。伊朗国家电视台IRIB发布的声明中，革命卫队海军公关办公室表示...",
+            source: "环球市场播报",
+            date: "2026-11-27",
+            tag: "宏观",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkaewtw7739704.shtml"
+        },
+        {
+            title: "巴西资产大涨 巴西总统卢拉任命新财长",
+            summary: "巴西总统卢拉任命路易斯·卡洛斯·特拉布科·卡皮出任财政部长，交易员大幅调整利率预期，巴西资产大幅上涨。 周五开盘，巴西雷亚尔大涨2.4%...",
+            source: "环球市场播报",
+            date: "2026-11-27",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkaewtv0961395.shtml"
+        },
+        {
+            title: "捷克众议院批准对炼油厂超额利润征收50%税",
+            summary: "捷克议员通过政府提案：对炼油厂毛利超出2025年水平的部分征收50%的税款。 该税适用于2026、2027两年炼油厂增加的毛利。 政策预计影响捷克境内两家炼油厂...",
+            source: "环球市场播报",
+            date: "2026-11-27",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkaewua5408004.shtml"
+        },
+        {
+            title: "002445，筹划重大资产重组，不停牌！",
+            summary: "中南文化正筹划重大资产重组。 中南文化（002445）11月27日公告称，公司及全资子公司中南投资拟以支付现金方式收购上海儒驭100%股权...",
+            source: "证券时报",
+            date: "2026-11-27",
+            tag: "A股",
+            url: "https://finance.sina.com.cn/wm/2026-11-27/doc-inkaewtz3081487.shtml"
+        },
+        {
+            title: "冯骥约八千字长文谈AI冲击：创作工具平权了，分钱方式没有平权",
+            summary: "新京报贝壳财经讯（记者韦英姿）11月27日，游戏科学创始人、CEO，《黑神话：悟空》制作人冯骥发长文追问，当AI在生产端大规模取代人类劳动后...",
+            source: "新京报",
+            date: "2026-11-27",
+            tag: "行业",
+            url: "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaewua5411757.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        investmentSummary: {
         date: "2026-11-27",
         marketAssessment: "A股方面：上证指数报3606.49点（+3.73%），深证成指报10814.02点（+7.24%），创业板指报2443.96点（+11.61%）。美股方面：标普500报7,182.78（-1.92%），纳斯达克报23,585.80（-3.46%）。",
         hotSectors: [

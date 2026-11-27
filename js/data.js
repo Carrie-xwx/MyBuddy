@@ -657,7 +657,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     },
 
     /* ========== 市场指数（2026-08-04 A股盘中 + 8.3 美股收盘） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketIndices: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketIndices: [
         { name: "上证指数", code: "SH000001", value: "3606.49", change: "+3.73%", market: "A股", updateTime: "2026-11-28 实时" },
         { name: "深证成指", code: "SZ399001", value: "10814.02", change: "+7.24%", market: "A股", updateTime: "2026-11-28 实时" },
         { name: "创业板指", code: "SZ399006", value: "2443.96", change: "+11.61%", market: "A股", updateTime: "2026-11-28 实时" },
@@ -669,70 +669,70 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
     ],
 
     /* ========== 真实财经资讯（2026-08-04更新，含原文链接） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            marketNews: [
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                marketNews: [
         {
-            title: "报道：Verizon洽谈以约60亿美元的交易收购Fidium",
-            summary: "英国《金融时报》援引知情人士报道称，Verizon正就一笔约60亿美元收购光纤宽带运营商Fidium的交易进行谈判。 报道称，Verizon与Fidium所有者之间的磋商仍在进行。",
+            title: "标普将匈牙利的评级展望从负面调整为稳定",
+            summary: "标普确认匈牙利长期外币债务评级为BBB-，为最低投资级评级。 标普确认长期本币债务评级为BBB-，为最低投资级评级。 评级展望从负面调整至稳定。",
+            source: "环球市场播报",
+            date: "2026-11-28",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafprq7580101.shtml"
+        },
+        {
+            title: "标普将南非信用评级上调至BB+ 评级展望为稳定",
+            summary: "标普将南非长期外币债务评级从BB上调至BB+，较投资级低一级。 标普将长期本币债务评级从BB上调至BBB-，为最低投资级评级。 评级展望从正面调整为稳定。",
+            source: "环球市场播报",
+            date: "2026-11-28",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafprp0799433.shtml"
+        },
+        {
+            title: "标普将法国评级展望调整为负面 确认长期外币债务评级为A+",
+            summary: "标普确认法国长期外币债务评级为A+。 评级展望从稳定调整为负面。 信用评级概况： 穆迪：外币发行人评级为Aa3u，展望负面。 近期评级行动： 惠誉将法国评级展望下调至负面...",
+            source: "环球市场播报",
+            date: "2026-11-28",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafpru5220169.shtml"
+        },
+        {
+            title: "11月28日外盘头条： 特朗普希望普京参加G20 OpenAI反诉苹果窃取商业机密 欧洲央行管委Dolenc暗示仍需加息",
+            summary: "全球财经媒体昨夜今晨共同关注的头条新闻主要有：  1、特朗普称普京想来G20就可以来：“我希望他到场”  2、伊拉克石油部长称正与OPEC磋商 争取提高石油产量上限 3...",
+            source: "环球市场播报",
+            date: "2026-11-28",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafprq7554426.shtml"
+        },
+        {
+            title: "11月28日美股收盘：道指大涨近600点，创下2022年以来最佳单周表现",
+            summary: "周五美股走高，投资者结束了这一波动剧烈、因节假日缩短的交易周。 道琼斯工业平均指数收涨591.99点，涨幅1.18%，报50774.94点；标普500指数上涨1.6%，收于7297...",
+            source: "环球市场播报",
+            date: "2026-11-28",
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafprt2858829.shtml"
+        },
+        {
+            title: "美国国债下跌 股市上涨削弱避险需求",
+            summary: "感恩节假期过后，美国国债恢复交易，收盘下跌，股市上涨削弱了对避险资产的需求。 抛售推动各期限美债收益率上涨6至8个基点，10年期美债收益率报4.93%。",
             source: "环球市场播报",
             date: "2026-11-28",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafiis7595440.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafpru5186287.shtml"
         },
         {
-            title: "AI交易反弹 欧洲股市创5月以来最佳单周表现",
-            summary: "欧洲股市本周创下5月以来最大周涨幅。在经历数周的人工智能相关担忧后，市场反弹，投资者重新转向风险资产。 斯托克欧洲600指数收盘上涨1.1%，矿业股领涨。",
+            title: "11月28日美股成交额前20：Anthropic收涨10.98% 创下11月19日开始交易以来的最高收盘价",
+            summary: "周二美股成交额第2名英伟达收涨0.80%，成交269.76亿美元。 美国总统特朗普谈及推动黄仁勋复职一事时称：“我认为我为美国、甚至全世界做了一件大好事。",
             source: "环球市场播报",
             date: "2026-11-28",
-            tag: "行业",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafiir0816795.shtml"
+            tag: "美股",
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafiis7655547.shtml"
         },
         {
-            title: "摩根大通、高盛等华尔街银行据悉将以4亿美元了结市政债价格操纵诉讼",
-            summary: " 包括一些业内最大银行在内的华尔街金融机构正接近达成一项协议，支付逾4亿美元，以了结一起备受关注的诉讼。该案指控这些机构合谋操纵市政债券市场价格。",
-            source: "环球市场播报",
-            date: "2026-11-28",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafazx3058502.shtml"
-        },
-        {
-            title: "欧洲债市：风险情绪提振意大利和法国国债表现 英债及德债走低",
-            summary: "股市上涨之际，英国和德国国债下跌，标普500指数有望录得2025年5月以来最佳单周表现。 英国国债收益率曲线各期限上升2至3个基点，跟随美国国债走势；掉期市场显示...",
+            title: "上市首周大起大落 Anthropic最终站稳在发行价上方",
+            summary: "Anthropic PBC登陆纳斯达克第一周收高，股价超过了83美元的上市发行价。 该股周五在纽约上涨近11%，收于每股91.88美元，创下11月19日开始交易以来的最高收盘价...",
             source: "环球市场播报",
             date: "2026-11-28",
             tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafazt0939638.shtml"
-        },
-        {
-            title: "欧盟1.7万亿美元长期预算案谈判破裂，27国分歧加剧年末大考压力",
-            summary: " 周四，欧洲领导人未能打破欧盟下一期长期预算的僵局，这使得谈判代表们面临巨大压力，必须在2027年繁忙的选举周期带来更多复杂因素之前，赶在年底前达成目标。",
-            source: "环球市场播报",
-            date: "2026-11-28",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafazt0926514.shtml"
-        },
-        {
-            title: "伊拉克石油部长称正与OPEC磋商 争取提高石油产量上限",
-            summary: " 伊拉克石油部长表示，该国正在与石油输出国组织（OPEC）磋商，以争取更高的产量上限。几个月前，该国曾威胁就此问题退出这一组织。",
-            source: "环球市场播报",
-            date: "2026-11-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkafazy5344823.shtml"
-        },
-        {
-            title: "欧洲央行管委Dolenc：今年以来的两次加息仍不足以让通胀回到2%目标",
-            summary: "欧洲央行管理委员会成员Primoz Dolenc表示，欧洲央行今年以来的加息可能不足以让通胀率回到2%的目标。 “未来几个月可能有必要采取进一步措施...",
-            source: "环球市场播报",
-            date: "2026-11-27",
-            tag: "宏观",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkafazx3009619.shtml"
-        },
-        {
-            title: "瑞银：白银较年内高点下跌近70%，价格已出现过度下跌，预计明年反弹幅度将超过黄金",
-            summary: "11月27日，瑞银全球财富管理首席投资办公室策略师多米尼克·施奈德（Dominic Schnider）在最新报告中指出，白银经历大规模抛售后已处于超卖状态...",
-            source: "环球市场播报",
-            date: "2026-11-27",
-            tag: "A股",
-            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-27/doc-inkaewtz3125676.shtml"
+            url: "https://finance.sina.com.cn/stock/usstock/c/2026-11-28/doc-inkafiis7638626.shtml"
         },
     ],
 
@@ -765,7 +765,7 @@ In conclusion, while rising crime rates present a complex challenge, addressing 
 
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
     /* ========== 投资推荐总结（2026-08-04 实时） ========== */
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            investmentSummary: {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                investmentSummary: {
         date: "2026-11-28",
         marketAssessment: "A股方面：上证指数报3606.49点（+3.73%），深证成指报10814.02点（+7.24%），创业板指报2443.96点（+11.61%）。美股方面：标普500报7,297.49（+1.70%），纳斯达克报24,129.50（+1.05%）。",
         hotSectors: [
